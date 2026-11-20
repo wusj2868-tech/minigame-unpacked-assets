@@ -7,8 +7,9 @@ def sha(path):
   for b in iter(lambda:f.read(1024*1024),b''):h.update(b)
  return h.hexdigest()
 def main():
- p=argparse.ArgumentParser(description='Download one complete game ZIP from GitHub Releases.');p.add_argument('--game',default='all',choices=['all','01','02','03','04']);p.add_argument('--list',action='store_true');p.add_argument('--output',default='downloads');p.add_argument('--extract',action='store_true');p.add_argument('--remove-zip',action='store_true');a=p.parse_args()
- j=json.loads((ROOT/'catalog/projects.json').read_text(encoding='utf8'));selected=[g for g in j['projects'] if a.game=='all' or g['id']==a.game]
+ j=json.loads((ROOT/'catalog/projects.json').read_text(encoding='utf8'))
+ p=argparse.ArgumentParser(description='Download an independently usable game ZIP from GitHub Releases.');p.add_argument('--game',default='all',choices=['all']+[g['id'] for g in j['projects']]);p.add_argument('--list',action='store_true');p.add_argument('--output',default='downloads');p.add_argument('--extract',action='store_true');p.add_argument('--remove-zip',action='store_true');a=p.parse_args()
+ selected=[g for g in j['projects'] if a.game=='all' or g['id']==a.game]
  if a.list:
   for g in selected:print(g['id'],g['name'],g['version'],g['status'],f"{g.get('zip_bytes',g['estimated_zip_bytes'])/1e6:.1f} MB",g['asset_name'])
   return
@@ -18,7 +19,7 @@ def main():
   if g['status']!='uploaded' or not g.get('sha256'):raise SystemExit('Project not yet ready: '+g['name'])
   f=out/g['asset_name']
   if f.exists() and sha(f)!=g['sha256']:raise SystemExit('Existing ZIP has a different checksum; move it aside first: '+str(f))
-  if not f.exists():subprocess.run(['gh','release','download',j['release'],'--repo',j['repository'],'--pattern',g['asset_name'],'--dir',str(out)],check=True)
+  if not f.exists():subprocess.run(['gh','release','download',g.get('release',j['release']),'--repo',j['repository'],'--pattern',g['asset_name'],'--dir',str(out)],check=True)
   if sha(f)!=g['sha256']:raise SystemExit('SHA256 mismatch: '+str(f))
   print('SHA256 OK:',g['name'],flush=True)
   if a.extract:

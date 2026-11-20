@@ -1,12 +1,12 @@
 # 小游戏拆包资料库
 
-正中靶心、向僵尸开炮、永远的蔚蓝星球，以及向末日开炮补充资料。按项目独立打包，每款一个ZIP，解压即可查看已有PNG/GIF/OBJ/JSON和原始资源；不用下载其他游戏。
+原有四款塔防，已新增三国：冰河时代和无尽冬日；其余六款正在补传。按项目独立打包，每款一个ZIP，解压即可查看已有PNG/GIF/OBJ/JSON和原始资源；不用下载其他游戏。
 
 **仓库为私有，查看和下载需要仓库权限。** 素材存放于GitHub Releases；仓库正文保留配置、工具、原始索引与清单。
 
 ## 分项目下载
 
-四个项目均已上传并完成服务端文件校验。
+目前6款已上传并完成服务端SHA256校验，另6款正在补传：寻道大千、咸鱼之王、小小蚁国、生存33天、镇邪人、疯狂水世界。
 
 | 项目 | 版本 | 独立压缩包 | 大小 | 状态 |
 |---|---|---|---:|---|
@@ -14,10 +14,14 @@
 | 向僵尸开炮 | 1.10 | [02-xiangjiangshikaipao-v1.10-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip) | 826.5 MB | 已上传、校验通过 |
 | 永远的蔚蓝星球 | 3.0.5 | [03-blueplanet-v3.0.5-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip) | 1,170.0 MB | 已上传、校验通过 |
 | 向末日开炮（补充） | 1.12 | [04-xiangmorikaipao-v1.12-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip) | 1,076.2 MB | 已上传、校验通过 |
+| 三国：冰河时代 | 2.1.12.0 | [05-sanguobinghe-v2.1.12.0-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/05-sanguobinghe-v2.1.12.0-20261120.zip) | 410.1 MB | 已上传、校验通过 |
+| 无尽冬日 | 1.34.19 | [06-whiteout-survival-v1.34.19-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/06-whiteout-survival-v1.34.19-20261120.zip) | 829.9 MB | 已上传、校验通过 |
 
 [进入完整下载页](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/tag/v2026.11.20) · [项目清单与SHA256](catalog/projects.json) · [原始逐文件清单](catalog/files/)
 
 GitHub自动生成的“Source code”压缩包只含仓库里的工具、配置和索引，**不含Release中的大体积素材**。请下载表中按游戏命名的ZIP。
+
+新增八款将保留完整原包条目及本地已有的Rice配置、索引和报告；原包从Rice记录来源复取并验证SHA256一致。已有解析文件不代表Rice服务器整个work目录的全量镜像。
 
 ## 每款ZIP里有什么
 

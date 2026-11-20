@@ -103,12 +103,13 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--input',required=True,help='APK/ZIP or extracted directory')
     ap.add_argument('--output',required=True);ap.add_argument('--workers',type=int,default=3)
-    ap.add_argument('--limit',type=int,default=0,help='Optional sample limit; 0 means all .ab files')
+    ap.add_argument('--limit',type=int,default=0,help='Optional sample limit; 0 means all supported Unity file extensions')
     args=ap.parse_args();source=Path(args.input).resolve();output=Path(args.output).resolve();output.mkdir(parents=True,exist_ok=True)
     iszip=source.is_file()
+    suffixes=('.ab','.unity3d','.bundle','.assets')
     if iszip:
-        with zipfile.ZipFile(source) as z:entries=[n for n in z.namelist() if n.lower().endswith('.ab')]
-    else:entries=[str(p.relative_to(source)) for p in source.rglob('*.ab')]
+        with zipfile.ZipFile(source) as z:entries=[n for n in z.namelist() if n.lower().endswith(suffixes)]
+    else:entries=[str(p.relative_to(source)) for p in source.rglob('*') if p.is_file() and p.suffix.lower() in suffixes]
     if args.limit:entries=entries[:args.limit]
     jobs=[(str(source),n,str(output),iszip) for n in entries];records=[];counts=collections.Counter();started=time.time()
     with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as pool:
