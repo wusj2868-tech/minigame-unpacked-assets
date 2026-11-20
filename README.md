@@ -1,12 +1,12 @@
 # 小游戏拆包资料库
 
-原有四款塔防，已新增三国：冰河时代和无尽冬日；其余六款正在补传。按项目独立打包，每款一个ZIP，解压即可查看已有PNG/GIF/OBJ/JSON和原始资源；不用下载其他游戏。
+已收录11款游戏的独立拆包资料；最后一款疯狂水世界正在补传。按项目独立打包，每款一个ZIP，解压即可查看已有PNG/GIF/OBJ/JSON和原始资源；不用下载其他游戏。
 
-**仓库为私有，查看和下载需要仓库权限。** 素材存放于GitHub Releases；仓库正文保留配置、工具、原始索引与清单。
+**仓库已公开，可直接分享下载链接，无需邀请协作者。** 素材存放于GitHub Releases；仓库正文保留配置、工具、原始索引与清单。
 
 ## 分项目下载
 
-目前6款已上传并完成服务端SHA256校验，另6款正在补传：寻道大千、咸鱼之王、小小蚁国、生存33天、镇邪人、疯狂水世界。
+目前11款已上传并完成服务端SHA256校验，最后一款疯狂水世界正在补传。
 
 | 项目 | 版本 | 独立压缩包 | 大小 | 状态 |
 |---|---|---|---:|---|
@@ -16,6 +16,11 @@
 | 向末日开炮（补充） | 1.12 | [04-xiangmorikaipao-v1.12-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip) | 1,076.2 MB | 已上传、校验通过 |
 | 三国：冰河时代 | 2.1.12.0 | [05-sanguobinghe-v2.1.12.0-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/05-sanguobinghe-v2.1.12.0-20261120.zip) | 410.1 MB | 已上传、校验通过 |
 | 无尽冬日 | 1.34.19 | [06-whiteout-survival-v1.34.19-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/06-whiteout-survival-v1.34.19-20261120.zip) | 829.9 MB | 已上传、校验通过 |
+| 寻道大千 | 3.2.00 | [07-xundaodaqian-v3.2.00-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/07-xundaodaqian-v3.2.00-20261120.zip) | 619.9 MB | 已上传、校验通过 |
+| 咸鱼之王 | 0.36.0 | [08-xianyuzhiwang-v0.36.0-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/08-xianyuzhiwang-v0.36.0-20261120.zip) | 530.4 MB | 已上传、校验通过 |
+| 小小蚁国 | 3.0.60 | [09-the-ants-v3.0.60-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/09-the-ants-v3.0.60-20261120.zip) | 259.4 MB | 已上传、校验通过 |
+| 生存33天 | 1.0.26 | [10-survival33-v1.0.26-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/10-survival33-v1.0.26-20261120.zip) | 1,390.2 MB | 已上传、校验通过 |
+| 镇邪人 | 1.0.3 | [11-zhenxieren-v1.0.3-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/11-zhenxieren-v1.0.3-20261120.zip) | 112.9 MB | 已上传、校验通过 |
 
 [进入完整下载页](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/tag/v2026.11.20) · [项目清单与SHA256](catalog/projects.json) · [原始逐文件清单](catalog/files/)
 
@@ -46,7 +51,7 @@ GitHub自动生成的“Source code”压缩包只含仓库里的工具、配置
 
 ## 命令行按项目下载（可选）
 
-已安装并登录GitHub CLI、且有仓库权限时：
+可直接在浏览器下载；需要批量下载时可使用GitHub CLI：
 
 ```bash
 python download_projects.py --list
