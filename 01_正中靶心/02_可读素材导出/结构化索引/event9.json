@@ -1,0 +1,395 @@
+{
+  "name": "event9",
+  "id": "mmtjs61w",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "gfkr8x",
+      "name": "miniBallGame",
+      "file": null,
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "gfkr8y",
+      "name": "downCoin",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 0,
+      "id": "a2lk9h",
+      "name": "3_2",
+      "file": null,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "type": 0,
+      "id": "f1hb90",
+      "name": "t1",
+      "file": null,
+      "width": 536,
+      "height": 44
+    },
+    {
+      "type": 0,
+      "id": "f1hb91",
+      "name": "k",
+      "file": null,
+      "width": 860,
+      "height": 1308
+    },
+    {
+      "type": 0,
+      "id": "f1hb92",
+      "name": "go",
+      "file": null,
+      "width": 105,
+      "height": 105
+    },
+    {
+      "type": 0,
+      "id": "f1hb93",
+      "name": "7",
+      "file": null,
+      "width": 50,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "f1hb94",
+      "name": "6",
+      "file": null,
+      "width": 80,
+      "height": 156
+    },
+    {
+      "type": 0,
+      "id": "f1hb95",
+      "name": "5",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "f1hb96",
+      "name": "4",
+      "file": null,
+      "width": 102,
+      "height": 56
+    },
+    {
+      "type": 0,
+      "id": "f1hb97",
+      "name": "8",
+      "file": null,
+      "width": 134,
+      "height": 146
+    },
+    {
+      "type": 0,
+      "id": "f1hb98",
+      "name": "3",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "f1hb99",
+      "name": "2",
+      "file": null,
+      "width": 158,
+      "height": 94
+    },
+    {
+      "type": 0,
+      "id": "f1hb9a",
+      "name": "1",
+      "file": null,
+      "width": 36,
+      "height": 36
+    },
+    {
+      "type": 0,
+      "id": "f1hb9b",
+      "name": "t2",
+      "file": null,
+      "width": 536,
+      "height": 44
+    },
+    {
+      "type": 0,
+      "id": "f1hb9c",
+      "name": "9",
+      "file": null,
+      "width": 25,
+      "height": 68
+    },
+    {
+      "type": 0,
+      "id": "f1hb9d",
+      "name": "10",
+      "file": null,
+      "width": 328,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "f1hb9e",
+      "name": "11",
+      "file": null,
+      "width": 74,
+      "height": 58
+    },
+    {
+      "type": 0,
+      "id": "f1hb9f",
+      "name": "k1",
+      "file": null,
+      "width": 860,
+      "height": 155
+    },
+    {
+      "type": 0,
+      "id": "k9s19j",
+      "name": "13",
+      "file": null,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "type": 0,
+      "id": "pbp49i",
+      "name": "12",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1916,
+      "height": 892
+    }
+  ],
+  "sprites": [
+    {
+      "id": "f1hb91",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        860,
+        1308
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "f1hb9f",
+      "atlas_id": "atlas0",
+      "rect": [
+        1310,
+        0,
+        860,
+        155
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "f1hb9b",
+      "atlas_id": "atlas0",
+      "rect": [
+        1467,
+        0,
+        536,
+        44
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "f1hb90",
+      "atlas_id": "atlas0",
+      "rect": [
+        1513,
+        0,
+        536,
+        44
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "f1hb9d",
+      "atlas_id": "atlas0",
+      "rect": [
+        1467,
+        538,
+        328,
+        62
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "k9s19j",
+      "atlas_id": "atlas0",
+      "rect": [
+        1531,
+        538,
+        256,
+        256
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb95",
+      "atlas_id": "atlas0",
+      "rect": [
+        1559,
+        0,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb99",
+      "atlas_id": "atlas0",
+      "rect": [
+        1531,
+        796,
+        158,
+        94
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb94",
+      "atlas_id": "atlas0",
+      "rect": [
+        1691,
+        796,
+        80,
+        156
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pbp49i",
+      "atlas_id": "atlas0",
+      "rect": [
+        1761,
+        0,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb98",
+      "atlas_id": "atlas0",
+      "rect": [
+        1761,
+        152,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb97",
+      "atlas_id": "atlas0",
+      "rect": [
+        1559,
+        202,
+        134,
+        146
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "a2lk9h",
+      "atlas_id": "atlas0",
+      "rect": [
+        1707,
+        304,
+        120,
+        120
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb92",
+      "atlas_id": "atlas0",
+      "rect": [
+        1559,
+        338,
+        105,
+        105
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb96",
+      "atlas_id": "atlas0",
+      "rect": [
+        1666,
+        426,
+        102,
+        56
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "f1hb93",
+      "atlas_id": "atlas0",
+      "rect": [
+        1707,
+        202,
+        50,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb9e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1559,
+        445,
+        74,
+        58
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "f1hb9c",
+      "atlas_id": "atlas0",
+      "rect": [
+        1666,
+        338,
+        25,
+        68
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f1hb9a",
+      "atlas_id": "atlas0",
+      "rect": [
+        1619,
+        445,
+        36,
+        36
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/37/37d29fb8-de3f-444b-a9dd-a71288950b19.bin"
+}

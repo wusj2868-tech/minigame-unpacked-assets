@@ -1,0 +1,576 @@
+{
+  "name": "event13",
+  "id": "ziq40mg8",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "yics77e3yx",
+      "name": "reset",
+      "file": null,
+      "width": 97,
+      "height": 96
+    },
+    {
+      "type": 3,
+      "id": "q3f61f",
+      "name": "selectGrade",
+      "file": null,
+      "width": 1172,
+      "height": 1367
+    },
+    {
+      "type": 3,
+      "id": "q3f644",
+      "name": "addItem",
+      "file": null,
+      "width": 210,
+      "height": 210
+    },
+    {
+      "type": 3,
+      "id": "q3f677e3yv",
+      "name": "event13_selectWnd",
+      "file": null,
+      "width": 800,
+      "height": 1610
+    },
+    {
+      "type": 3,
+      "id": "q3f677e3yw",
+      "name": "selectItem",
+      "file": null,
+      "width": 364,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "xpbo0",
+      "name": "eventGachaAdvert",
+      "file": null,
+      "width": 900,
+      "height": 1259
+    },
+    {
+      "type": 3,
+      "id": "xpbo17",
+      "name": "eventGachaBtn",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "owb377e3ym",
+      "name": "heidi333",
+      "file": null,
+      "width": 169,
+      "height": 43
+    },
+    {
+      "type": 0,
+      "id": "owb377e3yp",
+      "name": "eventChinaBg",
+      "file": null,
+      "width": 716,
+      "height": 1078
+    },
+    {
+      "type": 0,
+      "id": "owb377e3yy",
+      "name": "abroad",
+      "file": null,
+      "width": 672,
+      "height": 712
+    },
+    {
+      "type": 0,
+      "id": "owb377e3yz",
+      "name": "t6",
+      "file": null,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z1",
+      "name": "abroad_arrow",
+      "file": null,
+      "width": 280,
+      "height": 280
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z2",
+      "name": "china",
+      "file": null,
+      "width": 672,
+      "height": 712
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z3",
+      "name": "abroad_anim",
+      "file": null,
+      "width": 285,
+      "height": 205
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z4",
+      "name": "china_anim",
+      "file": null,
+      "width": 285,
+      "height": 205
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z5",
+      "name": "China_arrow",
+      "file": null,
+      "width": 280,
+      "height": 280
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z6",
+      "name": "t1",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z7",
+      "name": "t2",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z8",
+      "name": "t3",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 0,
+      "id": "owb377e3z9",
+      "name": "t4",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 0,
+      "id": "owb377e3za",
+      "name": "add",
+      "file": null,
+      "width": 56,
+      "height": 55
+    },
+    {
+      "type": 0,
+      "id": "owb377e3zb",
+      "name": "abroad_button",
+      "file": null,
+      "width": 298,
+      "height": 110
+    },
+    {
+      "type": 0,
+      "id": "owb377e3zc",
+      "name": "China_button",
+      "file": null,
+      "width": 298,
+      "height": 110
+    },
+    {
+      "type": 0,
+      "id": "owb377e3ze",
+      "name": "select_small_back",
+      "file": null,
+      "width": 149,
+      "height": 203
+    },
+    {
+      "type": 0,
+      "id": "owb377e3zf",
+      "name": "select_back",
+      "file": null,
+      "width": 624,
+      "height": 947
+    },
+    {
+      "type": 0,
+      "id": "q8ax77e3zh",
+      "name": "ice_arrow",
+      "file": null,
+      "width": 280,
+      "height": 280
+    },
+    {
+      "type": 0,
+      "id": "q8ax77e3zi",
+      "name": "eventiceBg",
+      "file": null,
+      "width": 716,
+      "height": 1078
+    },
+    {
+      "type": 0,
+      "id": "q8ax77e3zj",
+      "name": "ice_anim",
+      "file": null,
+      "width": 285,
+      "height": 205
+    },
+    {
+      "type": 0,
+      "id": "q8ax77e3zk",
+      "name": "ice",
+      "file": null,
+      "width": 672,
+      "height": 772
+    },
+    {
+      "type": 0,
+      "id": "qtsd77e3zg",
+      "name": "ice_button",
+      "file": null,
+      "width": 298,
+      "height": 110
+    },
+    {
+      "type": 0,
+      "id": "xpbo1c",
+      "name": "textBg",
+      "file": null,
+      "width": 280,
+      "height": 280
+    },
+    {
+      "type": 0,
+      "id": "xpbo5",
+      "name": "btn",
+      "file": null,
+      "width": 257,
+      "height": 111
+    },
+    {
+      "type": 0,
+      "id": "xpboc",
+      "name": "advertBtn",
+      "file": null,
+      "width": 171,
+      "height": 174
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1764,
+      "height": 760
+    },
+    {
+      "type": 4,
+      "id": "atlas100",
+      "name": null,
+      "file": "atlas0_1.png",
+      "width": 2020,
+      "height": 1800
+    }
+  ],
+  "sprites": [
+    {
+      "id": "owb377e3yy",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        1,
+        672,
+        712
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qtsd77e3zg",
+      "atlas_id": "atlas0",
+      "rect": [
+        675,
+        1,
+        298,
+        110
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3zc",
+      "atlas_id": "atlas0",
+      "rect": [
+        675,
+        301,
+        298,
+        110
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3zb",
+      "atlas_id": "atlas0",
+      "rect": [
+        675,
+        601,
+        298,
+        110
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3z3",
+      "atlas_id": "atlas0",
+      "rect": [
+        787,
+        1,
+        285,
+        205
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3z4",
+      "atlas_id": "atlas0",
+      "rect": [
+        787,
+        288,
+        285,
+        205
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "q8ax77e3zj",
+      "atlas_id": "atlas0",
+      "rect": [
+        994,
+        1,
+        285,
+        205
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3z1",
+      "atlas_id": "atlas0",
+      "rect": [
+        994,
+        288,
+        280,
+        280
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3z5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1201,
+        1,
+        280,
+        280
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xpbo1c",
+      "atlas_id": "atlas0",
+      "rect": [
+        1483,
+        1,
+        280,
+        280
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q8ax77e3zh",
+      "atlas_id": "atlas0",
+      "rect": [
+        1276,
+        283,
+        280,
+        280
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xpbo5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1276,
+        565,
+        257,
+        111
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3ze",
+      "atlas_id": "atlas0",
+      "rect": [
+        1535,
+        565,
+        149,
+        203
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "xpboc",
+      "atlas_id": "atlas0",
+      "rect": [
+        994,
+        570,
+        171,
+        174
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3ym",
+      "atlas_id": "atlas0",
+      "rect": [
+        675,
+        713,
+        169,
+        43
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3z8",
+      "atlas_id": "atlas0",
+      "rect": [
+        1167,
+        570,
+        90,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3z6",
+      "atlas_id": "atlas0",
+      "rect": [
+        1167,
+        662,
+        90,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3z7",
+      "atlas_id": "atlas0",
+      "rect": [
+        1558,
+        283,
+        90,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3z9",
+      "atlas_id": "atlas0",
+      "rect": [
+        1650,
+        283,
+        90,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3za",
+      "atlas_id": "atlas0",
+      "rect": [
+        1259,
+        678,
+        56,
+        55
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3yz",
+      "atlas_id": "atlas0",
+      "rect": [
+        846,
+        713,
+        38,
+        38
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q8ax77e3zi",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1,
+        716,
+        1078
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "owb377e3yp",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1081,
+        716,
+        1078
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3zf",
+      "atlas_id": "atlas100",
+      "rect": [
+        719,
+        1,
+        624,
+        947
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q8ax77e3zk",
+      "atlas_id": "atlas100",
+      "rect": [
+        1081,
+        950,
+        672,
+        772
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "owb377e3z2",
+      "atlas_id": "atlas100",
+      "rect": [
+        1345,
+        1,
+        672,
+        712
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/04/041e1cca-5a09-4d63-b275-abf4b2441cdb.bin"
+}

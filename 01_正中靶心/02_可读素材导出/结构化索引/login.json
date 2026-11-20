@@ -1,0 +1,217 @@
+{
+  "name": "login",
+  "id": "164za4d7",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "gf3n1k",
+      "name": "textBtn",
+      "file": null,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "type": 0,
+      "id": "dq56y",
+      "name": "arrow_down",
+      "file": null,
+      "width": 40,
+      "height": 22
+    },
+    {
+      "type": 0,
+      "id": "dq56z",
+      "name": "arrow_up",
+      "file": null,
+      "width": 40,
+      "height": 22
+    },
+    {
+      "type": 0,
+      "id": "fg2o1g",
+      "name": "facebook",
+      "file": null,
+      "width": 450,
+      "height": 90
+    },
+    {
+      "type": 0,
+      "id": "fg2o1h",
+      "name": "googleplay",
+      "file": null,
+      "width": 450,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "dq5616",
+      "name": "loginAccount",
+      "file": null,
+      "width": 880,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "dq5617",
+      "name": "accountBox_item",
+      "file": null,
+      "width": 500,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "dq5618",
+      "name": "accountBox_popup",
+      "file": null,
+      "width": 500,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "dq5619",
+      "name": "accountBox",
+      "file": null,
+      "width": 500,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "jsu7c",
+      "name": "loginNew",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "jsu7f",
+      "name": "loginRegister",
+      "file": null,
+      "width": 880,
+      "height": 800
+    },
+    {
+      "type": 3,
+      "id": "kxb31i",
+      "name": "bindAccChoice",
+      "file": null,
+      "width": 700,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "mddp1f",
+      "name": "fatigueRegister",
+      "file": null,
+      "width": 900,
+      "height": 700
+    },
+    {
+      "type": 3,
+      "id": "meka1j",
+      "name": "privateConfirmPanel",
+      "file": null,
+      "width": 960,
+      "height": 553
+    },
+    {
+      "type": 3,
+      "id": "q0i21a",
+      "name": "loginMix",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "s3oe1e",
+      "name": "accountCode",
+      "file": null,
+      "width": 900,
+      "height": 580
+    },
+    {
+      "type": 3,
+      "id": "tq2om",
+      "name": "connectCircle",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 0,
+      "id": "o71x1d",
+      "name": "infoBg",
+      "file": null,
+      "width": 248,
+      "height": 130
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 496,
+      "height": 436
+    }
+  ],
+  "sprites": [
+    {
+      "id": "fg2o1g",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        450,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fg2o1h",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        92,
+        450,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o71x1d",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        184,
+        248,
+        130
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "dq56y",
+      "atlas_id": "atlas0",
+      "rect": [
+        452,
+        0,
+        40,
+        22
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dq56z",
+      "atlas_id": "atlas0",
+      "rect": [
+        452,
+        24,
+        40,
+        22
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/78/78b73a5d-a835-403a-b996-5df23b9c2f87.bin"
+}

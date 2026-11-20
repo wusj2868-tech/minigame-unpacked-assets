@@ -1,0 +1,483 @@
+{
+  "name": "loading",
+  "id": "10li2aq3",
+  "version": 2,
+  "items": [
+    {
+      "type": 0,
+      "id": "h2nrq",
+      "name": "repairBtn",
+      "file": null,
+      "width": 77,
+      "height": 94
+    },
+    {
+      "type": 3,
+      "id": "fwdpo",
+      "name": "repairBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "h4yi77e3wr",
+      "name": "comic2",
+      "file": null,
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "type": 3,
+      "id": "jf5xv",
+      "name": "cadpaBtn",
+      "file": null,
+      "width": 237,
+      "height": 304
+    },
+    {
+      "type": 3,
+      "id": "lht377e3wh",
+      "name": "logbtn",
+      "file": null,
+      "width": 100,
+      "height": 20
+    },
+    {
+      "type": 3,
+      "id": "shs277e3wp",
+      "name": "comicBack",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "shs277e3wq",
+      "name": "comicTop",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "t03j3",
+      "name": "loading",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "u8nys",
+      "name": "downloadBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "wx5p77e3wf",
+      "name": "FbFaq",
+      "file": null,
+      "width": 960,
+      "height": 1100
+    },
+    {
+      "type": 3,
+      "id": "wx5pw",
+      "name": "fbBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "wyml77e3wi",
+      "name": "comic",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 0,
+      "id": "cdhu10",
+      "name": "closeIcon",
+      "file": null,
+      "width": 77,
+      "height": 77
+    },
+    {
+      "type": 0,
+      "id": "cdhuy",
+      "name": "output",
+      "file": null,
+      "width": 750,
+      "height": 925
+    },
+    {
+      "type": 0,
+      "id": "cdhuz",
+      "name": "panel2",
+      "file": null,
+      "width": 777,
+      "height": 445
+    },
+    {
+      "type": 0,
+      "id": "h4yi77e3ws",
+      "name": "b6",
+      "file": null,
+      "width": 480,
+      "height": 960
+    },
+    {
+      "type": 0,
+      "id": "h4yi77e3wt",
+      "name": "b5",
+      "file": null,
+      "width": 480,
+      "height": 960
+    },
+    {
+      "type": 0,
+      "id": "h4yi77e3wu",
+      "name": "b4",
+      "file": null,
+      "width": 480,
+      "height": 960
+    },
+    {
+      "type": 0,
+      "id": "h4yi77e3wv",
+      "name": "b3",
+      "file": null,
+      "width": 480,
+      "height": 960
+    },
+    {
+      "type": 0,
+      "id": "h4yi77e3ww",
+      "name": "b2",
+      "file": null,
+      "width": 480,
+      "height": 960
+    },
+    {
+      "type": 0,
+      "id": "h4yi77e3wx",
+      "name": "b1",
+      "file": null,
+      "width": 480,
+      "height": 960
+    },
+    {
+      "type": 0,
+      "id": "jf5xt",
+      "name": "cadpa",
+      "file": null,
+      "width": 237,
+      "height": 304
+    },
+    {
+      "type": 0,
+      "id": "u8nyr",
+      "name": "downloadBtn",
+      "file": null,
+      "width": 79,
+      "height": 79
+    },
+    {
+      "type": 0,
+      "id": "wx5px",
+      "name": "fbBtn",
+      "file": null,
+      "width": 102,
+      "height": 92
+    },
+    {
+      "type": 0,
+      "id": "wyml77e3wj",
+      "name": "5",
+      "file": null,
+      "width": 480,
+      "height": 800
+    },
+    {
+      "type": 0,
+      "id": "wyml77e3wk",
+      "name": "4",
+      "file": null,
+      "width": 480,
+      "height": 800
+    },
+    {
+      "type": 0,
+      "id": "wyml77e3wl",
+      "name": "3",
+      "file": null,
+      "width": 480,
+      "height": 800
+    },
+    {
+      "type": 0,
+      "id": "wyml77e3wm",
+      "name": "2",
+      "file": null,
+      "width": 480,
+      "height": 800
+    },
+    {
+      "type": 0,
+      "id": "wyml77e3wn",
+      "name": "1",
+      "file": null,
+      "width": 480,
+      "height": 800
+    },
+    {
+      "type": 0,
+      "id": "wyml77e3wo",
+      "name": "6",
+      "file": null,
+      "width": 480,
+      "height": 800
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1928,
+      "height": 1324
+    },
+    {
+      "type": 4,
+      "id": "atlas100",
+      "name": null,
+      "file": "atlas0_1.png",
+      "width": 1928,
+      "height": 1924
+    },
+    {
+      "type": 4,
+      "id": "atlas1",
+      "name": null,
+      "file": "atlas1.png",
+      "width": 777,
+      "height": 445
+    }
+  ],
+  "sprites": [
+    {
+      "id": "wyml77e3wl",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        480,
+        800
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "wyml77e3wm",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        802,
+        480,
+        800
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "wyml77e3wj",
+      "atlas_id": "atlas0",
+      "rect": [
+        482,
+        0,
+        480,
+        800
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "wyml77e3wo",
+      "atlas_id": "atlas0",
+      "rect": [
+        802,
+        802,
+        480,
+        800
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "wyml77e3wk",
+      "atlas_id": "atlas0",
+      "rect": [
+        964,
+        0,
+        480,
+        800
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "wyml77e3wn",
+      "atlas_id": "atlas0",
+      "rect": [
+        1446,
+        0,
+        480,
+        800
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "jf5xt",
+      "atlas_id": "atlas0",
+      "rect": [
+        1604,
+        802,
+        237,
+        304
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "wx5px",
+      "atlas_id": "atlas0",
+      "rect": [
+        1604,
+        1041,
+        102,
+        92
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h2nrq",
+      "atlas_id": "atlas0",
+      "rect": [
+        1604,
+        1145,
+        77,
+        94
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "u8nyr",
+      "atlas_id": "atlas0",
+      "rect": [
+        1604,
+        1241,
+        79,
+        79
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cdhu10",
+      "atlas_id": "atlas0",
+      "rect": [
+        1683,
+        1145,
+        77,
+        77
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h4yi77e3wv",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        0,
+        480,
+        960
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h4yi77e3wx",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        962,
+        480,
+        960
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h4yi77e3ww",
+      "atlas_id": "atlas100",
+      "rect": [
+        482,
+        0,
+        480,
+        960
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h4yi77e3wt",
+      "atlas_id": "atlas100",
+      "rect": [
+        1444,
+        0,
+        480,
+        960
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h4yi77e3wu",
+      "atlas_id": "atlas100",
+      "rect": [
+        482,
+        482,
+        480,
+        960
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h4yi77e3ws",
+      "atlas_id": "atlas100",
+      "rect": [
+        1444,
+        962,
+        480,
+        960
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cdhuy",
+      "atlas_id": "atlas100",
+      "rect": [
+        482,
+        964,
+        750,
+        925
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cdhuz",
+      "atlas_id": "atlas1",
+      "rect": [
+        0,
+        0,
+        777,
+        445
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/db/db7fe82f-85b4-4ec7-b0e8-26b2776a2b3c.bin"
+}

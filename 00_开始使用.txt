@@ -1,0 +1,47 @@
+小游戏拆包文件分享包（2026-11-20）
+
+包含：正中靶心34.0、向僵尸开炮1.10、永远的蔚蓝星球3.0.5；向末日开炮1.12为补充。
+本包以真实解压文件、实际导出素材、配置及解析工具为主体，不含分析图表或官网参考图，不需要Rice账号。
+
+一、打开就能用的文件
+1. 正中靶心：185张原始PNG/JPG；2169张独立精灵PNG；374组动画（1558张PNG帧与374个GIF预览）；25份JsonAsset内部配置；69包FGUI结构化JSON。
+2. 向僵尸开炮：3212张纹理PNG，1031份TextAsset（含Spine .skel/.atlas和原始配置），1430份AnimationClip结构JSON、4671份Material结构JSON、214份OBJ，以及部分字体。
+3. 向末日开炮：4341张纹理PNG，3250份TextAsset，368份AnimationClip结构JSON、2294份Material结构JSON、2262份OBJ，以及一份保留浮点数值的RGBAFloat数据纹理。另有已解析的6493行英雄升级配置。
+4. 蔚蓝星球：完整原始文件和可读构建索引。核心受保护Unity容器尚未解码；不能直接当作PNG、完整Spine工程或可运行项目使用。
+以上数量是文件/对象导出数，可能包含部件、重复对象与变体，不是独立角色、技能或商品数量。
+
+二、目录
+各游戏/01_原始解压/：原APK内全部文件条目，包括assets、lib、res、DEX和AndroidManifest等，未混入其他版本。
+各游戏/02_可读素材导出/：PNG、GIF、Spine资源、OBJ、动画和材质JSON；按来源包分目录。
+各游戏/03_已解析配置/：当前已还原的数值表；未还原的二进制仍在原始文件或TextAsset中。
+蔚蓝/02_可读索引/：构建索引、单位与特效目录清点。
+00_工具/：跨电脑可运行的Python解析与校验工具；不包含本机Python环境。
+00_文件校验清单.csv：打包文件的相对路径、体积与SHA256。
+00_来源与导出状态.json：原APK哈希、版本、原始条目数与导出状态。
+
+三、使用注意（资源格式）
+PNG可能是图集、角色切片或数据纹理的预览，不一定是完整角色姿态。
+Spine .skel/.atlas与同名PNG放在同一来源包目录；请保留它们的相对关系。
+OBJ为几何导出，不保留骨骼绑定、动画和完整材质；原始AB及动画/材质JSON仍保留。
+GIF为资源帧预览，按MovieClip配置时长生成，不是实机录像。FGUI界面组合、着色器和战斗逻辑未重建。
+浮点数据纹理以.rgba32f及配套JSON保存，未强制转换成会丢失数据的8位PNG。
+僵尸17个、末日3个零尺寸字体纹理是运行时生成项，没有可导出的静态像素；原始字体资源保留。
+末日有1个登录背景容器尚未解码，详见_导出总表.json的bundle_error；其原始AB仍在原始解压目录。
+蔚蓝的受保护容器仍是原始文件；所附工具不宣称支持其解密。已导出内容与未解码内容在各游戏状态中区分。
+本包是静态资源资料，不是已搭建好的Unity/Cocos可运行工程。未提供原APK整体安装文件或其ZIP外签名块。
+
+四、复现导出（可选，查看PNG/JSON不需要这一步）
+安装Python 3.10或更新版本，在解压根目录运行：
+python -m pip install -r "00_工具/requirements.txt"
+python "00_工具/export_cocos.py" --input "01_正中靶心/01_原始解压" --output "重新导出_靶心"
+python "00_工具/export_unity.py" --input "02_向僵尸开炮/01_原始解压/assets/ab" --output "重新导出_僵尸" --workers 3
+python "00_工具/export_unity.py" --input "04_向末日开炮_补充/01_原始解压/assets/ab" --output "重新导出_末日" --workers 3
+Unity工具支持普通Bundle和已验证的0xef35数据块LZ4变体。失败项会留在导出总表，不会被伪造为成功。
+
+五、完整性校验
+无需第三方库：python "00_工具/verify_share.py" "本压缩包.zip"
+也可对已解压目录运行：python "00_工具/verify_share.py" "解压目录"
+CSV不列自身与最终校验报告，避免循环哈希；最终ZIP整体SHA256位于桌面包旁边。
+文件较多，压缩包使用ZIP64。原路径保留，Windows建议解压到短路径；若系统工具提示长路径，可用：
+python "00_工具/unpack_share.py" "本压缩包.zip" "D:/game_assets"
+unpack_share.py在Windows使用长路径前缀，并拒绝路径穿越。

@@ -1,0 +1,107 @@
+{
+  "name": "loginTencent",
+  "id": "3n22vuzp",
+  "version": 2,
+  "items": [
+    {
+      "type": 0,
+      "id": "hpc10",
+      "name": "loginWechat",
+      "file": null,
+      "width": 431,
+      "height": 126
+    },
+    {
+      "type": 0,
+      "id": "hpc11",
+      "name": "loginQQ",
+      "file": null,
+      "width": 431,
+      "height": 126
+    },
+    {
+      "type": 0,
+      "id": "hpc15",
+      "name": "btnGreen",
+      "file": null,
+      "width": 269,
+      "height": 120
+    },
+    {
+      "type": 3,
+      "id": "hpc12",
+      "name": "loginQQBtn",
+      "file": null,
+      "width": 431,
+      "height": 126
+    },
+    {
+      "type": 3,
+      "id": "hpc13",
+      "name": "loginWechatBtn",
+      "file": null,
+      "width": 431,
+      "height": 126
+    },
+    {
+      "type": 3,
+      "id": "hpc14",
+      "name": "loginTencentView",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "hpc16",
+      "name": "swtichAccBtn",
+      "file": null,
+      "width": 501,
+      "height": 120
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 436,
+      "height": 380
+    }
+  ],
+  "sprites": [
+    {
+      "id": "hpc10",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        431,
+        126
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hpc11",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        128,
+        431,
+        126
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hpc15",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        256,
+        269,
+        120
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/15/15b2b09e-14e2-4f27-a3ce-d6ccffa7b9f3.bin"
+}

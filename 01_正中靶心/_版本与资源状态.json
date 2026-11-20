@@ -1,0 +1,17 @@
+{
+  "folder": "01_正中靶心",
+  "name": "正中靶心",
+  "package": "com.openew.game.td",
+  "version": "34.0",
+  "status": "原始解压完整；Cocos/FGUI素材与JSON已导出。镜像来源，未对官方签名。",
+  "original_entries": 1969,
+  "original_bytes": 230942244,
+  "readable_exports": {
+    "配置JSON": 25,
+    "原始图像": 185,
+    "精灵PNG": 2169,
+    "动画帧PNG": 1558,
+    "动画定义": 374,
+    "GIF预览": 374
+  }
+}

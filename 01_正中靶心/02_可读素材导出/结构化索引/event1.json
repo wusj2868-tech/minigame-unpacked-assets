@@ -1,0 +1,503 @@
+{
+  "name": "event1",
+  "id": "wkuowwzc",
+  "version": 2,
+  "items": [
+    {
+      "type": 0,
+      "id": "lte03zn",
+      "name": "treasuryBg2",
+      "file": null,
+      "width": 808,
+      "height": 1062
+    },
+    {
+      "type": 3,
+      "id": "b54235",
+      "name": "eveydadys7",
+      "file": null,
+      "width": 205,
+      "height": 242
+    },
+    {
+      "type": 3,
+      "id": "b54240r",
+      "name": "everydayling",
+      "file": null,
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "pkgs2b",
+      "name": "eventChainShow",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "q2zl0",
+      "name": "eventTreasury",
+      "file": null,
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "q2zls",
+      "name": "eventTreasuryPlayer",
+      "file": null,
+      "width": 760,
+      "height": 80
+    },
+    {
+      "type": 0,
+      "id": "pkgs2d",
+      "name": "chainChar3",
+      "file": null,
+      "width": 272,
+      "height": 500
+    },
+    {
+      "type": 0,
+      "id": "pkgs2e",
+      "name": "chainChar1",
+      "file": null,
+      "width": 256,
+      "height": 500
+    },
+    {
+      "type": 0,
+      "id": "pkgs2i",
+      "name": "chainLogo1",
+      "file": null,
+      "width": 421,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "pkgs2j",
+      "name": "chainLogo4",
+      "file": null,
+      "width": 791,
+      "height": 302
+    },
+    {
+      "type": 0,
+      "id": "pkgs2n",
+      "name": "chainLogox",
+      "file": null,
+      "width": 79,
+      "height": 80
+    },
+    {
+      "type": 0,
+      "id": "pkgs3u",
+      "name": "chainWnd",
+      "file": null,
+      "width": 577,
+      "height": 227
+    },
+    {
+      "type": 0,
+      "id": "q2zl1",
+      "name": "treasuryBg",
+      "file": null,
+      "width": 726,
+      "height": 400
+    },
+    {
+      "type": 0,
+      "id": "q2zl2",
+      "name": "treasuryPlayer",
+      "file": null,
+      "width": 512,
+      "height": 283
+    },
+    {
+      "type": 0,
+      "id": "q2zl5",
+      "name": "treasuryRewardBg",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "q2zlt",
+      "name": "chainWnd2",
+      "file": null,
+      "width": 400,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "q2zlv",
+      "name": "resourceBg",
+      "file": null,
+      "width": 127,
+      "height": 36
+    },
+    {
+      "type": 0,
+      "id": "q2zlx",
+      "name": "titleBg",
+      "file": null,
+      "width": 637,
+      "height": 68
+    },
+    {
+      "type": 0,
+      "id": "qt534d",
+      "name": "chainBg",
+      "file": null,
+      "width": 480,
+      "height": 853
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3x3",
+      "name": "bj",
+      "file": null,
+      "width": 794,
+      "height": 1047
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3x4",
+      "name": "300",
+      "file": null,
+      "width": 152,
+      "height": 121
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3x5",
+      "name": "60",
+      "file": null,
+      "width": 122,
+      "height": 121
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3x6",
+      "name": "6",
+      "file": null,
+      "width": 76,
+      "height": 24
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3x7",
+      "name": "5",
+      "file": null,
+      "width": 771,
+      "height": 427
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3x9",
+      "name": "3",
+      "file": null,
+      "width": 649,
+      "height": 107
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3xa",
+      "name": "2",
+      "file": null,
+      "width": 224,
+      "height": 97
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3xb",
+      "name": "1",
+      "file": null,
+      "width": 289,
+      "height": 97
+    },
+    {
+      "type": 0,
+      "id": "sz4977e3xc",
+      "name": "shanguang",
+      "file": null,
+      "width": 183,
+      "height": 183
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 2044,
+      "height": 2044
+    },
+    {
+      "type": 4,
+      "id": "atlas100",
+      "name": null,
+      "file": "atlas0_1.png",
+      "width": 204,
+      "height": 248
+    }
+  ],
+  "sprites": [
+    {
+      "id": "lte03zn",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        808,
+        1062
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "sz4977e3x3",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1064,
+        794,
+        1047
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qt534d",
+      "atlas_id": "atlas0",
+      "rect": [
+        1049,
+        0,
+        480,
+        853
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pkgs2j",
+      "atlas_id": "atlas0",
+      "rect": [
+        1049,
+        482,
+        791,
+        302
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "sz4977e3x7",
+      "atlas_id": "atlas0",
+      "rect": [
+        1049,
+        786,
+        771,
+        427
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q2zl1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1049,
+        1215,
+        726,
+        400
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "sz4977e3x9",
+      "atlas_id": "atlas0",
+      "rect": [
+        1904,
+        0,
+        649,
+        107
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "q2zlx",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1943,
+        637,
+        68
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pkgs3u",
+      "atlas_id": "atlas0",
+      "rect": [
+        810,
+        0,
+        577,
+        227
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "q2zl2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1451,
+        1215,
+        512,
+        283
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pkgs2d",
+      "atlas_id": "atlas0",
+      "rect": [
+        1451,
+        1500,
+        272,
+        500
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pkgs2e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1725,
+        1500,
+        256,
+        500
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pkgs2i",
+      "atlas_id": "atlas0",
+      "rect": [
+        1842,
+        651,
+        421,
+        200
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "q2zlt",
+      "atlas_id": "atlas0",
+      "rect": [
+        1965,
+        1074,
+        400,
+        74
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "sz4977e3xb",
+      "atlas_id": "atlas0",
+      "rect": [
+        639,
+        1943,
+        289,
+        97
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "sz4977e3xa",
+      "atlas_id": "atlas0",
+      "rect": [
+        930,
+        1943,
+        224,
+        97
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q2zl5",
+      "atlas_id": "atlas0",
+      "rect": [
+        810,
+        579,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "sz4977e3xc",
+      "atlas_id": "atlas0",
+      "rect": [
+        810,
+        781,
+        183,
+        183
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "sz4977e3x4",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        0,
+        152,
+        121
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q2zlv",
+      "atlas_id": "atlas100",
+      "rect": [
+        154,
+        0,
+        127,
+        36
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "sz4977e3x5",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        123,
+        122,
+        121
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pkgs2n",
+      "atlas_id": "atlas100",
+      "rect": [
+        123,
+        129,
+        79,
+        80
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "sz4977e3x6",
+      "atlas_id": "atlas100",
+      "rect": [
+        123,
+        211,
+        76,
+        24
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/d2/d2c5cc42-7fd0-4053-8cbc-9446147fb9ed.bin"
+}

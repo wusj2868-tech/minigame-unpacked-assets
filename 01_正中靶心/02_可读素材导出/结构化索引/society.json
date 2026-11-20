@@ -1,0 +1,354 @@
+{
+  "name": "society",
+  "id": "b0lbr393",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "11cuc3zw",
+      "name": "shareOption",
+      "file": null,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "type": 3,
+      "id": "11cuc3zy",
+      "name": "shareFriendWnd",
+      "file": null,
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "d5gjs",
+      "name": "maintalk",
+      "file": null,
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "e4mk0",
+      "name": "friendChat",
+      "file": null,
+      "width": 817,
+      "height": 1300
+    },
+    {
+      "type": 3,
+      "id": "e4mk1",
+      "name": "worldChat",
+      "file": null,
+      "width": 940,
+      "height": 1310
+    },
+    {
+      "type": 3,
+      "id": "e4mk3",
+      "name": "messageItem",
+      "file": null,
+      "width": 900,
+      "height": 454
+    },
+    {
+      "type": 3,
+      "id": "e4mk5",
+      "name": "refreshBtn",
+      "file": null,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "e4mkc",
+      "name": "messageItemSelf",
+      "file": null,
+      "width": 900,
+      "height": 470
+    },
+    {
+      "type": 3,
+      "id": "e4mkh",
+      "name": "ScrollBar_grip",
+      "file": null,
+      "width": 20,
+      "height": 204
+    },
+    {
+      "type": 3,
+      "id": "iigc77e3yp",
+      "name": "guildChat",
+      "file": null,
+      "width": 940,
+      "height": 1310
+    },
+    {
+      "type": 3,
+      "id": "mjkn3zq",
+      "name": "apprenticeshowItem",
+      "file": null,
+      "width": 312,
+      "height": 453
+    },
+    {
+      "type": 3,
+      "id": "owb377e3yo",
+      "name": "functionChk_event",
+      "file": null,
+      "width": 250,
+      "height": 104
+    },
+    {
+      "type": 3,
+      "id": "t873j",
+      "name": "friendApply",
+      "file": null,
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "t873k",
+      "name": "closeBg",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "t873m",
+      "name": "friendApplyItem",
+      "file": null,
+      "width": 820,
+      "height": 130
+    },
+    {
+      "type": 3,
+      "id": "t873o",
+      "name": "yesBtn",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "t873r",
+      "name": "noBtn",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "x9lob",
+      "name": "apprenticeshow",
+      "file": null,
+      "width": 880,
+      "height": 1260
+    },
+    {
+      "type": 3,
+      "id": "xm023zp",
+      "name": "search",
+      "file": null,
+      "width": 900,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "xm02t",
+      "name": "friendItem",
+      "file": null,
+      "width": 820,
+      "height": 130
+    },
+    {
+      "type": 3,
+      "id": "xm02u",
+      "name": "friend",
+      "file": null,
+      "width": 820,
+      "height": 1069
+    },
+    {
+      "type": 3,
+      "id": "xm02x",
+      "name": "black",
+      "file": null,
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "e4mk2",
+      "name": "input",
+      "file": null,
+      "width": 516,
+      "height": 64
+    },
+    {
+      "type": 0,
+      "id": "e4mk4",
+      "name": "pop1",
+      "file": null,
+      "width": 138,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "e4mk6",
+      "name": "refreshIcon",
+      "file": null,
+      "width": 79,
+      "height": 79
+    },
+    {
+      "type": 0,
+      "id": "e4mkd",
+      "name": "pop1_self",
+      "file": null,
+      "width": 138,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "e4mkg",
+      "name": "line_v",
+      "file": null,
+      "width": 8,
+      "height": 750
+    },
+    {
+      "type": 0,
+      "id": "itjac3zz",
+      "name": "talk_bg",
+      "file": null,
+      "width": 816,
+      "height": 1186
+    },
+    {
+      "type": 0,
+      "id": "itjac400",
+      "name": "red",
+      "file": null,
+      "width": 52,
+      "height": 33
+    },
+    {
+      "type": 0,
+      "id": "t873n",
+      "name": "itemWnd1",
+      "file": null,
+      "width": 777,
+      "height": 397
+    },
+    {
+      "type": 4,
+      "id": "atlas1",
+      "name": null,
+      "file": "atlas1.png",
+      "width": 516,
+      "height": 64
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1600,
+      "height": 896
+    }
+  ],
+  "sprites": [
+    {
+      "id": "e4mk2",
+      "atlas_id": "atlas1",
+      "rect": [
+        0,
+        0,
+        516,
+        64
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "itjac3zz",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        816,
+        1186
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "t873n",
+      "atlas_id": "atlas0",
+      "rect": [
+        1188,
+        0,
+        777,
+        397
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "e4mkg",
+      "atlas_id": "atlas0",
+      "rect": [
+        1587,
+        0,
+        8,
+        750
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "e4mk4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1188,
+        779,
+        138,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "e4mkd",
+      "atlas_id": "atlas0",
+      "rect": [
+        1328,
+        779,
+        138,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "e4mk6",
+      "atlas_id": "atlas0",
+      "rect": [
+        1468,
+        779,
+        79,
+        79
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "itjac400",
+      "atlas_id": "atlas0",
+      "rect": [
+        1468,
+        860,
+        52,
+        33
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/16/165baceb-8b21-4113-a296-ad562d809756.bin"
+}

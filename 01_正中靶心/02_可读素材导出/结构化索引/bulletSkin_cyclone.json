@@ -1,0 +1,214 @@
+{
+  "name": "bulletSkin_cyclone",
+  "id": "m3f3pss3",
+  "version": 2,
+  "items": [
+    {
+      "type": 1,
+      "id": "fls44b",
+      "name": "cyclone_jp",
+      "file": null,
+      "width": 400,
+      "height": 1250,
+      "interval_ms": 125,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            35,
+            61,
+            304,
+            1122
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44b_0"
+        },
+        {
+          "rect": [
+            11,
+            45,
+            334,
+            1136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44b_1"
+        },
+        {
+          "rect": [
+            36,
+            45,
+            342,
+            1145
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44b_2"
+        },
+        {
+          "rect": [
+            49,
+            75,
+            307,
+            1101
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44b_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "fls44c",
+      "name": "cyclone_panda",
+      "file": null,
+      "width": 400,
+      "height": 1250,
+      "interval_ms": 125,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            35,
+            61,
+            304,
+            1122
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44c_0"
+        },
+        {
+          "rect": [
+            11,
+            45,
+            334,
+            1136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44c_1"
+        },
+        {
+          "rect": [
+            36,
+            45,
+            342,
+            1145
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44c_2"
+        },
+        {
+          "rect": [
+            48,
+            75,
+            311,
+            1101
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "fls44c_3"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1944,
+      "height": 1800
+    }
+  ],
+  "sprites": [
+    {
+      "id": "fls44b_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        342,
+        1145
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fls44c_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1147,
+        342,
+        1145
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fls44c_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        344,
+        0,
+        334,
+        1136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fls44b_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        680,
+        0,
+        334,
+        1136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fls44b_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1016,
+        0,
+        304,
+        1122
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fls44c_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1491,
+        304,
+        1122
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fls44b_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1322,
+        0,
+        307,
+        1101
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fls44c_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1631,
+        0,
+        311,
+        1101
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/09/09d1e7e9-d684-4308-a8d9-490ad7caafaa.bin"
+}

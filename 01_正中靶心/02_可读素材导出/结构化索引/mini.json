@@ -1,0 +1,654 @@
+{
+  "name": "mini",
+  "id": "6nushkhm",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "bg188c",
+      "name": "getCard",
+      "file": null,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "br4u8a",
+      "name": "miniEndWnd",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "lqw08w",
+      "name": "snakeHeadTurn",
+      "file": null,
+      "width": 592,
+      "height": 368
+    },
+    {
+      "type": 3,
+      "id": "muzj8f",
+      "name": "snakeHead",
+      "file": null,
+      "width": 592,
+      "height": 368
+    },
+    {
+      "type": 3,
+      "id": "muzj8g",
+      "name": "snakeBody",
+      "file": null,
+      "width": 109,
+      "height": 93
+    },
+    {
+      "type": 3,
+      "id": "muzj8h",
+      "name": "snakebattle",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "mwx014",
+      "name": "cardSelect",
+      "file": null,
+      "width": 230,
+      "height": 298
+    },
+    {
+      "type": 3,
+      "id": "nxuh8b",
+      "name": "guide",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "tupo13",
+      "name": "choiceFightCard",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "vis31",
+      "name": "minibattle",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "vis310",
+      "name": "Level",
+      "file": null,
+      "width": 900,
+      "height": 293
+    },
+    {
+      "type": 3,
+      "id": "vis311",
+      "name": "card2",
+      "file": null,
+      "width": 840,
+      "height": 500
+    },
+    {
+      "type": 3,
+      "id": "vis312",
+      "name": "cardList",
+      "file": null,
+      "width": 840,
+      "height": 900
+    },
+    {
+      "type": 3,
+      "id": "vis35",
+      "name": "card",
+      "file": null,
+      "width": 230,
+      "height": 298
+    },
+    {
+      "type": 3,
+      "id": "vis3z",
+      "name": "minihome",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "ya6z16",
+      "name": "battleGrid",
+      "file": null,
+      "width": 160,
+      "height": 207
+    },
+    {
+      "type": 3,
+      "id": "ya6z19",
+      "name": "turnCom",
+      "file": null,
+      "width": 542,
+      "height": 139
+    },
+    {
+      "type": 0,
+      "id": "hr038d",
+      "name": "myTurnWnd",
+      "file": null,
+      "width": 20,
+      "height": 583
+    },
+    {
+      "type": 0,
+      "id": "hr038e",
+      "name": "oppTurnWnd",
+      "file": null,
+      "width": 20,
+      "height": 583
+    },
+    {
+      "type": 0,
+      "id": "lqw08u",
+      "name": "2",
+      "file": null,
+      "width": 109,
+      "height": 93
+    },
+    {
+      "type": 0,
+      "id": "mcwet",
+      "name": "bg",
+      "file": null,
+      "width": 701,
+      "height": 293
+    },
+    {
+      "type": 0,
+      "id": "vis36",
+      "name": "map",
+      "file": null,
+      "width": 335,
+      "height": 419
+    },
+    {
+      "type": 0,
+      "id": "vis3r",
+      "name": "body_green",
+      "file": null,
+      "width": 73,
+      "height": 118
+    },
+    {
+      "type": 0,
+      "id": "vis3s",
+      "name": "body_grey",
+      "file": null,
+      "width": 73,
+      "height": 118
+    },
+    {
+      "type": 0,
+      "id": "vis3t",
+      "name": "body_red",
+      "file": null,
+      "width": 73,
+      "height": 118
+    },
+    {
+      "type": 0,
+      "id": "vis3u",
+      "name": "body_yellow",
+      "file": null,
+      "width": 73,
+      "height": 118
+    },
+    {
+      "type": 0,
+      "id": "vis3v",
+      "name": "head_green",
+      "file": null,
+      "width": 116,
+      "height": 49
+    },
+    {
+      "type": 0,
+      "id": "vis3w",
+      "name": "head_grey",
+      "file": null,
+      "width": 116,
+      "height": 49
+    },
+    {
+      "type": 0,
+      "id": "vis3x",
+      "name": "head_red",
+      "file": null,
+      "width": 116,
+      "height": 49
+    },
+    {
+      "type": 0,
+      "id": "vis3y",
+      "name": "head_yellow",
+      "file": null,
+      "width": 116,
+      "height": 49
+    },
+    {
+      "type": 0,
+      "id": "ya6z15",
+      "name": "selectGrid",
+      "file": null,
+      "width": 160,
+      "height": 207
+    },
+    {
+      "type": 0,
+      "id": "ya6z17",
+      "name": "myTurn",
+      "file": null,
+      "width": 542,
+      "height": 139
+    },
+    {
+      "type": 0,
+      "id": "ya6z18",
+      "name": "oppTurn",
+      "file": null,
+      "width": 542,
+      "height": 139
+    },
+    {
+      "type": 1,
+      "id": "lqw08l",
+      "name": "head",
+      "file": null,
+      "width": 592,
+      "height": 368,
+      "interval_ms": 200,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            28,
+            65,
+            413,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08l_0"
+        },
+        {
+          "rect": [
+            59,
+            66,
+            381,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08l_1"
+        },
+        {
+          "rect": [
+            69,
+            66,
+            372,
+            169
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08l_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "lqw08n",
+      "name": "headturn",
+      "file": null,
+      "width": 592,
+      "height": 368,
+      "interval_ms": 166,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            59,
+            66,
+            381,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08n_0"
+        },
+        {
+          "rect": [
+            92,
+            35,
+            330,
+            227
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08n_1"
+        },
+        {
+          "rect": [
+            122,
+            2,
+            209,
+            268
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08n_2"
+        },
+        {
+          "rect": [
+            127,
+            32,
+            330,
+            227
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08n_3"
+        },
+        {
+          "rect": [
+            114,
+            66,
+            381,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "lqw08n_4"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1844,
+      "height": 700
+    }
+  ],
+  "sprites": [
+    {
+      "id": "mcwet",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        701,
+        293
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hr038e",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        295,
+        20,
+        583
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hr038d",
+      "atlas_id": "atlas0",
+      "rect": [
+        585,
+        295,
+        20,
+        583
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ya6z18",
+      "atlas_id": "atlas0",
+      "rect": [
+        703,
+        0,
+        542,
+        139
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ya6z17",
+      "atlas_id": "atlas0",
+      "rect": [
+        703,
+        141,
+        542,
+        139
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vis36",
+      "atlas_id": "atlas0",
+      "rect": [
+        1170,
+        282,
+        335,
+        419
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08l_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1591,
+        282,
+        413,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08n_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1247,
+        0,
+        381,
+        170
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "lqw08n_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        317,
+        381,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08l_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        172,
+        317,
+        381,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08l_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        344,
+        317,
+        372,
+        169
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08n_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        515,
+        317,
+        330,
+        227
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08n_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        744,
+        317,
+        330,
+        227
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqw08n_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1630,
+        0,
+        209,
+        268
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ya6z15",
+      "atlas_id": "atlas0",
+      "rect": [
+        973,
+        317,
+        160,
+        207
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vis3u",
+      "atlas_id": "atlas0",
+      "rect": [
+        973,
+        526,
+        73,
+        118
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vis3t",
+      "atlas_id": "atlas0",
+      "rect": [
+        1048,
+        526,
+        73,
+        118
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vis3s",
+      "atlas_id": "atlas0",
+      "rect": [
+        1048,
+        601,
+        73,
+        118
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vis3r",
+      "atlas_id": "atlas0",
+      "rect": [
+        1168,
+        619,
+        73,
+        118
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vis3w",
+      "atlas_id": "atlas0",
+      "rect": [
+        1288,
+        619,
+        116,
+        49
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vis3x",
+      "atlas_id": "atlas0",
+      "rect": [
+        1406,
+        619,
+        116,
+        49
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vis3y",
+      "atlas_id": "atlas0",
+      "rect": [
+        515,
+        649,
+        116,
+        49
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vis3v",
+      "atlas_id": "atlas0",
+      "rect": [
+        633,
+        649,
+        116,
+        49
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "lqw08u",
+      "atlas_id": "atlas0",
+      "rect": [
+        1247,
+        172,
+        109,
+        93
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/05/05f7b452-eb3d-4b93-959c-762847f21cb2.bin"
+}

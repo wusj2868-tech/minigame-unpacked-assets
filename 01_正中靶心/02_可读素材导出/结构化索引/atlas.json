@@ -1,0 +1,266 @@
+{
+  "name": "atlas",
+  "id": "mad7zgj3",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "dvers",
+      "name": "addBtn",
+      "file": null,
+      "width": 40,
+      "height": 40
+    },
+    {
+      "type": 3,
+      "id": "dvert",
+      "name": "resItem",
+      "file": null,
+      "width": 240,
+      "height": 60
+    },
+    {
+      "type": 3,
+      "id": "f6f1q",
+      "name": "selectAtlasList",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "v0j80",
+      "name": "atlasList",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "v0j84",
+      "name": "atlasItemBtn",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "v0j85",
+      "name": "atlasWnd",
+      "file": null,
+      "width": 840,
+      "height": 414
+    },
+    {
+      "type": 3,
+      "id": "v0j86",
+      "name": "monsterInfoDataCom",
+      "file": null,
+      "width": 700,
+      "height": 180
+    },
+    {
+      "type": 3,
+      "id": "v0j88",
+      "name": "weakenItemBtn",
+      "file": null,
+      "width": 700,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "v0j8d",
+      "name": "atlasInfo",
+      "file": null,
+      "width": 650,
+      "height": 371
+    },
+    {
+      "type": 3,
+      "id": "v0j8e",
+      "name": "closeBg",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "v0j8g",
+      "name": "functionBtn",
+      "file": null,
+      "width": 320,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "v0j8j",
+      "name": "sellBtn",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "ayk610",
+      "name": "bg3",
+      "file": null,
+      "width": 289,
+      "height": 77
+    },
+    {
+      "type": 0,
+      "id": "ayk6y",
+      "name": "bg1",
+      "file": null,
+      "width": 815,
+      "height": 1185
+    },
+    {
+      "type": 0,
+      "id": "ayk6z",
+      "name": "bg2",
+      "file": null,
+      "width": 652,
+      "height": 75
+    },
+    {
+      "type": 0,
+      "id": "d9o111",
+      "name": "atlasBg",
+      "file": null,
+      "width": 204,
+      "height": 205
+    },
+    {
+      "type": 0,
+      "id": "v0j87",
+      "name": "chk1",
+      "file": null,
+      "width": 140,
+      "height": 57
+    },
+    {
+      "type": 0,
+      "id": "v0j8m",
+      "name": "resourceBg",
+      "file": null,
+      "width": 127,
+      "height": 36
+    },
+    {
+      "type": 0,
+      "id": "v0j8n",
+      "name": "resourceBgWnd",
+      "file": null,
+      "width": 47,
+      "height": 47
+    },
+    {
+      "type": 0,
+      "id": "v0j8p",
+      "name": "addIcon",
+      "file": null,
+      "width": 34,
+      "height": 34
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1396,
+      "height": 896
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ayk6y",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        815,
+        1185
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ayk6z",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        817,
+        652,
+        75
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ayk610",
+      "atlas_id": "atlas0",
+      "rect": [
+        654,
+        817,
+        289,
+        77
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d9o111",
+      "atlas_id": "atlas0",
+      "rect": [
+        1187,
+        0,
+        204,
+        205
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "v0j87",
+      "atlas_id": "atlas0",
+      "rect": [
+        945,
+        817,
+        140,
+        57
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "v0j8m",
+      "atlas_id": "atlas0",
+      "rect": [
+        1087,
+        817,
+        127,
+        36
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "v0j8n",
+      "atlas_id": "atlas0",
+      "rect": [
+        1216,
+        817,
+        47,
+        47
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "v0j8p",
+      "atlas_id": "atlas0",
+      "rect": [
+        1087,
+        855,
+        34,
+        34
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/c1/c152e2d3-07c4-4274-8caa-95ea9c68c2a9.bin"
+}

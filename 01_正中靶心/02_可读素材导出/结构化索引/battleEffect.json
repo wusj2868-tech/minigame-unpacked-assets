@@ -1,0 +1,298 @@
+{
+  "name": "battleEffect",
+  "id": "mgh5y114",
+  "version": 2,
+  "items": [
+    {
+      "type": 1,
+      "id": "e9x3b",
+      "name": "shadow",
+      "file": null,
+      "width": 250,
+      "height": 200,
+      "interval_ms": 41,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 1,
+      "frames": [
+        {
+          "rect": [
+            18,
+            27,
+            214,
+            146
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "e9x3b_0"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "o9271",
+      "name": "explosion_idle",
+      "file": null,
+      "width": 400,
+      "height": 660,
+      "interval_ms": 83,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 11,
+      "frames": [
+        {
+          "rect": [
+            140,
+            441,
+            104,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_0"
+        },
+        {
+          "rect": [
+            113,
+            414,
+            163,
+            185
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_1"
+        },
+        {
+          "rect": [
+            109,
+            391,
+            181,
+            214
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_2"
+        },
+        {
+          "rect": [
+            103,
+            369,
+            207,
+            226
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_3"
+        },
+        {
+          "rect": [
+            103,
+            360,
+            207,
+            227
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_4"
+        },
+        {
+          "rect": [
+            107,
+            297,
+            186,
+            288
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_5"
+        },
+        {
+          "rect": [
+            107,
+            283,
+            186,
+            288
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_6"
+        },
+        {
+          "rect": [
+            92,
+            255,
+            196,
+            340
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_7"
+        },
+        {
+          "rect": [
+            92,
+            236,
+            196,
+            340
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_8"
+        },
+        {
+          "rect": [
+            80,
+            113,
+            213,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_9"
+        },
+        {
+          "rect": [
+            80,
+            95,
+            213,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "o9271_10"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 884,
+      "height": 812
+    }
+  ],
+  "sprites": [
+    {
+      "id": "o9271_9",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        213,
+        455
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "o9271_10",
+      "atlas_id": "atlas0",
+      "rect": [
+        457,
+        0,
+        213,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o9271_7",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        215,
+        196,
+        340
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o9271_8",
+      "atlas_id": "atlas0",
+      "rect": [
+        198,
+        215,
+        196,
+        340
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o9271_6",
+      "atlas_id": "atlas0",
+      "rect": [
+        396,
+        457,
+        186,
+        288
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "o9271_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        686,
+        457,
+        186,
+        288
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o9271_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        557,
+        207,
+        227
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "o9271_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        672,
+        0,
+        207,
+        226
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o9271_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        672,
+        228,
+        181,
+        214
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "e9x3b_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        229,
+        557,
+        214,
+        146
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "o9271_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        377,
+        645,
+        163,
+        185
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "o9271_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        564,
+        645,
+        104,
+        136
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/85/85900829-8899-40a6-8b76-74350fd0c104.bin"
+}

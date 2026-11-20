@@ -1,0 +1,841 @@
+{
+  "name": "bulletConfig",
+  "id": "bghqvis4",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "6yd63h",
+      "name": "normal01_config",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 3,
+      "id": "7xkw4v",
+      "name": "normal02_config",
+      "file": null,
+      "width": 100,
+      "height": 94
+    },
+    {
+      "type": 3,
+      "id": "7xkw4x",
+      "name": "normal02_fire_config",
+      "file": null,
+      "width": 100,
+      "height": 94
+    },
+    {
+      "type": 3,
+      "id": "9deg35",
+      "name": "boom1_config",
+      "file": null,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "9deg36",
+      "name": "boom2_config",
+      "file": null,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "9deg37",
+      "name": "grenade_boom_config",
+      "file": null,
+      "width": 250,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "awf31s",
+      "name": "meteoriteBoom_config",
+      "file": null,
+      "width": 300,
+      "height": 569
+    },
+    {
+      "type": 3,
+      "id": "bg9748",
+      "name": "roller2_config",
+      "file": null,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "bxix2r",
+      "name": "stun_config",
+      "file": null,
+      "width": 372,
+      "height": 326
+    },
+    {
+      "type": 3,
+      "id": "cwon3b",
+      "name": "heal3_config",
+      "file": null,
+      "width": 250,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "cwon3c",
+      "name": "heal4_config",
+      "file": null,
+      "width": 250,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "cwon3d",
+      "name": "heal5_config",
+      "file": null,
+      "width": 150,
+      "height": 180
+    },
+    {
+      "type": 3,
+      "id": "cwon3e",
+      "name": "heal6_config",
+      "file": null,
+      "width": 250,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "d81o3v",
+      "name": "firelandblack_config",
+      "file": null,
+      "width": 320,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "d81o3w",
+      "name": "firebirdblack_config",
+      "file": null,
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "d81o3x",
+      "name": "dianju_config",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "d81o3y",
+      "name": "firefloor_config",
+      "file": null,
+      "width": 500,
+      "height": 606
+    },
+    {
+      "type": 3,
+      "id": "d81o3z",
+      "name": "firefloor2_config",
+      "file": null,
+      "width": 500,
+      "height": 606
+    },
+    {
+      "type": 3,
+      "id": "dok938",
+      "name": "laser04_config",
+      "file": null,
+      "width": 50,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "edgv1m",
+      "name": "thunder_config",
+      "file": null,
+      "width": 400,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "edgv1n",
+      "name": "firewall_config",
+      "file": null,
+      "width": 960,
+      "height": 137
+    },
+    {
+      "type": 3,
+      "id": "f72x14",
+      "name": "laser01_config",
+      "file": null,
+      "width": 50,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "f72x15",
+      "name": "tornado_config",
+      "file": null,
+      "width": 500,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "fewt16",
+      "name": "meteorite_config",
+      "file": null,
+      "width": 158,
+      "height": 476
+    },
+    {
+      "type": 3,
+      "id": "fls44c",
+      "name": "cyclone_panda_config",
+      "file": null,
+      "width": 400,
+      "height": 1250
+    },
+    {
+      "type": 3,
+      "id": "fls44d",
+      "name": "cyclone_jp_config",
+      "file": null,
+      "width": 400,
+      "height": 1250
+    },
+    {
+      "type": 3,
+      "id": "fx2z4a",
+      "name": "normalwuya_config",
+      "file": null,
+      "width": 69,
+      "height": 69
+    },
+    {
+      "type": 3,
+      "id": "fx2z4b",
+      "name": "normalwuya_f_config",
+      "file": null,
+      "width": 69,
+      "height": 69
+    },
+    {
+      "type": 3,
+      "id": "g4co2z",
+      "name": "mucus_config",
+      "file": null,
+      "width": 160,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "gabr4i",
+      "name": "rollerap_config",
+      "file": null,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "gabr4j",
+      "name": "rollerap_fire_config",
+      "file": null,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "gusj3j",
+      "name": "crystal2_config",
+      "file": null,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "gusj3k",
+      "name": "crystal2_s_config",
+      "file": null,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "gwjx4k",
+      "name": "lightningzs_config",
+      "file": null,
+      "width": 200,
+      "height": 880
+    },
+    {
+      "type": 3,
+      "id": "hc9r3g",
+      "name": "gun_config",
+      "file": null,
+      "width": 60,
+      "height": 194
+    },
+    {
+      "type": 3,
+      "id": "hfcf4e",
+      "name": "battle2_boom_config",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "hp4s3r",
+      "name": "fireball_pl_config",
+      "file": null,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "hp4s3s",
+      "name": "fireballboom_config",
+      "file": null,
+      "width": 400,
+      "height": 320
+    },
+    {
+      "type": 3,
+      "id": "hp4s3t",
+      "name": "firebirdsp_config",
+      "file": null,
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "hp4s3u",
+      "name": "firebird_config",
+      "file": null,
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "hv6z4t",
+      "name": "bullet_f3_config",
+      "file": null,
+      "width": 60,
+      "height": 170
+    },
+    {
+      "type": 3,
+      "id": "hv6z4u",
+      "name": "bullet_pl3_config",
+      "file": null,
+      "width": 120,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "hx9e4n",
+      "name": "photosphere_config",
+      "file": null,
+      "width": 450,
+      "height": 450
+    },
+    {
+      "type": 3,
+      "id": "i4lx3m",
+      "name": "yueya_config",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "i4lx3n",
+      "name": "yueyaman_config",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "ihom4f",
+      "name": "laserdie_config",
+      "file": null,
+      "width": 50,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "iqxo2",
+      "name": "normal_config",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 3,
+      "id": "iqxo3",
+      "name": "fireball_config",
+      "file": null,
+      "width": 80,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "izfo4m",
+      "name": "gostbu_config",
+      "file": null,
+      "width": 84,
+      "height": 110
+    },
+    {
+      "type": 3,
+      "id": "jvqm44",
+      "name": "jiaoqibig_config",
+      "file": null,
+      "width": 358,
+      "height": 568
+    },
+    {
+      "type": 3,
+      "id": "k3ei4g",
+      "name": "laser0mc_config",
+      "file": null,
+      "width": 50,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "kc7l20",
+      "name": "stun3_config",
+      "file": null,
+      "width": 423,
+      "height": 216
+    },
+    {
+      "type": 3,
+      "id": "ke654h",
+      "name": "laserdie2_config",
+      "file": null,
+      "width": 50,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "lbwy3i",
+      "name": "shield3_config",
+      "file": null,
+      "width": 143,
+      "height": 143
+    },
+    {
+      "type": 3,
+      "id": "li3u40",
+      "name": "dianquan_config",
+      "file": null,
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "li3u41",
+      "name": "dianquansp_config",
+      "file": null,
+      "width": 600,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "lpu62f",
+      "name": "ballflash_config",
+      "file": null,
+      "width": 500,
+      "height": 500
+    },
+    {
+      "type": 3,
+      "id": "lqce1f",
+      "name": "tornado_el_config",
+      "file": null,
+      "width": 500,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "ltfd39",
+      "name": "shield2_config",
+      "file": null,
+      "width": 143,
+      "height": 143
+    },
+    {
+      "type": 3,
+      "id": "ltw931",
+      "name": "burn3_config",
+      "file": null,
+      "width": 200,
+      "height": 220
+    },
+    {
+      "type": 3,
+      "id": "ltw932",
+      "name": "burn4_config",
+      "file": null,
+      "width": 200,
+      "height": 220
+    },
+    {
+      "type": 3,
+      "id": "lymy1u",
+      "name": "stun2_config",
+      "file": null,
+      "width": 372,
+      "height": 326
+    },
+    {
+      "type": 3,
+      "id": "m3upg",
+      "name": "fireland_config",
+      "file": null,
+      "width": 320,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "m3upi",
+      "name": "burn_config",
+      "file": null,
+      "width": 200,
+      "height": 220
+    },
+    {
+      "type": 3,
+      "id": "m5qa3f",
+      "name": "laserwall_config",
+      "file": null,
+      "width": 1200,
+      "height": 50
+    },
+    {
+      "type": 3,
+      "id": "mb4610",
+      "name": "lightning_config",
+      "file": null,
+      "width": 200,
+      "height": 880
+    },
+    {
+      "type": 3,
+      "id": "mb4612",
+      "name": "flash_config",
+      "file": null,
+      "width": 800,
+      "height": 850
+    },
+    {
+      "type": 3,
+      "id": "mb4613",
+      "name": "frozen_config",
+      "file": null,
+      "width": 300,
+      "height": 350
+    },
+    {
+      "type": 3,
+      "id": "mn582t",
+      "name": "summon_config",
+      "file": null,
+      "width": 200,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "njsh2g",
+      "name": "cyclone_config",
+      "file": null,
+      "width": 400,
+      "height": 1250
+    },
+    {
+      "type": 3,
+      "id": "njsh2h",
+      "name": "wheel_config",
+      "file": null,
+      "width": 250,
+      "height": 125
+    },
+    {
+      "type": 3,
+      "id": "noh84o",
+      "name": "bullet_f2_config",
+      "file": null,
+      "width": 60,
+      "height": 170
+    },
+    {
+      "type": 3,
+      "id": "noh84p",
+      "name": "bullet_pl2_config",
+      "file": null,
+      "width": 120,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "ou7c30",
+      "name": "burn2_config",
+      "file": null,
+      "width": 200,
+      "height": 220
+    },
+    {
+      "type": 3,
+      "id": "oywu2u",
+      "name": "crystal_s_config",
+      "file": null,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "pg673a",
+      "name": "heal2_config",
+      "file": null,
+      "width": 250,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "pgf92l",
+      "name": "wheel_up_config",
+      "file": null,
+      "width": 250,
+      "height": 125
+    },
+    {
+      "type": 3,
+      "id": "pgf92m",
+      "name": "wheel_down_config",
+      "file": null,
+      "width": 250,
+      "height": 125
+    },
+    {
+      "type": 3,
+      "id": "pgf92n",
+      "name": "heal_config",
+      "file": null,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "type": 3,
+      "id": "ptpf4q",
+      "name": "thunder4_config",
+      "file": null,
+      "width": 200,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "q14k2e",
+      "name": "mine_config",
+      "file": null,
+      "width": 134,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "r1i242",
+      "name": "foot_config",
+      "file": null,
+      "width": 160,
+      "height": 214
+    },
+    {
+      "type": 3,
+      "id": "r1i243",
+      "name": "footsky_config",
+      "file": null,
+      "width": 356,
+      "height": 568
+    },
+    {
+      "type": 3,
+      "id": "r8gu1p",
+      "name": "crystal_config",
+      "file": null,
+      "width": 400,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "r8gu1q",
+      "name": "laser_pl_config",
+      "file": null,
+      "width": 200,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "r8gu1r",
+      "name": "hole_config",
+      "file": null,
+      "width": 600,
+      "height": 500
+    },
+    {
+      "type": 3,
+      "id": "rd113o",
+      "name": "yueyawu_config",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "s68u45",
+      "name": "thunder2_config",
+      "file": null,
+      "width": 400,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "t8j51h",
+      "name": "roller_fire_config",
+      "file": null,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "t8j51i",
+      "name": "bullet_pl_config",
+      "file": null,
+      "width": 120,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "th5p49",
+      "name": "roller_fire2_config",
+      "file": null,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "uh8q3l",
+      "name": "fireball2_config",
+      "file": null,
+      "width": 80,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "utd247",
+      "name": "healbuff_config",
+      "file": null,
+      "width": 550,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "vrdm2x",
+      "name": "shield_config",
+      "file": null,
+      "width": 143,
+      "height": 143
+    },
+    {
+      "type": 3,
+      "id": "wf3yq",
+      "name": "bullet_f_config",
+      "file": null,
+      "width": 60,
+      "height": 170
+    },
+    {
+      "type": 3,
+      "id": "wf3yt",
+      "name": "roller_config",
+      "file": null,
+      "width": 400,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "x2nh46",
+      "name": "blood_config",
+      "file": null,
+      "width": 50,
+      "height": 550
+    },
+    {
+      "type": 3,
+      "id": "yics4l",
+      "name": "mucusha_config",
+      "file": null,
+      "width": 160,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "zal04r",
+      "name": "thunder3_config",
+      "file": null,
+      "width": 400,
+      "height": 800
+    },
+    {
+      "type": 3,
+      "id": "zal04s",
+      "name": "thunder_pl3_config",
+      "file": null,
+      "width": 400,
+      "height": 800
+    },
+    {
+      "type": 3,
+      "id": "znsw21",
+      "name": "thunder_pl_config",
+      "file": null,
+      "width": 300,
+      "height": 1500
+    },
+    {
+      "type": 3,
+      "id": "znsw22",
+      "name": "normal_sc_config",
+      "file": null,
+      "width": 100,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "znsw23",
+      "name": "meteorite_pl_config",
+      "file": null,
+      "width": 300,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "znsw24",
+      "name": "fireball_l_config",
+      "file": null,
+      "width": 28,
+      "height": 200
+    }
+  ],
+  "sprites": [],
+  "source": "assets/res/raw-assets/08/080304ef-9f91-44c8-8184-d382365b4ddd.bin"
+}

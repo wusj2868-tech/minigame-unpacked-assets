@@ -1,0 +1,64 @@
+{
+  "name": "event7",
+  "id": "ojkluo0h",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "tjn3400",
+      "name": "event1List",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "rx7a403",
+      "name": "event2Bg2",
+      "file": null,
+      "width": 480,
+      "height": 328
+    },
+    {
+      "type": 0,
+      "id": "wqbm402",
+      "name": "event2Bg",
+      "file": null,
+      "width": 600,
+      "height": 727
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 932,
+      "height": 732
+    }
+  ],
+  "sprites": [
+    {
+      "id": "wqbm402",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        600,
+        727
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rx7a403",
+      "atlas_id": "atlas0",
+      "rect": [
+        602,
+        0,
+        480,
+        328
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/ca/cadcb49f-f092-4b56-9510-c71149cd455a.bin"
+}

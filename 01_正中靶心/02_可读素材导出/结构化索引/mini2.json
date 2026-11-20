@@ -1,0 +1,183 @@
+{
+  "name": "mini2",
+  "id": "wtp1j1vr",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "j7upnn",
+      "name": "tipsBtn",
+      "file": null,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "type": 3,
+      "id": "j7upno",
+      "name": "tipsBtn",
+      "file": null,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "type": 3,
+      "id": "mjdm0",
+      "name": "MiniGame2048View",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "mjdm1",
+      "name": "card",
+      "file": null,
+      "width": 375,
+      "height": 486
+    },
+    {
+      "type": 0,
+      "id": "h43pnq",
+      "name": "minigamebg",
+      "file": null,
+      "width": 480,
+      "height": 282
+    },
+    {
+      "type": 0,
+      "id": "hea2ng",
+      "name": "desk44",
+      "file": null,
+      "width": 450,
+      "height": 569
+    },
+    {
+      "type": 0,
+      "id": "ix20np",
+      "name": "btnTips",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "t0rpnj",
+      "name": "back_1_1",
+      "file": null,
+      "width": 375,
+      "height": 486
+    },
+    {
+      "type": 0,
+      "id": "t0rpnk",
+      "name": "back_2_1",
+      "file": null,
+      "width": 375,
+      "height": 486
+    },
+    {
+      "type": 0,
+      "id": "t0rpnl",
+      "name": "opponent1",
+      "file": null,
+      "width": 375,
+      "height": 486
+    },
+    {
+      "type": 0,
+      "id": "t0rpnm",
+      "name": "defWin",
+      "file": null,
+      "width": 500,
+      "height": 175
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1696,
+      "height": 764
+    }
+  ],
+  "sprites": [
+    {
+      "id": "hea2ng",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        450,
+        569
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "t0rpnm",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        571,
+        500,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "t0rpnj",
+      "atlas_id": "atlas0",
+      "rect": [
+        452,
+        0,
+        375,
+        486
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "t0rpnk",
+      "atlas_id": "atlas0",
+      "rect": [
+        829,
+        0,
+        375,
+        486
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "t0rpnl",
+      "atlas_id": "atlas0",
+      "rect": [
+        1206,
+        0,
+        375,
+        486
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h43pnq",
+      "atlas_id": "atlas0",
+      "rect": [
+        1206,
+        377,
+        480,
+        282
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ix20np",
+      "atlas_id": "atlas0",
+      "rect": [
+        1206,
+        661,
+        100,
+        100
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/dc/dc57bbb4-7f03-4b2d-a0b1-c9b747a7def3.bin"
+}

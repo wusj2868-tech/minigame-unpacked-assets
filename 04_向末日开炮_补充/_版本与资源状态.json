@@ -1,0 +1,18 @@
+{
+  "folder": "04_向末日开炮_补充",
+  "name": "向末日开炮（补充）",
+  "package": "com.tencent.tmgp.dmlt.xmrkp",
+  "version": "1.12",
+  "status": "原始解压完整；768个AB中767个完成读取；1个登录背景自定义容器未解码，原文件仍完整保留。3个零尺寸动态字体纹理无静态位图。",
+  "original_entries": 2042,
+  "original_bytes": 471956177,
+  "readable_exports": {
+    "PNG": 4341,
+    "Material_JSON": 2294,
+    "OBJ": 2262,
+    "TextAsset": 3250,
+    "AnimationClip_JSON": 368,
+    "FontFile": 3,
+    "FloatTexture_DATA": 1
+  }
+}

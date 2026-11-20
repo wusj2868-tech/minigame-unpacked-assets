@@ -1,0 +1,1526 @@
+{
+  "name": "apprentice",
+  "id": "4xffpibp",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "bh0m0",
+      "name": "apprenticeItem",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "bs821",
+      "name": "apprenticeBanner",
+      "file": null,
+      "width": 869,
+      "height": 1278
+    },
+    {
+      "type": 3,
+      "id": "bs822",
+      "name": "talent",
+      "file": null,
+      "width": 136,
+      "height": 40
+    },
+    {
+      "type": 3,
+      "id": "bs825",
+      "name": "apprenticeSkill",
+      "file": null,
+      "width": 278,
+      "height": 495
+    },
+    {
+      "type": 3,
+      "id": "c8z417",
+      "name": "apprSuccinctTipsWnd",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "c8z418",
+      "name": "apprSuccinctItem",
+      "file": null,
+      "width": 680,
+      "height": 85
+    },
+    {
+      "type": 3,
+      "id": "cdg91r",
+      "name": "apprenticeItem2",
+      "file": null,
+      "width": 250,
+      "height": 338
+    },
+    {
+      "type": 3,
+      "id": "efyz3zs",
+      "name": "apprentice_keyinpack",
+      "file": null,
+      "width": 834,
+      "height": 960
+    },
+    {
+      "type": 3,
+      "id": "efyz3zt",
+      "name": "apprentice_keyin",
+      "file": null,
+      "width": 834,
+      "height": 1111
+    },
+    {
+      "type": 3,
+      "id": "efyz3zu",
+      "name": "keyinItem",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "efyz3zv",
+      "name": "apprentice_keyin_selectless",
+      "file": null,
+      "width": 860,
+      "height": 1500
+    },
+    {
+      "type": 3,
+      "id": "efyz3zw",
+      "name": "shaixuanCom_keyin",
+      "file": null,
+      "width": 366,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "efyz3zx",
+      "name": "apprentice_keyinitem",
+      "file": null,
+      "width": 983,
+      "height": 209
+    },
+    {
+      "type": 3,
+      "id": "eiko77e3yv",
+      "name": "Apprentice_Trial",
+      "file": null,
+      "width": 533,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "eiko77e3zp",
+      "name": "Apprentice_Trial_item",
+      "file": null,
+      "width": 470,
+      "height": 354
+    },
+    {
+      "type": 3,
+      "id": "fcgo36",
+      "name": "apprentice_jiejing",
+      "file": null,
+      "width": 834,
+      "height": 887
+    },
+    {
+      "type": 3,
+      "id": "fx2z34",
+      "name": "apprenticeSmallInfoWnd",
+      "file": null,
+      "width": 895,
+      "height": 218
+    },
+    {
+      "type": 3,
+      "id": "g0vg2y",
+      "name": "xuetu_qualitytbtn",
+      "file": null,
+      "width": 180,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "h6vk28",
+      "name": "apprenticeSkill22222",
+      "file": null,
+      "width": 800,
+      "height": 381
+    },
+    {
+      "type": 3,
+      "id": "h6vk29",
+      "name": "xueutubuffTipsItem",
+      "file": null,
+      "width": 160,
+      "height": 160
+    },
+    {
+      "type": 3,
+      "id": "hiif2b",
+      "name": "touchCom",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "iigc66",
+      "name": "keyin_succinctWnd",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "iigc67",
+      "name": "keyin_equipWordEntryView",
+      "file": null,
+      "width": 680,
+      "height": 85
+    },
+    {
+      "type": 3,
+      "id": "j6n832",
+      "name": "xuetuoneKeyWnd",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "j9nx3zr",
+      "name": "apprentice_expProgress",
+      "file": null,
+      "width": 700,
+      "height": 29
+    },
+    {
+      "type": 3,
+      "id": "jkhw2c",
+      "name": "apprenticepaixu",
+      "file": null,
+      "width": 650,
+      "height": 557
+    },
+    {
+      "type": 3,
+      "id": "jpnh27",
+      "name": "apprenticeSkillbeiyong",
+      "file": null,
+      "width": 701,
+      "height": 208
+    },
+    {
+      "type": 3,
+      "id": "kphm2t",
+      "name": "xuetu_equipSortBtn",
+      "file": null,
+      "width": 180,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "ohfo2d",
+      "name": "apprentice_chuanchengxilian2",
+      "file": null,
+      "width": 834,
+      "height": 1158
+    },
+    {
+      "type": 3,
+      "id": "ohfo2e",
+      "name": "apprenticeshaixuanttext",
+      "file": null,
+      "width": 411,
+      "height": 511
+    },
+    {
+      "type": 3,
+      "id": "ohfo2f",
+      "name": "chuanchengshaixuan_text",
+      "file": null,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "ohfo2i",
+      "name": "xilianchishichengzhang",
+      "file": null,
+      "width": 245,
+      "height": 60
+    },
+    {
+      "type": 3,
+      "id": "oslp77e3zt",
+      "name": "apprenticeshaixuanttext3",
+      "file": null,
+      "width": 200,
+      "height": 255
+    },
+    {
+      "type": 3,
+      "id": "p8c63zy",
+      "name": "apprentice_keyinInfoWnd",
+      "file": null,
+      "width": 983,
+      "height": 285
+    },
+    {
+      "type": 3,
+      "id": "q2zl2l",
+      "name": "shaixuanCom",
+      "file": null,
+      "width": 862,
+      "height": 78
+    },
+    {
+      "type": 3,
+      "id": "q2zl2m",
+      "name": "apprenticeshaixuanttext2",
+      "file": null,
+      "width": 400,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "uko27",
+      "name": "challengeBanner",
+      "file": null,
+      "width": 857,
+      "height": 740
+    },
+    {
+      "type": 3,
+      "id": "v38k21",
+      "name": "apprenticespecial",
+      "file": null,
+      "width": 895,
+      "height": 1386
+    },
+    {
+      "type": 3,
+      "id": "v38k22",
+      "name": "talentTextList",
+      "file": null,
+      "width": 130,
+      "height": 30
+    },
+    {
+      "type": 3,
+      "id": "v38k23",
+      "name": "talentText",
+      "file": null,
+      "width": 130,
+      "height": 30
+    },
+    {
+      "type": 3,
+      "id": "x9loa",
+      "name": "apprentice_chuancheng",
+      "file": null,
+      "width": 834,
+      "height": 1296
+    },
+    {
+      "type": 3,
+      "id": "x9los",
+      "name": "apprenticexilian",
+      "file": null,
+      "width": 800,
+      "height": 787
+    },
+    {
+      "type": 3,
+      "id": "x9lot",
+      "name": "apprenticeskillTextList",
+      "file": null,
+      "width": 130,
+      "height": 40
+    },
+    {
+      "type": 3,
+      "id": "x9lou",
+      "name": "apprenticeskilltext",
+      "file": null,
+      "width": 350,
+      "height": 130
+    },
+    {
+      "type": 3,
+      "id": "x9low",
+      "name": "apprentice_select",
+      "file": null,
+      "width": 900,
+      "height": 241
+    },
+    {
+      "type": 3,
+      "id": "x9loy",
+      "name": "apprentice_chuangchengitem",
+      "file": null,
+      "width": 983,
+      "height": 285
+    },
+    {
+      "type": 3,
+      "id": "x9loz",
+      "name": "apprentice_chuangchenglist",
+      "file": null,
+      "width": 860,
+      "height": 1500
+    },
+    {
+      "type": 0,
+      "id": "cdg91p",
+      "name": "xuetuback1",
+      "file": null,
+      "width": 418,
+      "height": 747
+    },
+    {
+      "type": 0,
+      "id": "cdg91q",
+      "name": "xuetuback3",
+      "file": null,
+      "width": 200,
+      "height": 187
+    },
+    {
+      "type": 0,
+      "id": "cdg91s",
+      "name": "titlexuetu",
+      "file": null,
+      "width": 276,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "d4ru3zz",
+      "name": "keyin_lv1",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "d4ru400",
+      "name": "keyin_lv4",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "d4ru401",
+      "name": "keyin_lv3",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "d4ru402",
+      "name": "keyin_lv2",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "efyz66",
+      "name": "xuetu_keyin_back",
+      "file": null,
+      "width": 900,
+      "height": 816
+    },
+    {
+      "type": 0,
+      "id": "gzr025",
+      "name": "fenjiexian",
+      "file": null,
+      "width": 765,
+      "height": 6
+    },
+    {
+      "type": 0,
+      "id": "gzr026",
+      "name": "xuetu_hui2",
+      "file": null,
+      "width": 120,
+      "height": 37
+    },
+    {
+      "type": 0,
+      "id": "jb0r10",
+      "name": "88",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "jb0r12",
+      "name": "xuetuwenhao",
+      "file": null,
+      "width": 169,
+      "height": 169
+    },
+    {
+      "type": 0,
+      "id": "kphm2n",
+      "name": "xuetutitleback",
+      "file": null,
+      "width": 384,
+      "height": 95
+    },
+    {
+      "type": 0,
+      "id": "kphm2r",
+      "name": "xuetuback",
+      "file": null,
+      "width": 817,
+      "height": 358
+    },
+    {
+      "type": 0,
+      "id": "kphm2s",
+      "name": "xuetubackback",
+      "file": null,
+      "width": 305,
+      "height": 446
+    },
+    {
+      "type": 0,
+      "id": "o35q19",
+      "name": "xuetushangzhen",
+      "file": null,
+      "width": 52,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "o4zv1a",
+      "name": "xuetu_2",
+      "file": null,
+      "width": 206,
+      "height": 302
+    },
+    {
+      "type": 0,
+      "id": "o4zv1b",
+      "name": "xuetu_1",
+      "file": null,
+      "width": 208,
+      "height": 321
+    },
+    {
+      "type": 0,
+      "id": "o4zv1c",
+      "name": "xuetukuang_1",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1d",
+      "name": "xuetukuang_7",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1e",
+      "name": "xuetukuang_6",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1f",
+      "name": "xuetukuang_5",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1g",
+      "name": "xuetukuang_4",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1h",
+      "name": "xuetukuang_3",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1i",
+      "name": "xuetukuang_2",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "o4zv1j",
+      "name": "xuetuskill",
+      "file": null,
+      "width": 277,
+      "height": 493
+    },
+    {
+      "type": 0,
+      "id": "o4zv1k",
+      "name": "weijiesuo",
+      "file": null,
+      "width": 277,
+      "height": 493
+    },
+    {
+      "type": 0,
+      "id": "o4zv1l",
+      "name": "jiantou",
+      "file": null,
+      "width": 118,
+      "height": 105
+    },
+    {
+      "type": 0,
+      "id": "o4zv1m",
+      "name": "xuetu_hui",
+      "file": null,
+      "width": 176,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "o4zv1n",
+      "name": "xuetu_white",
+      "file": null,
+      "width": 176,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "o7h62v",
+      "name": "xuetuyixuan",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "ohfo2g",
+      "name": "xilian_btn",
+      "file": null,
+      "width": 230,
+      "height": 68
+    },
+    {
+      "type": 0,
+      "id": "oinu77e3zq",
+      "name": "xuetu_sl_back",
+      "file": null,
+      "width": 414,
+      "height": 324
+    },
+    {
+      "type": 0,
+      "id": "ol0o1v",
+      "name": "caise",
+      "file": null,
+      "width": 198,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "ol0o1x",
+      "name": "caiseback",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "ol0o1y",
+      "name": "xuetusuo",
+      "file": null,
+      "width": 176,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "uqps77e3zr",
+      "name": "app_guid_icon",
+      "file": null,
+      "width": 165,
+      "height": 160
+    },
+    {
+      "type": 0,
+      "id": "uqps77e3zs",
+      "name": "app_team_icon",
+      "file": null,
+      "width": 165,
+      "height": 160
+    },
+    {
+      "type": 0,
+      "id": "x9log",
+      "name": "4",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 0,
+      "id": "x9loh",
+      "name": "2",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 0,
+      "id": "x9loi",
+      "name": "3",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 0,
+      "id": "x9loj",
+      "name": "7",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 0,
+      "id": "x9lok",
+      "name": "6",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 0,
+      "id": "x9lol",
+      "name": "5",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 0,
+      "id": "x9lom",
+      "name": "77",
+      "file": null,
+      "width": 169,
+      "height": 169
+    },
+    {
+      "type": 0,
+      "id": "x9lon",
+      "name": "66",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "x9loo",
+      "name": "55",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "x9lop",
+      "name": "44",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "x9loq",
+      "name": "33",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "x9lor",
+      "name": "22",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 1,
+      "id": "ol0o1u",
+      "name": "xuetulevelup",
+      "file": null,
+      "width": 155,
+      "height": 231,
+      "interval_ms": 83,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 8,
+      "frames": [
+        {
+          "rect": [
+            1,
+            124,
+            153,
+            100
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_0"
+        },
+        {
+          "rect": [
+            0,
+            85,
+            155,
+            146
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_1"
+        },
+        {
+          "rect": [
+            0,
+            5,
+            155,
+            219
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_2"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            155,
+            230
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_3"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            155,
+            231
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_4"
+        },
+        {
+          "rect": [
+            2,
+            0,
+            153,
+            223
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_5"
+        },
+        {
+          "rect": [
+            0,
+            5,
+            155,
+            219
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_6"
+        },
+        {
+          "rect": [
+            0,
+            85,
+            155,
+            146
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ol0o1u_7"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1976,
+      "height": 1920
+    }
+  ],
+  "sprites": [
+    {
+      "id": "efyz66",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        900,
+        816
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kphm2r",
+      "atlas_id": "atlas0",
+      "rect": [
+        902,
+        0,
+        817,
+        358
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gzr025",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        818,
+        765,
+        6
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cdg91p",
+      "atlas_id": "atlas0",
+      "rect": [
+        8,
+        818,
+        418,
+        747
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1k",
+      "atlas_id": "atlas0",
+      "rect": [
+        428,
+        818,
+        277,
+        493
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1j",
+      "atlas_id": "atlas0",
+      "rect": [
+        707,
+        819,
+        277,
+        493
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kphm2s",
+      "atlas_id": "atlas0",
+      "rect": [
+        1202,
+        819,
+        305,
+        446
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oinu77e3zq",
+      "atlas_id": "atlas0",
+      "rect": [
+        1262,
+        0,
+        414,
+        324
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kphm2n",
+      "atlas_id": "atlas0",
+      "rect": [
+        1262,
+        416,
+        384,
+        95
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1b",
+      "atlas_id": "atlas0",
+      "rect": [
+        1588,
+        0,
+        208,
+        321
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1a",
+      "atlas_id": "atlas0",
+      "rect": [
+        1262,
+        513,
+        206,
+        302
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cdg91s",
+      "atlas_id": "atlas0",
+      "rect": [
+        1588,
+        323,
+        276,
+        62
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9loi",
+      "atlas_id": "atlas0",
+      "rect": [
+        1798,
+        0,
+        155,
+        231
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9lol",
+      "atlas_id": "atlas0",
+      "rect": [
+        707,
+        1098,
+        155,
+        231
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9loh",
+      "atlas_id": "atlas0",
+      "rect": [
+        428,
+        1313,
+        155,
+        231
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9log",
+      "atlas_id": "atlas0",
+      "rect": [
+        864,
+        1098,
+        155,
+        231
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9loj",
+      "atlas_id": "atlas0",
+      "rect": [
+        1021,
+        1098,
+        155,
+        231
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ol0o1u_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1178,
+        1267,
+        155,
+        231
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "x9lok",
+      "atlas_id": "atlas0",
+      "rect": [
+        1411,
+        1267,
+        155,
+        231
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ol0o1u_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1509,
+        721,
+        155,
+        230
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ohfo2g",
+      "atlas_id": "atlas0",
+      "rect": [
+        1262,
+        721,
+        230,
+        68
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ol0o1u_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1648,
+        387,
+        153,
+        223
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ol0o1u_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1566,
+        542,
+        155,
+        219
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ol0o1u_6",
+      "atlas_id": "atlas0",
+      "rect": [
+        1509,
+        953,
+        155,
+        219
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d4ru402",
+      "atlas_id": "atlas0",
+      "rect": [
+        1666,
+        699,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d4ru401",
+      "atlas_id": "atlas0",
+      "rect": [
+        585,
+        1331,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d4ru3zz",
+      "atlas_id": "atlas0",
+      "rect": [
+        787,
+        1331,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cdg91q",
+      "atlas_id": "atlas0",
+      "rect": [
+        989,
+        1424,
+        200,
+        187
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d4ru400",
+      "atlas_id": "atlas0",
+      "rect": [
+        787,
+        1533,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1g",
+      "atlas_id": "atlas0",
+      "rect": [
+        428,
+        1546,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1i",
+      "atlas_id": "atlas0",
+      "rect": [
+        8,
+        1567,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1d",
+      "atlas_id": "atlas0",
+      "rect": [
+        208,
+        1567,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1h",
+      "atlas_id": "atlas0",
+      "rect": [
+        1178,
+        1424,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1378,
+        1500,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1c",
+      "atlas_id": "atlas0",
+      "rect": [
+        1178,
+        1624,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1f",
+      "atlas_id": "atlas0",
+      "rect": [
+        1568,
+        1110,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ol0o1v",
+      "atlas_id": "atlas0",
+      "rect": [
+        1730,
+        901,
+        198,
+        198
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1m",
+      "atlas_id": "atlas0",
+      "rect": [
+        1798,
+        233,
+        176,
+        62
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o4zv1n",
+      "atlas_id": "atlas0",
+      "rect": [
+        989,
+        1331,
+        176,
+        62
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ol0o1y",
+      "atlas_id": "atlas0",
+      "rect": [
+        1787,
+        542,
+        176,
+        62
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "jb0r12",
+      "atlas_id": "atlas0",
+      "rect": [
+        989,
+        1626,
+        169,
+        169
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9lom",
+      "atlas_id": "atlas0",
+      "rect": [
+        628,
+        1735,
+        169,
+        169
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ol0o1x",
+      "atlas_id": "atlas0",
+      "rect": [
+        799,
+        1746,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "jb0r10",
+      "atlas_id": "atlas0",
+      "rect": [
+        408,
+        1746,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9loq",
+      "atlas_id": "atlas0",
+      "rect": [
+        1568,
+        1310,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9lor",
+      "atlas_id": "atlas0",
+      "rect": [
+        1578,
+        1480,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9lon",
+      "atlas_id": "atlas0",
+      "rect": [
+        1738,
+        1310,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9loo",
+      "atlas_id": "atlas0",
+      "rect": [
+        1768,
+        1101,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x9lop",
+      "atlas_id": "atlas0",
+      "rect": [
+        1578,
+        1650,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uqps77e3zs",
+      "atlas_id": "atlas0",
+      "rect": [
+        1378,
+        1700,
+        165,
+        160
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uqps77e3zr",
+      "atlas_id": "atlas0",
+      "rect": [
+        1748,
+        1480,
+        165,
+        160
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ol0o1u_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        628,
+        1533,
+        155,
+        146
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ol0o1u_7",
+      "atlas_id": "atlas0",
+      "rect": [
+        1748,
+        1647,
+        155,
+        146
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ol0o1u_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        969,
+        1797,
+        153,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "gzr026",
+      "atlas_id": "atlas0",
+      "rect": [
+        1124,
+        1797,
+        120,
+        37
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "o4zv1l",
+      "atlas_id": "atlas0",
+      "rect": [
+        1748,
+        1804,
+        118,
+        105
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o7h62v",
+      "atlas_id": "atlas0",
+      "rect": [
+        1868,
+        1804,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o35q19",
+      "atlas_id": "atlas0",
+      "rect": [
+        1866,
+        297,
+        52,
+        62
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/ef/efb5e485-957d-4896-8a6a-8b55a3434777.bin"
+}

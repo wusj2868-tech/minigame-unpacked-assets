@@ -1,0 +1,99 @@
+{
+  "name": "equipEffect",
+  "id": "jijq337w",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "rscl5",
+      "name": "equipEffect_Kill",
+      "file": null,
+      "width": 82,
+      "height": 97
+    },
+    {
+      "type": 3,
+      "id": "s1ib3",
+      "name": "wallEffect_01",
+      "file": null,
+      "width": 960,
+      "height": 338
+    },
+    {
+      "type": 3,
+      "id": "s1ib4",
+      "name": "wallEffect_02",
+      "file": null,
+      "width": 960,
+      "height": 338
+    },
+    {
+      "type": 0,
+      "id": "hf7e6",
+      "name": "wall01",
+      "file": null,
+      "width": 960,
+      "height": 338
+    },
+    {
+      "type": 0,
+      "id": "hf7e8",
+      "name": "wall02",
+      "file": null,
+      "width": 960,
+      "height": 338
+    },
+    {
+      "type": 0,
+      "id": "s1ib0",
+      "name": "kill",
+      "file": null,
+      "width": 82,
+      "height": 97
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 964,
+      "height": 780
+    }
+  ],
+  "sprites": [
+    {
+      "id": "hf7e6",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        960,
+        338
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hf7e8",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        340,
+        960,
+        338
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "s1ib0",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        680,
+        82,
+        97
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/fc/fc4c71a3-0fb8-4065-8209-5a559a47847d.bin"
+}

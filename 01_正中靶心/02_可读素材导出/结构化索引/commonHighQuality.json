@@ -1,0 +1,1025 @@
+{
+  "name": "commonHighQuality",
+  "id": "lj05g4hx",
+  "version": 2,
+  "items": [
+    {
+      "type": 0,
+      "id": "10b4j77e3yv",
+      "name": "guildIcon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "83or77e3vx",
+      "name": "scrollIcon",
+      "file": null,
+      "width": 102,
+      "height": 81
+    },
+    {
+      "type": 0,
+      "id": "83or77e3vy",
+      "name": "build_mataerialIcon",
+      "file": null,
+      "width": 101,
+      "height": 94
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3wx",
+      "name": "key1Icon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3wy",
+      "name": "key2Icon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3yt",
+      "name": "daibi2Icon",
+      "file": null,
+      "width": 110,
+      "height": 111
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3yu",
+      "name": "eventItemIcon9Icon",
+      "file": null,
+      "width": 109,
+      "height": 112
+    },
+    {
+      "type": 0,
+      "id": "d7re3zs",
+      "name": "jj_growupIcon",
+      "file": null,
+      "width": 101,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "d7re3zt",
+      "name": "jj_firstbloodIcon",
+      "file": null,
+      "width": 101,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "dver77e3vw",
+      "name": "muscleIcon",
+      "file": null,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "type": 0,
+      "id": "dyzc3od",
+      "name": "equip_drawing3Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "dyzc3oe",
+      "name": "equip_drawing2Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "dyzc3of",
+      "name": "equip_drawing1Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "ente1o",
+      "name": "xuetuexpIcon",
+      "file": null,
+      "width": 100,
+      "height": 117
+    },
+    {
+      "type": 0,
+      "id": "ev1377e3w5",
+      "name": "skinIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "eyqr77e3wp",
+      "name": "eventItemIcon3",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "f2ci77e3z6",
+      "name": "shilian_Icon",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 0,
+      "id": "f9hq77e3wr",
+      "name": "eventItem3Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "g8043o8",
+      "name": "scienceIcon",
+      "file": null,
+      "width": 100,
+      "height": 98
+    },
+    {
+      "type": 0,
+      "id": "g8043o9",
+      "name": "goldIcon",
+      "file": null,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "type": 0,
+      "id": "g8043oa",
+      "name": "jadeIcon",
+      "file": null,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "type": 0,
+      "id": "g8043oc",
+      "name": "addIcon",
+      "file": null,
+      "width": 79,
+      "height": 79
+    },
+    {
+      "type": 0,
+      "id": "gusj77e3w8",
+      "name": "eventItem2Icon",
+      "file": null,
+      "width": 100,
+      "height": 104
+    },
+    {
+      "type": 0,
+      "id": "hbf377e3w4",
+      "name": "secretIcon",
+      "file": null,
+      "width": 120,
+      "height": 103
+    },
+    {
+      "type": 0,
+      "id": "hex077e3yx",
+      "name": "gem_drawing7Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "hex077e3yy",
+      "name": "gem_drawing9Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "hex077e3z1",
+      "name": "gem_drawing5Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "hex077e3z2",
+      "name": "gem_drawing6Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "hex077e3z3",
+      "name": "dustIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "hmh977e3yv",
+      "name": "guildboxIcon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "hohk77e3yq",
+      "name": "daibiIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "ihom77e3wv",
+      "name": "eventItemIcon6Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3ys",
+      "name": "eventItemIcon8Icon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "j62s77e3wt",
+      "name": "eventItemIcon5Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "j6ct77e3ws",
+      "name": "eventItemIcon4Icon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "k23e77e3w3",
+      "name": "pointsIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "kvkw77e3wu",
+      "name": "advanceIcon",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "n2gx3og",
+      "name": "equip_drawing0Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "n6w877e3w6",
+      "name": "enlightenmentIcon",
+      "file": null,
+      "width": 80,
+      "height": 80
+    },
+    {
+      "type": 0,
+      "id": "nkaw77e3z4",
+      "name": "qqsIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "nkaw77e3z5",
+      "name": "znxsIcon",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "oe7577e3vz",
+      "name": "bonusIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "pnn816",
+      "name": "equip_drawing5Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "pnn817",
+      "name": "equip_drawing6Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "pnn818",
+      "name": "equip_drawing4Icon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "pq0m77e3w0",
+      "name": "expIconBig",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "q2zlw",
+      "name": "prayerIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rshf77e3w1",
+      "name": "expIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "srpi77e3w7",
+      "name": "eventItemIcon2",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "u81i77e3w2",
+      "name": "succinctIcon",
+      "file": null,
+      "width": 100,
+      "height": 106
+    },
+    {
+      "type": 0,
+      "id": "v0j8o",
+      "name": "soulIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "wqbm77e3wq",
+      "name": "eventItemIcon",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "yics77e3yr",
+      "name": "eventItemIcon7Icon",
+      "file": null,
+      "width": 98,
+      "height": 92
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 960,
+      "height": 636
+    }
+  ],
+  "sprites": [
+    {
+      "id": "f2ci77e3z6",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nkaw77e3z5",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        202,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d7re3zt",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        354,
+        101,
+        128
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d7re3zs",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        484,
+        101,
+        128
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hbf377e3w4",
+      "atlas_id": "atlas0",
+      "rect": [
+        103,
+        354,
+        120,
+        103
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ente1o",
+      "atlas_id": "atlas0",
+      "rect": [
+        152,
+        202,
+        100,
+        117
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz777e3yu",
+      "atlas_id": "atlas0",
+      "rect": [
+        103,
+        476,
+        109,
+        112
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz777e3yt",
+      "atlas_id": "atlas0",
+      "rect": [
+        208,
+        321,
+        110,
+        111
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "u81i77e3w2",
+      "atlas_id": "atlas0",
+      "rect": [
+        254,
+        434,
+        100,
+        106
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "gusj77e3w8",
+      "atlas_id": "atlas0",
+      "rect": [
+        356,
+        434,
+        100,
+        104
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "83or77e3vx",
+      "atlas_id": "atlas0",
+      "rect": [
+        356,
+        540,
+        102,
+        81
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "83or77e3vy",
+      "atlas_id": "atlas0",
+      "rect": [
+        460,
+        540,
+        101,
+        94
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dyzc3of",
+      "atlas_id": "atlas0",
+      "rect": [
+        202,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dyzc3oe",
+      "atlas_id": "atlas0",
+      "rect": [
+        254,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pnn816",
+      "atlas_id": "atlas0",
+      "rect": [
+        304,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dyzc3od",
+      "atlas_id": "atlas0",
+      "rect": [
+        254,
+        204,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pq0m77e3w0",
+      "atlas_id": "atlas0",
+      "rect": [
+        320,
+        306,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rshf77e3w1",
+      "atlas_id": "atlas0",
+      "rect": [
+        356,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "n2gx3og",
+      "atlas_id": "atlas0",
+      "rect": [
+        422,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "k23e77e3w3",
+      "atlas_id": "atlas0",
+      "rect": [
+        524,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pnn817",
+      "atlas_id": "atlas0",
+      "rect": [
+        626,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ev1377e3w5",
+      "atlas_id": "atlas0",
+      "rect": [
+        356,
+        204,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pnn818",
+      "atlas_id": "atlas0",
+      "rect": [
+        422,
+        306,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "srpi77e3w7",
+      "atlas_id": "atlas0",
+      "rect": [
+        458,
+        408,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "v0j8o",
+      "atlas_id": "atlas0",
+      "rect": [
+        458,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "g8043o8",
+      "atlas_id": "atlas0",
+      "rect": [
+        458,
+        204,
+        100,
+        98
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oe7577e3vz",
+      "atlas_id": "atlas0",
+      "rect": [
+        524,
+        306,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q2zlw",
+      "atlas_id": "atlas0",
+      "rect": [
+        626,
+        306,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "wqbm77e3wq",
+      "atlas_id": "atlas0",
+      "rect": [
+        728,
+        306,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "f9hq77e3wr",
+      "atlas_id": "atlas0",
+      "rect": [
+        558,
+        204,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr77e3wp",
+      "atlas_id": "atlas0",
+      "rect": [
+        560,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j62s77e3wt",
+      "atlas_id": "atlas0",
+      "rect": [
+        660,
+        204,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hex077e3z3",
+      "atlas_id": "atlas0",
+      "rect": [
+        662,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ihom77e3wv",
+      "atlas_id": "atlas0",
+      "rect": [
+        762,
+        204,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hohk77e3yq",
+      "atlas_id": "atlas0",
+      "rect": [
+        728,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hex077e3z1",
+      "atlas_id": "atlas0",
+      "rect": [
+        764,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nkaw77e3z4",
+      "atlas_id": "atlas0",
+      "rect": [
+        830,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hex077e3yx",
+      "atlas_id": "atlas0",
+      "rect": [
+        830,
+        306,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hex077e3z2",
+      "atlas_id": "atlas0",
+      "rect": [
+        560,
+        408,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hex077e3yy",
+      "atlas_id": "atlas0",
+      "rect": [
+        563,
+        510,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "yics77e3yr",
+      "atlas_id": "atlas0",
+      "rect": [
+        864,
+        204,
+        98,
+        92
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "n6w877e3w6",
+      "atlas_id": "atlas0",
+      "rect": [
+        866,
+        102,
+        80,
+        80
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "g8043oc",
+      "atlas_id": "atlas0",
+      "rect": [
+        214,
+        542,
+        79,
+        79
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dver77e3vw",
+      "atlas_id": "atlas0",
+      "rect": [
+        662,
+        408,
+        64,
+        64
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "g8043oa",
+      "atlas_id": "atlas0",
+      "rect": [
+        665,
+        474,
+        64,
+        64
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "g8043o9",
+      "atlas_id": "atlas0",
+      "rect": [
+        728,
+        408,
+        64,
+        64
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "10b4j77e3yv",
+      "atlas_id": "atlas0",
+      "rect": [
+        665,
+        540,
+        60,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kvkw77e3wu",
+      "atlas_id": "atlas0",
+      "rect": [
+        727,
+        540,
+        60,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j6ct77e3ws",
+      "atlas_id": "atlas0",
+      "rect": [
+        731,
+        474,
+        60,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz777e3wx",
+      "atlas_id": "atlas0",
+      "rect": [
+        789,
+        536,
+        60,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3ys",
+      "atlas_id": "atlas0",
+      "rect": [
+        793,
+        474,
+        60,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hmh977e3yv",
+      "atlas_id": "atlas0",
+      "rect": [
+        851,
+        536,
+        60,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz777e3wy",
+      "atlas_id": "atlas0",
+      "rect": [
+        794,
+        408,
+        60,
+        60
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/15/15832e14-233d-4c72-ad40-0e22152ba778.bin"
+}

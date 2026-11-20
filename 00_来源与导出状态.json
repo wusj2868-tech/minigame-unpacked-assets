@@ -1,0 +1,76 @@
+{
+  "created_date": "2026-11-20",
+  "games": [
+    {
+      "folder": "01_正中靶心",
+      "name": "正中靶心",
+      "package": "com.openew.game.td",
+      "version": "34.0",
+      "status": "原始解压完整；Cocos/FGUI素材与JSON已导出。镜像来源，未对官方签名。",
+      "original_entries": 1969,
+      "original_bytes": 230942244,
+      "readable_exports": {
+        "配置JSON": 25,
+        "原始图像": 185,
+        "精灵PNG": 2169,
+        "动画帧PNG": 1558,
+        "动画定义": 374,
+        "GIF预览": 374
+      },
+      "source_apk_sha256": "da57e5d435e2a2e46fae4c7889def17d23197e4a9d75d2bc48277802182ba5c5",
+      "source_apk_bytes": 150745980
+    },
+    {
+      "folder": "02_向僵尸开炮",
+      "name": "向僵尸开炮",
+      "package": "com.xjskp.gztv1.hnsc",
+      "version": "1.10",
+      "status": "原始解压完整；3811个AB完成读取，静态素材已导出；17个零尺寸动态字体纹理无静态位图。",
+      "original_entries": 6046,
+      "original_bytes": 477959086,
+      "readable_exports": {
+        "TextAsset": 1031,
+        "AnimationClip_JSON": 1430,
+        "Material_JSON": 4671,
+        "PNG": 3212,
+        "FontFile": 12,
+        "OBJ": 214
+      },
+      "source_apk_sha256": "b2fbbd7a71dea76843de28a7b336db93679164bf1666490303c7b6323983c657",
+      "source_apk_bytes": 351279819
+    },
+    {
+      "folder": "03_永远的蔚蓝星球",
+      "name": "永远的蔚蓝星球",
+      "package": "com.yydwlxqcy02.cs",
+      "version": "3.0.5",
+      "status": "原始解压完整；可读构建索引及目录清点已提供；核心Unity容器保护未恢复，未声称已导出游戏贴图。",
+      "original_entries": 33227,
+      "original_bytes": 1321188925,
+      "readable_exports": {},
+      "source_apk_sha256": "70e7037bea47816b0d36ac09be7660a2f79dc620b2576d8d3f950731979c9480",
+      "source_apk_bytes": 1162763684
+    },
+    {
+      "folder": "04_向末日开炮_补充",
+      "name": "向末日开炮（补充）",
+      "package": "com.tencent.tmgp.dmlt.xmrkp",
+      "version": "1.12",
+      "status": "原始解压完整；768个AB中767个完成读取；1个登录背景自定义容器未解码，原文件仍完整保留。3个零尺寸动态字体纹理无静态位图。",
+      "original_entries": 2042,
+      "original_bytes": 471956177,
+      "readable_exports": {
+        "PNG": 4341,
+        "Material_JSON": 2294,
+        "OBJ": 2262,
+        "TextAsset": 3250,
+        "AnimationClip_JSON": 368,
+        "FontFile": 3,
+        "FloatTexture_DATA": 1
+      },
+      "source_apk_sha256": "52856fd9fac2c68ff61bc24864fe3ba05aed367bea64f6dfed57892cf831747b",
+      "source_apk_bytes": 374233373
+    }
+  ],
+  "note": "The ZIP contains all original APK file entries plus separately generated exports; original APK install files and ZIP-external signing blocks are not duplicated."
+}

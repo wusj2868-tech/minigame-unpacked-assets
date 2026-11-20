@@ -1,0 +1,406 @@
+{
+  "name": "hard",
+  "id": "16i48szq",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "mgcmb",
+      "name": "hardLevelCom",
+      "file": null,
+      "width": 720,
+      "height": 500
+    },
+    {
+      "type": 3,
+      "id": "reih6",
+      "name": "hard_levelItem",
+      "file": null,
+      "width": 720,
+      "height": 500
+    },
+    {
+      "type": 3,
+      "id": "s68um",
+      "name": "hard_kangxingtips",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "mgcm9",
+      "name": "hard_door_open",
+      "file": null,
+      "width": 790,
+      "height": 560
+    },
+    {
+      "type": 0,
+      "id": "mgcma",
+      "name": "hard_door_effect",
+      "file": null,
+      "width": 230,
+      "height": 300
+    },
+    {
+      "type": 0,
+      "id": "p5to1",
+      "name": "hard_background",
+      "file": null,
+      "width": 480,
+      "height": 1000
+    },
+    {
+      "type": 0,
+      "id": "p5to2",
+      "name": "hard_door_lock",
+      "file": null,
+      "width": 790,
+      "height": 560
+    },
+    {
+      "type": 0,
+      "id": "q3wad",
+      "name": "skeleton",
+      "file": null,
+      "width": 124,
+      "height": 152
+    },
+    {
+      "type": 0,
+      "id": "rhq0n",
+      "name": "miyan",
+      "file": null,
+      "width": 87,
+      "height": 101
+    },
+    {
+      "type": 0,
+      "id": "rhq0o",
+      "name": "hard_downlan",
+      "file": null,
+      "width": 900,
+      "height": 148
+    },
+    {
+      "type": 0,
+      "id": "rhq0p",
+      "name": "hard_chosekuang",
+      "file": null,
+      "width": 195,
+      "height": 152
+    },
+    {
+      "type": 0,
+      "id": "rhq0q",
+      "name": "hard_toplan",
+      "file": null,
+      "width": 900,
+      "height": 148
+    },
+    {
+      "type": 0,
+      "id": "ye91e",
+      "name": "migicBook2",
+      "file": null,
+      "width": 238,
+      "height": 303
+    },
+    {
+      "type": 0,
+      "id": "ye91f",
+      "name": "magicBook",
+      "file": null,
+      "width": 238,
+      "height": 303
+    },
+    {
+      "type": 0,
+      "id": "ye91g",
+      "name": "magicBg3",
+      "file": null,
+      "width": 900,
+      "height": 497
+    },
+    {
+      "type": 0,
+      "id": "ye91h",
+      "name": "hardNmae",
+      "file": null,
+      "width": 380,
+      "height": 54
+    },
+    {
+      "type": 0,
+      "id": "ye91i",
+      "name": "bg",
+      "file": null,
+      "width": 761,
+      "height": 476
+    },
+    {
+      "type": 1,
+      "id": "q3wac",
+      "name": "bluefire",
+      "file": null,
+      "width": 51,
+      "height": 74,
+      "interval_ms": 166,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            4,
+            11,
+            39,
+            60
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "q3wac_0"
+        },
+        {
+          "rect": [
+            4,
+            0,
+            41,
+            74
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "q3wac_1"
+        },
+        {
+          "rect": [
+            2,
+            3,
+            48,
+            68
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "q3wac_2"
+        },
+        {
+          "rect": [
+            1,
+            8,
+            44,
+            63
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "q3wac_3"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1912,
+      "height": 1660
+    }
+  ],
+  "sprites": [
+    {
+      "id": "p5to1",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        480,
+        1000
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rhq0o",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1002,
+        900,
+        148
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rhq0q",
+      "atlas_id": "atlas0",
+      "rect": [
+        482,
+        0,
+        900,
+        148
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ye91g",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1152,
+        900,
+        497
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "p5to2",
+      "atlas_id": "atlas0",
+      "rect": [
+        632,
+        0,
+        790,
+        560
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "mgcm9",
+      "atlas_id": "atlas0",
+      "rect": [
+        902,
+        792,
+        790,
+        560
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ye91i",
+      "atlas_id": "atlas0",
+      "rect": [
+        1194,
+        0,
+        761,
+        476
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ye91h",
+      "atlas_id": "atlas0",
+      "rect": [
+        902,
+        1584,
+        380,
+        54
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ye91e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1672,
+        0,
+        238,
+        303
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ye91f",
+      "atlas_id": "atlas0",
+      "rect": [
+        1672,
+        305,
+        238,
+        303
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "mgcma",
+      "atlas_id": "atlas0",
+      "rect": [
+        1672,
+        610,
+        230,
+        300
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rhq0p",
+      "atlas_id": "atlas0",
+      "rect": [
+        1464,
+        763,
+        195,
+        152
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q3wad",
+      "atlas_id": "atlas0",
+      "rect": [
+        1464,
+        917,
+        124,
+        152
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rhq0n",
+      "atlas_id": "atlas0",
+      "rect": [
+        482,
+        902,
+        87,
+        101
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "q3wac_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1284,
+        1584,
+        41,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q3wac_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1327,
+        1584,
+        48,
+        68
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q3wac_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1377,
+        1584,
+        44,
+        63
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "q3wac_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1423,
+        1584,
+        39,
+        60
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/53/5398f5f0-1c7c-4eed-9109-3232da94fed3.bin"
+}

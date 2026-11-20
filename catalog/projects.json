@@ -1,0 +1,61 @@
+{
+  "repository": "wusj2868-tech/minigame-unpacked-assets",
+  "release": "v2026.11.20",
+  "status": "uploading",
+  "layout": "One complete, independently extractable ZIP per game. Each archive includes original APK files, actual decoded exports, tools, README and its own per-file SHA256 manifest.",
+  "date": "2026-11-20",
+  "projects": [
+    {
+      "id": "01",
+      "folder": "01_正中靶心",
+      "slug": "zhengzhongbaxin",
+      "name": "正中靶心",
+      "version": "34.0",
+      "asset_name": "01-zhengzhongbaxin-v34.0-20261120.zip",
+      "files": 6728,
+      "uncompressed_bytes": 481919133,
+      "estimated_zip_bytes": 387635948,
+      "status": "pending",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/01-zhengzhongbaxin-v34.0-20261120.zip"
+    },
+    {
+      "id": "02",
+      "folder": "02_向僵尸开炮",
+      "slug": "xiangjiangshikaipao",
+      "name": "向僵尸开炮",
+      "version": "1.10",
+      "asset_name": "02-xiangjiangshikaipao-v1.10-20261120.zip",
+      "files": 20439,
+      "uncompressed_bytes": 1053394571,
+      "estimated_zip_bytes": 818799132,
+      "status": "pending",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip"
+    },
+    {
+      "id": "03",
+      "folder": "03_永远的蔚蓝星球",
+      "slug": "blueplanet",
+      "name": "永远的蔚蓝星球",
+      "version": "3.0.5",
+      "asset_name": "03-blueplanet-v3.0.5-20261120.zip",
+      "files": 33232,
+      "uncompressed_bytes": 1325340946,
+      "estimated_zip_bytes": 1157458456,
+      "status": "pending",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip"
+    },
+    {
+      "id": "04",
+      "folder": "04_向末日开炮_补充",
+      "slug": "xiangmorikaipao",
+      "name": "向末日开炮（补充）",
+      "version": "1.12",
+      "asset_name": "04-xiangmorikaipao-v1.12-20261120.zip",
+      "files": 15339,
+      "uncompressed_bytes": 1327666649,
+      "estimated_zip_bytes": 1069729034,
+      "status": "pending",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip"
+    }
+  ]
+}

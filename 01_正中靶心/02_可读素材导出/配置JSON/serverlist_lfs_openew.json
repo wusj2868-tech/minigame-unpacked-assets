@@ -1,0 +1,12 @@
+{
+  "status": 0,
+  "message": "",
+  "version": "1",
+  "servers": [
+    {
+      "host": "server.chess.openew.com",
+      "port": 9104,
+      "wssport": 9105
+    }
+  ]
+}

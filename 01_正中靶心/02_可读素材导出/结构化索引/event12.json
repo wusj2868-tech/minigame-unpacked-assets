@@ -1,0 +1,519 @@
+{
+  "name": "event12",
+  "id": "teihri7d",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "qanu77e3yp",
+      "name": "shopBtn",
+      "file": null,
+      "width": 180,
+      "height": 66
+    },
+    {
+      "type": 3,
+      "id": "cd160",
+      "name": "event12",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "hohk5u",
+      "name": "event12resItem",
+      "file": null,
+      "width": 300,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "hxmo3",
+      "name": "shop_daibi_item",
+      "file": null,
+      "width": 157,
+      "height": 234
+    },
+    {
+      "type": 3,
+      "id": "ihom77e3ym",
+      "name": "event12_show",
+      "file": null,
+      "width": 533,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "ihomr",
+      "name": "rewardbox",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 3,
+      "id": "nrbx6",
+      "name": "coronaCom",
+      "file": null,
+      "width": 300,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "nrbx7",
+      "name": "coronaNumCom",
+      "file": null,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "cumu8",
+      "name": "zp",
+      "file": null,
+      "width": 368,
+      "height": 368
+    },
+    {
+      "type": 0,
+      "id": "cumu9",
+      "name": "bx6",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "cumua",
+      "name": "bx5",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "cumub",
+      "name": "bx4",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "cumuc",
+      "name": "bx3",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "cumud",
+      "name": "bx2",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "cumue",
+      "name": "bx1",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "cumuf",
+      "name": "22",
+      "file": null,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "cumug",
+      "name": "11",
+      "file": null,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "cumuh",
+      "name": "3",
+      "file": null,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "cumui",
+      "name": "1",
+      "file": null,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "cumuj",
+      "name": "2",
+      "file": null,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "type": 0,
+      "id": "cumuk",
+      "name": "btn2",
+      "file": null,
+      "width": 234,
+      "height": 117
+    },
+    {
+      "type": 0,
+      "id": "cumul",
+      "name": "btn1",
+      "file": null,
+      "width": 234,
+      "height": 117
+    },
+    {
+      "type": 0,
+      "id": "cumum",
+      "name": "back1",
+      "file": null,
+      "width": 521,
+      "height": 49
+    },
+    {
+      "type": 0,
+      "id": "cumun",
+      "name": "hand",
+      "file": null,
+      "width": 104,
+      "height": 97
+    },
+    {
+      "type": 0,
+      "id": "cumup",
+      "name": "back2",
+      "file": null,
+      "width": 352,
+      "height": 104
+    },
+    {
+      "type": 0,
+      "id": "cumuq",
+      "name": "event12_back",
+      "file": null,
+      "width": 695,
+      "height": 1106
+    },
+    {
+      "type": 0,
+      "id": "hohk77e3yr",
+      "name": "back_b",
+      "file": null,
+      "width": 250,
+      "height": 340
+    },
+    {
+      "type": 0,
+      "id": "hohk77e3ys",
+      "name": "title",
+      "file": null,
+      "width": 392,
+      "height": 76
+    },
+    {
+      "type": 0,
+      "id": "ihoms",
+      "name": "bx7",
+      "file": null,
+      "width": 512,
+      "height": 432
+    },
+    {
+      "type": 0,
+      "id": "ihomt",
+      "name": "baodi",
+      "file": null,
+      "width": 229,
+      "height": 41
+    },
+    {
+      "type": 0,
+      "id": "k3ei77e3yu",
+      "name": "event12_btn",
+      "file": null,
+      "width": 167,
+      "height": 68
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1976,
+      "height": 1536
+    }
+  ],
+  "sprites": [
+    {
+      "id": "cumuq",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        695,
+        1106
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumum",
+      "atlas_id": "atlas0",
+      "rect": [
+        1108,
+        0,
+        521,
+        49
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumu9",
+      "atlas_id": "atlas0",
+      "rect": [
+        1108,
+        523,
+        512,
+        432
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumua",
+      "atlas_id": "atlas0",
+      "rect": [
+        1159,
+        0,
+        512,
+        432
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumuc",
+      "atlas_id": "atlas0",
+      "rect": [
+        1542,
+        434,
+        512,
+        432
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumub",
+      "atlas_id": "atlas0",
+      "rect": [
+        1542,
+        948,
+        512,
+        432
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumue",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        697,
+        512,
+        432
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumud",
+      "atlas_id": "atlas0",
+      "rect": [
+        514,
+        697,
+        512,
+        432
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ihoms",
+      "atlas_id": "atlas0",
+      "rect": [
+        948,
+        1037,
+        512,
+        432
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hohk77e3ys",
+      "atlas_id": "atlas0",
+      "rect": [
+        1462,
+        1037,
+        392,
+        76
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumu8",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1131,
+        368,
+        368
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumup",
+      "atlas_id": "atlas0",
+      "rect": [
+        370,
+        1131,
+        352,
+        104
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hohk77e3yr",
+      "atlas_id": "atlas0",
+      "rect": [
+        1673,
+        0,
+        250,
+        340
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumuk",
+      "atlas_id": "atlas0",
+      "rect": [
+        948,
+        697,
+        234,
+        117
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumul",
+      "atlas_id": "atlas0",
+      "rect": [
+        476,
+        1211,
+        234,
+        117
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ihomt",
+      "atlas_id": "atlas0",
+      "rect": [
+        1673,
+        342,
+        229,
+        41
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "k3ei77e3yu",
+      "atlas_id": "atlas0",
+      "rect": [
+        712,
+        1211,
+        167,
+        68
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumun",
+      "atlas_id": "atlas0",
+      "rect": [
+        948,
+        933,
+        104,
+        97
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumug",
+      "atlas_id": "atlas0",
+      "rect": [
+        1462,
+        1431,
+        100,
+        60
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumui",
+      "atlas_id": "atlas0",
+      "rect": [
+        476,
+        1330,
+        100,
+        60
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumuh",
+      "atlas_id": "atlas0",
+      "rect": [
+        578,
+        1330,
+        100,
+        60
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumuf",
+      "atlas_id": "atlas0",
+      "rect": [
+        476,
+        1392,
+        100,
+        60
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cumuj",
+      "atlas_id": "atlas0",
+      "rect": [
+        640,
+        1330,
+        100,
+        60
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/44/44c575ed-20ef-4197-80f2-ccdb404a4919.bin"
+}

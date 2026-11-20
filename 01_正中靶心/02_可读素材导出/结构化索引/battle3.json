@@ -1,0 +1,149 @@
+{
+  "name": "battle3",
+  "id": "vypauwpc",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "i0z577e3zs",
+      "name": "progres",
+      "file": null,
+      "width": 700,
+      "height": 29
+    },
+    {
+      "type": 3,
+      "id": "i0z577e3zu",
+      "name": "partner_Trial",
+      "file": null,
+      "width": 533,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "lz5s77e3zy",
+      "name": "battle3_order",
+      "file": null,
+      "width": 180,
+      "height": 111
+    },
+    {
+      "type": 3,
+      "id": "m2vv0",
+      "name": "challenge3Banner",
+      "file": null,
+      "width": 856,
+      "height": 725
+    },
+    {
+      "type": 3,
+      "id": "m2vv77e3za",
+      "name": "battle3_order_new",
+      "file": null,
+      "width": 180,
+      "height": 290
+    },
+    {
+      "type": 3,
+      "id": "m2vv77e3zt",
+      "name": "team_watch_item",
+      "file": null,
+      "width": 350,
+      "height": 532
+    },
+    {
+      "type": 3,
+      "id": "m2vv77e3zu",
+      "name": "battle3_team",
+      "file": null,
+      "width": 934,
+      "height": 1562
+    },
+    {
+      "type": 3,
+      "id": "m2vv77e3zv",
+      "name": "teamlist",
+      "file": null,
+      "width": 1271,
+      "height": 681
+    },
+    {
+      "type": 3,
+      "id": "mq6n77e3zt",
+      "name": "battle3_levelBtn",
+      "file": null,
+      "width": 180,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "mq6n77e3zw",
+      "name": "challenge3Banner_room",
+      "file": null,
+      "width": 993,
+      "height": 759
+    },
+    {
+      "type": 3,
+      "id": "mq6n77e3zx",
+      "name": "team_show",
+      "file": null,
+      "width": 619,
+      "height": 489
+    },
+    {
+      "type": 3,
+      "id": "nkaw400",
+      "name": "jindu",
+      "file": null,
+      "width": 588,
+      "height": 730
+    },
+    {
+      "type": 3,
+      "id": "nkaw77e402",
+      "name": "jindu_item",
+      "file": null,
+      "width": 379,
+      "height": 223
+    },
+    {
+      "type": 3,
+      "id": "rx7a77e401",
+      "name": "shopPanel",
+      "file": null,
+      "width": 960,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "un4i77e400",
+      "name": "battle3_back",
+      "file": null,
+      "width": 428,
+      "height": 335
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 428,
+      "height": 335
+    }
+  ],
+  "sprites": [
+    {
+      "id": "un4i77e400",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        428,
+        335
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/7a/7a22d101-3216-4f19-acb0-ed063a79fb85.bin"
+}

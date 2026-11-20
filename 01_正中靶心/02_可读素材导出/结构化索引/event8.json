@@ -1,0 +1,91 @@
+{
+  "name": "event8",
+  "id": "wiurbmpo",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "ug7j40h",
+      "name": "ticketDown",
+      "file": null,
+      "width": 748,
+      "height": 202
+    },
+    {
+      "type": 3,
+      "id": "oque40c",
+      "name": "ticket",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "ug7j40d",
+      "name": "bg",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "ug7j40e",
+      "name": "titleBg",
+      "file": null,
+      "width": 748,
+      "height": 202
+    },
+    {
+      "type": 0,
+      "id": "ug7j40f",
+      "name": "title",
+      "file": null,
+      "width": 748,
+      "height": 202
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1612,
+      "height": 804
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ug7j40d",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ug7j40f",
+      "atlas_id": "atlas0",
+      "rect": [
+        1202,
+        0,
+        748,
+        202
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ug7j40e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1406,
+        0,
+        748,
+        202
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/df/df57757d-a629-48e5-8a26-5c867401de7b.bin"
+}

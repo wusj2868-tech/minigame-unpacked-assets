@@ -1,0 +1,404 @@
+{
+  "name": "bulletApprentice",
+  "id": "uzb18ajs",
+  "version": 2,
+  "items": [
+    {
+      "type": 1,
+      "id": "hv6z4e",
+      "name": "crystal3",
+      "file": null,
+      "width": 400,
+      "height": 300,
+      "interval_ms": 41,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 10,
+      "frames": [
+        {
+          "rect": [
+            82,
+            92,
+            228,
+            203
+          ],
+          "add_delay_ms": 41,
+          "sprite_id": "hv6z4e_0"
+        },
+        {
+          "rect": [
+            64,
+            61,
+            263,
+            234
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6z4e_1"
+        },
+        {
+          "rect": [
+            56,
+            2,
+            278,
+            293
+          ],
+          "add_delay_ms": 41,
+          "sprite_id": "hv6z4e_2"
+        },
+        {
+          "rect": [
+            39,
+            7,
+            319,
+            288
+          ],
+          "add_delay_ms": 41,
+          "sprite_id": "hv6z4e_3"
+        },
+        {
+          "rect": [
+            39,
+            5,
+            319,
+            290
+          ],
+          "add_delay_ms": 41,
+          "sprite_id": "hv6z4e_4"
+        },
+        {
+          "rect": [
+            11,
+            0,
+            377,
+            295
+          ],
+          "add_delay_ms": 41,
+          "sprite_id": "hv6z4e_5"
+        },
+        {
+          "rect": [
+            11,
+            0,
+            377,
+            295
+          ],
+          "add_delay_ms": 625,
+          "sprite_id": "hv6z4e_6"
+        },
+        {
+          "rect": [
+            30,
+            8,
+            345,
+            253
+          ],
+          "add_delay_ms": 41,
+          "sprite_id": "hv6z4e_7"
+        },
+        {
+          "rect": [
+            30,
+            6,
+            345,
+            253
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6z4e_8"
+        },
+        {
+          "rect": [
+            30,
+            5,
+            345,
+            251
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6z4e_9"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "r2m80",
+      "name": "bullet_f3",
+      "file": null,
+      "width": 60,
+      "height": 170,
+      "interval_ms": 125,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            14,
+            15,
+            36,
+            140
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "r2m80_0"
+        },
+        {
+          "rect": [
+            14,
+            15,
+            36,
+            138
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "r2m80_1"
+        },
+        {
+          "rect": [
+            13,
+            19,
+            38,
+            132
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "r2m80_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "r2m81",
+      "name": "bullet_pl3",
+      "file": null,
+      "width": 120,
+      "height": 200,
+      "interval_ms": 125,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            16,
+            6,
+            91,
+            172
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "r2m81_0"
+        },
+        {
+          "rect": [
+            15,
+            7,
+            93,
+            171
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "r2m81_1"
+        },
+        {
+          "rect": [
+            15,
+            12,
+            93,
+            166
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "r2m81_2"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas1",
+      "name": null,
+      "file": "atlas1.png",
+      "width": 428,
+      "height": 180
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1528,
+      "height": 636
+    }
+  ],
+  "sprites": [
+    {
+      "id": "r2m81_0",
+      "atlas_id": "atlas1",
+      "rect": [
+        0,
+        0,
+        91,
+        172
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "r2m81_1",
+      "atlas_id": "atlas1",
+      "rect": [
+        93,
+        0,
+        93,
+        171
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "r2m81_2",
+      "atlas_id": "atlas1",
+      "rect": [
+        188,
+        0,
+        93,
+        166
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "r2m80_0",
+      "atlas_id": "atlas1",
+      "rect": [
+        283,
+        0,
+        36,
+        140
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "r2m80_1",
+      "atlas_id": "atlas1",
+      "rect": [
+        283,
+        38,
+        36,
+        138
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "r2m80_2",
+      "atlas_id": "atlas1",
+      "rect": [
+        321,
+        38,
+        38,
+        132
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6z4e_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        377,
+        295
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6z4e_6",
+      "atlas_id": "atlas0",
+      "rect": [
+        297,
+        0,
+        377,
+        295
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6z4e_7",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        379,
+        345,
+        253
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6z4e_9",
+      "atlas_id": "atlas0",
+      "rect": [
+        347,
+        379,
+        345,
+        251
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6z4e_8",
+      "atlas_id": "atlas0",
+      "rect": [
+        694,
+        379,
+        345,
+        253
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6z4e_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        594,
+        0,
+        319,
+        288
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6z4e_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        884,
+        0,
+        319,
+        290
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6z4e_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1041,
+        321,
+        278,
+        293
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6z4e_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1176,
+        0,
+        263,
+        234
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6z4e_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1321,
+        265,
+        228,
+        203
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/cd/cd4f7689-a480-4f69-8ff4-3408da00ca61.bin"
+}

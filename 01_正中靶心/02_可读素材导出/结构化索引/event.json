@@ -1,0 +1,2717 @@
+{
+  "name": "event",
+  "id": "pyb1y4wf",
+  "version": 2,
+  "items": [
+    {
+      "type": 1,
+      "id": "quql3zq",
+      "name": "open",
+      "file": null,
+      "width": 320,
+      "height": 616,
+      "interval_ms": 166,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            1,
+            117,
+            317,
+            498
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "quql3zq_0"
+        },
+        {
+          "rect": [
+            0,
+            117,
+            319,
+            498
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "quql3zq_1"
+        },
+        {
+          "rect": [
+            0,
+            115,
+            319,
+            501
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "quql3zq_2"
+        },
+        {
+          "rect": [
+            0,
+            71,
+            319,
+            544
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "quql3zq_3"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            319,
+            615
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "quql3zq_4"
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "id": "9u060",
+      "name": "eventGacha",
+      "file": null,
+      "width": 950,
+      "height": 1300
+    },
+    {
+      "type": 3,
+      "id": "9u06g",
+      "name": "eventGachaPayBtn",
+      "file": null,
+      "width": 220,
+      "height": 220
+    },
+    {
+      "type": 3,
+      "id": "b54277e3wu",
+      "name": "everyrewardItemBig",
+      "file": null,
+      "width": 180,
+      "height": 180
+    },
+    {
+      "type": 3,
+      "id": "bzz777e3zk",
+      "name": "progress_small",
+      "file": null,
+      "width": 600,
+      "height": 14
+    },
+    {
+      "type": 3,
+      "id": "ddye77e3zm",
+      "name": "pay_noodles_grip",
+      "file": null,
+      "width": 28,
+      "height": 28
+    },
+    {
+      "type": 3,
+      "id": "ddye77e3zn",
+      "name": "pay_noodles",
+      "file": null,
+      "width": 462,
+      "height": 14
+    },
+    {
+      "type": 3,
+      "id": "ddye77e3zo",
+      "name": "buy_confirm",
+      "file": null,
+      "width": 900,
+      "height": 661
+    },
+    {
+      "type": 3,
+      "id": "fgfn401",
+      "name": "eventBox",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "fls477e3yn",
+      "name": "dig_show_ist",
+      "file": null,
+      "width": 338,
+      "height": 313
+    },
+    {
+      "type": 3,
+      "id": "gdk63zl",
+      "name": "eventExchange2",
+      "file": null,
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "gdk63zm",
+      "name": "resItem2",
+      "file": null,
+      "width": 240,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "gqly3zt",
+      "name": "eventRewardItem",
+      "file": null,
+      "width": 350,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "gydu20",
+      "name": "limitGift",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "gydu21",
+      "name": "BuyBtn",
+      "file": null,
+      "width": 428,
+      "height": 170
+    },
+    {
+      "type": 3,
+      "id": "gydu22",
+      "name": "limitSect",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "hxmo5",
+      "name": "shop_daibi",
+      "file": null,
+      "width": 791,
+      "height": 1219
+    },
+    {
+      "type": 3,
+      "id": "j62s7",
+      "name": "skip",
+      "file": null,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "j62s77e3ym",
+      "name": "dig_show_best_list",
+      "file": null,
+      "width": 470,
+      "height": 354
+    },
+    {
+      "type": 3,
+      "id": "k4as24",
+      "name": "limitGiftList",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "k4as25",
+      "name": "changeBtn",
+      "file": null,
+      "width": 428,
+      "height": 170
+    },
+    {
+      "type": 3,
+      "id": "koqe4c",
+      "name": "enterGameBtn",
+      "file": null,
+      "width": 300,
+      "height": 160
+    },
+    {
+      "type": 3,
+      "id": "kuai40n",
+      "name": "celebration_btn",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "kuai40o",
+      "name": "celebration_btn2",
+      "file": null,
+      "width": 250,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "l1a71",
+      "name": "rewardListItem",
+      "file": null,
+      "width": 325,
+      "height": 148
+    },
+    {
+      "type": 3,
+      "id": "llrz40i",
+      "name": "rewardMoveView",
+      "file": null,
+      "width": 960,
+      "height": 2400
+    },
+    {
+      "type": 3,
+      "id": "lp783zo",
+      "name": "redPacketItem",
+      "file": null,
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "type": 3,
+      "id": "n6f127",
+      "name": "event1",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "nq1147",
+      "name": "eventCommonSpecific",
+      "file": null,
+      "width": 800,
+      "height": 1205
+    },
+    {
+      "type": 3,
+      "id": "nsjk0",
+      "name": "eventCommon",
+      "file": null,
+      "width": 800,
+      "height": 1330
+    },
+    {
+      "type": 3,
+      "id": "nsjk1a",
+      "name": "event",
+      "file": null,
+      "width": 860,
+      "height": 1265
+    },
+    {
+      "type": 3,
+      "id": "nsjk1d",
+      "name": "functionChk_event",
+      "file": null,
+      "width": 250,
+      "height": 104
+    },
+    {
+      "type": 3,
+      "id": "nsjk1h",
+      "name": "redHint2",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 3,
+      "id": "nsjk2",
+      "name": "eventItem",
+      "file": null,
+      "width": 760,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "nsjk5",
+      "name": "functionBtn",
+      "file": null,
+      "width": 200,
+      "height": 87
+    },
+    {
+      "type": 3,
+      "id": "nsjku",
+      "name": "ScrollBar",
+      "file": null,
+      "width": 4,
+      "height": 800
+    },
+    {
+      "type": 3,
+      "id": "nsjkw",
+      "name": "ScrollBar_grip",
+      "file": null,
+      "width": 20,
+      "height": 204
+    },
+    {
+      "type": 3,
+      "id": "nsjky",
+      "name": "eventExchange",
+      "file": null,
+      "width": 800,
+      "height": 1330
+    },
+    {
+      "type": 3,
+      "id": "nsjkz",
+      "name": "eventExchangeItem",
+      "file": null,
+      "width": 760,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "oque404",
+      "name": "progress1",
+      "file": null,
+      "width": 700,
+      "height": 29
+    },
+    {
+      "type": 3,
+      "id": "oque405",
+      "name": "eventBoxReward",
+      "file": null,
+      "width": 100,
+      "height": 160
+    },
+    {
+      "type": 3,
+      "id": "oque40a",
+      "name": "activityRewardInfoWnd",
+      "file": null,
+      "width": 240,
+      "height": 217
+    },
+    {
+      "type": 3,
+      "id": "oque40b",
+      "name": "experienceItem",
+      "file": null,
+      "width": 700,
+      "height": 109
+    },
+    {
+      "type": 3,
+      "id": "pkgs2a",
+      "name": "getBoxView",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "pkgs3q",
+      "name": "eventChainItem",
+      "file": null,
+      "width": 800,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "qqnk77e3wy",
+      "name": "eventRewardItem2",
+      "file": null,
+      "width": 700,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "qqnk77e3wz",
+      "name": "eventRewardList2",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "qt534e",
+      "name": "eventChainIdBind",
+      "file": null,
+      "width": 900,
+      "height": 900
+    },
+    {
+      "type": 3,
+      "id": "qt534f",
+      "name": "eventChainIdBindInfo",
+      "file": null,
+      "width": 900,
+      "height": 960
+    },
+    {
+      "type": 3,
+      "id": "quql3zp",
+      "name": "openPack",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "rafh9b",
+      "name": "nullBar",
+      "file": null,
+      "width": 600,
+      "height": 14
+    },
+    {
+      "type": 3,
+      "id": "rafh9c",
+      "name": "bur",
+      "file": null,
+      "width": 600,
+      "height": 14
+    },
+    {
+      "type": 3,
+      "id": "rf9w1p",
+      "name": "functionChk_endlessrank",
+      "file": null,
+      "width": 250,
+      "height": 104
+    },
+    {
+      "type": 3,
+      "id": "rl6w4h",
+      "name": "eventExchangeItem2",
+      "file": null,
+      "width": 300,
+      "height": 480
+    },
+    {
+      "type": 3,
+      "id": "s20d4g",
+      "name": "resItem",
+      "file": null,
+      "width": 256,
+      "height": 60
+    },
+    {
+      "type": 3,
+      "id": "ug7j40g",
+      "name": "ticketUp",
+      "file": null,
+      "width": 800,
+      "height": 300
+    },
+    {
+      "type": 3,
+      "id": "un4i77e3zr",
+      "name": "event_signupItem",
+      "file": null,
+      "width": 760,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "un4i77e3zt",
+      "name": "signrewardItem",
+      "file": null,
+      "width": 115,
+      "height": 115
+    },
+    {
+      "type": 3,
+      "id": "un4i77e3zu",
+      "name": "eventsignup",
+      "file": null,
+      "width": 800,
+      "height": 1330
+    },
+    {
+      "type": 3,
+      "id": "v3ly77e3xf",
+      "name": "shit",
+      "file": null,
+      "width": 166,
+      "height": 147
+    },
+    {
+      "type": 3,
+      "id": "vpvc26",
+      "name": "eventItem2",
+      "file": null,
+      "width": 760,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "wyjb40j",
+      "name": "eventBox2",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "zhkf77e3xd",
+      "name": "eventRewardList2Move",
+      "file": null,
+      "width": 700,
+      "height": 940
+    },
+    {
+      "type": 3,
+      "id": "zndn45",
+      "name": "garyBg",
+      "file": null,
+      "width": 800,
+      "height": 1400
+    },
+    {
+      "type": 0,
+      "id": "9u0614",
+      "name": "textBg",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "9u0618",
+      "name": "refreshIcon2",
+      "file": null,
+      "width": 75,
+      "height": 75
+    },
+    {
+      "type": 0,
+      "id": "9u062",
+      "name": "chk2_1",
+      "file": null,
+      "width": 183,
+      "height": 88
+    },
+    {
+      "type": 0,
+      "id": "9u063",
+      "name": "chk2_2",
+      "file": null,
+      "width": 183,
+      "height": 88
+    },
+    {
+      "type": 0,
+      "id": "9u064",
+      "name": "chk2_2_bright",
+      "file": null,
+      "width": 183,
+      "height": 88
+    },
+    {
+      "type": 0,
+      "id": "9u06c",
+      "name": "chainBg",
+      "file": null,
+      "width": 480,
+      "height": 853
+    },
+    {
+      "type": 0,
+      "id": "9u06d",
+      "name": "oneGachaIcon2",
+      "file": null,
+      "width": 65,
+      "height": 65
+    },
+    {
+      "type": 0,
+      "id": "9u06e",
+      "name": "oneGachaIcon1",
+      "file": null,
+      "width": 65,
+      "height": 65
+    },
+    {
+      "type": 0,
+      "id": "9u06f",
+      "name": "oneGachaLight1",
+      "file": null,
+      "width": 92,
+      "height": 92
+    },
+    {
+      "type": 0,
+      "id": "9u06h",
+      "name": "gacha1",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "9u06i",
+      "name": "inkIconExp2",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "9u06j",
+      "name": "gacha10",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "9u06p",
+      "name": "front1",
+      "file": null,
+      "width": 88,
+      "height": 88
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3yu",
+      "name": "even15shop_back",
+      "file": null,
+      "width": 507,
+      "height": 110
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3yv",
+      "name": "event15_shop_bg",
+      "file": null,
+      "width": 686,
+      "height": 1025
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3zl",
+      "name": "event_numback",
+      "file": null,
+      "width": 47,
+      "height": 43
+    },
+    {
+      "type": 0,
+      "id": "cpg577e3x0",
+      "name": "chainChar2",
+      "file": null,
+      "width": 552,
+      "height": 956
+    },
+    {
+      "type": 0,
+      "id": "cpg577e3x1",
+      "name": "chainLogo2",
+      "file": null,
+      "width": 594,
+      "height": 288
+    },
+    {
+      "type": 0,
+      "id": "cumuo",
+      "name": "zhuangshi",
+      "file": null,
+      "width": 27,
+      "height": 28
+    },
+    {
+      "type": 0,
+      "id": "ewm577e3zp",
+      "name": "event16Bg1",
+      "file": null,
+      "width": 333,
+      "height": 333
+    },
+    {
+      "type": 0,
+      "id": "eypp3zw",
+      "name": "bg2",
+      "file": null,
+      "width": 402,
+      "height": 450
+    },
+    {
+      "type": 0,
+      "id": "eypp3zx",
+      "name": "bg3",
+      "file": null,
+      "width": 402,
+      "height": 450
+    },
+    {
+      "type": 0,
+      "id": "eypp3zy",
+      "name": "arrow",
+      "file": null,
+      "width": 62,
+      "height": 80
+    },
+    {
+      "type": 0,
+      "id": "eypp3zz",
+      "name": "eventTitleBg",
+      "file": null,
+      "width": 900,
+      "height": 312
+    },
+    {
+      "type": 0,
+      "id": "eyqr3zh",
+      "name": "barBg",
+      "file": null,
+      "width": 704,
+      "height": 27
+    },
+    {
+      "type": 0,
+      "id": "eyqr3zi",
+      "name": "bar",
+      "file": null,
+      "width": 704,
+      "height": 27
+    },
+    {
+      "type": 0,
+      "id": "fxfc1o",
+      "name": "eventBg",
+      "file": null,
+      "width": 860,
+      "height": 1250
+    },
+    {
+      "type": 0,
+      "id": "gydu1r",
+      "name": "gift5",
+      "file": null,
+      "width": 900,
+      "height": 308
+    },
+    {
+      "type": 0,
+      "id": "gydu1s",
+      "name": "gift4",
+      "file": null,
+      "width": 900,
+      "height": 308
+    },
+    {
+      "type": 0,
+      "id": "gydu1t",
+      "name": "gift6",
+      "file": null,
+      "width": 900,
+      "height": 308
+    },
+    {
+      "type": 0,
+      "id": "gydu1u",
+      "name": "gitBtn",
+      "file": null,
+      "width": 428,
+      "height": 170
+    },
+    {
+      "type": 0,
+      "id": "gydu1v",
+      "name": "giftBg",
+      "file": null,
+      "width": 900,
+      "height": 722
+    },
+    {
+      "type": 0,
+      "id": "gydu1w",
+      "name": "giftBox1",
+      "file": null,
+      "width": 420,
+      "height": 302
+    },
+    {
+      "type": 0,
+      "id": "gydu1x",
+      "name": "giftBox2",
+      "file": null,
+      "width": 892,
+      "height": 616
+    },
+    {
+      "type": 0,
+      "id": "gydu1y",
+      "name": "giftBg1",
+      "file": null,
+      "width": 828,
+      "height": 490
+    },
+    {
+      "type": 0,
+      "id": "gydu1z",
+      "name": "giftBg2",
+      "file": null,
+      "width": 556,
+      "height": 198
+    },
+    {
+      "type": 0,
+      "id": "hohk77e3yt",
+      "name": "back_shop",
+      "file": null,
+      "width": 695,
+      "height": 1106
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yw",
+      "name": "pross_fill",
+      "file": null,
+      "width": 462,
+      "height": 14
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yx",
+      "name": "pross_line_empty",
+      "file": null,
+      "width": 462,
+      "height": 14
+    },
+    {
+      "type": 0,
+      "id": "kuai40p",
+      "name": "chk1",
+      "file": null,
+      "width": 114,
+      "height": 106
+    },
+    {
+      "type": 0,
+      "id": "kuai40q",
+      "name": "chk2",
+      "file": null,
+      "width": 114,
+      "height": 106
+    },
+    {
+      "type": 0,
+      "id": "mf8d28",
+      "name": "event1Bg",
+      "file": null,
+      "width": 800,
+      "height": 980
+    },
+    {
+      "type": 0,
+      "id": "mf8d29",
+      "name": "event1Bg2",
+      "file": null,
+      "width": 333,
+      "height": 333
+    },
+    {
+      "type": 0,
+      "id": "nsjk1",
+      "name": "listBg",
+      "file": null,
+      "width": 344,
+      "height": 232
+    },
+    {
+      "type": 0,
+      "id": "nsjk16",
+      "name": "resourceBg",
+      "file": null,
+      "width": 200,
+      "height": 46
+    },
+    {
+      "type": 0,
+      "id": "nsjk19",
+      "name": "discount",
+      "file": null,
+      "width": 174,
+      "height": 96
+    },
+    {
+      "type": 0,
+      "id": "nsjk1e",
+      "name": "chk2_1",
+      "file": null,
+      "width": 254,
+      "height": 104
+    },
+    {
+      "type": 0,
+      "id": "nsjk1f",
+      "name": "chk2_2",
+      "file": null,
+      "width": 254,
+      "height": 104
+    },
+    {
+      "type": 0,
+      "id": "nsjk1i",
+      "name": "redHint",
+      "file": null,
+      "width": 12,
+      "height": 12
+    },
+    {
+      "type": 0,
+      "id": "nsjk3",
+      "name": "itemWnd1",
+      "file": null,
+      "width": 746,
+      "height": 170
+    },
+    {
+      "type": 0,
+      "id": "nsjk4",
+      "name": "itemWnd2",
+      "file": null,
+      "width": 746,
+      "height": 170
+    },
+    {
+      "type": 0,
+      "id": "oque403",
+      "name": "eventTitleBg2",
+      "file": null,
+      "width": 980,
+      "height": 342
+    },
+    {
+      "type": 0,
+      "id": "pmgf3v",
+      "name": "event1Bg8",
+      "file": null,
+      "width": 98,
+      "height": 205
+    },
+    {
+      "type": 0,
+      "id": "pmgf3w",
+      "name": "event1Bg7",
+      "file": null,
+      "width": 95,
+      "height": 233
+    },
+    {
+      "type": 0,
+      "id": "pmgf3x",
+      "name": "event1Bg6",
+      "file": null,
+      "width": 91,
+      "height": 163
+    },
+    {
+      "type": 0,
+      "id": "pmgf3y",
+      "name": "event1Bg5",
+      "file": null,
+      "width": 800,
+      "height": 152
+    },
+    {
+      "type": 0,
+      "id": "pmgf40",
+      "name": "event1Bg3",
+      "file": null,
+      "width": 333,
+      "height": 333
+    },
+    {
+      "type": 0,
+      "id": "pmgf41",
+      "name": "event1Bg9",
+      "file": null,
+      "width": 101,
+      "height": 152
+    },
+    {
+      "type": 0,
+      "id": "pmgf42",
+      "name": "event1Bg11",
+      "file": null,
+      "width": 66,
+      "height": 58
+    },
+    {
+      "type": 0,
+      "id": "pmgf43",
+      "name": "event1Bg10",
+      "file": null,
+      "width": 96,
+      "height": 94
+    },
+    {
+      "type": 0,
+      "id": "pmgf44",
+      "name": "event1Bg12",
+      "file": null,
+      "width": 21,
+      "height": 21
+    },
+    {
+      "type": 0,
+      "id": "q2zl10",
+      "name": "treasuryBtn",
+      "file": null,
+      "width": 282,
+      "height": 127
+    },
+    {
+      "type": 0,
+      "id": "tw7x3zk",
+      "name": "itemWnd3",
+      "file": null,
+      "width": 320,
+      "height": 616
+    },
+    {
+      "type": 0,
+      "id": "utd277e3wv",
+      "name": "chk3_2",
+      "file": null,
+      "width": 307,
+      "height": 120
+    },
+    {
+      "type": 0,
+      "id": "utd277e3ww",
+      "name": "chk3_1",
+      "file": null,
+      "width": 307,
+      "height": 120
+    },
+    {
+      "type": 0,
+      "id": "xhb11s",
+      "name": "aim",
+      "file": null,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "type": 1,
+      "id": "kfu748",
+      "name": "box13",
+      "file": null,
+      "width": 200,
+      "height": 200,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            33,
+            34,
+            133,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu748_0"
+        },
+        {
+          "rect": [
+            33,
+            0,
+            165,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu748_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            191,
+            170
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "kfu748_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "kfu749",
+      "name": "box11",
+      "file": null,
+      "width": 200,
+      "height": 200,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            33,
+            34,
+            133,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu749_0"
+        },
+        {
+          "rect": [
+            33,
+            0,
+            165,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu749_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            191,
+            170
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "kfu749_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "kfu74a",
+      "name": "box14",
+      "file": null,
+      "width": 200,
+      "height": 200,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            33,
+            34,
+            133,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu74a_0"
+        },
+        {
+          "rect": [
+            33,
+            0,
+            165,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu74a_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            191,
+            170
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "kfu74a_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "kfu74b",
+      "name": "box12",
+      "file": null,
+      "width": 200,
+      "height": 200,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            33,
+            34,
+            133,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu74b_0"
+        },
+        {
+          "rect": [
+            33,
+            0,
+            165,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "kfu74b_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            191,
+            170
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "kfu74b_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "oque406",
+      "name": "box15",
+      "file": null,
+      "width": 120,
+      "height": 120,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            16,
+            13,
+            93,
+            106
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque406_0"
+        },
+        {
+          "rect": [
+            11,
+            3,
+            102,
+            116
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque406_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            120,
+            119
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "oque406_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "oque407",
+      "name": "box16",
+      "file": null,
+      "width": 120,
+      "height": 120,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            16,
+            13,
+            93,
+            106
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque407_0"
+        },
+        {
+          "rect": [
+            11,
+            3,
+            102,
+            116
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque407_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            120,
+            119
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "oque407_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "oque408",
+      "name": "box17",
+      "file": null,
+      "width": 120,
+      "height": 120,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            16,
+            13,
+            93,
+            106
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque408_0"
+        },
+        {
+          "rect": [
+            11,
+            3,
+            102,
+            116
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque408_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            120,
+            119
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "oque408_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "oque409",
+      "name": "box18",
+      "file": null,
+      "width": 120,
+      "height": 120,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            16,
+            13,
+            93,
+            106
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque409_0"
+        },
+        {
+          "rect": [
+            11,
+            3,
+            102,
+            116
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "oque409_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            120,
+            119
+          ],
+          "add_delay_ms": 416,
+          "sprite_id": "oque409_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "zndn46",
+      "name": "new",
+      "file": null,
+      "width": 150,
+      "height": 150,
+      "interval_ms": 83,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 8,
+      "frames": [
+        {
+          "rect": [
+            40,
+            38,
+            71,
+            71
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_0"
+        },
+        {
+          "rect": [
+            22,
+            21,
+            105,
+            106
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            150,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_2"
+        },
+        {
+          "rect": [
+            8,
+            8,
+            134,
+            134
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_3"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            150,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_4"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            150,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_5"
+        },
+        {
+          "rect": [
+            8,
+            8,
+            134,
+            134
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_6"
+        },
+        {
+          "rect": [
+            8,
+            8,
+            134,
+            134
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "zndn46_7"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 2044,
+      "height": 2048
+    },
+    {
+      "type": 4,
+      "id": "atlas100",
+      "name": null,
+      "file": "atlas0_1.png",
+      "width": 1020,
+      "height": 512
+    },
+    {
+      "type": 4,
+      "id": "atlas101",
+      "name": null,
+      "file": "atlas0_2.png",
+      "width": 1936,
+      "height": 1860
+    },
+    {
+      "type": 4,
+      "id": "atlas102",
+      "name": null,
+      "file": "atlas0_3.png",
+      "width": 1912,
+      "height": 2016
+    }
+  ],
+  "sprites": [
+    {
+      "id": "gydu1y",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        1,
+        828,
+        490
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pmgf3y",
+      "atlas_id": "atlas0",
+      "rect": [
+        831,
+        1,
+        800,
+        152
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nsjk3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1633,
+        1,
+        746,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "nsjk4",
+      "atlas_id": "atlas0",
+      "rect": [
+        831,
+        155,
+        746,
+        170
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr3zi",
+      "atlas_id": "atlas0",
+      "rect": [
+        1579,
+        155,
+        704,
+        27
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr3zh",
+      "atlas_id": "atlas0",
+      "rect": [
+        831,
+        327,
+        704,
+        27
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "tw7x3zk",
+      "atlas_id": "atlas0",
+      "rect": [
+        1608,
+        749,
+        320,
+        616
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "quql3zq_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        1367,
+        319,
+        615
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cpg577e3x1",
+      "atlas_id": "atlas0",
+      "rect": [
+        322,
+        1367,
+        594,
+        288
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gydu1z",
+      "atlas_id": "atlas0",
+      "rect": [
+        1805,
+        1,
+        556,
+        198
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "quql3zq_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        612,
+        1367,
+        319,
+        544
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz777e3yu",
+      "atlas_id": "atlas0",
+      "rect": [
+        1930,
+        559,
+        507,
+        110
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "quql3zq_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        861,
+        319,
+        501
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "quql3zq_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        322,
+        861,
+        317,
+        498
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "quql3zq_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        641,
+        861,
+        319,
+        498
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yx",
+      "atlas_id": "atlas0",
+      "rect": [
+        1608,
+        155,
+        462,
+        14
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "izfo77e3yw",
+      "atlas_id": "atlas0",
+      "rect": [
+        1537,
+        327,
+        462,
+        14
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eypp3zw",
+      "atlas_id": "atlas0",
+      "rect": [
+        831,
+        356,
+        402,
+        450
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eypp3zx",
+      "atlas_id": "atlas0",
+      "rect": [
+        962,
+        808,
+        402,
+        450
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gydu1u",
+      "atlas_id": "atlas0",
+      "rect": [
+        1235,
+        356,
+        428,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gydu1w",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        493,
+        420,
+        302
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nsjk1",
+      "atlas_id": "atlas0",
+      "rect": [
+        423,
+        493,
+        344,
+        232
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pmgf40",
+      "atlas_id": "atlas0",
+      "rect": [
+        962,
+        1212,
+        333,
+        333
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ewm577e3zp",
+      "atlas_id": "atlas0",
+      "rect": [
+        933,
+        1547,
+        333,
+        333
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "mf8d29",
+      "atlas_id": "atlas0",
+      "rect": [
+        1268,
+        1547,
+        333,
+        333
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "utd277e3ww",
+      "atlas_id": "atlas0",
+      "rect": [
+        1414,
+        356,
+        307,
+        120
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "utd277e3wv",
+      "atlas_id": "atlas0",
+      "rect": [
+        1414,
+        665,
+        307,
+        120
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "q2zl10",
+      "atlas_id": "atlas0",
+      "rect": [
+        612,
+        1913,
+        282,
+        127
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nsjk1e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1930,
+        1068,
+        254,
+        104
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "nsjk1f",
+      "atlas_id": "atlas0",
+      "rect": [
+        1930,
+        1324,
+        254,
+        104
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pmgf3w",
+      "atlas_id": "atlas0",
+      "rect": [
+        896,
+        1913,
+        95,
+        233
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pmgf3v",
+      "atlas_id": "atlas0",
+      "rect": [
+        1131,
+        1913,
+        98,
+        205
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "nsjk16",
+      "atlas_id": "atlas0",
+      "rect": [
+        657,
+        808,
+        200,
+        46
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xhb11s",
+      "atlas_id": "atlas0",
+      "rect": [
+        1297,
+        1212,
+        200,
+        200
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu749_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1414,
+        974,
+        191,
+        170
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu74a_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        657,
+        493,
+        191,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kfu74b_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1499,
+        1367,
+        191,
+        170
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu748_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1692,
+        1367,
+        191,
+        170
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u062",
+      "atlas_id": "atlas0",
+      "rect": [
+        1805,
+        559,
+        183,
+        88
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "9u063",
+      "atlas_id": "atlas0",
+      "rect": [
+        1297,
+        1414,
+        183,
+        88
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u064",
+      "atlas_id": "atlas0",
+      "rect": [
+        1499,
+        1146,
+        183,
+        88
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "nsjk19",
+      "atlas_id": "atlas0",
+      "rect": [
+        1338,
+        1882,
+        174,
+        96
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu749_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1514,
+        1882,
+        165,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kfu748_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1686,
+        1882,
+        165,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kfu74b_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1858,
+        1580,
+        165,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kfu74a_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1858,
+        1747,
+        165,
+        170
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pmgf3x",
+      "atlas_id": "atlas0",
+      "rect": [
+        657,
+        686,
+        91,
+        163
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "pmgf41",
+      "atlas_id": "atlas0",
+      "rect": [
+        1858,
+        1914,
+        101,
+        152
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "9u06j",
+      "atlas_id": "atlas0",
+      "rect": [
+        1603,
+        1539,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1603,
+        1691,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u06h",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_2",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        153,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_5",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        305,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu74b_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        153,
+        1,
+        133,
+        136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu74a_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        153,
+        139,
+        133,
+        136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu748_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        153,
+        277,
+        133,
+        136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kfu749_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        288,
+        1,
+        133,
+        136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_3",
+      "atlas_id": "atlas100",
+      "rect": [
+        288,
+        139,
+        134,
+        134
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_7",
+      "atlas_id": "atlas100",
+      "rect": [
+        423,
+        1,
+        134,
+        134
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_6",
+      "atlas_id": "atlas100",
+      "rect": [
+        288,
+        275,
+        134,
+        134
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oque408_2",
+      "atlas_id": "atlas100",
+      "rect": [
+        424,
+        137,
+        120,
+        119
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque406_2",
+      "atlas_id": "atlas100",
+      "rect": [
+        424,
+        259,
+        120,
+        119
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque409_2",
+      "atlas_id": "atlas100",
+      "rect": [
+        424,
+        381,
+        120,
+        119
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque407_2",
+      "atlas_id": "atlas100",
+      "rect": [
+        545,
+        137,
+        120,
+        119
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque407_1",
+      "atlas_id": "atlas100",
+      "rect": [
+        559,
+        1,
+        102,
+        116
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oque406_1",
+      "atlas_id": "atlas100",
+      "rect": [
+        663,
+        1,
+        102,
+        116
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oque408_1",
+      "atlas_id": "atlas100",
+      "rect": [
+        545,
+        259,
+        102,
+        116
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oque409_1",
+      "atlas_id": "atlas100",
+      "rect": [
+        545,
+        377,
+        102,
+        116
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kuai40p",
+      "atlas_id": "atlas100",
+      "rect": [
+        649,
+        259,
+        114,
+        106
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "kuai40q",
+      "atlas_id": "atlas100",
+      "rect": [
+        666,
+        119,
+        114,
+        106
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque406_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        288,
+        411,
+        93,
+        106
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "zndn46_1",
+      "atlas_id": "atlas100",
+      "rect": [
+        767,
+        1,
+        105,
+        106
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oque408_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        153,
+        415,
+        93,
+        106
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque407_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        649,
+        375,
+        93,
+        106
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oque409_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        744,
+        375,
+        93,
+        106
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u06i",
+      "atlas_id": "atlas100",
+      "rect": [
+        757,
+        235,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pmgf43",
+      "atlas_id": "atlas100",
+      "rect": [
+        839,
+        109,
+        96,
+        94
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "9u06f",
+      "atlas_id": "atlas100",
+      "rect": [
+        874,
+        1,
+        92,
+        92
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u06p",
+      "atlas_id": "atlas100",
+      "rect": [
+        839,
+        337,
+        88,
+        88
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u0614",
+      "atlas_id": "atlas100",
+      "rect": [
+        859,
+        207,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eypp3zy",
+      "atlas_id": "atlas100",
+      "rect": [
+        774,
+        109,
+        62,
+        80
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u0618",
+      "atlas_id": "atlas100",
+      "rect": [
+        935,
+        95,
+        75,
+        75
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "zndn46_0",
+      "atlas_id": "atlas100",
+      "rect": [
+        839,
+        427,
+        71,
+        71
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pmgf42",
+      "atlas_id": "atlas100",
+      "rect": [
+        912,
+        427,
+        66,
+        58
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "9u06d",
+      "atlas_id": "atlas100",
+      "rect": [
+        929,
+        294,
+        65,
+        65
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "9u06e",
+      "atlas_id": "atlas100",
+      "rect": [
+        946,
+        172,
+        65,
+        65
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz777e3zl",
+      "atlas_id": "atlas100",
+      "rect": [
+        972,
+        239,
+        47,
+        43
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cumuo",
+      "atlas_id": "atlas100",
+      "rect": [
+        774,
+        191,
+        27,
+        28
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "pmgf44",
+      "atlas_id": "atlas100",
+      "rect": [
+        946,
+        239,
+        21,
+        21
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nsjk1i",
+      "atlas_id": "atlas100",
+      "rect": [
+        946,
+        262,
+        12,
+        12
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cpg577e3x0",
+      "atlas_id": "atlas101",
+      "rect": [
+        1,
+        1,
+        552,
+        956
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "gydu1v",
+      "atlas_id": "atlas101",
+      "rect": [
+        1,
+        959,
+        900,
+        722
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eypp3zz",
+      "atlas_id": "atlas101",
+      "rect": [
+        555,
+        1,
+        900,
+        312
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gydu1t",
+      "atlas_id": "atlas101",
+      "rect": [
+        725,
+        903,
+        900,
+        308
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gydu1r",
+      "atlas_id": "atlas101",
+      "rect": [
+        869,
+        1,
+        900,
+        308
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "gydu1s",
+      "atlas_id": "atlas101",
+      "rect": [
+        1035,
+        903,
+        900,
+        308
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "gydu1x",
+      "atlas_id": "atlas101",
+      "rect": [
+        1179,
+        1,
+        892,
+        616
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "9u06c",
+      "atlas_id": "atlas101",
+      "rect": [
+        1035,
+        1213,
+        480,
+        853
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fxfc1o",
+      "atlas_id": "atlas102",
+      "rect": [
+        1,
+        1,
+        860,
+        1250
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hohk77e3yt",
+      "atlas_id": "atlas102",
+      "rect": [
+        1,
+        1253,
+        695,
+        1106
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "bzz777e3yv",
+      "atlas_id": "atlas102",
+      "rect": [
+        863,
+        1,
+        686,
+        1025
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oque403",
+      "atlas_id": "atlas102",
+      "rect": [
+        863,
+        689,
+        980,
+        342
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "mf8d28",
+      "atlas_id": "atlas102",
+      "rect": [
+        1109,
+        1033,
+        800,
+        980
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/5b/5bb5dc82-cb13-4630-a222-c8c795ca4a4e.bin"
+}

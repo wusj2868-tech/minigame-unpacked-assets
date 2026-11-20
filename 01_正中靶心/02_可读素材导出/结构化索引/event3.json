@@ -1,0 +1,452 @@
+{
+  "name": "event3",
+  "id": "3n0ljkem",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "eyqr3zj",
+      "name": "hpBar",
+      "file": null,
+      "width": 704,
+      "height": 27
+    },
+    {
+      "type": 3,
+      "id": "oy5k4i",
+      "name": "eventNewyear",
+      "file": null,
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "type": 0,
+      "id": "swj93zs",
+      "name": "bg1",
+      "file": null,
+      "width": 759,
+      "height": 399
+    },
+    {
+      "type": 1,
+      "id": "eyqr4j",
+      "name": "newYear",
+      "file": null,
+      "width": 735,
+      "height": 646,
+      "interval_ms": 375,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            59,
+            12,
+            613,
+            567
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4j_0"
+        },
+        {
+          "rect": [
+            59,
+            10,
+            613,
+            569
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4j_1"
+        },
+        {
+          "rect": [
+            59,
+            12,
+            613,
+            567
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4j_2"
+        },
+        {
+          "rect": [
+            59,
+            14,
+            613,
+            565
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4j_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "eyqr4k",
+      "name": "newYearBg",
+      "file": null,
+      "width": 735,
+      "height": 646,
+      "interval_ms": 375,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            0,
+            6,
+            735,
+            634
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4k_0"
+        },
+        {
+          "rect": [
+            0,
+            6,
+            735,
+            634
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4k_1"
+        },
+        {
+          "rect": [
+            0,
+            6,
+            735,
+            634
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4k_2"
+        },
+        {
+          "rect": [
+            0,
+            6,
+            735,
+            634
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4k_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "eyqr4l",
+      "name": "boom",
+      "file": null,
+      "width": 150,
+      "height": 150,
+      "interval_ms": 83,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 9,
+      "frames": [
+        {
+          "rect": [
+            17,
+            17,
+            108,
+            108
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_0"
+        },
+        {
+          "rect": [
+            11,
+            11,
+            123,
+            120
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_1"
+        },
+        {
+          "rect": [
+            13,
+            10,
+            127,
+            125
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_2"
+        },
+        {
+          "rect": [
+            9,
+            7,
+            132,
+            133
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_3"
+        },
+        {
+          "rect": [
+            12,
+            3,
+            130,
+            137
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_4"
+        },
+        {
+          "rect": [
+            9,
+            10,
+            125,
+            129
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_5"
+        },
+        {
+          "rect": [
+            7,
+            26,
+            142,
+            110
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_6"
+        },
+        {
+          "rect": [
+            17,
+            36,
+            113,
+            106
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_7"
+        },
+        {
+          "rect": [
+            28,
+            37,
+            95,
+            67
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "eyqr4l_8"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1968,
+      "height": 2012
+    }
+  ],
+  "sprites": [
+    {
+      "id": "swj93zs",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        759,
+        399
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr4k_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        761,
+        0,
+        735,
+        634
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4k_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        401,
+        735,
+        634
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4k_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        636,
+        737,
+        735,
+        634
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr4k_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1138,
+        735,
+        634
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4j_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1373,
+        737,
+        613,
+        567
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4j_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1373,
+        1352,
+        613,
+        569
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4j_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1397,
+        0,
+        613,
+        567
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4j_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        636,
+        1373,
+        613,
+        565
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr4l_6",
+      "atlas_id": "atlas0",
+      "rect": [
+        636,
+        401,
+        142,
+        110
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4l_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1875,
+        130,
+        137
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4l_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        139,
+        1875,
+        132,
+        133
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4l_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        274,
+        1875,
+        125,
+        129
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4l_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        405,
+        1875,
+        127,
+        125
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr4l_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        636,
+        545,
+        123,
+        120
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "eyqr4l_7",
+      "atlas_id": "atlas0",
+      "rect": [
+        1397,
+        615,
+        113,
+        106
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr4l_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1512,
+        615,
+        108,
+        108
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "eyqr4l_8",
+      "atlas_id": "atlas0",
+      "rect": [
+        534,
+        1875,
+        95,
+        67
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/25/25db0408-a47b-4487-b304-29b663ad8eab.bin"
+}

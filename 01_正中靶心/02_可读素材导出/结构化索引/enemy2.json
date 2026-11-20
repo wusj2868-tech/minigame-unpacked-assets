@@ -1,0 +1,1276 @@
+{
+  "name": "enemy2",
+  "id": "8kotzgc4",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "hv6zt",
+      "name": "monsters4_config",
+      "file": null,
+      "width": 201,
+      "height": 208
+    },
+    {
+      "type": 3,
+      "id": "qoylx",
+      "name": "monsters5_config",
+      "file": null,
+      "width": 234,
+      "height": 240
+    },
+    {
+      "type": 3,
+      "id": "vnpw1",
+      "name": "monsters1_config",
+      "file": null,
+      "width": 202,
+      "height": 244
+    },
+    {
+      "type": 3,
+      "id": "vnpw4",
+      "name": "monsters2_config",
+      "file": null,
+      "width": 154,
+      "height": 226
+    },
+    {
+      "type": 3,
+      "id": "vnpw8",
+      "name": "monsters3_config",
+      "file": null,
+      "width": 226,
+      "height": 173
+    },
+    {
+      "type": 1,
+      "id": "hv6zq",
+      "name": "monsters4_idle",
+      "file": null,
+      "width": 201,
+      "height": 208,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 1,
+      "frames": [
+        {
+          "rect": [
+            6,
+            5,
+            151,
+            171
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zq_0"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zr",
+      "name": "monsters4_walk_down",
+      "file": null,
+      "width": 201,
+      "height": 208,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            6,
+            5,
+            151,
+            171
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zr_0"
+        },
+        {
+          "rect": [
+            6,
+            6,
+            151,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zr_1"
+        },
+        {
+          "rect": [
+            6,
+            5,
+            151,
+            171
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zr_2"
+        },
+        {
+          "rect": [
+            6,
+            6,
+            151,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zr_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zs",
+      "name": "monsters4_attack",
+      "file": null,
+      "width": 201,
+      "height": 208,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            6,
+            5,
+            151,
+            171
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zs_0"
+        },
+        {
+          "rect": [
+            0,
+            4,
+            145,
+            172
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zs_1"
+        },
+        {
+          "rect": [
+            3,
+            3,
+            139,
+            173
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zs_2"
+        },
+        {
+          "rect": [
+            1,
+            11,
+            148,
+            197
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zs_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zu",
+      "name": "monsters5_attack",
+      "file": null,
+      "width": 234,
+      "height": 240,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            32,
+            17,
+            201,
+            206
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zu_0"
+        },
+        {
+          "rect": [
+            39,
+            16,
+            194,
+            207
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zu_1"
+        },
+        {
+          "rect": [
+            32,
+            19,
+            201,
+            204
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zu_2"
+        },
+        {
+          "rect": [
+            32,
+            19,
+            201,
+            204
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zu_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zv",
+      "name": "monsters5_walk_down",
+      "file": null,
+      "width": 234,
+      "height": 240,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            28,
+            20,
+            204,
+            214
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zv_0"
+        },
+        {
+          "rect": [
+            32,
+            17,
+            201,
+            206
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zv_1"
+        },
+        {
+          "rect": [
+            28,
+            20,
+            206,
+            214
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zv_2"
+        },
+        {
+          "rect": [
+            32,
+            17,
+            201,
+            206
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zv_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zw",
+      "name": "monsters5_idle",
+      "file": null,
+      "width": 234,
+      "height": 240,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 1,
+      "frames": [
+        {
+          "rect": [
+            32,
+            17,
+            201,
+            206
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zw_0"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "uko2d",
+      "name": "monsters1_walk_down",
+      "file": null,
+      "width": 202,
+      "height": 244,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            31,
+            33,
+            137,
+            193
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2d_0"
+        },
+        {
+          "rect": [
+            31,
+            65,
+            137,
+            161
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2d_1"
+        },
+        {
+          "rect": [
+            31,
+            7,
+            137,
+            215
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2d_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "uko2e",
+      "name": "monsters2_walk_down",
+      "file": null,
+      "width": 154,
+      "height": 226,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 2,
+      "frames": [
+        {
+          "rect": [
+            11,
+            22,
+            131,
+            179
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2e_0"
+        },
+        {
+          "rect": [
+            15,
+            22,
+            130,
+            181
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2e_1"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "uko2f",
+      "name": "monsters3_walk_down",
+      "file": null,
+      "width": 226,
+      "height": 173,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            41,
+            13,
+            143,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2f_0"
+        },
+        {
+          "rect": [
+            41,
+            12,
+            143,
+            149
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2f_1"
+        },
+        {
+          "rect": [
+            41,
+            13,
+            143,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2f_2"
+        },
+        {
+          "rect": [
+            41,
+            12,
+            143,
+            149
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2f_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "vnpw0",
+      "name": "monsters1_attack",
+      "file": null,
+      "width": 202,
+      "height": 244,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            31,
+            33,
+            137,
+            193
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw0_0"
+        },
+        {
+          "rect": [
+            31,
+            19,
+            140,
+            207
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw0_1"
+        },
+        {
+          "rect": [
+            31,
+            13,
+            137,
+            213
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw0_2"
+        },
+        {
+          "rect": [
+            31,
+            37,
+            137,
+            189
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw0_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "vnpw2",
+      "name": "monsters1_idle",
+      "file": null,
+      "width": 202,
+      "height": 244,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            31,
+            33,
+            137,
+            193
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw2_0"
+        },
+        {
+          "rect": [
+            31,
+            65,
+            137,
+            161
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw2_1"
+        },
+        {
+          "rect": [
+            31,
+            7,
+            137,
+            215
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw2_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "vnpw3",
+      "name": "monsters2_attack",
+      "file": null,
+      "width": 154,
+      "height": 226,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            11,
+            22,
+            134,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw3_0"
+        },
+        {
+          "rect": [
+            14,
+            13,
+            128,
+            183
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw3_1"
+        },
+        {
+          "rect": [
+            9,
+            27,
+            140,
+            170
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw3_2"
+        },
+        {
+          "rect": [
+            11,
+            22,
+            134,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw3_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "vnpw5",
+      "name": "monsters2_idle",
+      "file": null,
+      "width": 154,
+      "height": 226,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 2,
+      "frames": [
+        {
+          "rect": [
+            11,
+            22,
+            131,
+            179
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw5_0"
+        },
+        {
+          "rect": [
+            15,
+            22,
+            130,
+            181
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw5_1"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "vnpw6",
+      "name": "monsters3_attack",
+      "file": null,
+      "width": 226,
+      "height": 173,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            41,
+            13,
+            143,
+            149
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw6_0"
+        },
+        {
+          "rect": [
+            28,
+            12,
+            169,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw6_1"
+        },
+        {
+          "rect": [
+            5,
+            11,
+            215,
+            151
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw6_2"
+        },
+        {
+          "rect": [
+            41,
+            22,
+            143,
+            142
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw6_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "vnpw7",
+      "name": "monsters3_idle",
+      "file": null,
+      "width": 226,
+      "height": 173,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            41,
+            13,
+            143,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw7_0"
+        },
+        {
+          "rect": [
+            41,
+            12,
+            143,
+            149
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw7_1"
+        },
+        {
+          "rect": [
+            41,
+            13,
+            143,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw7_2"
+        },
+        {
+          "rect": [
+            41,
+            12,
+            143,
+            149
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "vnpw7_3"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1864,
+      "height": 832
+    }
+  ],
+  "sprites": [
+    {
+      "id": "uko2d_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        137,
+        215
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw2_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        217,
+        137,
+        215
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw6_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        434,
+        215,
+        151
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6zv_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        153,
+        434,
+        204,
+        214
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zv_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        359,
+        434,
+        206,
+        214
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw0_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        153,
+        650,
+        137,
+        213
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vnpw0_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        368,
+        650,
+        140,
+        207
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hv6zu_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        139,
+        0,
+        194,
+        207
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zw_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        139,
+        209,
+        201,
+        206
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zv_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        335,
+        0,
+        201,
+        206
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zv_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        342,
+        208,
+        201,
+        206
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zu_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        538,
+        0,
+        201,
+        206
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zu_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        545,
+        208,
+        201,
+        204
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zu_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        741,
+        0,
+        201,
+        204
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zs_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        567,
+        414,
+        148,
+        197
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw2_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        577,
+        613,
+        137,
+        193
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw0_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        716,
+        613,
+        137,
+        193
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2d_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        855,
+        613,
+        137,
+        193
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw0_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        994,
+        613,
+        137,
+        189
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw3_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1133,
+        613,
+        128,
+        183
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw5_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1263,
+        613,
+        130,
+        181
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2e_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1395,
+        613,
+        130,
+        181
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw5_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        651,
+        131,
+        179
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2e_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        717,
+        414,
+        131,
+        179
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw3_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        850,
+        414,
+        134,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw3_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        986,
+        414,
+        134,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zr_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1122,
+        414,
+        151,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zr_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        748,
+        206,
+        151,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zs_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        901,
+        206,
+        139,
+        173
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zs_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1042,
+        206,
+        145,
+        172
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zq_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1189,
+        206,
+        151,
+        171
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zr_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1275,
+        379,
+        151,
+        171
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zs_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        944,
+        0,
+        151,
+        171
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zr_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1097,
+        0,
+        151,
+        171
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw3_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1250,
+        0,
+        140,
+        170
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw6_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1342,
+        172,
+        169,
+        150
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vnpw2_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1392,
+        0,
+        137,
+        161
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2d_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1428,
+        343,
+        137,
+        161
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2f_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1494,
+        163,
+        143,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2f_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1567,
+        0,
+        143,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw7_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1639,
+        152,
+        143,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw7_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1712,
+        0,
+        143,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2f_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1712,
+        304,
+        143,
+        149
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vnpw6_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1567,
+        315,
+        143,
+        149
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2f_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1712,
+        449,
+        143,
+        149
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vnpw7_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1567,
+        466,
+        143,
+        149
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "vnpw7_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1712,
+        594,
+        143,
+        149
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vnpw6_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1527,
+        617,
+        143,
+        142
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/92/927dea77-9fd2-440c-98cf-a7bf402f505c.bin"
+}

@@ -1,0 +1,1027 @@
+{
+  "name": "quest",
+  "id": "0tq9vw19",
+  "version": 2,
+  "items": [
+    {
+      "type": 0,
+      "id": "cpcl2e",
+      "name": "listBg2",
+      "file": null,
+      "width": 900,
+      "height": 245
+    },
+    {
+      "type": 0,
+      "id": "h8s51t",
+      "name": "listBg",
+      "file": null,
+      "width": 900,
+      "height": 276
+    },
+    {
+      "type": 0,
+      "id": "h8s522",
+      "name": "rewardBarBg",
+      "file": null,
+      "width": 829,
+      "height": 179
+    },
+    {
+      "type": 0,
+      "id": "h8s528",
+      "name": "bpBg",
+      "file": null,
+      "width": 773,
+      "height": 1253
+    },
+    {
+      "type": 3,
+      "id": "fw2o0",
+      "name": "questLevelReward",
+      "file": null,
+      "width": 960,
+      "height": 1450
+    },
+    {
+      "type": 3,
+      "id": "fw2o1g",
+      "name": "progress_120",
+      "file": null,
+      "width": 120,
+      "height": 18
+    },
+    {
+      "type": 3,
+      "id": "fw2o1i",
+      "name": "progressbar_120",
+      "file": null,
+      "width": 120,
+      "height": 18
+    },
+    {
+      "type": 3,
+      "id": "fw2o1k",
+      "name": "jadeBtn",
+      "file": null,
+      "width": 300,
+      "height": 120
+    },
+    {
+      "type": 3,
+      "id": "fw2o4",
+      "name": "questLevelRewardItem",
+      "file": null,
+      "width": 850,
+      "height": 160
+    },
+    {
+      "type": 3,
+      "id": "fw2oa",
+      "name": "redHint1",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 3,
+      "id": "fw2oi",
+      "name": "pro3",
+      "file": null,
+      "width": 800,
+      "height": 30
+    },
+    {
+      "type": 3,
+      "id": "fw2ol",
+      "name": "proBar2",
+      "file": null,
+      "width": 700,
+      "height": 17
+    },
+    {
+      "type": 3,
+      "id": "fw2op",
+      "name": "functionBtn",
+      "file": null,
+      "width": 250,
+      "height": 77
+    },
+    {
+      "type": 3,
+      "id": "fw2ou",
+      "name": "bpInfo",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "i0902i",
+      "name": "firstGiftBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "kmx02o",
+      "name": "gemGiftBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "m6qh2f",
+      "name": "buyBtn",
+      "file": null,
+      "width": 250,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "m6qh2g",
+      "name": "orderBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "mbep30",
+      "name": "questchengqiang",
+      "file": null,
+      "width": 960,
+      "height": 1450
+    },
+    {
+      "type": 3,
+      "id": "mbep31",
+      "name": "questxuetu",
+      "file": null,
+      "width": 960,
+      "height": 1450
+    },
+    {
+      "type": 3,
+      "id": "mbep32",
+      "name": "chengqiangselBtn",
+      "file": null,
+      "width": 250,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "njgo2z",
+      "name": "watchGiftBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "utd239",
+      "name": "orderSelectlBtn",
+      "file": null,
+      "width": 170,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "vn3v3a",
+      "name": "firstGiftBtn2",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "vx6p2j",
+      "name": "eventBtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "x2nh2p",
+      "name": "quest30time",
+      "file": null,
+      "width": 1034,
+      "height": 1504
+    },
+    {
+      "type": 3,
+      "id": "x2nh2q",
+      "name": "quest30timeitem",
+      "file": null,
+      "width": 205,
+      "height": 242
+    },
+    {
+      "type": 0,
+      "id": "8fz62r",
+      "name": "7",
+      "file": null,
+      "width": 781,
+      "height": 15
+    },
+    {
+      "type": 0,
+      "id": "8fz62s",
+      "name": "6",
+      "file": null,
+      "width": 781,
+      "height": 15
+    },
+    {
+      "type": 0,
+      "id": "8fz62t",
+      "name": "5",
+      "file": null,
+      "width": 42,
+      "height": 42
+    },
+    {
+      "type": 0,
+      "id": "8fz62u",
+      "name": "4",
+      "file": null,
+      "width": 68,
+      "height": 68
+    },
+    {
+      "type": 0,
+      "id": "8fz62v",
+      "name": "3",
+      "file": null,
+      "width": 1056,
+      "height": 1304
+    },
+    {
+      "type": 0,
+      "id": "fw2o1h",
+      "name": "progressBg_s",
+      "file": null,
+      "width": 175,
+      "height": 18
+    },
+    {
+      "type": 0,
+      "id": "fw2o1j",
+      "name": "progressBar_blues",
+      "file": null,
+      "width": 175,
+      "height": 18
+    },
+    {
+      "type": 0,
+      "id": "fw2ob",
+      "name": "redHint",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 0,
+      "id": "fw2oc",
+      "name": "gantanhao",
+      "file": null,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "type": 0,
+      "id": "fw2od",
+      "name": "yes",
+      "file": null,
+      "width": 61,
+      "height": 51
+    },
+    {
+      "type": 0,
+      "id": "fw2ok",
+      "name": "progressBg",
+      "file": null,
+      "width": 541,
+      "height": 20
+    },
+    {
+      "type": 0,
+      "id": "fw2oo",
+      "name": "tipsBg1",
+      "file": null,
+      "width": 343,
+      "height": 75
+    },
+    {
+      "type": 0,
+      "id": "fw2or",
+      "name": "textBg",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "fw2ot",
+      "name": "textArrow",
+      "file": null,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "type": 0,
+      "id": "h8s51u",
+      "name": "order3",
+      "file": null,
+      "width": 172,
+      "height": 83
+    },
+    {
+      "type": 0,
+      "id": "h8s51v",
+      "name": "order2",
+      "file": null,
+      "width": 172,
+      "height": 83
+    },
+    {
+      "type": 0,
+      "id": "h8s51w",
+      "name": "order1",
+      "file": null,
+      "width": 172,
+      "height": 83
+    },
+    {
+      "type": 0,
+      "id": "h8s51x",
+      "name": "levelBg2",
+      "file": null,
+      "width": 85,
+      "height": 87
+    },
+    {
+      "type": 0,
+      "id": "h8s51y",
+      "name": "levelBg1",
+      "file": null,
+      "width": 85,
+      "height": 87
+    },
+    {
+      "type": 0,
+      "id": "h8s51z",
+      "name": "rewardBg3",
+      "file": null,
+      "width": 155,
+      "height": 155
+    },
+    {
+      "type": 0,
+      "id": "h8s520",
+      "name": "rewardBg2",
+      "file": null,
+      "width": 156,
+      "height": 156
+    },
+    {
+      "type": 0,
+      "id": "h8s521",
+      "name": "rewardBg1",
+      "file": null,
+      "width": 157,
+      "height": 155
+    },
+    {
+      "type": 0,
+      "id": "h8s523",
+      "name": "progres2",
+      "file": null,
+      "width": 27,
+      "height": 143
+    },
+    {
+      "type": 0,
+      "id": "h8s524",
+      "name": "progres1",
+      "file": null,
+      "width": 27,
+      "height": 134
+    },
+    {
+      "type": 0,
+      "id": "h8s525",
+      "name": "acitvie2",
+      "file": null,
+      "width": 207,
+      "height": 148
+    },
+    {
+      "type": 0,
+      "id": "h8s526",
+      "name": "acitvie1",
+      "file": null,
+      "width": 207,
+      "height": 148
+    },
+    {
+      "type": 0,
+      "id": "h8s527",
+      "name": "lock",
+      "file": null,
+      "width": 36,
+      "height": 43
+    },
+    {
+      "type": 0,
+      "id": "h8s52a",
+      "name": "arrLeft",
+      "file": null,
+      "width": 154,
+      "height": 45
+    },
+    {
+      "type": 0,
+      "id": "kv142h",
+      "name": "mineBtn",
+      "file": null,
+      "width": 101,
+      "height": 92
+    },
+    {
+      "type": 0,
+      "id": "lxu12k",
+      "name": "titleBg2",
+      "file": null,
+      "width": 900,
+      "height": 116
+    },
+    {
+      "type": 0,
+      "id": "lxu12l",
+      "name": "titleBg3",
+      "file": null,
+      "width": 900,
+      "height": 116
+    },
+    {
+      "type": 0,
+      "id": "oe751m",
+      "name": "order_icon",
+      "file": null,
+      "width": 111,
+      "height": 101
+    },
+    {
+      "type": 0,
+      "id": "oe751n",
+      "name": "warOrderBg",
+      "file": null,
+      "width": 450,
+      "height": 131
+    },
+    {
+      "type": 0,
+      "id": "oe751o",
+      "name": "blackBg",
+      "file": null,
+      "width": 900,
+      "height": 103
+    },
+    {
+      "type": 0,
+      "id": "oe751q",
+      "name": "titleBg",
+      "file": null,
+      "width": 900,
+      "height": 116
+    },
+    {
+      "type": 0,
+      "id": "oe751r",
+      "name": "expFg",
+      "file": null,
+      "width": 499,
+      "height": 23
+    },
+    {
+      "type": 0,
+      "id": "oe751s",
+      "name": "expBg",
+      "file": null,
+      "width": 499,
+      "height": 23
+    },
+    {
+      "type": 0,
+      "id": "utd237",
+      "name": "chengqiangback",
+      "file": null,
+      "width": 900,
+      "height": 261
+    },
+    {
+      "type": 0,
+      "id": "utd238",
+      "name": "xuetuback",
+      "file": null,
+      "width": 900,
+      "height": 261
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 832,
+      "height": 768
+    },
+    {
+      "type": 4,
+      "id": "atlas100",
+      "name": null,
+      "file": "atlas0_1.png",
+      "width": 1960,
+      "height": 1988
+    }
+  ],
+  "sprites": [
+    {
+      "id": "h8s522",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        1,
+        829,
+        179
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz62r",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        182,
+        781,
+        15
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz62s",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        199,
+        781,
+        15
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2ok",
+      "atlas_id": "atlas0",
+      "rect": [
+        784,
+        182,
+        541,
+        20
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oe751s",
+      "atlas_id": "atlas0",
+      "rect": [
+        806,
+        216,
+        499,
+        23
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oe751r",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        725,
+        499,
+        23
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oe751n",
+      "atlas_id": "atlas0",
+      "rect": [
+        502,
+        216,
+        450,
+        131
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fw2oo",
+      "atlas_id": "atlas0",
+      "rect": [
+        635,
+        216,
+        343,
+        75
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s525",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        216,
+        207,
+        148
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s526",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        425,
+        207,
+        148
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2o1j",
+      "atlas_id": "atlas0",
+      "rect": [
+        502,
+        668,
+        175,
+        18
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2o1h",
+      "atlas_id": "atlas0",
+      "rect": [
+        679,
+        561,
+        175,
+        18
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s51u",
+      "atlas_id": "atlas0",
+      "rect": [
+        699,
+        561,
+        172,
+        83
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s51v",
+      "atlas_id": "atlas0",
+      "rect": [
+        151,
+        216,
+        172,
+        83
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s51w",
+      "atlas_id": "atlas0",
+      "rect": [
+        151,
+        301,
+        172,
+        83
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s521",
+      "atlas_id": "atlas0",
+      "rect": [
+        210,
+        386,
+        157,
+        155
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s520",
+      "atlas_id": "atlas0",
+      "rect": [
+        325,
+        216,
+        156,
+        156
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s51z",
+      "atlas_id": "atlas0",
+      "rect": [
+        210,
+        545,
+        155,
+        155
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s52a",
+      "atlas_id": "atlas0",
+      "rect": [
+        502,
+        688,
+        154,
+        45
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s523",
+      "atlas_id": "atlas0",
+      "rect": [
+        502,
+        735,
+        27,
+        143
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s524",
+      "atlas_id": "atlas0",
+      "rect": [
+        647,
+        738,
+        27,
+        134
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "oe751m",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        575,
+        111,
+        101
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kv142h",
+      "atlas_id": "atlas0",
+      "rect": [
+        114,
+        575,
+        101,
+        92
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "h8s51y",
+      "atlas_id": "atlas0",
+      "rect": [
+        367,
+        374,
+        85,
+        87
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s51x",
+      "atlas_id": "atlas0",
+      "rect": [
+        367,
+        463,
+        85,
+        87
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2or",
+      "atlas_id": "atlas0",
+      "rect": [
+        367,
+        552,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz62u",
+      "atlas_id": "atlas0",
+      "rect": [
+        367,
+        639,
+        68,
+        68
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2od",
+      "atlas_id": "atlas0",
+      "rect": [
+        437,
+        639,
+        61,
+        51
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fw2ob",
+      "atlas_id": "atlas0",
+      "rect": [
+        712,
+        216,
+        50,
+        50
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2oc",
+      "atlas_id": "atlas0",
+      "rect": [
+        712,
+        268,
+        50,
+        50
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s527",
+      "atlas_id": "atlas0",
+      "rect": [
+        784,
+        725,
+        36,
+        43
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "8fz62t",
+      "atlas_id": "atlas0",
+      "rect": [
+        635,
+        561,
+        42,
+        42
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fw2ot",
+      "atlas_id": "atlas0",
+      "rect": [
+        635,
+        605,
+        38,
+        38
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz62v",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1,
+        1056,
+        1304
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s528",
+      "atlas_id": "atlas100",
+      "rect": [
+        1059,
+        1,
+        773,
+        1253
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "lxu12l",
+      "atlas_id": "atlas100",
+      "rect": [
+        1834,
+        1,
+        900,
+        116
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "utd238",
+      "atlas_id": "atlas100",
+      "rect": [
+        1059,
+        1256,
+        900,
+        261
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "lxu12k",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1307,
+        900,
+        116
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "h8s51t",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1425,
+        900,
+        276
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "cpcl2e",
+      "atlas_id": "atlas100",
+      "rect": [
+        903,
+        1519,
+        900,
+        245
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "utd237",
+      "atlas_id": "atlas100",
+      "rect": [
+        1,
+        1703,
+        900,
+        261
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oe751o",
+      "atlas_id": "atlas100",
+      "rect": [
+        903,
+        1766,
+        900,
+        103
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oe751q",
+      "atlas_id": "atlas100",
+      "rect": [
+        903,
+        1871,
+        900,
+        116
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/06/0693697b-0690-4dae-833b-58cdc7eeeeb3.bin"
+}

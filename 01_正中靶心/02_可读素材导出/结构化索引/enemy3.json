@@ -1,0 +1,770 @@
+{
+  "name": "enemy3",
+  "id": "1tix3n5o",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "d3o3b",
+      "name": "boss1_config",
+      "file": null,
+      "width": 398,
+      "height": 382
+    },
+    {
+      "type": 3,
+      "id": "rvhwj",
+      "name": "boss1_15_config",
+      "file": null,
+      "width": 398,
+      "height": 382
+    },
+    {
+      "type": 1,
+      "id": "d3o39",
+      "name": "boss1_attack",
+      "file": null,
+      "width": 398,
+      "height": 382,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            12,
+            26,
+            374,
+            346
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o39_0"
+        },
+        {
+          "rect": [
+            4,
+            20,
+            389,
+            352
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o39_1"
+        },
+        {
+          "rect": [
+            11,
+            9,
+            382,
+            362
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o39_2"
+        },
+        {
+          "rect": [
+            8,
+            31,
+            383,
+            342
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o39_3"
+        },
+        {
+          "rect": [
+            12,
+            39,
+            374,
+            332
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o39_4"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "d3o3a",
+      "name": "boss1_idle",
+      "file": null,
+      "width": 398,
+      "height": 382,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            12,
+            26,
+            374,
+            346
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o3a_0"
+        },
+        {
+          "rect": [
+            1,
+            25,
+            392,
+            348
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o3a_1"
+        },
+        {
+          "rect": [
+            12,
+            26,
+            379,
+            346
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o3a_2"
+        },
+        {
+          "rect": [
+            8,
+            25,
+            383,
+            347
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "d3o3a_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "ho2ql",
+      "name": "boss1_15_walk_down",
+      "file": null,
+      "width": 398,
+      "height": 382,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            12,
+            27,
+            346,
+            345
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ho2ql_0"
+        },
+        {
+          "rect": [
+            3,
+            25,
+            375,
+            347
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ho2ql_1"
+        },
+        {
+          "rect": [
+            12,
+            27,
+            346,
+            345
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ho2ql_2"
+        },
+        {
+          "rect": [
+            8,
+            30,
+            373,
+            344
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "ho2ql_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "rvhwg",
+      "name": "boss1_15_attack",
+      "file": null,
+      "width": 398,
+      "height": 382,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            12,
+            27,
+            346,
+            345
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwg_0"
+        },
+        {
+          "rect": [
+            3,
+            25,
+            375,
+            347
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwg_1"
+        },
+        {
+          "rect": [
+            12,
+            24,
+            346,
+            348
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwg_2"
+        },
+        {
+          "rect": [
+            8,
+            37,
+            373,
+            336
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwg_3"
+        },
+        {
+          "rect": [
+            3,
+            39,
+            375,
+            334
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwg_4"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "rvhwh",
+      "name": "boss1_15_idle",
+      "file": null,
+      "width": 398,
+      "height": 382,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            12,
+            27,
+            346,
+            345
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwh_0"
+        },
+        {
+          "rect": [
+            3,
+            25,
+            375,
+            347
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwh_1"
+        },
+        {
+          "rect": [
+            12,
+            27,
+            346,
+            345
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwh_2"
+        },
+        {
+          "rect": [
+            8,
+            30,
+            373,
+            344
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwh_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "rvhwk",
+      "name": "boss1_15_blood",
+      "file": null,
+      "width": 398,
+      "height": 196,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            13,
+            29,
+            379,
+            161
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwk_0"
+        },
+        {
+          "rect": [
+            5,
+            29,
+            379,
+            161
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwk_1"
+        },
+        {
+          "rect": [
+            13,
+            29,
+            379,
+            160
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwk_2"
+        },
+        {
+          "rect": [
+            5,
+            29,
+            379,
+            161
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "rvhwk_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "uko2c",
+      "name": "boss1_walk_down",
+      "file": null,
+      "width": 398,
+      "height": 382,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            12,
+            26,
+            374,
+            346
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2c_0"
+        },
+        {
+          "rect": [
+            1,
+            25,
+            392,
+            348
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2c_1"
+        },
+        {
+          "rect": [
+            12,
+            26,
+            379,
+            346
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2c_2"
+        },
+        {
+          "rect": [
+            8,
+            25,
+            383,
+            347
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "uko2c_3"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas2",
+      "name": null,
+      "file": "atlas2.png",
+      "width": 1920,
+      "height": 1144
+    },
+    {
+      "type": 4,
+      "id": "atlas1",
+      "name": null,
+      "file": "atlas1.png",
+      "width": 1728,
+      "height": 1144
+    }
+  ],
+  "sprites": [
+    {
+      "id": "rvhwk_3",
+      "atlas_id": "atlas2",
+      "rect": [
+        0,
+        0,
+        379,
+        161
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwk_2",
+      "atlas_id": "atlas2",
+      "rect": [
+        0,
+        381,
+        379,
+        160
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwk_0",
+      "atlas_id": "atlas2",
+      "rect": [
+        0,
+        762,
+        379,
+        161
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwk_1",
+      "atlas_id": "atlas2",
+      "rect": [
+        162,
+        381,
+        379,
+        161
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwg_4",
+      "atlas_id": "atlas2",
+      "rect": [
+        163,
+        0,
+        375,
+        334
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwg_1",
+      "atlas_id": "atlas2",
+      "rect": [
+        163,
+        762,
+        375,
+        347
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwh_1",
+      "atlas_id": "atlas2",
+      "rect": [
+        325,
+        377,
+        375,
+        347
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ho2ql_1",
+      "atlas_id": "atlas2",
+      "rect": [
+        512,
+        0,
+        375,
+        347
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwg_3",
+      "atlas_id": "atlas2",
+      "rect": [
+        861,
+        0,
+        373,
+        336
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ho2ql_3",
+      "atlas_id": "atlas2",
+      "rect": [
+        1199,
+        0,
+        373,
+        344
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwh_3",
+      "atlas_id": "atlas2",
+      "rect": [
+        1545,
+        0,
+        373,
+        344
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwg_2",
+      "atlas_id": "atlas2",
+      "rect": [
+        1545,
+        346,
+        346,
+        348
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwh_2",
+      "atlas_id": "atlas2",
+      "rect": [
+        512,
+        754,
+        346,
+        345
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ho2ql_0",
+      "atlas_id": "atlas2",
+      "rect": [
+        674,
+        377,
+        346,
+        345
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwg_0",
+      "atlas_id": "atlas2",
+      "rect": [
+        859,
+        725,
+        346,
+        345
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ho2ql_2",
+      "atlas_id": "atlas2",
+      "rect": [
+        1021,
+        375,
+        346,
+        345
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rvhwh_0",
+      "atlas_id": "atlas2",
+      "rect": [
+        1206,
+        723,
+        346,
+        345
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d3o3a_1",
+      "atlas_id": "atlas1",
+      "rect": [
+        0,
+        0,
+        392,
+        348
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uko2c_1",
+      "atlas_id": "atlas1",
+      "rect": [
+        0,
+        394,
+        392,
+        348
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d3o39_1",
+      "atlas_id": "atlas1",
+      "rect": [
+        0,
+        788,
+        389,
+        352
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d3o39_3",
+      "atlas_id": "atlas1",
+      "rect": [
+        391,
+        788,
+        383,
+        342
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "uko2c_3",
+      "atlas_id": "atlas1",
+      "rect": [
+        776,
+        788,
+        383,
+        347
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d3o3a_3",
+      "atlas_id": "atlas1",
+      "rect": [
+        1161,
+        788,
+        383,
+        347
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d3o39_2",
+      "atlas_id": "atlas1",
+      "rect": [
+        350,
+        0,
+        382,
+        362
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d3o3a_2",
+      "atlas_id": "atlas1",
+      "rect": [
+        350,
+        384,
+        379,
+        346
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uko2c_2",
+      "atlas_id": "atlas1",
+      "rect": [
+        698,
+        384,
+        379,
+        346
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uko2c_0",
+      "atlas_id": "atlas1",
+      "rect": [
+        714,
+        0,
+        374,
+        346
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d3o39_0",
+      "atlas_id": "atlas1",
+      "rect": [
+        1046,
+        376,
+        374,
+        346
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d3o3a_0",
+      "atlas_id": "atlas1",
+      "rect": [
+        1062,
+        0,
+        374,
+        346
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "d3o39_4",
+      "atlas_id": "atlas1",
+      "rect": [
+        1394,
+        376,
+        374,
+        332
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/b8/b82e4f28-336f-41a2-af8d-63be7f455717.bin"
+}

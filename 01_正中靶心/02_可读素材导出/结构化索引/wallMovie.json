@@ -1,0 +1,445 @@
+{
+  "name": "wallMovie",
+  "id": "5till2d1",
+  "version": 2,
+  "items": [
+    {
+      "type": 1,
+      "id": "7r1264",
+      "name": "wall_2_movie",
+      "file": null,
+      "width": 960,
+      "height": 200,
+      "interval_ms": 208,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            0,
+            25,
+            960,
+            172
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1264_0"
+        },
+        {
+          "rect": [
+            0,
+            25,
+            960,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1264_1"
+        },
+        {
+          "rect": [
+            0,
+            34,
+            960,
+            166
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1264_2"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            960,
+            200
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1264_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "7r1266",
+      "name": "wall_3_movie",
+      "file": null,
+      "width": 960,
+      "height": 200,
+      "interval_ms": 208,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            0,
+            41,
+            960,
+            143
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1266_0"
+        },
+        {
+          "rect": [
+            0,
+            24,
+            960,
+            161
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1266_1"
+        },
+        {
+          "rect": [
+            0,
+            24,
+            960,
+            176
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1266_2"
+        },
+        {
+          "rect": [
+            0,
+            14,
+            960,
+            164
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1266_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "7r1267",
+      "name": "wall_4_movie",
+      "file": null,
+      "width": 960,
+      "height": 200,
+      "interval_ms": 208,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            0,
+            12,
+            960,
+            180
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1267_0"
+        },
+        {
+          "rect": [
+            0,
+            11,
+            960,
+            181
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1267_1"
+        },
+        {
+          "rect": [
+            0,
+            4,
+            960,
+            195
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1267_2"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            960,
+            197
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1267_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "7r1268",
+      "name": "wall_0_movie",
+      "file": null,
+      "width": 946,
+      "height": 55,
+      "interval_ms": 208,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 2,
+      "frames": [
+        {
+          "rect": [
+            0,
+            0,
+            941,
+            55
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1268_0"
+        },
+        {
+          "rect": [
+            4,
+            0,
+            942,
+            47
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "7r1268_1"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hbf369",
+      "name": "wall_1_movie",
+      "file": null,
+      "width": 960,
+      "height": 153,
+      "interval_ms": 208,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            0,
+            3,
+            960,
+            149
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hbf369_0"
+        },
+        {
+          "rect": [
+            0,
+            3,
+            960,
+            150
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hbf369_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            960,
+            148
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hbf369_2"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1984,
+      "height": 1340
+    }
+  ],
+  "sprites": [
+    {
+      "id": "7r1266_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        960,
+        176
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1266_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        962,
+        960,
+        164
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "7r1264_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        178,
+        0,
+        960,
+        172
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1264_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        352,
+        0,
+        960,
+        175
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1264_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        529,
+        0,
+        960,
+        166
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1264_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        697,
+        0,
+        960,
+        200
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1266_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        899,
+        0,
+        960,
+        143
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1266_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1128,
+        960,
+        161
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "7r1267_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        962,
+        962,
+        960,
+        195
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "7r1267_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1044,
+        0,
+        960,
+        197
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1267_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1243,
+        0,
+        960,
+        180
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "7r1267_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1425,
+        0,
+        960,
+        181
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hbf369_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1608,
+        0,
+        960,
+        149
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hbf369_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1759,
+        0,
+        960,
+        150
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hbf369_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        962,
+        1159,
+        960,
+        148
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "7r1268_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1291,
+        942,
+        47
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "7r1268_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1924,
+        0,
+        941,
+        55
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/ef/efa1753b-8839-4eab-a8b5-df7c8c431688.bin"
+}

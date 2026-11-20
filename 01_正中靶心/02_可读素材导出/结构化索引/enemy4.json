@@ -1,0 +1,552 @@
+{
+  "name": "enemy4",
+  "id": "1emi8tdc",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "hv6zp",
+      "name": "boss2_config",
+      "file": null,
+      "width": 400,
+      "height": 512
+    },
+    {
+      "type": 3,
+      "id": "ssriq",
+      "name": "boss2effect",
+      "file": null,
+      "width": 155,
+      "height": 231
+    },
+    {
+      "type": 1,
+      "id": "hv6zm",
+      "name": "boss2_walk_down",
+      "file": null,
+      "width": 400,
+      "height": 512,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            17,
+            33,
+            366,
+            452
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zm_0"
+        },
+        {
+          "rect": [
+            16,
+            31,
+            368,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zm_1"
+        },
+        {
+          "rect": [
+            16,
+            30,
+            368,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zm_2"
+        },
+        {
+          "rect": [
+            16,
+            31,
+            368,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zm_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zn",
+      "name": "boss2_idle",
+      "file": null,
+      "width": 400,
+      "height": 512,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            17,
+            33,
+            366,
+            452
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zn_0"
+        },
+        {
+          "rect": [
+            16,
+            31,
+            368,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zn_1"
+        },
+        {
+          "rect": [
+            16,
+            30,
+            368,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zn_2"
+        },
+        {
+          "rect": [
+            16,
+            31,
+            368,
+            455
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zn_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "hv6zo",
+      "name": "boss2_attack",
+      "file": null,
+      "width": 400,
+      "height": 512,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 6,
+      "frames": [
+        {
+          "rect": [
+            17,
+            33,
+            366,
+            452
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zo_0"
+        },
+        {
+          "rect": [
+            16,
+            24,
+            368,
+            461
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zo_1"
+        },
+        {
+          "rect": [
+            16,
+            9,
+            368,
+            476
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zo_2"
+        },
+        {
+          "rect": [
+            16,
+            9,
+            368,
+            477
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zo_3"
+        },
+        {
+          "rect": [
+            17,
+            9,
+            366,
+            476
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zo_4"
+        },
+        {
+          "rect": [
+            17,
+            44,
+            366,
+            440
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hv6zo_5"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "p13k77e3zu",
+      "name": "battle3_born",
+      "file": null,
+      "width": 155,
+      "height": 231,
+      "interval_ms": 83,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 8,
+      "frames": [
+        {
+          "rect": [
+            1,
+            124,
+            153,
+            100
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_0"
+        },
+        {
+          "rect": [
+            0,
+            85,
+            155,
+            146
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_1"
+        },
+        {
+          "rect": [
+            0,
+            5,
+            155,
+            219
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_2"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            155,
+            230
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_3"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            155,
+            231
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_4"
+        },
+        {
+          "rect": [
+            2,
+            0,
+            153,
+            223
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_5"
+        },
+        {
+          "rect": [
+            0,
+            5,
+            155,
+            219
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_6"
+        },
+        {
+          "rect": [
+            0,
+            85,
+            155,
+            146
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "p13k77e3zu_7"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1920,
+      "height": 1452
+    }
+  ],
+  "sprites": [
+    {
+      "id": "hv6zo_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        368,
+        477
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zo_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        479,
+        368,
+        476
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zo_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        957,
+        366,
+        476
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zo_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        368,
+        957,
+        368,
+        461
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zm_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        738,
+        957,
+        368,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zm_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1108,
+        957,
+        368,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zn_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1478,
+        0,
+        368,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zn_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        370,
+        457,
+        368,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zn_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        370,
+        0,
+        368,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zm_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        740,
+        457,
+        368,
+        455
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zm_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1110,
+        0,
+        366,
+        452
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zn_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1110,
+        454,
+        366,
+        452
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zo_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        740,
+        0,
+        366,
+        452
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hv6zo_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1478,
+        457,
+        366,
+        440
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "p13k77e3zu_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1478,
+        825,
+        155,
+        231
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "p13k77e3zu_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1711,
+        825,
+        155,
+        230
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "p13k77e3zu_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1478,
+        982,
+        153,
+        223
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "p13k77e3zu_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1703,
+        1057,
+        155,
+        219
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "p13k77e3zu_6",
+      "atlas_id": "atlas0",
+      "rect": [
+        1478,
+        1137,
+        155,
+        219
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "p13k77e3zu_7",
+      "atlas_id": "atlas0",
+      "rect": [
+        1478,
+        1294,
+        155,
+        146
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "p13k77e3zu_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1626,
+        1294,
+        155,
+        146
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "p13k77e3zu_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1774,
+        1278,
+        153,
+        100
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/7f/7fd72581-9204-418f-9b2c-33dacf5c8286.bin"
+}

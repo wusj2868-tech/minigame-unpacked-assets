@@ -1,0 +1,240 @@
+{
+  "name": "event15",
+  "id": "wr6j3mw4",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "kh2t77e3yw",
+      "name": "event15_reward_back",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "lo242",
+      "name": "ProgressBar1",
+      "file": null,
+      "width": 260,
+      "height": 261
+    },
+    {
+      "type": 3,
+      "id": "bzz76",
+      "name": "event15resItem",
+      "file": null,
+      "width": 814,
+      "height": 172
+    },
+    {
+      "type": 3,
+      "id": "lo240",
+      "name": "event15",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "bzz73",
+      "name": "event15_back",
+      "file": null,
+      "width": 574,
+      "height": 574
+    },
+    {
+      "type": 0,
+      "id": "bzz74",
+      "name": "2",
+      "file": null,
+      "width": 260,
+      "height": 261
+    },
+    {
+      "type": 0,
+      "id": "bzz75",
+      "name": "3",
+      "file": null,
+      "width": 260,
+      "height": 261
+    },
+    {
+      "type": 0,
+      "id": "bzz777e3yv",
+      "name": "event15_shop_bg",
+      "file": null,
+      "width": 686,
+      "height": 1025
+    },
+    {
+      "type": 0,
+      "id": "kh2t3zs",
+      "name": "222",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "kh2t3zt",
+      "name": "333",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "kh2t3zu",
+      "name": "444",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "kh2t3zv",
+      "name": "555",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "kh2t3zw",
+      "name": "666",
+      "file": null,
+      "width": 168,
+      "height": 168
+    },
+    {
+      "type": 0,
+      "id": "kh2t3zx",
+      "name": "777",
+      "file": null,
+      "width": 169,
+      "height": 169
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1604,
+      "height": 860
+    }
+  ],
+  "sprites": [
+    {
+      "id": "bzz777e3yv",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        686,
+        1025
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "bzz73",
+      "atlas_id": "atlas0",
+      "rect": [
+        1027,
+        0,
+        574,
+        574
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz74",
+      "atlas_id": "atlas0",
+      "rect": [
+        1027,
+        576,
+        260,
+        261
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "bzz75",
+      "atlas_id": "atlas0",
+      "rect": [
+        1289,
+        576,
+        260,
+        261
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kh2t3zx",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        688,
+        169,
+        169
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kh2t3zs",
+      "atlas_id": "atlas0",
+      "rect": [
+        171,
+        688,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kh2t3zu",
+      "atlas_id": "atlas0",
+      "rect": [
+        341,
+        688,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kh2t3zv",
+      "atlas_id": "atlas0",
+      "rect": [
+        511,
+        688,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kh2t3zw",
+      "atlas_id": "atlas0",
+      "rect": [
+        681,
+        688,
+        168,
+        168
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "kh2t3zt",
+      "atlas_id": "atlas0",
+      "rect": [
+        851,
+        688,
+        168,
+        168
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/5d/5d6c5bec-0860-485a-a330-379a319b8252.bin"
+}

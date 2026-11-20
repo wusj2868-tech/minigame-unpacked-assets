@@ -1,0 +1,17 @@
+{
+  "folder": "02_向僵尸开炮",
+  "name": "向僵尸开炮",
+  "package": "com.xjskp.gztv1.hnsc",
+  "version": "1.10",
+  "status": "原始解压完整；3811个AB完成读取，静态素材已导出；17个零尺寸动态字体纹理无静态位图。",
+  "original_entries": 6046,
+  "original_bytes": 477959086,
+  "readable_exports": {
+    "TextAsset": 1031,
+    "AnimationClip_JSON": 1430,
+    "Material_JSON": 4671,
+    "PNG": 3212,
+    "FontFile": 12,
+    "OBJ": 214
+  }
+}

@@ -1,0 +1,1394 @@
+{
+  "name": "mini3",
+  "id": "5ki21ddu",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "qnw50",
+      "name": "minigameshe",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "qnw5l",
+      "name": "touchEffect",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "qnw5m",
+      "name": "bulletcom",
+      "file": null,
+      "width": 51,
+      "height": 137
+    },
+    {
+      "type": 3,
+      "id": "qnw5o",
+      "name": "monstercom_1",
+      "file": null,
+      "width": 80,
+      "height": 70
+    },
+    {
+      "type": 3,
+      "id": "qnw5p",
+      "name": "monstercom_2",
+      "file": null,
+      "width": 140,
+      "height": 110
+    },
+    {
+      "type": 3,
+      "id": "qnw5q",
+      "name": "monstercom_3",
+      "file": null,
+      "width": 90,
+      "height": 60
+    },
+    {
+      "type": 3,
+      "id": "qnw5r",
+      "name": "monstercom_4",
+      "file": null,
+      "width": 130,
+      "height": 92
+    },
+    {
+      "type": 3,
+      "id": "qnw5s",
+      "name": "finishCom",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "qnw5x",
+      "name": "Button2",
+      "file": null,
+      "width": 200,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "qnw5y",
+      "name": "touchEffectTips",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "qnw51",
+      "name": "scene_bg_1",
+      "file": null,
+      "width": 360,
+      "height": 720
+    },
+    {
+      "type": 0,
+      "id": "qnw52",
+      "name": "scene_1_wall_4",
+      "file": null,
+      "width": 720,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "qnw53",
+      "name": "scene_1_wall_3",
+      "file": null,
+      "width": 720,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "qnw54",
+      "name": "scene_1_wall_2",
+      "file": null,
+      "width": 720,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "qnw55",
+      "name": "scene_1_wall_1",
+      "file": null,
+      "width": 720,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "qnw5j",
+      "name": "tx_ui_01_1",
+      "file": null,
+      "width": 92,
+      "height": 92
+    },
+    {
+      "type": 0,
+      "id": "qnw5k",
+      "name": "tx_ui_01_2",
+      "file": null,
+      "width": 152,
+      "height": 152
+    },
+    {
+      "type": 0,
+      "id": "qnw5t",
+      "name": "floor_0",
+      "file": null,
+      "width": 621,
+      "height": 279
+    },
+    {
+      "type": 0,
+      "id": "qnw5u",
+      "name": "title_word_1",
+      "file": null,
+      "width": 290,
+      "height": 124
+    },
+    {
+      "type": 0,
+      "id": "qnw5v",
+      "name": "button_2",
+      "file": null,
+      "width": 180,
+      "height": 62
+    },
+    {
+      "type": 1,
+      "id": "qnw57",
+      "name": "mage",
+      "file": null,
+      "width": 93,
+      "height": 191,
+      "interval_ms": 500,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            2,
+            11,
+            84,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw57_0"
+        },
+        {
+          "rect": [
+            7,
+            11,
+            80,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw57_1"
+        },
+        {
+          "rect": [
+            10,
+            11,
+            78,
+            175
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw57_2"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5a",
+      "name": "monster1_walk",
+      "file": null,
+      "width": 80,
+      "height": 70,
+      "interval_ms": 200,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            15,
+            0,
+            53,
+            69
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5a_0"
+        },
+        {
+          "rect": [
+            13,
+            3,
+            53,
+            66
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5a_1"
+        },
+        {
+          "rect": [
+            14,
+            1,
+            54,
+            67
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5a_2"
+        },
+        {
+          "rect": [
+            16,
+            2,
+            53,
+            66
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5a_3"
+        },
+        {
+          "rect": [
+            16,
+            3,
+            54,
+            66
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5a_4"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5b",
+      "name": "monster1_attack",
+      "file": null,
+      "width": 80,
+      "height": 70,
+      "interval_ms": 166,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            13,
+            0,
+            54,
+            68
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5b_0"
+        },
+        {
+          "rect": [
+            11,
+            1,
+            55,
+            67
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5b_1"
+        },
+        {
+          "rect": [
+            10,
+            3,
+            55,
+            65
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5b_2"
+        },
+        {
+          "rect": [
+            10,
+            2,
+            55,
+            66
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5b_3"
+        },
+        {
+          "rect": [
+            12,
+            1,
+            54,
+            67
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5b_4"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5c",
+      "name": "monster2_walk",
+      "file": null,
+      "width": 140,
+      "height": 110,
+      "interval_ms": 200,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 6,
+      "frames": [
+        {
+          "rect": [
+            20,
+            22,
+            101,
+            80
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5c_0"
+        },
+        {
+          "rect": [
+            22,
+            16,
+            99,
+            85
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5c_1"
+        },
+        {
+          "rect": [
+            23,
+            10,
+            98,
+            91
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5c_2"
+        },
+        {
+          "rect": [
+            27,
+            11,
+            97,
+            90
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5c_3"
+        },
+        {
+          "rect": [
+            31,
+            12,
+            95,
+            89
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5c_4"
+        },
+        {
+          "rect": [
+            25,
+            17,
+            98,
+            85
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5c_5"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5d",
+      "name": "monster2_attack",
+      "file": null,
+      "width": 140,
+      "height": 110,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            20,
+            22,
+            101,
+            80
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5d_0"
+        },
+        {
+          "rect": [
+            22,
+            23,
+            106,
+            79
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5d_1"
+        },
+        {
+          "rect": [
+            25,
+            26,
+            113,
+            76
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5d_2"
+        },
+        {
+          "rect": [
+            22,
+            23,
+            106,
+            79
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5d_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5e",
+      "name": "monster3_walk",
+      "file": null,
+      "width": 90,
+      "height": 60,
+      "interval_ms": 200,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 6,
+      "frames": [
+        {
+          "rect": [
+            15,
+            11,
+            55,
+            48
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5e_0"
+        },
+        {
+          "rect": [
+            18,
+            8,
+            54,
+            51
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5e_1"
+        },
+        {
+          "rect": [
+            20,
+            5,
+            54,
+            53
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5e_2"
+        },
+        {
+          "rect": [
+            22,
+            4,
+            55,
+            54
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5e_3"
+        },
+        {
+          "rect": [
+            23,
+            3,
+            56,
+            55
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5e_4"
+        },
+        {
+          "rect": [
+            19,
+            7,
+            56,
+            52
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5e_5"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5f",
+      "name": "monster3_attack",
+      "file": null,
+      "width": 90,
+      "height": 60,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            15,
+            11,
+            55,
+            48
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5f_0"
+        },
+        {
+          "rect": [
+            18,
+            12,
+            57,
+            47
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5f_1"
+        },
+        {
+          "rect": [
+            21,
+            13,
+            61,
+            46
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5f_2"
+        },
+        {
+          "rect": [
+            18,
+            12,
+            57,
+            47
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5f_3"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5g",
+      "name": "monster4_walk",
+      "file": null,
+      "width": 130,
+      "height": 92,
+      "interval_ms": 200,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            33,
+            2,
+            62,
+            88
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5g_0"
+        },
+        {
+          "rect": [
+            29,
+            3,
+            65,
+            89
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5g_1"
+        },
+        {
+          "rect": [
+            32,
+            3,
+            63,
+            88
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5g_2"
+        },
+        {
+          "rect": [
+            35,
+            3,
+            60,
+            88
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5g_3"
+        },
+        {
+          "rect": [
+            36,
+            3,
+            59,
+            88
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5g_4"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5h",
+      "name": "monster4_attack",
+      "file": null,
+      "width": 130,
+      "height": 92,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 5,
+      "frames": [
+        {
+          "rect": [
+            32,
+            2,
+            68,
+            89
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5h_0"
+        },
+        {
+          "rect": [
+            23,
+            3,
+            68,
+            88
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5h_1"
+        },
+        {
+          "rect": [
+            2,
+            10,
+            82,
+            81
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5h_2"
+        },
+        {
+          "rect": [
+            6,
+            8,
+            80,
+            83
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5h_3"
+        },
+        {
+          "rect": [
+            25,
+            3,
+            68,
+            88
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5h_4"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "id": "qnw5n",
+      "name": "bullet",
+      "file": null,
+      "width": 51,
+      "height": 137,
+      "interval_ms": 250,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 3,
+      "frames": [
+        {
+          "rect": [
+            2,
+            0,
+            49,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5n_0"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            49,
+            136
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5n_1"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            51,
+            121
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "qnw5n_2"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1984,
+      "height": 636
+    }
+  ],
+  "sprites": [
+    {
+      "id": "qnw55",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        720,
+        128
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw52",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        0,
+        720,
+        128
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw53",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        130,
+        720,
+        128
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw54",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        130,
+        720,
+        128
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw51",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        260,
+        360,
+        720
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5t",
+      "atlas_id": "atlas0",
+      "rect": [
+        1444,
+        0,
+        621,
+        279
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5u",
+      "atlas_id": "atlas0",
+      "rect": [
+        1725,
+        260,
+        290,
+        124
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5v",
+      "atlas_id": "atlas0",
+      "rect": [
+        1725,
+        552,
+        180,
+        62
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw57_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1725,
+        0,
+        80,
+        175
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw57_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1725,
+        82,
+        84,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw57_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1811,
+        82,
+        78,
+        175
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5k",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        260,
+        152,
+        152
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5n_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1851,
+        259,
+        49,
+        136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5n_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1891,
+        82,
+        49,
+        136
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5n_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1851,
+        397,
+        51,
+        121
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5d_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1851,
+        450,
+        113,
+        76
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5d_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1902,
+        220,
+        106,
+        79
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5d_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        414,
+        106,
+        79
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5c_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        522,
+        101,
+        80
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5d_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        803,
+        414,
+        101,
+        80
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5c_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        804,
+        517,
+        99,
+        85
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5c_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        876,
+        260,
+        98,
+        91
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5c_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        885,
+        360,
+        98,
+        85
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5c_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        969,
+        260,
+        97,
+        90
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5c_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        891,
+        460,
+        95,
+        89
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5j",
+      "atlas_id": "atlas0",
+      "rect": [
+        972,
+        359,
+        92,
+        92
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5g_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1907,
+        528,
+        65,
+        89
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5h_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1061,
+        260,
+        68,
+        89
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5g_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        891,
+        557,
+        60,
+        88
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5g_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        981,
+        557,
+        59,
+        88
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5g_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        982,
+        453,
+        62,
+        88
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5g_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1046,
+        453,
+        63,
+        88
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5h_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1071,
+        543,
+        68,
+        88
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5h_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1141,
+        543,
+        68,
+        88
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5h_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1066,
+        351,
+        80,
+        83
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5h_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1141,
+        260,
+        82,
+        81
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5a_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1902,
+        328,
+        53,
+        69
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5b_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1902,
+        0,
+        54,
+        68
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5a_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1111,
+        436,
+        54,
+        67
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5b_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1148,
+        344,
+        55,
+        67
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5b_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1167,
+        413,
+        54,
+        67
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5a_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1205,
+        344,
+        54,
+        66
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5b_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1167,
+        482,
+        55,
+        66
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5a_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1223,
+        412,
+        53,
+        66
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5a_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1224,
+        260,
+        53,
+        66
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5b_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1261,
+        328,
+        55,
+        65
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "qnw5f_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1279,
+        260,
+        61,
+        46
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5f_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1211,
+        539,
+        57,
+        47
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5f_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1235,
+        480,
+        57,
+        47
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5e_5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1278,
+        395,
+        56,
+        52
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5e_4",
+      "atlas_id": "atlas0",
+      "rect": [
+        1318,
+        323,
+        56,
+        55
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5e_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1332,
+        260,
+        55,
+        54
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5f_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1388,
+        260,
+        55,
+        48
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5e_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1260,
+        539,
+        55,
+        48
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5e_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1284,
+        453,
+        54,
+        53
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "qnw5e_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        1332,
+        381,
+        54,
+        51
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/75/751eccec-d232-4bdf-a5c7-7211475cb9f4.bin"
+}

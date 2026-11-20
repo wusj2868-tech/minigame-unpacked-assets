@@ -1,0 +1,45 @@
+{
+  "name": "event10",
+  "id": "wteavev8",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "kuai40k",
+      "name": "celebration",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 0,
+      "id": "utd277e3wx",
+      "name": "bg",
+      "file": null,
+      "width": 1022,
+      "height": 1419
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1022,
+      "height": 1419
+    }
+  ],
+  "sprites": [
+    {
+      "id": "utd277e3wx",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        1022,
+        1419
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/4c/4cc8b314-d338-45aa-aa89-2972a392102c.bin"
+}

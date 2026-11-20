@@ -1,0 +1,370 @@
+{
+  "name": "battle2",
+  "id": "89vey2qx",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "d3o31",
+      "name": "bossHpInBattle",
+      "file": null,
+      "width": 800,
+      "height": 22
+    },
+    {
+      "type": 3,
+      "id": "d3o32",
+      "name": "bossReward",
+      "file": null,
+      "width": 115,
+      "height": 143
+    },
+    {
+      "type": 3,
+      "id": "d3o33",
+      "name": "difficulty_item",
+      "file": null,
+      "width": 217,
+      "height": 58
+    },
+    {
+      "type": 3,
+      "id": "d3o34",
+      "name": "difficulty_popup",
+      "file": null,
+      "width": 150,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "d3o35",
+      "name": "difficulty",
+      "file": null,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "n9zua3yq",
+      "name": "bossHpInTeamBattle",
+      "file": null,
+      "width": 800,
+      "height": 22
+    },
+    {
+      "type": 3,
+      "id": "nyry9",
+      "name": "bossskillshow",
+      "file": null,
+      "width": 123,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "vnpw0",
+      "name": "challengeBanner",
+      "file": null,
+      "width": 856,
+      "height": 725
+    },
+    {
+      "type": 0,
+      "id": "dog06",
+      "name": "bannerBg",
+      "file": null,
+      "width": 400,
+      "height": 312
+    },
+    {
+      "type": 0,
+      "id": "hfcfa3yo",
+      "name": "8",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "iacza3yp",
+      "name": "9",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "nyrya3yh",
+      "name": "1",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rvhwa3yh",
+      "name": "2",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rvhwa3yi",
+      "name": "3",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rvhwa3yj",
+      "name": "4",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rvhwa3yk",
+      "name": "7",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rvhwa3yl",
+      "name": "6",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "rvhwa3ym",
+      "name": "5",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 1,
+      "id": "hfcfa3yn",
+      "name": "MovieClip1",
+      "file": null,
+      "width": 122,
+      "height": 122,
+      "interval_ms": 333,
+      "swing": 0,
+      "repeat_delay_ms": 0,
+      "frame_count": 4,
+      "frames": [
+        {
+          "rect": [
+            1,
+            0,
+            120,
+            121
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hfcfa3yn_0"
+        },
+        {
+          "rect": [
+            1,
+            0,
+            121,
+            121
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hfcfa3yn_1"
+        },
+        {
+          "rect": [
+            1,
+            0,
+            121,
+            121
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hfcfa3yn_2"
+        },
+        {
+          "rect": [
+            0,
+            0,
+            121,
+            121
+          ],
+          "add_delay_ms": 0,
+          "sprite_id": "hfcfa3yn_3"
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 956,
+      "height": 372
+    }
+  ],
+  "sprites": [
+    {
+      "id": "dog06",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        400,
+        312
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hfcfa3yn_3",
+      "atlas_id": "atlas0",
+      "rect": [
+        402,
+        0,
+        121,
+        121
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hfcfa3yn_2",
+      "atlas_id": "atlas0",
+      "rect": [
+        402,
+        123,
+        121,
+        121
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hfcfa3yn_1",
+      "atlas_id": "atlas0",
+      "rect": [
+        402,
+        246,
+        121,
+        121
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hfcfa3yn_0",
+      "atlas_id": "atlas0",
+      "rect": [
+        525,
+        0,
+        120,
+        121
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwa3yh",
+      "atlas_id": "atlas0",
+      "rect": [
+        525,
+        123,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwa3yj",
+      "atlas_id": "atlas0",
+      "rect": [
+        525,
+        225,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "nyrya3yh",
+      "atlas_id": "atlas0",
+      "rect": [
+        627,
+        123,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwa3yi",
+      "atlas_id": "atlas0",
+      "rect": [
+        647,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwa3yl",
+      "atlas_id": "atlas0",
+      "rect": [
+        627,
+        225,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwa3yk",
+      "atlas_id": "atlas0",
+      "rect": [
+        729,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rvhwa3ym",
+      "atlas_id": "atlas0",
+      "rect": [
+        749,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hfcfa3yo",
+      "atlas_id": "atlas0",
+      "rect": [
+        831,
+        102,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "iacza3yp",
+      "atlas_id": "atlas0",
+      "rect": [
+        851,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/3d/3dc1f615-f582-4ba1-89ed-715e73a7521b.bin"
+}

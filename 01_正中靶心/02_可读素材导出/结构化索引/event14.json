@@ -1,0 +1,397 @@
+{
+  "name": "event14",
+  "id": "5jtx76nf",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "ffrj403",
+      "name": "event14",
+      "file": null,
+      "width": 733,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "ffrj77e3yo",
+      "name": "event14_reward_item",
+      "file": null,
+      "width": 108,
+      "height": 126
+    },
+    {
+      "type": 3,
+      "id": "izfo77e3zg",
+      "name": "event14_selectWnd",
+      "file": null,
+      "width": 800,
+      "height": 1141
+    },
+    {
+      "type": 3,
+      "id": "izfo77e3zh",
+      "name": "event14_addItem",
+      "file": null,
+      "width": 210,
+      "height": 210
+    },
+    {
+      "type": 3,
+      "id": "izfo77e3zj",
+      "name": "event14_selectItem",
+      "file": null,
+      "width": 364,
+      "height": 324
+    },
+    {
+      "type": 3,
+      "id": "khtl77e3yp",
+      "name": "drawRewardCom",
+      "file": null,
+      "width": 393,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "rafh77e3yp",
+      "name": "progress",
+      "file": null,
+      "width": 600,
+      "height": 14
+    },
+    {
+      "type": 0,
+      "id": "ffrja3yh",
+      "name": "Num1",
+      "file": null,
+      "width": 57,
+      "height": 36
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yq",
+      "name": "14",
+      "file": null,
+      "width": 92,
+      "height": 92
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yr",
+      "name": "13",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3ys",
+      "name": "12",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yt",
+      "name": "11",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yu",
+      "name": "10",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yv",
+      "name": "9",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yy",
+      "name": "6",
+      "file": null,
+      "width": 583,
+      "height": 130
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3yz",
+      "name": "5",
+      "file": null,
+      "width": 161,
+      "height": 53
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3z0",
+      "name": "4",
+      "file": null,
+      "width": 47,
+      "height": 43
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3z1",
+      "name": "3",
+      "file": null,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3z2",
+      "name": "2",
+      "file": null,
+      "width": 608,
+      "height": 705
+    },
+    {
+      "type": 0,
+      "id": "izfo77e3z3",
+      "name": "1",
+      "file": null,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "type": 0,
+      "id": "rafh77e3zg",
+      "name": "select_back14",
+      "file": null,
+      "width": 624,
+      "height": 947
+    },
+    {
+      "type": 0,
+      "id": "rafh77e3zh",
+      "name": "select_small_back14",
+      "file": null,
+      "width": 149,
+      "height": 203
+    },
+    {
+      "type": 0,
+      "id": "rafh77e3zi",
+      "name": "buttonback",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 0,
+      "id": "rafh77e3zj",
+      "name": "confirem",
+      "file": null,
+      "width": 298,
+      "height": 110
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1784,
+      "height": 1340
+    }
+  ],
+  "sprites": [
+    {
+      "id": "izfo77e3z1",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rafh77e3zg",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        0,
+        624,
+        947
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "izfo77e3z2",
+      "atlas_id": "atlas0",
+      "rect": [
+        722,
+        626,
+        608,
+        705
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yy",
+      "atlas_id": "atlas0",
+      "rect": [
+        1332,
+        626,
+        583,
+        130
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "rafh77e3zj",
+      "atlas_id": "atlas0",
+      "rect": [
+        1332,
+        1211,
+        298,
+        110
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3z3",
+      "atlas_id": "atlas0",
+      "rect": [
+        1464,
+        626,
+        256,
+        256
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rafh77e3zh",
+      "atlas_id": "atlas0",
+      "rect": [
+        1632,
+        884,
+        149,
+        203
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yz",
+      "atlas_id": "atlas0",
+      "rect": [
+        1722,
+        1089,
+        161,
+        53
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "izfo77e3yq",
+      "atlas_id": "atlas0",
+      "rect": [
+        1464,
+        1089,
+        92,
+        92
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "rafh77e3zi",
+      "atlas_id": "atlas0",
+      "rect": [
+        1558,
+        1089,
+        90,
+        90
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yv",
+      "atlas_id": "atlas0",
+      "rect": [
+        1632,
+        1252,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yu",
+      "atlas_id": "atlas0",
+      "rect": [
+        1464,
+        884,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yt",
+      "atlas_id": "atlas0",
+      "rect": [
+        1464,
+        971,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3ys",
+      "atlas_id": "atlas0",
+      "rect": [
+        1671,
+        0,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "izfo77e3yr",
+      "atlas_id": "atlas0",
+      "rect": [
+        1671,
+        87,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ffrja3yh",
+      "atlas_id": "atlas0",
+      "rect": [
+        1632,
+        1181,
+        57,
+        36
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "izfo77e3z0",
+      "atlas_id": "atlas0",
+      "rect": [
+        1719,
+        1252,
+        47,
+        43
+      ],
+      "rotated": 0
+    }
+  ],
+  "source": "assets/res/raw-assets/fd/fd62aaa4-3e2a-41e9-b107-7eb3561da1e8.bin"
+}

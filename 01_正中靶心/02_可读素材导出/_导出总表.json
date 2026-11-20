@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "配置JSON": 25,
+    "原始图像": 185,
+    "精灵PNG": 2169,
+    "动画帧PNG": 1558,
+    "动画定义": 374,
+    "GIF预览": 374
+  },
+  "packages": 69,
+  "failures": [],
+  "note": "PNG sprites are atlas regions; GIF timing follows MovieClip configuration including per-frame delay. UI components, shaders and gameplay timing are not reconstructed."
+}

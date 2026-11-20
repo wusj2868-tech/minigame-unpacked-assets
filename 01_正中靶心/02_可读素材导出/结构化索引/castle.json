@@ -1,0 +1,1642 @@
+{
+  "name": "castle",
+  "id": "rvn904st",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "jxuo38",
+      "name": "wallLock",
+      "file": null,
+      "width": 960,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "nsze3m",
+      "name": "type_popup",
+      "file": null,
+      "width": 200,
+      "height": 560
+    },
+    {
+      "type": 3,
+      "id": "97dc2r",
+      "name": "wallBanner2",
+      "file": null,
+      "width": 860,
+      "height": 985
+    },
+    {
+      "type": 3,
+      "id": "c0zjg",
+      "name": "apprenticeBanner",
+      "file": null,
+      "width": 860,
+      "height": 400
+    },
+    {
+      "type": 3,
+      "id": "c0zjh",
+      "name": "skillUpItem",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 3,
+      "id": "coeo48",
+      "name": "apprenticeBtn2",
+      "file": null,
+      "width": 210,
+      "height": 210
+    },
+    {
+      "type": 3,
+      "id": "cwon2p",
+      "name": "castleBannerPlayer",
+      "file": null,
+      "width": 900,
+      "height": 510
+    },
+    {
+      "type": 3,
+      "id": "cwon2q",
+      "name": "playerBtn",
+      "file": null,
+      "width": 160,
+      "height": 230
+    },
+    {
+      "type": 3,
+      "id": "e4xs1x",
+      "name": "magicBookbottom",
+      "file": null,
+      "width": 800,
+      "height": 320
+    },
+    {
+      "type": 3,
+      "id": "efyz45",
+      "name": "apprentice_keyinbtn",
+      "file": null,
+      "width": 220,
+      "height": 220
+    },
+    {
+      "type": 3,
+      "id": "f9oc2j",
+      "name": "resTips",
+      "file": null,
+      "width": 327,
+      "height": 157
+    },
+    {
+      "type": 3,
+      "id": "fokc2f",
+      "name": "castleDisBtn",
+      "file": null,
+      "width": 242,
+      "height": 74
+    },
+    {
+      "type": 3,
+      "id": "hmfh1",
+      "name": "castleWnd",
+      "file": null,
+      "width": 960,
+      "height": 1600
+    },
+    {
+      "type": 3,
+      "id": "hmfh2",
+      "name": "castleBanner",
+      "file": null,
+      "width": 900,
+      "height": 500
+    },
+    {
+      "type": 3,
+      "id": "hmfh3",
+      "name": "progress1",
+      "file": null,
+      "width": 700,
+      "height": 29
+    },
+    {
+      "type": 3,
+      "id": "hmfh5",
+      "name": "progressBar1",
+      "file": null,
+      "width": 699,
+      "height": 29
+    },
+    {
+      "type": 3,
+      "id": "hmfh7",
+      "name": "upgradePreview",
+      "file": null,
+      "width": 800,
+      "height": 800
+    },
+    {
+      "type": 3,
+      "id": "k23e36",
+      "name": "magicBookUpgrade",
+      "file": null,
+      "width": 840,
+      "height": 1280
+    },
+    {
+      "type": 3,
+      "id": "k23e37",
+      "name": "magicBookUpgradeWnd",
+      "file": null,
+      "width": 840,
+      "height": 1280
+    },
+    {
+      "type": 3,
+      "id": "kbjt13",
+      "name": "wallSkillUpItem",
+      "file": null,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "type": 3,
+      "id": "kbjt14",
+      "name": "wallskillUpGradeInfo",
+      "file": null,
+      "width": 860,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "kw5i12",
+      "name": "apprenticeskillUpGradeInfo",
+      "file": null,
+      "width": 700,
+      "height": 250
+    },
+    {
+      "type": 3,
+      "id": "lg2j1c",
+      "name": "wallskillItemBtn",
+      "file": null,
+      "width": 800,
+      "height": 117
+    },
+    {
+      "type": 3,
+      "id": "lu3x2t",
+      "name": "wallList",
+      "file": null,
+      "width": 860,
+      "height": 108
+    },
+    {
+      "type": 3,
+      "id": "lu3x2u",
+      "name": "wallSelectItem",
+      "file": null,
+      "width": 208,
+      "height": 110
+    },
+    {
+      "type": 3,
+      "id": "mwk110",
+      "name": "wallPalace",
+      "file": null,
+      "width": 860,
+      "height": 1500
+    },
+    {
+      "type": 3,
+      "id": "mwk111",
+      "name": "apprenticeBtn",
+      "file": null,
+      "width": 210,
+      "height": 210
+    },
+    {
+      "type": 3,
+      "id": "nsze3n",
+      "name": "type",
+      "file": null,
+      "width": 200,
+      "height": 80
+    },
+    {
+      "type": 3,
+      "id": "nsze3o",
+      "name": "equipBtn",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 3,
+      "id": "nuq82k",
+      "name": "time",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "pr7x1d",
+      "name": "magicBookClassificationWnd",
+      "file": null,
+      "width": 840,
+      "height": 1280
+    },
+    {
+      "type": 3,
+      "id": "pr7x1m",
+      "name": "magicCardS",
+      "file": null,
+      "width": 700,
+      "height": 253
+    },
+    {
+      "type": 3,
+      "id": "pr7x1q",
+      "name": "magicSortBtn",
+      "file": null,
+      "width": 180,
+      "height": 240
+    },
+    {
+      "type": 3,
+      "id": "q14ki",
+      "name": "workShop",
+      "file": null,
+      "width": 900,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "q14kj",
+      "name": "castleBtn",
+      "file": null,
+      "width": 250,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "qkua25",
+      "name": "magicBookGet",
+      "file": null,
+      "width": 360,
+      "height": 480
+    },
+    {
+      "type": 3,
+      "id": "qzh942",
+      "name": "wallpifuup",
+      "file": null,
+      "width": 860,
+      "height": 863
+    },
+    {
+      "type": 3,
+      "id": "r3jm3p",
+      "name": "gemSynthesiser",
+      "file": null,
+      "width": 900,
+      "height": 1400
+    },
+    {
+      "type": 3,
+      "id": "ri9z1r",
+      "name": "skillStudyCom",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "rshf2h",
+      "name": "magicFraCom",
+      "file": null,
+      "width": 190,
+      "height": 190
+    },
+    {
+      "type": 3,
+      "id": "vrdm2l",
+      "name": "magicBookClassificationWnd2",
+      "file": null,
+      "width": 840,
+      "height": 1280
+    },
+    {
+      "type": 3,
+      "id": "vrdm2m",
+      "name": "skillAttribute",
+      "file": null,
+      "width": 350,
+      "height": 70
+    },
+    {
+      "type": 3,
+      "id": "vrdm2n",
+      "name": "skillUpItem2",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "vrdm2o",
+      "name": "magicCardS2",
+      "file": null,
+      "width": 700,
+      "height": 110
+    },
+    {
+      "type": 3,
+      "id": "vx4l8",
+      "name": "wallBanner",
+      "file": null,
+      "width": 860,
+      "height": 350
+    },
+    {
+      "type": 3,
+      "id": "vx4l9",
+      "name": "apprenticePalace",
+      "file": null,
+      "width": 860,
+      "height": 1500
+    },
+    {
+      "type": 3,
+      "id": "vx4lb",
+      "name": "addGrid",
+      "file": null,
+      "width": 210,
+      "height": 210
+    },
+    {
+      "type": 3,
+      "id": "x2nh3t",
+      "name": "castlewatchup",
+      "file": null,
+      "width": 900,
+      "height": 510
+    },
+    {
+      "type": 3,
+      "id": "x2nh3x",
+      "name": "castlewatchitem",
+      "file": null,
+      "width": 128,
+      "height": 146
+    },
+    {
+      "type": 0,
+      "id": "8b6h3r",
+      "name": "titleBg4",
+      "file": null,
+      "width": 900,
+      "height": 634
+    },
+    {
+      "type": 0,
+      "id": "8fz63y",
+      "name": "4",
+      "file": null,
+      "width": 964,
+      "height": 27
+    },
+    {
+      "type": 0,
+      "id": "8fz63z",
+      "name": "3",
+      "file": null,
+      "width": 964,
+      "height": 27
+    },
+    {
+      "type": 0,
+      "id": "8fz640",
+      "name": "2",
+      "file": null,
+      "width": 82,
+      "height": 94
+    },
+    {
+      "type": 0,
+      "id": "8fz641",
+      "name": "1",
+      "file": null,
+      "width": 82,
+      "height": 94
+    },
+    {
+      "type": 0,
+      "id": "ayk61z",
+      "name": "titleBg_4",
+      "file": null,
+      "width": 450,
+      "height": 193
+    },
+    {
+      "type": 0,
+      "id": "ayk620",
+      "name": "bg5",
+      "file": null,
+      "width": 815,
+      "height": 1185
+    },
+    {
+      "type": 0,
+      "id": "ayk621",
+      "name": "bg6",
+      "file": null,
+      "width": 696,
+      "height": 266
+    },
+    {
+      "type": 0,
+      "id": "ayk622",
+      "name": "bg7",
+      "file": null,
+      "width": 696,
+      "height": 266
+    },
+    {
+      "type": 0,
+      "id": "b9ga3f",
+      "name": "wallIcon1",
+      "file": null,
+      "width": 74,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "b9ga3g",
+      "name": "next",
+      "file": null,
+      "width": 74,
+      "height": 88
+    },
+    {
+      "type": 0,
+      "id": "cdg93h",
+      "name": "titleBg222",
+      "file": null,
+      "width": 900,
+      "height": 471
+    },
+    {
+      "type": 0,
+      "id": "d4ip1y",
+      "name": "magicBookD",
+      "file": null,
+      "width": 229,
+      "height": 12
+    },
+    {
+      "type": 0,
+      "id": "dcfn16",
+      "name": "door_lock",
+      "file": null,
+      "width": 199,
+      "height": 201
+    },
+    {
+      "type": 0,
+      "id": "dcfn17",
+      "name": "door_lock2",
+      "file": null,
+      "width": 912,
+      "height": 144
+    },
+    {
+      "type": 0,
+      "id": "dwtj2i",
+      "name": "migicBook2",
+      "file": null,
+      "width": 238,
+      "height": 303
+    },
+    {
+      "type": 0,
+      "id": "e4xs1w",
+      "name": "magicLock",
+      "file": null,
+      "width": 258,
+      "height": 256
+    },
+    {
+      "type": 0,
+      "id": "edqe3s",
+      "name": "titleBg6",
+      "file": null,
+      "width": 822,
+      "height": 426
+    },
+    {
+      "type": 0,
+      "id": "efyz46",
+      "name": "appr_keyinbackpack",
+      "file": null,
+      "width": 164,
+      "height": 138
+    },
+    {
+      "type": 0,
+      "id": "fans28",
+      "name": "casterBanner2",
+      "file": null,
+      "width": 348,
+      "height": 193
+    },
+    {
+      "type": 0,
+      "id": "fans29",
+      "name": "casterBanner1",
+      "file": null,
+      "width": 200,
+      "height": 119
+    },
+    {
+      "type": 0,
+      "id": "fans2a",
+      "name": "casterBanerBg3",
+      "file": null,
+      "width": 915,
+      "height": 98
+    },
+    {
+      "type": 0,
+      "id": "fans2b",
+      "name": "casterBanerBg2",
+      "file": null,
+      "width": 495,
+      "height": 260
+    },
+    {
+      "type": 0,
+      "id": "fans2c",
+      "name": "casterBanerBg1",
+      "file": null,
+      "width": 495,
+      "height": 260
+    },
+    {
+      "type": 0,
+      "id": "fans2d",
+      "name": "casterBanerBg4",
+      "file": null,
+      "width": 915,
+      "height": 290
+    },
+    {
+      "type": 0,
+      "id": "felb1s",
+      "name": "magicBg",
+      "file": null,
+      "width": 825,
+      "height": 1083
+    },
+    {
+      "type": 0,
+      "id": "felb1t",
+      "name": "magicBg2",
+      "file": null,
+      "width": 820,
+      "height": 67
+    },
+    {
+      "type": 0,
+      "id": "felb1u",
+      "name": "magicBg3",
+      "file": null,
+      "width": 450,
+      "height": 249
+    },
+    {
+      "type": 0,
+      "id": "felb1v",
+      "name": "magicBook",
+      "file": null,
+      "width": 238,
+      "height": 303
+    },
+    {
+      "type": 0,
+      "id": "hbf339",
+      "name": "wallIcon2",
+      "file": null,
+      "width": 74,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "hbf33a",
+      "name": "wallIcon4",
+      "file": null,
+      "width": 74,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "hbf33b",
+      "name": "wallIcon3",
+      "file": null,
+      "width": 74,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "hbf33d",
+      "name": "skillUp",
+      "file": null,
+      "width": 74,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "hbf33e",
+      "name": "bg10",
+      "file": null,
+      "width": 716,
+      "height": 764
+    },
+    {
+      "type": 0,
+      "id": "hmfh4",
+      "name": "progressBg",
+      "file": null,
+      "width": 912,
+      "height": 20
+    },
+    {
+      "type": 0,
+      "id": "hmfh6",
+      "name": "progressBar",
+      "file": null,
+      "width": 912,
+      "height": 20
+    },
+    {
+      "type": 0,
+      "id": "itja44",
+      "name": "wall_51_Icon",
+      "file": null,
+      "width": 93,
+      "height": 94
+    },
+    {
+      "type": 0,
+      "id": "j0v82e",
+      "name": "titleBg5",
+      "file": null,
+      "width": 480,
+      "height": 183
+    },
+    {
+      "type": 0,
+      "id": "j9rmk",
+      "name": "btnBg3",
+      "file": null,
+      "width": 783,
+      "height": 109
+    },
+    {
+      "type": 0,
+      "id": "j9rml",
+      "name": "btnBg2",
+      "file": null,
+      "width": 242,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "j9rmm",
+      "name": "btnBg1",
+      "file": null,
+      "width": 242,
+      "height": 74
+    },
+    {
+      "type": 0,
+      "id": "j9rmn",
+      "name": "apprentice",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "j9rmo",
+      "name": "titleBg1",
+      "file": null,
+      "width": 450,
+      "height": 244
+    },
+    {
+      "type": 0,
+      "id": "j9rmp",
+      "name": "titleBg2",
+      "file": null,
+      "width": 300,
+      "height": 207
+    },
+    {
+      "type": 0,
+      "id": "j9rmq",
+      "name": "apprentice1",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "j9rmr",
+      "name": "apprentice2",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 0,
+      "id": "j9rms",
+      "name": "apprentice3",
+      "file": null,
+      "width": 100,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "j9rmt",
+      "name": "bg1",
+      "file": null,
+      "width": 812,
+      "height": 328
+    },
+    {
+      "type": 0,
+      "id": "j9rmu",
+      "name": "bgtitle1",
+      "file": null,
+      "width": 732,
+      "height": 108
+    },
+    {
+      "type": 0,
+      "id": "j9rmv",
+      "name": "bg2",
+      "file": null,
+      "width": 900,
+      "height": 240
+    },
+    {
+      "type": 0,
+      "id": "j9rmw",
+      "name": "titleBg3",
+      "file": null,
+      "width": 480,
+      "height": 137
+    },
+    {
+      "type": 0,
+      "id": "jigu2g",
+      "name": "casterBanner4",
+      "file": null,
+      "width": 200,
+      "height": 138
+    },
+    {
+      "type": 0,
+      "id": "lg2j18",
+      "name": "door3",
+      "file": null,
+      "width": 380,
+      "height": 265
+    },
+    {
+      "type": 0,
+      "id": "m5qa2v",
+      "name": "wallBg",
+      "file": null,
+      "width": 828,
+      "height": 756
+    },
+    {
+      "type": 0,
+      "id": "m5qa34",
+      "name": "select",
+      "file": null,
+      "width": 208,
+      "height": 110
+    },
+    {
+      "type": 0,
+      "id": "m5qa35",
+      "name": "wallSkillBg",
+      "file": null,
+      "width": 360,
+      "height": 47
+    },
+    {
+      "type": 0,
+      "id": "m86943",
+      "name": "wall_50_Icon",
+      "file": null,
+      "width": 101,
+      "height": 103
+    },
+    {
+      "type": 0,
+      "id": "mwk1z",
+      "name": "bg4",
+      "file": null,
+      "width": 381,
+      "height": 39
+    },
+    {
+      "type": 0,
+      "id": "o7ms26",
+      "name": "door_lock3",
+      "file": null,
+      "width": 47,
+      "height": 69
+    },
+    {
+      "type": 0,
+      "id": "oinu77e3zr",
+      "name": "xuetu_sl_backitem",
+      "file": null,
+      "width": 120,
+      "height": 121
+    },
+    {
+      "type": 0,
+      "id": "t7vr47",
+      "name": "change_back",
+      "file": null,
+      "width": 250,
+      "height": 366
+    },
+    {
+      "type": 0,
+      "id": "vx4ld",
+      "name": "add",
+      "file": null,
+      "width": 67,
+      "height": 67
+    },
+    {
+      "type": 0,
+      "id": "x2nh3u",
+      "name": "castlewatch2",
+      "file": null,
+      "width": 365,
+      "height": 41
+    },
+    {
+      "type": 0,
+      "id": "x2nh3v",
+      "name": "castlewatch1",
+      "file": null,
+      "width": 365,
+      "height": 41
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 2044,
+      "height": 2048
+    },
+    {
+      "type": 4,
+      "id": "atlas100",
+      "name": null,
+      "file": "atlas0_1.png",
+      "width": 448,
+      "height": 448
+    },
+    {
+      "type": 4,
+      "id": "atlas101",
+      "name": null,
+      "file": "atlas0_2.png",
+      "width": 2032,
+      "height": 2044
+    }
+  ],
+  "sprites": [
+    {
+      "id": "m5qa2v",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        0,
+        828,
+        756
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "edqe3s",
+      "atlas_id": "atlas0",
+      "rect": [
+        830,
+        0,
+        822,
+        426
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "felb1t",
+      "atlas_id": "atlas0",
+      "rect": [
+        1654,
+        0,
+        820,
+        67
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmt",
+      "atlas_id": "atlas0",
+      "rect": [
+        830,
+        428,
+        812,
+        328
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j9rmk",
+      "atlas_id": "atlas0",
+      "rect": [
+        1723,
+        0,
+        783,
+        109
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hbf33e",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        758,
+        716,
+        764
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j9rmu",
+      "atlas_id": "atlas0",
+      "rect": [
+        1723,
+        785,
+        732,
+        108
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ayk622",
+      "atlas_id": "atlas0",
+      "rect": [
+        718,
+        1519,
+        696,
+        266
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ayk621",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1524,
+        696,
+        266
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fans2c",
+      "atlas_id": "atlas0",
+      "rect": [
+        1416,
+        1519,
+        495,
+        260
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fans2b",
+      "atlas_id": "atlas0",
+      "rect": [
+        1678,
+        1519,
+        495,
+        260
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmw",
+      "atlas_id": "atlas0",
+      "rect": [
+        1833,
+        785,
+        480,
+        137
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j0v82e",
+      "atlas_id": "atlas0",
+      "rect": [
+        1834,
+        0,
+        480,
+        183
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmo",
+      "atlas_id": "atlas0",
+      "rect": [
+        698,
+        1787,
+        450,
+        244
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ayk61z",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1792,
+        450,
+        193
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "felb1u",
+      "atlas_id": "atlas0",
+      "rect": [
+        718,
+        822,
+        450,
+        249
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "mwk1z",
+      "atlas_id": "atlas0",
+      "rect": [
+        0,
+        1987,
+        381,
+        39
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "lg2j18",
+      "atlas_id": "atlas0",
+      "rect": [
+        969,
+        758,
+        380,
+        265
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "t7vr47",
+      "atlas_id": "atlas0",
+      "rect": [
+        1351,
+        758,
+        250,
+        366
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "x2nh3v",
+      "atlas_id": "atlas0",
+      "rect": [
+        1603,
+        758,
+        365,
+        41
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "x2nh3u",
+      "atlas_id": "atlas0",
+      "rect": [
+        1603,
+        1125,
+        365,
+        41
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "m5qa35",
+      "atlas_id": "atlas0",
+      "rect": [
+        1646,
+        822,
+        360,
+        47
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fans28",
+      "atlas_id": "atlas0",
+      "rect": [
+        969,
+        1025,
+        348,
+        193
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dwtj2i",
+      "atlas_id": "atlas0",
+      "rect": [
+        1319,
+        1126,
+        238,
+        303
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "felb1v",
+      "atlas_id": "atlas0",
+      "rect": [
+        969,
+        1220,
+        238,
+        303
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmp",
+      "atlas_id": "atlas0",
+      "rect": [
+        1834,
+        482,
+        300,
+        207
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "e4xs1w",
+      "atlas_id": "atlas0",
+      "rect": [
+        1150,
+        1787,
+        258,
+        256
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmm",
+      "atlas_id": "atlas0",
+      "rect": [
+        1646,
+        1184,
+        242,
+        74
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rml",
+      "atlas_id": "atlas0",
+      "rect": [
+        1274,
+        1431,
+        242,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "d4ip1y",
+      "atlas_id": "atlas0",
+      "rect": [
+        698,
+        1524,
+        229,
+        12
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "m5qa34",
+      "atlas_id": "atlas0",
+      "rect": [
+        1833,
+        1267,
+        208,
+        110
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "dcfn16",
+      "atlas_id": "atlas0",
+      "rect": [
+        718,
+        1274,
+        199,
+        201
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "jigu2g",
+      "atlas_id": "atlas0",
+      "rect": [
+        1833,
+        1379,
+        200,
+        138
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fans29",
+      "atlas_id": "atlas0",
+      "rect": [
+        452,
+        1792,
+        200,
+        119
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "efyz46",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        0,
+        164,
+        138
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j9rms",
+      "atlas_id": "atlas100",
+      "rect": [
+        166,
+        0,
+        100,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "oinu77e3zr",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        140,
+        120,
+        121
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "m86943",
+      "atlas_id": "atlas100",
+      "rect": [
+        122,
+        152,
+        101,
+        103
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmq",
+      "atlas_id": "atlas100",
+      "rect": [
+        227,
+        152,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j9rmr",
+      "atlas_id": "atlas100",
+      "rect": [
+        268,
+        0,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "j9rmn",
+      "atlas_id": "atlas100",
+      "rect": [
+        227,
+        254,
+        100,
+        100
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz640",
+      "atlas_id": "atlas100",
+      "rect": [
+        122,
+        255,
+        82,
+        94
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz641",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        263,
+        82,
+        94
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "itja44",
+      "atlas_id": "atlas100",
+      "rect": [
+        84,
+        351,
+        93,
+        94
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "b9ga3g",
+      "atlas_id": "atlas100",
+      "rect": [
+        180,
+        356,
+        74,
+        88
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hbf33d",
+      "atlas_id": "atlas100",
+      "rect": [
+        0,
+        359,
+        74,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "b9ga3f",
+      "atlas_id": "atlas100",
+      "rect": [
+        270,
+        356,
+        74,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hbf33a",
+      "atlas_id": "atlas100",
+      "rect": [
+        329,
+        102,
+        74,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hbf339",
+      "atlas_id": "atlas100",
+      "rect": [
+        370,
+        0,
+        74,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hbf33b",
+      "atlas_id": "atlas100",
+      "rect": [
+        329,
+        178,
+        74,
+        74
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "o7ms26",
+      "atlas_id": "atlas100",
+      "rect": [
+        329,
+        254,
+        47,
+        69
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "vx4ld",
+      "atlas_id": "atlas100",
+      "rect": [
+        346,
+        303,
+        67,
+        67
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "ayk620",
+      "atlas_id": "atlas101",
+      "rect": [
+        0,
+        0,
+        815,
+        1185
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "felb1s",
+      "atlas_id": "atlas101",
+      "rect": [
+        0,
+        1187,
+        825,
+        1083
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "8fz63y",
+      "atlas_id": "atlas101",
+      "rect": [
+        0,
+        2014,
+        964,
+        27
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "8fz63z",
+      "atlas_id": "atlas101",
+      "rect": [
+        966,
+        2014,
+        964,
+        27
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "fans2d",
+      "atlas_id": "atlas101",
+      "rect": [
+        817,
+        0,
+        915,
+        290
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "fans2a",
+      "atlas_id": "atlas101",
+      "rect": [
+        1932,
+        0,
+        915,
+        98
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "dcfn17",
+      "atlas_id": "atlas101",
+      "rect": [
+        817,
+        917,
+        912,
+        144
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hmfh4",
+      "atlas_id": "atlas101",
+      "rect": [
+        1932,
+        917,
+        912,
+        20
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hmfh6",
+      "atlas_id": "atlas101",
+      "rect": [
+        1954,
+        917,
+        912,
+        20
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "j9rmv",
+      "atlas_id": "atlas101",
+      "rect": [
+        1109,
+        0,
+        900,
+        240
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "cdg93h",
+      "atlas_id": "atlas101",
+      "rect": [
+        1351,
+        0,
+        900,
+        471
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "8b6h3r",
+      "atlas_id": "atlas101",
+      "rect": [
+        1085,
+        1063,
+        900,
+        634
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/81/810404cb-c4c5-496a-bed2-bb6b6977d266.bin"
+}

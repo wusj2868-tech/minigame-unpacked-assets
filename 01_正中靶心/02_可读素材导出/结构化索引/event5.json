@@ -1,0 +1,25 @@
+{
+  "name": "event5",
+  "id": "bykdxaje",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "6w5y3zu",
+      "name": "eventRewardList",
+      "file": null,
+      "width": 800,
+      "height": 1200
+    },
+    {
+      "type": 3,
+      "id": "imy53zv",
+      "name": "eventRewardListMove",
+      "file": null,
+      "width": 700,
+      "height": 1200
+    }
+  ],
+  "sprites": [],
+  "source": "assets/res/raw-assets/d1/d10b07ba-b6ad-4b9a-b6a5-fbbf49bcb8bb.bin"
+}

@@ -1,0 +1,760 @@
+{
+  "name": "guild",
+  "id": "5nhm91vn",
+  "version": 2,
+  "items": [
+    {
+      "type": 3,
+      "id": "dn1n77e3yu",
+      "name": "experienceItem",
+      "file": null,
+      "width": 300,
+      "height": 50
+    },
+    {
+      "type": 0,
+      "id": "b1ua9",
+      "name": "titleBg2",
+      "file": null,
+      "width": 358,
+      "height": 66
+    },
+    {
+      "type": 0,
+      "id": "b1uax",
+      "name": "item1",
+      "file": null,
+      "width": 679,
+      "height": 99
+    },
+    {
+      "type": 3,
+      "id": "b1ua10",
+      "name": "noBtn",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "b1ua2",
+      "name": "closeBtn",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "b1ua4",
+      "name": "searchBtn",
+      "file": null,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "type": 3,
+      "id": "b1ua7",
+      "name": "guildListItem",
+      "file": null,
+      "width": 860,
+      "height": 200
+    },
+    {
+      "type": 3,
+      "id": "b1uav",
+      "name": "ApprovalListWnd",
+      "file": null,
+      "width": 960,
+      "height": 1125
+    },
+    {
+      "type": 3,
+      "id": "b1uaw",
+      "name": "playerApplyItem",
+      "file": null,
+      "width": 820,
+      "height": 130
+    },
+    {
+      "type": 3,
+      "id": "b1uay",
+      "name": "yesBtn",
+      "file": null,
+      "width": 90,
+      "height": 90
+    },
+    {
+      "type": 3,
+      "id": "czfu5z",
+      "name": "playerbox",
+      "file": null,
+      "width": 1051,
+      "height": 652
+    },
+    {
+      "type": 3,
+      "id": "dn1n77e3yr",
+      "name": "Treasure",
+      "file": null,
+      "width": 934,
+      "height": 1502
+    },
+    {
+      "type": 3,
+      "id": "dn1n77e3ys",
+      "name": "Treasure_item",
+      "file": null,
+      "width": 317,
+      "height": 467
+    },
+    {
+      "type": 3,
+      "id": "dn1n77e3yv",
+      "name": "applybtn",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "et7812",
+      "name": "guildHome",
+      "file": null,
+      "width": 960,
+      "height": 1599
+    },
+    {
+      "type": 3,
+      "id": "et7813",
+      "name": "playerItem",
+      "file": null,
+      "width": 800,
+      "height": 201
+    },
+    {
+      "type": 3,
+      "id": "fw2o2v",
+      "name": "resourceItem",
+      "file": null,
+      "width": 300,
+      "height": 460
+    },
+    {
+      "type": 3,
+      "id": "gic11l",
+      "name": "donatebookItem",
+      "file": null,
+      "width": 900,
+      "height": 249
+    },
+    {
+      "type": 3,
+      "id": "gic11m",
+      "name": "selectbook",
+      "file": null,
+      "width": 800,
+      "height": 1194
+    },
+    {
+      "type": 3,
+      "id": "gic14a",
+      "name": "science_btn",
+      "file": null,
+      "width": 900,
+      "height": 239
+    },
+    {
+      "type": 3,
+      "id": "hx9e4b",
+      "name": "magicbok_select_item",
+      "file": null,
+      "width": 317,
+      "height": 447
+    },
+    {
+      "type": 3,
+      "id": "hx9e4d",
+      "name": "boss_second",
+      "file": null,
+      "width": 180,
+      "height": 111
+    },
+    {
+      "type": 3,
+      "id": "iigc77e3wy",
+      "name": "magicbook_confirm",
+      "file": null,
+      "width": 900,
+      "height": 479
+    },
+    {
+      "type": 3,
+      "id": "iigc77e3yy",
+      "name": "playerboxItem",
+      "file": null,
+      "width": 1028,
+      "height": 235
+    },
+    {
+      "type": 3,
+      "id": "iigc77e3yz",
+      "name": "guild_Name",
+      "file": null,
+      "width": 900,
+      "height": 600
+    },
+    {
+      "type": 3,
+      "id": "iigc77e3z0",
+      "name": "guild_box",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "iigc77e3z1",
+      "name": "box_item",
+      "file": null,
+      "width": 190,
+      "height": 190
+    },
+    {
+      "type": 3,
+      "id": "mqdo1j",
+      "name": "applyListWnd",
+      "file": null,
+      "width": 960,
+      "height": 1098
+    },
+    {
+      "type": 3,
+      "id": "nw0x77e3yt",
+      "name": "guild_talk",
+      "file": null,
+      "width": 786,
+      "height": 1009
+    },
+    {
+      "type": 3,
+      "id": "pdbj77e3z3",
+      "name": "talk",
+      "file": null,
+      "width": 140,
+      "height": 140
+    },
+    {
+      "type": 3,
+      "id": "pdbj77e3z4",
+      "name": "guildCreate",
+      "file": null,
+      "width": 900,
+      "height": 489
+    },
+    {
+      "type": 3,
+      "id": "xk8l18",
+      "name": "guildFunctionBtn",
+      "file": null,
+      "width": 240,
+      "height": 160
+    },
+    {
+      "type": 3,
+      "id": "xk8l1i",
+      "name": "donateItem",
+      "file": null,
+      "width": 867,
+      "height": 232
+    },
+    {
+      "type": 0,
+      "id": "b1ua11",
+      "name": "noBtn",
+      "file": null,
+      "width": 50,
+      "height": 47
+    },
+    {
+      "type": 0,
+      "id": "b1ua5",
+      "name": "searchIcon",
+      "file": null,
+      "width": 88,
+      "height": 82
+    },
+    {
+      "type": 0,
+      "id": "b1ua8",
+      "name": "functionBottom1",
+      "file": null,
+      "width": 366,
+      "height": 89
+    },
+    {
+      "type": 0,
+      "id": "b1uaz",
+      "name": "yes",
+      "file": null,
+      "width": 61,
+      "height": 51
+    },
+    {
+      "type": 0,
+      "id": "dn1n77e3yw",
+      "name": "titleback",
+      "file": null,
+      "width": 276,
+      "height": 62
+    },
+    {
+      "type": 0,
+      "id": "ewm577e3z9",
+      "name": "name_change",
+      "file": null,
+      "width": 52,
+      "height": 51
+    },
+    {
+      "type": 0,
+      "id": "hmh977e3ym",
+      "name": "guild_boxbtnm",
+      "file": null,
+      "width": 89,
+      "height": 69
+    },
+    {
+      "type": 0,
+      "id": "hmh977e3z5",
+      "name": "guild_talk_Icon",
+      "file": null,
+      "width": 85,
+      "height": 85
+    },
+    {
+      "type": 0,
+      "id": "iigc77e3z2",
+      "name": "box",
+      "file": null,
+      "width": 210,
+      "height": 210
+    },
+    {
+      "type": 0,
+      "id": "lqxn77e3yx",
+      "name": "11_myself",
+      "file": null,
+      "width": 642,
+      "height": 134
+    },
+    {
+      "type": 0,
+      "id": "uqps77e3z6",
+      "name": "box_3icon",
+      "file": null,
+      "width": 310,
+      "height": 233
+    },
+    {
+      "type": 0,
+      "id": "uqps77e3z7",
+      "name": "box_2icon",
+      "file": null,
+      "width": 310,
+      "height": 233
+    },
+    {
+      "type": 0,
+      "id": "uqps77e3z8",
+      "name": "box_1icon",
+      "file": null,
+      "width": 310,
+      "height": 233
+    },
+    {
+      "type": 0,
+      "id": "xk8l14",
+      "name": "1",
+      "file": null,
+      "width": 360,
+      "height": 322
+    },
+    {
+      "type": 0,
+      "id": "xk8l16",
+      "name": "4",
+      "file": null,
+      "width": 720,
+      "height": 15
+    },
+    {
+      "type": 0,
+      "id": "xk8l17",
+      "name": "2",
+      "file": null,
+      "width": 720,
+      "height": 128
+    },
+    {
+      "type": 0,
+      "id": "xk8l19",
+      "name": "9",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "xk8l1a",
+      "name": "8",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "xk8l1b",
+      "name": "7",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "xk8l1c",
+      "name": "6",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "xk8l1d",
+      "name": "10",
+      "file": null,
+      "width": 150,
+      "height": 150
+    },
+    {
+      "type": 0,
+      "id": "xk8l1e",
+      "name": "11",
+      "file": null,
+      "width": 642,
+      "height": 134
+    },
+    {
+      "type": 0,
+      "id": "xk8l1f",
+      "name": "3",
+      "file": null,
+      "width": 364,
+      "height": 684
+    },
+    {
+      "type": 0,
+      "id": "xk8l1g",
+      "name": "shopItem",
+      "file": null,
+      "width": 255,
+      "height": 323
+    },
+    {
+      "type": 4,
+      "id": "atlas0",
+      "name": null,
+      "file": "atlas0.png",
+      "width": 1876,
+      "height": 768
+    }
+  ],
+  "sprites": [
+    {
+      "id": "xk8l16",
+      "atlas_id": "atlas0",
+      "rect": [
+        1,
+        1,
+        720,
+        15
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "xk8l17",
+      "atlas_id": "atlas0",
+      "rect": [
+        18,
+        1,
+        720,
+        128
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "xk8l1f",
+      "atlas_id": "atlas0",
+      "rect": [
+        148,
+        1,
+        364,
+        684
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "b1uax",
+      "atlas_id": "atlas0",
+      "rect": [
+        514,
+        1,
+        679,
+        99
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "xk8l1e",
+      "atlas_id": "atlas0",
+      "rect": [
+        615,
+        1,
+        642,
+        134
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "lqxn77e3yx",
+      "atlas_id": "atlas0",
+      "rect": [
+        751,
+        1,
+        642,
+        134
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "b1ua8",
+      "atlas_id": "atlas0",
+      "rect": [
+        615,
+        645,
+        366,
+        89
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l14",
+      "atlas_id": "atlas0",
+      "rect": [
+        887,
+        1,
+        360,
+        322
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "b1ua9",
+      "atlas_id": "atlas0",
+      "rect": [
+        148,
+        687,
+        358,
+        66
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l1g",
+      "atlas_id": "atlas0",
+      "rect": [
+        887,
+        363,
+        255,
+        323
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uqps77e3z7",
+      "atlas_id": "atlas0",
+      "rect": [
+        1211,
+        1,
+        310,
+        233
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uqps77e3z6",
+      "atlas_id": "atlas0",
+      "rect": [
+        1212,
+        313,
+        310,
+        233
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "uqps77e3z8",
+      "atlas_id": "atlas0",
+      "rect": [
+        1446,
+        1,
+        310,
+        233
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "dn1n77e3yw",
+      "atlas_id": "atlas0",
+      "rect": [
+        1446,
+        625,
+        276,
+        62
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "iigc77e3z2",
+      "atlas_id": "atlas0",
+      "rect": [
+        1447,
+        313,
+        210,
+        210
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l1b",
+      "atlas_id": "atlas0",
+      "rect": [
+        1659,
+        313,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l1d",
+      "atlas_id": "atlas0",
+      "rect": [
+        1659,
+        465,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l19",
+      "atlas_id": "atlas0",
+      "rect": [
+        1724,
+        617,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l1c",
+      "atlas_id": "atlas0",
+      "rect": [
+        1681,
+        1,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "xk8l1a",
+      "atlas_id": "atlas0",
+      "rect": [
+        1681,
+        153,
+        150,
+        150
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "hmh977e3ym",
+      "atlas_id": "atlas0",
+      "rect": [
+        508,
+        687,
+        89,
+        69
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "b1ua5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1447,
+        525,
+        88,
+        82
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "hmh977e3z5",
+      "atlas_id": "atlas0",
+      "rect": [
+        1531,
+        525,
+        85,
+        85
+      ],
+      "rotated": 0
+    },
+    {
+      "id": "b1uaz",
+      "atlas_id": "atlas0",
+      "rect": [
+        983,
+        620,
+        61,
+        51
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "ewm577e3z9",
+      "atlas_id": "atlas0",
+      "rect": [
+        983,
+        683,
+        52,
+        51
+      ],
+      "rotated": 1
+    },
+    {
+      "id": "b1ua11",
+      "atlas_id": "atlas0",
+      "rect": [
+        1036,
+        620,
+        50,
+        47
+      ],
+      "rotated": 1
+    }
+  ],
+  "source": "assets/res/raw-assets/4d/4d69edca-26ab-4c2b-ac97-a0c031777364.bin"
+}
