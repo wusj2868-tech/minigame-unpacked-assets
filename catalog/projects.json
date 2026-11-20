@@ -1,7 +1,7 @@
 {
   "repository": "wusj2868-tech/minigame-unpacked-assets",
   "release": "v2026.11.20",
-  "status": "uploading",
+  "status": "complete",
   "layout": "One complete, independently extractable ZIP per game. Each archive includes original APK files, actual decoded exports, tools, README and its own per-file SHA256 manifest.",
   "date": "2026-11-20",
   "projects": [
@@ -15,8 +15,20 @@
       "files": 6728,
       "uncompressed_bytes": 481919133,
       "estimated_zip_bytes": 387635948,
-      "status": "pending",
-      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/01-zhengzhongbaxin-v34.0-20261120.zip"
+      "status": "uploaded",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/01-zhengzhongbaxin-v34.0-20261120.zip",
+      "zip_bytes": 389729565,
+      "sha256": "a8bf6f1ceff5befd12d454d94e28cd6a39e0508025eaf03e465daa81a6a1ed02",
+      "zip_entries": 6738,
+      "manifest_files": 6737,
+      "crc_readback": "PASS",
+      "source_entry_hashes": "PASS",
+      "build_seconds": 3,
+      "github_asset_id": 771427377,
+      "github_size": 389729565,
+      "github_state": "uploaded",
+      "github_digest": "sha256:a8bf6f1ceff5befd12d454d94e28cd6a39e0508025eaf03e465daa81a6a1ed02",
+      "server_sha256_verified": true
     },
     {
       "id": "02",
@@ -28,8 +40,20 @@
       "files": 20439,
       "uncompressed_bytes": 1053394571,
       "estimated_zip_bytes": 818799132,
-      "status": "pending",
-      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip"
+      "status": "uploaded",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip",
+      "zip_bytes": 826529425,
+      "sha256": "d513a474f495e46c53df2500d7a4e9af76b0cf4ecd0e9a040dcbf92509b5713d",
+      "zip_entries": 20449,
+      "manifest_files": 20448,
+      "crc_readback": "PASS",
+      "source_entry_hashes": "PASS",
+      "build_seconds": 6,
+      "github_asset_id": 771429725,
+      "github_size": 826529425,
+      "github_state": "uploaded",
+      "github_digest": "sha256:d513a474f495e46c53df2500d7a4e9af76b0cf4ecd0e9a040dcbf92509b5713d",
+      "server_sha256_verified": true
     },
     {
       "id": "03",
@@ -41,8 +65,20 @@
       "files": 33232,
       "uncompressed_bytes": 1325340946,
       "estimated_zip_bytes": 1157458456,
-      "status": "pending",
-      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip"
+      "status": "uploaded",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip",
+      "zip_bytes": 1169984274,
+      "sha256": "1b765a08d4769a4714e093a38ec9b27e1b026167195c473e9fb2c40f573e5ea7",
+      "zip_entries": 33242,
+      "manifest_files": 33241,
+      "crc_readback": "PASS",
+      "source_entry_hashes": "PASS",
+      "build_seconds": 8,
+      "github_asset_id": 771434211,
+      "github_size": 1169984274,
+      "github_state": "uploaded",
+      "github_digest": "sha256:1b765a08d4769a4714e093a38ec9b27e1b026167195c473e9fb2c40f573e5ea7",
+      "server_sha256_verified": true
     },
     {
       "id": "04",
@@ -54,8 +90,20 @@
       "files": 15339,
       "uncompressed_bytes": 1327666649,
       "estimated_zip_bytes": 1069729034,
-      "status": "pending",
-      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip"
+      "status": "uploaded",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip",
+      "zip_bytes": 1076175335,
+      "sha256": "0513d5a49d95afe5310d277142d9055bbd60255ddac1943bd8d3c9dae74ca387",
+      "zip_entries": 15349,
+      "manifest_files": 15348,
+      "crc_readback": "PASS",
+      "source_entry_hashes": "PASS",
+      "build_seconds": 10,
+      "github_asset_id": 771440200,
+      "github_size": 1076175335,
+      "github_state": "uploaded",
+      "github_digest": "sha256:0513d5a49d95afe5310d277142d9055bbd60255ddac1943bd8d3c9dae74ca387",
+      "server_sha256_verified": true
     }
   ]
 }

@@ -6,14 +6,14 @@
 
 ## 分项目下载
 
-**正在上传。** 已完成项见下表，未完成项的链接会在发布后可用。
+四个项目均已上传并完成服务端文件校验。
 
 | 项目 | 版本 | 独立压缩包 | 大小 | 状态 |
 |---|---|---|---:|---|
-| 正中靶心 | 34.0 | [01-zhengzhongbaxin-v34.0-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/01-zhengzhongbaxin-v34.0-20261120.zip) | 约387.6 MB | 待上传 |
-| 向僵尸开炮 | 1.10 | [02-xiangjiangshikaipao-v1.10-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip) | 约818.8 MB | 待上传 |
-| 永远的蔚蓝星球 | 3.0.5 | [03-blueplanet-v3.0.5-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip) | 约1,157.5 MB | 待上传 |
-| 向末日开炮（补充） | 1.12 | [04-xiangmorikaipao-v1.12-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip) | 约1,069.7 MB | 待上传 |
+| 正中靶心 | 34.0 | [01-zhengzhongbaxin-v34.0-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/01-zhengzhongbaxin-v34.0-20261120.zip) | 389.7 MB | 已上传、校验通过 |
+| 向僵尸开炮 | 1.10 | [02-xiangjiangshikaipao-v1.10-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip) | 826.5 MB | 已上传、校验通过 |
+| 永远的蔚蓝星球 | 3.0.5 | [03-blueplanet-v3.0.5-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip) | 1,170.0 MB | 已上传、校验通过 |
+| 向末日开炮（补充） | 1.12 | [04-xiangmorikaipao-v1.12-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip) | 1,076.2 MB | 已上传、校验通过 |
 
 [进入完整下载页](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/tag/v2026.11.20) · [项目清单与SHA256](catalog/projects.json) · [原始逐文件清单](catalog/files/)
 

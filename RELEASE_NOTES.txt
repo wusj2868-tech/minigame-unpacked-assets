@@ -1,5 +1,16 @@
-四款塔防拆包资料，每款一个完整独立ZIP。
+# 四款塔防拆包资料：每款一个完整ZIP
 
-下载：仓库README按项目列出4个入口。每包含原始解压文件、已有可读素材/配置、工具、说明与逐文件校验清单。
-蔚蓝核心容器尚未解码，末日1个登录背景容器未额外导出；原始文件均完整保留。
-仓库为私有，下载需要仓库访问权限。所有ZIP都低于2 GiB。
+下载需要的项目即可，各包独立自包含，无需合并。每包都带使用说明、工具和逐文件SHA256清单。
+
+| 项目 | 版本 | 下载 | 大小 |
+|---|---|---|---:|
+| 正中靶心 | 34.0 | [01-zhengzhongbaxin-v34.0-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/01-zhengzhongbaxin-v34.0-20261120.zip) | 389.7 MB |
+| 向僵尸开炮 | 1.10 | [02-xiangjiangshikaipao-v1.10-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/02-xiangjiangshikaipao-v1.10-20261120.zip) | 826.5 MB |
+| 永远的蔚蓝星球 | 3.0.5 | [03-blueplanet-v3.0.5-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/03-blueplanet-v3.0.5-20261120.zip) | 1,170.0 MB |
+| 向末日开炮（补充） | 1.12 | [04-xiangmorikaipao-v1.12-20261120.zip](https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/04-xiangmorikaipao-v1.12-20261120.zip) | 1,076.2 MB |
+
+**四款ZIP均已完成原始条目核对、ZIP回读CRC及GitHub服务端SHA256验证。** `SHA256SUMS.txt`提供整包校验值。
+
+蔚蓝核心Unity容器尚未解码；末日1个登录背景容器未额外导出；原始文件都完整保留。PNG可能是图集/拆件，OBJ仅几何，并非完整可运行工程。
+
+仓库是私有的，下载需要仓库访问权限。GitHub自动附带的Source code压缩包不含大素材，请使用上表的项目ZIP。
