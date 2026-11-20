@@ -1,0 +1,1581 @@
+{
+  "game": {
+    "name": "三国：冰河时代",
+    "package": "com.hyhd.sgbhsd.g.baidu",
+    "version": "2.1.12.0",
+    "engine": "Cocos Creator 3.7.4",
+    "genre": "三国题材 SLG + 塔防/卡牌战斗 + 城建养成",
+    "publisher": "unknown",
+    "channel": "百度(baidu)"
+  },
+  "summary": "《三国：冰河时代》是 Cocos Creator 3.7.4 开发的三国题材 SLG：以章节关卡为骨架，进入 90 秒塔防战斗（多波刷怪），结算掉落与挂机收益，再投入城建、科技、武将养成提升战力，推动下一章解锁，并在竞技场/联盟中竞争。全部数值配置位于 assets/assets/bundle_config(_lazy) 的 10+7 个 .bin 中，实为 MessagePack 外层 + zstd 分块压缩，已完整解码为 1474 张表 / 256,309 行（其中 1108 张表完成字段命名），不是加密。关卡侧解出 CfgLevel 4023 条（主线 4000 条 = 400 章 × 10 关，另 23 条 expeditionNumber=100000 的特殊序列）、CfgLevelMul 2000 条变体、CfgNGBtlMap 236 张塔防地图、CfgNGBtlMapStage 617 套布阵、CfgTksMapProcess 5288 条刷怪波次。商业化侧解出人民币价格表 CfgLiBaoPrice、礼包表 CfgLiBao、月卡 CfgMonthCard、战令 CfgBattlePass 与商城 CfgShop/CfgShopN。最大障碍是 92 个 .jsc 脚本为高熵加密态（外包仅抽取 58 个），玩法运行时代码未能反编译；另有 362 张表缺少 schema 字段名，只能保留位置数组。",
+  "coreLoop": {
+    "summary": "打章节塔防关卡拿资源，把资源投入城建/科技/武将提升战力，战力推动更深的章节与竞技场排名",
+    "cycle": "选章选关 → 编队 → 90 秒多波塔防战斗 → 掉落/挂机收益 → 城建/科技/武将养成 → 战力提升 → 解锁下一关与章节任务",
+    "steps": [
+      {
+        "order": 1,
+        "name": "选章选关",
+        "action": "按 CfgExpedition 章节进入 CfgLevel 关卡",
+        "cost": "无体力消耗字段（全 schema 未发现 energy/stamina）",
+        "reward": "进入战斗准备",
+        "gate": "CfgChapterNew.chapterUnlock / CfgLevel.unlockCondition 控制章节与关卡开放",
+        "files": [
+          "extracted/config_named2/CfgExpedition.json",
+          "extracted/config_named2/CfgLevel.json",
+          "extracted/config_named2/CfgChapterNew.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "编队",
+        "action": "按地图 maxHeroCount 上阵武将，关卡可带 supportHeroData 支援位",
+        "cost": "无",
+        "reward": "确定本场阵容",
+        "gate": "CfgNGBtlMap.maxHeroCount 限制上阵人数",
+        "files": [
+          "extracted/config_named2/CfgNGBtlMap.json",
+          "extracted/config_named2/CfgLevel.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "塔防战斗",
+        "action": "在 CfgNGBtlMapStage 地图上按 CfgTksMapProcess 时间轴刷怪，坚持/达成 passCondition",
+        "cost": "90 秒战斗时长（CfgLevel.duration=90）",
+        "reward": "战斗胜利",
+        "gate": "怪物强度由 CfgMonsterGroup 的 hp/defence/attack 系数与战力决定，失败需重打",
+        "files": [
+          "extracted/config_named2/CfgNGBtlMapStage.json",
+          "extracted/config_named2/CfgTksMapProcess.json",
+          "extracted/config_named2/CfgMonsterGroup.json"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "结算掉落与挂机收益",
+        "action": "按 rewardId 发放关卡奖励，按掉落组抽道具，同时累计离线/挂机收益",
+        "cost": "无",
+        "reward": "道具、装备、元宝类资源（CfgDropgroup 的 itemId|count|weight）",
+        "gate": "奖励按关卡与掉落权重发放，重复刷受关卡解锁与收益上限约束",
+        "files": [
+          "extracted/config_named2/CfgLevel.json",
+          "extracted/config_named/CfgDropgroup.json",
+          "extracted/config_named2/CfgAfkReward.json"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "城建养成",
+        "action": "用材料升级主城/功能建筑，提升建筑战力与功能等级",
+        "cost": "CfgBuildingLevel.lvupCost 中的道具与数量（如 102004×35）",
+        "reward": "建筑 power 与功能解锁/等级",
+        "gate": "升级受前置建筑条件 lvupRequire 限制",
+        "files": [
+          "extracted/config_named2/CfgBuildingLevel.json",
+          "extracted/config_named2/CfgBuilding.json",
+          "extracted/config_named2/CfgBuildingBase.json"
+        ]
+      },
+      {
+        "order": 6,
+        "name": "科技与武将养成",
+        "action": "升科技树、升级武将等级/星级并补士兵数量",
+        "cost": "科技条件 CfgScience.sienceCondition；武将经验 CfgHeroUpgrade.heroExp",
+        "reward": "攻击/防御/生命倍率与 soldierAmount 提升",
+        "gate": "科技前置与武将等级上限",
+        "files": [
+          "extracted/config_named2/CfgScience.json",
+          "extracted/config_named2/CfgHeroUpgrade.json",
+          "extracted/config_named2/CfgNGHero.json"
+        ]
+      },
+      {
+        "order": 7,
+        "name": "章节任务与下一章",
+        "action": "完成 CfgChapterMissionNew 章节任务拿章节奖励，解锁下一章与新功能",
+        "cost": "任务要求的建筑/关卡条件",
+        "reward": "章节 reward 与 unlockFunc 新功能",
+        "gate": "章节任务未完成不解锁下一章",
+        "files": [
+          "extracted/config_named2/CfgChapterNew.json",
+          "extracted/config_named2/CfgChapterMissionNew.json"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "元宝",
+        "income": "充值礼包 CfgLiBao.diamond（如 YB_6 得 600）"
+      },
+      {
+        "name": "养成材料",
+        "income": "关卡/挂机掉落（CfgDropgroup、CfgAfkReward.rewardPerMin）"
+      },
+      {
+        "name": "武将经验",
+        "income": "战斗与任务奖励（未逐项核实来源表）"
+      },
+      {
+        "name": "竞技场挑战次数",
+        "income": "每日刷新"
+      }
+    ],
+    "loopMinutes": "单场战斗固定 90 秒；含收菜与养成的一轮约 5~15 分钟",
+    "evidence": [
+      "extracted/config_named2/CfgLevel.json",
+      "extracted/config_named2/CfgNGBtlMapStage.json",
+      "extracted/config_named2/CfgTksMapProcess.json",
+      "extracted/config_named2/CfgBuildingLevel.json",
+      "extracted/config_named2/CfgHeroUpgrade.json",
+      "extracted/config_named2/CfgChapterNew.json",
+      "extracted/config_named2/CfgArena.json"
+    ],
+    "confidence": "high"
+  },
+  "monetization": {
+    "summary": "售卖元宝直购档、成长礼包、月卡与战令，压力来自养成材料缺口和竞技场/联盟战力竞争",
+    "cycle": "养成资源见底或战力落后 → 购买元宝/礼包/月卡/战令 → 换成抽卡、加速与材料 → 战力提升 → 推进更高章节、冲击竞技场排名 → 产生新的资源缺口",
+    "steps": [
+      {
+        "order": 1,
+        "name": "资源见底/战力落后",
+        "action": "建筑、科技、武将升级同时消耗材料与元宝",
+        "cost": "已积累资源",
+        "reward": "无",
+        "gate": "升级所需数量随等级指数上升（CfgBuildingLevel.power 与 lvupCost）"
+      },
+      {
+        "order": 2,
+        "name": "购买元宝/礼包",
+        "action": "在商城按人民币档位购买元宝或主题礼包",
+        "cost": "¥6~¥6480（CfgLiBaoPrice.rmb）",
+        "reward": "CfgLiBao.diamond 元宝或礼包内道具",
+        "gate": "商品按 CfgShopN.tabType/groupId 与活动开放"
+      },
+      {
+        "order": 3,
+        "name": "抽卡与加速",
+        "action": "用元宝招募武将、购买加速/周卡",
+        "cost": "元宝",
+        "reward": "武将、碎片、加速时间",
+        "gate": "卡池/商店开放条件"
+      },
+      {
+        "order": 4,
+        "name": "战力提升进入下一档压力",
+        "action": "推章节、打竞技场与联盟玩法",
+        "cost": "战力与每日次数",
+        "reward": "排名奖励与更高章节产出",
+        "gate": "竞技场每日免费 5 次，之后需额外资源"
+      }
+    ],
+    "payPoints": [
+      {
+        "name": "元宝直购 YB_6",
+        "price": "¥6 / $0.99",
+        "trigger": "常规商城",
+        "effect": "600 元宝",
+        "config": "extracted/config_named2/CfgLiBao.json"
+      },
+      {
+        "name": "元宝直购 YB_30/YB_68/YB_128",
+        "price": "¥30 / ¥68 / ¥128",
+        "trigger": "常规商城",
+        "effect": "3000 / 6800 / 12800 元宝",
+        "config": "extracted/config_named2/CfgLiBao.json"
+      },
+      {
+        "name": "元宝直购 YB_328/YB_648",
+        "price": "¥328 / ¥648",
+        "trigger": "常规商城",
+        "effect": "32800 / 64800 元宝",
+        "config": "extracted/config_named2/CfgLiBao.json"
+      },
+      {
+        "name": "首充 H5_SC_6",
+        "price": "未解出（商品 ID 指向 ¥6 档）",
+        "trigger": "首次充值",
+        "effect": "首充奖励（CfgFpay 仅 1 行）",
+        "config": "extracted/config_named2/CfgFpay.json"
+      },
+      {
+        "name": "月卡 monthCardType 1001",
+        "price": "未解出",
+        "trigger": "月卡入口",
+        "effect": "每日/周期奖励 1|300、10108002|1 等",
+        "config": "extracted/config_named2/CfgMonthCard.json"
+      },
+      {
+        "name": "战令 fenghuo_bp",
+        "price": "未解出",
+        "trigger": "赛季战令",
+        "effect": "付费档 payReward1（如 10403106|5、10205002|5）",
+        "config": "extracted/config_named2/CfgBattlePass.json"
+      },
+      {
+        "name": "招募礼包 H5_HERO_1/2",
+        "price": "未解出",
+        "trigger": "招募商店 storeId=6",
+        "effect": "武将招募资源",
+        "config": "extracted/config_named2/CfgShop.json"
+      },
+      {
+        "name": "加速/周卡 H5_JIASU_1/5/10",
+        "price": "未解出",
+        "trigger": "加速商店 storeId=7",
+        "effect": "加速与周卡权益",
+        "config": "extracted/config_named2/CfgShop.json"
+      }
+    ],
+    "prices": "CfgLiBaoPrice 实读人民币档：0.99$/¥6、1.99$/¥12、2.99$/¥18、3.99$/¥25、4.99$/¥30、5.99$/¥36、6.99$/¥42、7.99$/¥50、9.99$/¥68、11.99$/¥78、12.99$/¥88、14.99$/¥98、19.99$/¥128、24.99$/¥158、29.99$/¥198、34.99$/¥228、49.99$/¥328、99.99$/¥648、199.99$/¥1296、309.99$/¥1998、459.99$/¥2998、499.99$/¥3280、999.99$/¥6480",
+    "evidence": [
+      "extracted/config_named2/CfgLiBaoPrice.json",
+      "extracted/config_named2/CfgLiBao.json",
+      "extracted/config_named2/CfgShop.json",
+      "extracted/config_named2/CfgShopN.json",
+      "extracted/config_named2/CfgMonthCard.json",
+      "extracted/config_named2/CfgBattlePass.json",
+      "extracted/config_named2/CfgFpay.json"
+    ],
+    "confidence": "medium"
+  },
+  "modules": [
+    {
+      "name": "关卡推进与章节解锁",
+      "summary": "以 CfgExpedition（400 章）为章节壳，CfgLevel 每章 10 关；章节任务与章节解锁条件共同控制推图节奏",
+      "sourceFile": "extracted/config_named2/CfgLevel.json",
+      "details": [
+        "CfgLevel 4023 行：expeditionNumber 1..400 各 10 关（4000 行），另有 expeditionNumber=100000 的 23 行特殊序列（id 100001..100023）",
+        "关卡字段：id/name/expeditionNumber/levelNumber/levelType/levelSceneName/battleType/monsterGroupId/rewardId/rewardPerHour/afkRewardId/duration/unlockCondition/isBoss",
+        "levelType 分布：1→3223、2→400、3→400；isBoss=1 共 804 条（每章第 5、10 关）",
+        "unlockCondition 99.3% 为空数组，非空样例 [[330101,7]] 疑为建筑 ID+等级门槛（语义未证实）",
+        "CfgChapterNew 36 条，content 字段是章节任务 id 列表（如 1003001,1004001），不是 CfgLevel.id"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgLevel.json",
+        "extracted/config_named2/CfgExpedition.json",
+        "extracted/config_named2/CfgChapterNew.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "塔防战斗与编队",
+      "summary": "地图侧 CfgNGBtlMap 定义场景与上阵上限，CfgNGBtlMapStage 定义地图尺寸与怪物摆位串；波次由 CfgTksMapProcess 驱动",
+      "sourceFile": "extracted/config_named2/CfgNGBtlMapStage.json",
+      "details": [
+        "CfgNGBtlMap 236 条：sceneName/mapName（如 StoryLineF_Level01）、maxHeroCount、preLoadSoldiers、initialCharacter、fieldContent",
+        "CfgNGBtlMapStage 617 条：passCondition/passParam/mapSize（如 [9,200]）/monster 编队串 'x~x,y~y,monsterId,n,m|...'",
+        "CfgTksMapProcess 5288 条：level/time/monsterSpawnPointId/camp/monsterId/spawnNum/spawnInterval/dropItem，按 level 与 time 组成刷怪时间轴",
+        "CfgLevel.duration 全部为 90 秒；battleType 1→4020、2→3（3 条含 supportHeroData=[2201,20,1]）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgNGBtlMap.json",
+        "extracted/config_named2/CfgNGBtlMapStage.json",
+        "extracted/config_named2/CfgTksMapProcess.json",
+        "extracted/config_named2/CfgLevel.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "怪物与战斗属性",
+      "summary": "CfgMonsterGroup 定义 5 个怪物位、等级星级、全局属性系数与逐位攻击/防御/生命，是关卡强度的主要来源",
+      "sourceFile": "extracted/config_named2/CfgMonsterGroup.json",
+      "details": [
+        "CfgMonsterGroup 4283 条：monster[5]/level[5]/star[5]/icon/bossLocation/hpCoef/defenceCoef/attackCoef/bossHpCoef/bossDefenceCoef/bossAttackCoef/power/hero1..5Attack/Defence/Hp",
+        "CfgNGMonsterInfo 19908 条为怪物基础信息表（未逐条展开）",
+        "样例 101003：5 位混编（4402,4402,4403,4403,0），power 19856，hero1Attack 145.4 / hero1Defence 115.2 / hero1Hp 1209.6"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgMonsterGroup.json",
+        "extracted/config_named2/CfgNGMonsterInfo.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "城建与建筑升级",
+      "summary": "CfgBuilding 定义建筑条目，CfgBuildingLevel 给出每级 power、升级材料与时间，CfgBuildingBase 定义城内地块布局",
+      "sourceFile": "extracted/config_named2/CfgBuildingLevel.json",
+      "details": [
+        "CfgBuildingLevel 40 条：buildId/buildLv[]/power[]/lvupCost[]/lvupTime/lvupRequire1..2/EffType..4",
+        "样例 buildId 330101：60 级，power 从 2000 递增到 60 级；buildId 330201：30 级，power 120→91410",
+        "lvupCost 逐级数组，如 [[102004,35]] → [[102005,240]] → [[102005,540],[102007,263]]，是混凝土的材料消耗曲线",
+        "CfgBuildingBase 63 条：mapid/buildTemplateType/buildId/productIcon/func1Type 描述城建地块"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgBuilding.json",
+        "extracted/config_named2/CfgBuildingLevel.json",
+        "extracted/config_named2/CfgBuildingBase.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "科技树",
+      "summary": "CfgScience 6019 条构成按 type/level/group 组织的科技成长，提供全局 power 与前置条件",
+      "sourceFile": "extracted/config_named2/CfgScience.json",
+      "details": [
+        "字段：type/level/group/power/sienceCondition 等（完整字段见 __meta__）",
+        "与 CfgBuildingLevel.lvupRequire 共同构成城建→科技的解锁链"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgScience.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "武将养成与招募",
+      "summary": "CfgNGHero 定义武将展示与专属装备/碎片成本，CfgHeroUpgrade 定义等级成长倍率与带兵量",
+      "sourceFile": "extracted/config_named2/CfgHeroUpgrade.json",
+      "details": [
+        "CfgNGHero 238 条：lName/head/icon/model/heroCard/exclusiveEquipmentId/fragmentCost",
+        "CfgHeroUpgrade 200 条：type/heroExp/attack/defence/hp/soldierAmount/power；样例 id1→heroExp 500、attack 1、soldierAmount 60；id2→700/1.5/135；id3→900/2/…",
+        "末条 id 10100（season 4..15，type2）attack/defence/hp=28.5，属赛季成长档"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgNGHero.json",
+        "extracted/config_named2/CfgHeroUpgrade.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "掉落、奖励与挂机",
+      "summary": "CfgDropgroup 用 itemId|count|weight 三元组描述掉落池；关卡 rewardId 与 CfgAfkReward 提供固定与挂机产出",
+      "sourceFile": "extracted/config_named/CfgDropgroup.json",
+      "details": [
+        "CfgDropgroup 22924 条，位于 config_named 的 _raw 位置数组（schema 未匹配，字段名未恢复）",
+        "第 1 行 _raw 中出现串 '10409003|1|2,19945001|2|10,...,1|200|18'，可读为 itemId|count|weight",
+        "后续行改为扁平重复三元组（如 '10409003','1','1','10204002','2','2'…）",
+        "CfgAfkReward 500 条：rewardPerMin 如 [[15,2]]、[[15,3]]，按分钟产出"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named/CfgDropgroup.json",
+        "extracted/config_named2/CfgAfkReward.json",
+        "extracted/config_named2/CfgLevel.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "商店、礼包与充值",
+      "summary": "人民币价目由 CfgLiBaoPrice 给出，CfgLiBao 把商品 ID 映射到元宝数量，CfgShop/CfgShopN 组织商城页签",
+      "sourceFile": "extracted/config_named2/CfgLiBao.json",
+      "details": [
+        "CfgLiBaoPrice 32 行：id/dollar/rmb/coin/rmbHw/coinHw",
+        "CfgLiBao 4864 行：id/productType/priceId/diamond/item/allianceGift/specialMail/add…",
+        "YB_6→com_icewar_0_99/600 钻；YB_30→com_icewar_4_99/3000；YB_68→_9_99/6800；YB_128→_19_99/12800；YB_328→_49_99/32800；YB_648→_99_99/64800",
+        "CfgShop 11 行仅列商城入口（storeId 5 元宝、6 招募、7 加速）；CfgShopN 3951 行做 tabType/groupId/productId 编排"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgLiBaoPrice.json",
+        "extracted/config_named2/CfgLiBao.json",
+        "extracted/config_named2/CfgShop.json",
+        "extracted/config_named2/CfgShopN.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "章节任务与成就",
+      "summary": "CfgChapterMissionNew 104 条按 missionGroup/index 组织任务，type+para1..3 表示条件，reward 发奖",
+      "sourceFile": "extracted/config_named2/CfgChapterMissionNew.json",
+      "details": [
+        "样例 1003001：missionGroup 1003，type 111，para1 330201（疑为建筑 ID），para2 5，para3 1，reward 2001101，jump 20024",
+        "CfgChapterNew 36 条：type 1 有 8 条、type 2 有 28 条；title/desc 为 i18n key（chapterTitle_N/chapterDesc_N）",
+        "CfgAchievement、CfgChapterMissionNewB/C/D、CfgChapterMissionWorld 为扩展任务表"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgChapterMissionNew.json",
+        "extracted/config_named2/CfgChapterNew.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "新手引导与触发式引导",
+      "summary": "CfgGuide 32 条按 group/index/stage 组织强制引导步骤，CfgTriggerGuide 35 条定义触发条件（如 overload）",
+      "sourceFile": "extracted/config_named2/CfgGuide.json",
+      "details": [
+        "CfgGuide 字段：group/index/stage/chapter/triggerConditionType/buildingCamera/lGuideText/guideType/diaologGroup/clientParm/closeView/interruption",
+        "样例 1001001：group 1001、stage 1、guideType 1、lGuideText Guide_GuideText_1001001、clientParm 110201、diaologGroup 1",
+        "样例 1001002：stage 2、guideType 2、buildingCamera 110301、clientParm 110301",
+        "CfgTriggerGuide 35 条：groupType/triggerConditionType（含 'overload'）/triggerCondition1=-5/buildingCamera/interruption",
+        "CfgChapterMissionNew 的 useGuide/triggerGuideGroup 字段把任务与引导组挂钩"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgGuide.json",
+        "extracted/config_named2/CfgTriggerGuide.json",
+        "extracted/config_named2/CfgChapterMissionNew.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "竞技场与联盟",
+      "summary": "CfgArena 定义两种竞技场规则与每日次数；CfgAlliance* 系列表支撑联盟 Boss、科技、建造与排行",
+      "sourceFile": "extracted/config_named2/CfgArena.json",
+      "details": [
+        "CfgArena 2 条：普通竞技场（refreshTime 22:00、defaultScore 1000、freeFightTimes 5、fightersNum 5、enterCon 200）与双队竞技场（22:05 刷新、fightersRange 不同）",
+        "CfgArena.fightersRange 给出匹配战力区间（如 '1.5,1.3;1.3,1;1,0.95;0.95,0.85;0.85,0.8'）",
+        "联盟侧存在 CfgAllianceBoss/CfgAllianceScience/CfgAllianceBuild/CfgAllianceRank 等表（未逐表展开）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config_named2/CfgArena.json"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "主线关卡表 CfgLevel",
+      "summary": "定义每关的章节归属、场景、怪物组、奖励与时长，是推图与掉落的主索引",
+      "sourceFile": "extracted/config_named2/CfgLevel.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "1",
+          "meaning": "关卡唯一 ID"
+        },
+        {
+          "name": "expeditionNumber",
+          "type": "int",
+          "sample": "1",
+          "meaning": "章节序号（1..400，另 100000 特殊序列）"
+        },
+        {
+          "name": "levelNumber",
+          "type": "int",
+          "sample": "1",
+          "meaning": "章内关号 1..10"
+        },
+        {
+          "name": "levelType",
+          "type": "int",
+          "sample": "1",
+          "meaning": "关卡类型（1/2/3，语义未证实）"
+        },
+        {
+          "name": "monsterGroupId",
+          "type": "int",
+          "sample": "101001",
+          "meaning": "指向 CfgMonsterGroup.id"
+        },
+        {
+          "name": "rewardId",
+          "type": "int",
+          "sample": "2200001",
+          "meaning": "关卡奖励组 ID"
+        },
+        {
+          "name": "duration",
+          "type": "int",
+          "sample": "90",
+          "meaning": "战斗时长（秒），4023 条全为 90"
+        },
+        {
+          "name": "isBoss",
+          "type": "int",
+          "sample": "0",
+          "meaning": "是否 BOSS 关（804 条为 1）"
+        },
+        {
+          "name": "unlockCondition",
+          "type": "array",
+          "sample": "[]",
+          "meaning": "解锁条件；非空如 [[330101,7]]"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"name\":\"1\",\"expeditionNumber\":1,\"levelNumber\":1,\"levelType\":1,\"levelSceneName\":\"scene_battle_nc\",\"battleType\":1,\"monsterGroupId\":101001,\"rewardId\":2200001,\"duration\":90,\"isBoss\":0}",
+        "{\"id\":3,\"name\":\"3\",\"expeditionNumber\":1,\"levelNumber\":3,\"levelType\":1,\"battleType\":2,\"supportHeroData\":[2201,20,1],\"monsterGroupId\":101003,\"rewardId\":2200003,\"duration\":90}",
+        "{\"id\":100001,\"name\":\"1\",\"expeditionNumber\":100000,\"levelNumber\":1,\"monsterGroupId\":991001,\"rewardId\":2200001,\"duration\":90}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgLevel.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "建筑升级表 CfgBuildingLevel",
+      "summary": "逐建筑给出 1..60 级的战力、材料成本与升级时间，是城建经济的主曲线",
+      "sourceFile": "extracted/config_named2/CfgBuildingLevel.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "buildId",
+          "type": "int",
+          "sample": "330101",
+          "meaning": "建筑 ID"
+        },
+        {
+          "name": "buildLv",
+          "type": "int[]",
+          "sample": "[1,2,3,...60]",
+          "meaning": "等级序列"
+        },
+        {
+          "name": "power",
+          "type": "int[]",
+          "sample": "[2000,4000,7000,...]",
+          "meaning": "每级战力"
+        },
+        {
+          "name": "lvupCost",
+          "type": "array[]",
+          "sample": "[[102004,35]]",
+          "meaning": "每级消耗 [道具ID, 数量]"
+        },
+        {
+          "name": "lvupTime",
+          "type": "int[]",
+          "sample": "待读",
+          "meaning": "每级升级时间"
+        }
+      ],
+      "samples": [
+        "{\"id\":26,\"buildId\":330101,\"buildLv\":[1..60],\"power\":[2000,4000,7000,11000,17000,26000,39000,51000,64000,80000]}",
+        "{\"id\":27,\"buildId\":330201,\"buildLv\":[1..30],\"power\":[120,228,390,606,930,1416,2118,2820,3522,4542],\"lvupCost\":[[[102004,35]],[[102004,50]],[[102005,240]]]}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgBuildingLevel.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "怪物组表 CfgMonsterGroup",
+      "summary": "定义每关 5 个怪物位的兵种、等级星级、属性系数与派生攻防血，是难度曲线核心",
+      "sourceFile": "extracted/config_named2/CfgMonsterGroup.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "monster",
+          "type": "int[5]",
+          "sample": "[4406,0,0,0,0]",
+          "meaning": "5 个怪物位 ID，0 为空位"
+        },
+        {
+          "name": "level/star",
+          "type": "int[5]",
+          "sample": "[2,2,2,2,2]",
+          "meaning": "每位的等级/星级"
+        },
+        {
+          "name": "hpCoef/defenceCoef/attackCoef",
+          "type": "float",
+          "sample": "1",
+          "meaning": "全局属性倍率"
+        },
+        {
+          "name": "bossHpCoef/bossDefenceCoef/bossAttackCoef",
+          "type": "float",
+          "sample": "1",
+          "meaning": "BOSS 额外倍率"
+        },
+        {
+          "name": "power",
+          "type": "int",
+          "sample": "19856",
+          "meaning": "该编队综合战力"
+        },
+        {
+          "name": "hero1Attack/Defence/Hp",
+          "type": "float",
+          "sample": "145.4/115.2/1209.6",
+          "meaning": "第 1 位派生属性"
+        }
+      ],
+      "samples": [
+        "{\"id\":101001,\"monster\":[4406,0,0,0,0],\"level\":[1,1,1,1,1],\"power\":8493,\"hero1Attack\":106,\"hero1Defence\":84,\"hero1Hp\":1000}",
+        "{\"id\":101003,\"monster\":[4402,4402,4403,4403,0],\"level\":[2,2,2,2,2],\"power\":19856,\"hero1Attack\":145.4,\"hero1Defence\":115.2,\"hero1Hp\":1209.6}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgMonsterGroup.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "武将等级成长 CfgHeroUpgrade",
+      "summary": "按等级档给出经验需求与攻防血倍率、带兵量，是武将数值的主曲线",
+      "sourceFile": "extracted/config_named2/CfgHeroUpgrade.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "type",
+          "type": "int",
+          "sample": "1",
+          "meaning": "成长类型（1 普通 / 2 赛季）"
+        },
+        {
+          "name": "heroExp",
+          "type": "int",
+          "sample": "500",
+          "meaning": "升级所需经验"
+        },
+        {
+          "name": "attack/defence/hp",
+          "type": "float",
+          "sample": "1/1.5/2",
+          "meaning": "属性倍率"
+        },
+        {
+          "name": "soldierAmount",
+          "type": "int",
+          "sample": "60/135/210",
+          "meaning": "可带士兵数量"
+        },
+        {
+          "name": "power",
+          "type": "float",
+          "sample": "1.23",
+          "meaning": "战力系数"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"type\":1,\"heroExp\":500,\"attack\":1,\"defence\":1,\"hp\":1,\"soldierAmount\":60,\"power\":1}",
+        "{\"id\":2,\"type\":1,\"heroExp\":700,\"attack\":1.5,\"defence\":1.5,\"hp\":1.5,\"soldierAmount\":135,\"power\":1.23}",
+        "{\"id\":3,\"type\":1,\"heroExp\":900,\"attack\":2,\"defence\":2,\"hp\":2,\"soldierAmount\":210}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgHeroUpgrade.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "掉落组表 CfgDropgroup",
+      "summary": "以 itemId|数量|权重 描述各奖励池，被关卡 rewardId 与活动奖励引用",
+      "sourceFile": "extracted/config_named/CfgDropgroup.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "_raw[0]",
+          "type": "int",
+          "sample": "300",
+          "meaning": "掉落组 ID（位置未完全确认）"
+        },
+        {
+          "name": "三元组",
+          "type": "string",
+          "sample": "10409003|1|2",
+          "meaning": "itemId|count|weight"
+        }
+      ],
+      "samples": [
+        "{\"_raw\":[300,\"5\",\"0\",\"1\",0,\"\",\"10409003|1|2,19945001|2|10,19944002|1|10,...,1|200|18\",...]}",
+        "{\"_raw\":[301,\"4\",\"0\",\"1\",0,\"\",\"\",\"\",\"1\",\"10409003\",\"1\",\"1\",\"10204002\",\"2\",\"2\",...]}"
+      ],
+      "evidence": [
+        "extracted/config_named/CfgDropgroup.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "刷怪波次表 CfgTksMapProcess",
+      "summary": "按 level + time 定义每波刷怪的出生点、怪物、数量与间隔",
+      "sourceFile": "extracted/config_named2/CfgTksMapProcess.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "level",
+          "type": "int",
+          "sample": "1",
+          "meaning": "关卡/波次组 ID"
+        },
+        {
+          "name": "time",
+          "type": "int",
+          "sample": "5",
+          "meaning": "触发时间（秒）"
+        },
+        {
+          "name": "monsterSpawnPointId",
+          "type": "int",
+          "sample": "157",
+          "meaning": "出生点 ID"
+        },
+        {
+          "name": "camp",
+          "type": "int",
+          "sample": "1",
+          "meaning": "阵营"
+        },
+        {
+          "name": "monsterId",
+          "type": "int",
+          "sample": "2",
+          "meaning": "怪物 ID"
+        },
+        {
+          "name": "spawnNum/spawnInterval",
+          "type": "int",
+          "sample": "5/1",
+          "meaning": "数量/间隔"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"level\":1,\"time\":5,\"monsterSpawnPointId\":157,\"camp\":1,\"monsterId\":2,\"spawnNum\":5,\"spawnInterval\":1}",
+        "{\"id\":2,\"level\":1,\"time\":7,\"monsterSpawnPointId\":153,\"camp\":1,\"monsterId\":2,\"spawnNum\":3,\"spawnInterval\":1}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgTksMapProcess.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "人民币价目表 CfgLiBaoPrice",
+      "summary": "商品 ID 到美元/人民币价格的映射，是本地可读的真实定价证据",
+      "sourceFile": "extracted/config_named2/CfgLiBaoPrice.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "sample": "com_icewar_0_99",
+          "meaning": "价格档 ID"
+        },
+        {
+          "name": "dollar",
+          "type": "string",
+          "sample": "0.99",
+          "meaning": "美元价"
+        },
+        {
+          "name": "rmb",
+          "type": "string",
+          "sample": "6",
+          "meaning": "人民币价"
+        },
+        {
+          "name": "coin/rmbHw/coinHw",
+          "type": "string",
+          "sample": "6/10/10",
+          "meaning": "渠道币/换算价（语义未证实）"
+        }
+      ],
+      "samples": [
+        "{\"id\":\"com_icewar_0_99\",\"dollar\":\"0.99\",\"rmb\":\"6\",\"coin\":\"6\",\"rmbHw\":\"10\",\"coinHw\":\"10\"}",
+        "{\"id\":\"com_icewar_4_99\",\"dollar\":\"4.99\",\"rmb\":\"30\"}",
+        "{\"id\":\"com_icewar_99_99\",\"dollar\":\"99.99\",\"rmb\":\"648\"}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgLiBaoPrice.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "礼包商品表 CfgLiBao",
+      "summary": "把商品 ID 映射到元宝/道具与发放事件，是充值档位的实际内容表",
+      "sourceFile": "extracted/config_named2/CfgLiBao.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "sample": "YB_6",
+          "meaning": "商品 ID"
+        },
+        {
+          "name": "priceId",
+          "type": "string",
+          "sample": "com_icewar_0_99",
+          "meaning": "指向 CfgLiBaoPrice.id"
+        },
+        {
+          "name": "diamond",
+          "type": "int",
+          "sample": "600",
+          "meaning": "元宝数量"
+        },
+        {
+          "name": "item",
+          "type": "string",
+          "sample": "",
+          "meaning": "附赠道具串"
+        },
+        {
+          "name": "productType",
+          "type": "string",
+          "sample": "1",
+          "meaning": "商品类型"
+        }
+      ],
+      "samples": [
+        "{\"id\":\"YB_6\",\"productType\":\"1\",\"priceId\":\"com_icewar_0_99\",\"diamond\":600}",
+        "{\"id\":\"YB_30\",\"priceId\":\"com_icewar_4_99\",\"diamond\":3000}",
+        "{\"id\":\"YB_68\",\"priceId\":\"com_icewar_9_99\",\"diamond\":6800}",
+        "{\"id\":\"YB_128\",\"priceId\":\"com_icewar_19_99\",\"diamond\":12800}",
+        "{\"id\":\"YB_648\",\"priceId\":\"com_icewar_99_99\",\"diamond\":64800}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgLiBao.json",
+        "extracted/config_named2/CfgLiBaoPrice.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "竞技场规则 CfgArena",
+      "summary": "定义两种竞技场的刷新、积分、奖励、次数与匹配战力区间",
+      "sourceFile": "extracted/config_named2/CfgArena.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "freeFightTimes",
+          "type": "int",
+          "sample": "5",
+          "meaning": "每日免费挑战次数"
+        },
+        {
+          "name": "fightersNum",
+          "type": "int",
+          "sample": "5",
+          "meaning": "上阵人数"
+        },
+        {
+          "name": "enterCon",
+          "type": "int",
+          "sample": "200",
+          "meaning": "入场条件"
+        },
+        {
+          "name": "defaultScore",
+          "type": "int",
+          "sample": "1000",
+          "meaning": "初始积分"
+        },
+        {
+          "name": "fightersRange",
+          "type": "string",
+          "sample": "1.5,1.3;...",
+          "meaning": "匹配战力区间"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"name\":\"普通竞技场\",\"refreshTime\":\"22:00:00\",\"defaultScore\":1000,\"freeFightTimes\":5,\"fightersNum\":5,\"enterCon\":200}",
+        "{\"id\":2,\"name\":\"双队竞技场\",\"refreshTime\":\"22:05:00\",\"freeFightTimes\":5,\"enterCon\":200,\"fightersRange\":\"0.5,0.6;0.6,0.7;0.7,0.85;0.85,1;1,1.5\"}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgArena.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "挂机收益表 CfgAfkReward",
+      "summary": "按分钟给出挂机道具产出，是离线收益曲线",
+      "sourceFile": "extracted/config_named2/CfgAfkReward.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "1",
+          "meaning": "收益档 ID"
+        },
+        {
+          "name": "rewardPerMin",
+          "type": "array",
+          "sample": "[[15,2]]",
+          "meaning": "每分钟 [道具ID, 数量]"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"rewardPerMin\":[[15,2]]}",
+        "{\"id\":2,\"rewardPerMin\":[[15,3]]}",
+        "{\"id\":3,\"rewardPerMin\":[[15,4]]}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgAfkReward.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "levels": [
+    {
+      "name": "主线关卡 CfgLevel（400 章 × 10 关 + 特殊 23 关）",
+      "summary": "4023 条关卡；expeditionNumber 1..400 各 10 关，另 23 条 expeditionNumber=100000 的独立序列",
+      "sourceFile": "extracted/config_named2/CfgLevel.json",
+      "details": [
+        "主线 4000 条：每章 10 关，levelNumber 1..10；levelType 1→3223、2→400、3→400",
+        "isBoss=1 共 804 条：每章第 5、10 关为 BOSS（400 章 × 2）",
+        "全部关卡 duration=90 秒；battleType 1→4020、2→3",
+        "expeditionNumber=100000 共 23 条（id 100001..100023，monsterGroupId 991001..），name 为 1..23，语义未证实",
+        "无 difficulty 字段：不允许把 levelType 或 isBoss 当作普通/困难枚举",
+        "CfgExpedition 400 条为章节壳，chapter 字段是 i18n key（Expedition_chapter_N）"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"name\":\"1\",\"expeditionNumber\":1,\"levelNumber\":1,\"levelType\":1,\"levelSceneName\":\"scene_battle_nc\",\"battleType\":1,\"monsterGroupId\":101001,\"rewardId\":2200001,\"duration\":90,\"unlockCondition\":[],\"isBoss\":0}",
+        "{\"id\":11,\"name\":\"1-1\",\"expeditionNumber\":2,\"levelNumber\":1,\"levelType\":1,\"levelSceneName\":\"scene_battle_1\",\"monsterGroupId\":101011,\"rewardId\":2200011,\"duration\":90}",
+        "{\"id\":100001,\"name\":\"1\",\"expeditionNumber\":100000,\"levelNumber\":1,\"monsterGroupId\":991001,\"rewardId\":2200001,\"duration\":90}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgLevel.json",
+        "extracted/config_named2/CfgExpedition.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "多编队变体 CfgLevelMul",
+      "summary": "2000 条与 CfgLevel 同构的变体关卡，monsterGroupId 为列表，用于多编队/多难度形态",
+      "sourceFile": "extracted/config_named2/CfgLevelMul.json",
+      "details": [
+        "expeditionNumber 1..200，id 1..2000，每章 10 关",
+        "monsterGroupId 为数组（同一关多组怪物），与主表的单值不同",
+        "不得与主线 CfgLevel 合并成同一分母"
+      ],
+      "fields": null,
+      "samples": [
+        "参见 extracted/config_named2/CfgLevelMul.json 第 1 条（字段结构同 CfgLevel，monsterGroupId 为列表）"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgLevelMul.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "塔防地图与布阵 CfgNGBtlMap / CfgNGBtlMapStage",
+      "summary": "236 张地图 + 617 套布阵；Stage 的 monster 串给出坐标、怪物 ID 与数量",
+      "sourceFile": "extracted/config_named2/CfgNGBtlMapStage.json",
+      "details": [
+        "CfgNGBtlMap：sceneName/mapName（如 StoryLineF_Level01）、maxHeroCount、preLoadSoldiers、initialCharacter、fieldContent",
+        "CfgNGBtlMapStage：passCondition/passParam/mapSize（[9,200]、[10,200]）、mapOffSetX、monster 摆位串",
+        "monster 串格式：x~x,y~y,monsterId,n,m|...，如 '2.3~2.3,29.4~29.4,1000102,1,0'"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"fieldType\":1,\"passCondition\":[1],\"mapSize\":[9,200],\"mapOffSetX\":0,\"monster\":\"2.3~2.3,29.4~29.4,1000102,1,0|0~0,31.3~31.3,1000122,1,0|...\"}",
+        "{\"id\":2,\"passCondition\":[1],\"mapSize\":[10,200],\"monster\":\"-2.3~-2.3,23.7~23.7,1000102,1,0|-0.7~-0.7,35.5~35.5,1000101,1,0|...\"}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgNGBtlMap.json",
+        "extracted/config_named2/CfgNGBtlMapStage.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "刷怪波次 CfgTksMapProcess",
+      "summary": "5288 条刷怪事件，按 level 分组、time 排序形成每关波次",
+      "sourceFile": "extracted/config_named2/CfgTksMapProcess.json",
+      "details": [
+        "字段：level/time/monsterSpawnPointId/camp/monsterId/spawnNum/spawnInterval/dropItem/dropSlotId",
+        "同一 level 的多条记录构成时间轴，如 level=1 在 5 秒刷 5 只、7 秒刷 3 只"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"level\":1,\"time\":5,\"monsterSpawnPointId\":157,\"camp\":1,\"monsterId\":2,\"spawnNum\":5,\"spawnInterval\":1}",
+        "{\"id\":2,\"level\":1,\"time\":7,\"monsterSpawnPointId\":153,\"camp\":1,\"monsterId\":2,\"spawnNum\":3,\"spawnInterval\":1}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgTksMapProcess.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "章节与章节任务 CfgExpedition / CfgChapterNew / CfgChapterMissionNew",
+      "summary": "400 章壳 + 36 个章节任务组 + 104 条章节任务；控制章节奖励、解锁与任务条件",
+      "sourceFile": "extracted/config_named2/CfgChapterNew.json",
+      "details": [
+        "CfgExpedition 400 条：chapter/name/desc 为 i18n key，rewardId/rewardShow 给章节奖励",
+        "CfgChapterNew 36 条：type1=8、type2=28；content 为章节任务 id CSV（如 1003001,1004001,...），不是 CfgLevel.id",
+        "CfgChapterMissionNew 104 条：missionGroup/index/type/para1..3/reward/useGuide/triggerGuideGroup",
+        "chapterUnlock/unlockFunctionType 控制章节与功能解锁"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"title\":\"chapterTitle_1\",\"content\":\"1003001,1004001,1005001,1006001,1007001,1008001\",\"reward\":\"2001001\",\"type\":\"1\"}",
+        "{\"id\":1003001,\"missionGroup\":1003,\"type\":\"111\",\"para1\":\"330201\",\"para2\":\"5\",\"para3\":\"1\",\"reward\":\"2001101\"}"
+      ],
+      "evidence": [
+        "extracted/config_named2/CfgExpedition.json",
+        "extracted/config_named2/CfgChapterNew.json",
+        "extracted/config_named2/CfgChapterMissionNew.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：主线",
+      "summary": "本地解析出 4000 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=4000",
+        "目标字段：缺失 4000 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 4023 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:expedition_100000",
+      "summary": "本地解析出 23 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=23",
+        "目标字段：缺失 23 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 4023 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "artAssets": [
+    {
+      "name": "角色/场景贴图（ASTC + PNG）",
+      "summary": "美术主体以 Unity/Cocos 原生资源形式散落在 assets/assets/resources/native 下，按 UUID 两级目录分片",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "贴图 1952 个 / 68.8 MB：.astc×1313、.png×634、.jpg×4",
+        "路径形态 assets/assets/resources/native/<2位>/<uuid>.astc，UUID 命名无法直接读出语义，需靠引用表回查",
+        "ASTC 为移动端压缩纹理，说明存在明确的 GPU 纹理档位；PNG/JPG 多为 UI 与少量不压缩图",
+        "可复用度：格式通用但命名无业务语义，需配合 bundle/预制体引用关系使用"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk!/assets/assets/resources/native/25/2587bdc2-ce52-4806-afbb-1a8fdd48f58d.astc"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "2D 骨骼动作（Spine/DragonBones .dbbin）",
+      "summary": "6 个 .dbbin / 8.6 MB，用于角色或 UI 的骨骼动画",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        ".dbbin 为 DragonBones 二进制动画；数量少但单文件体积大（约 1.4 MB/个）",
+        "说明本项目主要角色动效以 3D/骨骼或序列帧为主，2D 动作仅用于特定展示位"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk!/assets/assets/resources/native/78/7806016e-148c-4188-a2dd-0a0968ceb272.dbbin"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "音频",
+      "summary": "188 个 .mp3 / 6.9 MB，全部为压缩音频",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "统一 mp3 编码，适合移动端包体控制",
+        "命名同样为 UUID，需靠引用关系定位 BGM/音效用途"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk!/assets/assets/resources/native/d7/d73ee06a-e1c4-467b-bf41-9e042148feac.mp3"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "字体与 UI 图标",
+      "summary": "内置 MiSans-Normal.ttf（5.2 MB）与 46 个 UI/图标资源，SDK 支付图标位于 res/drawable-*",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "字体：assets/MiSans-Normal.ttf，单一字重，说明 UI 统一使用 MiSans",
+        "图标/Logo/UI 46 个 / 0.2 MB（png×45、webp×1），含 sdk_pay_type_icon_ali_cn_app.png 等渠道支付图标",
+        "res/drawable-* 下的 9-patch（notification_bg_low_normal.9.png）属系统/SDK 通知样式，不是游戏主美术"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk!/assets/MiSans-Normal.ttf",
+        "target.apk!/res/drawable-hdpi-v4/sdk_pay_type_icon_ali_cn_app.png"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "资源打包与配置 Bundle",
+      "summary": "资源按 Cocos bundle 组织（main/internal/scripts/bundle_config/bundle_config_lazy 等），配置以 MessagePack+zstd 打包",
+      "sourceFile": "apk_data/assets/assets/bundle_config/cc.config.json",
+      "details": [
+        "cc.config.json 声明 importBase/nativeBase/name/deps/uuids/paths，paths 指向 config/configpile_0..9",
+        "配置 Bundle 内 .bin 为 MessagePack 外层 + zstd 内层分块，未二次加密（见 encryption.decrypted）",
+        "bundle_config 与 bundle_config_lazy 分工：常驻配置与懒加载配置",
+        "美术资源目录与配置目录分离，便于按 bundle 热更"
+      ],
+      "fields": null,
+      "samples": [
+        "apk_data/assets/assets/bundle_config/cc.config.json",
+        "apk_data/assets/assets/bundle_config/native/0f/0fdeb9dc-5bb5-4fde-8b50-405adb5bfd05.bin"
+      ],
+      "evidence": [
+        "apk_data/assets/assets/bundle_config/cc.config.json",
+        "apk_data/assets/assets/bundle_config_lazy/cc.config.json",
+        "extracted/config_manifest.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "artGuidance": {
+    "found": true,
+    "kind": "强制引导 + 触发式引导",
+    "summary": "CfgGuide 以 group/index/stage 组织分步引导（点击/镜头/对话），CfgTriggerGuide 按条件（如 overload）触发提示，章节任务通过 useGuide/triggerGuideGroup 挂接引导组",
+    "steps": [
+      {
+        "order": 1,
+        "name": "城建首步引导",
+        "trigger": "章节 1 起始任务",
+        "hint": "lGuideText Guide_GuideText_1001001 + clientParm 110201 指向目标控件",
+        "gate": "guideType 1，强制推进",
+        "files": [
+          "extracted/config_named2/CfgGuide.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "建筑镜头引导",
+        "trigger": "同组 stage 2",
+        "hint": "buildingCamera 110301 聚焦建筑",
+        "gate": "guideType 2，需完成上一步",
+        "files": [
+          "extracted/config_named2/CfgGuide.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "对话 + 关闭界面",
+        "trigger": "同组 stage 3",
+        "hint": "lGuideText TriggerGuide_GuideText_1001003、diaologGroup 1、closeView 1",
+        "gate": "interruption 字段控制可打断性",
+        "files": [
+          "extracted/config_named2/CfgGuide.json"
+        ]
+      }
+    ],
+    "mechanisms": [
+      "引导组/阶段驱动：CfgGuide.group + index + stage",
+      "目标定位：clientParm / buildingCamera / guideParm1 指定控件或建筑镜头",
+      "对话：diaologGroup 关联对话组",
+      "触发式引导：CfgTriggerGuide.triggerConditionType（含 overload）+ triggerCondition1..3",
+      "任务挂接：CfgChapterMissionNew.useGuide / triggerGuideGroup"
+    ],
+    "assets": [
+      "assets/assets/resources/native/"
+    ],
+    "evidence": [
+      "extracted/config_named2/CfgGuide.json",
+      "extracted/config_named2/CfgTriggerGuide.json",
+      "extracted/config_named2/CfgChapterMissionNew.json"
+    ],
+    "confidence": "high"
+  },
+  "encryption": {
+    "findings": [
+      "bundle_config/cc.config.json 标记 encrypted:true、types:[cc.BufferAsset]，但实际 .bin 为 MessagePack 外层 + zstd 帧（28 b5 2f fd），并非强加密",
+      "17 个配置 .bin（bundle_config 10 + bundle_config_lazy 7）均为同一容器格式，可完整解码",
+      "APK 内 92 个 .jsc 脚本（apk_data 抽取 58 个）为高熵无头数据，典型 Cocos 加密脚本；libcocos.so 含 'decryption key' 字符串",
+      "lib/arm64-v8a 与 armeabi-v7a 均带 libEncryptor.so / libEncryptorP.so，含 ttEncrypt 符号；该库为渠道/协议加密组件，未证明用于资源解密",
+      "assets/config.json 的 osdk_type=Omnichannel_DataLink、app_id=653401，属渠道 SDK 配置"
+    ],
+    "decrypted": [
+      "1474 张配置表 / 256,309 行全部解出（extracted/config/），其中 1108 张完成字段命名（extracted/config_named2/，209,462 行）",
+      "关卡侧 CfgLevel 4023 条、CfgLevelMul 2000 条、CfgTksMapProcess 5288 条、CfgNGBtlMapStage 617 条可直接读",
+      "价格侧 CfgLiBaoPrice 32 档人民币价格与 CfgLiBao 4864 条商品内容可直接读"
+    ],
+    "blocked": [
+      "92 个 .jsc（抽取 58 个）脚本未解：未定位 xxtea key / 解密函数，玩法运行时逻辑无法从脚本还原",
+      "362 张表缺少 schema 字段名，只能以位置数组形式保留（如 CfgDropgroup 的 _raw）",
+      "CfgLevel 无难度枚举字段，无法产出 Normal/Hard 标签",
+      "expeditionNumber=100000 的 23 条关卡语义未证实",
+      "CfgLevel.name 仅是游戏内显示名，未做官方玩家关号映射验证"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "level_stats.json",
+      "note": "本地已解析关卡的全量统计与缺失项"
+    },
+    {
+      "path": "level_stats.md",
+      "note": "关卡分布与顺序映射的验收摘要"
+    },
+    {
+      "path": "extracted/msgpack_lite.py",
+      "note": "自实现 MessagePack 编解码器"
+    },
+    {
+      "path": "extracted/decode_config.py",
+      "note": "配置解包脚本：MessagePack + zstd → extracted/config/"
+    },
+    {
+      "path": "extracted/normalize_tables2.py",
+      "note": "按 schema 命名字段 → extracted/config_named2/"
+    },
+    {
+      "path": "extracted/config_manifest.json",
+      "note": "1474 张表清单（文件、表名、行数、字节）"
+    },
+    {
+      "path": "extracted/config_named2/",
+      "note": "1108 张已命名字段配置表（209,462 行）"
+    },
+    {
+      "path": "extracted/build_level_records.py",
+      "note": "关卡记录生成脚本"
+    },
+    {
+      "path": "level_data/records.jsonl",
+      "note": "关卡全量落盘：4023 条（主线 4000 + 特殊 23），失败 0"
+    }
+  ],
+  "limitations": [
+    "JSC 脚本加密未解，核心玩法运行时逻辑（战斗结算公式、AI、状态机）只能从配置与字段推断",
+    "362 张表无 schema 字段名，CfgDropgroup 等只能按位置数组与三元组解读，字段语义未完全确认",
+    "关卡无 difficulty 枚举，难度曲线只能由 monsterGroupId→CfgMonsterGroup.power 与 hp/attack 系数间接观察",
+    "CfgLevel 无已验证的官方玩家关号映射，报告中的章节/关号均为配置内 expeditionNumber/levelNumber/name，不构成官方关号认证",
+    "expeditionNumber=100000 的 23 条与 CfgLevelMul 2000 条为独立范围，未与主线合并统计",
+    "CfgShopN 的 tabType/groupId 与活动开放条件的语义仅部分确认，IAP 商品到渠道计费项的映射未验证",
+    "未发现广告/激励视频配置证据，ads 留空",
+    "发行商无法从包内确定，仅确认分发渠道为百度（包名 .g.baidu）",
+    "美术资源以 UUID 命名，未建立完整 UUID→业务语义映射"
+  ],
+  "generatedAt": "2026-11-19T16:12:47.712044276+08:00",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "artInventory": {
+    "generatedAt": "2026-11-19T16:01:46.106048377+08:00",
+    "scanVersion": 3,
+    "sha256": "f87dec950edbcbf910ffffa57684eebae549833d8e3c70d23feaf407736912dc",
+    "archives": [
+      "target.apk"
+    ],
+    "totalFiles": 2238,
+    "totalBytes": 94092287,
+    "bundleFiles": 0,
+    "bundleBytes": 0,
+    "categories": [
+      {
+        "key": "texture",
+        "label": "贴图 / 其它图片",
+        "files": 1952,
+        "bytes": 72175309,
+        "exts": [
+          {
+            "ext": ".astc",
+            "files": 1313,
+            "bytes": 69209923
+          },
+          {
+            "ext": ".png",
+            "files": 634,
+            "bytes": 2598776
+          },
+          {
+            "ext": ".jpg",
+            "files": 4,
+            "bytes": 85760
+          },
+          {
+            "ext": ".jpeg",
+            "files": 1,
+            "bytes": 280850
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/resources/native/25/2587bdc2-ce52-4806-afbb-1a8fdd48f58d.astc",
+          "target.apk/assets/assets/resources/native/36/3681ec79-2a4a-455c-81ad-4bfcc5157302.png",
+          "target.apk/assets/assets/resources/native/11/11dcd5e1-400b-45df-b28b-2281b913c797.astc"
+        ]
+      },
+      {
+        "key": "anim2d",
+        "label": "2D 动作（Spine/DragonBones）",
+        "files": 6,
+        "bytes": 8970944,
+        "exts": [
+          {
+            "ext": ".dbbin",
+            "files": 6,
+            "bytes": 8970944
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/resources/native/78/7806016e-148c-4188-a2dd-0a0968ceb272.dbbin",
+          "target.apk/assets/assets/resources/native/46/4685892a-a4bc-437e-bde6-fbadc4dfeeaf.dbbin",
+          "target.apk/assets/assets/resources/native/65/65cd6734-095a-4b69-a38b-b0cbb548c137.dbbin"
+        ]
+      },
+      {
+        "key": "audio",
+        "label": "音频",
+        "files": 188,
+        "bytes": 7192072,
+        "exts": [
+          {
+            "ext": ".mp3",
+            "files": 188,
+            "bytes": 7192072
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/resources/native/d7/d73ee06a-e1c4-467b-bf41-9e042148feac.mp3",
+          "target.apk/assets/assets/resources/native/f6/f6dd72f9-3aeb-4741-95e3-be7591bb6509.mp3",
+          "target.apk/assets/assets/resources/native/be/be95e649-639c-4337-8a0f-2000a3f9bd75.mp3"
+        ]
+      },
+      {
+        "key": "font",
+        "label": "字体",
+        "files": 1,
+        "bytes": 5445465,
+        "exts": [
+          {
+            "ext": ".ttf",
+            "files": 1,
+            "bytes": 5445465
+          }
+        ],
+        "samples": [
+          "target.apk/assets/MiSans-Normal.ttf"
+        ]
+      },
+      {
+        "key": "ui_icon",
+        "label": "图标 / Logo / UI",
+        "files": 46,
+        "bytes": 220271,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 45,
+            "bytes": 219289
+          },
+          {
+            "ext": ".webp",
+            "files": 1,
+            "bytes": 982
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-hdpi-v4/sdk_pay_type_icon_ali_cn_app.png",
+          "target.apk/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+          "target.apk/res/drawable/ty_sdk_yidun_big_checked_icon.png"
+        ]
+      },
+      {
+        "key": "scene",
+        "label": "场景 / 地图",
+        "files": 23,
+        "bytes": 80957,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 22,
+            "bytes": 12088
+          },
+          {
+            "ext": ".jpg",
+            "files": 1,
+            "bytes": 68869
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+          "target.apk/res/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+          "target.apk/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+        ]
+      },
+      {
+        "key": "vfx",
+        "label": "特效",
+        "files": 22,
+        "bytes": 7269,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 22,
+            "bytes": 7269
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png",
+          "target.apk/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
+          "target.apk/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+        ]
+      }
+    ],
+    "topDirs": [
+      {
+        "path": "target.apk/assets/assets/resources",
+        "files": 1842,
+        "bytes": 87851436
+      },
+      {
+        "path": "target.apk/res/drawable-hdpi-v4",
+        "files": 96,
+        "bytes": 309248
+      },
+      {
+        "path": "target.apk/res/drawable-xxhdpi-v4",
+        "files": 67,
+        "bytes": 65139
+      },
+      {
+        "path": "target.apk/res/drawable-xhdpi-v4",
+        "files": 58,
+        "bytes": 25298
+      },
+      {
+        "path": "target.apk/res/drawable-mdpi-v4",
+        "files": 57,
+        "bytes": 15593
+      },
+      {
+        "path": "target.apk/res/drawable",
+        "files": 48,
+        "bytes": 122379
+      },
+      {
+        "path": "target.apk/res/drawable-xxxhdpi-v4",
+        "files": 30,
+        "bytes": 24909
+      },
+      {
+        "path": "target.apk/assets/assets/update",
+        "files": 9,
+        "bytes": 20419
+      },
+      {
+        "path": "target.apk/res/drawable-nodpi-v4",
+        "files": 4,
+        "bytes": 71252
+      },
+      {
+        "path": "target.apk/assets/assets/main",
+        "files": 3,
+        "bytes": 17777
+      }
+    ],
+    "notes": [
+      "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。"
+    ]
+  },
+  "levelStatistics": {
+    "version": 1,
+    "coverage": "observed/local-only; game-wide coverage unknown",
+    "inputs": [
+      {
+        "path": "level_data/records.jsonl",
+        "schema": "normalized/v1",
+        "records": 4023,
+        "failures": 0,
+        "status": "selected"
+      }
+    ],
+    "processed_records": 4023,
+    "parsed_records": 4023,
+    "unique_records": 4023,
+    "duplicates": 0,
+    "conflicting_records": 0,
+    "conflict_occurrences": 0,
+    "failures": 0,
+    "missing_fields": {
+      "difficulty_raw": 4023,
+      "goals": 4023,
+      "player_level_number": 4023,
+      "reliable_difficulty_label": 4023
+    },
+    "scopes": [
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline",
+        "unique_records": 4000,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 4000
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 4000,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:expedition_100000",
+        "unique_records": 23,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 23
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 23,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      }
+    ],
+    "issues": [],
+    "issues_omitted": 0,
+    "pending": [
+      "补可靠难度枚举/显式标签；未知难度不计为正常，difficultyIndicator/tags不用于判难。",
+      "补目标列表及数量语义；缺失不是零，Babytopia num/manualNum/isManual未推测。",
+      "需要带证据的官方玩家关号、主线/活动 scope 与完整范围声明，才能验证顺序和困难关密度/连续段。"
+    ],
+    "partial": false,
+    "read_bytes": 1964061
+  },
+  "quality": {
+    "sectionsFilled": 7,
+    "sectionsTotal": 7,
+    "blockedCount": 5,
+    "evidenceCount": 72,
+    "score": 100
+  }
+}

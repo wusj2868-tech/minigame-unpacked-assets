@@ -1,0 +1,1660 @@
+{
+  "game": {
+    "name": "镇邪人",
+    "package": "com.tencent.tmgp.ahlhzxr",
+    "version": "1.0.3",
+    "engine": "Cocos Creator 2.x (JSC，脚本经 XXTEA+gzip 保护)",
+    "genre": "末日丧尸题材 RPG/SLG（世界地图探索 + 编队战斗 + 放置挂机 + 英雄养成/抽卡）",
+    "publisher": "unknown",
+    "channel": "应用宝（腾讯移动游戏平台）"
+  },
+  "summary": "《镇邪人》是包名 com.tencent.tmgp.ahlhzxr、版本 1.0.3 的 Cocos Creator 2.x 手游，逻辑集中在 assets/assets/src/index.d5507.jsc，已用从 libcocos2djs.so 提取的 16 字节 XXTEA key 完整解出（9/9 个 jsc 全部成功，主脚本 19.9MB、3144 个类）。玩法围绕世界地图（worldMap/gameMap/quest）按 Normal→Difficulty→Nightmare→Hell 四档难度推进房间探索与战斗，并叠加英雄等级/装备/基因/宠物/指挥装备养成、招募抽卡、丧尸潮排行、挂机收益与月卡特权。最关键的障碍是全部业务数值表（item/config/skill/monster/hero/recharge/store/worldMap/quest 等 367 张表）由远程 CDN 下发为 5 个 gzip 分片 sd_0..4，APK 内没有落地副本，因此本轮只能给出表结构、字段访问路径、枚举与公式，无法给出真实数值。美术资源 691 张图 5.8MB 且 680 张位于 res/、以系统与三方 SDK 素材为主，说明主体美术走远程 CDN。",
+  "coreLoop": {
+    "summary": "在四档难度的世界地图上逐房间探索/战斗拿资源与任务进度，再把资源投入英雄养成与抽卡，靠更高难度与挂机收益驱动下一轮。",
+    "cycle": "选难度/区域 → 迷雾探索房间（Fog/Transmit/Box/Partner/Boss）→ 编队战斗与结算 → 拿资源与 quest 进度 → 英雄升级/装备/基因/宠物/抽卡 → 解锁更高难度或新地图 → 挂机产出补充资源",
+    "steps": [
+      {
+        "order": 1,
+        "name": "选难度/地图",
+        "action": "玩家在世界地图选择难度与区域进入",
+        "cost": "探索次数/门票类资源（表值未解出）",
+        "reward": "进入迷雾地图",
+        "gate": "地图按难度 Normal=1/Difficulty=2/Nightmare=3/Hell=4 分层，需要前置地图进度解锁",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "迷雾探索",
+        "action": "逐个揭开房间格，触发传送/宝箱/伙伴/探索/Boss 等事件",
+        "cost": "行动点（具体来源未解出）",
+        "reward": "资源、事件、任务进度",
+        "gate": "房间由 worldMap.roomSum 定义，房间总量与奖励受配置约束",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "编队战斗",
+        "action": "用队伍与 monsterSpawn 编队交战，走完整伤害管线",
+        "cost": "队伍状态/体力类资源",
+        "reward": "战利品、经验、任务完成",
+        "gate": "战力与关卡难度不匹配即失败，失败无收益",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "任务推进",
+        "action": "完成 quest 表驱动的任务链，index 排序推进",
+        "cost": "时间/资源",
+        "reward": "解锁新功能与地图",
+        "gate": "quest 按 difficulty+index 顺序，未完成前置不出新任务",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "英雄养成",
+        "action": "升级英雄、穿戴装备、强化基因/宠物/指挥装备",
+        "cost": "金币/经验/材料/钻石",
+        "reward": "战力提升",
+        "gate": "等级上限、装备槽、材料产出受每日次数限制",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      },
+      {
+        "order": 6,
+        "name": "招募抽卡",
+        "action": "在 recruitmentPool 抽英雄/奖励，累计次数触发保底与自选",
+        "cost": "招募券/钻石",
+        "reward": "英雄、英雄碎片、稀有奖励",
+        "gate": "奖池 totalReward 数量与保底次数控制产出",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      },
+      {
+        "order": 7,
+        "name": "挂机收取",
+        "action": "离线/在线按 onhook 与 onhookNpc 系数结算经验与资源",
+        "cost": "无（有收益上限）",
+        "reward": "经验、金币、材料",
+        "gate": "OnHookCap 上限、快速挂机次数（config 18010/18012）与月卡加速",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "钻石",
+        "income": "充值/活动/任务（数值未解出）"
+      },
+      {
+        "name": "金币",
+        "income": "战斗、挂机、任务"
+      },
+      {
+        "name": "肉（Meat）",
+        "income": "探索/挂机"
+      },
+      {
+        "name": "InnerCoin / Voucher",
+        "income": "玩法产出"
+      },
+      {
+        "name": "挂机经验（onhook）",
+        "income": "按 onhook.showBaseExp/showExtraExp 与 onhookNpc.expCoefficient 结算"
+      }
+    ],
+    "loopMinutes": "单场战斗约几分钟；世界地图推进按房间累积，挂机按小时计收益（具体数值未解出）",
+    "evidence": [
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:106625",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:533743",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534413",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:103475",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356278"
+    ],
+    "confidence": "medium"
+  },
+  "monetization": {
+    "summary": "以月卡/至尊月卡/终身卡做持续付费底盘，用首充三档（200/201/202）与累计 648 一次性奖励、以及 store.chain 链式礼包承接卡关与养成压力；具体价格由远程 recharge/store 表下发。 另有一层免广告特权：月卡/终身卡持有者在商店把 cost=\"ad\" 商品视为免费。",
+    "cycle": "推进受阻（战力/次数/收益上限）→ 买月卡或礼包获得加速、次数与自选保底 → 战力提升继续推进 → 遇到更高难度与更高档礼包",
+    "steps": [
+      {
+        "order": 1,
+        "name": "遇到收益/次数上限",
+        "action": "挂机收益封顶、每日副本与快速挂机次数用尽",
+        "cost": "时间或付费",
+        "reward": "无（等待恢复）",
+        "gate": "OnHookCap、每日次数与冷却"
+      },
+      {
+        "order": 2,
+        "name": "购买月卡/特权",
+        "action": "购买月卡、至尊月卡、终身卡、矿卡/周卡",
+        "cost": "人民币（档位未解出）",
+        "reward": "三倍速、副本次数+1、保底自选宝箱、9 折、免广告等",
+        "gate": "特权按 privilege 字段逐项生效"
+      },
+      {
+        "order": 3,
+        "name": "首充/累计充值",
+        "action": "触发首充三档（rechargeId 200/201/202）与累计 648 档奖励",
+        "cost": "人民币",
+        "reward": "一次性大奖与资源",
+        "gate": "_maxRechargeCurrency ≥ 648 才解锁最高档"
+      },
+      {
+        "order": 4,
+        "name": "抽卡/礼包",
+        "action": "购买招募券或限时礼包冲保底",
+        "cost": "钻石/人民币",
+        "reward": "英雄与稀有奖励",
+        "gate": "奖池保底次数与活动期限"
+      }
+    ],
+    "payPoints": [
+      {
+        "name": "月卡（MonthCard）",
+        "price": "未解出（远程 recharge 表）",
+        "trigger": "主界面/特权入口",
+        "effect": "三倍获取速度（购买月卡后解锁三倍速）、每日资源加成；RecruitChoseRed/RecruitSelfSelect 由月卡类特权解锁",
+        "config": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:548190"
+      },
+      {
+        "name": "至尊月卡（SpMonthCard）",
+        "price": "未解出",
+        "trigger": "月卡升级/特权页",
+        "effect": "解锁保底自选宝箱（RecruitSelfSelect/RecruitChoseRed）",
+        "config": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:548190"
+      },
+      {
+        "name": "终身卡（LifeCard）",
+        "price": "未解出",
+        "trigger": "特权页",
+        "effect": "终身 9 折",
+        "config": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:548190"
+      },
+      {
+        "name": "首充三档 First/Super/Luxury",
+        "price": "未解出（远程 recharge 表）；rechargeId=200/201/202",
+        "trigger": "首次充值",
+        "effect": "一次性首充奖励；isCan648Reward = _maxRechargeCurrency >= 648，达标后显示 648 一次性奖励面板并发送 RechargeClaimOneTime648RewardReq",
+        "config": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356278"
+      },
+      {
+        "name": "限时/成长礼包",
+        "price": "未解出（store 表 mark/order 排序上架）",
+        "trigger": "活动与卡关",
+        "effect": "资源、招募券、材料",
+        "config": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383349"
+      },
+      {
+        "name": "免广告特权（月卡 / 终身卡）",
+        "price": "未解出（随月卡/终身卡档位）",
+        "trigger": "商店 cost=\"ad\" 商品或广告位",
+        "effect": "IsSkipAD() 命中 MonthCard/LifeCard 时，广告商品直接按 Free 处理，可免看广告领取",
+        "config": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29078"
+      }
+    ],
+    "ads": [
+      "存在 SkipAd 特权键，说明有激励/插屏广告位并由月卡类特权免广告；具体广告位与奖励未解出"
+    ],
+    "prices": "未解出：recharge.androidProductId/productName/currency 与 store 上架信息全部在远程 sd_0..sd_4 分片内，本地无副本；仅确认 RechargeType.BuyDiamond=1 / BuyVoucher=10、首充 rechargeId 200/201/202、_maxRechargeCurrency≥648 解锁 648 奖励、store.chain 形如 \"<组id>_<档位>\" 的链式上架",
+    "evidence": [
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356278",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383349",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:548190",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:253445",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:355051",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356327",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383422",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356349",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29028",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29049",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356339"
+    ],
+    "confidence": "medium"
+  },
+  "modules": [
+    {
+      "name": "战斗与伤害结算",
+      "summary": "战斗由 BattleSimulator 场景驱动，服务端/本地共用一套伤害管线：基础攻击减防御乘技能倍率，再依次经过暴击、幸运、吸血、格挡、连击、反伤、增伤与 PVP 修正。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "DamageBaseValue = CalcFightFloat((atk - def) * skillRate)，见 index.js:415038",
+        "暴击：DamageCriticalValue(415043) 用 criticalBonus/criticalReduction 万分比，最终 t *= 1 + max(0, 0.5 + bonus - reduction)，即基础 150% 暴击伤害",
+        "幸运：luckParam.luckProb*luck - luckResist*luck，命中则加 max(1, dmgBonus*skillValue*1e-4)",
+        "吸血：DamageSuckBloodValue(415105) 为 max(1, floor(0.3*|伤害|*(1+rate)))、rate 下限 -0.9；格挡按 blockDmgBonus*1e-4；DamageTraditionByAttr(415092) 顺序为技能加成→吸血→格挡→连击→反伤",
+        "FightDebug(166083) 记录完整流水线：基础→格挡→吸血→连击→暴击→幸运→增伤→最终→怪物最大受伤比例→多次伤害削减→护盾→反伤→PVP 修正",
+        "战斗结果由 BattleReport 系列类按 gameMap.mapType 选择不同展示动作（index.js:26903/27016/27525）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415038",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415043",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415092",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415105",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:166083",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:26903"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "世界地图探索",
+      "summary": "以 worldMap/gameMap 配置生成分区与房间格，玩家揭开迷雾触发传送、宝箱、伙伴、探索、Boss 等节点，并上报 WorldMapExploreReq 结算。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "WorldExploreType：IndoorTag=-1/Fog=1/Transmit=2/Partner=3/Box=4/Exploring=5/Boss=6/Indoor=7/Boss2=8（533743）",
+        "WorldMapTagType：Region/Transmit/Task/Player；GuideWorldExploreTypes=[Box,Partner,Exploring,Boss2]",
+        "迷雾 prefab 按难度切换 prefab_fog/prefab_fog2/prefab_fog3/prefab_fog4（约 289466）",
+        "worldMap 表字段 id/mapId/roomSum/roomSumReward；roomSum 形如 TriggerNpcCondition|{npcSpawnId:N}",
+        "GetDiffFirstMapTransSpawnId(534544) 读 config 13003 的 difficulty:spawnId 映射，缺省 500000",
+        "网络协议：sendWorldMapExploreReq、LookedWorldMapExploreReq、WorldMapExploreRewardReq（534678 附近）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:533743",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534413",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534544",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:289466"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "英雄养成",
+      "summary": "HeroModel 管理英雄等级、装备槽、战力与展示；数值由 hero/heroLevel/avatar/attributeDefine 表驱动。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "HeroModel @238746；英雄配置 hero.at(id) 含 name/quality/display/chip，avatar.at(display) 提供头像资源",
+        "heroLevel 以 100000*type+level 方式取成长行（代码中 heroLevel.at 调用）",
+        "属性中文名由 attributeDefine.at(attrKey).name 提供，例如 A_D_H",
+        "装备/基因/宠物/指挥装备分别有 equip/geneBasic/pet/commandEquip 表与独立 Model",
+        "战力拆分为槽位战力（heroSlot2Powers）与装备评分 GetEquipScore/GetEquipBattlePower（index.js:129502 附近）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:238746",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:5985",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:19450",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:21671",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:129631"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "招募抽卡",
+      "summary": "RecruitModel 以 recruitmentPool 配置奖池，按累计抽取次数发奖并触发保底/自选。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "RecruitModel @359370；_recruitmentPoolCfg = DataConf.recruitmentPool.at(1)（278947）",
+        "奖池字段：id、grandPrize、totalReward（形如 总数_奖励id1,id2）、rewardType、activityId、bg2..bg8",
+        "grandPrize 以分号分隔（359570），按抽取次数发放",
+        "保底次数由 lottery/activityLotteryGuaranteeNum 配置与 GetGuaranteedNumber 计算",
+        "月卡特权 RecruitSelfSelect/RecruitChoseRed 解锁自选与红点保底"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:359370",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:278947",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:359570",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:268034"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "丧尸潮（ZombieWave）",
+      "summary": "限时丧尸潮玩法按搜索次数匹配目标、按排行发奖，含独立结算协议。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "ZombieWaveCtrl @539095、ZombieWaveModel @541511",
+        "zombieWaveSearch 字段 searchId/mapId/time/quality，按 quality 选择搜索目标（58136）",
+        "zombieWaveRankReward 控制排行奖励",
+        "协议：ZombieWave* 系列与 netZombieWaveDungeonSettleResp",
+        "道具侧使用 ZombieWaveAddSearch / ZombieWaveAddChallenge 增加次数"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:539095",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:541511",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:58136",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:253445"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "挂机放置",
+      "summary": "按玩家等级与 npc 系数结算离线经验/资源，快速挂机消耗 onhookFastCost 且受每日次数与月卡特权限制。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "onhook 表 showBaseExp/showExtraExp；onhookNpc 表 expCoefficient",
+        "onhookFastCost.at(1) 提供快速挂机消耗（103475）",
+        "GetConfigNumber(18010) = 每日购买次数上限（103508）；GetConfigContent(18012) = 快速挂机解锁条件（103519）",
+        "GetPrivilegeAddRecord 把 OnHookCap/OnHookFastTimes/CoinDropAdd 等特权计入收益"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:103475",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:103508",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:103519",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:98774"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "充值与商店",
+      "summary": "RechargeModel/ShopModel 读取 recharge 与 store 表，按渠道 androidProductId 下单；首充与累计充值走独立档位。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "RechargeModel @356278；RechargeType.BuyDiamond=1、BuyVoucher=10",
+        "recharge 表字段 id/type/currency/androidProductId/productName/dpt/hide",
+        "store 表字段 id/rechargeId/mark/order 控制商店上架与排序",
+        "首充三档 rechargeId 200/201/202（First/Super/Luxury），累计充值 ≥648 解锁最高档",
+        "支付通道通过 MidasPay.zip 与 libtobEmbedEncrypt.so 提供（assets/478057776）",
+        "RechargeType.BuyDiamond=1 / BuyVoucher=10（355051）；_maxRechargeCurrency>=648 时 isCan648Reward 为真（356327），领取走 RechargeClaimOneTime648RewardReq（356349）",
+        "store.chain 形如 \"<组id>_<档位>\"：同一组商品由低档位替换为高档位（383422/383436/383449），实现链式成长礼包"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356278",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383349",
+        "apk_data/assets/478057776",
+        "apk_data/assets/MidasPay.zip",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:355051",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356327",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383422"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "新手引导",
+      "summary": "GuideCtrl 以 0.1s 轮询驱动配置表定义的分组引导，支持点击/移动/对话/任务/动画等多种节点类型，完成状态上报服务端。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "GuideConst @195038、GuideCtrl @195113、GuideDB @195270、GuideModel @195707、BaseGuideBehaviour @23664",
+        "GuideType：Talk/Task/Click/MoveJoystick/TryToAuto/MoveToRange/PlayAnim/TaskAndTalk",
+        "GuideDynamicId 10001-10015 覆盖首次救援、装备建造、首次装备、招募建造、传送建造、升级英雄、军衔奖励、限时任务、秘境、世界地图关卡等",
+        "GuideCheckType 11 种触发检测：KillMonster/TaskTrriger/InRangeByGrid/FunctionOpen/HeroLevel/MajorCityAreaCondition/BuildingLevelCondition/CompleteQuest/ShowView/HeroDeploy/ResChangeChecker",
+        "OpenGuideView(195165) 把引导挂到 ViewManager.tipRoot；Finish 上报 GuidanceReq 并打点 GUIDE_ID_START+guideId",
+        "强制组：GuideStartGroupId=10001 到 GuideEndGroupId=10006，配合 90001/90002 分步组"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195055",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195113",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195165",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:23664"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "竞技场（PvP）",
+      "summary": "异步 PvP：挑战/复仇其他玩家，积分与段位排名结算每日/每周奖励；跨服竞技场以独立活动 ID 挂接。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "ArenaModel 维护 historyScore、selfRankInfo、rankVOList、challengeTargetList、recordVOList、tickLimit；ArenaBattleData.source 区分 Normal 实战与 Playback 战报回放（6775-6960）。",
+        "协议：ArenaRankReq、ArenaChallengeReq、ArenaRefreshReq、ArenaBattleReq、ArenaRevengeReq、ArenaRecordReq、ArenaHistoryReq、ArenaHistoryRewardReq；tick 次数由 netArenaTickLimitResp 下发（6976）。",
+        "挑战次数消耗竞技场票 ItemId.ArenaTicket，上限读 config 24002（5461/6695）；段位角标与背景用 ArenaRankTagImg/ArenaBgImg（jingjichang_sp_0005..0007、jingjichang_bf_0001..0003_nc，5578 段）。",
+        "奖励来自 arenaReward（ArenaRewardType：Daily=1、Weekly=2）与 arenaLevelReward（历史积分等级奖励，7026/7059）。",
+        "跨服入口为 ActivityId.ArenaCrossRegion=1060201（1253），由活动框架统一控制开放状态。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:5578",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:6775",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:6976",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:7026",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:7059",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:5461",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1253"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "首领试炼与爬塔（BossTrial / Tower）",
+      "summary": "两条逐层推进的 PvE 挑战线：首领试炼按 id 解锁并有星级/首通/宝箱，爬塔按 tower 表逐层战斗，均用独立协议与服务端进度。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "BossTrialModel（36946）持有 _bossTrialVOList、_curBossTrialId；每项含 unlock、passStarList、firstPassRewarded；协议 BossTrialInfoReq/BossTrialBattleReq/BossTrialBoxReq/BossTrialSweepReq，结算走 netBossTrialDungeonSettleResp。",
+        "bossTrial 表字段：id、lock（解锁条件）、bossSpawn（怪物编队 spawnId）、showBoxReward、showtrialReward、rewardCondition、questAim（36710/36817/37098）。",
+        "试炼宝箱购买次数读 config 49003（37098），宝箱消耗道具由 config 49005 的 content 解析成 item 列表（36903/37127）。",
+        "塔：TowerModel（441352）状态机 TowerStage WaitBattle=1/BattleIng=2/EndBattle=3；tower 表每层含 id、monsterId（逗号分隔多怪编队）、cost（解析为消耗字符串），见 441525/514502；总层数 = DataConf.tower.keys().length（514489）。",
+        "塔层推进用 config 35007 作为偏移参与索引（441036/441144）；协议 TowerInfoReq、TowerBattleReq、TowerSettleReq、TowerRecordReq、TowerRecommentReq、TowerRedPointSettingReq。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36946",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36710",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:37098",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36903",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:441352",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:441525",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:441036",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:514489"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "公会与活动体系",
+      "summary": "公会负责组织型玩法（创建/申请/职位/捐献/求助/旗帜/同名/矿战/石油战/竞赛），活动系统以 ActivityId + 状态机统一驱动入口红点、任务与限时玩法。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "GuildModel（212090）维护 _guildId/_guildLv/_guildName；职位表 guildPosition（197934）、旗帜表 guildFlag（206311）；成员相关上限读 config 64002。",
+        "约 37 个公会协议：CreateGuildReq、ApplyJoinGuildReq、OneKeyGuildApplyReq、AgreeJoinGuildReq、GuildDonatedReq、GuildAskHelpReq、GuildBonusRewardReq、GuildChangeIdentityReq、GuildImpeachReq、ChangeGuildFlagReq、KickOutGuildMemberReq、GuildSameName* 等（212090-214000）。",
+        "活动框架 ActivityModel（1567）：activity 表 + activityQuest（1851/1936）；ActivityState None=0/Opening=1/Ended=2/Closing=3/Finished=4（1284-1290），仅 Opening 显示红点/入口（1651/1749）。",
+        "ActivityId 枚举（1237-1283）覆盖开服 Gift/每日累充/累充/BossRush/宠物活动/巨兽/专属武器/招募箱/竞技场跨服/ZombieWave/公会决斗(1080101,1080201)/公会同名/公会矿战/公会石油战/公会竞赛/联邦竞赛/招募冲刺/收藏冒险/宠物探索/招募排行/广告抽奖/军衔/聚会大厅等。",
+        "活动协议：ActivityQuestInfoReq、ActivityQuestCommitReq、ActivityDropInfoReq、RegionPlayJoinServersReq；跨服活动通过 GetCrossActivityIdByBtnId 找主活动（1428 段）。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:212090",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:197934",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:206311",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1567",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1286",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1253",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1255",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1851"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "宠物系统（招募 / 养成）",
+      "summary": "独立于英雄抽卡的宠物线：petRecruitmentPool 定义消耗与保底奖励箱，PetModel 管理宠物升级/升星/激活与招募结果，支持每日免费次数、广告次数与跳过动画设置。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:344902",
+      "details": [
+        "PetConst @342926：PetDevelopType LevelUp=1/StarUp=2/Activate=3；品质背景 PetLotteryRewardBg 按 ItemQuality 白→炫彩映射 guiuputanxian_sp_*。",
+        "PetModel @344902：招募协议 PetRecruitReq / PetRecruitCallReq(callType,callTimes) @345232-345242、PetRecruitExchangeReq(count) @345288、PetActiveReq(petModelId)、PetUpgradeLevelReq(petGuid)。",
+        "netPetRecruitResp @345407：grandPrizeLimit=保底次数上限、grandPrizeCallCount=当前累计、todayFreeCallCount=当日免费次数、historyCount=历史次数。",
+        "petRecruitmentPool.at(1) 字段：cost（招募消耗 DSL，单抽/十连按 ×10 校验）、costNum/costNumReward（消耗进度宝箱，498390-498402）、showValue（预览展示，343138）；config 25022 为每次免费次数上限，config 55003 为历史招募数达到后可开启跳过动画。",
+        "广告入口：EnumButtonId.PETRECRUIT，GetAdRemainTimes/GetAdMaxTimes 控制按钮与剩余次数，ShowRewardedVideoAd→AdRewardReq（498318/498346）。",
+        "养成：pet 表按 levelType/sarType 取等级与星级配置（GetLevelCfgByPetId/GetStarCfgByPetId @345437/345445），星级 spAttr 为空格/分隔的附加属性；PetRecruitmentWeight 按 poolId+prizeValue 过滤展示宠物（345463）。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:342926",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:344902",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345232",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345242",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345288",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345407",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345437",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345445",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:345463",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:498289",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:498318",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:498346",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:498390"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "背包与物品系统",
+      "summary": "所有道具统一包装为 ItemInfo，按 BagType 分成九类页签并各有排序规则；数量查询对货币自动回落，物品状态用位掩码表示锁定/穿戴/可赠送。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "BagConst.BagType（index.js:18053-18063）：Item=30001、Equip=30002、HeroClip=30003、Mystery=30004、Exoskeleton=30005、Weapon=30006、SilentHill=30007、CarRoomChip=30010",
+        "BagModel（18231）以 _bagMap/_uid2InfoMap/_itemId2InfoMap 三索引缓存背包；netItemBagInfoResp（18299）全量重建，netItemBagUpdateResp/netAddItemBagResp/netReduceItemBagResp 维护增量，协议含 OpenBagReq/UseItemReq/ItemNumQueryReq/TidyItemBagReq/LockItemReq",
+        "分类排序：SortCommon（装备优先→index→quality→id）、SortEquip、SortMystery、SortWeapon（按 heroExWeapon.star 专武星级）、SortSilentHill、SortCarRoomChip（18440-18500）",
+        "GetItemCountByItemId（18469）先查 _itemId2InfoMap，未命中回落 ModelEnum.Currency.GetCurrencyNum，因此货币与道具共用一套数量显示接口；GetItemCountStrByNum（18487）≥1e4 用「万」加一位小数，≥1e5 用 i18n.AUTO_BAG_1 缩写",
+        "页签开启由 GetSortBagOpenCfgs（18499）遍历 DataConf.bagOpen.all()，用 ParseUtil.GetDataByParseString 过滤 showCondition 后按 index 升序",
+        "ItemInfo（255012）SetData（255090）以 itemModelId 同时读 DataConf.item 与 DataConf.equip 两张表，因此装备与普通道具字段来自不同配置",
+        "状态位掩码 ItemState（253592）：None=0、Locked=1、Dress=2、Cangiven=4；IsEquiped/IsLock/IsCangiven 用 (state >> (bit-1)) & 1 判断（255105-255118），GetCangivenTimes=itemCfg.cangiven-itemVO.givenNum（255120）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18053",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18231",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18299",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18469",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18487",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18499",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:253592",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:255012",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:255090",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:255105"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "任务/主线/日常任务系统",
+      "summary": "TaskModel 以服务端 questVO 列表驱动主线与世界地图任务，用 quest 表的 questAim/pathPosition 做寻路引导，主线按世界地图难度过滤；日常/活动/限时任务各有独立 Model，失败怪物触发专属引导并落本地存档。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "TaskStatus（105225）：unLock=1、running=2、finish=3、rewarded=4；TaskType（105231）：Default=0、BuildCity=1、Side1=3、Side2=5",
+        "TaskModel（434996）；netQuestInfoResp（435225）收全量任务，netUpdateQuestProgressResp（435252）收进度，status=rewarded 时触发 TASK_FINISH 并处理特殊任务 11010102/10010251",
+        "CheckTaskState（435360）：读 DataConf.quest.at(id) 的 questAim/pathPosition，unLock/running 调 ExecuteQuestAnim 指向目标（有 pathPosition 用其 map/x/y，否则按 npcSpawn 的 px/py/map），finish 自动发 CommitQuestReq",
+        "NotMainTaskGuild（435380）：completeCondition 含 PlayerLevel:9999 时弹 popup 1001，并调用 Guide.AddDynamicWorldMapNoTaskGuide 生成动态世界地图引导",
+        "GetIngMainTask（436012）按 WorldMap.curDifficulty 过滤 difficulty，且只取 type=Default；CheckMapQuest（436031）解析 gameMap.condition 的 CompleteQuest，用 quest.index 顺序判断并提示 11003，属于地图准入型门禁",
+        "失败怪物引导：OnFightStatisticsUpdate/OnEntityDead（435967）仅在 MainCity 且任务配置了 failMonster 时记录击杀；全部英雄死亡后从 _fightStatisticsMonMap 取 GetConfigNumber(10034) 时间窗内命中 failMonster 的记录，sendBeKilledQuestReq 触发后续任务",
+        "SaveFailMonsterQuestGuideTag/HasFailMonsterQuestGuideTag（435960 附近）仅对 type=3 任务写 PlayerLocalStorageData.FAIL_MONSTER_QUEST_GUIDE_TAG，是「触发式提示只显示一次」的本地持久化证据",
+        "日常：DailyQuestModel（97281）按 dailyQuest.type 分组，DailyQuestInfoReq/CommitDailyQuestReq/DailyQuestRewardReq；活跃奖励货币 DAILY=9、WEEKLY=10（97523）；EnumDailyQuestType（106399）",
+        "活动/限时：ActivityQuestModel（1892，ActivityQuestInfoReq/CommitReq）、LimitQuestModel（258860）、PetActivityQuest=1030201（1242）；主线配置句柄 MainQuest @98669，开服活动主线奖励走 MainQuestRewardReq（320936-321005）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:105225",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:105231",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:434996",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435225",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435252",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435360",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435380",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435967",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:436012",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:436031",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:97281",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:106399"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "指挥官装备养成（强化 / 合成 / 分解 / 穿戴）",
+      "summary": "指挥官装备是独立于普通背包装备的一套槽位养成系统：装备按 equipType(1/2) + hole(部位) 落入槽位，槽位等级由 commandEquipEnhance 逐级强化，强化属性叠加基础 attr/cpAttr 形成战力；装备可分解成统一奖励、按 type 合成、穿戴/卸下，并支持一键强化与自动释放技能开关。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78418",
+      "details": [
+        "数据模型 CommandEquipModel（index.d5507.js:78418）维护 _storeInfoMap（仓库）、_slotInfoMap（槽位）、_hisMaxProductionMap 与 _slotEquipEnhanceMaxMap；Init 初始化三个 Map（78450 附近）。",
+        "槽位键位约定：SLOT_ID_OFFSET=1e4，slotKey = 1e4*equipType + slotId（79512）；强化配置键为 1e4*hole + 1e3*equipType + lv（79459-79472），查找 GetEnhanceCfg(slotId,equipType,lv)。",
+        "枚举：StorePositionType None0/Store1/Compose2/Resolve3/SlotEquip4/LookSlot5；CommanderTacticType Empty0/TypeAttack1/TypeTime2/Core3/TypeRevealAttack4/TypeRevealTime5；CommanderEquipType EquipType1=1/EquipType2=2；CommandEquipConst.CoreSlotId=11/CoreSlotId2=22（78289-78317）。",
+        "入包：netCommandEquipInfoResp（78552）读 commandEquipVOList 与 commandEquipEquipTypeVOList（含 moduleScore、hisMaxAttributeValue），据此计算 _showOneKey；协议 CommandEquipInfoReq/CommandEquipBagInfoReq（78718）、CommandEquipUpLevelReq（78606）、CommandEquipOneKeyUpLevelReq（78575）、CommandEquipResolveReq（78600）、CommandEquipComposeReq、CommandEquipWearReq（78638：slotType, equipId, equipType）。",
+        "强化可行性：CheckSingleSlotEnhanceEnough（79105）当 level >= cfg.maxEnhance 且 cfg.productionLimit > 0 时不可再强化；否则取 GetEnhanceCfg 的 consume，用背包 GetItemCountByItemId 判断任一消耗足够即可（ParseConsumeItems 解析消耗 DSL）。",
+        "属性计算：GetProduceVal（79503）取 min(maxEnhance, 当前槽位 level) 对应的强化 attr，再叠加装备基础 attr 与 cpAttr，得到单件产出值；GetAfterProduceVal 用差值计算换装后的战力变化。",
+        "分解与一键：GetResolveRewardId（79411）返回配置 83002；一键强化门槛来自配置 83105（_GetOneKeyCfgCondition，78512），等级/条件不满足时按钮转一键强化提示。",
+        "配置表：commandEquip（type/equipType/hole/maxEnhance/productionLimit/attr/cpAttr）、commandEquipEnhance（hole/equipType/lv/consume/attr）、commandEquipCompose（type，79245）、commandEquipSlot（equipType/slotId/slotName，79485）、commandEquipSkill（type/point，79037）——全部来自远程 sd_0..4，本地无值。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78289",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78418",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78512",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78552",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78575",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78600",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78606",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78638",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78718",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79037",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79105",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79245",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79380",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79388",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79411",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79459",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79472",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79485",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79503",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79512"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "网络通信与会话协议（WebSocket / 自研帧 / protobuf）",
+      "summary": "客户端通过 Cocos WebSocket 与服务端长连接通信，使用自研二进制帧封装 protobuf 消息：帧头写明序号/包长/压缩标志/24 位消息号，并在发送时附带 MD5(盐+序号) 校验串；消息名与消息号的映射以及 protobuf 描述并不在 APK 内，而是运行时从 resources 的 data/mapCfg/map00001 资源解析出来。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:92999",
+      "details": [
+        "传输层 Connection（index.d5507.js:92999）：cc.assetManager 加载 cert 资源后建立 wss/ws（connect @93155），binaryType=arraybuffer，onmessage 交给 PacketReader.recvData（93175 附近）。",
+        "帧格式（packData @93220）：UInt16 sendIdx（%32768 循环，93222）+ UInt32 packSize（= 32 字节校验串 + 4 + payload 长度，即 compressFlag/messageId 起算）+ UInt8 compressFlag（固定 0） + UInt24 messageId + 32 字节 getSecretMd5Buffer + protobuf payload。",
+        "发送校验串 getSecretMd5Buffer（93232）：MD5(_sicRit + _sendIdx)，_sicRit 默认硬编码为 \"ToJidqtBeKI\"（93118）；调试菜单 netWorkFakeSecret（185423-185424）会把它重置为同一常量并把 sendIdx 置 1。",
+        "收包 PacketReader（93053-93095）：按 P_START/P_INDEX/P_PACK_SIZE/P_COMPRESS_FLAG/P_MESSAGE_ID 状态机增量解析；packSize<=4 视为空负载；compressFlag!=0 时用 tools/snappyjs 解压（93088）。注意接收路径把 packSize-4 全部作为消息体，不解析也不校验 32 字节校验串，故该校验串是客户端→服务端的鉴权字段。",
+        "消息分发 NetworkManager（312899）：__message__ 回调用 ProtobufManager.id2MessageName(messageId) 找消息名，再 parseMessage 解码并以消息名 emit（313024 附近）；send(name,body) 依次 messageName2Id → createMessage → packData（313059 附近）。",
+        "登录前置消息 FIRST_PROTO = [ReconnectReq, LoginAuthReq, GmLoginAuthReq]（313131），只有这些消息允许在建连早期发送。",
+        "protobuf 装配 ProtobufManager（352256）：initProtos 加载 resources 资源 \"data/mapCfg/map00001\"（352296），取 Tiled JSON 的 layers[1].data 解出 {messages:{消息名:消息号}} 作为 _config，layers[0].data 解出 bundle 交给 window.InitPBBuilder 生成构造器；uncompress = Base64Decode → UngzipString → JSON.parse（352319）。",
+        "createMessage 直接 new 构造器并逐字段赋值后 toArrayBuffer（352350）；parseMessage 用构造器 decode（352358）；messageName2Id 查 _config.messages，未知名返回 0（352364）。",
+        "APK 内未找到 data/mapCfg/map00001 资源（find apk_data 无 mapCfg；resources 资源目录也不含），因此消息号表与 .proto 描述为远程/运行时资源，本地无法枚举全部协议号。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:92999",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:93053",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:93118",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:93220",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:93232",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:312899",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:313059",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:313131",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:352256",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:352296",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:352319"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "伤害与战斗公式（代码常量）",
+      "summary": "战斗结算的公式与常量直接写在 index.js，可验证；具体技能倍率与属性成长值来自远程配置表。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": null,
+      "fields": [
+        {
+          "name": "DamageBaseValue",
+          "type": "float",
+          "sample": "CalcFightFloat((atk - def) * skillRate)",
+          "meaning": "基础伤害 =（攻击-防御）×技能倍率"
+        },
+        {
+          "name": "criticalBonus/criticalReduction",
+          "type": "int(万分比)",
+          "sample": "t *= 1 + max(0, 0.5 + criticalBonus*1e-4 - criticalReduction*1e-4)  (DamageCriticalValue:415043)",
+          "meaning": "暴击基础 150%，加减成按万分比"
+        },
+        {
+          "name": "suckBlood",
+          "type": "float",
+          "sample": "max(1, floor(0.3*|dmg|*(1+rate)))",
+          "meaning": "吸血基础 30%，rate 下限 -0.9"
+        },
+        {
+          "name": "blockDmgBonus",
+          "type": "int(万分比)",
+          "sample": "f = 1e-4 * CalcEntityAttrByExtraSkill(blockDmgBonus,...)",
+          "meaning": "格挡减伤按万分比"
+        },
+        {
+          "name": "luckProb/luckResist/dmgBonus",
+          "type": "float",
+          "sample": "A = luckProb*luck; if rand < A-L then dmg += max(1, dmgBonus*skillValue*1e-4)",
+          "meaning": "幸运触发与额外伤害"
+        }
+      ],
+      "samples": [
+        "t.prototype.DamageBaseValue = function(t,e,i,o,n){ var a=this.GetEntityAttr(r.AttributeType.atk,t,e,n), s=this.GetEntityAttr(r.AttributeType.def,e), l=m.FightUtil.CalcFightFloat((a-s)*i); ... return l; }  (index.js:415038)",
+        "t *= 1 + Math.max(0, .5 + y - _); i.isCritical = !0;  (index.js:415075 附近，y/_ 为万分比加成)"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415038",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415043",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415092",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415105",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:166083"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "属性定义表 attributeDefine",
+      "summary": "用属性 key 索引出中文名与显示信息，是全部战斗/养成属性的元数据表。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:238746",
+      "details": null,
+      "fields": [
+        {
+          "name": "key",
+          "type": "string",
+          "sample": "A_D_H",
+          "meaning": "属性键，如攻击/防御/生命"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "sample": "未解出（表值在远程）",
+          "meaning": "属性显示名"
+        },
+        {
+          "name": "被引用次数",
+          "type": "int",
+          "sample": "297 处 attributeDefine 调用",
+          "meaning": "属性系统覆盖面很广"
+        }
+      ],
+      "samples": [
+        "grep getHandle(\"attributeDefine\") 命中 297 处；代码取 DataConf.attributeDefine.at(attrKey).name 显示属性名"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:415038",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:238746"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "配置表清单与分片结构",
+      "summary": "游戏业务数值全部在 5 个 gzip（JSON）分片里，共 367 个逻辑表；表名已从代码确认，值未获得。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:101189",
+      "details": null,
+      "fields": [
+        {
+          "name": "分片数",
+          "type": "int",
+          "sample": "5 (i=0..4)",
+          "meaning": "loadAllCfg 循环读取 sd_0..sd_4"
+        },
+        {
+          "name": "表名数",
+          "type": "int",
+          "sample": "367",
+          "meaning": "getHandle(\"Xxx\") 去重后的表数量"
+        },
+        {
+          "name": "单表编码",
+          "type": "binary",
+          "sample": "int 表数量 + readRawString 表名 + gzip+JSON (readZipResult)",
+          "meaning": "CfgReader 自定义容器格式"
+        }
+      ],
+      "samples": [
+        "DataConf.loadConfig: if (globalThis.remoteConfig && globalThis.remoteConfig.version) {...} else var a=\"data/conf/sd_\"+t;  (index.js:101262-101276)",
+        "gzip+JSON 分片内含 item/config/attributeDefine/hero/npcSpawn/avatar/store/npc/gameMap/uiTable/monster/monsterSpawn/skill/skillExtra/recharge/quest/activity/militaryTown/reward/pet/geneBasic/commandEquip/militaryRank/zombieWaveSearch/worldMap/build/shelterMap/heroSkin/equip/activityLottery/tower/guildWarRankReward/silentHillExploreEvent/sandSeaHero/exoskeleton 等"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:101189",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:101262",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:101276",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:97986"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "config 通用键值表（局部已知 ID）",
+      "summary": "大量系统参数放在 config 表的键值里，代码用 DataConf.config.at(id) 或 GetConfigContent(id) 取。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534544",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "2001",
+          "meaning": "主任务 questId 来源（CheckIsHasNewTask）"
+        },
+        {
+          "name": "content",
+          "type": "string",
+          "sample": "未解出",
+          "meaning": "字符串参数，如 13003 的 difficulty:spawnId 列表"
+        },
+        {
+          "name": "代码直接引用 ID 数",
+          "type": "int",
+          "sample": "167",
+          "meaning": "DataConf.config.at(N) 去重后的 ID 数量"
+        }
+      ],
+      "samples": [
+        "13003: \"difficulty:spawnId,difficulty:spawnId\"（缺省 500000）",
+        "18010: 每日快速挂机购买次数",
+        "18012: 快速挂机解锁条件",
+        "22018: 世界地图引导首图列表",
+        "2001: 主任务 questId"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534544",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:103508",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:103519",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195165"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "奖励/消耗字符串 DSL 与商店 cost 标签（ParseUtil / ShopConst）",
+      "summary": "任务奖励、商店价格、爬塔消耗等都用同一个 <tag>|<payload> 字符串 DSL 表达；商店 cost 只有 ad/free/item 三种标签，其余一律按真实充值处理，这是数值配置与商业化的公共编码层。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:336396",
+      "details": null,
+      "fields": [
+        {
+          "name": "ParseString 格式",
+          "type": "string",
+          "sample": "<tag>|<payload>（GetDataByParseStringOnce 按 tag 分派到本类方法，如 item/gene）",
+          "meaning": "所有奖励/消耗配置项的通用编码入口"
+        },
+        {
+          "name": "item payload",
+          "type": "string",
+          "sample": "id:<itemId>_num:<n>_...，返回 [itemCfg, num, a, ratio]",
+          "meaning": "item 解析器：物品 id + 数量 + 可选参数；后缀 / 可带概率分数"
+        },
+        {
+          "name": "ShopCostTag",
+          "type": "enum(string)",
+          "sample": "Ad=\"ad\" / Free=\"free\" / Item=\"item\"",
+          "meaning": "cost 为空或非标签 ⇒ 走真实充值 RechargePriceText（29028）"
+        },
+        {
+          "name": "store.chain",
+          "type": "string",
+          "sample": "\"<组id>_<档位>\"",
+          "meaning": "链式礼包分组；运行时按组 id 记录当前档位 goodsInfo（buyCount/maxCount/hisBuyCount）"
+        },
+        {
+          "name": "store.cost / store.rechargeId",
+          "type": "string / int",
+          "sample": "\"item|id:N_num:M\" / \"free\" / \"ad\"；rechargeId 指向 recharge 表",
+          "meaning": "普通商品用 cost，真实付费商品用 rechargeId 取价"
+        },
+        {
+          "name": "IsSkipAD",
+          "type": "bool",
+          "sample": "MonthCard 或 LifeCard 持有者把 cost=\"ad\" 商品视为 Free",
+          "meaning": "月卡/终身卡的免广告特权直接改变商店显示与购买路径"
+        }
+      ],
+      "samples": [
+        "t.prototype.GetDataByParseStringOnce = function(t) { ... }  (index.js:336396)",
+        "t.prototype.item = function(t) { ... id:... _num:... }  (index.js:336403)",
+        "i.ShopCostTag: t.Ad=\"ad\"; t.Free=\"free\"; t.Item=\"item\";  (index.js:383053-383057)",
+        "this.shopTag = this.IsSkipAD() ? p.ShopCostTag.Free : p.ShopCostTag.Ad;  (index.js:29049 附近)",
+        "if (!f.default.IsEmpty(i.chain)) { var o = i.chain.split(\"_\"); ... }  (index.js:383422)"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:336396",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:336403",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383020",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383053",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29028",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29049",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:383422",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29078"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "充值 recharge 表与累计 648 档",
+      "summary": "recharge 表是真实付费 SKU 的价目与发货来源：productName/currency/quota/reward；本地客户端根据玩家历史最大充值金额 maxRechargeCurrency 判断 648 累计档是否可领。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:355044",
+      "details": null,
+      "fields": [
+        {
+          "name": "productName",
+          "type": "string",
+          "sample": "显示在礼包标题（29009 未解出具体值）",
+          "meaning": "商品名"
+        },
+        {
+          "name": "currency",
+          "type": "int",
+          "sample": "充值金额，用于累计 _maxRechargeCurrency（356339-356343）",
+          "meaning": "真实价格档位"
+        },
+        {
+          "name": "quota",
+          "type": "int",
+          "sample": "0 = 售罄（29012/29013 按钮切换）",
+          "meaning": "剩余可购/库存"
+        },
+        {
+          "name": "reward",
+          "type": "int",
+          "sample": "指向 reward 表 id（29017）",
+          "meaning": "购买后发货奖励组"
+        },
+        {
+          "name": "maxRechargeCurrency",
+          "type": "int",
+          "sample": "isCan648Reward ⇔ _maxRechargeCurrency ≥ 648（356325-356328）",
+          "meaning": "累计充值 648 解锁最高档"
+        },
+        {
+          "name": "RechargeType",
+          "type": "enum(int)",
+          "sample": "BuyDiamond=1 / BuyVoucher=10（355051-355054）",
+          "meaning": "充值货币类型"
+        },
+        {
+          "name": "RechargeImgMap",
+          "type": "map",
+          "sample": "101-108、1001-1007 → daijinquan_sp_*",
+          "meaning": "代金券档位图标映射"
+        }
+      ],
+      "samples": [
+        "Object.defineProperty(e.prototype, \"isCan648Reward\", { get: ... this._maxRechargeCurrency >= 648 })  (index.js:356325)",
+        "this._maxRechargeCurrency = t.maxRechargeCurrency;  (index.js:356339)",
+        "var e = u.default.DataConf.recharge.at(t.cfg.rechargeId);  (index.js:29001)",
+        "this.nodeSellout.active = 0 === t.quota;  (index.js:29012)",
+        "DataConf.recharge.at(e.rechargeId) ... o.currency && Recharge(o.id)  (index.js:1158-1165)"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:355044",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:355051",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29001",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29009",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29012",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:29017",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356325",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:356339",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:1158"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "背包/物品与品质状态结构",
+      "summary": "物品分类、状态位掩码、品质与品质对应的名称/掉落特效 ID 均以代码常量定义；具体道具数值来自远程 item/equip/bagOpen 表，本轮未取得。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": null,
+      "fields": [
+        {
+          "name": "BagType",
+          "type": "int enum",
+          "sample": "Item=30001, Equip=30002, HeroClip=30003, Mystery=30004, Exoskeleton=30005, Weapon=30006, SilentHill=30007, CarRoomChip=30010",
+          "meaning": "背包页签分类，决定使用哪套排序与展示"
+        },
+        {
+          "name": "ItemState",
+          "type": "int 位掩码",
+          "sample": "None=0, Locked=1, Dress=2, Cangiven=4",
+          "meaning": "物品状态位；判断式 (state >> (bit-1)) & 1"
+        },
+        {
+          "name": "ItemQuality",
+          "type": "int enum",
+          "sample": "white=1, Green=2, Blue=3, Purple=4, Orange=5, Red=6, Dazzling=7",
+          "meaning": "道具品质，排序与显示用"
+        },
+        {
+          "name": "EquipQuality",
+          "type": "int enum",
+          "sample": "OrangePlus=6（与 ItemQuality 的 Red=6 不同表）",
+          "meaning": "装备专用品质，勿与 ItemQuality 混用"
+        },
+        {
+          "name": "ItemQualityNameId",
+          "type": "int i18n id",
+          "sample": "70001..70006 对应 white..Red，70008 对应 Dazzling（70007 未在该映射出现）",
+          "meaning": "品质名称的本地化文本 ID"
+        },
+        {
+          "name": "ItemQualityDropEffectId",
+          "type": "int effect id",
+          "sample": "40036..40042（white..Dazzling 连续）",
+          "meaning": "掉落品质特效 ID"
+        },
+        {
+          "name": "item.cangiven / item.index / item.quality",
+          "type": "int",
+          "sample": "GetCangivenTimes=cfg.cangiven-vo.givenNum；排序使用 cfg.index/cfg.quality",
+          "meaning": "远程 item 表的可赠送次数、排序序号与品质"
+        },
+        {
+          "name": "bagOpen.showCondition",
+          "type": "string DSL",
+          "sample": "ParseUtil.GetDataByParseString(showCondition) 为真才显示页签",
+          "meaning": "背包页签开启条件（与奖励/消耗同一套 DSL）"
+        }
+      ],
+      "samples": [
+        "t[t.Item = 30001] = \"Item\"; t[t.Equip = 30002] = \"Equip\"; ... t[t.CarRoomChip = 30010] = \"CarRoomChip\";  (index.js:18053-18063)",
+        "GetItemCountByItemId: var o=this._itemId2InfoMap.get(t); ... return ModelManager.Inst().Get(ModelEnum.Currency).GetCurrencyNum(t,e);  (index.js:18469)",
+        "GetSortBagOpenCfgs: for (var e in DataConf.bagOpen.all()) { var i=DataConf.bagOpen.at(e); i.showCondition ? ParseUtil.GetDataByParseString(i.showCondition) && t.push(i) : t.push(i); } t.sort((a,b)=>a.index-b.index);  (index.js:18499)",
+        "IsLock = function(){ return 1 == (this._state >> ItemState.Locked - 1 & 1); }  (index.js:255105 附近)"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18053",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18469",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:18499",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:253560",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:253592",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:255105",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:255120"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "指挥官装备强化 / 分解 / 一键条件（commandEquip* 表结构）",
+      "summary": "commandEquip 定义装备的部位、强化上限、产出上限与基础属性；commandEquipEnhance 按 部位+装备类型+等级 给逐级消耗与强化属性；分解奖励与一键强化门槛由全局 config 83002/83105 控制。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79459",
+      "details": null,
+      "fields": [
+        {
+          "name": "type / equipType",
+          "type": "int",
+          "sample": "equipType ∈ {1,2}（CommanderEquipType）",
+          "meaning": "装备类型；与 hole 一起构成槽位键"
+        },
+        {
+          "name": "hole",
+          "type": "int",
+          "sample": "GetEquipSlotId 返回 commandEquip.hole（79380）",
+          "meaning": "部位/槽位 id；CoreSlotId=11/22 为核心槽"
+        },
+        {
+          "name": "maxEnhance",
+          "type": "int",
+          "sample": "Math.min(maxEnhance, slot.level)（79503）",
+          "meaning": "强化等级上限，也是属性取级上限"
+        },
+        {
+          "name": "productionLimit",
+          "type": "int",
+          "sample": "level>=maxEnhance && productionLimit>0 ⇒ 不可强化（79105）",
+          "meaning": "产出/强化封顶开关"
+        },
+        {
+          "name": "attr / cpAttr",
+          "type": "map",
+          "sample": "{ attrName: value }，正数才累加（79505-79512）",
+          "meaning": "基础属性与战力属性"
+        },
+        {
+          "name": "consume",
+          "type": "string",
+          "sample": "ParseConsumeItems(s.consume) ⇒ [{itemId,amount}]",
+          "meaning": "单级强化消耗 DSL"
+        },
+        {
+          "name": "lv",
+          "type": "int",
+          "sample": "增强配置键 1e4*hole+1e3*equipType+lv（79468）",
+          "meaning": "强化等级"
+        },
+        {
+          "name": "commandEquipSlot.slotId / slotName",
+          "type": "int / string",
+          "sample": "按 equipType 过滤，前置 [0, i18n.EQUIP_1]（79485-79496）",
+          "meaning": "槽位列表与本地化名"
+        },
+        {
+          "name": "config 83002",
+          "type": "int",
+          "sample": "GetResolveRewardId() 直接返回（79411）",
+          "meaning": "分解统一奖励 id"
+        },
+        {
+          "name": "config 83105",
+          "type": "int",
+          "sample": "_oneKeyEnhanceCondition 初值来自 GetConfigNumber(83105)（78512）",
+          "meaning": "一键强化开启条件"
+        }
+      ],
+      "samples": [
+        "this._slotEquipEnhanceMaxMap.set(1e4 * h.type + 1e3 * i + h.hole, m)  (index.js:79468)",
+        "return this._enhanceSlotLvMap.get(1e4 * t + 1e3 * e + i);  (index.js:79461)",
+        "if (n >= a.maxEnhance && a.productionLimit > e) return !1;  (index.js:79110)",
+        "var n = Math.min(i.maxEnhance, o.level), r = this.GetEnhanceCfg(o.slotId, o.equipType, n);  (index.js:79503)",
+        "e.prototype.GetResolveRewardId = function() { return d.default.GetConfigNumber(83002); }  (index.js:79411)"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78289",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79105",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79380",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79411",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79459",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79468",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79485",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:79503",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:78512"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "levels": [
+    {
+      "name": "世界地图关卡体系（worldMap / gameMap / quest）",
+      "summary": "关卡不是传统线性章节，而是按四档难度分层的世界地图房间探索：worldMap 定义每张图房间组成与奖励，gameMap 记录难度，quest 用 index 组织任务链，monsterSpawn 决定怪物编队。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:533743",
+      "details": [
+        "WorldMapDifficultyType：None=0/Normal=1/Difficulty=2/Nightmare=3/Hell=4，配 4 套迷雾 prefab",
+        "worldMap：id、mapId、roomSum、roomSumReward；roomSum 形如 TriggerNpcCondition|{npcSpawnId:N}",
+        "gameMap：id、difficulty、mapType；GetMapIdListByDifficulty 按难度过滤地图",
+        "quest：id、index、difficulty；GetDifficultyNormalTaskList 按 index 排序推进主线",
+        "monsterSpawn.monsterSpawn = \"<monsterId>_...\"，首段解析为 monster 表 id（28479/33002/34923）",
+        "探索节点类型含 Boss(6) 与 Boss2(8)，Boss 编队来自 monsterSpawn 的 bossSpawn/bossSpawnId（33038/36734）",
+        "丧尸潮为独立玩法表 zombieWaveSearch/zombieWaveRankReward，不计入世界地图房间"
+      ],
+      "fields": null,
+      "samples": [
+        "worldMap 行结构（值未获得）：{\"id\":<int>,\"mapId\":<int>,\"roomSum\":\"TriggerNpcCondition|{npcSpawnId:<int>}\",\"roomSumReward\":<...>}",
+        "quest 行结构（值未获得）：{\"id\":<int>,\"index\":<int>,\"difficulty\":<0..4>}",
+        "gameMap 行结构（值未获得）：{\"id\":<int>,\"difficulty\":<0..4>,\"mapType\":<...>}"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:106625",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:533743",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534413",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:534544",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:28479",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:33002"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "本地关卡记录覆盖",
+      "summary": "本轮在 APK 内未发现任何可解析的关卡记录文件：配置全部远程下发，因此 level_data 无输入（不是游戏无关卡）。",
+      "sourceFile": "preinspect.md",
+      "details": [
+        "unzip -l target.apk 与 find apk_data 均未找到 data/conf、sd_0..4、remoteConfig_*、versionInfo_*",
+        "未创建 level_data/records.jsonl：真实记录 0 条、失败文件 0 个，创建空文件会被误读为已完成普查",
+        "level_stats.json 的 0 条仅表示本地无输入，不代表游戏没有关卡，也不能计算困难关密度/连续段"
+      ],
+      "fields": null,
+      "samples": [],
+      "evidence": [
+        "preinspect.md",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:101262",
+        "level_stats.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "首领试炼 / 爬塔 / 竞技场挑战结构",
+      "summary": "三类非主线挑战都由 id 逐层解锁的配置表驱动；真实层数、编队与系数位于远程 sd_0..sd_4，本地仅能确认结构与字段。",
+      "sourceFile": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "details": [
+        "bossTrial.time 为战斗时限秒，代码换算 fightNeedTimeMS = 1000×time（36711）；rewardCondition 按逗号拆分为星级条件，星级阈值读 config 49007（36818）。",
+        "showtrialReward 是逗号分隔的两个 id：[rewardId, specialRewardId]，分别走 GetRewardList / GetSpecialRewardList（36865）。",
+        "arenaReward 含 type/serverType（1 普通、2 跨服，按 isCrossRegion 选择）；arenaLevelReward 按 point 升序，第一个未领取项即 GetNearLevelRewardCfg（7026-7067）。",
+        "bossTrial：id 递增 + lock 解锁，每关 bossSpawn 指定怪物编队 spawnId，passStarList 记星级，firstPassRewarded 记首通；showBoxReward/showtrialReward/rewardCondition/questAim 控制宝箱与任务目标；宝箱次数 config 49003、消耗 config 49005。",
+        "tower：tower 表每层含 id、monsterId（逗号分隔多怪编队）、cost；层数为 DataConf.tower.keys().length，状态机 WaitBattle→BattleIng→EndBattle，config 35007 提供层偏移。",
+        "竞技场：不以关卡表计数，按 arenaLevelReward（历史积分等级）与 arenaReward（日/周）发奖；挑战次数消耗 ArenaTicket，上限 config 24002。",
+        "全量统计仍为本地 0 条真实记录：表体全部在远程配置分片，未联网故未解析出任何具体层/关数据。"
+      ],
+      "fields": null,
+      "samples": [
+        "bossTrial: {id, lock, bossSpawn, passStarList, showBoxReward, showtrialReward, rewardCondition, questAim}",
+        "tower: {id, monsterId:'<npcSpawnId>,<npcSpawnId>,...', cost:'<itemId>,<num>'}"
+      ],
+      "evidence": [
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36710",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:37098",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:441525",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:514489",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:7026",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:7059",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36711",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36818",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:36865",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:7026",
+        "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:7067"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "artAssets": [
+    {
+      "name": "原生 res/ UI 与图标（含系统/SDK 素材）",
+      "summary": "680/691 张图位于 res/ 的 drawable/mipmap 各密度档，主要是 Android 与三方 SDK 的界面素材，复用度低。",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "按密度分档：drawable-hdpi 254、drawable-xhdpi 175、drawable-xxhdpi 125、drawable-mdpi 45、mipmap-xhdpi 24 等",
+        "命名多为 abc_*/ic_launcher_* 等系统或 AppCompat 资源，判断为壳与 SDK 素材而非游戏主美术",
+        "格式以 png 为主（683），少量 jpg（8）；体积按包内压缩后计 5.8MB"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "target.apk/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "target.apk/res/drawable-xxhdpi/sy37_web_forward_disable.png"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "引导/指引图片（37wan_net）",
+      "summary": "assets/37wan_net/img/guide/ 下有 4 张引导相关图片，是本地包内唯一与玩法引导直接相关的美术。",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "示例：nav_btn_menu_press.png",
+        "归入引导素材是按目录与命名推断，具体挂载点需结合运行时 UI 才能确证",
+        "数量极少，说明正式引导 UI 主要来自远程 CDN 资源"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/assets/37wan_net/img/guide/nav_btn_menu_press.png",
+        "target.apk/assets/37wan_net/img/guide/nav_btn_menu_end_press.png",
+        "target.apk/assets/37wan_net/img/guide/nav_btn_menu.png"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Cocos 场景与导入元数据",
+      "summary": "场景 JSON 描述 5 个入口场景与资源依赖，是理解模块划分与初始化的直接证据，但不是美术资源本体。",
+      "sourceFile": "apk_data/assets/assets/scenes/config.6c061.json",
+      "details": [
+        "scenes 映射：AppLoader.fire、BattleSimulator.fire、Game.fire、Login.fire、UIMaker.fire",
+        "deps 为 resources/internal，import 分片以 uuid 命名；config 中 encrypted=true 说明资源索引也被保护",
+        "无 AssetBundle（discovered=0），主美术不在包内"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"scenes\":{\"db://assets/scenes/AppLoader.fire\":2,\"db://assets/scenes/BattleSimulator.fire\":0,\"db://assets/scenes/Game.fire\":1,\"db://assets/scenes/Login.fire\":4,\"db://assets/scenes/UIMaker.fire\":3}}"
+      ],
+      "evidence": [
+        "apk_data/assets/assets/scenes/config.6c061.json",
+        "apk_data/assets/assets/src/config.d5507.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "嵌入插件 APK 与支付包",
+      "summary": "63MB 的 sq_plugin APK 与 MidasPay.zip 属于渠道/支付插件，内含独立资源与 so，不属于游戏主美术。",
+      "sourceFile": "apk_data/assets/sq_plugin_3.7.9.6.1_2025_11_28_10_43_37.apk",
+      "details": [
+        "sq_plugin 为 37 手游渠道插件，本轮未展开",
+        "MidasPay.zip 与 libtobEmbedEncrypt.so 支撑腾讯 Midas 支付",
+        "assets/478057776 是 ZIP 容器，内含 libtobEmbedEncrypt.so 与 MidasPay.zip"
+      ],
+      "fields": null,
+      "samples": [
+        "apk_data/assets/sq_plugin_3.7.9.6.1_2025_11_28_10_43_37.apk",
+        "apk_data/assets/478057776"
+      ],
+      "evidence": [
+        "apk_data/assets/478057776",
+        "apk_data/assets/MidasPay.zip"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "artGuidance": {
+    "found": true,
+    "kind": "配置表驱动的强制新手引导（组 10001-10006）",
+    "summary": "GuideCtrl 每 0.1 秒轮询 GuideModel，按配置创建 Talk/Task/Click/MoveJoystick/TryToAuto/MoveToRange/PlayAnim/TaskAndTalk 八类引导节点并挂到 ViewManager.tipRoot；强制新手组从 GuideStartGroupId=10001 到 GuideEndGroupId=10006，组 10001 上报 start_guide、10006 上报 finish_guide，完成时发送 GuidanceReq。",
+    "steps": [
+      {
+        "order": 1,
+        "name": "FIRST_RESCUE 首次救援",
+        "trigger": "首次进入主玩法",
+        "hint": "Talk/Click 节点按 GuideType 生成",
+        "gate": "GuideDynamicId=10001，属强制组起点，上报 start_guide",
+        "assets": [
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_press.png"
+        ],
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "EQUIP_BUILD_UI 装备建造界面",
+        "trigger": "解锁建造功能",
+        "hint": "高亮建造入口并拦截点击",
+        "gate": "GuideDynamicId=10002，完成前不进入下一步",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "FIRST_EQUIP 首次装备",
+        "trigger": "获得首件装备",
+        "hint": "引导到装备槽并推荐最佳装备",
+        "gate": "GuideDynamicId=10003，UpdateGuideEquip 计算推荐装备",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "RECRUIT_BUILD_UI 招募建造",
+        "trigger": "解锁招募建筑",
+        "hint": "高亮招募建造入口",
+        "gate": "GuideDynamicId=10004；另有 GuideId.RecruitStep1=100091 与组 90001/90002 的金币招募分步引导",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "TRAMSMIT_BUILD_UI 传送建造",
+        "trigger": "解锁传送建筑",
+        "hint": "高亮传送建造入口",
+        "gate": "GuideDynamicId=10005",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038"
+        ]
+      },
+      {
+        "order": 6,
+        "name": "TRANSMIT_REGION_ITEM_1 首次传送",
+        "trigger": "传送建筑就绪",
+        "hint": "引导选择目标区域",
+        "gate": "GuideDynamicId=10006 = GuideEndGroupId，上报 finish_guide，强制新手引导结束",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038"
+        ]
+      },
+      {
+        "order": 7,
+        "name": "失败怪物任务引导（触发式）",
+        "trigger": "主线城中任务配置 failMonster，且全部英雄在 config 10034 时间窗内被该怪击杀",
+        "hint": "击杀记录命中后 sendBeKilledQuestReq 触发对应任务；再次进入时按本地标记决定是否重复提示",
+        "gate": "仅 type=3 任务写入 FAIL_MONSTER_QUEST_GUIDE_TAG，本地存档保证只提示一次，非强制拦截",
+        "files": [
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435967",
+          "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:436002"
+        ]
+      }
+    ],
+    "mechanisms": [
+      "GuideCtrl.OnUpdate 每 0.1s 轮询 GuideModel.CheckGuide→CheckFinish→Execute（index.js:195113）",
+      "GuideType 8 种节点：Talk0/Task1/Click2/MoveJoystick3/TryToAuto4/MoveToRange5/PlayAnim6/TaskAndTalk7（index.js:195038）",
+      "GuideCheckType 11 种完成条件：KillMonster/TaskTrriger/InRangeByGrid/FunctionOpen/HeroLevel/MajorCityAreaCondition/BuildingLevelCondition/CompleteQuest/ShowView/HeroDeploy/ResChangeChecker",
+      "BaseGuideBehaviour.priority 取自 dataList[0].priority，数值越小越优先（index.js:23664）",
+      "组 10001 执行时上报 event_name=start_guide，组 10006 上报 finish_guide（index.js:23756/23786）",
+      "完成引导发送 GuidanceReq（index.js:195776），并写完成标记；OpenGuideView 挂到 ViewManager.tipRoot（index.js:195165）",
+      "点击类引导使用 cc.BlockInputEvents 遮罩拦截输入（index.js:18764）",
+      "失败怪物触发式提醒：OnEntityDead 记录 MainCity 内 failMonster 击杀时间，全灭后按 config 10034 时间窗筛选（index.js:435967）；SaveFailMonsterQuestGuideTag 仅 type=3 落本地存档（index.js:436002）",
+      "世界地图动态指路：NotMainTaskGuild 在 completeCondition=PlayerLevel:9999 时打开 popup 1001 并调 AddDynamicWorldMapNoTaskGuide（index.js:435380/195863）"
+    ],
+    "assets": [
+      "assets/37wan_net/img/guide/"
+    ],
+    "evidence": [
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195038",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195113",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195165",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195776",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:23664",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:23756",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:23786",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:435967",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:436002",
+      "extracted/jsc_decrypted/assets/assets/src/index.d5507.js:195863"
+    ],
+    "confidence": "high"
+  },
+  "encryption": {
+    "findings": [
+      "jsc 脚本使用 XXTEA 加密后再 gzip：key 由 libcocos2djs.so 的 jsb_set_xxtea_key 设置，位于文件偏移 0x176c81d，16 字节 ASCII `c25d728a-a9d9-4c`（applicationDidFinishLaunching @0x329670）",
+      "Cocos 资源索引 config.*.json 标记 encrypted=true，逻辑脚本与资源索引均受保护",
+      "libsecuritydevice.so 链接 MD5 实现（0x2f16a0），并有 chacha/aes 关键字字符串，属安全设备 SDK 而非游戏配置加密",
+      "libzxprotect.so 含 AES/CBC/PKCS5Padding、HmacSHA1/HmacSHA256、Base64、javax.crypto.Cipher 字符串，属加固/通道保护",
+      "lib39285EFA.so 含 Globals::encryptJar_ / absoluteEncryptJar_ 符号，用于加固 jar",
+      "assets/478057776 为 ZIP 容器；MidasPay.zip 与 libtobEmbedEncrypt.so 支撑支付加密",
+      "网络层自研帧 + protobuf：帧由 sendIdx/packSize/compressFlag/messageId(24bit)/32字节MD5(盐+序号) 组成，负载 snappy 可选压缩；盐默认 \"ToJidqtBeKI\"（index.d5507.js:93118/93220/93232）"
+    ],
+    "decrypted": [
+      "9/9 个 jsc 全部解密成功（XXTEA→gzip→JS），主脚本 index.d5507.js 19.9MB、3144 个类",
+      "解出 main/index、minigame/index、internal/cert/scenes/index、settings、Config、cocos2d-jsb 等脚本",
+      "定位并读出配置加载器 DataConf/CfgReader/DataBase 的完整分片协议与 367 张表名"
+    ],
+    "blocked": [
+      "5 个业务配置分片 sd_0..sd_4 由远程 CDN 下发，APK 内不存在，禁止联网 ⇒ 无任何真实表值",
+      "recharge/store 的 SKU 价格、androidProductId 未解出",
+      "世界地图/任务/怪物编队的真实数值未解出",
+      "63MB sq_plugin APK 与 MidasPay.zip 未展开",
+      "第三方 SDK 资源 toyger.face.dat、hmsrootcas.bks、safecloud_model_2_4_2 未分析（与玩法无关）",
+      "protobuf 消息号表与描述符来自 resources 资源 data/mapCfg/map00001（Base64+gzip+JSON，index.d5507.js:352296），APK 内无该资源，故协议号全表不可枚举"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "level_stats.json",
+      "note": "本地已解析关卡的全量统计与缺失项"
+    },
+    {
+      "path": "level_stats.md",
+      "note": "关卡分布与顺序映射的验收摘要"
+    },
+    {
+      "path": "extracted/jsc_decrypted/assets/assets/src/index.d5507.js",
+      "note": "解密后的主逻辑脚本，19.9MB/3144 类，全部结论的主要代码证据"
+    },
+    {
+      "path": "extracted/xxtea_jsc.py",
+      "note": "XXTEA+gzip 单文件解码器"
+    },
+    {
+      "path": "extracted/decode_all_jsc.py",
+      "note": "批量解码脚本，产出 jsc_decrypted/"
+    },
+    {
+      "path": "extracted/jsc_decode_index.json",
+      "note": "9 个 jsc 的解码结果索引（全部 ok）"
+    },
+    {
+      "path": "extracted/classnames.txt",
+      "note": "从主脚本提取的 3144 个类名清单"
+    },
+    {
+      "path": "apk_data/assets/main.js",
+      "note": "启动入口，含远程资源根 lansors CDN"
+    },
+    {
+      "path": "apk_data/assets/assets/scenes/config.6c061.json",
+      "note": "5 个场景清单与依赖"
+    },
+    {
+      "path": "apk_data/assets/multiconfig",
+      "note": "渠道配置：ysdk/usesdk=41/pname"
+    },
+    {
+      "path": "apk_data/assets/37wan_config.xml",
+      "note": "37 手游渠道 gameid/partner"
+    },
+    {
+      "path": "apk_data/assets/ysdkconf.ini",
+      "note": "腾讯 YSDK 登录配置"
+    },
+    {
+      "path": "analysis_notes.md",
+      "note": "跨轮次进度笔记"
+    }
+  ],
+  "limitations": [
+    "全部业务数值表由远程 CDN 下发（5 个 gzip 分片 sd_0..sd_4），APK 内无副本，因此本报告只能给出表结构、字段、枚举、公式与代码路径，不能给出真实数值/价格/关卡数据",
+    "版本 1.0.3 的远程配置版本号未知，需首次登录后从 remoteConfig_<versionChannelType>.json 获取",
+    "本地无任何可解析关卡记录，level_data/records.jsonl 未生成；level_stats.json 的 0 条不代表游戏无关卡",
+    "美术普查沿用 art_inventory.json：691 图 / 5.8MB，680 张在 res/ 且多为系统/SDK 素材；无 AssetBundle，主体美术走远程",
+    "63MB 渠道插件 APK、MidasPay.zip、加固 so 未深入；第三方人脸/证书资源未分析",
+    "发行商无法从包内确证：仅知渠道为应用宝、联运接入 37 手游，publisher 记为 unknown",
+    "登录/区服协议依赖 oreoapis.lansors.com，静态分析未验证实际报文格式",
+    "网络协议的消息号映射与 .proto 描述在远程资源 data/mapCfg/map00001 中，本地缺失；只能从消息名与调用点恢复协议语义"
+  ],
+  "generatedAt": "2026-11-19T16:57:05.557989232+08:00",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "artInventory": {
+    "generatedAt": "2026-11-19T16:30:59.466364886+08:00",
+    "scanVersion": 3,
+    "sha256": "ccb21753296af71d290a3bba1d8193ebbb3efe3e129d3d1b14684fba21b3847c",
+    "archives": [
+      "target.apk"
+    ],
+    "totalFiles": 691,
+    "totalBytes": 6093886,
+    "bundleFiles": 0,
+    "bundleBytes": 0,
+    "categories": [
+      {
+        "key": "ui_icon",
+        "label": "图标 / Logo / UI",
+        "files": 264,
+        "bytes": 3475701,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 257,
+            "bytes": 3203206
+          },
+          {
+            "ext": ".jpg",
+            "files": 7,
+            "bytes": 272495
+          }
+        ],
+        "samples": [
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "target.apk/res/mipmap-xxxhdpi/live_loading.png",
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "贴图 / 其它图片",
+        "files": 331,
+        "bytes": 1478132,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 330,
+            "bytes": 1341460
+          },
+          {
+            "ext": ".jpg",
+            "files": 1,
+            "bytes": 136672
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+          "target.apk/res/drawable-xxhdpi/sy37_web_forward_disable.png",
+          "target.apk/res/drawable-xxhdpi/com_tencent_ysdk_phone_oauth_login_back.png"
+        ]
+      },
+      {
+        "key": "scene",
+        "label": "场景 / 地图",
+        "files": 84,
+        "bytes": 1137535,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 84,
+            "bytes": 1137535
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+          "target.apk/res/drawable-xxhdpi/sy_fx_bg_login_fast.png",
+          "target.apk/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png"
+        ]
+      },
+      {
+        "key": "vfx",
+        "label": "特效",
+        "files": 8,
+        "bytes": 1775,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 8,
+            "bytes": 1775
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png",
+          "target.apk/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png",
+          "target.apk/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+        ]
+      },
+      {
+        "key": "guide",
+        "label": "引导 / 指引素材",
+        "files": 4,
+        "bytes": 743,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 4,
+            "bytes": 743
+          }
+        ],
+        "samples": [
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_press.png",
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_end_press.png",
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu.png"
+        ]
+      }
+    ],
+    "topDirs": [
+      {
+        "path": "target.apk/res/drawable-hdpi",
+        "files": 254,
+        "bytes": 1022610
+      },
+      {
+        "path": "target.apk/res/drawable-xhdpi",
+        "files": 175,
+        "bytes": 1952158
+      },
+      {
+        "path": "target.apk/res/drawable-xxhdpi",
+        "files": 125,
+        "bytes": 1079683
+      },
+      {
+        "path": "target.apk/res/drawable-mdpi",
+        "files": 45,
+        "bytes": 52521
+      },
+      {
+        "path": "target.apk/res/drawable-xxxhdpi",
+        "files": 25,
+        "bytes": 598925
+      },
+      {
+        "path": "target.apk/res/mipmap-xhdpi",
+        "files": 24,
+        "bytes": 294141
+      },
+      {
+        "path": "target.apk/assets/37wan_net/img",
+        "files": 7,
+        "bytes": 18418
+      },
+      {
+        "path": "target.apk/res/drawable-ldpi",
+        "files": 6,
+        "bytes": 1315
+      },
+      {
+        "path": "target.apk/res/mipmap-xxxhdpi",
+        "files": 5,
+        "bytes": 453783
+      },
+      {
+        "path": "target.apk/res/drawable",
+        "files": 4,
+        "bytes": 29812
+      }
+    ],
+    "notes": [
+      "`assets` 下有 4 个疑似引导/指引素材（按命名推断，非确证），可重点看这批文件的用途。",
+      "其中 680/691 个图片位于 `res/`（原生资源目录，含系统图标与第三方 SDK 素材），通常不代表游戏主美术；主美术更可能在 `assets/` 或 AssetBundle 内。",
+      "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。"
+    ]
+  },
+  "levelStatistics": {
+    "version": 1,
+    "coverage": "observed/local-only; game-wide coverage unknown",
+    "inputs": [],
+    "processed_records": 0,
+    "parsed_records": 0,
+    "unique_records": 0,
+    "duplicates": 0,
+    "conflicting_records": 0,
+    "conflict_occurrences": 0,
+    "failures": 0,
+    "missing_fields": {},
+    "scopes": [],
+    "issues": [],
+    "issues_omitted": 0,
+    "pending": [
+      "未发现支持的关卡记录；不能据此认定游戏没有关卡。",
+      "需要带证据的官方玩家关号、主线/活动 scope 与完整范围声明，才能验证顺序和困难关密度/连续段。"
+    ],
+    "partial": false,
+    "read_bytes": 0
+  },
+  "quality": {
+    "sectionsFilled": 7,
+    "sectionsTotal": 7,
+    "blockedCount": 6,
+    "evidenceCount": 218,
+    "score": 100
+  }
+}

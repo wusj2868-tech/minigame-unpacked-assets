@@ -1,0 +1,748 @@
+{
+  "game": {
+    "name": "无尽冬日 (Whiteout Survival)",
+    "package": "com.gof.global",
+    "version": "1.34.19",
+    "engine": "Unity (IL2CPP, 2022.3.62f1)",
+    "genre": "SLG / 城市建造 + 生存策略",
+    "publisher": "unknown（包内 SDK 标识 CenturyGame / DDSDK 8.3.0.0-GOF-1，疑为点点互动 Century Games，未找到版权行确认）",
+    "channel": "unknown（全球包 com.gof.global，XAPK 三 split；未见应用宝/B站/MSDK/YSDK 等渠道标识）"
+  },
+  "summary": "本包是《无尽冬日 / Whiteout Survival》1.34.19 的 XAPK 全球包，Unity 2022.3.62f1 + IL2CPP，拆为主包、arm64 原生库包、6264 个 AssetBundle 资源包。资源按 ui/scene/art/actor/atlas/spine/config 前缀组织，其中 36 个 config_*.unity3d 是数值/映射/语言表，但全部位于自定义加密的块数据里。本轮确认了 UnityFS 头部为大端、flags=0x243（非标准 Unity 加密位），并解出 1/480 个 bundle 与 assets/world 下的 2 个明文世界地图配置（1200×600 地块与区域矩形）。最大障碍是 bundle 块级自定义加密与 global-metadata.dat 的 HTPX 改头，导致配置表与 C# 结构都无法读取，因此关卡与数值只能给出结构性结论。",
+  "coreLoop": {
+    "summary": "靠“建造变强 → 出兵打世界地图 → 资源回流建造”的 SLG 循环把玩家留在长线建造与领土扩张里。",
+    "cycle": "建造/升级城内建筑 → 训练部队 → 派兵出征世界地图（1200×600 地块）→ 占领/采集获取资源 → 资源投入建造与科研 → 解锁更高等级区域与更强敌人",
+    "steps": [
+      {
+        "order": 1,
+        "name": "城内建造",
+        "action": "在基地城市内建造/升级生产、军事、科技类建筑",
+        "cost": "木材/煤/铁/食物等资源 + 建造队列时间",
+        "reward": "提高资源产出、解锁兵种与功能",
+        "gate": "建造队列数量与时长限制，资源产出速度封顶，付费可加速",
+        "files": [
+          "apk_data/__split__/game_asset.apk/assets/data/scene_city_furniture_city_inter_fur_dinning_table_05_5220b33032db7383c0847a8bfe728a9a.unity3d"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "训练部队",
+        "action": "消耗资源在兵营训练士兵，形成出征编队",
+        "cost": "资源 + 训练时间 + 兵营容量",
+        "reward": "可出征的部队战力",
+        "gate": "兵营等级、部队容量上限",
+        "files": [
+          "xapk/game_asset.apk!assets/data/actor_world_soldier_2djingjianconfig_624995867ed246a79fce5a2102e72bf5.unity3d"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "世界地图出征",
+        "action": "在世界地图上向目标地块行军、与野怪或其他玩家交战、采集资源点",
+        "cost": "部队（可能伤亡）+ 行军时间 + 行动力",
+        "reward": "资源、领土控制、活动积分",
+        "gate": "行动力/行军距离/领地等级限制；部队损失需重新训练",
+        "files": [
+          "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes",
+          "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "资源回流",
+        "action": "把出征与城内产出得到的资源重新投入建造、科研与练兵",
+        "cost": "资源",
+        "reward": "更高的产出与战力",
+        "gate": "仓储上限、资源保护量、被掠夺风险",
+        "files": [
+          "apk_data/__split__/game_asset.apk/assets/world/map_world_config_item_22744688f78a2829c93502b4d08efca0.bytes"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "解锁更高区域",
+        "action": "提升城市等级/战力后进入更高级地图区域与活动",
+        "cost": "时间 + 资源 + 前置建筑等级",
+        "reward": "更高等级资源点、更强敌人、活动奖励",
+        "gate": "区域等级门槛（setting 中可见 3 组区域矩形与 1200×1200 世界尺度）",
+        "files": [
+          "extracted/world/setting_parsed.json"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "基础资源（木/煤/铁/食物等）",
+        "income": "城内建筑产出 + 世界地图采集"
+      },
+      {
+        "name": "部队",
+        "income": "兵营训练"
+      },
+      {
+        "name": "建造/训练队列",
+        "income": "队列槽位（可用付费/道具扩展）"
+      }
+    ],
+    "loopMinutes": "单次操作 1~5 分钟；真实节奏由小时级建造队列、资源产出与部队训练时间决定",
+    "evidence": [
+      "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes（u32=1 + 1200×600 单字节地块网格，720000 B 整除）",
+      "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes（u32=1, u32=1200，含 3 组区域矩形 {552,648}/{450,750}/{300,900} 与世界边界 1200×1200）",
+      "xapk/game_asset.apk!assets/data/ 下 2709 个 ui_*、1859 个 scene_*、200 个 actor_* bundle 的存在，说明有完整的 UI/城市场景/世界单位资源体系",
+      "unity_export/text/*DDSDK_VERSION*.json（sdk_version=8.3.0.0-GOF-1）"
+    ],
+    "confidence": "low"
+  },
+  "monetization": {
+    "summary": "典型 SLG 付费模型：卖时间（建造/训练加速）、卖资源与部队、卖英雄与礼包，压力点来自建造队列与出征损失。",
+    "cycle": "建造/训练排队过长 或 出征部队损失 → 买加速/资源/部队礼包 → 立刻恢复战力与进度 → 进入更高等级区域 → 更高资源消耗与更强对手 → 更高档礼包",
+    "steps": [
+      {
+        "order": 1,
+        "name": "时间压力",
+        "action": "高等级建筑与训练耗时以小时计",
+        "cost": "等待时间",
+        "reward": "完成升级",
+        "gate": "免费加速有限，付费买加速道具/礼包"
+      },
+      {
+        "order": 2,
+        "name": "战力缺口",
+        "action": "世界地图战斗损失部队、需要快速补兵",
+        "cost": "资源与训练时间",
+        "reward": "恢复战力继续出征",
+        "gate": "资源不足时只能等待产出或购买"
+      },
+      {
+        "order": 3,
+        "name": "成长门槛",
+        "action": "进入更高等级区域需要战力/建筑等级",
+        "cost": "累计资源与时间",
+        "reward": "解锁新玩法与更强产出",
+        "gate": "门槛前形成付费转化点"
+      },
+      {
+        "order": 4,
+        "name": "活动与排行",
+        "action": "限时活动/联盟竞争推动短期冲分",
+        "cost": "资源、加速、英雄",
+        "reward": "排名奖励与专属外观",
+        "gate": "时间窗口有限，逼出冲动付费"
+      }
+    ],
+    "payPoints": [
+      {
+        "name": "建造/训练加速",
+        "price": "未解出（config_*.unity3d 加密，未见商店价格表）",
+        "trigger": "建造或训练队列时间过长",
+        "effect": "缩短计时/立即完成",
+        "config": "apk_data/__split__/game_asset.apk/assets/data/config_cache_config_a8c2a7e0668d917c029ca9599b3a2b63.unity3d（未能解密）"
+      },
+      {
+        "name": "资源/部队礼包",
+        "price": "未解出",
+        "trigger": "资源见底或部队损失",
+        "effect": "直接补充资源或兵力",
+        "config": "未定位（商店配置应在 config_* 或服务器下发）"
+      },
+      {
+        "name": "英雄获取/养成",
+        "price": "未解出",
+        "trigger": "英雄战力不足、活动需要特定英雄",
+        "effect": "获得/升星英雄",
+        "config": "entity: actor_*/art_* bundle 中存在英雄资源命名，但抽卡表未解出"
+      },
+      {
+        "name": "月卡/成长基金类订阅",
+        "price": "未解出",
+        "trigger": "长期留存玩家",
+        "effect": "每日返利资源/钻石",
+        "config": "未定位"
+      }
+    ],
+    "prices": "未解出。36 个 config_*.unity3d（含语言与商店相关表）全部因块数据自定义加密无法读取；主包 30 个 TextAsset 只有 DDSDK 版本 JSON，无价格。",
+    "evidence": [
+      "xapk/game_asset.apk!assets/data/config_*.unity3d（36 个，780,105 B，全部 LZ4 块解密失败）",
+      "extracted/bundle_decode_status.txt（失败样本与错误信息）",
+      "unity_export/text/3cdc2d82cad99a28820ced569de7794d__DDSDK_VERSION_738.json（仅 SDK 版本，无商品配置）"
+    ],
+    "confidence": "low"
+  },
+  "modules": [
+    {
+      "name": "世界地图与区域配置（World Map）",
+      "summary": "1200×600 的持久世界地图，由若干区域矩形划分等级带，另有物品分布与地形数据；是 SLG 出征与领土玩法的数据底座。",
+      "sourceFile": "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes",
+      "details": [
+        "setting 文件：u32=1、u32=1200（地图宽度格数），随后为一组 float 参数（3.0、320.0、1.0、70.0、0.8、1.3、2.088、2.524、1.762、2.306、2.524）与三组区域矩形 {552,648}、{450,750}、{300,900}，世界外边界 {0,1200}×{0,1200}。",
+        "mask 文件：u32=1 后紧跟 1200×600=720000 字节单字节网格，非零 222,356 格（约 30.9%），高频值 0x04/0x40/0x88/0x44/0x11，推断为地块类型/归属/通行标记，但**具体枚举未解**。",
+        "item 文件：u32=1、u32=118，后接 118 个 u32；偏移最大值 42035 超过文件长度 32942，说明记录基址或记录布局未解析正确，暂不引用具体值。",
+        "terrain 文件：头部 u32 1,1,1053299,257，526,125 B，疑为分块/RLE 地形，未解。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes",
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes",
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_item_22744688f78a2829c93502b4d08efca0.bytes",
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_terrain_022afc7e9347ef6b9917e4641f222f2d.bytes",
+        "extracted/world/setting_parsed.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "AssetBundle 资源与配置分发",
+      "summary": "全部游戏资源（UI、场景、角色、图集、Spine、特效、配置、Lua）以 6264 个 .unity3d 随包分发，文件名带类型前缀与 32 位哈希，另有 config_ab_mapping / config_atlas_mapping 维护依赖与图集映射。",
+      "sourceFile": "xapk/game_asset.apk",
+      "details": [
+        "前缀分布（全量 zip 列表统计）：ui 2709、scene 1859、art 1116、actor 200、atlas 183、spine 137、config 36、mat 10、scenes 4、default 3、toluaout 2、luapackage 2、unity/shader/3party 各 1，合计 6264。",
+        "命名规则 `<prefix>_<语义名>_<md5>.unity3d`，可从文件名读出功能，例如 ui_panel_knifehit_knifehitlevel_1..6（小游戏面板）、scene_city_furniture_*（城市家具）、actor_world_soldier_2djingjianconfig（士兵配置项）。",
+        "容器为 UnityFS，头部大端，flags=0x243（0x200 padding + 0x40 合并 blocks/dir + LZ4HC），非标准 Unity 加密位，属自定义保护。",
+        "luapackage_32/64 与 toluaout_32/64 各约 49 MB，说明业务逻辑脚本以 Lua(ToLua) 形式随包，且同样被加密。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "xapk/game_asset.apk!assets/data/（6264 个 .unity3d）",
+        "extracted/bundle_be_decoder.py（已验证的大端 UnityFS 容器解析）",
+        "extracted/bundle_decode_status.txt（480 个样本：1 OK / 479 FAIL）"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "渠道与登录支付 SDK（DDSDK）",
+      "summary": "主包 30 个 TextAsset 全部是 DDSDK 配置 JSON，涵盖版本、账户、广告、CDKey、合规、POD 信息等；该 SDK 是登录/支付/归因接入层，不是玩法模块。",
+      "sourceFile": "unity_export/text/3cdc2d82cad99a28820ced569de7794d__DDSDK_VERSION_738.json",
+      "details": [
+        "DDSDK_VERSION 中 sdk_version = 8.3.0.0-GOF-1，指向 CenturyGame / 点点互动的发行 SDK 体系。",
+        "其余 JSON：DDSDK_VERSION_ACCOUNT / AD_ANDROID / AD_IOS / CDKEY / COMPLIANCE_ANDROID / BOT，以及 DEFAULT_PODINFO_ANDROID/IOS（广告位与归因配置）。",
+        "这些 JSON 只包含 SDK 版本与渠道参数，**没有**游戏数值或商品价格。",
+        "未发现应用宝(com.tencent.tmgp)、B站、MSDK/YSDK 痕迹，因此渠道与发行商均应写 unknown，不能混用。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "unity_export/text/3cdc2d82cad99a28820ced569de7794d__DDSDK_VERSION_738.json",
+        "unity_export/text/3cdc2d82cad99a28820ced569de7794d__DDSDK_DEFAULT_PODINFO_ANDROID_1502.json",
+        "unity_export/index.md（TextAsset 30 个）"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "资源保护与加密层",
+      "summary": "包内存在两层自定义保护：IL2CPP global-metadata.dat 被改为 HTPX 头，AssetBundle 块数据在 LZ4 之前另有一层变换；另链接 libNetHTProtect.so 做网络侧保护。",
+      "sourceFile": "cpp2il/global-metadata.raw",
+      "details": [
+        "global-metadata.raw 头部 48 54 50 58 = 'HTPX'，标准应为 af 1b b1 fa；9.8 MB、熵 7.87。",
+        "libil2cpp.so（57.9 MB）与 libunity.so（20 MB）熵均为 7.99，字符串极少；libNetHTProtect.so 含 CRC32 表与 AES-128/192/256-ECB/CBC 字符串（后者更像 TLS/网络层）。",
+        "bundle 块数据：同一容器解析下 1 个样本为明文 LZ4 可读，479 个在 LZ4 解码时于 ~48 B 后 `bad offset` → 判定为 per-block 数据加密，非压缩参数错误。",
+        "未找到可用于验证的 key；crypto_report 中的候选均未采信为结论。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "cpp2il/FAILED.txt",
+        "cpp2il/global-metadata.raw（头 48545058 = HTPX）",
+        "crypto_report.md（算法指纹：CRC32 table、MD5 init；高熵文件）",
+        "extracted/bundle_decode_status.txt（479/480 块解码失败）"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "世界地图全局设置表（map_world_config_setting）",
+      "summary": "定义世界地图尺度与区域划分的参数表，248 字节，明文未加密。",
+      "sourceFile": "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes",
+      "details": null,
+      "fields": [
+        {
+          "name": "header[0]",
+          "type": "uint32",
+          "sample": "1",
+          "meaning": "版本或条目数（推断）"
+        },
+        {
+          "name": "header[1]",
+          "type": "uint32",
+          "sample": "1200",
+          "meaning": "世界地图宽度格数（与 mask 的 1200 列一致）"
+        },
+        {
+          "name": "f0..f5",
+          "type": "float32",
+          "sample": "3.0, 320.0, 1.0, 70.0, 0.8, 1.3",
+          "meaning": "世界/缩放/密度类参数，具体语义未确认"
+        },
+        {
+          "name": "f6..f10",
+          "type": "float32",
+          "sample": "2.088328, 2.523659, 1.76183, 2.305994, 2.523659",
+          "meaning": "区域倍率类参数，语义未确认"
+        },
+        {
+          "name": "region_rects",
+          "type": "float32[4][4]",
+          "sample": "{552,648}, {450,750}, {300,900}, {1200,1200}",
+          "meaning": "三组内层区域边界 + 世界外边界（x0,y0,x1,y1）"
+        },
+        {
+          "name": "f52..f53",
+          "type": "float32",
+          "sample": "13.40694, 37.350159",
+          "meaning": "疑似经纬度/坐标原点，未确认"
+        }
+      ],
+      "samples": [
+        "{\"header\":[1,1200],\"floats\":{\"0\":3.0,\"1\":320.0,\"2\":1.0,\"3\":70.0,\"4\":0.8,\"5\":1.3,\"6\":2.088328,\"7\":2.523659,\"13\":552.0,\"14\":648.0,\"18\":450.0,\"19\":750.0,\"23\":300.0,\"24\":900.0,\"29\":1200.0,\"31\":1200.0,\"52\":13.40694,\"53\":37.350159}}"
+      ],
+      "evidence": [
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes（248 B，逐字节解析）",
+        "extracted/world/setting_parsed.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "世界地图地块掩码（map_world_config_mask）",
+      "summary": "1200×600 的单字节地块网格，描述世界地图每一格的状态/类型，是关卡（区域）与地形玩法的核心数据。",
+      "sourceFile": "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes",
+      "details": null,
+      "fields": [
+        {
+          "name": "header",
+          "type": "uint32",
+          "sample": "1",
+          "meaning": "版本/条目数"
+        },
+        {
+          "name": "cells",
+          "type": "uint8[720000]",
+          "sample": "0x00 占 497640 格；0x04 占 48902 格；0x40 占 48281 格",
+          "meaning": "每格一字节的地块状态位/类型位（枚举未解）"
+        }
+      ],
+      "samples": [
+        "{\"grid\":\"1200x600\",\"bytes\":720000,\"nonzero\":222356,\"top_bytes\":{\"0x00\":497640,\"0x04\":48902,\"0x40\":48281,\"0x88\":32266,\"0x44\":30579,\"0x11\":28342}}"
+      ],
+      "evidence": [
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes（720,004 B = 4 + 1200×600，整除验证）"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "levels": [
+    {
+      "name": "世界地图区域配置（非章节关卡）",
+      "summary": "本地唯一能解析的“关卡类”数据是世界地图：1200×1200 世界尺度、1200×600 地块网格与 3 组内层区域矩形。未发现章节/关卡/波次表。",
+      "sourceFile": "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes",
+      "details": [
+        "区域矩形（x0,y0,x1,y1）：{552,648}、{450,750}、{300,900}，外边界 {0,1200}×{0,1200} —— 呈现“中心向外逐级扩大”的区域分层结构。",
+        "地块网格 1200×600，非零格 222,356，最大单值占比 0x00（空地/不可用，推断）。",
+        "item 文件声明 118 条记录（u32=1, u32=118），但偏移超出文件长度，记录布局未解，无法给出物品点坐标。",
+        "terrain 文件 526,125 B 未解；未能确认地形图与网格的对应关系。",
+        "**本轮没有解析到任何章节/关卡/波次/怪物编队配置**；config_*.unity3d 全部加密，`level_data/records.jsonl` 保持为空（0 行），不代表游戏没有关卡。"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"world_size\":[1200,1200],\"grid\":[1200,600],\"regions\":[[552,648],[450,750],[300,900]],\"outer\":[[0,1200],[0,1200]]}",
+        "{\"header\":[1,118],\"item_offsets\":\"118 x u32, min=201 max=42035(超出文件长度 32942，布局未解)\"}"
+      ],
+      "evidence": [
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_setting_29d541c1d26eff676e2d02b24932a7d7.bytes",
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_mask_6d8d1979ff02460f3df6faf566a7a01c.bytes",
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_item_22744688f78a2829c93502b4d08efca0.bytes",
+        "apk_data/__split__/game_asset.apk/assets/world/map_world_config_terrain_022afc7e9347ef6b9917e4641f222f2d.bytes",
+        "level_data/records.jsonl（0 行，未发现可解析的真实关卡记录）"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "artAssets": [
+    {
+      "name": "AssetBundle 资源组织（UI / 场景 / 角色 / 图集 / Spine / 特效）",
+      "summary": "6264 个 .unity3d 全部集中在 assets/data/，用类型前缀 + 语义名 + 32 位哈希命名，加载侧应有 config_ab_mapping / config_atlas_mapping 维护依赖与图集。",
+      "sourceFile": "xapk/game_asset.apk",
+      "details": [
+        "前缀规模（全量统计）：ui 2709、scene 1859、art 1116、actor 200、atlas 183、spine 137、config 36、mat 10、scenes 4、default 3、toluaout 2、luapackage 2，其余 unity/shader/3party 各 1。",
+        "UI 侧命名可读出玩法：ui_panel_knifehit_knifehitlevel_1..6（小游戏关卡面板），说明包内含多个轻量小游戏。",
+        "场景/城市侧以 scene_city_furniture_* 命名，家具级粒度；角色/单位以 actor_* 与 art_actorrig_3d_<npc|expert>_<name>_config_depend_* 命名，命名中直接带 NPC/专家名（如 cyril、justus）。",
+        "所有 bundle 共用同一自定义保护：容器可解析，块数据大部分被额外加密；1 个家具场景 bundle 完全明文可读（见 samples）。",
+        "可复用度：命名规范、前缀清晰，若能解开块加密，图集/家具/NPC 资源可按前缀批量归类复用；当前只能确认“存在什么”，无法批量提取贴图规格。"
+      ],
+      "fields": null,
+      "samples": [
+        "xapk/game_asset.apk!assets/data/scene_city_furniture_city_inter_fur_dinning_table_05_5220b33032db7383c0847a8bfe728a9a.unity3d（明文：25 GameObject / 25 Transform / 15 MonoBehaviour / 13 MeshFilter / 13 MeshRenderer）",
+        "xapk/game_asset.apk!assets/data/ui_panel_knifehit_knifehitlevel_3_a054a25cc5616832e08a543920649bcd.unity3d",
+        "xapk/game_asset.apk!assets/data/art_actorrig_3d_expert_cyril_config_depend_a38ed033cd6645b4d00453ca315e46b4.unity3d"
+      ],
+      "evidence": [
+        "xapk/game_asset.apk!assets/data/（zip 列表统计）",
+        "extracted/bundle_decode_status.txt",
+        "unity_export/index.md"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "原生 UI 图标与通用图片（res/drawable、mipmap）",
+      "summary": "主包 res 下有 104 个图标/Logo 与 241 张通用 PNG，另有 35 张 9-patch 背景；这些是 Android 原生资源，与 Unity bundle 内 UI 是两套体系。",
+      "sourceFile": "xapk/com.gof.global.apk",
+      "details": [
+        "普查已给出：图标/Logo 104 个 / 1.0 MB，贴图 241 个 / 0.2 MB，场景类 9-patch 35 个，立绘 1 个（Facebook 默认头像），音频 1 个 beep.ogg。",
+        "集中目录为 res/drawable-xxhdpi-v4(82)、-xhdpi-v4(77)、-hdpi-v4(74)、-mdpi-v4(74)、-xxxhdpi-v4(24)、-ldpi-v4(11)，呈标准 Android 密度分档。",
+        "这些文件未加密，可直接取用；但多为启动图标、SDK 弹窗与系统级占位图，不是游戏主美术。",
+        "音频仅 1 个 beep.ogg，说明语音/音效不在主包，应在 AssetBundle（37 个 .acb / 3 个 .awb 提示使用 CriWare ADX2）。"
+      ],
+      "fields": null,
+      "samples": [
+        "xapk/com.gof.global.apk!assets/frame_for_crowna812_3e9.png",
+        "xapk/com.gof.global.apk!res/drawable/capture_back.png",
+        "xapk/com.gof.global.apk!res/raw/beep.ogg"
+      ],
+      "evidence": [
+        "art_inventory.json（本地确定性普查）",
+        "xapk/com.gof.global.apk!res/drawable-*",
+        "preinspect.md（文件类型分布：.acb×37、.awb×3）"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "音频容器（CriWare ADX2）",
+      "summary": "包内有 37 个 .acb 与 3 个 .awb，属于 CriWare ADX2 音频中间件的打包格式；它们是加密/压缩容器，本轮未展开。",
+      "sourceFile": "xapk/com.gof.global.apk",
+      "details": [
+        "preinspect 文件类型分布显示 .acb×37、.awb×3；.awb 是波形归档，.acb 是 cue sheet/提示表。",
+        "说明 BGM/音效/语音走 ADX2 而不是 Unity AudioClip，需 CriWare 工具或自研解析才能取音频。",
+        "本轮未做音频提取，不代表音频缺失。"
+      ],
+      "fields": null,
+      "samples": [
+        "xapk/com.gof.global.apk!*.acb（37 个）",
+        "xapk/com.gof.global.apk!*.awb（3 个）"
+      ],
+      "evidence": [
+        "preinspect.md（文件类型分布表）",
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "artGuidance": {
+    "found": false,
+    "kind": "unknown",
+    "summary": "本轮未取得任何新手引导/强制引导配置或引导 UI 资源证据；引导逻辑很可能在未解密的 Lua/配置 bundle 中。",
+    "evidence": [
+      "xapk/game_asset.apk!assets/data/ui_*（2709 个 UI bundle，全部块加密，无法定位引导面板）",
+      "xapk/game_asset.apk!assets/data/config_*.unity3d（36 个配置 bundle 全部解密失败）"
+    ],
+    "confidence": "low"
+  },
+  "encryption": {
+    "findings": [
+      "UnityFS 头部字段为大端；flags=0x243（0x200 blocksInfo 前置 padding + 0x40 合并 blocks/dir + 0x3 LZ4HC），不含标准 Unity 加密位 0x1400 → 自定义保护。",
+      "blocksInfo 解压后有 16 字节零前缀，随后是 BE 块表与节点表；已用 1 个成功样本与容器长度/对齐关系验证。",
+      "块数据层存在额外变换：480 个样本中 479 个在 LZ4 解码约 48 B 后报 bad offset，属 per-block 加密而非压缩参数错误。",
+      "global-metadata.dat 被改为 'HTPX' 头（正常 af 1b b1 fa），9.8 MB / 熵 7.87，Cpp2IL 失败，无法恢复 C# 类结构。",
+      "libil2cpp.so(57.9 MB) 与 libunity.so(20 MB) 熵均 7.99、字符串稀少；libNetHTProtect.so 链接 CRC32 表并含 AES-ECB/CBC 字符串（更像 TLS/网络层）。",
+      "config_*.unity3d 共 36 个（780,105 B）全部失败；luapackage_32/64、toluaout_32/64（各约 49 MB）同样失败。"
+    ],
+    "decrypted": [
+      "assets/world/map_world_config_setting_*.bytes（248 B，明文，已结构化解析 → extracted/world/setting_parsed.json）",
+      "assets/world/map_world_config_mask_*.bytes（720,004 B，明文 1200×600 地块网格，已统计分布）",
+      "scene_city_furniture_city_inter_fur_dinning_table_05_*.unity3d（唯一成功 bundle：block0 21400 B 明文 LZ4，UnityPy 可读，落盘 extracted/ok_bundle_block0.bin）",
+      "主包 assets/bin/Data 下 120 个 SerializedFile（未加密，UnityPy 直读，含 30 个 DDSDK TextAsset 与 46 个 MonoBehaviour 字段树）"
+    ],
+    "blocked": [
+      "其余 479/480 个 bundle 的块数据（含全部 36 个 config_*.unity3d 与 luapackage/toluaout Lua 包）：LZ4 前置变换未解，缺 key/算法。",
+      "global-metadata.dat 的 HTPX 加密/改头：未能还原，Cpp2IL 无 DiffableCs/isil。",
+      "map_world_config_item_*.bytes：118 条 u32 偏移布局未解（偏移超出文件长度）。",
+      "map_world_config_terrain_*.bytes：526,125 B 分块/RLE 地形未解。",
+      "libunity.so 未导入 Ghidra（仅导入了 libil2cpp.so），而 UnityFS 解压/解密逻辑通常在 libunity。",
+      "Ghidra 对 libil2cpp.so 的函数名恢复质量差（返回 .note.gnu.proc::* 伪名），本轮无有效反编译产出。"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "level_stats.json",
+      "note": "本地已解析关卡的全量统计与缺失项"
+    },
+    {
+      "path": "level_stats.md",
+      "note": "关卡分布与顺序映射的验收摘要"
+    },
+    {
+      "path": "extracted/bundle_be_decoder.py",
+      "note": "已验证的大端 UnityFS 容器解析器（blocksInfo 16B 零前缀 + BE 块表/节点表），可续跑"
+    },
+    {
+      "path": "extracted/bundle_decode_status.txt",
+      "note": "480 个 bundle 的 OK/FAIL 清单与错误信息（可作下一轮断点）"
+    },
+    {
+      "path": "extracted/ok_bundle_block0.bin",
+      "note": "唯一成功解出的 21400 B 明文 LZ4 块"
+    },
+    {
+      "path": "extracted/world/setting_parsed.json",
+      "note": "世界地图 setting 逐字段解析结果"
+    },
+    {
+      "path": "unity_export/index.md",
+      "note": "Unity 资源导出清单（1 个散文件布局 + 6264 个 pending bundle）"
+    },
+    {
+      "path": "level_data/records.jsonl",
+      "note": "关卡记录文件，本轮 0 行（未发现可解析的真实关卡记录，不伪造）"
+    },
+    {
+      "path": "analysis_notes.md",
+      "note": "跨轮次进度笔记：已确认事实、卡点、失败尝试、下一步"
+    }
+  ],
+  "limitations": [
+    "36 个 config_*.unity3d（数值表、语言表、AB 映射、活动配置）全部因块数据加密无法读取，因此没有属性表/成长曲线/掉落/商店定价等真实数值。",
+    "global-metadata.dat 被 HTPX 改头，Cpp2IL 无法产出类结构；没有类名/方法签名级证据，模块逻辑只能从资源命名与明文数据结构推断。",
+    "libunity.so 尚未导入 Ghidra，bundle 块加密算法与 key 未定位；仅确认了容器格式与失败特征。",
+    "未发现任何章节/关卡/波次/怪物编队配置；level_data/records.jsonl 为空，不代表游戏没有关卡或没有主线。",
+    "世界地图 item 与 terrain 两个明文文件布局未解，无法给出资源点/地形语义。",
+    "发行商与渠道均未能从版权行/渠道配置确认，仅由 SDK 标识推断为 CenturyGame 体系，未写入发行商字段作为定论。",
+    "美术数量/体积以给定普查为准，未展开 bundle 内部贴图，无法给出分辨率/图集规格档位。",
+    "Ghidra 只导入了 libil2cpp.so 且函数名恢复失败，本轮没有可用的原生代码级结论。"
+  ],
+  "generatedAt": "2026-11-19T16:35:04.648636312+08:00",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "artInventory": {
+    "generatedAt": "2026-11-19T15:54:01.298492514+08:00",
+    "scanVersion": 3,
+    "sha256": "95f0d8e23b7e5dfd1f539d56409418124b30347953811c84e0a02df5b4daa3cc",
+    "archives": [
+      "xapk/com.gof.global.apk",
+      "xapk/game_asset.apk",
+      "xapk/config.arm64_v8a.apk"
+    ],
+    "totalFiles": 6658,
+    "totalBytes": 814161178,
+    "bundleFiles": 6268,
+    "bundleBytes": 812859758,
+    "categories": [
+      {
+        "key": "bundle",
+        "label": "AssetBundle（未展开）",
+        "files": 6268,
+        "bytes": 812859758,
+        "exts": [
+          {
+            "ext": ".unity3d",
+            "files": 6264,
+            "bytes": 812705128
+          },
+          {
+            "ext": ".assets",
+            "files": 4,
+            "bytes": 154630
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/assets/bin/Data/globalgamemanagers.assets",
+          "xapk/com.gof.global.apk/assets/bin/Data/sharedassets0.assets",
+          "xapk/com.gof.global.apk/assets/bin/Data/sharedassets1.assets"
+        ]
+      },
+      {
+        "key": "ui_icon",
+        "label": "图标 / Logo / UI",
+        "files": 104,
+        "bytes": 1005979,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 104,
+            "bytes": 1005979
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/assets/frame_for_crowna812_3e9.png",
+          "xapk/com.gof.global.apk/assets/frame_for_snow_show_ef3.png",
+          "xapk/com.gof.global.apk/res/drawable/dd_custom_icon.png"
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "贴图 / 其它图片",
+        "files": 241,
+        "bytes": 258029,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 241,
+            "bytes": 258029
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/res/drawable/capture_back.png",
+          "xapk/com.gof.global.apk/res/drawable/scan_scanline_wc.png",
+          "xapk/com.gof.global.apk/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+        ]
+      },
+      {
+        "key": "scene",
+        "label": "场景 / 地图",
+        "files": 35,
+        "bytes": 29242,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 35,
+            "bytes": 29242
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+          "xapk/com.gof.global.apk/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
+          "xapk/com.gof.global.apk/res/drawable-hdpi-v4/com_facebook_tooltip_black_background.9.png"
+        ]
+      },
+      {
+        "key": "audio",
+        "label": "音频",
+        "files": 1,
+        "bytes": 5543,
+        "exts": [
+          {
+            "ext": ".ogg",
+            "files": 1,
+            "bytes": 5543
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/res/raw/beep.ogg"
+        ]
+      },
+      {
+        "key": "character",
+        "label": "立绘 / 角色",
+        "files": 1,
+        "bytes": 1553,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 1,
+            "bytes": 1553
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/res/drawable-mdpi-v4/com_facebook_profile_picture_blank_portrait.png"
+        ]
+      },
+      {
+        "key": "vfx",
+        "label": "特效",
+        "files": 8,
+        "bytes": 1074,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 8,
+            "bytes": 1074
+          }
+        ],
+        "samples": [
+          "xapk/com.gof.global.apk/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
+          "xapk/com.gof.global.apk/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+          "xapk/com.gof.global.apk/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+        ]
+      }
+    ],
+    "topDirs": [
+      {
+        "path": "xapk/game_asset.apk/assets/data",
+        "files": 6264,
+        "bytes": 812705128
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable-xxhdpi-v4",
+        "files": 82,
+        "bytes": 83966
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable-xhdpi-v4",
+        "files": 77,
+        "bytes": 49857
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable-hdpi-v4",
+        "files": 74,
+        "bytes": 37570
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable-mdpi-v4",
+        "files": 74,
+        "bytes": 28867
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable-xxxhdpi-v4",
+        "files": 24,
+        "bytes": 28630
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable-ldpi-v4",
+        "files": 11,
+        "bytes": 4472
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/drawable",
+        "files": 5,
+        "bytes": 195381
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/mipmap-xxxhdpi-v4",
+        "files": 4,
+        "bytes": 329251
+      },
+      {
+        "path": "xapk/com.gof.global.apk/res/mipmap-xxhdpi-v4",
+        "files": 4,
+        "bytes": 199618
+      }
+    ],
+    "notes": [
+      "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。",
+      "其中 6268 个 AssetBundle（775.2 MB）只统计到容器本身；贴图/图集要展开 bundle 才能看到，需在分析轮里拆。"
+    ]
+  },
+  "levelStatistics": {
+    "version": 1,
+    "coverage": "observed/local-only; game-wide coverage unknown",
+    "inputs": [
+      {
+        "path": "level_data/records.jsonl",
+        "schema": "normalized/v1",
+        "records": 0,
+        "failures": 0,
+        "status": "selected"
+      }
+    ],
+    "processed_records": 0,
+    "parsed_records": 0,
+    "unique_records": 0,
+    "duplicates": 0,
+    "conflicting_records": 0,
+    "conflict_occurrences": 0,
+    "failures": 0,
+    "missing_fields": {},
+    "scopes": [],
+    "issues": [],
+    "issues_omitted": 0,
+    "pending": [
+      "需要带证据的官方玩家关号、主线/活动 scope 与完整范围声明，才能验证顺序和困难关密度/连续段。"
+    ],
+    "partial": false,
+    "read_bytes": 0
+  },
+  "quality": {
+    "sectionsFilled": 6,
+    "sectionsTotal": 7,
+    "blockedCount": 6,
+    "evidenceCount": 38,
+    "score": 88
+  }
+}

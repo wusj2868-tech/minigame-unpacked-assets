@@ -1,0 +1,13694 @@
+[
+{
+"id": 10100,
+"category": 10100,
+"desc": "资源产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10102,
+"category": 10100,
+"desc": "粮食产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10103,
+"category": 10100,
+"desc": "净水产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10104,
+"category": 10100,
+"desc": "石油产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10105,
+"category": 10100,
+"desc": "电产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10106,
+"category": 10100,
+"desc": "钢材产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10107,
+"category": 10100,
+"desc": "稀土产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 15000,
+"category": 15000,
+"desc": "金币产量%",
+"type": 1,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10200,
+"category": 10200,
+"desc": "资源产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10202,
+"category": 10200,
+"desc": "粮食产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10203,
+"category": 10200,
+"desc": "净水产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10204,
+"category": 10200,
+"desc": "石油产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10205,
+"category": 10200,
+"desc": "电力产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10206,
+"category": 10200,
+"desc": "钢铁产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10207,
+"category": 10200,
+"desc": "稀土产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10208,
+"category": 10200,
+"desc": "金币产量（数值）_资源建筑_数值",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10300,
+"category": 10300,
+"desc": "资源采集速度加成%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10301,
+"category": 10300,
+"desc": "钻石采集速度加成%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10302,
+"category": 10300,
+"desc": "粮食采集速度加成%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10304,
+"category": 10300,
+"desc": "石油采集速度加成%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10306,
+"category": 10300,
+"desc": "钢材采集速度加成%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10307,
+"category": 10300,
+"desc": "稀土采集速度加成%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10400,
+"category": 10400,
+"desc": "造兵时间百分比减少%",
+"type": 1,
+"group": [
+17
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10401,
+"category": 10400,
+"desc": "造兵时间百分比减少-近卫蚁%",
+"type": 1,
+"group": [
+17
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10402,
+"category": 10400,
+"desc": "造兵时间百分比减少-射手蚁%",
+"type": 1,
+"group": [
+17
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10403,
+"category": 10400,
+"desc": "造兵时间百分比减少-运输蚁%",
+"type": 1,
+"group": [
+17
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10500,
+"category": 10500,
+"desc": "所有行军速度%",
+"type": 1,
+"group": [
+24
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10501,
+"category": 10500,
+"desc": "行军速度-侦察%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10502,
+"category": 10500,
+"desc": "行军速度-攻击城市%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10503,
+"category": 10500,
+"desc": "行军速度-采集%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10504,
+"category": 10500,
+"desc": "行军速度-攻击野怪%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10505,
+"category": 10500,
+"desc": "行军速度-返回%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10506,
+"category": 10500,
+"desc": "集结军速度增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10507,
+"category": 10500,
+"desc": "援军行军速度%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10600,
+"category": 10600,
+"desc": "造兵数量增加-全部兵种_数值",
+"type": 1,
+"group": [
+16
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10601,
+"category": 10600,
+"desc": "造兵数量增加-近卫蚁_数值",
+"type": 1,
+"group": [
+16
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10602,
+"category": 10600,
+"desc": "造兵数量增加-射手蚁_数值",
+"type": 1,
+"group": [
+16
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10603,
+"category": 10600,
+"desc": "造兵数量增加-运输蚁_数值",
+"type": 1,
+"group": [
+16
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 10700,
+"category": 10700,
+"desc": "工程车速度"
+},
+{
+"id": 11000,
+"category": 11000,
+"desc": "行军速度百分比减少（可叠加）%",
+"type": 2,
+"group": [
+24
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17800,
+"category": 17800,
+"desc": "行军速度百分比减少（不叠加-飞弹使用）%",
+"type": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 10800,
+"category": 10800,
+"desc": "向该玩家行军（进攻）的部队，行军速度百分比减少%",
+"type": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 11100,
+"category": 11100,
+"desc": "攻城伤害_加成%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 11200,
+"category": 11200,
+"desc": "攻城受到伤害_减少%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 11300,
+"category": 11300,
+"desc": "守城伤害_加成%",
+"type": 3,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 11400,
+"category": 11400,
+"desc": "守城受到伤害_减少%",
+"type": 3,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 11501,
+"category": 11500,
+"desc": "攻击1到5级生化人时，所有单位攻击提升%",
+"type": 3,
+"group": [
+19
+],
+"attribute_type": 804,
+"value_type": 2
+},
+{
+"id": 11502,
+"category": 11500,
+"desc": "攻击6到10级生化人时，所有单位攻击提升%",
+"type": 3,
+"group": [
+19
+],
+"attribute_type": 804,
+"value_type": 2
+},
+{
+"id": 11503,
+"category": 11500,
+"desc": "攻击11到15级生化人时，所有单位攻击提升%",
+"type": 3,
+"group": [
+19
+],
+"attribute_type": 804,
+"value_type": 2
+},
+{
+"id": 11510,
+"category": 11500,
+"desc": "攻击1到5级生化人时，所有单位防御提升%",
+"type": 3,
+"group": [
+20
+],
+"attribute_type": 805,
+"value_type": 2
+},
+{
+"id": 11511,
+"category": 11500,
+"desc": "攻击6到10级生化人时，所有单位防御提升%",
+"type": 3,
+"group": [
+20
+],
+"attribute_type": 805,
+"value_type": 2
+},
+{
+"id": 11512,
+"category": 11500,
+"desc": "攻击11到15级生化人时，所有单位防御提升%",
+"type": 3,
+"group": [
+20
+],
+"attribute_type": 805,
+"value_type": 2
+},
+{
+"id": 11500,
+"category": 11500,
+"desc": "战胜生化人后，有几率获得勇气勋章_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 11521,
+"category": 11500,
+"desc": "战胜生化人后，获得资源数量增加_百分比%",
+"type": 1,
+"group": [
+22
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 11522,
+"category": 11500,
+"desc": "战胜生化人后，获得英雄经验增加_百分比%",
+"type": 1,
+"group": [
+21
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 11530,
+"category": 11500,
+"desc": "攻击生化人时，重伤比例降低%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 11600,
+"category": 11600,
+"desc": "组队和援助攻击方攻击加成%",
+"type": 3,
+"attribute_type": 804,
+"scope": 6,
+"value_type": 2
+},
+{
+"id": 11700,
+"category": 11700,
+"desc": "组队和援助防御方防御加成%",
+"type": 3,
+"scope": 6,
+"value_type": 2
+},
+{
+"id": 11800,
+"category": 11800,
+"desc": "兵种攻击百分比增加_所有兵种%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11801,
+"category": 11800,
+"desc": "兵种攻击百分比增加_近卫蚁%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11802,
+"category": 11800,
+"desc": "兵种攻击百分比增加_射手蚁%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11803,
+"category": 11800,
+"desc": "兵种攻击百分比增加_运输蚁%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11900,
+"category": 11900,
+"desc": "兵种防御百分比增加_所有兵种%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11901,
+"category": 11900,
+"desc": "兵种防御百分比增加_近卫蚁%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11902,
+"category": 11900,
+"desc": "兵种防御百分比增加_射手蚁%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11903,
+"category": 11900,
+"desc": "兵种防御百分比增加_运输蚁%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12000,
+"category": 12000,
+"desc": "兵种生命百分比增加_所有兵种%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12001,
+"category": 12000,
+"desc": "兵种生命百分比增加_近卫蚁%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12002,
+"category": 12000,
+"desc": "兵种生命百分比增加_射手蚁%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12003,
+"category": 12000,
+"desc": "兵种生命百分比增加_运输蚁%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12100,
+"category": 12100,
+"desc": "兵种伤害_（对敌方）增加_所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12101,
+"category": 12100,
+"desc": "兵种伤害_增加_近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12102,
+"category": 12100,
+"desc": "兵种伤害_增加_射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12103,
+"category": 12100,
+"desc": "兵种伤害_增加_运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12200,
+"category": 12200,
+"desc": "受到敌方兵种伤害_减少_所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12201,
+"category": 12200,
+"desc": "受到该兵种伤害_减少_近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12202,
+"category": 12200,
+"desc": "受到该兵种伤害_减少_射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12203,
+"category": 12200,
+"desc": "受到该兵种伤害_减少_运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12301,
+"category": 12300,
+"desc": "近卫蚁承受伤害_百分比减少%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12302,
+"category": 12300,
+"desc": "射手蚁承受伤害_百分比减少%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12303,
+"category": 12300,
+"desc": "运输蚁承受伤害_百分比减少%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12400,
+"category": 12400,
+"desc": "兵种命中_所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12401,
+"category": 12400,
+"desc": "兵种命中_近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12402,
+"category": 12400,
+"desc": "兵种命中_射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12403,
+"category": 12400,
+"desc": "兵种命中_运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12500,
+"category": 12500,
+"desc": "兵种闪避_所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12501,
+"category": 12500,
+"desc": "兵种闪避_近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12502,
+"category": 12500,
+"desc": "兵种闪避_射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12503,
+"category": 12500,
+"desc": "兵种闪避_运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12600,
+"category": 12600,
+"desc": "兵种暴击几率_所有兵种%",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12601,
+"category": 12600,
+"desc": "兵种暴击几率_近卫蚁%",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12602,
+"category": 12600,
+"desc": "兵种暴击几率_射手蚁%",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12603,
+"category": 12600,
+"desc": "兵种暴击几率_运输蚁%",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12700,
+"category": 12700,
+"desc": "兵种防暴几率_所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12701,
+"category": 12700,
+"desc": "兵种防暴几率_近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12702,
+"category": 12700,
+"desc": "兵种防暴几率_射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12703,
+"category": 12700,
+"desc": "兵种防暴几率_运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12800,
+"category": 12800,
+"desc": "兵种暴击伤害__所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12801,
+"category": 12800,
+"desc": "兵种暴击伤害__近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12802,
+"category": 12800,
+"desc": "兵种暴击伤害__射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12803,
+"category": 12800,
+"desc": "兵种暴击伤害__运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12900,
+"category": 12900,
+"desc": "兵种受到暴击伤害_减少_所有兵种%",
+"type": 3,
+"group": [
+50
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12901,
+"category": 12900,
+"desc": "兵种受到暴击伤害_减少_近卫蚁%",
+"type": 3,
+"group": [
+50
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12902,
+"category": 12900,
+"desc": "兵种受到暴击伤害_减少_射手蚁%",
+"type": 3,
+"group": [
+50
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12903,
+"category": 12900,
+"desc": "兵种受到暴击伤害_减少_运输蚁%",
+"type": 3,
+"group": [
+50
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13000,
+"category": 13000,
+"desc": "攻城攻击增加_所有兵种%",
+"type": 3,
+"group": [
+41
+],
+"attribute_type": 804,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13001,
+"category": 13000,
+"desc": "攻城攻击增加_近卫蚁%",
+"type": 3,
+"group": [
+41
+],
+"attribute_type": 804,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13002,
+"category": 13000,
+"desc": "攻城攻击增加_射手蚁%",
+"type": 3,
+"group": [
+41
+],
+"attribute_type": 804,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13003,
+"category": 13000,
+"desc": "攻城攻击增加_运输蚁%",
+"type": 3,
+"group": [
+41
+],
+"attribute_type": 804,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13100,
+"category": 13100,
+"desc": "攻城防御增加_所有兵种%",
+"type": 3,
+"attribute_type": 805,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13101,
+"category": 13100,
+"desc": "攻城防御增加_近卫蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13102,
+"category": 13100,
+"desc": "攻城防御增加_射手蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13103,
+"category": 13100,
+"desc": "攻城防御增加_运输蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 13200,
+"category": 13200,
+"desc": "守城攻击增加_所有兵种%",
+"type": 3,
+"group": [
+42
+],
+"attribute_type": 804,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13201,
+"category": 13200,
+"desc": "守城攻击增加_近卫蚁%",
+"type": 3,
+"group": [
+42
+],
+"attribute_type": 804,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13202,
+"category": 13200,
+"desc": "守城攻击增加_射手蚁%",
+"type": 3,
+"group": [
+42
+],
+"attribute_type": 804,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13203,
+"category": 13200,
+"desc": "守城攻击增加_运输蚁%",
+"type": 3,
+"group": [
+42
+],
+"attribute_type": 804,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13300,
+"category": 13300,
+"desc": "守城防御增加_所有兵种%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13301,
+"category": 13300,
+"desc": "守城防御增加_近卫蚁%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13302,
+"category": 13300,
+"desc": "守城防御增加_射手蚁%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13303,
+"category": 13300,
+"desc": "守城防御增加_运输蚁%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 13400,
+"category": 13400,
+"desc": "矿战攻击增加_所有兵种%",
+"type": 3,
+"attribute_type": 804,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13401,
+"category": 13400,
+"desc": "矿战攻击增加_近卫蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13402,
+"category": 13400,
+"desc": "矿战攻击增加_射手蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13403,
+"category": 13400,
+"desc": "矿战攻击增加_运输蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13500,
+"category": 13500,
+"desc": "矿战防御增加_所有兵种%",
+"type": 3,
+"attribute_type": 805,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13501,
+"category": 13500,
+"desc": "矿战防御增加_近卫蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13502,
+"category": 13500,
+"desc": "矿战防御增加_射手蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13503,
+"category": 13500,
+"desc": "矿战防御增加_运输蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 13600,
+"category": 13600,
+"desc": "兵种负重_所有兵种%",
+"type": 1,
+"group": [
+23
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13601,
+"category": 13600,
+"desc": "兵种负重_近卫蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13602,
+"category": 13600,
+"desc": "兵种负重_射手蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13603,
+"category": 13600,
+"desc": "兵种负重_运输蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13700,
+"category": 13700,
+"desc": "行军速度_所有兵种%",
+"type": 1,
+"group": [
+24
+],
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 13701,
+"category": 13700,
+"desc": "行军速度_近卫蚁%",
+"type": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 13702,
+"category": 13700,
+"desc": "行军速度_射手蚁%",
+"type": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 13703,
+"category": 13700,
+"desc": "行军速度_运输蚁%",
+"type": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 13811,
+"category": 13800,
+"desc": "兵种克制_增加近卫蚁对近卫蚁的伤害_%",
+"type": 3,
+"group": [
+52
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13812,
+"category": 13800,
+"desc": "兵种克制_增加近卫蚁对射手蚁的伤害_%",
+"type": 3,
+"group": [
+53
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13813,
+"category": 13800,
+"desc": "兵种克制_增加近卫蚁对运输蚁的伤害_%",
+"type": 3,
+"group": [
+54
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13821,
+"category": 13800,
+"desc": "兵种克制_增加射手蚁对近卫蚁的伤害_%",
+"type": 3,
+"group": [
+52
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13822,
+"category": 13800,
+"desc": "兵种克制_增加射手蚁对射手蚁的伤害_%",
+"type": 3,
+"group": [
+53
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13823,
+"category": 13800,
+"desc": "兵种克制_增加射手蚁对运输蚁的伤害_%",
+"type": 3,
+"group": [
+54
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13831,
+"category": 13800,
+"desc": "兵种克制_增加运输蚁对近卫蚁的伤害_%",
+"type": 3,
+"group": [
+52
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13832,
+"category": 13800,
+"desc": "兵种克制_增加运输蚁对射手蚁的伤害_%",
+"type": 3,
+"group": [
+53
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13833,
+"category": 13800,
+"desc": "兵种克制_增加运输蚁对运输蚁的伤害_%",
+"type": 3,
+"group": [
+54
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 13900,
+"category": 13900,
+"desc": "营地战攻击加成-所有兵种%",
+"type": 3,
+"attribute_type": 804,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 13901,
+"category": 13900,
+"desc": "营地战攻击加成-近卫蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 13902,
+"category": 13900,
+"desc": "营地战攻击加成-射手蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 13903,
+"category": 13900,
+"desc": "营地战攻击加成-运输蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 14200,
+"category": 14200,
+"desc": "采集增加负重_所有兵种%",
+"type": 1,
+"group": [
+36
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14201,
+"category": 14200,
+"desc": "采集增加负重_近卫蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14202,
+"category": 14200,
+"desc": "采集增加负重_射手蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14203,
+"category": 14200,
+"desc": "采集增加负重_运输蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14300,
+"category": 14300,
+"desc": "掠夺增加负重_所有兵种%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14301,
+"category": 14300,
+"desc": "掠夺增加负重_近卫蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14302,
+"category": 14300,
+"desc": "掠夺增加负重_射手蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14303,
+"category": 14300,
+"desc": "掠夺增加负重_运输蚁%",
+"type": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14600,
+"category": 14600,
+"desc": "训练消耗减少-全部兵种%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14601,
+"category": 14600,
+"desc": "近卫蚁训练消耗减少%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14602,
+"category": 14600,
+"desc": "射手蚁训练消耗减少%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14603,
+"category": 14600,
+"desc": "运输蚁训练消耗减少%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14700,
+"category": 14700,
+"desc": "战术防御-所有兵种%",
+"type": 3,
+"group": [
+44
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14701,
+"category": 14700,
+"desc": "近卫蚁战术防御%",
+"type": 3,
+"group": [
+44
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14702,
+"category": 14700,
+"desc": "射手蚁战术防御%",
+"type": 3,
+"group": [
+44
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14703,
+"category": 14700,
+"desc": "运输蚁战术防御%",
+"type": 3,
+"group": [
+44
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14800,
+"category": 14800,
+"desc": "采集中防守方攻击加成%",
+"type": 3,
+"attribute_type": 804,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 14801,
+"category": 14800,
+"desc": "采集中防守方防御加成%",
+"type": 3,
+"attribute_type": 805,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 14900,
+"category": 14900,
+"desc": "资源采集负重%",
+"type": 1,
+"group": [
+36
+],
+"value_type": 2
+},
+{
+"id": 14901,
+"category": 14900,
+"desc": "钻石采集负重%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 14902,
+"category": 14900,
+"desc": "食物采集负重%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 14904,
+"category": 14900,
+"desc": "燃料采集负重%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 14906,
+"category": 14900,
+"desc": "钢铁采集负重%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 14907,
+"category": 14900,
+"desc": "稀土采集负重%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 15100,
+"category": 15100,
+"desc": " 编队，采集出征体力消耗降低%",
+"type": 1,
+"effective_range": 1,
+"value_type": 2
+},
+{
+"id": 15200,
+"category": 15200,
+"desc": "采集额外获得资源%",
+"type": 1,
+"group": [
+10
+],
+"value_type": 2
+},
+{
+"id": 15202,
+"category": 15200,
+"desc": "食物采集额外获得%",
+"type": 1,
+"group": [
+10
+],
+"value_type": 2
+},
+{
+"id": 15204,
+"category": 15200,
+"desc": "燃料采集额外获得%",
+"type": 1,
+"group": [
+10
+],
+"value_type": 2
+},
+{
+"id": 15207,
+"category": 15200,
+"desc": "稀土采集额外获得%",
+"type": 1,
+"group": [
+10
+],
+"value_type": 2
+},
+{
+"id": 15206,
+"category": 15200,
+"desc": "钢铁采集额外获得%",
+"type": 1,
+"group": [
+10
+],
+"value_type": 2
+},
+{
+"id": 15300,
+"category": 15300,
+"desc": "营地战防御加成-所有兵种%",
+"type": 3,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 15301,
+"category": 15300,
+"desc": "营地战防御加成-近卫蚁%",
+"type": 3,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 15302,
+"category": 15300,
+"desc": "营地战防御加成-射手蚁%",
+"type": 3,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 15303,
+"category": 15300,
+"desc": "营地战防御加成-运输蚁%",
+"type": 3,
+"scope": 8,
+"value_type": 2
+},
+{
+"id": 15400,
+"category": 15400,
+"desc": "百分比受到所有兵种伤害_增加%（普攻伤害）",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15401,
+"category": 15400,
+"desc": "百分比受到近卫蚁伤害_增加%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15402,
+"category": 15400,
+"desc": "百分比受到射手蚁伤害_增加%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15403,
+"category": 15400,
+"desc": "百分比受到运输蚁伤害_增加%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15500,
+"category": 15500,
+"desc": "小队，百分比降低攻击-所有兵种%（代码里实际是普攻伤害%）",
+"type": 4,
+"group": [
+38
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15501,
+"category": 15500,
+"desc": "小队，百分比降低攻击-近卫蚁%",
+"type": 4,
+"group": [
+38
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15502,
+"category": 15500,
+"desc": "小队，百分比降低攻击-射手蚁%",
+"type": 4,
+"group": [
+38
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 15503,
+"category": 15500,
+"desc": "小队，百分比降低攻击-运输蚁%",
+"type": 4,
+"group": [
+38
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 16001,
+"category": 16000,
+"desc": "研究速度%",
+"type": 1,
+"group": [
+8
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16002,
+"category": 16000,
+"desc": "研发消耗减少%",
+"type": 1,
+"group": [
+9
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16003,
+"category": 16000,
+"desc": "增加城防值_数值",
+"type": 1,
+"attribute_type": 803,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 59000,
+"category": 59000,
+"desc": "城市保护",
+"type": 1,
+"attribute_type": 800,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 59100,
+"category": 59100,
+"desc": "反侦察",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 59200,
+"category": 59200,
+"desc": "资源仓库储存上限全部增加_数值",
+"type": 1,
+"group": [
+5
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 59300,
+"category": 59300,
+"desc": "【真】受到技能伤害减少%（战术抵抗）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59301,
+"category": 59300,
+"desc": "【真】受到技能伤害减少%_近卫蚁（战术抵抗）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59302,
+"category": 59300,
+"desc": "【真】受到技能伤害减少%_射手蚁（战术抵抗）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59303,
+"category": 59300,
+"desc": "【真】受到技能伤害减少%_运输蚁（战术抵抗）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 16007,
+"category": 16000,
+"desc": "额外建造一个急救帐篷",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 16008,
+"category": 16000,
+"desc": "额外建造一个收容所",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 16102,
+"category": 16100,
+"desc": "假情报（伪装术），被侦察显示军队为2倍%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16600,
+"category": 16600,
+"desc": "反侦察效果失效",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 17200,
+"category": 17200,
+"desc": "每隔x秒，y个随机种类随机等级士兵进入医院，持续z秒_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31300,
+"category": 31300,
+"desc": "1到3级士兵可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31301,
+"category": 31300,
+"desc": "1到3级近卫蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31302,
+"category": 31300,
+"desc": "1到3级射手蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31303,
+"category": 31300,
+"desc": "1到3级运输蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31400,
+"category": 31400,
+"desc": "4到6级士兵可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31401,
+"category": 31400,
+"desc": "4到6级近卫蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31402,
+"category": 31400,
+"desc": "4到6级射手蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31403,
+"category": 31400,
+"desc": "4到6级运输蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31500,
+"category": 31500,
+"desc": "7到9级士兵可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31501,
+"category": 31500,
+"desc": "7到9级近卫蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31502,
+"category": 31500,
+"desc": "7到9级射手蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31503,
+"category": 31500,
+"desc": "7到9级运输蚁可以晋级至当前兵种可训练最高等级_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16113,
+"category": 16100,
+"desc": "解锁9级近卫蚁_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16114,
+"category": 16100,
+"desc": "解锁9级射手蚁_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16115,
+"category": 16100,
+"desc": "解锁9级运输蚁_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31600,
+"category": 31600,
+"desc": "士兵可以进行加强训练_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31601,
+"category": 31600,
+"desc": "近卫蚁可以进行加强训练_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31602,
+"category": 31600,
+"desc": "射手蚁可以进行加强训练_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31603,
+"category": 31600,
+"desc": "运输蚁可以进行加强训练_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31700,
+"category": 31700,
+"desc": "士兵单次晋级量增加_数值",
+"type": 1,
+"group": [
+31
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31701,
+"category": 31700,
+"desc": "近卫蚁单次晋级量增加_数值",
+"type": 1,
+"group": [
+31
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31702,
+"category": 31700,
+"desc": "射手蚁单次晋级量增加_数值",
+"type": 1,
+"group": [
+31
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 31703,
+"category": 31700,
+"desc": "运输蚁单次晋级量增加_数值",
+"type": 1,
+"group": [
+31
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16200,
+"category": 16200,
+"desc": "6种资源（不含金币）保护增加，数值",
+"type": 1,
+"group": [
+30
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16201,
+"category": 16200,
+"desc": "金币资源资源保护，数值",
+"type": 1,
+"group": [
+30
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16203,
+"category": 16200,
+"desc": "全部资源保护（包含蜜露），百分比%",
+"type": 1,
+"group": [
+29
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16202,
+"category": 16200,
+"desc": "攻城掠夺资源量提高%",
+"type": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 16300,
+"category": 16300,
+"desc": "急救帐篷伤兵上限增加（数值）_数值",
+"type": 1,
+"group": [
+12
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16301,
+"category": 16300,
+"desc": "急救帐篷伤兵上限增加（百分比）%",
+"type": 1,
+"group": [
+11
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16400,
+"category": 16400,
+"desc": "伤兵治疗速度提升%",
+"type": 1,
+"group": [
+13
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16401,
+"category": 16400,
+"desc": "近卫蚁治疗速度提升%",
+"type": 1,
+"group": [
+13
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16402,
+"category": 16400,
+"desc": "射手蚁治疗速度提升%",
+"type": 1,
+"group": [
+13
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16403,
+"category": 16400,
+"desc": "运输蚁治疗速度提升%",
+"type": 1,
+"group": [
+13
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16500,
+"category": 16500,
+"desc": "士兵治疗消耗减少_含金币_非英雄来源%",
+"type": 1,
+"group": [
+14
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16501,
+"category": 16500,
+"desc": "近卫蚁治疗消耗减少_含金币_非英雄来源%",
+"type": 1,
+"group": [
+14
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16502,
+"category": 16500,
+"desc": "射手蚁治疗消耗减少_含金币_非英雄来源%",
+"type": 1,
+"group": [
+14
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16503,
+"category": 16500,
+"desc": "运输蚁治疗消耗减少_含金币_非英雄来源%",
+"type": 1,
+"group": [
+14
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16601,
+"category": 16600,
+"desc": "急救帐篷满员后，部分伤兵依旧可以进入%",
+"type": 1,
+"group": [
+18
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16700,
+"category": 16700,
+"desc": "单人攻城时，我方死兵转化为伤兵的比列提升%",
+"type": 3,
+"group": [
+26
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16701,
+"category": 16700,
+"desc": "攻击指挥官城市时敌方伤兵转化为死兵的比例提升%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 16800,
+"category": 16800,
+"desc": "提高联盟科技的研究速度%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 16801,
+"category": 16800,
+"desc": "联盟帮助时间_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16802,
+"category": 16800,
+"desc": "集结部队数增加_数值",
+"type": 1,
+"attribute_type": 801,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16804,
+"category": 16800,
+"desc": "联盟帮助人数上限增加_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17100,
+"category": 17100,
+"desc": "世界地图中的资源点的资源产量提升%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17101,
+"category": 17100,
+"desc": "世界地图中所有玩家的造兵速度提升%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17102,
+"category": 17100,
+"desc": "世界地图中所有玩家的建筑建造速度提升%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17103,
+"category": 17100,
+"desc": "世界地图中所有玩家的科技研发速度提升%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17104,
+"category": 17100,
+"desc": "无法攻击/侦察其他玩家",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 17105,
+"category": 17100,
+"desc": "在保护时间内所有资源都不会被掠夺",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 17202,
+"category": 17200,
+"desc": "解锁农田急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17203,
+"category": 17200,
+"desc": "解锁净水处理站急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17204,
+"category": 17200,
+"desc": "解锁炼油厂急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17205,
+"category": 17200,
+"desc": "解锁发电厂急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17206,
+"category": 17200,
+"desc": "解锁炼铁厂急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17207,
+"category": 17200,
+"desc": "解锁稀土厂急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17208,
+"category": 17200,
+"desc": "解锁银行急速生产_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17300,
+"category": 17300,
+"desc": "资源建筑升级后，急速生产成功率恢复",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 17301,
+"category": 17300,
+"desc": "各类资源建筑当日首次使用极速模式必定成功_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 17400,
+"category": 17400,
+"desc": "建筑急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17402,
+"category": 17400,
+"desc": "农田急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17403,
+"category": 17400,
+"desc": "净水站急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17404,
+"category": 17400,
+"desc": "炼油厂急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17405,
+"category": 17400,
+"desc": "发电站急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17406,
+"category": 17400,
+"desc": "炼铁厂急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17407,
+"category": 17400,
+"desc": "稀土厂急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17408,
+"category": 17400,
+"desc": "银行急速生产成功后的资源产量增加_百分比%",
+"type": 1,
+"group": [
+3
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 17501,
+"category": 17500,
+"desc": "编队，（面对射手蚁时）近卫蚁攻击增加_百分比%",
+"type": 3,
+"group": [
+45
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17502,
+"category": 17500,
+"desc": "编队，（面对运输蚁时）射手蚁攻击增加_百分比%",
+"type": 3,
+"group": [
+45
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17503,
+"category": 17500,
+"desc": "编队，（面对近卫蚁时）运输蚁攻击增加_百分比%",
+"type": 3,
+"group": [
+45
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17601,
+"category": 17600,
+"desc": "编队，（面对射手蚁时）近卫蚁防御增加_百分比%",
+"type": 3,
+"group": [
+46
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17602,
+"category": 17600,
+"desc": "编队，（面对运输蚁时）射手蚁防御增加_百分比%",
+"type": 3,
+"group": [
+46
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17603,
+"category": 17600,
+"desc": "编队，（面对近卫蚁时）运输蚁防御增加_百分比%",
+"type": 3,
+"group": [
+46
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17900,
+"category": 17900,
+"desc": "研究速度减少%",
+"type": 2,
+"group": [
+8
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 18000,
+"category": 18000,
+"desc": "可以派遣英雄随队列出征【Tech表buff_paras配置队列id】",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 18001,
+"category": 18000,
+"desc": "可以派遣1名英雄随队列出征【Tech表buff_paras配置队列id】",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 18002,
+"category": 18000,
+"desc": "可以派遣2名英雄随队列出征【Tech表buff_paras配置队列id】",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 18003,
+"category": 18000,
+"desc": "可以派遣3名英雄随队列出征【Tech表buff_paras配置队列id】",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 18400,
+"category": 18400,
+"desc": "队列可以被召回【Tech表buff_paras配置队列id】",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 18500,
+"category": 18500,
+"desc": "队列可以加速【Tech表buff_paras配置队列id】",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 18600,
+"category": 18600,
+"desc": "队列的行军速度提升%【Tech表buff_paras配置队列id】",
+"type": 1,
+"group": [
+24
+],
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 18700,
+"category": 18700,
+"desc": "队列耐久恢复速度提升%【Tech表buff_paras配置队列id】",
+"type": 1,
+"group": [
+25
+],
+"attribute_type": 806,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 18800,
+"category": 18800,
+"desc": "队列采集速度加快%【Tech表buff_paras配置队列id】",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 18900,
+"category": 18900,
+"desc": "队列出征载重提升%【Tech表buff_paras配置队列id】",
+"type": 1,
+"group": [
+23
+],
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 19000,
+"category": 19000,
+"desc": "队列内的所有兵种防御提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19001,
+"category": 19000,
+"desc": "队列内的近卫蚁防御提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19002,
+"category": 19000,
+"desc": "队列内的射手蚁防御提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19003,
+"category": 19000,
+"desc": "队列内的运输蚁防御提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19400,
+"category": 19400,
+"desc": "队列内的所有兵种攻击提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19401,
+"category": 19400,
+"desc": "队列内的近卫蚁攻击提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19402,
+"category": 19400,
+"desc": "队列内的射手蚁攻击提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19403,
+"category": 19400,
+"desc": "队列内的运输蚁攻击提升%【Tech表buff_paras配置队列id】",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 20106,
+"category": 20100,
+"desc": "无法被抢劫%",
+"type": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 20200,
+"category": 20200,
+"desc": "【压制】小队（英雄），无法行动",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 0
+},
+{
+"id": 20300,
+"category": 20300,
+"desc": "【沉默】小队，无法释放战斗技能",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 0
+},
+{
+"id": 20400,
+"category": 20400,
+"desc": "吸收目标百分比伤害_，等额增加到我方随机小队%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 20501,
+"category": 20500,
+"desc": "编队，战斗速度增加，数值",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20900,
+"category": 20900,
+"desc": "所有兵种，战斗速度增加，数值",
+"type": 3,
+"group": [
+47
+],
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20901,
+"category": 20900,
+"desc": "近卫蚁，战斗速度增加，数值",
+"type": 3,
+"group": [
+47
+],
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20902,
+"category": 20900,
+"desc": "射手蚁，战斗速度增加，数值",
+"type": 3,
+"group": [
+47
+],
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20903,
+"category": 20900,
+"desc": "运输蚁，战斗速度增加，数值",
+"type": 3,
+"group": [
+47
+],
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20801,
+"category": 20800,
+"desc": "旅行虫到来获得金币数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 20802,
+"category": 20800,
+"desc": "旅行虫到来时获得食物数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21000,
+"category": 21000,
+"desc": "资源急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21002,
+"category": 21000,
+"desc": "粮食急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21003,
+"category": 21000,
+"desc": "净水急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21005,
+"category": 21000,
+"desc": "电力急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21004,
+"category": 21000,
+"desc": "石油急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21006,
+"category": 21000,
+"desc": "钢铁急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21007,
+"category": 21000,
+"desc": "稀土急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21008,
+"category": 21000,
+"desc": "金币急速生产成功率增加%",
+"type": 1,
+"group": [
+4
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21100,
+"category": 21100,
+"desc": "建筑建造速度提升(百分比）%",
+"type": 1,
+"group": [
+7
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21200,
+"category": 21200,
+"desc": "建筑建造资源减少（除金币）%",
+"type": 1,
+"group": [
+33
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21300,
+"category": 21300,
+"desc": "建筑建造金币减少%",
+"type": 1,
+"group": [
+34
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21400,
+"category": 21400,
+"desc": "建筑建造时间减少_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21500,
+"category": 21500,
+"desc": "建筑的建造时间低于{0}秒时，可立即完成_数值",
+"type": 1,
+"group": [
+35
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21501,
+"category": 21500,
+"desc": "科研的剩余时间低于{0}秒时，可立即完成_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21600,
+"category": 21600,
+"desc": "交易中心的资源出售价格增加_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21601,
+"category": 21600,
+"desc": "交易中心的资源购买价格百分比减少%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21602,
+"category": 21600,
+"desc": "交易中心的资源出售价格百分比增加%",
+"type": 1,
+"attribute_type": 807,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21603,
+"category": 21600,
+"desc": "交易中心商品购买价格百分比减少%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21700,
+"category": 21700,
+"desc": "旅行虫停留时间增加值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23000,
+"category": 23000,
+"desc": "旅行虫到来间隔时间减少（秒）_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21800,
+"category": 21800,
+"desc": "训练兵种获得经验值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21801,
+"category": 21800,
+"desc": "训练近卫蚁获得经验值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21802,
+"category": 21800,
+"desc": "训练射手蚁获得经验值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21803,
+"category": 21800,
+"desc": "训练运输蚁获得经验值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 21900,
+"category": 21900,
+"desc": "训练兵种粮食减少（百分比）%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21901,
+"category": 21900,
+"desc": "训练近卫蚁粮食减少（百分比）%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21902,
+"category": 21900,
+"desc": "训练射手蚁粮食减少（百分比）%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 21903,
+"category": 21900,
+"desc": "训练运输蚁粮食减少（百分比）%",
+"type": 1,
+"group": [
+15
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22000,
+"category": 22000,
+"desc": "维持部队的肉消耗减少%",
+"type": 1,
+"group": [
+27
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22001,
+"category": 22000,
+"desc": "维持近卫蚁的食物消耗减少百分比%",
+"type": 1,
+"group": [
+27
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22002,
+"category": 22000,
+"desc": "维持射手蚁的食物消耗减少百分比%",
+"type": 1,
+"group": [
+27
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22003,
+"category": 22000,
+"desc": "维持运输蚁的食物消耗减少百分比%",
+"type": 1,
+"group": [
+27
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22100,
+"category": 22100,
+"desc": "维持部队的燃料消耗减少百分比%",
+"type": 1,
+"group": [
+28
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22101,
+"category": 22100,
+"desc": "维持近卫蚁的燃料消耗减少百分比%",
+"type": 1,
+"group": [
+28
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22102,
+"category": 22100,
+"desc": "维持射手蚁的燃料消耗减少百分比%",
+"type": 1,
+"group": [
+28
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22103,
+"category": 22100,
+"desc": "维持运输蚁的燃料消耗减少百分比%",
+"type": 1,
+"group": [
+28
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22300,
+"category": 22300,
+"desc": "伤兵治疗消耗减少_含金币_英雄来源%",
+"type": 1,
+"group": [
+14
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22301,
+"category": 22300,
+"desc": "伤兵治疗消耗减少_不含金币_英雄来源%",
+"type": 1,
+"group": [
+14
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22400,
+"category": 22400,
+"desc": "百分比提高“资源产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22402,
+"category": 22400,
+"desc": "百分比提高“粮食产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22403,
+"category": 22400,
+"desc": "百分比提高“净水产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22404,
+"category": 22400,
+"desc": "百分比提高“燃油产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22405,
+"category": 22400,
+"desc": "百分比提高“电力产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22406,
+"category": 22400,
+"desc": "百分比提高“钢铁产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22407,
+"category": 22400,
+"desc": "百分比提高“稀土产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22408,
+"category": 22400,
+"desc": "百分比提高“金币产量（数值）”效果_资源建筑%",
+"type": 1,
+"group": [
+2
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 22500,
+"category": 22500,
+"desc": "小队，兵种防御百分比减少_所有兵种(战场buff，只能挂在敌方小队)%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 22600,
+"category": 22600,
+"desc": "小队，受到伤害_减少，百分比%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 23100,
+"category": 23100,
+"desc": "小队，受到伤害_增加，百分比%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 22700,
+"category": 22700,
+"desc": "小队，战斗技能伤害_减少，百分比%（实际代码是战术攻击%）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 22800,
+"category": 22800,
+"desc": "小队，伤害_输出减少，百分比%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 22900,
+"category": 22900,
+"desc": "小队，受到战斗技能伤害_增加%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 30100,
+"category": 30100,
+"desc": "每回合对我方随机一排近卫蚁进行治疗%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30200,
+"category": 30200,
+"desc": "最后1排射手蚁的普通攻击对敌方其余2排士兵造成伤害_%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30300,
+"category": 30300,
+"desc": "每回合随机1排运输蚁会进行1次额外攻击对敌方3排士兵造成伤害_%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30400,
+"category": 30400,
+"desc": "补齐队员与队长全部兵种的战斗属性差值%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30500,
+"category": 30500,
+"desc": "补齐队员与队长近卫蚁兵种的战斗属性差值%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30600,
+"category": 30600,
+"desc": "补齐队员与队长射手蚁兵种的战斗属性差值%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30700,
+"category": 30700,
+"desc": "兵种攻击百分比减少_所有兵种%",
+"type": 4,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 30800,
+"category": 30800,
+"desc": "兵种防御百分比减少_所有兵种%",
+"type": 4,
+"group": [
+39
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 30900,
+"category": 30900,
+"desc": "资源产量百分比减少（所有资源）%",
+"type": 2,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 30902,
+"category": 30900,
+"desc": "粮食产量百分比减少%",
+"type": 2,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 30904,
+"category": 30900,
+"desc": "石油产量百分比减少%",
+"type": 2,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 30906,
+"category": 30900,
+"desc": "钢铁产量百分比减少%",
+"type": 2,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 30907,
+"category": 30900,
+"desc": "稀土产量百分比减少%",
+"type": 2,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 31000,
+"category": 31000,
+"desc": "造兵时间百分比增加-官职称号专用%",
+"type": 2,
+"group": [
+17
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 31100,
+"category": 31100,
+"desc": "维持部队的燃料消耗增加百分比%",
+"type": 2,
+"group": [
+28
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 31200,
+"category": 31200,
+"desc": "仓库容量百分比减少%",
+"type": 2,
+"group": [
+32
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 31800,
+"category": 31800,
+"desc": "伤兵治疗速度百分比减少%",
+"type": 2,
+"group": [
+13
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 31900,
+"category": 31900,
+"desc": "被攻击时，被夺取的资源百分比增加%",
+"type": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 32000,
+"category": 32000,
+"desc": "攻城攻击百分比减少_所有兵种%",
+"type": 3,
+"group": [
+41
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32100,
+"category": 32100,
+"desc": "攻城防御百分比减少_所有兵种%",
+"type": 3,
+"group": [
+42
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32300,
+"category": 32300,
+"desc": "金币产量百分比减少%",
+"type": 2,
+"group": [
+1
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 32400,
+"category": 32400,
+"desc": "采集负重百分比减少_所有兵种%",
+"type": 2,
+"group": [
+36
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 32500,
+"category": 32500,
+"desc": "维持部队的肉消耗增加%",
+"type": 1,
+"group": [
+27
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 33000,
+"category": 33000,
+"desc": "配件材料制造栏位数量数值修正_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 34000,
+"category": 34000,
+"desc": "解锁绿色材料制造",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 35000,
+"category": 35000,
+"desc": "材料可以分解成为能源核心",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 35100,
+"category": 35100,
+"desc": "维持部队的食物及燃油消耗增加百分比%",
+"type": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 40000,
+"category": 40000,
+"desc": "训练士兵时自动获得经验。每分钟获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 40003,
+"category": 40000,
+"desc": "训练运输蚁自动获得经验。每分钟获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 40002,
+"category": 40000,
+"desc": "训练射手蚁自动获得经验。每分钟获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 40001,
+"category": 40000,
+"desc": "训练近卫蚁自动获得经验。每分钟获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 43000,
+"category": 43000,
+"desc": "建筑建造时自动获得经验。每分钟获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 44000,
+"category": 44000,
+"desc": "资源急速生产成功后，获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 44007,
+"category": 44000,
+"desc": "稀土厂急速生产成功后，获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 44004,
+"category": 44000,
+"desc": "油井急速生产成功后，获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 44002,
+"category": 44000,
+"desc": "农田急速生产成功后，获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 44006,
+"category": 44000,
+"desc": "钢铁场急速生产成功后，获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 44100,
+"category": 44100,
+"desc": "编队采集时，该编队中所有英雄每小时获得经验_数值",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 49000,
+"category": 49000,
+"desc": "每次旅行虫到来，获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 50000,
+"category": 50000,
+"desc": "治疗伤兵时自动获得经验，每分钟获得{0}经验_数值",
+"type": 1,
+"scope": 8,
+"value_type": 1
+},
+{
+"id": 51000,
+"category": 51000,
+"desc": "编队，攻击生化人时，经验增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 52000,
+"category": 52000,
+"desc": "小队，攻击生化人时，经验增加{0}%",
+"type": 1,
+"effective_range": 2,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 60000,
+"category": 60000,
+"desc": "小队，战斗速度增加{0}，数值",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 60001,
+"category": 60000,
+"desc": "小队，近卫蚁战斗速度增加{0}，数值",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 60002,
+"category": 60000,
+"desc": "小队，射手蚁战斗速度增加{0}，数值",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 60003,
+"category": 60000,
+"desc": "小队，运输蚁战斗速度增加{0}，数值",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 64000,
+"category": 64000,
+"desc": "英雄“领袖”技能，小队，出征兵力上限增加{0}_数值",
+"type": 1,
+"effective_range": 2,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 65000,
+"category": 65000,
+"desc": "小队，防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 65001,
+"category": 65000,
+"desc": "小队，近卫蚁防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 65002,
+"category": 65000,
+"desc": "小队，射手蚁防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 65003,
+"category": 65000,
+"desc": "小队，运输蚁防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 66000,
+"category": 66000,
+"desc": "小队，攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 66001,
+"category": 66000,
+"desc": "小队，近卫蚁攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 66002,
+"category": 66000,
+"desc": "小队，射手蚁攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 66003,
+"category": 66000,
+"desc": "小队，运输蚁攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 72100,
+"category": 72100,
+"desc": "小队，生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 73000,
+"category": 73000,
+"desc": "小队，攻击生化人时，部队攻击增加{0}%",
+"type": 3,
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 74000,
+"category": 74000,
+"desc": "编队，部队防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74001,
+"category": 74000,
+"desc": "编队，近卫蚁防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74002,
+"category": 74000,
+"desc": "编队，射手蚁防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74003,
+"category": 74000,
+"desc": "编队，运输蚁防御增加{0}%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74100,
+"category": 74100,
+"desc": "编队，矿战时，部队防御增加{0}%",
+"type": 3,
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74800,
+"category": 74800,
+"desc": "编队，战术攻击增加{0}%",
+"type": 3,
+"group": [
+43
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74801,
+"category": 74800,
+"desc": "编队，近卫蚁战术攻击增加{0}%",
+"type": 3,
+"group": [
+43
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74802,
+"category": 74800,
+"desc": "编队，射手蚁战术攻击增加{0}%",
+"type": 3,
+"group": [
+43
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74803,
+"category": 74800,
+"desc": "编队，运输蚁战术攻击增加{0}%",
+"type": 3,
+"group": [
+43
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74900,
+"category": 74900,
+"desc": "编队，部队战术防御增加{0}%",
+"type": 3,
+"group": [
+44
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74901,
+"category": 74900,
+"desc": "编队，近卫蚁战术防御增加{0}%",
+"type": 3,
+"group": [
+44
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74902,
+"category": 74900,
+"desc": "编队，射手蚁战术防御增加{0}%",
+"type": 3,
+"group": [
+44
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 74903,
+"category": 74900,
+"desc": "编队，运输蚁战术防御增加{0}%",
+"type": 3,
+"group": [
+44
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75000,
+"category": 75000,
+"desc": "编队，部队攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75001,
+"category": 75000,
+"desc": "编队，近卫蚁攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75002,
+"category": 75000,
+"desc": "编队，射手蚁攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75003,
+"category": 75000,
+"desc": "编队，运输蚁攻击增加{0}%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75100,
+"category": 75100,
+"desc": "编队，矿战时，部队攻击增加{0}%",
+"type": 3,
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75800,
+"category": 75800,
+"desc": "编队，部队伤害_增加{0}%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75801,
+"category": 75800,
+"desc": "编队，近卫蚁伤害_增加{0}%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75802,
+"category": 75800,
+"desc": "编队，射手蚁伤害_增加{0}%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 75803,
+"category": 75800,
+"desc": "编队，运输蚁伤害_增加{0}%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 76000,
+"category": 76000,
+"desc": "编队，部队负重增加{0}%",
+"type": 3,
+"group": [
+23
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 76001,
+"category": 76000,
+"desc": "编队，近卫蚁负重增加{0}%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 77000,
+"category": 77000,
+"desc": "编队，生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 77001,
+"category": 77000,
+"desc": "编队，近卫蚁生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 77002,
+"category": 77000,
+"desc": "编队，射手蚁生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 77003,
+"category": 77000,
+"desc": "编队，运输蚁生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 81200,
+"category": 81200,
+"desc": "编队，部队行军速度增加{0}%",
+"type": 1,
+"group": [
+24
+],
+"effective_range": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 81203,
+"category": 81200,
+"desc": "编队，运输蚁行军速度增加{0}%",
+"type": 1,
+"group": [
+24
+],
+"effective_range": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 82100,
+"category": 82100,
+"desc": "编队，采集行军速度增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 83000,
+"category": 83000,
+"desc": "增加“高级领袖”效果，百分比%",
+"type": 1,
+"effective_range": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 84000,
+"category": 84000,
+"desc": "编队，当编队为同一兵种时，所有伤害增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 84001,
+"category": 84000,
+"desc": "编队，当编队为同一兵种时，受到的所有伤害减少%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 84002,
+"category": 84000,
+"desc": "编队，第五回合开始后的所有伤害增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 84003,
+"category": 84000,
+"desc": "编队，攻城时普通攻击伤害增加%（弃用）",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84004,
+"category": 84000,
+"desc": "编队，攻城时普通攻击伤害增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84005,
+"category": 84000,
+"desc": "编队，攻城时受到的伤害减少%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84006,
+"category": 84000,
+"desc": "编队，攻城时战术攻击增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84007,
+"category": 84000,
+"desc": "编队，集结军行军速度增加（作为发起人时，生效）%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 84008,
+"category": 84000,
+"desc": "编队，攻城行军速度增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84009,
+"category": 84000,
+"desc": "编队，矿战时重伤比例降低%",
+"type": 3,
+"effective_range": 1,
+"scope": 4,
+"value_type": 2
+},
+{
+"id": 84010,
+"category": 84000,
+"desc": "编队，攻城时敌方伤兵转化为死兵的比例提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84011,
+"category": 84000,
+"desc": "编队，攻城时我方死兵转化为伤兵的比例提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84012,
+"category": 84000,
+"desc": "编队，普通攻击伤害增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 84013,
+"category": 84000,
+"desc": "编队，攻城时攻击力增加%",
+"type": 3,
+"group": [
+41
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84014,
+"category": 84000,
+"desc": "编队，攻城时防御力增加%",
+"type": 3,
+"group": [
+42
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84015,
+"category": 84000,
+"desc": "编队，攻城时负载增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 84016,
+"category": 84000,
+"desc": "编队，战斗时重伤比例降低",
+"type": 3,
+"effective_range": 1,
+"scope": 1
+},
+{
+"id": 85000,
+"category": 85000,
+"desc": "小队，伤害_增加{0}%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 85002,
+"category": 85000,
+"desc": "小队，射手蚁伤害_增加{0}%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 86000,
+"category": 86000,
+"desc": "小队，攻城攻击增加_所有兵种，百分比%",
+"type": 3,
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 87000,
+"category": 87000,
+"desc": "编队，守城攻击增加_所有兵种{0}%",
+"type": 3,
+"group": [
+48
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 87100,
+"category": 87100,
+"desc": "编队，守城防御增加_所有兵种{0}%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 88000,
+"category": 88000,
+"desc": "编队，采集负重增加{0}%",
+"type": 1,
+"group": [
+36
+],
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88001,
+"category": 88000,
+"desc": "编队，钻石采集负重增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88002,
+"category": 88000,
+"desc": "编队，食物采集负重增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88004,
+"category": 88000,
+"desc": "编队，石油采集负重增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88006,
+"category": 88000,
+"desc": "编队，钢铁采集负重增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88007,
+"category": 88000,
+"desc": "编队，稀土采集负重增加{0}%",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88100,
+"category": 88100,
+"desc": "编队，采集速度增加_百分比%",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88101,
+"category": 88100,
+"desc": "编队，钻石采集速度增加_百分比%",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88102,
+"category": 88100,
+"desc": "编队，食物采集速度增加_百分比%",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88104,
+"category": 88100,
+"desc": "编队，燃料采集速度增加_百分比%",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88106,
+"category": 88100,
+"desc": "编队，钢铁采集速度增加_百分比%",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88107,
+"category": 88100,
+"desc": "编队，稀土采集速度增加_百分比%",
+"type": 1,
+"attribute_type": 802,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88200,
+"category": 88200,
+"desc": "编队，采集额外获得资源增加_百分比%",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14400,
+"category": 14400,
+"desc": "最强战区期间采集速度提高%",
+"type": 1,
+"group": [
+6
+],
+"attribute_type": 802,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14401,
+"category": 14400,
+"desc": "最强战区期间采集额外获得资源%",
+"type": 1,
+"group": [
+10
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14402,
+"category": 14400,
+"desc": "解锁最强战区4-6档奖励_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 14403,
+"category": 14400,
+"desc": "最强战区全部积分获取增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14404,
+"category": 14400,
+"desc": "最强战区期间攻击生化人行军速度提升%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14405,
+"category": 14400,
+"desc": "最强战区期间负重提高%",
+"type": 1,
+"group": [
+23
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14406,
+"category": 14400,
+"desc": "最强战区期间部队训练速度提升%",
+"type": 1,
+"group": [
+17
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14407,
+"category": 14400,
+"desc": "最强战区期间部队训练量提升_数值",
+"type": 1,
+"group": [
+16
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 14408,
+"category": 14400,
+"desc": "解锁最强战区7-9档奖励_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 14409,
+"category": 14400,
+"desc": "最强战区采集获得的积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14410,
+"category": 14400,
+"desc": "最强战区建造获得的积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14411,
+"category": 14400,
+"desc": "最强战区研究科技获得的积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14412,
+"category": 14400,
+"desc": "最强战区消灭敌军士兵获得积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14413,
+"category": 14400,
+"desc": "最强战区期间攻击生化人积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14414,
+"category": 14400,
+"desc": "最强战区兑换获得和消耗智慧勋章所得的积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14415,
+"category": 14400,
+"desc": "最强战区英雄获得经验与解锁技能获得的积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14416,
+"category": 14400,
+"desc": "最强战区招募英雄获得的积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 14417,
+"category": 14400,
+"desc": "最强战区领取战区单人奖励时获得双份奖励！_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 14500,
+"category": 14500,
+"desc": "最强战区期间急救帐篷容量增加_数值",
+"type": 1,
+"group": [
+12
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 24000,
+"category": 24000,
+"desc": "最强战区期间在本国领土所有部队攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 24100,
+"category": 24100,
+"desc": "最强战区期间在本国领土所有部队防御增加%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 24200,
+"category": 24200,
+"desc": "最强战区期间在本国领土所有部队生命提升%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 24300,
+"category": 24300,
+"desc": "最强战区期间在敌国领土所有部队攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 24400,
+"category": 24400,
+"desc": "最强战区期间在敌国领土所有部队防御增加%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 24500,
+"category": 24500,
+"desc": "最强战区期间在敌国领土所有部队生命增加%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 24600,
+"category": 24600,
+"desc": "最强战区期间，在本区领土所有兵蚁入侵蚁巢攻击增加%",
+"type": 3,
+"group": [
+41
+],
+"attribute_type": 804,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 24700,
+"category": 24700,
+"desc": "最强战区期间，在本区领土所有兵蚁守巢防御增加%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 24800,
+"category": 24800,
+"desc": "最强战区期间，在敌区领土所有兵蚁入侵蚁巢攻击增加%",
+"type": 3,
+"group": [
+41
+],
+"attribute_type": 804,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 24900,
+"category": 24900,
+"desc": "最强战区期间，在敌区领土所有兵蚁守巢防御增加%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 14511,
+"category": 14500,
+"desc": "最强战区期间，参与集结人数增加_数值",
+"type": 3,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 14512,
+"category": 14500,
+"desc": "最强战区期间，攻城时我方死兵转化为伤兵的比例提升%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 14513,
+"category": 14500,
+"desc": "最强战区期间，攻城时敌方伤兵转化为死兵的比例提升%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 16902,
+"category": 16900,
+"desc": "肉保护增加数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16904,
+"category": 16900,
+"desc": "植物保护增加数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16906,
+"category": 16900,
+"desc": "湿土保护增加数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 16907,
+"category": 16900,
+"desc": "沙子保护增加数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 88501,
+"category": 88500,
+"desc": "国家任务获得经验加成%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 88502,
+"category": 88500,
+"desc": "国家任务经验加成值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 88503,
+"category": 88500,
+"desc": "国家任务时间减少%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 15600,
+"category": 15600,
+"desc": "商人援助负重加成值_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 14418,
+"category": 14400,
+"desc": "最强战区期间训练士兵积分增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 35201,
+"category": 35200,
+"desc": "王城战攻击加成%_近卫蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 9,
+"value_type": 2
+},
+{
+"id": 35202,
+"category": 35200,
+"desc": "王城战攻击加成%_射手蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 9,
+"value_type": 2
+},
+{
+"id": 35203,
+"category": 35200,
+"desc": "王城战攻击加成%_运输蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 9,
+"value_type": 2
+},
+{
+"id": 35301,
+"category": 35300,
+"desc": "王城战防御加成%_近卫蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 9,
+"value_type": 2
+},
+{
+"id": 35302,
+"category": 35300,
+"desc": "王城战防御加成%_射手蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 9,
+"value_type": 2
+},
+{
+"id": 35303,
+"category": 35300,
+"desc": "王城战防御加成%_运输蚁%",
+"type": 3,
+"attribute_type": 805,
+"scope": 9,
+"value_type": 2
+},
+{
+"id": 14000,
+"category": 14000,
+"desc": "战术攻击加成%-所有兵种%",
+"type": 3,
+"group": [
+43
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14001,
+"category": 14000,
+"desc": "近卫蚁战术攻击加成%",
+"type": 3,
+"group": [
+43
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14002,
+"category": 14000,
+"desc": "射手蚁战术攻击加成%",
+"type": 3,
+"group": [
+43
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 14003,
+"category": 14000,
+"desc": "运输蚁战术攻击加成%",
+"type": 3,
+"group": [
+43
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32600,
+"category": 32600,
+"desc": "战斗时，敌方攻击降低%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32700,
+"category": 32700,
+"desc": "战斗时，敌方防御降低%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 10900,
+"category": 10900,
+"desc": "采集额外获得资源_数值",
+"type": 1,
+"group": [
+37
+],
+"value_type": 1
+},
+{
+"id": 10902,
+"category": 10900,
+"desc": "食物采集额外获得_数值",
+"type": 1,
+"group": [
+37
+],
+"value_type": 1
+},
+{
+"id": 10904,
+"category": 10900,
+"desc": "燃料采集额外获得_数值",
+"type": 1,
+"group": [
+37
+],
+"value_type": 1
+},
+{
+"id": 10906,
+"category": 10900,
+"desc": "钢铁采集额外获得_数值",
+"type": 1,
+"group": [
+37
+],
+"value_type": 1
+},
+{
+"id": 10907,
+"category": 10900,
+"desc": "稀土采集额外获得_数值",
+"type": 1,
+"group": [
+37
+],
+"value_type": 1
+},
+{
+"id": 16009,
+"category": 16000,
+"desc": "额外建造一个野外孵化地",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 16010,
+"category": 16000,
+"desc": "额外建造一个饲料养殖地",
+"type": 1,
+"value_type": 0
+},
+{
+"id": 15700,
+"category": 15700,
+"desc": "野怪饲料养殖速度提升%",
+"type": 1,
+"attribute_type": 808,
+"value_type": 2
+},
+{
+"id": 15800,
+"category": 15800,
+"desc": "野怪孵化速度提升%",
+"type": 1,
+"attribute_type": 809,
+"value_type": 2
+},
+{
+"id": 15900,
+"category": 15900,
+"desc": "孵化野怪所需资源消耗减少%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 17000,
+"category": 17000,
+"desc": "孵化野怪所需饲料消耗减少%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 17700,
+"category": 17700,
+"desc": "宰杀野怪获得的野怪残壳增加%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 18100,
+"category": 18100,
+"desc": "有概率直接孵化出一星以上的野怪",
+"type": 1,
+"value_type": 0
+},
+{
+"id": 18200,
+"category": 18200,
+"desc": "野怪饲料养殖蜜露消耗减少%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 19100,
+"category": 19100,
+"desc": "编队，狩猎野外生物时战术攻击提升{num}%",
+"type": 3,
+"effective_range": 1,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 19200,
+"category": 19200,
+"desc": "编队，狩猎野外生物时攻击提升{num}%",
+"type": 3,
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 19300,
+"category": 19300,
+"desc": "编队，狩猎野外生物时伤害提升{num}%",
+"type": 3,
+"effective_range": 1,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 20600,
+"category": 20600,
+"desc": "编队，攻城时攻击力增加%",
+"type": 3,
+"group": [
+41
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20601,
+"category": 20600,
+"desc": "编队，攻城时近卫蚁攻击力增加%",
+"type": 3,
+"group": [
+41
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20602,
+"category": 20600,
+"desc": "编队，攻城时射手蚁攻击力增加%",
+"type": 3,
+"group": [
+41
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20603,
+"category": 20600,
+"desc": "编队，攻城时运输蚁攻击力增加%",
+"type": 3,
+"group": [
+41
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20700,
+"category": 20700,
+"desc": "编队，攻城时防御力增加%",
+"type": 3,
+"group": [
+42
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20701,
+"category": 20700,
+"desc": "编队，攻城时近卫蚁防御力增加%",
+"type": 3,
+"group": [
+42
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20702,
+"category": 20700,
+"desc": "编队，攻城时射手蚁防御力增加%",
+"type": 3,
+"group": [
+42
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 20703,
+"category": 20700,
+"desc": "编队，攻城时运输蚁防御力增加%",
+"type": 3,
+"group": [
+42
+],
+"effective_range": 1,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 82200,
+"category": 82200,
+"desc": "编队，狩猎野怪行军速度增加{0}%",
+"type": 1,
+"group": [
+24
+],
+"effective_range": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 14100,
+"category": 14100,
+"desc": "最强战区期间急救帐篷容量增加%（乘，杀敌活动专用）",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 18300,
+"category": 18300,
+"desc": "攻击土拨鼠时攻击增加_所有兵种%",
+"type": 3,
+"attribute_type": 804,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 18301,
+"category": 18300,
+"desc": "攻击土拨鼠时攻击增加_近卫蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 18302,
+"category": 18300,
+"desc": "攻击土拨鼠时攻击增加_射手蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 18303,
+"category": 18300,
+"desc": "攻击土拨鼠时攻击增加_运输蚁%",
+"type": 3,
+"attribute_type": 804,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 19601,
+"category": 19600,
+"desc": "编队，全为近卫蚁时，近卫蚁攻击防御增加%",
+"type": 3,
+"group": [
+38,
+39
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19602,
+"category": 19600,
+"desc": "编队，全为射手蚁时，射手蚁攻击防御增加%",
+"type": 3,
+"group": [
+38,
+39
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19603,
+"category": 19600,
+"desc": "编队，全为运输蚁时，运输蚁攻击防御增加%",
+"type": 3,
+"group": [
+38,
+39
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 85001,
+"category": 85000,
+"desc": "小队，近卫蚁伤害_增加{0}%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 85003,
+"category": 85000,
+"desc": "小队，运输蚁伤害_增加{0}%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 72101,
+"category": 72100,
+"desc": "小队，近卫蚁生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 72102,
+"category": 72100,
+"desc": "小队，射手蚁生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 72103,
+"category": 72100,
+"desc": "小队，运输蚁生命增加{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19701,
+"category": 19700,
+"desc": "编队内全为近卫蚁时，小队的战斗技能伤害_增加%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19702,
+"category": 19700,
+"desc": "编队内全为射手蚁时，小队的战斗技能伤害_增加%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19703,
+"category": 19700,
+"desc": "编队内全为运输蚁时，小队的战斗技能伤害_增加%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19800,
+"category": 19800,
+"desc": "小队，兵力最低的小队受到的所有伤害减少%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19900,
+"category": 19900,
+"desc": "小队，闪避状态，免疫伤害几率%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 20000,
+"category": 20000,
+"desc": "编队，受到首次攻击时进入闪避状态，免疫伤害",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 22201,
+"category": 22200,
+"desc": "解锁10级近卫蚁_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 22202,
+"category": 22200,
+"desc": "解锁10级射手蚁_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 22203,
+"category": 22200,
+"desc": "解锁10级运输蚁_数值",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 73100,
+"category": 73100,
+"desc": "编队，攻击生化人时，部队攻击增加{0}%",
+"type": 3,
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 16204,
+"category": 16200,
+"desc": "攻城掠夺资源量减少%",
+"type": 2,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 17106,
+"category": 17100,
+"desc": "攻城后（不论胜利失败），一定时间内(s)无法使用防护罩道具",
+"type": 2,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 32200,
+"category": 32200,
+"desc": "小队，普通攻击伤害增加%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32201,
+"category": 32200,
+"desc": "小队，普通攻击伤害增加%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32202,
+"category": 32200,
+"desc": "小队，普通攻击伤害增加%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32203,
+"category": 32200,
+"desc": "小队，普通攻击伤害增加%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39400,
+"category": 39400,
+"desc": "治疗量提升%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39401,
+"category": 39400,
+"desc": "治疗量提升%_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39402,
+"category": 39400,
+"desc": "治疗量提升%_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39403,
+"category": 39400,
+"desc": "治疗量提升%_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39500,
+"category": 39500,
+"desc": "被治疗量提升%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39501,
+"category": 39500,
+"desc": "被治疗量提升%_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39502,
+"category": 39500,
+"desc": "被治疗量提升%_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39503,
+"category": 39500,
+"desc": "被治疗量提升%_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39600,
+"category": 39600,
+"desc": "小队，治疗量提升%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39601,
+"category": 39600,
+"desc": "小队，治疗量提升%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39602,
+"category": 39600,
+"desc": "小队，治疗量提升%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39603,
+"category": 39600,
+"desc": "小队，治疗量提升%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39700,
+"category": 39700,
+"desc": "小队，被治疗量提升%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39701,
+"category": 39700,
+"desc": "小队，被治疗量提升%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39702,
+"category": 39700,
+"desc": "小队，被治疗量提升%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39703,
+"category": 39700,
+"desc": "小队，被治疗量提升%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39800,
+"category": 39800,
+"desc": "编队，治疗量提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39801,
+"category": 39800,
+"desc": "编队，治疗量提升%_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39802,
+"category": 39800,
+"desc": "编队，治疗量提升%_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39803,
+"category": 39800,
+"desc": "编队，治疗量提升%_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39900,
+"category": 39900,
+"desc": "编队，被治疗量提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39901,
+"category": 39900,
+"desc": "编队，被治疗量提升%_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39902,
+"category": 39900,
+"desc": "编队，被治疗量提升%_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39903,
+"category": 39900,
+"desc": "编队，被治疗量提升%_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 17107,
+"category": 17100,
+"desc": "使您的野外采集点进入保护状态，保护您的野外采集点不会被其他蚁巢攻击",
+"type": 1,
+"scope": 0,
+"value_type": 0
+},
+{
+"id": 23200,
+"category": 23200,
+"desc": "守城生命增加_所有兵种%",
+"type": 3,
+"group": [
+40
+],
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 23201,
+"category": 23200,
+"desc": "守城生命增加_近卫蚁%",
+"type": 3,
+"group": [
+40
+],
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 23202,
+"category": 23200,
+"desc": "守城生命增加_射手蚁%",
+"type": 3,
+"group": [
+40
+],
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 23203,
+"category": 23200,
+"desc": "守城生命增加_运输蚁%",
+"type": 3,
+"group": [
+40
+],
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 33100,
+"category": 33100,
+"desc": "小队，受到敌方【压制】时，%概率免除（压制=无法行动）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33200,
+"category": 33200,
+"desc": "小队，受到敌方【沉默】时，%概率免除（沉默=无法释放战斗技能）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 32900,
+"category": 32900,
+"desc": "小队，下次受到伤害时，%概率闪避（免疫伤害）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33300,
+"category": 33300,
+"desc": "若技能命中了敌方后排，则使其下次造成的技能额外伤害降低%（此处效果为buff33400【真】攻方造成技能伤害减少%）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33400,
+"category": 33400,
+"desc": "【真】攻方造成技能伤害减少%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33500,
+"category": 33500,
+"desc": "【真】守方受到技能伤害增加%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33501,
+"category": 33500,
+"desc": "【真】守方受到近卫蚁技能伤害增加%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33502,
+"category": 33500,
+"desc": "【真】守方受到射手蚁技能伤害增加%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33503,
+"category": 33500,
+"desc": "【真】守方受到运输蚁技能伤害增加%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33600,
+"category": 33600,
+"desc": "【真】攻方造成技能伤害增加%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33601,
+"category": 33600,
+"desc": "【真】攻方造成技能伤害增加%_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33602,
+"category": 33600,
+"desc": "【真】攻方造成技能伤害增加%_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33603,
+"category": 33600,
+"desc": "【真】攻方造成技能伤害增加%_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33701,
+"category": 33700,
+"desc": "编队，全为近卫蚁时，普通攻击伤害_增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33702,
+"category": 33700,
+"desc": "编队，全为射手蚁时，普通攻击伤害_增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33703,
+"category": 33700,
+"desc": "编队，全为运输蚁时，普通攻击伤害_增加%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33801,
+"category": 33800,
+"desc": "编队，全为近卫蚁时，近卫蚁攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33802,
+"category": 33800,
+"desc": "编队，全为射手蚁时，射手蚁攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33803,
+"category": 33800,
+"desc": "编队，全为运输蚁时，运输蚁攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33901,
+"category": 33900,
+"desc": "编队，全为近卫蚁时，近卫蚁防御增加%",
+"type": 3,
+"group": [
+39
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33902,
+"category": 33900,
+"desc": "编队，全为射手蚁时，射手蚁防御增加%",
+"type": 3,
+"group": [
+39
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 33903,
+"category": 33900,
+"desc": "编队，全为运输蚁时，运输蚁防御增加%",
+"type": 3,
+"group": [
+39
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34100,
+"category": 34100,
+"desc": "当目标是玩家时，兵蚁等级压制提升%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34200,
+"category": 34200,
+"desc": "蚁后对决中，进攻时攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 34300,
+"category": 34300,
+"desc": "蚁后对决中，进攻时防御增加%",
+"type": 3,
+"group": [
+39
+],
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 34400,
+"category": 34400,
+"desc": "蚁后对决中，进攻时生命增加%",
+"type": 3,
+"group": [
+40
+],
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 34500,
+"category": 34500,
+"desc": "蚁后对决中，防守时攻击增加%",
+"type": 3,
+"group": [
+38
+],
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 34600,
+"category": 34600,
+"desc": "蚁后对决中，防守时防御增加%",
+"type": 3,
+"group": [
+39
+],
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 34700,
+"category": 34700,
+"desc": "蚁后对决中，防守时生命增加%",
+"type": 3,
+"group": [
+40
+],
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 25600,
+"category": 25600,
+"desc": "首次免疫控制",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25601,
+"category": 25600,
+"desc": "首次免疫控制_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25602,
+"category": 25600,
+"desc": "首次免疫控制_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25603,
+"category": 25600,
+"desc": "首次免疫控制_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25700,
+"category": 25700,
+"desc": "免疫控制效果",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25701,
+"category": 25700,
+"desc": "免疫控制效果_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25702,
+"category": 25700,
+"desc": "免疫控制效果_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25703,
+"category": 25700,
+"desc": "免疫控制效果_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25500,
+"category": 25500,
+"desc": "异常状态（缴械）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25800,
+"category": 25800,
+"desc": "追击技能增加伤害",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25900,
+"category": 25900,
+"desc": "连击（二次普通攻击）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26000,
+"category": 26000,
+"desc": "近卫蚁基础攻击增加（模板）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26100,
+"category": 26100,
+"desc": "反击",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26200,
+"category": 26200,
+"desc": "反击后提升攻击力",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26300,
+"category": 26300,
+"desc": "兵力低于50%时，一次性回复兵力值a%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26400,
+"category": 26400,
+"desc": "剧毒状态（持续两回合，刷新）",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26500,
+"category": 26500,
+"desc": "破甲状态（造成伤害时，无视基础防御）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26600,
+"category": 26600,
+"desc": "下次受到伤害减伤",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26700,
+"category": 26700,
+"desc": "剧毒状态沉默",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26800,
+"category": 26800,
+"desc": "造成最终伤害增加",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26900,
+"category": 26900,
+"desc": "造成最终伤害减少",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26901,
+"category": 26900,
+"desc": "造成最终伤害减少_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26902,
+"category": 26900,
+"desc": "造成最终伤害减少_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 26903,
+"category": 26900,
+"desc": "造成最终伤害减少_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27000,
+"category": 27000,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27200,
+"category": 27200,
+"desc": "自身造成的普通攻击伤害_减少_(对敌方)所有兵种%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27201,
+"category": 27200,
+"desc": "自身造成的普通攻击伤害_减少_(对敌方)近卫蚁%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27202,
+"category": 27200,
+"desc": "自身造成的普通攻击伤害_减少_(对敌方)射手蚁%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27203,
+"category": 27200,
+"desc": "自身造成的普通攻击伤害_减少_(对敌方)运输蚁%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27300,
+"category": 27300,
+"desc": "运输蚁所在编队对T10兵蚁伤害增加（幽灵蚁专用）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27100,
+"category": 27100,
+"desc": "T11伤兵治疗速度提升%",
+"type": 1,
+"group": [
+55
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 27101,
+"category": 27100,
+"desc": "T11近卫蚁治疗速度提升%",
+"type": 1,
+"group": [
+55
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 27102,
+"category": 27100,
+"desc": "T11射手蚁治疗速度提升%",
+"type": 1,
+"group": [
+55
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 27103,
+"category": 27100,
+"desc": "T11运输蚁治疗速度提升%",
+"type": 1,
+"group": [
+55
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23300,
+"category": 23300,
+"desc": "T11兵蚁_基础产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23301,
+"category": 23300,
+"desc": "T11近卫蚁_基础产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23302,
+"category": 23300,
+"desc": "T11射手蚁_基础产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23303,
+"category": 23300,
+"desc": "T11运输蚁_基础产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23400,
+"category": 23400,
+"desc": "T11兵蚁_产量加成%",
+"type": 1,
+"group": [
+57
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23401,
+"category": 23400,
+"desc": "T11近卫蚁_产量加成%",
+"type": 1,
+"group": [
+57
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23402,
+"category": 23400,
+"desc": "T11射手蚁_产量加成%",
+"type": 1,
+"group": [
+57
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23403,
+"category": 23400,
+"desc": "T11运输蚁_产量加成%",
+"type": 1,
+"group": [
+57
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23500,
+"category": 23500,
+"desc": "T11兵蚁_额外产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23501,
+"category": 23500,
+"desc": "T11近卫蚁_额外产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23502,
+"category": 23500,
+"desc": "T11射手蚁_额外产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23503,
+"category": 23500,
+"desc": "T11运输蚁_额外产量_数值（个/小时）",
+"type": 1,
+"group": [
+56
+],
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 23600,
+"category": 23600,
+"desc": "T11兵蚁_治疗消耗减少%【资源&蜜露】",
+"type": 1,
+"group": [
+58
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23601,
+"category": 23600,
+"desc": "T11近卫蚁_治疗消耗减少%【资源&蜜露】",
+"type": 1,
+"group": [
+58
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23602,
+"category": 23600,
+"desc": "T11射手蚁_治疗消耗减少%【资源&蜜露】",
+"type": 1,
+"group": [
+58
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23603,
+"category": 23600,
+"desc": "T11运输蚁_治疗消耗减少%【资源&蜜露】",
+"type": 1,
+"group": [
+58
+],
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 23700,
+"category": 23700,
+"desc": "赛季城市战【包含：城市/关卡/码头】攻击加成%",
+"type": 3,
+"group": [
+59
+],
+"attribute_type": 804,
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 23701,
+"category": 23700,
+"desc": "赛季城市战【包含：城市/关卡/码头】防御加成%",
+"type": 3,
+"group": [
+60
+],
+"attribute_type": 805,
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 23702,
+"category": 23700,
+"desc": "赛季城市战【包含：城市/关卡/码头】生命加成%",
+"type": 3,
+"group": [
+61
+],
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 25300,
+"category": 25300,
+"desc": "T11赛季城市战【包含：城市/关卡/码头】攻击加成%",
+"type": 3,
+"group": [
+59
+],
+"attribute_type": 804,
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 25301,
+"category": 25300,
+"desc": "T11赛季城市战【包含：城市/关卡/码头】防御加成%",
+"type": 3,
+"group": [
+60
+],
+"attribute_type": 805,
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 25302,
+"category": 25300,
+"desc": "T11赛季城市战【包含：城市/关卡/码头】生命加成%",
+"type": 3,
+"group": [
+61
+],
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 25400,
+"category": 25400,
+"desc": "T11兵种攻击百分比增加_所有兵种%",
+"type": 3,
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25401,
+"category": 25400,
+"desc": "T11兵种防御百分比增加_所有兵种%",
+"type": 3,
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 25402,
+"category": 25400,
+"desc": "T11兵种生命百分比增加_所有兵种%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 23800,
+"category": 23800,
+"desc": "赛季城市战_破坏值加成%_某队列【需要在参数配置队列id】",
+"type": 1,
+"group": [
+62
+],
+"effective_range": 1,
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 23900,
+"category": 23900,
+"desc": "赛季矿战_破坏值加成%_某队列【需要在参数配置队列id】",
+"type": 1,
+"group": [
+63
+],
+"effective_range": 1,
+"scope": 202,
+"value_type": 2
+},
+{
+"id": 25200,
+"category": 25200,
+"desc": "生命加成%_某队列【需要在参数配置队列id】",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 19500,
+"category": 19500,
+"desc": "赛季资源田耐久值增加%",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 27400,
+"category": 27400,
+"desc": "近卫蚁所在编队对T10兵蚁伤害增加（竞技场/3v3）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27500,
+"category": 27500,
+"desc": "射手蚁所在编队对T10兵蚁伤害增加（竞技场/3v3）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27600,
+"category": 27600,
+"desc": "溅射效果",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27601,
+"category": 27600,
+"desc": "溅射效果_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27602,
+"category": 27600,
+"desc": "溅射效果_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27603,
+"category": 27600,
+"desc": "溅射效果_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27700,
+"category": 27700,
+"desc": "造成剧毒伤害增加",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27800,
+"category": 27800,
+"desc": "对兵力低于a%的敌人造成伤害增加",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27900,
+"category": 27900,
+"desc": "技能2概率+a%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28000,
+"category": 28000,
+"desc": "当我方小队击败敌方小队时，伤害提升a%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28100,
+"category": 28100,
+"desc": "受到治疗效果时，攻击+a%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28200,
+"category": 28200,
+"desc": "受到治疗效果时，防御+a%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28300,
+"category": 28300,
+"desc": "技能攻击增加（可叠加）-红黑细长蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28400,
+"category": 28400,
+"desc": "小队_受到伤害后，普攻伤害提高（可叠加）-尼特纳巨首蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28500,
+"category": 28500,
+"desc": "小队_受到普通攻击伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28501,
+"category": 28500,
+"desc": "小队_近卫蚁受到普通攻击伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28502,
+"category": 28500,
+"desc": "小队_射手蚁受到普通攻击伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28503,
+"category": 28500,
+"desc": "小队_运输蚁受到普通攻击伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28600,
+"category": 28600,
+"desc": "进入战斗时，攻击力将获得（野怪星级*{num}%）提升",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28700,
+"category": 28700,
+"desc": "进入战斗时，防御力将获得（野怪星级*{num}%）提升",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28800,
+"category": 28800,
+"desc": "处于控制状态时，受到伤害减少",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 28900,
+"category": 28900,
+"desc": "英雄“领袖”技能，编队，出征兵力上限增加{0}_数值",
+"type": 1,
+"effective_range": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 29000,
+"category": 29000,
+"desc": "小队_赛季矿战_伤害增加-尼特纳巨首蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 202,
+"value_type": 2
+},
+{
+"id": 81202,
+"category": 81200,
+"desc": "编队，射手蚁行军速度增加{0}%",
+"type": 1,
+"group": [
+24
+],
+"effective_range": 1,
+"scope": 103,
+"value_type": 2
+},
+{
+"id": 29100,
+"category": 29100,
+"desc": "造成最终伤害增加_队列",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 87200,
+"category": 87200,
+"desc": "编队，守城生命增加_所有兵种{0}%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 20502,
+"category": 20500,
+"desc": "编队，战斗速度增加，数值_近卫蚁",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20503,
+"category": 20500,
+"desc": "编队，战斗速度增加，数值_射手蚁",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 20504,
+"category": 20500,
+"desc": "编队，战斗速度增加，数值_运输蚁",
+"type": 3,
+"group": [
+47
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 29200,
+"category": 29200,
+"desc": "【真】攻方造成技能伤害增加%_编队",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29300,
+"category": 29300,
+"desc": "编队，部队战术防御减少{0}%",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29400,
+"category": 29400,
+"desc": "小队_赛季城市战_伤害增加-尼特纳巨首蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 29500,
+"category": 29500,
+"desc": "技能伤害增加（可叠加）-尼特纳巨首蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29600,
+"category": 29600,
+"desc": "受到最终伤害减少-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29601,
+"category": 29600,
+"desc": "受到来自近卫蚁的最终伤害减少-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29602,
+"category": 29600,
+"desc": "受到来自射手蚁的最终伤害减少-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29603,
+"category": 29600,
+"desc": "受到来自运输蚁的最终伤害减少-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29700,
+"category": 29700,
+"desc": "受到最终伤害增加-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29701,
+"category": 29700,
+"desc": "受到来自近卫蚁的最终伤害增加-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29702,
+"category": 29700,
+"desc": "受到来自射手蚁的最终伤害增加-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29703,
+"category": 29700,
+"desc": "受到来自运输蚁的最终伤害增加-BOSS专用",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29800,
+"category": 29800,
+"desc": "兵种攻击百分比增加_所有兵种%（可叠加）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29801,
+"category": 29800,
+"desc": "兵种攻击百分比增加_近卫蚁%（可叠加）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29802,
+"category": 29800,
+"desc": "兵种攻击百分比增加_射手蚁%（可叠加）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29803,
+"category": 29800,
+"desc": "兵种攻击百分比增加_运输蚁%（可叠加）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 29900,
+"category": 29900,
+"desc": "编队，部队防御增加{0}%（可叠加）",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 30000,
+"category": 30000,
+"desc": "编队，部队攻击增加{0}%（可叠加）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 35400,
+"category": 35400,
+"desc": "在联盟起始之地与敌方联盟统领发生战斗时，兵蚁攻击力提升%",
+"type": 3,
+"group": [
+64
+],
+"scope": 203,
+"value_type": 2
+},
+{
+"id": 35500,
+"category": 35500,
+"desc": "在联盟起始之地与敌方联盟统领发生战斗时，兵蚁防御力提升%",
+"type": 3,
+"group": [
+65
+],
+"scope": 203,
+"value_type": 2
+},
+{
+"id": 35600,
+"category": 35600,
+"desc": "在联盟起始之地与敌方联盟统领发生战斗时，兵蚁生命值提升%",
+"type": 3,
+"group": [
+66
+],
+"scope": 203,
+"value_type": 2
+},
+{
+"id": 34800,
+"category": 34800,
+"desc": "小队，反弹普攻伤害",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34801,
+"category": 34800,
+"desc": "小队，反弹普攻伤害_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34802,
+"category": 34800,
+"desc": "小队，反弹普攻伤害_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34803,
+"category": 34800,
+"desc": "小队，反弹普攻伤害_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34900,
+"category": 34900,
+"desc": "小队，反弹技能伤害（dot伤害不可反弹）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34901,
+"category": 34900,
+"desc": "小队，反弹技能伤害_近卫蚁（dot伤害不可反弹）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34902,
+"category": 34900,
+"desc": "小队，反弹技能伤害_射手蚁（dot伤害不可反弹）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 34903,
+"category": 34900,
+"desc": "小队，反弹技能伤害_运输蚁（dot伤害不可反弹）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 35700,
+"category": 35700,
+"desc": "赛季城市战_破坏值加成%_全部队列",
+"type": 1,
+"group": [
+62
+],
+"scope": 201,
+"value_type": 2
+},
+{
+"id": 35800,
+"category": 35800,
+"desc": "野怪饲料生产时自动获得经验，每分钟经验加成",
+"type": 1,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 35900,
+"category": 35900,
+"desc": "发展类蚂蚁技能获取经验值加成",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 36000,
+"category": 36000,
+"desc": "养殖野怪饲料产量加成",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 36100,
+"category": 36100,
+"desc": "小队，狩猎野外生物时伤害提升{num}%",
+"type": 3,
+"effective_range": 2,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 36200,
+"category": 36200,
+"desc": "小队，战胜野外生物后，获得英雄经验增加_百分比%",
+"type": 1,
+"group": [
+21
+],
+"effective_range": 2,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 36300,
+"category": 36300,
+"desc": "小队，战术防御增加{0}%",
+"type": 3,
+"group": [
+44
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 36400,
+"category": 36400,
+"desc": "小队，战术攻击增加{0}%",
+"type": 3,
+"group": [
+43
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 36500,
+"category": 36500,
+"desc": "小队，攻城时防御力增加%",
+"type": 3,
+"group": [
+42
+],
+"effective_range": 2,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 36600,
+"category": 36600,
+"desc": "小队，守城攻击增加_所有兵种{0}%",
+"type": 3,
+"group": [
+48
+],
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 36700,
+"category": 36700,
+"desc": "小队，守城防御增加_所有兵种{0}%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"effective_range": 2,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 36812,
+"category": 36800,
+"desc": "小队，兵种克制_增加近卫蚁对射手蚁的伤害_%",
+"type": 3,
+"group": [
+53
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 36823,
+"category": 36800,
+"desc": "小队，兵种克制_增加射手蚁对运输蚁的伤害_%",
+"type": 3,
+"group": [
+54
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 36831,
+"category": 36800,
+"desc": "小队，兵种克制_增加运输蚁对近卫蚁的伤害_%",
+"type": 3,
+"group": [
+52
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37100,
+"category": 37100,
+"desc": "破甲状态（造成伤害时，无视基础防御）_编队_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37200,
+"category": 37200,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37201,
+"category": 37200,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_近卫蚁_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37202,
+"category": 37200,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_射手蚁_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37203,
+"category": 37200,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_运输蚁_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37300,
+"category": 37300,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37301,
+"category": 37300,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_近卫蚁_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37302,
+"category": 37300,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_射手蚁_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37303,
+"category": 37300,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_运输蚁_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37400,
+"category": 37400,
+"desc": "兵种模板攻击增加_%",
+"type": 3,
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37401,
+"category": 37400,
+"desc": "兵种模板攻击增加_近卫蚁_%",
+"type": 3,
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37402,
+"category": 37400,
+"desc": "兵种模板攻击增加_射手蚁_%",
+"type": 3,
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37403,
+"category": 37400,
+"desc": "兵种模板攻击增加_运输蚁_%",
+"type": 3,
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37500,
+"category": 37500,
+"desc": "兵种模板防御增加_%",
+"type": 3,
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37501,
+"category": 37500,
+"desc": "兵种模板防御增加_近卫蚁_%",
+"type": 3,
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37502,
+"category": 37500,
+"desc": "兵种模板防御增加_射手蚁_%",
+"type": 3,
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37503,
+"category": 37500,
+"desc": "兵种模板防御增加_运输蚁_%",
+"type": 3,
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37600,
+"category": 37600,
+"desc": "兵种模板生命增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37601,
+"category": 37600,
+"desc": "兵种模板生命增加_近卫蚁_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37602,
+"category": 37600,
+"desc": "兵种模板生命增加_射手蚁_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37603,
+"category": 37600,
+"desc": "兵种模板生命增加_运输蚁_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 37700,
+"category": 37700,
+"desc": "攻城生命增加_%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 37701,
+"category": 37700,
+"desc": "攻城生命增加_近卫蚁_%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 37702,
+"category": 37700,
+"desc": "攻城生命增加_射手蚁_%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 37703,
+"category": 37700,
+"desc": "攻城生命增加_运输蚁_%",
+"type": 3,
+"scope": 3,
+"value_type": 2
+},
+{
+"id": 37800,
+"category": 37800,
+"desc": "PVE_对赛季守军攻击增加_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37801,
+"category": 37800,
+"desc": "PVE_对赛季守军攻击增加_近卫蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37802,
+"category": 37800,
+"desc": "PVE_对赛季守军攻击增加_射手蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37803,
+"category": 37800,
+"desc": "PVE_对赛季守军攻击增加_运输蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37900,
+"category": 37900,
+"desc": "PVE_对赛季守军防御增加_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37901,
+"category": 37900,
+"desc": "PVE_对赛季守军防御增加_近卫蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37902,
+"category": 37900,
+"desc": "PVE_对赛季守军防御增加_射手蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 37903,
+"category": 37900,
+"desc": "PVE_对赛季守军防御增加_运输蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 38000,
+"category": 38000,
+"desc": "PVE_对赛季守军生命增加_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 38001,
+"category": 38000,
+"desc": "PVE_对赛季守军生命增加_近卫蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 38002,
+"category": 38000,
+"desc": "PVE_对赛季守军生命增加_射手蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 38003,
+"category": 38000,
+"desc": "PVE_对赛季守军生命增加_运输蚁_%",
+"type": 3,
+"scope": 204,
+"value_type": 2
+},
+{
+"id": 38100,
+"category": 38100,
+"desc": "普通攻击伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38101,
+"category": 38100,
+"desc": "普通攻击伤害增加_近卫蚁_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38102,
+"category": 38100,
+"desc": "普通攻击伤害增加_射手蚁_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38103,
+"category": 38100,
+"desc": "普通攻击伤害增加_运输蚁_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38200,
+"category": 38200,
+"desc": "对土拨鼠伤害增加_%",
+"type": 3,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 38201,
+"category": 38200,
+"desc": "对土拨鼠伤害增加_近卫蚁_%",
+"type": 3,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 38202,
+"category": 38200,
+"desc": "对土拨鼠伤害增加_射手蚁_%",
+"type": 3,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 38203,
+"category": 38200,
+"desc": "对土拨鼠伤害增加_运输蚁_%",
+"type": 3,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 38300,
+"category": 38300,
+"desc": "对穿山甲伤害增加_%",
+"type": 3,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 38301,
+"category": 38300,
+"desc": "对穿山甲伤害增加_近卫蚁_%",
+"type": 3,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 38302,
+"category": 38300,
+"desc": "对穿山甲伤害增加_射手蚁_%",
+"type": 3,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 38303,
+"category": 38300,
+"desc": "对穿山甲伤害增加_运输蚁_%",
+"type": 3,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 38400,
+"category": 38400,
+"desc": "【真】攻方造成技能伤害增加%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38500,
+"category": 38500,
+"desc": "破甲状态（造成伤害时，无视基础防御）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38600,
+"category": 38600,
+"desc": "敌方防御减少（可叠加）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38700,
+"category": 38700,
+"desc": "我方防御增加（可叠加）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38800,
+"category": 38800,
+"desc": "野怪猎场的收益提升_%",
+"type": 1,
+"value_type": 2
+},
+{
+"id": 38900,
+"category": 38900,
+"desc": "所在编队对T10兵蚁伤害增加（可叠加，竞技场/3V3生效）_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38901,
+"category": 38900,
+"desc": "所在编队对T10兵蚁伤害增加（可叠加，竞技场/3V3生效）_近卫蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38902,
+"category": 38900,
+"desc": "所在编队对T10兵蚁伤害增加（可叠加，竞技场/3V3生效）_射手蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38903,
+"category": 38900,
+"desc": "所在编队对T10兵蚁伤害增加（可叠加，竞技场/3V3生效）_运输蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39000,
+"category": 39000,
+"desc": "敌方技能伤害减少_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39100,
+"category": 39100,
+"desc": "受到最终伤害减少",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39101,
+"category": 39100,
+"desc": "受到最终伤害减少_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39102,
+"category": 39100,
+"desc": "受到最终伤害减少_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39103,
+"category": 39100,
+"desc": "受到最终伤害减少_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39200,
+"category": 39200,
+"desc": "单体技能伤害增加（可叠加）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 39300,
+"category": 39300,
+"desc": "群体技能伤害增加（可叠加）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40100,
+"category": 40100,
+"desc": "闪避率提升（可叠加）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40200,
+"category": 40200,
+"desc": "技能5概率+a%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40300,
+"category": 40300,
+"desc": "技能8概率+a%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40400,
+"category": 40400,
+"desc": "技能2概率+a%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40511,
+"category": 40500,
+"desc": "近卫蚁对近卫蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40512,
+"category": 40500,
+"desc": "近卫蚁对射手蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40513,
+"category": 40500,
+"desc": "近卫蚁对运输蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40521,
+"category": 40500,
+"desc": "射手蚁对近卫蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40522,
+"category": 40500,
+"desc": "射手蚁对射手蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40523,
+"category": 40500,
+"desc": "射手蚁对运输蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40531,
+"category": 40500,
+"desc": "运输蚁对近卫蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40532,
+"category": 40500,
+"desc": "运输蚁对射手蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40533,
+"category": 40500,
+"desc": "运输蚁对运输蚁技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43700,
+"category": 43700,
+"desc": "攻击野外生物时，所有单位攻击提升%",
+"type": 3,
+"attribute_type": 804,
+"scope": 14,
+"value_type": 2
+},
+{
+"id": 44200,
+"category": 44200,
+"desc": "进行防守/援助时，兵蚁防御提升，所有兵种%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44300,
+"category": 44300,
+"desc": "进行防守/援助时，兵蚁生命提升，所有兵种%",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42500,
+"category": 42500,
+"desc": "进入战斗时，生命将获得（野怪星级*{num}%）提升",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42501,
+"category": 42500,
+"desc": "进入战斗时，生命将获得（野怪星级*{num}%）提升_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42502,
+"category": 42500,
+"desc": "进入战斗时，生命将获得（野怪星级*{num}%）提升_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42503,
+"category": 42500,
+"desc": "进入战斗时，生命将获得（野怪星级*{num}%）提升_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42600,
+"category": 42600,
+"desc": "进入战斗后，我方全体小队平均生命（战报）的N%转化为攻击力",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42700,
+"category": 42700,
+"desc": "兵种暴击伤害__所有兵种_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42701,
+"category": 42700,
+"desc": "兵种暴击伤害__近卫蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42702,
+"category": 42700,
+"desc": "兵种暴击伤害__射手蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42703,
+"category": 42700,
+"desc": "兵种暴击伤害__运输蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42800,
+"category": 42800,
+"desc": "兵种受到暴击伤害_减少_所有兵种_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42801,
+"category": 42800,
+"desc": "兵种受到暴击伤害_减少_近卫蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42802,
+"category": 42800,
+"desc": "兵种受到暴击伤害_减少_射手蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42803,
+"category": 42800,
+"desc": "兵种受到暴击伤害_减少_运输蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42900,
+"category": 42900,
+"desc": "每损失10%血量，提升攻击力_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43200,
+"category": 43200,
+"desc": "每损失10%血量，提升防御力_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 87001,
+"category": 87000,
+"desc": "编队，守城攻击增加_近卫蚁_%",
+"type": 3,
+"group": [
+48
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 87002,
+"category": 87000,
+"desc": "编队，守城攻击增加_射手蚁_%",
+"type": 3,
+"group": [
+48
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 87003,
+"category": 87000,
+"desc": "编队，守城攻击增加_运输蚁_%",
+"type": 3,
+"group": [
+48
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 87101,
+"category": 87100,
+"desc": "编队，守城防御增加_近卫蚁_%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 87102,
+"category": 87100,
+"desc": "编队，守城防御增加_射手蚁_%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 87103,
+"category": 87100,
+"desc": "编队，守城防御增加_运输蚁_%",
+"type": 3,
+"group": [
+49
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 2,
+"value_type": 2
+},
+{
+"id": 45800,
+"category": 45800,
+"desc": "攻击1到15级野外生物时，所有小队受到的伤害减少x%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 45100,
+"category": 45100,
+"desc": "农场产量增加（农场景观产出）",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 42000,
+"category": 42000,
+"desc": "编队，狩猎野外生物时防御提升{num}%",
+"type": 3,
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 5,
+"value_type": 2
+},
+{
+"id": 47500,
+"category": 47500,
+"desc": "T10,T11兵蚁受到普攻伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47501,
+"category": 47500,
+"desc": "T10,T11兵蚁受到普攻伤害减少_%_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47502,
+"category": 47500,
+"desc": "T10,T11兵蚁受到普攻伤害减少_%_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47503,
+"category": 47500,
+"desc": "T10,T11兵蚁受到普攻伤害减少_%_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47800,
+"category": 47800,
+"desc": "对穿山甲/土坡鼠/赛季兵田的普攻伤害加成_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47911,
+"category": 47900,
+"desc": "兵种克制_近卫蚁对近卫蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47912,
+"category": 47900,
+"desc": "兵种克制_近卫蚁对射手蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47913,
+"category": 47900,
+"desc": "兵种克制_近卫蚁对运输蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47921,
+"category": 47900,
+"desc": "兵种克制_射手蚁对近卫蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47922,
+"category": 47900,
+"desc": "兵种克制_射手蚁对射手蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47923,
+"category": 47900,
+"desc": "兵种克制_射手蚁对运输蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47931,
+"category": 47900,
+"desc": "兵种克制_运输蚁对近卫蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47932,
+"category": 47900,
+"desc": "兵种克制_运输蚁对射手蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47933,
+"category": 47900,
+"desc": "兵种克制_运输蚁对运输蚁的造成最终伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48011,
+"category": 48000,
+"desc": "兵种克制_近卫蚁受到近卫蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48012,
+"category": 48000,
+"desc": "兵种克制_近卫蚁受到射手蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48013,
+"category": 48000,
+"desc": "兵种克制_近卫蚁受到运输蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48021,
+"category": 48000,
+"desc": "兵种克制_射手蚁受到近卫蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48022,
+"category": 48000,
+"desc": "兵种克制_射手蚁受到射手蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48023,
+"category": 48000,
+"desc": "兵种克制_射手蚁受到运输蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48031,
+"category": 48000,
+"desc": "兵种克制_运输蚁受到近卫蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48032,
+"category": 48000,
+"desc": "兵种克制_运输蚁受到射手蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48033,
+"category": 48000,
+"desc": "兵种克制_运输蚁受到运输蚁的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41800,
+"category": 41800,
+"desc": "行军速度-返回%（打野）",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 43300,
+"category": 43300,
+"desc": "每有一只指定兵种小队，编队加攻击%",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43400,
+"category": 43400,
+"desc": "每有一只指定兵种小队，编队加防御%",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43500,
+"category": 43500,
+"desc": "每有一只指定兵种小队，编队加生命%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43600,
+"category": 43600,
+"desc": "免疫控制效果",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43900,
+"category": 43900,
+"desc": "我方小队兵力即将归0时，给予一次治疗",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48300,
+"category": 48300,
+"desc": "解锁阵型克制效果",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48301,
+"category": 48300,
+"desc": "盾射射受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48302,
+"category": 48300,
+"desc": "盾射射受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48303,
+"category": 48300,
+"desc": "盾射射受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48304,
+"category": 48300,
+"desc": "盾射射受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48305,
+"category": 48300,
+"desc": "盾射射受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48306,
+"category": 48300,
+"desc": "盾射射受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48307,
+"category": 48300,
+"desc": "盾射射受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48308,
+"category": 48300,
+"desc": "盾射射受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48309,
+"category": 48300,
+"desc": "盾射射受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48310,
+"category": 48300,
+"desc": "纯盾受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48311,
+"category": 48300,
+"desc": "纯盾受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48312,
+"category": 48300,
+"desc": "纯盾受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48313,
+"category": 48300,
+"desc": "纯盾受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48314,
+"category": 48300,
+"desc": "纯盾受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48315,
+"category": 48300,
+"desc": "纯盾受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48316,
+"category": 48300,
+"desc": "纯盾受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48317,
+"category": 48300,
+"desc": "纯盾受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48318,
+"category": 48300,
+"desc": "纯盾受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48319,
+"category": 48300,
+"desc": "纯盾受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48320,
+"category": 48300,
+"desc": "纯射受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48321,
+"category": 48300,
+"desc": "纯射受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48322,
+"category": 48300,
+"desc": "纯射受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48323,
+"category": 48300,
+"desc": "纯射受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48324,
+"category": 48300,
+"desc": "纯射受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48325,
+"category": 48300,
+"desc": "纯射受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48326,
+"category": 48300,
+"desc": "纯射受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48327,
+"category": 48300,
+"desc": "纯射受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48328,
+"category": 48300,
+"desc": "纯射受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48329,
+"category": 48300,
+"desc": "纯射受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48330,
+"category": 48300,
+"desc": "纯运受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48331,
+"category": 48300,
+"desc": "纯运受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48332,
+"category": 48300,
+"desc": "纯运受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48333,
+"category": 48300,
+"desc": "纯运受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48334,
+"category": 48300,
+"desc": "纯运受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48335,
+"category": 48300,
+"desc": "纯运受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48336,
+"category": 48300,
+"desc": "纯运受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48337,
+"category": 48300,
+"desc": "纯运受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48338,
+"category": 48300,
+"desc": "纯运受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48339,
+"category": 48300,
+"desc": "纯运受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48340,
+"category": 48300,
+"desc": "盾盾运受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48341,
+"category": 48300,
+"desc": "盾盾运受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48342,
+"category": 48300,
+"desc": "盾盾运受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48343,
+"category": 48300,
+"desc": "盾盾运受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48344,
+"category": 48300,
+"desc": "盾盾运受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48345,
+"category": 48300,
+"desc": "盾盾运受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48346,
+"category": 48300,
+"desc": "盾盾运受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48347,
+"category": 48300,
+"desc": "盾盾运受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48348,
+"category": 48300,
+"desc": "盾盾运受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48349,
+"category": 48300,
+"desc": "盾盾运受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48350,
+"category": 48300,
+"desc": "盾盾射受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48351,
+"category": 48300,
+"desc": "盾盾射受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48352,
+"category": 48300,
+"desc": "盾盾射受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48353,
+"category": 48300,
+"desc": "盾盾射受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48354,
+"category": 48300,
+"desc": "盾盾射受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48355,
+"category": 48300,
+"desc": "盾盾射受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48356,
+"category": 48300,
+"desc": "盾盾射受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48357,
+"category": 48300,
+"desc": "盾盾射受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48358,
+"category": 48300,
+"desc": "盾盾射受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48359,
+"category": 48300,
+"desc": "盾盾射受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48360,
+"category": 48300,
+"desc": "盾运射受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48361,
+"category": 48300,
+"desc": "盾运射受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48362,
+"category": 48300,
+"desc": "盾运射受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48363,
+"category": 48300,
+"desc": "盾运射受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48364,
+"category": 48300,
+"desc": "盾运射受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48365,
+"category": 48300,
+"desc": "盾运射受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48366,
+"category": 48300,
+"desc": "盾运射受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48367,
+"category": 48300,
+"desc": "盾运射受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48368,
+"category": 48300,
+"desc": "盾运射受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48369,
+"category": 48300,
+"desc": "盾运射受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48370,
+"category": 48300,
+"desc": "盾运运受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48371,
+"category": 48300,
+"desc": "盾运运受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48372,
+"category": 48300,
+"desc": "盾运运受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48373,
+"category": 48300,
+"desc": "盾运运受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48374,
+"category": 48300,
+"desc": "盾运运受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48375,
+"category": 48300,
+"desc": "盾运运受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48376,
+"category": 48300,
+"desc": "盾运运受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48377,
+"category": 48300,
+"desc": "盾运运受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48378,
+"category": 48300,
+"desc": "盾运运受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48379,
+"category": 48300,
+"desc": "盾运运受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48380,
+"category": 48300,
+"desc": "运射射受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48381,
+"category": 48300,
+"desc": "运射射受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48382,
+"category": 48300,
+"desc": "运射射受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48383,
+"category": 48300,
+"desc": "运射射受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48384,
+"category": 48300,
+"desc": "运射射受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48385,
+"category": 48300,
+"desc": "运射射受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48386,
+"category": 48300,
+"desc": "运射射受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48387,
+"category": 48300,
+"desc": "运射射受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48388,
+"category": 48300,
+"desc": "运射射受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48389,
+"category": 48300,
+"desc": "运射射受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48390,
+"category": 48300,
+"desc": "运运射受到盾射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48391,
+"category": 48300,
+"desc": "运运射受到纯盾的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48392,
+"category": 48300,
+"desc": "运运射受到纯射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48393,
+"category": 48300,
+"desc": "运运射受到纯运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48394,
+"category": 48300,
+"desc": "运运射受到盾盾运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48395,
+"category": 48300,
+"desc": "运运射受到盾盾射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48396,
+"category": 48300,
+"desc": "运运射受到盾运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48397,
+"category": 48300,
+"desc": "运运射受到盾运运的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48398,
+"category": 48300,
+"desc": "运运射受到运射射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48399,
+"category": 48300,
+"desc": "运运射受到运运射的最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 46500,
+"category": 46500,
+"desc": "在阵营所有起始之地与敌方统领发生战斗时，兵蚁攻击提升%",
+"type": 3,
+"group": [
+73
+],
+"scope": 207,
+"value_type": 2
+},
+{
+"id": 46600,
+"category": 46600,
+"desc": "在阵营所有起始之地与敌方统领发生战斗时，兵蚁防御提升%",
+"type": 3,
+"group": [
+74
+],
+"scope": 207,
+"value_type": 2
+},
+{
+"id": 46700,
+"category": 46700,
+"desc": "在阵营所有起始之地与敌方统领发生战斗时，兵蚁生命提升%",
+"type": 3,
+"group": [
+75
+],
+"scope": 207,
+"value_type": 2
+},
+{
+"id": 46800,
+"category": 46800,
+"desc": "在纷争之地与敌方联盟统领发生战斗时，兵蚁攻击力提升%",
+"type": 3,
+"group": [
+76
+],
+"scope": 208,
+"value_type": 2
+},
+{
+"id": 46900,
+"category": 46900,
+"desc": "在纷争之地与敌方联盟统领发生战斗时，兵蚁防御力提升%",
+"type": 3,
+"group": [
+77
+],
+"scope": 208,
+"value_type": 2
+},
+{
+"id": 47000,
+"category": 47000,
+"desc": "在纷争之地与敌方联盟统领发生战斗时，兵蚁生命值提升%",
+"type": 3,
+"group": [
+78
+],
+"scope": 208,
+"value_type": 2
+},
+{
+"id": 41200,
+"category": 41200,
+"desc": "溅射效果（S2赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41201,
+"category": 41200,
+"desc": "溅射效果_近卫蚁（S2赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41202,
+"category": 41200,
+"desc": "溅射效果_射手蚁（S2赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41203,
+"category": 41200,
+"desc": "溅射效果_运输蚁（S2赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41300,
+"category": 41300,
+"desc": "标记易伤效果（S2赛季特化蚁）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41400,
+"category": 41400,
+"desc": "跳过（新）准备回合（S2赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 1
+},
+{
+"id": 43800,
+"category": 43800,
+"desc": "造成最终伤害增加_可叠加",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44600,
+"category": 44600,
+"desc": "异常状态（自身缴械）（S2赛季特化蚁）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45300,
+"category": 45300,
+"desc": "赛季哨塔战【包含：城市/关卡/码头】攻击加成%",
+"type": 3,
+"group": [
+69
+],
+"attribute_type": 804,
+"scope": 206,
+"value_type": 2
+},
+{
+"id": 45400,
+"category": 45400,
+"desc": "赛季哨塔战【包含：城市/关卡/码头】防御加成%",
+"type": 3,
+"group": [
+70
+],
+"attribute_type": 805,
+"scope": 206,
+"value_type": 2
+},
+{
+"id": 45500,
+"category": 45500,
+"desc": "赛季哨塔战【包含：城市/关卡/码头】生命加成%",
+"type": 3,
+"group": [
+71
+],
+"scope": 206,
+"value_type": 2
+},
+{
+"id": 45600,
+"category": 45600,
+"desc": "受到最终伤害减少_可叠加",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45700,
+"category": 45700,
+"desc": "自身小队造成最终伤害增加",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45701,
+"category": 45700,
+"desc": "自身小队对近卫蚁造成的最终伤害增加",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45702,
+"category": 45700,
+"desc": "自身小队对射手蚁造成的最终伤害增加",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45703,
+"category": 45700,
+"desc": "自身小队对运输蚁造成的最终伤害增加",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40201,
+"category": 40200,
+"desc": "技能5概率+a%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40202,
+"category": 40200,
+"desc": "技能5概率+a%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40203,
+"category": 40200,
+"desc": "技能5概率+a%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41500,
+"category": 41500,
+"desc": "（新）剧毒状态（红巨鞭蝎）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42400,
+"category": 42400,
+"desc": "对兵力值高于50%的敌方增加最外层伤害",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45000,
+"category": 45000,
+"desc": "特化蚁技能系数加成_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45001,
+"category": 45000,
+"desc": "特化蚁技能系数加成_近卫蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45002,
+"category": 45000,
+"desc": "特化蚁技能系数加成_射手蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45003,
+"category": 45000,
+"desc": "特化蚁技能系数加成_运输蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44700,
+"category": 44700,
+"desc": "自身小队受到最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44701,
+"category": 44700,
+"desc": "自身小队受到来自近卫蚁的最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44702,
+"category": 44700,
+"desc": "自身小队受到来自射手蚁的最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44703,
+"category": 44700,
+"desc": "自身小队受到来自运输蚁的最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44800,
+"category": 44800,
+"desc": "自身小队造成最终伤害减少",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44801,
+"category": 44800,
+"desc": "自身小队对近卫蚁造成的最终伤害减少",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44802,
+"category": 44800,
+"desc": "自身小队对射手蚁造成的最终伤害减少",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44803,
+"category": 44800,
+"desc": "自身小队对运输蚁造成的最终伤害减少",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44900,
+"category": 44900,
+"desc": "自身小队受到最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44901,
+"category": 44900,
+"desc": "自身小队受到来自近卫蚁的最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44902,
+"category": 44900,
+"desc": "自身小队受到来自射手蚁的最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44903,
+"category": 44900,
+"desc": "自身小队受到来自运输蚁的最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48900,
+"category": 48900,
+"desc": "防守方，受到进攻方最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48901,
+"category": 48900,
+"desc": "防守方，受到进攻方近卫蚁最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48902,
+"category": 48900,
+"desc": "防守方，受到进攻方射手蚁最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48903,
+"category": 48900,
+"desc": "防守方，受到进攻方运输蚁最终伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49300,
+"category": 49300,
+"desc": "使敌方小队攻击降低%_可叠加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43601,
+"category": 43600,
+"desc": "免疫控制效果_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43602,
+"category": 43600,
+"desc": "免疫控制效果_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43603,
+"category": 43600,
+"desc": "免疫控制效果_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27001,
+"category": 27000,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27002,
+"category": 27000,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 27003,
+"category": 27000,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47200,
+"category": 47200,
+"desc": "自身小队防御转化为攻击力_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47300,
+"category": 47300,
+"desc": "小队，下次受到伤害时，%概率抵御（免疫伤害，包括必中伤害）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45101,
+"category": 45100,
+"desc": "农场产量增加（农场装扮产出）",
+"type": 1,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 48100,
+"category": 48100,
+"desc": "美丽蛛蚁觉醒标记_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48800,
+"category": 48800,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48801,
+"category": 48800,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48802,
+"category": 48800,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48803,
+"category": 48800,
+"desc": "【真】攻方造成技能伤害增加%（可叠加）_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48200,
+"category": 48200,
+"desc": "8技能_攻击距离增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48500,
+"category": 48500,
+"desc": "8技能_技能系数加成_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52500,
+"category": 52500,
+"desc": "蚁后对决中，进攻方受到普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52511,
+"category": 52500,
+"desc": "蚁后对决中，进攻方近卫蚁受到近卫蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52512,
+"category": 52500,
+"desc": "蚁后对决中，进攻方近卫蚁受到射手蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52513,
+"category": 52500,
+"desc": "蚁后对决中，进攻方近卫蚁受到运输蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52521,
+"category": 52500,
+"desc": "蚁后对决中，进攻方射手蚁受到近卫蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52522,
+"category": 52500,
+"desc": "蚁后对决中，进攻方射手蚁受到射手蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52523,
+"category": 52500,
+"desc": "蚁后对决中，进攻方射手蚁受到运输蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52531,
+"category": 52500,
+"desc": "蚁后对决中，进攻方运输蚁受到近卫蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52532,
+"category": 52500,
+"desc": "蚁后对决中，进攻方运输蚁受到射手蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 52533,
+"category": 52500,
+"desc": "蚁后对决中，进攻方运输蚁受到运输蚁普通攻击伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 50211,
+"category": 50200,
+"desc": "兵种克制_编队_增加近卫蚁对近卫蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50212,
+"category": 50200,
+"desc": "兵种克制_编队_增加近卫蚁对射手蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50213,
+"category": 50200,
+"desc": "兵种克制_编队_增加近卫蚁对运输蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50221,
+"category": 50200,
+"desc": "兵种克制_编队_增加射手蚁对近卫蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50222,
+"category": 50200,
+"desc": "兵种克制_编队_增加射手蚁对射手蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50223,
+"category": 50200,
+"desc": "兵种克制_编队_增加射手蚁对运输蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50231,
+"category": 50200,
+"desc": "兵种克制_编队_增加运输蚁对近卫蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50232,
+"category": 50200,
+"desc": "兵种克制_编队_增加运输蚁对射手蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50233,
+"category": 50200,
+"desc": "兵种克制_编队_增加运输蚁对运输蚁的伤害_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 45900,
+"category": 45900,
+"desc": "猎手势不可挡标记，防御提升",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 46000,
+"category": 46000,
+"desc": "造成技能伤害时，附带战斗速度*a%的伤害",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 46100,
+"category": 46100,
+"desc": "进入战斗时，战斗速度将获得（野怪星级*{num}）提升",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 46101,
+"category": 46100,
+"desc": "进入战斗时，战斗速度将获得（野怪星级*{num}）提升_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 46102,
+"category": 46100,
+"desc": "进入战斗时，战斗速度将获得（野怪星级*{num}）提升_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 46103,
+"category": 46100,
+"desc": "进入战斗时，战斗速度将获得（野怪星级*{num}）提升_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 46200,
+"category": 46200,
+"desc": "猎手标记，防御减少_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 46300,
+"category": 46300,
+"desc": "我方对猎手标记（46200）的单位造成技能伤害转化为兵力值_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52800,
+"category": 52800,
+"desc": "【真】攻方造成技能伤害增加%（金斑虎甲猎手天赋专用，可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49400,
+"category": 49400,
+"desc": "敌方小队受到最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49401,
+"category": 49400,
+"desc": "敌方近卫小队受到最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49402,
+"category": 49400,
+"desc": "敌方射手小队受到最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49403,
+"category": 49400,
+"desc": "敌方运输小队受到最终伤害增加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44500,
+"category": 44500,
+"desc": "敌方技能伤害减少_小队_%（荧光蚁，S3特化蚁，幽灵蚁觉醒专用）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44501,
+"category": 44500,
+"desc": "敌方技能伤害减少_小队_%（荧光蚁，S3特化蚁，幽灵蚁觉醒专用）_近卫蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44502,
+"category": 44500,
+"desc": "敌方技能伤害减少_小队_%（荧光蚁，S3特化蚁，幽灵蚁觉醒专用）_射手蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44503,
+"category": 44500,
+"desc": "敌方技能伤害减少_小队_%（荧光蚁，S3特化蚁，幽灵蚁觉醒专用）_运输蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48400,
+"category": 48400,
+"desc": "敌方普攻伤害减少_小队_%（可叠加）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48401,
+"category": 48400,
+"desc": "敌方普攻伤害减少_小队_%（可叠加）_近卫蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48402,
+"category": 48400,
+"desc": "敌方普攻伤害减少_小队_%（可叠加）_射手蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48403,
+"category": 48400,
+"desc": "敌方普攻伤害减少_小队_%（可叠加）_运输蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48600,
+"category": 48600,
+"desc": "荧光蝎闪避_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 48700,
+"category": 48700,
+"desc": "每准备或吟唱一回合技能伤害增加（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53700,
+"category": 53700,
+"desc": "小队，战术攻击增加_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11810,
+"category": 11800,
+"desc": "兵种攻击百分比增加_所有兵种%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11811,
+"category": 11800,
+"desc": "兵种攻击百分比增加_近卫蚁%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11812,
+"category": 11800,
+"desc": "兵种攻击百分比增加_射手蚁%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11813,
+"category": 11800,
+"desc": "兵种攻击百分比增加_运输蚁%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49900,
+"category": 49900,
+"desc": "编队_受到普通攻击伤害减少（可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49901,
+"category": 49900,
+"desc": "编队_近卫蚁受到普通攻击伤害减少（可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49902,
+"category": 49900,
+"desc": "编队_射手蚁受到普通攻击伤害减少（可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49903,
+"category": 49900,
+"desc": "编队_运输蚁受到普通攻击伤害减少（可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55000,
+"category": 55000,
+"desc": "编队_兵种暴击几率_所有兵种%（可叠加）",
+"type": 3,
+"group": [
+51
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55001,
+"category": 55000,
+"desc": "编队_兵种暴击几率_近卫蚁%（可叠加）",
+"type": 3,
+"group": [
+51
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55002,
+"category": 55000,
+"desc": "编队_兵种暴击几率_射手蚁%（可叠加）",
+"type": 3,
+"group": [
+51
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55003,
+"category": 55000,
+"desc": "编队_兵种暴击几率_运输蚁%（可叠加）",
+"type": 3,
+"group": [
+51
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47100,
+"category": 47100,
+"desc": "兵种攻击百分比增加_编队_所有兵种%（杰克跳蚁觉醒-可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47400,
+"category": 47400,
+"desc": "兵种攻击百分比增加_小队_所有兵种%（杰克跳蚁觉醒20级效果-可叠加4层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49800,
+"category": 49800,
+"desc": "【真】_编队_受到技能伤害减少%（战术抵抗，可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49801,
+"category": 49800,
+"desc": "【真】_编队_受到技能伤害减少%_近卫蚁（战术抵抗，可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49802,
+"category": 49800,
+"desc": "【真】_编队_受到技能伤害减少%_射手蚁（战术抵抗，可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49803,
+"category": 49800,
+"desc": "【真】_编队_受到技能伤害减少%_运输蚁（战术抵抗，可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12610,
+"category": 12600,
+"desc": "兵种暴击几率_所有兵种%（可叠加5层）",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12611,
+"category": 12600,
+"desc": "兵种暴击几率_近卫蚁%（可叠加5层）",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12612,
+"category": 12600,
+"desc": "兵种暴击几率_射手蚁%（可叠加5层）",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 12613,
+"category": 12600,
+"desc": "兵种暴击几率_运输蚁%（可叠加5层）",
+"type": 3,
+"group": [
+51
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11810,
+"category": 11800,
+"desc": "兵种攻击百分比增加_所有兵种%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11811,
+"category": 11800,
+"desc": "兵种攻击百分比增加_近卫蚁%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11812,
+"category": 11800,
+"desc": "兵种攻击百分比增加_射手蚁%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 11813,
+"category": 11800,
+"desc": "兵种攻击百分比增加_运输蚁%（可叠加5层）",
+"type": 3,
+"group": [
+38
+],
+"attribute_type": 804,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47600,
+"category": 47600,
+"desc": "决斗标记A_我方小队_受到决斗标记B的目标最终伤害降低_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 47700,
+"category": 47700,
+"desc": "决斗标记B_敌方小队_受到决斗标记A的目标最终伤害提升_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38110,
+"category": 38100,
+"desc": "普通攻击伤害增加_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38111,
+"category": 38100,
+"desc": "普通攻击伤害增加_%_小队_近卫蚁（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38112,
+"category": 38100,
+"desc": "普通攻击伤害增加_%_小队_射手蚁（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38113,
+"category": 38100,
+"desc": "普通攻击伤害增加_%_小队_运输蚁（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50500,
+"category": 50500,
+"desc": "琥珀刺椿_闪避成功_攻击加成（最大叠加stack_num层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50600,
+"category": 50600,
+"desc": "琥珀刺椿_闪避成功_防御加成（最大叠加stack_num层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54200,
+"category": 54200,
+"desc": "琥珀刺椿专属闪避",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54300,
+"category": 54300,
+"desc": "首次免疫指定deff",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40800,
+"category": 40800,
+"desc": "小队，敌方治疗量减少%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40801,
+"category": 40800,
+"desc": "小队，敌方治疗量减少%_近卫蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40802,
+"category": 40800,
+"desc": "小队，敌方治疗量减少%_射手蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40803,
+"category": 40800,
+"desc": "小队，敌方治疗量减少%_运输蚁",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53200,
+"category": 53200,
+"desc": "蚁后对决中，防守方受到T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53211,
+"category": 53200,
+"desc": "蚁后对决中，防守方近卫蚁受到近卫蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53212,
+"category": 53200,
+"desc": "蚁后对决中，防守方射手蚁受到近卫蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53213,
+"category": 53200,
+"desc": "蚁后对决中，防守方运输蚁受到近卫蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53221,
+"category": 53200,
+"desc": "蚁后对决中，防守方近卫蚁受到射手蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53222,
+"category": 53200,
+"desc": "蚁后对决中，防守方射手蚁受到射手蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53223,
+"category": 53200,
+"desc": "蚁后对决中，防守方运输蚁受到射手蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53231,
+"category": 53200,
+"desc": "蚁后对决中，防守方近卫蚁受到运输蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53232,
+"category": 53200,
+"desc": "蚁后对决中，防守方射手蚁受到运输蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53233,
+"category": 53200,
+"desc": "蚁后对决中，防守方运输蚁受到运输蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 52900,
+"category": 52900,
+"desc": "闪避率减少（可叠加）_小队_所有兵种%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52901,
+"category": 52900,
+"desc": "闪避率减少（可叠加）_小队_近卫蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52902,
+"category": 52900,
+"desc": "闪避率减少（可叠加）_小队_射手蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52903,
+"category": 52900,
+"desc": "闪避率减少（可叠加）_小队_运输蚁%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49600,
+"category": 49600,
+"desc": "使自身小队攻击降低%_可叠加",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50101,
+"category": 50100,
+"desc": "每有一只近卫小队，编队普攻伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50102,
+"category": 50100,
+"desc": "每有一只射手小队，编队普攻伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50103,
+"category": 50100,
+"desc": "每有一只运输小队，编队普攻伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50104,
+"category": 50100,
+"desc": "每有一只近卫小队，编队技能伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50105,
+"category": 50100,
+"desc": "每有一只射手小队，编队技能伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50106,
+"category": 50100,
+"desc": "每有一只运输小队，编队技能伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50107,
+"category": 50100,
+"desc": "每有一只近卫小队，编队受到普攻伤害和技能伤害减少%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50108,
+"category": 50100,
+"desc": "每有一只射手小队，编队受到普攻伤害和技能伤害减少%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50109,
+"category": 50100,
+"desc": "每有一只运输小队，编队受到普攻伤害和技能伤害减少%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51400,
+"category": 51400,
+"desc": "造成最终伤害增加_%（可叠加5层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51500,
+"category": 51500,
+"desc": "受到最终伤害减少_%（可叠加5层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50900,
+"category": 50900,
+"desc": "小队，战术防御增加_%（可叠加）",
+"type": 3,
+"group": [
+44
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51100,
+"category": 51100,
+"desc": "小队，生命减少_%（可叠加）",
+"type": 4,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53300,
+"category": 53300,
+"desc": "流血机制",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53800,
+"category": 53800,
+"desc": "凶猛核心点_闪避率提升",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53900,
+"category": 53900,
+"desc": "凶猛核心点_攻击力提升",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43801,
+"category": 43800,
+"desc": "造成最终伤害增加_可叠加_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43802,
+"category": 43800,
+"desc": "造成最终伤害增加_可叠加_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43803,
+"category": 43800,
+"desc": "造成最终伤害增加_可叠加_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49711,
+"category": 49700,
+"desc": "兵种克制_编队_近卫蚁受到近卫蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49712,
+"category": 49700,
+"desc": "兵种克制_编队_近卫蚁受到射手蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49713,
+"category": 49700,
+"desc": "兵种克制_编队_近卫蚁受到运输蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49721,
+"category": 49700,
+"desc": "兵种克制_编队_射手蚁受到近卫蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49722,
+"category": 49700,
+"desc": "兵种克制_编队_射手蚁受到射手蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49723,
+"category": 49700,
+"desc": "兵种克制_编队_射手蚁受到运输蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49731,
+"category": 49700,
+"desc": "兵种克制_编队_运输蚁受到近卫蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49732,
+"category": 49700,
+"desc": "兵种克制_编队_运输蚁受到射手蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49733,
+"category": 49700,
+"desc": "兵种克制_编队_运输蚁受到运输蚁的伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50700,
+"category": 50700,
+"desc": "进化技能暴击几率增加%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 50800,
+"category": 50800,
+"desc": "进化技能伤害加成_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44910,
+"category": 44900,
+"desc": "自身受到最终伤害增加（黑骑士龟蚁叠层专用）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43100,
+"category": 43100,
+"desc": "技能系数加成_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43101,
+"category": 43100,
+"desc": "技能系数加成_近卫蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43102,
+"category": 43100,
+"desc": "技能系数加成_射手蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43103,
+"category": 43100,
+"desc": "技能系数加成_运输蚁_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 43110,
+"category": 43100,
+"desc": "下次技能系数加成_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52700,
+"category": 52700,
+"desc": "兵种受到技能暴击伤害_减少_所有兵种%（可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52701,
+"category": 52700,
+"desc": "兵种受到技能暴击伤害_减少_近卫蚁%（可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52702,
+"category": 52700,
+"desc": "兵种受到技能暴击伤害_减少_射手蚁%（可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52703,
+"category": 52700,
+"desc": "兵种受到技能暴击伤害_减少_运输蚁%（可叠加）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57000,
+"category": 57000,
+"desc": "自身小队造成最终伤害增加（可叠加5层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57001,
+"category": 57000,
+"desc": "自身小队对近卫蚁造成的最终伤害增加（可叠加5层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57002,
+"category": 57000,
+"desc": "自身小队对射手蚁造成的最终伤害增加（可叠加5层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57003,
+"category": 57000,
+"desc": "自身小队对运输蚁造成的最终伤害增加（可叠加5层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52100,
+"category": 52100,
+"desc": "在所有赛季区域与敌方联盟统领发生战斗时，兵蚁攻击",
+"type": 3,
+"group": [
+79
+],
+"scope": 210,
+"value_type": 2
+},
+{
+"id": 52200,
+"category": 52200,
+"desc": "在所有赛季区域与敌方联盟统领发生战斗时，兵蚁防御",
+"type": 3,
+"group": [
+80
+],
+"scope": 210,
+"value_type": 2
+},
+{
+"id": 52300,
+"category": 52300,
+"desc": "在所有赛季区域与敌方联盟统领发生战斗时，兵蚁生命",
+"type": 3,
+"group": [
+81
+],
+"scope": 210,
+"value_type": 2
+},
+{
+"id": 12620,
+"category": 12600,
+"desc": "兵种暴击几率_所有兵种%_编队",
+"type": 3,
+"group": [
+51
+],
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51600,
+"category": 51600,
+"desc": "银箭蚁2技能易伤效果_技能伤害提升_%（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51700,
+"category": 51700,
+"desc": "距离每加1_战术攻击加成%（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51800,
+"category": 51800,
+"desc": "计算距离+1（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 51900,
+"category": 51900,
+"desc": "闪避率转化为转技能伤害",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40700,
+"category": 40700,
+"desc": "敌方被治疗量减少%",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40701,
+"category": 40700,
+"desc": "敌方被治疗量减少%_近卫蚁",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40702,
+"category": 40700,
+"desc": "敌方被治疗量减少%_射手蚁",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40703,
+"category": 40700,
+"desc": "敌方被治疗量减少%_运输蚁",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52600,
+"category": 52600,
+"desc": "小队_生命百分比增加_所有兵种%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52601,
+"category": 52600,
+"desc": "小队_生命百分比增加_近卫蚁%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52602,
+"category": 52600,
+"desc": "小队_生命百分比增加_射手蚁%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52603,
+"category": 52600,
+"desc": "小队_生命百分比增加_运输蚁%",
+"type": 3,
+"group": [
+40
+],
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38410,
+"category": 38400,
+"desc": "长菌蚁2技能伤害加成（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 38510,
+"category": 38500,
+"desc": "长菌蚁2技能破甲（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49910,
+"category": 49900,
+"desc": "花斑木蚁受到普通攻击伤害减少（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 52400,
+"category": 52400,
+"desc": "混乱状态",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49810,
+"category": 49800,
+"desc": "红心蚁专用战术抵抗（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53011,
+"category": 53000,
+"desc": "所在编队对T10近卫兵蚁伤害增加（可叠加，竞技场/3V3生效）_近卫蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53012,
+"category": 53000,
+"desc": "所在编队对T10近卫兵蚁伤害增加（可叠加，竞技场/3V3生效）_射手蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53013,
+"category": 53000,
+"desc": "所在编队对T10近卫兵蚁伤害增加（可叠加，竞技场/3V3生效）_运输蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53021,
+"category": 53000,
+"desc": "所在编队对T10射手兵蚁伤害增加（可叠加，竞技场/3V3生效）_近卫蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53022,
+"category": 53000,
+"desc": "所在编队对T10射手兵蚁伤害增加（可叠加，竞技场/3V3生效）_射手蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53023,
+"category": 53000,
+"desc": "所在编队对T10射手兵蚁伤害增加（可叠加，竞技场/3V3生效）_运输蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53031,
+"category": 53000,
+"desc": "所在编队对T10运输兵蚁伤害增加（可叠加，竞技场/3V3生效）_近卫蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53032,
+"category": 53000,
+"desc": "所在编队对T10运输兵蚁伤害增加（可叠加，竞技场/3V3生效）_射手蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53033,
+"category": 53000,
+"desc": "所在编队对T10运输兵蚁伤害增加（可叠加，竞技场/3V3生效）_运输蚁_%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 53100,
+"category": 53100,
+"desc": "蚁后对决中，进攻方T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53111,
+"category": 53100,
+"desc": "蚁后对决中，进攻方近卫蚁对近卫蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53112,
+"category": 53100,
+"desc": "蚁后对决中，进攻方射手蚁对近卫蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53113,
+"category": 53100,
+"desc": "蚁后对决中，进攻方运输蚁对近卫蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53121,
+"category": 53100,
+"desc": "蚁后对决中，进攻方近卫蚁对射手蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53122,
+"category": 53100,
+"desc": "蚁后对决中，进攻方射手蚁对射手蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53123,
+"category": 53100,
+"desc": "蚁后对决中，进攻方运输蚁对射手蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53131,
+"category": 53100,
+"desc": "蚁后对决中，进攻方近卫蚁对运输蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53132,
+"category": 53100,
+"desc": "蚁后对决中，进攻方射手蚁对运输蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53133,
+"category": 53100,
+"desc": "蚁后对决中，进攻方运输蚁对运输蚁T10兵蚁伤害增加_%",
+"type": 3,
+"effective_range": 1,
+"scope": 11,
+"value_type": 2
+},
+{
+"id": 53200,
+"category": 53200,
+"desc": "蚁后对决中，防守方受到T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53211,
+"category": 53200,
+"desc": "蚁后对决中，防守方近卫蚁受到近卫蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53212,
+"category": 53200,
+"desc": "蚁后对决中，防守方射手蚁受到近卫蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53213,
+"category": 53200,
+"desc": "蚁后对决中，防守方运输蚁受到近卫蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53221,
+"category": 53200,
+"desc": "蚁后对决中，防守方近卫蚁受到射手蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53222,
+"category": 53200,
+"desc": "蚁后对决中，防守方射手蚁受到射手蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53223,
+"category": 53200,
+"desc": "蚁后对决中，防守方运输蚁受到射手蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53231,
+"category": 53200,
+"desc": "蚁后对决中，防守方近卫蚁受到运输蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53232,
+"category": 53200,
+"desc": "蚁后对决中，防守方射手蚁受到运输蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53233,
+"category": 53200,
+"desc": "蚁后对决中，防守方运输蚁受到运输蚁T10兵蚁伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53400,
+"category": 53400,
+"desc": "蚁后对决中，受到T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53411,
+"category": 53400,
+"desc": "蚁后对决中，近卫蚁受到近卫蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53412,
+"category": 53400,
+"desc": "蚁后对决中，近卫蚁受到射手蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53413,
+"category": 53400,
+"desc": "蚁后对决中，近卫蚁受到运输蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53421,
+"category": 53400,
+"desc": "蚁后对决中，射手蚁受到近卫蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53422,
+"category": 53400,
+"desc": "蚁后对决中，射手蚁受到射手蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53423,
+"category": 53400,
+"desc": "蚁后对决中，射手蚁受到运输蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53431,
+"category": 53400,
+"desc": "蚁后对决中，运输蚁受到近卫蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53432,
+"category": 53400,
+"desc": "蚁后对决中，运输蚁受到射手蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 53433,
+"category": 53400,
+"desc": "蚁后对决中，运输蚁受到运输蚁T10兵蚁最终伤害增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 54000,
+"category": 54000,
+"desc": "受到敌方普攻最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54001,
+"category": 54000,
+"desc": "受到敌方近卫蚁普攻最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54002,
+"category": 54000,
+"desc": "受到敌方射手蚁普攻最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54003,
+"category": 54000,
+"desc": "受到敌方运输蚁普攻最终伤害减少",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40101,
+"category": 40100,
+"desc": "闪避率提升（可叠加）_小队_近卫蚁%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40102,
+"category": 40100,
+"desc": "闪避率提升（可叠加）_小队_射手蚁%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40103,
+"category": 40100,
+"desc": "闪避率提升（可叠加）_小队_运输蚁%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54100,
+"category": 54100,
+"desc": "编队_造成最终伤害减少（可叠加）",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55113,
+"category": 55100,
+"desc": "兵种克制_近卫蚁受到运输蚁的伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55121,
+"category": 55100,
+"desc": "兵种克制_射手蚁受到近卫蚁的伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55132,
+"category": 55100,
+"desc": "兵种克制_运输蚁受到射手蚁的伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56200,
+"category": 56200,
+"desc": "进攻时，对敌方造成普攻伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56300,
+"category": 56300,
+"desc": "进攻时，对敌方造成技能伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56400,
+"category": 56400,
+"desc": "防守时，对敌方造成普攻伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56500,
+"category": 56500,
+"desc": "防守时，对敌方造成技能伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56800,
+"category": 56800,
+"desc": "若我方编队首回合任意技能未释放，则第二回合该技能的技能概率增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56900,
+"category": 56900,
+"desc": "若我方编队首回合任意技能未释放，则第二回合该技能的技能伤害增加_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60500,
+"category": 60500,
+"desc": "队列耐久恢复速度提升%",
+"type": 1,
+"group": [
+25
+],
+"attribute_type": 806,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 41600,
+"category": 41600,
+"desc": "敌方攻击减少（可叠加）_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 41700,
+"category": 41700,
+"desc": "敌方防御减少（可叠加）_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54900,
+"category": 54900,
+"desc": "控制效果加深",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61600,
+"category": 61600,
+"desc": "编队_兵种闪避_所有兵种%（可叠加）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42200,
+"category": 42200,
+"desc": "寄生效果（红蛛蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42302,
+"category": 42300,
+"desc": "技能暴击几率增加%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60100,
+"category": 60100,
+"desc": "对中毒目标，伤害增加%（最外层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60101,
+"category": 60100,
+"desc": "对中毒目标，伤害增加%_近卫蚁（最外层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60102,
+"category": 60100,
+"desc": "对中毒目标，伤害增加%_射手蚁（最外层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60103,
+"category": 60100,
+"desc": "对中毒目标，伤害增加%_运输蚁（最外层）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49200,
+"category": 49200,
+"desc": "5技能_技能伤害加成_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57300,
+"category": 57300,
+"desc": "潜行状态_暴击伤害提升%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59400,
+"category": 59400,
+"desc": "2技能_技能伤害加成_小队_%（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42300,
+"category": 42300,
+"desc": "技能暴击几率增加%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42301,
+"category": 42300,
+"desc": "技能暴击几率增加%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 42303,
+"category": 42300,
+"desc": "技能暴击几率增加%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49100,
+"category": 49100,
+"desc": "寄生效果所需引爆层数减少（红蛛蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54600,
+"category": 54600,
+"desc": "无视敌方免疫控制效果",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54601,
+"category": 54600,
+"desc": "无视敌方免疫控制效果_近卫蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54602,
+"category": 54600,
+"desc": "无视敌方免疫控制效果_射手蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54603,
+"category": 54600,
+"desc": "无视敌方免疫控制效果_运输蚁",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54700,
+"category": 54700,
+"desc": "自身小队攻击转化为防御力_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54800,
+"category": 54800,
+"desc": "每损失5%血量，提升技能攻击力_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54901,
+"category": 54900,
+"desc": "控制效果加深_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54902,
+"category": 54900,
+"desc": "控制效果加深_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 54903,
+"category": 54900,
+"desc": "控制效果加深_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55800,
+"category": 55800,
+"desc": "野怪攻击增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55900,
+"category": 55900,
+"desc": "野怪防御增加_%",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60400,
+"category": 60400,
+"desc": "【真】野怪技能伤害降低_%",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60401,
+"category": 60400,
+"desc": "【真】野怪技能伤害降低_%，敌方小队为近卫蚁生效",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60402,
+"category": 60400,
+"desc": "【真】野怪技能伤害降低_%，敌方小队为射手蚁生效",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60403,
+"category": 60400,
+"desc": "【真】野怪技能伤害降低_%，敌方小队为运输蚁生效",
+"type": 4,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 64112,
+"category": 64100,
+"desc": "【真】全体射手小队对近卫技能伤害降低_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 64131,
+"category": 64100,
+"desc": "【真】全体近卫小队对运输技能伤害降低_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 64123,
+"category": 64100,
+"desc": "【真】全体运输小队对射手技能伤害降低_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55200,
+"category": 55200,
+"desc": "长足虎蚁专属闪避",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55303,
+"category": 55300,
+"desc": "准备技能暴击几率增加%_运输蚁（3层）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55403,
+"category": 55400,
+"desc": "【真】攻方造成技能伤害增加%_运输蚁（3层）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55533,
+"category": 55500,
+"desc": "蚁后对决中，运输蚁受到运输蚁T10兵蚁最终伤害减少_%",
+"type": 3,
+"effective_range": 1,
+"scope": 12,
+"value_type": 2
+},
+{
+"id": 64500,
+"category": 64500,
+"desc": "赛季体力上限提升_%",
+"type": 1,
+"attribute_type": 810,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 64600,
+"category": 64600,
+"desc": "赛季体力恢复速度提升_%",
+"type": 1,
+"attribute_type": 810,
+"scope": 0,
+"value_type": 2
+},
+{
+"id": 64700,
+"category": 64700,
+"desc": "每12小时可领取赛季体力_个",
+"type": 1,
+"attribute_type": 810,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 64800,
+"category": 64800,
+"desc": "赛季食物使用上限提升_次",
+"type": 1,
+"attribute_type": 810,
+"scope": 0,
+"value_type": 1
+},
+{
+"id": 44400,
+"category": 44400,
+"desc": "敌方技能系数减少_小队_%（可叠加）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44401,
+"category": 44400,
+"desc": "敌方技能系数减少_近卫蚁_小队_%（可叠加）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44402,
+"category": 44400,
+"desc": "敌方技能系数减少_射手蚁_小队_%（可叠加）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 44403,
+"category": 44400,
+"desc": "敌方技能系数减少_运输蚁_小队_%（可叠加）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 66100,
+"category": 66100,
+"desc": "8技能_技能系数减少_小队_%（可叠加）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55600,
+"category": 55600,
+"desc": "进阶技能伤害减少_小队",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55700,
+"category": 55700,
+"desc": "战术防御减少_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56000,
+"category": 56000,
+"desc": "兵种技能暴击伤害__编队_所有兵种%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56100,
+"category": 56100,
+"desc": "兵种暴击伤害__编队_所有兵种%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56700,
+"category": 56700,
+"desc": "被治疗量提升%（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56701,
+"category": 56700,
+"desc": "被治疗量提升%_近卫蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56702,
+"category": 56700,
+"desc": "被治疗量提升%_射手蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 56703,
+"category": 56700,
+"desc": "被治疗量提升%_运输蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57100,
+"category": 57100,
+"desc": "进阶技能伤害提升%（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57101,
+"category": 57100,
+"desc": "进阶技能伤害提升%_近卫蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57102,
+"category": 57100,
+"desc": "进阶技能伤害提升%_射手蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57103,
+"category": 57100,
+"desc": "进阶技能伤害提升%_运输蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57200,
+"category": 57200,
+"desc": "进阶技能伤害提升%",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57201,
+"category": 57200,
+"desc": "进阶技能伤害提升%_近卫蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57202,
+"category": 57200,
+"desc": "进阶技能伤害提升%_射手蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57203,
+"category": 57200,
+"desc": "进阶技能伤害提升%_运输蚁",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57400,
+"category": 57400,
+"desc": "普攻伤害提升%（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57401,
+"category": 57400,
+"desc": "普攻伤害提升%_近卫蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57402,
+"category": 57400,
+"desc": "普攻伤害提升%_射手蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57403,
+"category": 57400,
+"desc": "普攻伤害提升%_运输蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57500,
+"category": 57500,
+"desc": "受到进阶技能伤害降低%（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57501,
+"category": 57500,
+"desc": "受到进阶技能伤害降低%_近卫蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57502,
+"category": 57500,
+"desc": "受到进阶技能伤害降低%_射手蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57503,
+"category": 57500,
+"desc": "受到进阶技能伤害降低%_运输蚁（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57600,
+"category": 57600,
+"desc": "竞技场中，自身小队造成最终伤害降低%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57601,
+"category": 57600,
+"desc": "竞技场中，自身小队对近卫蚁造成最终伤害降低%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57602,
+"category": 57600,
+"desc": "竞技场中，自身小队对射手蚁造成最终伤害降低%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57603,
+"category": 57600,
+"desc": "竞技场中，自身小队对运输蚁造成最终伤害降低%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 55300,
+"category": 55300,
+"desc": "准备技能暴击几率增加%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67500,
+"category": 67500,
+"desc": "对土拨鼠伤害增加_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 67501,
+"category": 67500,
+"desc": "对土拨鼠伤害增加_近卫蚁_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 67502,
+"category": 67500,
+"desc": "对土拨鼠伤害增加_射手蚁_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 67503,
+"category": 67500,
+"desc": "对土拨鼠伤害增加_运输蚁_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 67600,
+"category": 67600,
+"desc": "对穿山甲伤害增加_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 67601,
+"category": 67600,
+"desc": "对穿山甲伤害增加_近卫蚁_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 67602,
+"category": 67600,
+"desc": "对穿山甲伤害增加_射手蚁_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 67603,
+"category": 67600,
+"desc": "对穿山甲伤害增加_运输蚁_%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 67700,
+"category": 67700,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67701,
+"category": 67700,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_近卫蚁_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67702,
+"category": 67700,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_射手蚁_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67703,
+"category": 67700,
+"desc": "小队_造成伤害转为治疗效果（造成伤害方）_运输蚁_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67800,
+"category": 67800,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67801,
+"category": 67800,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_近卫蚁_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67802,
+"category": 67800,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_射手蚁_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67803,
+"category": 67800,
+"desc": "小队_造成伤害转为治疗效果（接受治疗方）_运输蚁_%（不叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67900,
+"category": 67900,
+"desc": "距离每加1_普攻伤害加成%（S3赛季特化蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 49502,
+"category": 49500,
+"desc": "射手小队造成的最终伤害减少",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58000,
+"category": 58000,
+"desc": "腐蚀，敌方防御减少（可叠加）_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58100,
+"category": 58100,
+"desc": "腐蚀，敌方每回合受到伤害_小队_%（伤害量Global：CorrosionDamageIncreasePara）",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58200,
+"category": 58200,
+"desc": "致盲，敌方命中降低_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58300,
+"category": 58300,
+"desc": "敌方有负面状态则伤害提升_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58400,
+"category": 58400,
+"desc": "闪避率提升（叠加3层）_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 65900,
+"category": 65900,
+"desc": "反击伤害提升_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 66300,
+"category": 66300,
+"desc": "敌方攻击减少（最多可叠加5层）_小队_%",
+"type": 4,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 65500,
+"category": 65500,
+"desc": "受到野怪伙伴技能伤害减少_%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61000,
+"category": 61000,
+"desc": "自身小队，获得我方前排小队总属性%的攻击加成",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61200,
+"category": 61200,
+"desc": "指定技能命中敌方射手小队1次，技能伤害率提升%（上限5层）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58600,
+"category": 58600,
+"desc": "对异常状态小队，造成进阶技能伤害增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40303,
+"category": 40300,
+"desc": "技能8概率+a%_运输蚁（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 40403,
+"category": 40400,
+"desc": "技能2概率+a%_运输蚁（可叠加）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57700,
+"category": 57700,
+"desc": "自身小队受到伤害后，将受到的技能伤害的%转移给指定目标（配合57800使用）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 57800,
+"category": 57800,
+"desc": "受到转移伤害的目标（配合57700使用）",
+"type": 3,
+"effective_range": 2,
+"scope": 1
+},
+{
+"id": 57900,
+"category": 57900,
+"desc": "小队，转移伤害减免，百分比%（四赛季近卫蚁）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58700,
+"category": 58700,
+"desc": "敌方有异常状态，受到治疗效果增加_小队_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58800,
+"category": 58800,
+"desc": "兵种防御百分比增加_所有兵种%（上限10层）",
+"type": 3,
+"group": [
+39
+],
+"attribute_type": 805,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 58900,
+"category": 58900,
+"desc": "兵种生命百分比增加_所有兵种%（上限10层）",
+"type": 3,
+"group": [
+40
+],
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61400,
+"category": 61400,
+"desc": "自身小队，闪避率提升%（生效1次）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61500,
+"category": 61500,
+"desc": "自身小队，进阶技能伤害提升%（生效1次）",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67100,
+"category": 67100,
+"desc": "非竞技场外所有场景生效_自身小队造成最终伤害加成_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67101,
+"category": 67100,
+"desc": "非竞技场外所有场景生效_自身小队造成最终伤害加成_%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67102,
+"category": 67100,
+"desc": "非竞技场外所有场景生效_自身小队造成最终伤害加成_%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67103,
+"category": 67100,
+"desc": "非竞技场外所有场景生效_自身小队造成最终伤害加成_%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67200,
+"category": 67200,
+"desc": "非竞技场外所有场景生效_自身小队受到最终伤害减免_%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67201,
+"category": 67200,
+"desc": "非竞技场外所有场景生效_自身小队受到最终伤害减免_%_近卫蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67202,
+"category": 67200,
+"desc": "非竞技场外所有场景生效_自身小队受到最终伤害减免_%_射手蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 67203,
+"category": 67200,
+"desc": "非竞技场外所有场景生效_自身小队受到最终伤害减免_%_运输蚁",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59700,
+"category": 59700,
+"desc": "【普攻伤害】自身小队，获得我方后排小队普攻伤害提升buff量的%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59800,
+"category": 59800,
+"desc": "【真技伤】自身小队，获得我方后排小队真技能伤害提升buff量的%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 59900,
+"category": 59900,
+"desc": "【进阶技伤】自身小队，获得我方后排小队进阶技能伤害提升buff量的%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61300,
+"category": 61300,
+"desc": "己方普攻伤害吸血%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60200,
+"category": 60200,
+"desc": "己方技能伤害吸血%_小队",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60300,
+"category": 60300,
+"desc": "【技能暴击率】自身小队，获得我方后排小队技能暴击几率提升buff量的%",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 60502,
+"category": 60500,
+"desc": "攻击土拨鼠时，伤害减少%，己方小队为射手蚁生效",
+"type": 4,
+"scope": 10,
+"value_type": 2
+},
+{
+"id": 60602,
+"category": 60600,
+"desc": "攻击穿山甲时，伤害减少%，己方小队为射手蚁生效",
+"type": 4,
+"scope": 13,
+"value_type": 2
+},
+{
+"id": 53602,
+"category": 53600,
+"desc": "进攻时，自身对射手蚁最终伤害降低",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 64201,
+"category": 64200,
+"desc": "补给等级Ⅰ范围内，对感染蚁战斗中，全兵蚁攻击提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64202,
+"category": 64200,
+"desc": "补给等级Ⅰ范围内，对感染蚁战斗中，全兵蚁防御提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64203,
+"category": 64200,
+"desc": "补给等级Ⅰ范围内，对感染蚁战斗中，全兵蚁生命提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64301,
+"category": 64300,
+"desc": "补给等级Ⅱ范围内，对感染蚁战斗中，全兵蚁攻击提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64302,
+"category": 64300,
+"desc": "补给等级Ⅱ范围内，对感染蚁战斗中，全兵蚁防御提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64303,
+"category": 64300,
+"desc": "补给等级Ⅱ范围内，对感染蚁战斗中，全兵蚁生命提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64401,
+"category": 64400,
+"desc": "补给等级Ⅲ范围内，对感染蚁战斗中，全兵蚁攻击提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64402,
+"category": 64400,
+"desc": "补给等级Ⅲ范围内，对感染蚁战斗中，全兵蚁防御提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 64403,
+"category": 64400,
+"desc": "补给等级Ⅲ范围内，对感染蚁战斗中，全兵蚁生命提升%",
+"type": 3,
+"value_type": 2
+},
+{
+"id": 61800,
+"category": 61800,
+"desc": "对感染蚁战斗中攻击提升%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 61900,
+"category": 61900,
+"desc": "对感染蚁战斗中防御提升%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62100,
+"category": 62100,
+"desc": "对感染蚁战斗中生命提升%",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62200,
+"category": 62200,
+"desc": "对感染蚁战斗中伤害提升%（压制用，做到外层）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62300,
+"category": 62300,
+"desc": "对感染蚁战斗中免伤提升%（压制用，做到外层）",
+"type": 3,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62400,
+"category": 62400,
+"desc": "感染蚁，编队攻击增加%（假：战报展示）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62500,
+"category": 62500,
+"desc": "感染蚁，编队防御增加%（假：战报展示）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62600,
+"category": 62600,
+"desc": "感染蚁，编队生命增加%（假：战报展示）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62700,
+"category": 62700,
+"desc": "感染蚁，编队技能攻击增加%（假：战报展示）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62800,
+"category": 62800,
+"desc": "感染蚁，编队技能防御增加%（假：战报展示）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 62900,
+"category": 62900,
+"desc": "感染蚁，编队战斗速度增加，数值（假：战报展示）",
+"type": 3,
+"effective_range": 1,
+"scope": 1,
+"value_type": 3
+},
+{
+"id": 63300,
+"category": 63300,
+"desc": "翡翠金龟甲特性技能生效标记",
+"type": 3,
+"scope": 1
+},
+{
+"id": 63200,
+"category": 63200,
+"desc": "对我方造成伤害的敌方单位持续受到%伤害（可叠加）",
+"type": 4,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 63400,
+"category": 63400,
+"desc": "我方小队每损失5%兵力，便提高%生命，持续至战斗结束",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+},
+{
+"id": 63500,
+"category": 63500,
+"desc": "我方小队每损失5%兵力，便提高%防御，持续至战斗结束",
+"type": 3,
+"effective_range": 2,
+"scope": 1,
+"value_type": 2
+}
+]

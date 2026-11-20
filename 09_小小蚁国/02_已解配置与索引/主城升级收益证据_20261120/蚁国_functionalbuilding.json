@@ -1,0 +1,16918 @@
+[
+{
+"id": 4050001,
+"para1": 0,
+"para2": 4,
+"para3": 0,
+"para4": 0,
+"para10": [
+1,
+2,
+4
+],
+"para11": [
+{
+"type": 1,
+"amount": 2
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 2
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050002,
+"para1": 60,
+"para2": 4,
+"para3": 3600,
+"para4": 60,
+"para10": [
+1,
+2,
+4
+],
+"para11": [
+{
+"type": 1,
+"amount": 2
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 2
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050003,
+"para1": 120,
+"para2": 4,
+"para3": 7200,
+"para4": 120,
+"para10": [
+1,
+2,
+4
+],
+"para11": [
+{
+"type": 1,
+"amount": 2
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 2
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050004,
+"para1": 180,
+"para2": 6,
+"para3": 10800,
+"para4": 180,
+"para10": [
+2,
+2,
+7
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050005,
+"para1": 240,
+"para2": 6,
+"para3": 14400,
+"para4": 240,
+"para10": [
+2,
+2,
+7
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050006,
+"para1": 300,
+"para2": 6,
+"para3": 18000,
+"para4": 300,
+"para10": [
+2,
+2,
+7
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 2
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050007,
+"para1": 360,
+"para2": 8,
+"para3": 21600,
+"para4": 360,
+"para10": [
+3,
+2,
+10
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050008,
+"para1": 420,
+"para2": 8,
+"para3": 25200,
+"para4": 420,
+"para10": [
+3,
+2,
+10
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050009,
+"para1": 480,
+"para2": 8,
+"para3": 28800,
+"para4": 480,
+"para10": [
+3,
+2,
+10
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 0
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050010,
+"para1": 540,
+"para2": 10,
+"para3": 32400,
+"para4": 540,
+"para10": [
+4,
+2,
+13
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050011,
+"para1": 570,
+"para2": 10,
+"para3": 34200,
+"para4": 570,
+"para10": [
+4,
+2,
+13
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050012,
+"para1": 600,
+"para2": 10,
+"para3": 36000,
+"para4": 600,
+"para10": [
+4,
+2,
+13
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 0
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 0
+}
+]
+},
+{
+"id": 4050013,
+"para1": 630,
+"para2": 12,
+"para3": 37800,
+"para4": 630,
+"para10": [
+3,
+2,
+16
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 2
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 2
+}
+]
+},
+{
+"id": 4050014,
+"para1": 660,
+"para2": 12,
+"para3": 39600,
+"para4": 660,
+"para10": [
+3,
+2,
+16
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 2
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 2
+}
+]
+},
+{
+"id": 4050015,
+"para1": 690,
+"para2": 12,
+"para3": 41400,
+"para4": 690,
+"para10": [
+3,
+2,
+16
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 2
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 2
+},
+{
+"type": 4,
+"amount": 2
+}
+]
+},
+{
+"id": 4050016,
+"para1": 720,
+"para2": 14,
+"para3": 43200,
+"para4": 720,
+"para10": [
+4,
+2,
+19
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 2
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 2
+}
+]
+},
+{
+"id": 4050017,
+"para1": 750,
+"para2": 14,
+"para3": 45000,
+"para4": 750,
+"para10": [
+4,
+2,
+19
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 2
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 2
+}
+]
+},
+{
+"id": 4050018,
+"para1": 780,
+"para2": 14,
+"para3": 46800,
+"para4": 780,
+"para10": [
+4,
+2,
+19
+],
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 2
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 2
+}
+]
+},
+{
+"id": 4050019,
+"para1": 810,
+"para2": 16,
+"para3": 48600,
+"para4": 810,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4050020,
+"para1": 840,
+"para2": 16,
+"para3": 50400,
+"para4": 840,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4050021,
+"para1": 870,
+"para2": 16,
+"para3": 52200,
+"para4": 870,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4050022,
+"para1": 900,
+"para2": 16,
+"para3": 54000,
+"para4": 900,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4050023,
+"para1": 930,
+"para2": 16,
+"para3": 55800,
+"para4": 930,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4050024,
+"para1": 960,
+"para2": 16,
+"para3": 57600,
+"para4": 960,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4050025,
+"para1": 990,
+"para2": 16,
+"para3": 59400,
+"para4": 990,
+"para11": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 4,
+"amount": 4
+}
+],
+"para16": [
+{
+"type": 1,
+"amount": 4
+},
+{
+"type": 2,
+"amount": 4
+},
+{
+"type": 3,
+"amount": 4
+},
+{
+"type": 5,
+"amount": 1
+},
+{
+"type": 4,
+"amount": 3
+}
+]
+},
+{
+"id": 4025001,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 4025002,
+"para1": 1500,
+"para4": 100
+},
+{
+"id": 4025003,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 4025004,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 4025005,
+"para1": 3300,
+"para4": 100
+},
+{
+"id": 4025006,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 4025007,
+"para1": 6600,
+"para4": 100
+},
+{
+"id": 4025008,
+"para1": 9000,
+"para4": 100
+},
+{
+"id": 4025009,
+"para1": 11400,
+"para4": 100
+},
+{
+"id": 4025010,
+"para1": 13800,
+"para4": 100
+},
+{
+"id": 4025011,
+"para1": 16800,
+"para4": 100
+},
+{
+"id": 4025012,
+"para1": 19800,
+"para4": 100
+},
+{
+"id": 4025013,
+"para1": 22800,
+"para4": 100
+},
+{
+"id": 4025014,
+"para1": 27000,
+"para4": 100
+},
+{
+"id": 4025015,
+"para1": 31500,
+"para4": 100
+},
+{
+"id": 4025016,
+"para1": 36000,
+"para4": 100
+},
+{
+"id": 4025017,
+"para1": 40500,
+"para4": 100
+},
+{
+"id": 4025018,
+"para1": 45000,
+"para4": 100
+},
+{
+"id": 4025019,
+"para1": 51000,
+"para4": 100
+},
+{
+"id": 4025020,
+"para1": 57000,
+"para4": 100
+},
+{
+"id": 4025021,
+"para1": 63000,
+"para4": 100
+},
+{
+"id": 4025022,
+"para1": 69000,
+"para4": 100
+},
+{
+"id": 4025023,
+"para1": 73500,
+"para4": 100
+},
+{
+"id": 4025024,
+"para1": 78000,
+"para4": 100
+},
+{
+"id": 4025025,
+"para1": 82500,
+"para4": 100
+},
+{
+"id": 4026001,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 4026002,
+"para1": 1500,
+"para4": 100
+},
+{
+"id": 4026003,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 4026004,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 4026005,
+"para1": 3300,
+"para4": 100
+},
+{
+"id": 4026006,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 4026007,
+"para1": 6600,
+"para4": 100
+},
+{
+"id": 4026008,
+"para1": 9000,
+"para4": 100
+},
+{
+"id": 4026009,
+"para1": 11400,
+"para4": 100
+},
+{
+"id": 4026010,
+"para1": 13800,
+"para4": 100
+},
+{
+"id": 4026011,
+"para1": 16800,
+"para4": 100
+},
+{
+"id": 4026012,
+"para1": 19800,
+"para4": 100
+},
+{
+"id": 4026013,
+"para1": 22800,
+"para4": 100
+},
+{
+"id": 4026014,
+"para1": 27000,
+"para4": 100
+},
+{
+"id": 4026015,
+"para1": 31500,
+"para4": 100
+},
+{
+"id": 4026016,
+"para1": 36000,
+"para4": 100
+},
+{
+"id": 4026017,
+"para1": 40500,
+"para4": 100
+},
+{
+"id": 4026018,
+"para1": 45000,
+"para4": 100
+},
+{
+"id": 4026019,
+"para1": 51000,
+"para4": 100
+},
+{
+"id": 4026020,
+"para1": 57000,
+"para4": 100
+},
+{
+"id": 4026021,
+"para1": 63000,
+"para4": 100
+},
+{
+"id": 4026022,
+"para1": 69000,
+"para4": 100
+},
+{
+"id": 4026023,
+"para1": 73500,
+"para4": 100
+},
+{
+"id": 4026024,
+"para1": 78000,
+"para4": 100
+},
+{
+"id": 4026025,
+"para1": 82500,
+"para4": 100
+},
+{
+"id": 4027001,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 4027002,
+"para1": 1500,
+"para4": 100
+},
+{
+"id": 4027003,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 4027004,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 4027005,
+"para1": 3300,
+"para4": 100
+},
+{
+"id": 4027006,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 4027007,
+"para1": 6600,
+"para4": 100
+},
+{
+"id": 4027008,
+"para1": 9000,
+"para4": 100
+},
+{
+"id": 4027009,
+"para1": 11400,
+"para4": 100
+},
+{
+"id": 4027010,
+"para1": 13800,
+"para4": 100
+},
+{
+"id": 4027011,
+"para1": 16800,
+"para4": 100
+},
+{
+"id": 4027012,
+"para1": 19800,
+"para4": 100
+},
+{
+"id": 4027013,
+"para1": 22800,
+"para4": 100
+},
+{
+"id": 4027014,
+"para1": 27000,
+"para4": 100
+},
+{
+"id": 4027015,
+"para1": 31500,
+"para4": 100
+},
+{
+"id": 4027016,
+"para1": 36000,
+"para4": 100
+},
+{
+"id": 4027017,
+"para1": 40500,
+"para4": 100
+},
+{
+"id": 4027018,
+"para1": 45000,
+"para4": 100
+},
+{
+"id": 4027019,
+"para1": 51000,
+"para4": 100
+},
+{
+"id": 4027020,
+"para1": 57000,
+"para4": 100
+},
+{
+"id": 4027021,
+"para1": 63000,
+"para4": 100
+},
+{
+"id": 4027022,
+"para1": 69000,
+"para4": 100
+},
+{
+"id": 4027023,
+"para1": 73500,
+"para4": 100
+},
+{
+"id": 4027024,
+"para1": 78000,
+"para4": 100
+},
+{
+"id": 4027025,
+"para1": 82500,
+"para4": 100
+},
+{
+"id": 4028001,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 4028002,
+"para1": 1500,
+"para4": 100
+},
+{
+"id": 4028003,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 4028004,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 4028005,
+"para1": 3300,
+"para4": 100
+},
+{
+"id": 4028006,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 4028007,
+"para1": 6600,
+"para4": 100
+},
+{
+"id": 4028008,
+"para1": 9000,
+"para4": 100
+},
+{
+"id": 4028009,
+"para1": 11400,
+"para4": 100
+},
+{
+"id": 4028010,
+"para1": 13800,
+"para4": 100
+},
+{
+"id": 4028011,
+"para1": 16800,
+"para4": 100
+},
+{
+"id": 4028012,
+"para1": 19800,
+"para4": 100
+},
+{
+"id": 4028013,
+"para1": 22800,
+"para4": 100
+},
+{
+"id": 4028014,
+"para1": 27000,
+"para4": 100
+},
+{
+"id": 4028015,
+"para1": 31500,
+"para4": 100
+},
+{
+"id": 4028016,
+"para1": 36000,
+"para4": 100
+},
+{
+"id": 4028017,
+"para1": 40500,
+"para4": 100
+},
+{
+"id": 4028018,
+"para1": 45000,
+"para4": 100
+},
+{
+"id": 4028019,
+"para1": 51000,
+"para4": 100
+},
+{
+"id": 4028020,
+"para1": 57000,
+"para4": 100
+},
+{
+"id": 4028021,
+"para1": 63000,
+"para4": 100
+},
+{
+"id": 4028022,
+"para1": 69000,
+"para4": 100
+},
+{
+"id": 4028023,
+"para1": 73500,
+"para4": 100
+},
+{
+"id": 4028024,
+"para1": 78000,
+"para4": 100
+},
+{
+"id": 4028025,
+"para1": 82500,
+"para4": 100
+},
+{
+"id": 4060001,
+"para1": 30,
+"para2": 3,
+"para3": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 30
+},
+{
+"index": 2,
+"content": 3
+}
+]
+},
+{
+"id": 4060002,
+"para1": 33,
+"para2": 4,
+"para3": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 33
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4060003,
+"para1": 36,
+"para2": 5,
+"para3": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 36
+},
+{
+"index": 2,
+"content": 5
+}
+]
+},
+{
+"id": 4060004,
+"para1": 39,
+"para2": 6,
+"para3": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 39
+},
+{
+"index": 2,
+"content": 6
+}
+]
+},
+{
+"id": 4060005,
+"para1": 42,
+"para2": 7,
+"para3": 2,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 42
+},
+{
+"index": 2,
+"content": 7
+}
+]
+},
+{
+"id": 4060006,
+"para1": 45,
+"para2": 8,
+"para3": 2,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 45
+},
+{
+"index": 2,
+"content": 8
+}
+]
+},
+{
+"id": 4060007,
+"para1": 48,
+"para2": 9,
+"para3": 2,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 48
+},
+{
+"index": 2,
+"content": 9
+}
+]
+},
+{
+"id": 4060008,
+"para1": 51,
+"para2": 10,
+"para3": 2,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 51
+},
+{
+"index": 2,
+"content": 10
+}
+]
+},
+{
+"id": 4060009,
+"para1": 54,
+"para2": 11,
+"para3": 2,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 54
+},
+{
+"index": 2,
+"content": 11
+}
+]
+},
+{
+"id": 4060010,
+"para1": 57,
+"para2": 12,
+"para3": 3,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 57
+},
+{
+"index": 2,
+"content": 12
+}
+]
+},
+{
+"id": 4060011,
+"para1": 60,
+"para2": 13,
+"para3": 3,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 60
+},
+{
+"index": 2,
+"content": 13
+}
+]
+},
+{
+"id": 4060012,
+"para1": 63,
+"para2": 14,
+"para3": 3,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 63
+},
+{
+"index": 2,
+"content": 14
+}
+]
+},
+{
+"id": 4060013,
+"para1": 66,
+"para2": 15,
+"para3": 3,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 66
+},
+{
+"index": 2,
+"content": 15
+}
+]
+},
+{
+"id": 4060014,
+"para1": 69,
+"para2": 16,
+"para3": 3,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 69
+},
+{
+"index": 2,
+"content": 16
+}
+]
+},
+{
+"id": 4060015,
+"para1": 72,
+"para2": 17,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 72
+},
+{
+"index": 2,
+"content": 17
+}
+]
+},
+{
+"id": 4060016,
+"para1": 75,
+"para2": 18,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 75
+},
+{
+"index": 2,
+"content": 18
+}
+]
+},
+{
+"id": 4060017,
+"para1": 78,
+"para2": 19,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 78
+},
+{
+"index": 2,
+"content": 19
+}
+]
+},
+{
+"id": 4060018,
+"para1": 81,
+"para2": 20,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 81
+},
+{
+"index": 2,
+"content": 20
+}
+]
+},
+{
+"id": 4060019,
+"para1": 84,
+"para2": 21,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 84
+},
+{
+"index": 2,
+"content": 21
+}
+]
+},
+{
+"id": 4060020,
+"para1": 87,
+"para2": 22,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 87
+},
+{
+"index": 2,
+"content": 22
+}
+]
+},
+{
+"id": 4060021,
+"para1": 90,
+"para2": 23,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 90
+},
+{
+"index": 2,
+"content": 23
+}
+]
+},
+{
+"id": 4060022,
+"para1": 93,
+"para2": 24,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 93
+},
+{
+"index": 2,
+"content": 24
+}
+]
+},
+{
+"id": 4060023,
+"para1": 96,
+"para2": 25,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 96
+},
+{
+"index": 2,
+"content": 25
+}
+]
+},
+{
+"id": 4060024,
+"para1": 99,
+"para2": 26,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 99
+},
+{
+"index": 2,
+"content": 26
+}
+]
+},
+{
+"id": 4060025,
+"para1": 102,
+"para2": 27,
+"para3": 4,
+"buff_ids": [
+{
+"index": 1,
+"content": 16801
+},
+{
+"index": 2,
+"content": 16804
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 102
+},
+{
+"index": 2,
+"content": 27
+}
+]
+},
+{
+"id": 4023001,
+"para1": 60,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 60
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023002,
+"para1": 70,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 70
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023003,
+"para1": 80,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 80
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023004,
+"para1": 90,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 90
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023005,
+"para1": 100,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023006,
+"para1": 110,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 110
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023007,
+"para1": 120,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 120
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023008,
+"para1": 130,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 130
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023009,
+"para1": 140,
+"para2": 0,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 140
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4023010,
+"para1": 145,
+"para2": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 145
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4023011,
+"para1": 150,
+"para2": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 150
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4023012,
+"para1": 155,
+"para2": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 155
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4023013,
+"para1": 160,
+"para2": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 160
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4023014,
+"para1": 165,
+"para2": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 165
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4023015,
+"para1": 170,
+"para2": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 170
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4023016,
+"para1": 175,
+"para2": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 175
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4023017,
+"para1": 180,
+"para2": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 180
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4023018,
+"para1": 185,
+"para2": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 185
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4023019,
+"para1": 190,
+"para2": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 190
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4023020,
+"para1": 195,
+"para2": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 195
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4023021,
+"para1": 200,
+"para2": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4023022,
+"para1": 205,
+"para2": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 205
+},
+{
+"index": 2,
+"content": 1000
+}
+]
+},
+{
+"id": 4023023,
+"para1": 210,
+"para2": 1100,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 210
+},
+{
+"index": 2,
+"content": 1100
+}
+]
+},
+{
+"id": 4023024,
+"para1": 215,
+"para2": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 215
+},
+{
+"index": 2,
+"content": 1200
+}
+]
+},
+{
+"id": 4023025,
+"para1": 220,
+"para2": 1300,
+"buff_ids": [
+{
+"index": 1,
+"content": 10600
+},
+{
+"index": 2,
+"content": 10400
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 220
+},
+{
+"index": 2,
+"content": 1300
+}
+]
+},
+{
+"id": 4020001,
+"para1": 0,
+"para8": "Army_Unlock_1",
+"para9": "tank_unlock_tip_1",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+}
+]
+},
+{
+"id": 4020002,
+"para1": 0,
+"para8": "Army_Unlock_2",
+"para9": "tank_unlock_tip_2",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+}
+]
+},
+{
+"id": 4020003,
+"para1": 50,
+"para9": "tank_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 50
+}
+]
+},
+{
+"id": 4020004,
+"para1": 100,
+"para9": "tank_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4020005,
+"para1": 100,
+"para8": "Army_Unlock_3",
+"para9": "tank_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4020006,
+"para1": 150,
+"para9": "tank_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 150
+}
+]
+},
+{
+"id": 4020007,
+"para1": 200,
+"para9": "tank_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+}
+]
+},
+{
+"id": 4020008,
+"para1": 250,
+"para9": "tank_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 250
+}
+]
+},
+{
+"id": 4020009,
+"para1": 300,
+"para9": "tank_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4020010,
+"para1": 300,
+"para8": "Army_Unlock_4",
+"para9": "tank_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4020011,
+"para1": 350,
+"para9": "tank_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 350
+}
+]
+},
+{
+"id": 4020012,
+"para1": 400,
+"para9": "tank_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4020013,
+"para1": 400,
+"para8": "Army_Unlock_5",
+"para9": "tank_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4020014,
+"para1": 450,
+"para9": "tank_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 450
+}
+]
+},
+{
+"id": 4020015,
+"para1": 500,
+"para9": "tank_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4020016,
+"para1": 500,
+"para8": "Army_Unlock_6",
+"para9": "tank_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4020017,
+"para1": 550,
+"para9": "tank_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 550
+}
+]
+},
+{
+"id": 4020018,
+"para1": 600,
+"para9": "tank_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4020019,
+"para1": 600,
+"para8": "Army_Unlock_7",
+"para9": "tank_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4020020,
+"para1": 650,
+"para9": "tank_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 650
+}
+]
+},
+{
+"id": 4020021,
+"para1": 700,
+"para9": "tank_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4020022,
+"para1": 700,
+"para8": "Army_Unlock_8",
+"para9": "tank_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4020023,
+"para1": 750,
+"para9": "tank_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 750
+}
+]
+},
+{
+"id": 4020024,
+"para1": 800,
+"para9": "tank_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+}
+]
+},
+{
+"id": 4020025,
+"para1": 850,
+"para9": "tank_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10601
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 850
+}
+]
+},
+{
+"id": 4021001,
+"para1": 0,
+"para8": "Army_Unlock_11",
+"para9": "apc_unlock_tip_1",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+}
+]
+},
+{
+"id": 4021002,
+"para1": 0,
+"para8": "Army_Unlock_12",
+"para9": "apc_unlock_tip_2",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+}
+]
+},
+{
+"id": 4021003,
+"para1": 50,
+"para9": "apc_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 50
+}
+]
+},
+{
+"id": 4021004,
+"para1": 100,
+"para9": "apc_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4021005,
+"para1": 100,
+"para8": "Army_Unlock_13",
+"para9": "apc_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4021006,
+"para1": 150,
+"para9": "apc_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 150
+}
+]
+},
+{
+"id": 4021007,
+"para1": 200,
+"para9": "apc_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+}
+]
+},
+{
+"id": 4021008,
+"para1": 250,
+"para9": "apc_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 250
+}
+]
+},
+{
+"id": 4021009,
+"para1": 300,
+"para9": "apc_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4021010,
+"para1": 300,
+"para8": "Army_Unlock_14",
+"para9": "apc_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4021011,
+"para1": 350,
+"para9": "apc_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 350
+}
+]
+},
+{
+"id": 4021012,
+"para1": 400,
+"para9": "apc_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4021013,
+"para1": 400,
+"para8": "Army_Unlock_15",
+"para9": "apc_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4021014,
+"para1": 450,
+"para9": "apc_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 450
+}
+]
+},
+{
+"id": 4021015,
+"para1": 500,
+"para9": "apc_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4021016,
+"para1": 500,
+"para8": "Army_Unlock_16",
+"para9": "apc_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4021017,
+"para1": 550,
+"para9": "apc_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 550
+}
+]
+},
+{
+"id": 4021018,
+"para1": 600,
+"para9": "apc_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4021019,
+"para1": 600,
+"para8": "Army_Unlock_17",
+"para9": "apc_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4021020,
+"para1": 650,
+"para9": "apc_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 650
+}
+]
+},
+{
+"id": 4021021,
+"para1": 700,
+"para9": "apc_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4021022,
+"para1": 700,
+"para8": "Army_Unlock_18",
+"para9": "apc_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4021023,
+"para1": 750,
+"para9": "apc_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 750
+}
+]
+},
+{
+"id": 4021024,
+"para1": 800,
+"para9": "apc_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+}
+]
+},
+{
+"id": 4021025,
+"para1": 850,
+"para9": "apc_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10602
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 850
+}
+]
+},
+{
+"id": 4022001,
+"para1": 0,
+"para8": "Army_Unlock_21",
+"para9": "helicopter_unlock_tip_1",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+}
+]
+},
+{
+"id": 4022002,
+"para1": 0,
+"para8": "Army_Unlock_22",
+"para9": "helicopter_unlock_tip_2",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+}
+]
+},
+{
+"id": 4022003,
+"para1": 50,
+"para9": "helicopter_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 50
+}
+]
+},
+{
+"id": 4022004,
+"para1": 100,
+"para9": "helicopter_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4022005,
+"para1": 100,
+"para8": "Army_Unlock_23",
+"para9": "helicopter_unlock_tip_3",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4022006,
+"para1": 150,
+"para9": "helicopter_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 150
+}
+]
+},
+{
+"id": 4022007,
+"para1": 200,
+"para9": "helicopter_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+}
+]
+},
+{
+"id": 4022008,
+"para1": 250,
+"para9": "helicopter_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 250
+}
+]
+},
+{
+"id": 4022009,
+"para1": 300,
+"para9": "helicopter_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4022010,
+"para1": 300,
+"para8": "Army_Unlock_24",
+"para9": "helicopter_unlock_tip_4",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4022011,
+"para1": 350,
+"para9": "helicopter_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 350
+}
+]
+},
+{
+"id": 4022012,
+"para1": 400,
+"para9": "helicopter_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4022013,
+"para1": 400,
+"para8": "Army_Unlock_25",
+"para9": "helicopter_unlock_tip_5",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4022014,
+"para1": 450,
+"para9": "helicopter_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 450
+}
+]
+},
+{
+"id": 4022015,
+"para1": 500,
+"para9": "helicopter_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4022016,
+"para1": 500,
+"para8": "Army_Unlock_26",
+"para9": "helicopter_unlock_tip_6",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4022017,
+"para1": 550,
+"para9": "helicopter_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 550
+}
+]
+},
+{
+"id": 4022018,
+"para1": 600,
+"para9": "helicopter_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4022019,
+"para1": 600,
+"para8": "Army_Unlock_27",
+"para9": "helicopter_unlock_tip_7",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4022020,
+"para1": 650,
+"para9": "helicopter_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 650
+}
+]
+},
+{
+"id": 4022021,
+"para1": 700,
+"para9": "helicopter_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4022022,
+"para1": 700,
+"para8": "Army_Unlock_28",
+"para9": "helicopter_unlock_tip_8",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4022023,
+"para1": 750,
+"para9": "helicopter_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 750
+}
+]
+},
+{
+"id": 4022024,
+"para1": 800,
+"para9": "helicopter_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+}
+]
+},
+{
+"id": 4022025,
+"para1": 850,
+"para9": "helicopter_unlock_tip_9",
+"buff_ids": [
+{
+"index": 1,
+"content": 10603
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 850
+}
+]
+},
+{
+"id": 4029001,
+"para1": 2000
+},
+{
+"id": 4029002,
+"para1": 3000
+},
+{
+"id": 4029003,
+"para1": 4000
+},
+{
+"id": 4029004,
+"para1": 5000
+},
+{
+"id": 4029005,
+"para1": 6000
+},
+{
+"id": 4029006,
+"para1": 7000
+},
+{
+"id": 4029007,
+"para1": 8000
+},
+{
+"id": 4029008,
+"para1": 9000
+},
+{
+"id": 4029009,
+"para1": 10000
+},
+{
+"id": 4029010,
+"para1": 11000
+},
+{
+"id": 4029011,
+"para1": 12000
+},
+{
+"id": 4029012,
+"para1": 13000
+},
+{
+"id": 4029013,
+"para1": 14000
+},
+{
+"id": 4029014,
+"para1": 15000
+},
+{
+"id": 4029015,
+"para1": 16000
+},
+{
+"id": 4029016,
+"para1": 17000
+},
+{
+"id": 4029017,
+"para1": 18000
+},
+{
+"id": 4029018,
+"para1": 19000
+},
+{
+"id": 4029019,
+"para1": 20000
+},
+{
+"id": 4029020,
+"para1": 21000
+},
+{
+"id": 4029021,
+"para1": 22000
+},
+{
+"id": 4029022,
+"para1": 23000
+},
+{
+"id": 4029023,
+"para1": 24000
+},
+{
+"id": 4029024,
+"para1": 25000
+},
+{
+"id": 4029025,
+"para1": 26000
+},
+{
+"id": 4090001,
+"para1": 10,
+"para2": 100,
+"para3": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4090002,
+"para1": 12,
+"para2": 200,
+"para3": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4090003,
+"para1": 15,
+"para2": 300,
+"para3": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4090004,
+"para1": 17,
+"para2": 400,
+"para3": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4090005,
+"para1": 20,
+"para2": 500,
+"para3": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4090006,
+"para1": 22,
+"para2": 600,
+"para3": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4090007,
+"para1": 25,
+"para2": 700,
+"para3": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4090008,
+"para1": 28,
+"para2": 800,
+"para3": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4090009,
+"para1": 30,
+"para2": 900,
+"para3": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 900
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4090010,
+"para1": 33,
+"para2": 1000,
+"para3": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 1000
+}
+]
+},
+{
+"id": 4090011,
+"para1": 36,
+"para2": 1100,
+"para3": 1100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1100
+},
+{
+"index": 2,
+"content": 1100
+}
+]
+},
+{
+"id": 4090012,
+"para1": 39,
+"para2": 1200,
+"para3": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+},
+{
+"index": 2,
+"content": 1200
+}
+]
+},
+{
+"id": 4090013,
+"para1": 42,
+"para2": 1300,
+"para3": 1300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1300
+},
+{
+"index": 2,
+"content": 1300
+}
+]
+},
+{
+"id": 4090014,
+"para1": 45,
+"para2": 1400,
+"para3": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+},
+{
+"index": 2,
+"content": 1400
+}
+]
+},
+{
+"id": 4090015,
+"para1": 48,
+"para2": 1500,
+"para3": 1500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1500
+}
+]
+},
+{
+"id": 4090016,
+"para1": 51,
+"para2": 1600,
+"para3": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+},
+{
+"index": 2,
+"content": 1600
+}
+]
+},
+{
+"id": 4090017,
+"para1": 54,
+"para2": 1700,
+"para3": 1700,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1700
+},
+{
+"index": 2,
+"content": 1700
+}
+]
+},
+{
+"id": 4090018,
+"para1": 57,
+"para2": 1800,
+"para3": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+},
+{
+"index": 2,
+"content": 1800
+}
+]
+},
+{
+"id": 4090019,
+"para1": 60,
+"para2": 1900,
+"para3": 1900,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1900
+},
+{
+"index": 2,
+"content": 1900
+}
+]
+},
+{
+"id": 4090020,
+"para1": 66,
+"para2": 2000,
+"para3": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 2000
+}
+]
+},
+{
+"id": 4090021,
+"para1": 72,
+"para2": 2100,
+"para3": 2100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2100
+},
+{
+"index": 2,
+"content": 2100
+}
+]
+},
+{
+"id": 4090022,
+"para1": 78,
+"para2": 2200,
+"para3": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+},
+{
+"index": 2,
+"content": 2200
+}
+]
+},
+{
+"id": 4090023,
+"para1": 84,
+"para2": 2300,
+"para3": 2300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2300
+},
+{
+"index": 2,
+"content": 2300
+}
+]
+},
+{
+"id": 4090024,
+"para1": 90,
+"para2": 2400,
+"para3": 2400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2400
+},
+{
+"index": 2,
+"content": 2400
+}
+]
+},
+{
+"id": 4090025,
+"para1": 95,
+"para2": 2500,
+"para3": 2500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 35900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2500
+},
+{
+"index": 2,
+"content": 2500
+}
+]
+},
+{
+"id": 4051001,
+"para1": 1150,
+"para2": 100,
+"para3": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4051002,
+"para1": 1200,
+"para2": 200,
+"para3": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4051003,
+"para1": 1250,
+"para2": 300,
+"para3": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4051004,
+"para1": 1300,
+"para2": 400,
+"para3": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4051005,
+"para1": 1350,
+"para2": 500,
+"para3": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4051006,
+"para1": 1400,
+"para2": 600,
+"para3": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4051007,
+"para1": 1450,
+"para2": 700,
+"para3": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4051008,
+"para1": 1500,
+"para2": 800,
+"para3": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4051009,
+"para1": 1550,
+"para2": 900,
+"para3": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 900
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4051010,
+"para1": 1600,
+"para2": 1000,
+"para3": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 1000
+}
+]
+},
+{
+"id": 4051011,
+"para1": 1650,
+"para2": 1100,
+"para3": 1100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1100
+},
+{
+"index": 2,
+"content": 1100
+}
+]
+},
+{
+"id": 4051012,
+"para1": 1700,
+"para2": 1200,
+"para3": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+},
+{
+"index": 2,
+"content": 1200
+}
+]
+},
+{
+"id": 4051013,
+"para1": 1800,
+"para2": 1300,
+"para3": 1300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1300
+},
+{
+"index": 2,
+"content": 1300
+}
+]
+},
+{
+"id": 4051014,
+"para1": 1900,
+"para2": 1400,
+"para3": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+},
+{
+"index": 2,
+"content": 1400
+}
+]
+},
+{
+"id": 4051015,
+"para1": 2000,
+"para2": 1500,
+"para3": 1500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1500
+}
+]
+},
+{
+"id": 4051016,
+"para1": 2100,
+"para2": 1600,
+"para3": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+},
+{
+"index": 2,
+"content": 1600
+}
+]
+},
+{
+"id": 4051017,
+"para1": 2200,
+"para2": 1700,
+"para3": 1700,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1700
+},
+{
+"index": 2,
+"content": 1700
+}
+]
+},
+{
+"id": 4051018,
+"para1": 2300,
+"para2": 1800,
+"para3": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+},
+{
+"index": 2,
+"content": 1800
+}
+]
+},
+{
+"id": 4051019,
+"para1": 2400,
+"para2": 1900,
+"para3": 1900,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1900
+},
+{
+"index": 2,
+"content": 1900
+}
+]
+},
+{
+"id": 4051020,
+"para1": 2500,
+"para2": 2000,
+"para3": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 2000
+}
+]
+},
+{
+"id": 4051021,
+"para1": 2600,
+"para2": 2100,
+"para3": 2100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2100
+},
+{
+"index": 2,
+"content": 2100
+}
+]
+},
+{
+"id": 4051022,
+"para1": 2700,
+"para2": 2200,
+"para3": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+},
+{
+"index": 2,
+"content": 2200
+}
+]
+},
+{
+"id": 4051023,
+"para1": 2800,
+"para2": 2300,
+"para3": 2300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2300
+},
+{
+"index": 2,
+"content": 2300
+}
+]
+},
+{
+"id": 4051024,
+"para1": 2900,
+"para2": 2400,
+"para3": 2400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2400
+},
+{
+"index": 2,
+"content": 2400
+}
+]
+},
+{
+"id": 4051025,
+"para1": 3000,
+"para2": 2500,
+"para3": 2500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2500
+},
+{
+"index": 2,
+"content": 2500
+}
+]
+},
+{
+"id": 4052001,
+"para1": 45
+},
+{
+"id": 4052002,
+"para1": 59
+},
+{
+"id": 4052003,
+"para1": 74
+},
+{
+"id": 4052004,
+"para1": 83
+},
+{
+"id": 4052005,
+"para1": 122
+},
+{
+"id": 4052006,
+"para1": 187
+},
+{
+"id": 4052007,
+"para1": 292
+},
+{
+"id": 4052008,
+"para1": 450
+},
+{
+"id": 4052009,
+"para1": 677
+},
+{
+"id": 4052010,
+"para1": 992
+},
+{
+"id": 4052011,
+"para1": 1415
+},
+{
+"id": 4052012,
+"para1": 1969
+},
+{
+"id": 4052013,
+"para1": 2679
+},
+{
+"id": 4052014,
+"para1": 3571
+},
+{
+"id": 4052015,
+"para1": 4676
+},
+{
+"id": 4052016,
+"para1": 6023
+},
+{
+"id": 4052017,
+"para1": 7648
+},
+{
+"id": 4052018,
+"para1": 9584
+},
+{
+"id": 4052019,
+"para1": 11871
+},
+{
+"id": 4052020,
+"para1": 14548
+},
+{
+"id": 4052021,
+"para1": 17657
+},
+{
+"id": 4052022,
+"para1": 21243
+},
+{
+"id": 4052023,
+"para1": 25351
+},
+{
+"id": 4052024,
+"para1": 30031
+},
+{
+"id": 4052025,
+"para1": 35334
+},
+{
+"id": 4091001,
+"para1": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+}
+]
+},
+{
+"id": 4091002,
+"para1": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+}
+]
+},
+{
+"id": 4091003,
+"para1": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+}
+]
+},
+{
+"id": 4091004,
+"para1": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+}
+]
+},
+{
+"id": 4091005,
+"para1": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4091006,
+"para1": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+}
+]
+},
+{
+"id": 4091007,
+"para1": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+}
+]
+},
+{
+"id": 4091008,
+"para1": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+}
+]
+},
+{
+"id": 4091009,
+"para1": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 900
+}
+]
+},
+{
+"id": 4091010,
+"para1": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+}
+]
+},
+{
+"id": 4091011,
+"para1": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+}
+]
+},
+{
+"id": 4091012,
+"para1": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+}
+]
+},
+{
+"id": 4091013,
+"para1": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+}
+]
+},
+{
+"id": 4091014,
+"para1": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+}
+]
+},
+{
+"id": 4091015,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4091016,
+"para1": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+}
+]
+},
+{
+"id": 4091017,
+"para1": 2400,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2400
+}
+]
+},
+{
+"id": 4091018,
+"para1": 2600,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2600
+}
+]
+},
+{
+"id": 4091019,
+"para1": 2800,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2800
+}
+]
+},
+{
+"id": 4091020,
+"para1": 3000,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3000
+}
+]
+},
+{
+"id": 4091021,
+"para1": 3200,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3200
+}
+]
+},
+{
+"id": 4091022,
+"para1": 3400,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3400
+}
+]
+},
+{
+"id": 4091023,
+"para1": 3600,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3600
+}
+]
+},
+{
+"id": 4091024,
+"para1": 3800,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3800
+}
+]
+},
+{
+"id": 4091025,
+"para1": 4000,
+"buff_ids": [
+{
+"index": 1,
+"content": 11522
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4000
+}
+]
+},
+{
+"id": 4003001,
+"para1": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4003002,
+"para1": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4003003,
+"para1": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+}
+]
+},
+{
+"id": 4003004,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4003005,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4003006,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4003007,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4003008,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4003009,
+"para1": 4500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4500
+}
+]
+},
+{
+"id": 4003010,
+"para1": 4500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4500
+}
+]
+},
+{
+"id": 4003011,
+"para1": 4500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4500
+}
+]
+},
+{
+"id": 4003012,
+"para1": 4500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4500
+}
+]
+},
+{
+"id": 4003013,
+"para1": 4500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4500
+}
+]
+},
+{
+"id": 4003014,
+"para1": 7500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 7500
+}
+]
+},
+{
+"id": 4003015,
+"para1": 7500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 7500
+}
+]
+},
+{
+"id": 4003016,
+"para1": 7500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 7500
+}
+]
+},
+{
+"id": 4003017,
+"para1": 7500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 7500
+}
+]
+},
+{
+"id": 4003018,
+"para1": 7500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 7500
+}
+]
+},
+{
+"id": 4003019,
+"para1": 7500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 7500
+}
+]
+},
+{
+"id": 4003020,
+"para1": 10000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10000
+}
+]
+},
+{
+"id": 4003021,
+"para1": 10000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10000
+}
+]
+},
+{
+"id": 4003022,
+"para1": 10000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10000
+}
+]
+},
+{
+"id": 4003023,
+"para1": 10000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10000
+}
+]
+},
+{
+"id": 4003024,
+"para1": 10000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10000
+}
+]
+},
+{
+"id": 4003025,
+"para1": 10000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16001
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10000
+}
+]
+},
+{
+"id": 4053001,
+"para8": "Radar_details_1"
+},
+{
+"id": 4053002,
+"para8": "Radar_details_2"
+},
+{
+"id": 4053003,
+"para8": "Radar_details_3"
+},
+{
+"id": 4053004,
+"para8": "Radar_details_4"
+},
+{
+"id": 4053005,
+"para8": "Radar_details_5"
+},
+{
+"id": 4053006,
+"para8": "Radar_details_6"
+},
+{
+"id": 4053007,
+"para8": "Radar_details_7"
+},
+{
+"id": 4053008,
+"para8": "Radar_details_8"
+},
+{
+"id": 4053009,
+"para8": "Radar_details_9"
+},
+{
+"id": 4053010,
+"para8": "Radar_details_10"
+},
+{
+"id": 4053011,
+"para8": "Radar_details_11"
+},
+{
+"id": 4053012,
+"para8": "Radar_details_12"
+},
+{
+"id": 4053013,
+"para8": "Radar_details_13"
+},
+{
+"id": 4053014,
+"para8": "Radar_details_14"
+},
+{
+"id": 4053015,
+"para8": "Radar_details_15"
+},
+{
+"id": 4053016,
+"para8": "Radar_details_16"
+},
+{
+"id": 4053017,
+"para8": "Radar_details_17"
+},
+{
+"id": 4053018,
+"para8": "Radar_details_18"
+},
+{
+"id": 4053019,
+"para8": "Radar_details_19"
+},
+{
+"id": 4053020,
+"para8": "Radar_details_20"
+},
+{
+"id": 4053021,
+"para8": "Radar_details_21"
+},
+{
+"id": 4053022,
+"para8": "Radar_details_22"
+},
+{
+"id": 4053023,
+"para8": "Radar_details_23"
+},
+{
+"id": 4053024,
+"para8": "Radar_details_24"
+},
+{
+"id": 4053025,
+"para8": "Radar_details_25"
+},
+{
+"id": 4092001,
+"para1": 200,
+"para2": 3
+},
+{
+"id": 4092002,
+"para1": 400,
+"para2": 5
+},
+{
+"id": 4092003,
+"para1": 600,
+"para2": 7
+},
+{
+"id": 4092004,
+"para1": 800,
+"para2": 8
+},
+{
+"id": 4092005,
+"para1": 1000,
+"para2": 10
+},
+{
+"id": 4092006,
+"para1": 1200,
+"para2": 11
+},
+{
+"id": 4092007,
+"para1": 1400,
+"para2": 13
+},
+{
+"id": 4092008,
+"para1": 1600,
+"para2": 15
+},
+{
+"id": 4092009,
+"para1": 1800,
+"para2": 16
+},
+{
+"id": 4092010,
+"para1": 2000,
+"para2": 18
+},
+{
+"id": 4092011,
+"para1": 2200,
+"para2": 19
+},
+{
+"id": 4092012,
+"para1": 2400,
+"para2": 21
+},
+{
+"id": 4092013,
+"para1": 2600,
+"para2": 23
+},
+{
+"id": 4092014,
+"para1": 2800,
+"para2": 24
+},
+{
+"id": 4092015,
+"para1": 3000,
+"para2": 26
+},
+{
+"id": 4092016,
+"para1": 3200,
+"para2": 27
+},
+{
+"id": 4092017,
+"para1": 3400,
+"para2": 29
+},
+{
+"id": 4092018,
+"para1": 3600,
+"para2": 31
+},
+{
+"id": 4092019,
+"para1": 3800,
+"para2": 32
+},
+{
+"id": 4092020,
+"para1": 4000,
+"para2": 34
+},
+{
+"id": 4092021,
+"para1": 4200,
+"para2": 35
+},
+{
+"id": 4092022,
+"para1": 4400,
+"para2": 37
+},
+{
+"id": 4092023,
+"para1": 4600,
+"para2": 39
+},
+{
+"id": 4092024,
+"para1": 4800,
+"para2": 40
+},
+{
+"id": 4092025,
+"para1": 5000,
+"para2": 42
+},
+{
+"id": 4120001,
+"para1": 1,
+"para2": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4120002,
+"para1": 1,
+"para2": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4120003,
+"para1": 1,
+"para2": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4120004,
+"para1": 2,
+"para2": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4120005,
+"para1": 2,
+"para2": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4120006,
+"para1": 2,
+"para2": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4120007,
+"para1": 2,
+"para2": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4120008,
+"para1": 3,
+"para2": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4120009,
+"para1": 3,
+"para2": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4120010,
+"para1": 3,
+"para2": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3
+},
+{
+"index": 2,
+"content": 1000
+}
+]
+},
+{
+"id": 4120011,
+"para1": 4,
+"para2": 1100,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1100
+}
+]
+},
+{
+"id": 4120012,
+"para1": 4,
+"para2": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1200
+}
+]
+},
+{
+"id": 4120013,
+"para1": 4,
+"para2": 1300,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1300
+}
+]
+},
+{
+"id": 4120014,
+"para1": 4,
+"para2": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1400
+}
+]
+},
+{
+"id": 4120015,
+"para1": 4,
+"para2": 1500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1500
+}
+]
+},
+{
+"id": 4120016,
+"para1": 4,
+"para2": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1600
+}
+]
+},
+{
+"id": 4120017,
+"para1": 4,
+"para2": 1700,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1700
+}
+]
+},
+{
+"id": 4120018,
+"para1": 4,
+"para2": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1800
+}
+]
+},
+{
+"id": 4120019,
+"para1": 4,
+"para2": 1900,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 1900
+}
+]
+},
+{
+"id": 4120020,
+"para1": 4,
+"para2": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 2000
+}
+]
+},
+{
+"id": 4120021,
+"para1": 4,
+"para2": 2100,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 2100
+}
+]
+},
+{
+"id": 4120022,
+"para1": 4,
+"para2": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 2200
+}
+]
+},
+{
+"id": 4120023,
+"para1": 4,
+"para2": 2300,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 2300
+}
+]
+},
+{
+"id": 4120024,
+"para1": 4,
+"para2": 2400,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 2400
+}
+]
+},
+{
+"id": 4120025,
+"para1": 4,
+"para2": 2500,
+"buff_ids": [
+{
+"index": 1,
+"content": 16802
+},
+{
+"index": 2,
+"content": 11600
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 2500
+}
+]
+},
+{
+"id": 4140001,
+"para1": 4500,
+"para2": 100,
+"para3": 100,
+"para4": 5000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4140002,
+"para1": 4400,
+"para2": 200,
+"para3": 200,
+"para4": 9000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4140003,
+"para1": 4300,
+"para2": 300,
+"para3": 300,
+"para4": 13000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4140004,
+"para1": 4200,
+"para2": 400,
+"para3": 400,
+"para4": 17000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4140005,
+"para1": 4100,
+"para2": 500,
+"para3": 500,
+"para4": 21000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4140006,
+"para1": 4000,
+"para2": 600,
+"para3": 600,
+"para4": 25000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4140007,
+"para1": 3900,
+"para2": 700,
+"para3": 700,
+"para4": 29000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4140008,
+"para1": 3800,
+"para2": 800,
+"para3": 800,
+"para4": 33000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4140009,
+"para1": 3700,
+"para2": 900,
+"para3": 900,
+"para4": 37000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 900
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4140010,
+"para1": 3600,
+"para2": 1000,
+"para3": 1000,
+"para4": 41000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 1000
+}
+]
+},
+{
+"id": 4140011,
+"para1": 3500,
+"para2": 1100,
+"para3": 1100,
+"para4": 45000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1100
+},
+{
+"index": 2,
+"content": 1100
+}
+]
+},
+{
+"id": 4140012,
+"para1": 3400,
+"para2": 1200,
+"para3": 1200,
+"para4": 49000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+},
+{
+"index": 2,
+"content": 1200
+}
+]
+},
+{
+"id": 4140013,
+"para1": 3300,
+"para2": 1300,
+"para3": 1300,
+"para4": 54000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1300
+},
+{
+"index": 2,
+"content": 1300
+}
+]
+},
+{
+"id": 4140014,
+"para1": 3200,
+"para2": 1400,
+"para3": 1400,
+"para4": 59000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+},
+{
+"index": 2,
+"content": 1400
+}
+]
+},
+{
+"id": 4140015,
+"para1": 3100,
+"para2": 1500,
+"para3": 1500,
+"para4": 64000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1500
+}
+]
+},
+{
+"id": 4140016,
+"para1": 3000,
+"para2": 1600,
+"para3": 1600,
+"para4": 69000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+},
+{
+"index": 2,
+"content": 1600
+}
+]
+},
+{
+"id": 4140017,
+"para1": 2900,
+"para2": 1700,
+"para3": 1700,
+"para4": 74000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1700
+},
+{
+"index": 2,
+"content": 1700
+}
+]
+},
+{
+"id": 4140018,
+"para1": 2800,
+"para2": 1800,
+"para3": 1800,
+"para4": 79000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+},
+{
+"index": 2,
+"content": 1800
+}
+]
+},
+{
+"id": 4140019,
+"para1": 2700,
+"para2": 1900,
+"para3": 1900,
+"para4": 84000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1900
+},
+{
+"index": 2,
+"content": 1900
+}
+]
+},
+{
+"id": 4140020,
+"para1": 2600,
+"para2": 2000,
+"para3": 2000,
+"para4": 89000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 2000
+}
+]
+},
+{
+"id": 4140021,
+"para1": 2500,
+"para2": 2100,
+"para3": 2100,
+"para4": 94000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2100
+},
+{
+"index": 2,
+"content": 2100
+}
+]
+},
+{
+"id": 4140022,
+"para1": 2200,
+"para2": 2200,
+"para3": 2200,
+"para4": 99000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+},
+{
+"index": 2,
+"content": 2200
+}
+]
+},
+{
+"id": 4140023,
+"para1": 1900,
+"para2": 2300,
+"para3": 2300,
+"para4": 104000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2300
+},
+{
+"index": 2,
+"content": 2300
+}
+]
+},
+{
+"id": 4140024,
+"para1": 1700,
+"para2": 2400,
+"para3": 2400,
+"para4": 110000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2400
+},
+{
+"index": 2,
+"content": 2400
+}
+]
+},
+{
+"id": 4140025,
+"para1": 1500,
+"para2": 2500,
+"para3": 2500,
+"para4": 120000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13200
+},
+{
+"index": 2,
+"content": 13300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2500
+},
+{
+"index": 2,
+"content": 2500
+}
+]
+},
+{
+"id": 4141001,
+"para1": 500,
+"para2": 1,
+"para3": 100,
+"para4": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 100
+},
+{
+"index": 3,
+"content": 200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141002,
+"para1": 500,
+"para2": 1.1,
+"para3": 200,
+"para4": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 200
+},
+{
+"index": 3,
+"content": 400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141003,
+"para1": 500,
+"para2": 1.2,
+"para3": 300,
+"para4": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 300
+},
+{
+"index": 3,
+"content": 600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141004,
+"para1": 500,
+"para2": 1.3,
+"para3": 400,
+"para4": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 400
+},
+{
+"index": 3,
+"content": 800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141005,
+"para1": 1000,
+"para2": 1.4,
+"para3": 500,
+"para4": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 500
+},
+{
+"index": 3,
+"content": 1000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141006,
+"para1": 1000,
+"para2": 1.5,
+"para3": 600,
+"para4": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 600
+},
+{
+"index": 3,
+"content": 1200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141007,
+"para1": 1000,
+"para2": 1.6,
+"para3": 700,
+"para4": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 700
+},
+{
+"index": 3,
+"content": 1400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141008,
+"para1": 1000,
+"para2": 1.7,
+"para3": 800,
+"para4": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 800
+},
+{
+"index": 3,
+"content": 1600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141009,
+"para1": 1000,
+"para2": 1.8,
+"para3": 900,
+"para4": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 900
+},
+{
+"index": 3,
+"content": 1800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141010,
+"para1": 1500,
+"para2": 1.9,
+"para3": 1000,
+"para4": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1000
+},
+{
+"index": 3,
+"content": 2000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141011,
+"para1": 1500,
+"para2": 2,
+"para3": 1100,
+"para4": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1100
+},
+{
+"index": 3,
+"content": 2200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141012,
+"para1": 1500,
+"para2": 2.1,
+"para3": 1200,
+"para4": 2400,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1200
+},
+{
+"index": 3,
+"content": 2400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141013,
+"para1": 1500,
+"para2": 2.2,
+"para3": 1300,
+"para4": 2600,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1300
+},
+{
+"index": 3,
+"content": 2600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141014,
+"para1": 1500,
+"para2": 2.3,
+"para3": 1400,
+"para4": 2800,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1400
+},
+{
+"index": 3,
+"content": 2800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141015,
+"para1": 2000,
+"para2": 2.4,
+"para3": 1500,
+"para4": 3000,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 1500
+},
+{
+"index": 3,
+"content": 3000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141016,
+"para1": 2000,
+"para2": 2.5,
+"para3": 1600,
+"para4": 3200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 1600
+},
+{
+"index": 3,
+"content": 3200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141017,
+"para1": 2000,
+"para2": 2.6,
+"para3": 1700,
+"para4": 3400,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 1700
+},
+{
+"index": 3,
+"content": 3400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141018,
+"para1": 2000,
+"para2": 2.7,
+"para3": 1800,
+"para4": 3600,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 1800
+},
+{
+"index": 3,
+"content": 3600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141019,
+"para1": 2000,
+"para2": 2.8,
+"para3": 1900,
+"para4": 3800,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 1900
+},
+{
+"index": 3,
+"content": 3800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141020,
+"para1": 3000,
+"para2": 3,
+"para3": 2000,
+"para4": 4000,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3000
+},
+{
+"index": 2,
+"content": 2000
+},
+{
+"index": 3,
+"content": 4000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141021,
+"para1": 3000,
+"para2": 3.2,
+"para3": 2100,
+"para4": 4200,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3000
+},
+{
+"index": 2,
+"content": 2100
+},
+{
+"index": 3,
+"content": 4200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141022,
+"para1": 3000,
+"para2": 3.4,
+"para3": 2200,
+"para4": 4400,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3000
+},
+{
+"index": 2,
+"content": 2200
+},
+{
+"index": 3,
+"content": 4400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141023,
+"para1": 3000,
+"para2": 3.6,
+"para3": 2300,
+"para4": 4600,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3000
+},
+{
+"index": 2,
+"content": 2300
+},
+{
+"index": 3,
+"content": 4600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141024,
+"para1": 3000,
+"para2": 3.8,
+"para3": 2400,
+"para4": 4800,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3000
+},
+{
+"index": 2,
+"content": 2400
+},
+{
+"index": 3,
+"content": 4800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4141025,
+"para1": 4000,
+"para2": 4,
+"para3": 2500,
+"para4": 5000,
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+},
+{
+"index": 2,
+"content": 18800
+},
+{
+"index": 3,
+"content": 18900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 4000
+},
+{
+"index": 2,
+"content": 2500
+},
+{
+"index": 3,
+"content": 5000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 4
+},
+{
+"index": 3,
+"content": 4
+}
+]
+},
+{
+"id": 4142001,
+"para1": 100,
+"para2": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+},
+{
+"index": 2,
+"content": 100
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142002,
+"para1": 200,
+"para2": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+},
+{
+"index": 2,
+"content": 200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142003,
+"para1": 300,
+"para2": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+},
+{
+"index": 2,
+"content": 300
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142004,
+"para1": 400,
+"para2": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+},
+{
+"index": 2,
+"content": 400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142005,
+"para1": 500,
+"para2": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 500
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142006,
+"para1": 600,
+"para2": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+},
+{
+"index": 2,
+"content": 600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142007,
+"para1": 700,
+"para2": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+},
+{
+"index": 2,
+"content": 700
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142008,
+"para1": 800,
+"para2": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+},
+{
+"index": 2,
+"content": 800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142009,
+"para1": 900,
+"para2": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 900
+},
+{
+"index": 2,
+"content": 900
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142010,
+"para1": 1000,
+"para2": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 1000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142011,
+"para1": 1100,
+"para2": 1100,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1100
+},
+{
+"index": 2,
+"content": 1100
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142012,
+"para1": 1200,
+"para2": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+},
+{
+"index": 2,
+"content": 1200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142013,
+"para1": 1300,
+"para2": 1300,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1300
+},
+{
+"index": 2,
+"content": 1300
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142014,
+"para1": 1400,
+"para2": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+},
+{
+"index": 2,
+"content": 1400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142015,
+"para1": 1500,
+"para2": 1500,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 1500
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142016,
+"para1": 1600,
+"para2": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+},
+{
+"index": 2,
+"content": 1600
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142017,
+"para1": 1700,
+"para2": 1700,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1700
+},
+{
+"index": 2,
+"content": 1700
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142018,
+"para1": 1800,
+"para2": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+},
+{
+"index": 2,
+"content": 1800
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142019,
+"para1": 1900,
+"para2": 1900,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1900
+},
+{
+"index": 2,
+"content": 1900
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142020,
+"para1": 2000,
+"para2": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 2000
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142021,
+"para1": 2100,
+"para2": 2100,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2100
+},
+{
+"index": 2,
+"content": 2100
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142022,
+"para1": 2200,
+"para2": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+},
+{
+"index": 2,
+"content": 2200
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142023,
+"para1": 2300,
+"para2": 2300,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2300
+},
+{
+"index": 2,
+"content": 2300
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142024,
+"para1": 2400,
+"para2": 2400,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2400
+},
+{
+"index": 2,
+"content": 2400
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4142025,
+"para1": 2500,
+"para2": 2500,
+"buff_ids": [
+{
+"index": 1,
+"content": 19400
+},
+{
+"index": 2,
+"content": 19000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2500
+},
+{
+"index": 2,
+"content": 2500
+}
+],
+"buff_paras": [
+{
+"index": 1,
+"content": 4
+},
+{
+"index": 2,
+"content": 4
+}
+]
+},
+{
+"id": 4000001,
+"para1": 0,
+"para2": 0,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4021000,
+4031000,
+4042000
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4000002,
+"para1": 0,
+"para2": 0,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4020000,
+4046000,
+4052000
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4000003,
+"para1": 0,
+"para2": 0,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4026000,
+4045000,
+4079000,
+4043000
+],
+"para12": "BuildingUnlock_01",
+"para13": "BuildingUnlock_01",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4000004,
+"para1": 0,
+"para2": 0,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4044000,
+4051000,
+4053000,
+4023000
+],
+"para12": "BuildingUnlock_02",
+"para13": "BuildingUnlock_02",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4000005,
+"para1": 0,
+"para2": 0,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4050000,
+4060000,
+4076000,
+4090000
+],
+"para12": "BuildingUnlock_03",
+"para13": "BuildingUnlock_03",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4000006,
+"para1": 0,
+"para2": 0,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4091000,
+4022000,
+4024000,
+4070000
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 0
+},
+{
+"index": 2,
+"content": 0
+}
+]
+},
+{
+"id": 4000007,
+"para1": 30000,
+"para2": 20000,
+"para3": 0,
+"para4": 0,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para10": [
+4092000,
+4027000
+],
+"para12": "BuildingUnlock_04",
+"para13": "BuildingUnlock_04",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 30000
+},
+{
+"index": 2,
+"content": 20000
+}
+]
+},
+{
+"id": 4000008,
+"para1": 50000,
+"para2": 40000,
+"para3": 30000,
+"para4": 100,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 50000
+},
+{
+"index": 2,
+"content": 40000
+}
+]
+},
+{
+"id": 4000009,
+"para1": 100000,
+"para2": 60000,
+"para3": 40000,
+"para4": 135,
+"para5": 0,
+"para6": 0,
+"para7": 0,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100000
+},
+{
+"index": 2,
+"content": 60000
+}
+]
+},
+{
+"id": 4000010,
+"para1": 200000,
+"para2": 80000,
+"para3": 45000,
+"para4": 150,
+"para5": 1,
+"para6": 0,
+"para7": 1,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_06",
+"para13": "BuildingUnlock_06",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200000
+},
+{
+"index": 2,
+"content": 80000
+}
+]
+},
+{
+"id": 4000011,
+"para1": 400000,
+"para2": 100000,
+"para3": 75000,
+"para4": 250,
+"para5": 1,
+"para6": 0,
+"para7": 1,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400000
+},
+{
+"index": 2,
+"content": 100000
+}
+]
+},
+{
+"id": 4000012,
+"para1": 500000,
+"para2": 200000,
+"para3": 80000,
+"para4": 265,
+"para5": 1,
+"para6": 0,
+"para7": 1,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500000
+},
+{
+"index": 2,
+"content": 200000
+}
+]
+},
+{
+"id": 4000013,
+"para1": 700000,
+"para2": 300000,
+"para3": 120000,
+"para4": 400,
+"para5": 2,
+"para6": 0,
+"para7": 1,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_07",
+"para13": "BuildingUnlock_07",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700000
+},
+{
+"index": 2,
+"content": 300000
+}
+]
+},
+{
+"id": 4000014,
+"para1": 800000,
+"para2": 400000,
+"para3": 240000,
+"para4": 800,
+"para5": 2,
+"para6": 0,
+"para7": 1,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800000
+},
+{
+"index": 2,
+"content": 400000
+}
+]
+},
+{
+"id": 4000015,
+"para1": 840000,
+"para2": 500000,
+"para3": 320000,
+"para4": 1065,
+"para5": 2,
+"para6": 0,
+"para7": 1,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 840000
+},
+{
+"index": 2,
+"content": 500000
+}
+]
+},
+{
+"id": 4000016,
+"para1": 1040000,
+"para2": 600000,
+"para3": 500000,
+"para4": 1665,
+"para5": 3,
+"para6": 1,
+"para7": 2,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_15",
+"para13": "BuildingUnlock_15",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1040000
+},
+{
+"index": 2,
+"content": 600000
+}
+]
+},
+{
+"id": 4000017,
+"para1": 1240000,
+"para2": 700000,
+"para3": 600000,
+"para4": 2000,
+"para5": 3,
+"para6": 1,
+"para7": 2,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_09",
+"para13": "BuildingUnlock_09",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1240000
+},
+{
+"index": 2,
+"content": 700000
+}
+]
+},
+{
+"id": 4000018,
+"para1": 1490000,
+"para2": 800000,
+"para3": 700000,
+"para4": 2335,
+"para5": 3,
+"para6": 1,
+"para7": 2,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_13",
+"para13": "BuildingUnlock_13",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1490000
+},
+{
+"index": 2,
+"content": 800000
+}
+]
+},
+{
+"id": 4000019,
+"para1": 1990000,
+"para2": 900000,
+"para3": 960000,
+"para4": 3200,
+"para5": 4,
+"para6": 2,
+"para7": 2,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_11",
+"para13": "BuildingUnlock_11",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1990000
+},
+{
+"index": 2,
+"content": 900000
+}
+]
+},
+{
+"id": 4000020,
+"para1": 2290000,
+"para2": 1000000,
+"para3": 1080000,
+"para4": 3600,
+"para5": 4,
+"para6": 2,
+"para7": 3,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2290000
+},
+{
+"index": 2,
+"content": 1000000
+}
+]
+},
+{
+"id": 4000021,
+"para1": 2590000,
+"para2": 1100000,
+"para3": 1200000,
+"para4": 4000,
+"para5": 4,
+"para6": 2,
+"para7": 3,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2590000
+},
+{
+"index": 2,
+"content": 1100000
+}
+]
+},
+{
+"id": 4000022,
+"para1": 2890000,
+"para2": 1200000,
+"para3": 1500000,
+"para4": 5000,
+"para5": 5,
+"para6": 3,
+"para7": 3,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_12",
+"para13": "BuildingUnlock_12",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2890000
+},
+{
+"index": 2,
+"content": 1200000
+}
+]
+},
+{
+"id": 4000023,
+"para1": 3190000,
+"para2": 1300000,
+"para3": 1890000,
+"para4": 6300,
+"para5": 5,
+"para6": 3,
+"para7": 4,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3190000
+},
+{
+"index": 2,
+"content": 1300000
+}
+]
+},
+{
+"id": 4000024,
+"para1": 3490000,
+"para2": 1400000,
+"para3": 2600000,
+"para4": 8665,
+"para5": 5,
+"para6": 3,
+"para7": 4,
+"para9": "base_levelup_tip",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3490000
+},
+{
+"index": 2,
+"content": 1400000
+}
+]
+},
+{
+"id": 4000025,
+"para1": 3790000,
+"para2": 1500000,
+"para3": 2925000,
+"para4": 9750,
+"para5": 6,
+"para6": 4,
+"para7": 4,
+"para9": "base_levelup_tip",
+"para12": "BuildingUnlock_10",
+"para13": "BuildingUnlock_10",
+"buff_ids": [
+{
+"index": 1,
+"content": 16200
+},
+{
+"index": 2,
+"content": 16201
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 3790000
+},
+{
+"index": 2,
+"content": 1500000
+}
+]
+},
+{
+"id": 4161001,
+"para1": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+}
+]
+},
+{
+"id": 4161002,
+"para1": 1050,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1050
+}
+]
+},
+{
+"id": 4161003,
+"para1": 1100,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1100
+}
+]
+},
+{
+"id": 4161004,
+"para1": 1150,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1150
+}
+]
+},
+{
+"id": 4161005,
+"para1": 1200,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+}
+]
+},
+{
+"id": 4161006,
+"para1": 1250,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1250
+}
+]
+},
+{
+"id": 4161007,
+"para1": 1300,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1300
+}
+]
+},
+{
+"id": 4161008,
+"para1": 1350,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1350
+}
+]
+},
+{
+"id": 4161009,
+"para1": 1400,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+}
+]
+},
+{
+"id": 4161010,
+"para1": 1450,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1450
+}
+]
+},
+{
+"id": 4161011,
+"para1": 1500,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+}
+]
+},
+{
+"id": 4161012,
+"para1": 1550,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1550
+}
+]
+},
+{
+"id": 4161013,
+"para1": 1600,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+}
+]
+},
+{
+"id": 4161014,
+"para1": 1650,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1650
+}
+]
+},
+{
+"id": 4161015,
+"para1": 1700,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1700
+}
+]
+},
+{
+"id": 4161016,
+"para1": 1750,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1750
+}
+]
+},
+{
+"id": 4161017,
+"para1": 1800,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+}
+]
+},
+{
+"id": 4161018,
+"para1": 1850,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1850
+}
+]
+},
+{
+"id": 4161019,
+"para1": 1900,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1900
+}
+]
+},
+{
+"id": 4161020,
+"para1": 1950,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1950
+}
+]
+},
+{
+"id": 4161021,
+"para1": 2000,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+}
+]
+},
+{
+"id": 4161022,
+"para1": 2050,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2050
+}
+]
+},
+{
+"id": 4161023,
+"para1": 2100,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2100
+}
+]
+},
+{
+"id": 4161024,
+"para1": 2150,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2150
+}
+]
+},
+{
+"id": 4161025,
+"para1": 2200,
+"buff_ids": [
+{
+"index": 1,
+"content": 21100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+}
+]
+},
+{
+"id": 4301001,
+"para1": 5,
+"para2": 100,
+"para3": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 100
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4301002,
+"para1": 6,
+"para2": 200,
+"para3": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 200
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4301003,
+"para1": 7,
+"para2": 300,
+"para3": 100,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 300
+},
+{
+"index": 2,
+"content": 100
+}
+]
+},
+{
+"id": 4301004,
+"para1": 8,
+"para2": 400,
+"para3": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 400
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4301005,
+"para1": 9,
+"para2": 500,
+"para3": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 500
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4301006,
+"para1": 10,
+"para2": 600,
+"para3": 200,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 600
+},
+{
+"index": 2,
+"content": 200
+}
+]
+},
+{
+"id": 4301007,
+"para1": 11,
+"para2": 700,
+"para3": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 700
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4301008,
+"para1": 12,
+"para2": 800,
+"para3": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 800
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4301009,
+"para1": 14,
+"para2": 900,
+"para3": 300,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 900
+},
+{
+"index": 2,
+"content": 300
+}
+]
+},
+{
+"id": 4301010,
+"para1": 16,
+"para2": 1000,
+"para3": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1000
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4301011,
+"para1": 18,
+"para2": 1100,
+"para3": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1100
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4301012,
+"para1": 20,
+"para2": 1200,
+"para3": 400,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1200
+},
+{
+"index": 2,
+"content": 400
+}
+]
+},
+{
+"id": 4301013,
+"para1": 22,
+"para2": 1300,
+"para3": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1300
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4301014,
+"para1": 24,
+"para2": 1400,
+"para3": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1400
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4301015,
+"para1": 26,
+"para2": 1500,
+"para3": 500,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1500
+},
+{
+"index": 2,
+"content": 500
+}
+]
+},
+{
+"id": 4301016,
+"para1": 28,
+"para2": 1600,
+"para3": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1600
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4301017,
+"para1": 30,
+"para2": 1700,
+"para3": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1700
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4301018,
+"para1": 32,
+"para2": 1800,
+"para3": 600,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1800
+},
+{
+"index": 2,
+"content": 600
+}
+]
+},
+{
+"id": 4301019,
+"para1": 34,
+"para2": 1900,
+"para3": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 1900
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4301020,
+"para1": 36,
+"para2": 2000,
+"para3": 700,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2000
+},
+{
+"index": 2,
+"content": 700
+}
+]
+},
+{
+"id": 4301021,
+"para1": 38,
+"para2": 2100,
+"para3": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2100
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4301022,
+"para1": 40,
+"para2": 2200,
+"para3": 800,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2200
+},
+{
+"index": 2,
+"content": 800
+}
+]
+},
+{
+"id": 4301023,
+"para1": 42,
+"para2": 2300,
+"para3": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2300
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4301024,
+"para1": 46,
+"para2": 2400,
+"para3": 900,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2400
+},
+{
+"index": 2,
+"content": 900
+}
+]
+},
+{
+"id": 4301025,
+"para1": 50,
+"para2": 2500,
+"para3": 1000,
+"buff_ids": [
+{
+"index": 1,
+"content": 13300
+},
+{
+"index": 2,
+"content": 23200
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2500
+},
+{
+"index": 2,
+"content": 1000
+}
+]
+},
+{
+"id": 4302001,
+"para1": 100
+},
+{
+"id": 4302002,
+"para1": 200
+},
+{
+"id": 4302003,
+"para1": 300
+},
+{
+"id": 4302004,
+"para1": 400
+},
+{
+"id": 4302005,
+"para1": 500
+},
+{
+"id": 4302006,
+"para1": 600
+},
+{
+"id": 4302007,
+"para1": 700
+},
+{
+"id": 4302008,
+"para1": 800
+},
+{
+"id": 4302009,
+"para1": 900
+},
+{
+"id": 4302010,
+"para1": 1000
+},
+{
+"id": 4302011,
+"para1": 1100
+},
+{
+"id": 4302012,
+"para1": 1200
+},
+{
+"id": 4302013,
+"para1": 1300
+},
+{
+"id": 4302014,
+"para1": 1400
+},
+{
+"id": 4302015,
+"para1": 1500
+},
+{
+"id": 4302016,
+"para1": 1600
+},
+{
+"id": 4302017,
+"para1": 1700
+},
+{
+"id": 4302018,
+"para1": 1800
+},
+{
+"id": 4302019,
+"para1": 1900
+},
+{
+"id": 4302020,
+"para1": 2000
+},
+{
+"id": 4302021,
+"para1": 2100
+},
+{
+"id": 4302022,
+"para1": 2200
+},
+{
+"id": 4302023,
+"para1": 2300
+},
+{
+"id": 4302024,
+"para1": 2400
+},
+{
+"id": 4302025,
+"para1": 2500
+},
+{
+"id": 4303001,
+"para1": 100,
+"para2": 200,
+"para3": 100
+},
+{
+"id": 4303002,
+"para1": 110,
+"para2": 400,
+"para3": 98
+},
+{
+"id": 4303003,
+"para1": 120,
+"para2": 600,
+"para3": 96
+},
+{
+"id": 4303004,
+"para1": 130,
+"para2": 800,
+"para3": 94
+},
+{
+"id": 4303005,
+"para1": 140,
+"para2": 1000,
+"para3": 92
+},
+{
+"id": 4303006,
+"para1": 160,
+"para2": 1200,
+"para3": 90
+},
+{
+"id": 4303007,
+"para1": 180,
+"para2": 1400,
+"para3": 88
+},
+{
+"id": 4303008,
+"para1": 200,
+"para2": 1600,
+"para3": 86
+},
+{
+"id": 4303009,
+"para1": 220,
+"para2": 1800,
+"para3": 84
+},
+{
+"id": 4303010,
+"para1": 240,
+"para2": 2000,
+"para3": 82
+},
+{
+"id": 4303011,
+"para1": 260,
+"para2": 2200,
+"para3": 80
+},
+{
+"id": 4303012,
+"para1": 300,
+"para2": 2400,
+"para3": 78
+},
+{
+"id": 4303013,
+"para1": 320,
+"para2": 2600,
+"para3": 76
+},
+{
+"id": 4303014,
+"para1": 350,
+"para2": 2800,
+"para3": 72
+},
+{
+"id": 4303015,
+"para1": 380,
+"para2": 3000,
+"para3": 68
+},
+{
+"id": 4303016,
+"para1": 420,
+"para2": 3200,
+"para3": 64
+},
+{
+"id": 4303017,
+"para1": 460,
+"para2": 3400,
+"para3": 60
+},
+{
+"id": 4303018,
+"para1": 520,
+"para2": 3600,
+"para3": 56
+},
+{
+"id": 4303019,
+"para1": 580,
+"para2": 3800,
+"para3": 52
+},
+{
+"id": 4303020,
+"para1": 650,
+"para2": 4000,
+"para3": 48
+},
+{
+"id": 4303021,
+"para1": 750,
+"para2": 4200,
+"para3": 44
+},
+{
+"id": 4303022,
+"para1": 850,
+"para2": 4400,
+"para3": 40
+},
+{
+"id": 4303023,
+"para1": 950,
+"para2": 4600,
+"para3": 36
+},
+{
+"id": 4303024,
+"para1": 1150,
+"para2": 4800,
+"para3": 32
+},
+{
+"id": 4303025,
+"para1": 1400,
+"para2": 5000,
+"para3": 28
+},
+{
+"id": 4321001,
+"para1": 1,
+"para2": 100
+},
+{
+"id": 4321002,
+"para1": 1,
+"para2": 110
+},
+{
+"id": 4321003,
+"para1": 1,
+"para2": 120
+},
+{
+"id": 4321004,
+"para1": 2,
+"para2": 130
+},
+{
+"id": 4321005,
+"para1": 2,
+"para2": 140
+},
+{
+"id": 4321006,
+"para1": 2,
+"para2": 150
+},
+{
+"id": 4321007,
+"para1": 2,
+"para2": 160
+},
+{
+"id": 4321008,
+"para1": 2,
+"para2": 170
+},
+{
+"id": 4321009,
+"para1": 2,
+"para2": 180
+},
+{
+"id": 4321010,
+"para1": 2,
+"para2": 190
+},
+{
+"id": 4321011,
+"para1": 3,
+"para2": 200
+},
+{
+"id": 4321012,
+"para1": 3,
+"para2": 210
+},
+{
+"id": 4321013,
+"para1": 3,
+"para2": 220
+},
+{
+"id": 4321014,
+"para1": 3,
+"para2": 230
+},
+{
+"id": 4321015,
+"para1": 3,
+"para2": 240
+},
+{
+"id": 4321016,
+"para1": 3,
+"para2": 250
+},
+{
+"id": 4321017,
+"para1": 3,
+"para2": 260
+},
+{
+"id": 4321018,
+"para1": 4,
+"para2": 270
+},
+{
+"id": 4321019,
+"para1": 4,
+"para2": 280
+},
+{
+"id": 4321020,
+"para1": 4,
+"para2": 290
+},
+{
+"id": 4321021,
+"para1": 4,
+"para2": 300
+},
+{
+"id": 4321022,
+"para1": 4,
+"para2": 310
+},
+{
+"id": 4321023,
+"para1": 4,
+"para2": 320
+},
+{
+"id": 4321024,
+"para1": 4,
+"para2": 330
+},
+{
+"id": 4321025,
+"para1": 5,
+"para2": 340
+},
+{
+"id": 4321026,
+"para1": 5,
+"para2": 350
+},
+{
+"id": 4321027,
+"para1": 5,
+"para2": 360
+},
+{
+"id": 4321028,
+"para1": 5,
+"para2": 370
+},
+{
+"id": 4321029,
+"para1": 5,
+"para2": 380
+},
+{
+"id": 4321030,
+"para1": 5,
+"para2": 390
+},
+{
+"id": 4321031,
+"para1": 5,
+"para2": 400
+},
+{
+"id": 4321032,
+"para1": 5,
+"para2": 410
+},
+{
+"id": 4321033,
+"para1": 5,
+"para2": 420
+},
+{
+"id": 4321034,
+"para1": 5,
+"para2": 430
+},
+{
+"id": 4321035,
+"para1": 5,
+"para2": 440
+},
+{
+"id": 4321036,
+"para1": 5,
+"para2": 450
+},
+{
+"id": 4321037,
+"para1": 5,
+"para2": 460
+},
+{
+"id": 4321038,
+"para1": 5,
+"para2": 470
+},
+{
+"id": 4321039,
+"para1": 5,
+"para2": 480
+},
+{
+"id": 4321040,
+"para1": 5,
+"para2": 490
+},
+{
+"id": 4321041,
+"para1": 5,
+"para2": 500
+},
+{
+"id": 4321042,
+"para1": 5,
+"para2": 510
+},
+{
+"id": 4321043,
+"para1": 5,
+"para2": 520
+},
+{
+"id": 4321044,
+"para1": 5,
+"para2": 530
+},
+{
+"id": 4321045,
+"para1": 5,
+"para2": 540
+},
+{
+"id": 4321046,
+"para1": 5,
+"para2": 550
+},
+{
+"id": 4321047,
+"para1": 5,
+"para2": 560
+},
+{
+"id": 4321048,
+"para1": 5,
+"para2": 570
+},
+{
+"id": 4321049,
+"para1": 5,
+"para2": 580
+},
+{
+"id": 4321050,
+"para1": 5,
+"para2": 590
+},
+{
+"id": 4321051,
+"para1": 5,
+"para2": 600
+},
+{
+"id": 4321052,
+"para1": 5,
+"para2": 610
+},
+{
+"id": 4321053,
+"para1": 5,
+"para2": 620
+},
+{
+"id": 4321054,
+"para1": 5,
+"para2": 630
+},
+{
+"id": 4321055,
+"para1": 5,
+"para2": 640
+},
+{
+"id": 4321056,
+"para1": 5,
+"para2": 650
+},
+{
+"id": 4321057,
+"para1": 5,
+"para2": 660
+},
+{
+"id": 4321058,
+"para1": 5,
+"para2": 670
+},
+{
+"id": 4321059,
+"para1": 5,
+"para2": 680
+},
+{
+"id": 4321060,
+"para1": 5,
+"para2": 690
+},
+{
+"id": 4312001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10102
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4313001,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4314001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10302
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4315001,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4600001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16401
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4600101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4700001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11801
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4700101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4400001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10304
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4400101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4500001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10104
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4500101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4600201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16402
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4600301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4700201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11802
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4700301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4400201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10306
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4400301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4500201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10106
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4500301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4600401,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16403
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4600501,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4700401,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11803
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4700501,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4800001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 12000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4800101,
+"para1": 20,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 100
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 12000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 20
+}
+]
+},
+{
+"id": 4400401,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10307
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4400501,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4500401,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10107
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4500501,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4600601,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16401
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4600701,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4700601,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11801
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4700701,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4400601,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10302
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4400701,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4500601,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10102
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4500701,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4600801,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16402
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4600901,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4700801,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11802
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4700901,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4900001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4900101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4900201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4900301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4400801,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10306
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4400901,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4500801,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10106
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4500901,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4094001,
+"para8": "equip_unlock_1",
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094002,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094003,
+"para8": "equip_unlock_2",
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094004,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094005,
+"para8": "equip_unlock_3",
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094006,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094007,
+"para8": "equip_unlock_4",
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094008,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094009,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094010,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094011,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094012,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094013,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094014,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094015,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094016,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094017,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094018,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094019,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094020,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094021,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094022,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094023,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094024,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4094025,
+"para12": "equip_unlock_5",
+"para13": "equip_unlock_6",
+"para14": "equip_unlock_7",
+"para15": "equip_unlock_9"
+},
+{
+"id": 4601001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16403
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4601101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4701001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11803
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4701101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4900401,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 14900
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4900501,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 10306
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4900601,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 10307
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4401001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10304
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4401101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10300
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4501001,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10104
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4501101,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 10100
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4601201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16401
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4601301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 16301
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4701201,
+"para1": 2,
+"para2": 5,
+"para11": [
+{
+"type": 204150,
+"amount": 10
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11801
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4701301,
+"para1": 10,
+"para2": 1,
+"para11": [
+{
+"type": 204150,
+"amount": 50
+}
+],
+"buff_ids": [
+{
+"index": 1,
+"content": 11800
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 104000001,
+"para1": 100,
+"para2": 100,
+"para3": 40
+},
+{
+"id": 104000002,
+"para1": 200,
+"para2": 200,
+"para3": 80
+},
+{
+"id": 104000003,
+"para1": 300,
+"para2": 300,
+"para3": 120
+},
+{
+"id": 104000004,
+"para1": 400,
+"para2": 400,
+"para3": 160
+},
+{
+"id": 104000005,
+"para1": 500,
+"para2": 500,
+"para3": 200
+},
+{
+"id": 104000006,
+"para1": 600,
+"para2": 600,
+"para3": 240
+},
+{
+"id": 104000007,
+"para1": 700,
+"para2": 700,
+"para3": 280
+},
+{
+"id": 104000008,
+"para1": 800,
+"para2": 800,
+"para3": 320
+},
+{
+"id": 104000009,
+"para1": 900,
+"para2": 900,
+"para3": 360
+},
+{
+"id": 104000010,
+"para1": 1000,
+"para2": 1000,
+"para3": 400
+},
+{
+"id": 104000011,
+"para1": 1100,
+"para2": 1100,
+"para3": 440
+},
+{
+"id": 104000012,
+"para1": 1200,
+"para2": 1200,
+"para3": 480
+},
+{
+"id": 104000013,
+"para1": 1300,
+"para2": 1300,
+"para3": 520
+},
+{
+"id": 104000014,
+"para1": 1400,
+"para2": 1400,
+"para3": 560
+},
+{
+"id": 104000015,
+"para1": 1500,
+"para2": 1500,
+"para3": 600
+},
+{
+"id": 104000016,
+"para1": 1600,
+"para2": 1600,
+"para3": 640
+},
+{
+"id": 104000017,
+"para1": 1700,
+"para2": 1700,
+"para3": 680
+},
+{
+"id": 104000018,
+"para1": 1800,
+"para2": 1800,
+"para3": 720
+},
+{
+"id": 104000019,
+"para1": 1900,
+"para2": 1900,
+"para3": 760
+},
+{
+"id": 104000020,
+"para1": 2000,
+"para2": 2000,
+"para3": 800
+},
+{
+"id": 104000021,
+"para1": 2100,
+"para2": 2100,
+"para3": 840
+},
+{
+"id": 104000022,
+"para1": 2200,
+"para2": 2200,
+"para3": 880
+},
+{
+"id": 104000023,
+"para1": 2300,
+"para2": 2300,
+"para3": 920
+},
+{
+"id": 104000024,
+"para1": 2400,
+"para2": 2400,
+"para3": 960
+},
+{
+"id": 104000025,
+"para1": 2500,
+"para2": 2500,
+"para3": 1000
+},
+{
+"id": 104020001,
+"para1": 20,
+"para2": 100,
+"para3": 100
+},
+{
+"id": 104020002,
+"para1": 25,
+"para2": 200,
+"para3": 200
+},
+{
+"id": 104020003,
+"para1": 30,
+"para2": 300,
+"para3": 300
+},
+{
+"id": 104020004,
+"para1": 35,
+"para2": 400,
+"para3": 400
+},
+{
+"id": 104020005,
+"para1": 40,
+"para2": 500,
+"para3": 500
+},
+{
+"id": 104020006,
+"para1": 45,
+"para2": 600,
+"para3": 600
+},
+{
+"id": 104020007,
+"para1": 50,
+"para2": 700,
+"para3": 700
+},
+{
+"id": 104020008,
+"para1": 55,
+"para2": 800,
+"para3": 800
+},
+{
+"id": 104020009,
+"para1": 60,
+"para2": 900,
+"para3": 900
+},
+{
+"id": 104020010,
+"para1": 65,
+"para2": 1000,
+"para3": 1000
+},
+{
+"id": 104020011,
+"para1": 70,
+"para2": 1100,
+"para3": 1100
+},
+{
+"id": 104020012,
+"para1": 75,
+"para2": 1200,
+"para3": 1200
+},
+{
+"id": 104020013,
+"para1": 80,
+"para2": 1300,
+"para3": 1300
+},
+{
+"id": 104020014,
+"para1": 85,
+"para2": 1400,
+"para3": 1400
+},
+{
+"id": 104020015,
+"para1": 90,
+"para2": 1500,
+"para3": 1500
+},
+{
+"id": 104020016,
+"para1": 95,
+"para2": 1600,
+"para3": 1600
+},
+{
+"id": 104020017,
+"para1": 100,
+"para2": 1700,
+"para3": 1700
+},
+{
+"id": 104020018,
+"para1": 105,
+"para2": 1800,
+"para3": 1800
+},
+{
+"id": 104020019,
+"para1": 110,
+"para2": 1900,
+"para3": 1900
+},
+{
+"id": 104020020,
+"para1": 115,
+"para2": 2000,
+"para3": 2000
+},
+{
+"id": 104020021,
+"para1": 120,
+"para2": 2100,
+"para3": 2100
+},
+{
+"id": 104020022,
+"para1": 125,
+"para2": 2200,
+"para3": 2200
+},
+{
+"id": 104020023,
+"para1": 130,
+"para2": 2300,
+"para3": 2300
+},
+{
+"id": 104020024,
+"para1": 135,
+"para2": 2400,
+"para3": 2400
+},
+{
+"id": 104020025,
+"para1": 140,
+"para2": 2500,
+"para3": 2500
+},
+{
+"id": 104021001,
+"para1": 20,
+"para2": 100,
+"para3": 100
+},
+{
+"id": 104021002,
+"para1": 25,
+"para2": 200,
+"para3": 200
+},
+{
+"id": 104021003,
+"para1": 30,
+"para2": 300,
+"para3": 300
+},
+{
+"id": 104021004,
+"para1": 35,
+"para2": 400,
+"para3": 400
+},
+{
+"id": 104021005,
+"para1": 40,
+"para2": 500,
+"para3": 500
+},
+{
+"id": 104021006,
+"para1": 45,
+"para2": 600,
+"para3": 600
+},
+{
+"id": 104021007,
+"para1": 50,
+"para2": 700,
+"para3": 700
+},
+{
+"id": 104021008,
+"para1": 55,
+"para2": 800,
+"para3": 800
+},
+{
+"id": 104021009,
+"para1": 60,
+"para2": 900,
+"para3": 900
+},
+{
+"id": 104021010,
+"para1": 65,
+"para2": 1000,
+"para3": 1000
+},
+{
+"id": 104021011,
+"para1": 70,
+"para2": 1100,
+"para3": 1100
+},
+{
+"id": 104021012,
+"para1": 75,
+"para2": 1200,
+"para3": 1200
+},
+{
+"id": 104021013,
+"para1": 80,
+"para2": 1300,
+"para3": 1300
+},
+{
+"id": 104021014,
+"para1": 85,
+"para2": 1400,
+"para3": 1400
+},
+{
+"id": 104021015,
+"para1": 90,
+"para2": 1500,
+"para3": 1500
+},
+{
+"id": 104021016,
+"para1": 95,
+"para2": 1600,
+"para3": 1600
+},
+{
+"id": 104021017,
+"para1": 100,
+"para2": 1700,
+"para3": 1700
+},
+{
+"id": 104021018,
+"para1": 105,
+"para2": 1800,
+"para3": 1800
+},
+{
+"id": 104021019,
+"para1": 110,
+"para2": 1900,
+"para3": 1900
+},
+{
+"id": 104021020,
+"para1": 115,
+"para2": 2000,
+"para3": 2000
+},
+{
+"id": 104021021,
+"para1": 120,
+"para2": 2100,
+"para3": 2100
+},
+{
+"id": 104021022,
+"para1": 125,
+"para2": 2200,
+"para3": 2200
+},
+{
+"id": 104021023,
+"para1": 130,
+"para2": 2300,
+"para3": 2300
+},
+{
+"id": 104021024,
+"para1": 135,
+"para2": 2400,
+"para3": 2400
+},
+{
+"id": 104021025,
+"para1": 140,
+"para2": 2500,
+"para3": 2500
+},
+{
+"id": 104022001,
+"para1": 20,
+"para2": 100,
+"para3": 100
+},
+{
+"id": 104022002,
+"para1": 25,
+"para2": 200,
+"para3": 200
+},
+{
+"id": 104022003,
+"para1": 30,
+"para2": 300,
+"para3": 300
+},
+{
+"id": 104022004,
+"para1": 35,
+"para2": 400,
+"para3": 400
+},
+{
+"id": 104022005,
+"para1": 40,
+"para2": 500,
+"para3": 500
+},
+{
+"id": 104022006,
+"para1": 45,
+"para2": 600,
+"para3": 600
+},
+{
+"id": 104022007,
+"para1": 50,
+"para2": 700,
+"para3": 700
+},
+{
+"id": 104022008,
+"para1": 55,
+"para2": 800,
+"para3": 800
+},
+{
+"id": 104022009,
+"para1": 60,
+"para2": 900,
+"para3": 900
+},
+{
+"id": 104022010,
+"para1": 65,
+"para2": 1000,
+"para3": 1000
+},
+{
+"id": 104022011,
+"para1": 70,
+"para2": 1100,
+"para3": 1100
+},
+{
+"id": 104022012,
+"para1": 75,
+"para2": 1200,
+"para3": 1200
+},
+{
+"id": 104022013,
+"para1": 80,
+"para2": 1300,
+"para3": 1300
+},
+{
+"id": 104022014,
+"para1": 85,
+"para2": 1400,
+"para3": 1400
+},
+{
+"id": 104022015,
+"para1": 90,
+"para2": 1500,
+"para3": 1500
+},
+{
+"id": 104022016,
+"para1": 95,
+"para2": 1600,
+"para3": 1600
+},
+{
+"id": 104022017,
+"para1": 100,
+"para2": 1700,
+"para3": 1700
+},
+{
+"id": 104022018,
+"para1": 105,
+"para2": 1800,
+"para3": 1800
+},
+{
+"id": 104022019,
+"para1": 110,
+"para2": 1900,
+"para3": 1900
+},
+{
+"id": 104022020,
+"para1": 115,
+"para2": 2000,
+"para3": 2000
+},
+{
+"id": 104022021,
+"para1": 120,
+"para2": 2100,
+"para3": 2100
+},
+{
+"id": 104022022,
+"para1": 125,
+"para2": 2200,
+"para3": 2200
+},
+{
+"id": 104022023,
+"para1": 130,
+"para2": 2300,
+"para3": 2300
+},
+{
+"id": 104022024,
+"para1": 135,
+"para2": 2400,
+"para3": 2400
+},
+{
+"id": 104022025,
+"para1": 140,
+"para2": 2500,
+"para3": 2500
+},
+{
+"id": 104003001,
+"para1": 300
+},
+{
+"id": 104003002,
+"para1": 600
+},
+{
+"id": 104003003,
+"para1": 900
+},
+{
+"id": 104003004,
+"para1": 1200
+},
+{
+"id": 104003005,
+"para1": 1500
+},
+{
+"id": 104003006,
+"para1": 1800
+},
+{
+"id": 104003007,
+"para1": 2100
+},
+{
+"id": 104003008,
+"para1": 2400
+},
+{
+"id": 104003009,
+"para1": 2700
+},
+{
+"id": 104003010,
+"para1": 3000
+},
+{
+"id": 104003011,
+"para1": 3300
+},
+{
+"id": 104003012,
+"para1": 3600
+},
+{
+"id": 104003013,
+"para1": 3900
+},
+{
+"id": 104003014,
+"para1": 4200
+},
+{
+"id": 104003015,
+"para1": 4500
+},
+{
+"id": 104003016,
+"para1": 4800
+},
+{
+"id": 104003017,
+"para1": 5100
+},
+{
+"id": 104003018,
+"para1": 5400
+},
+{
+"id": 104003019,
+"para1": 5700
+},
+{
+"id": 104003020,
+"para1": 6000
+},
+{
+"id": 104003021,
+"para1": 6300
+},
+{
+"id": 104003022,
+"para1": 6600
+},
+{
+"id": 104003023,
+"para1": 6900
+},
+{
+"id": 104003024,
+"para1": 7200
+},
+{
+"id": 104003025,
+"para1": 7500
+},
+{
+"id": 104051001,
+"para1": 300
+},
+{
+"id": 104051002,
+"para1": 600
+},
+{
+"id": 104051003,
+"para1": 900
+},
+{
+"id": 104051004,
+"para1": 1200
+},
+{
+"id": 104051005,
+"para1": 1500
+},
+{
+"id": 104051006,
+"para1": 1800
+},
+{
+"id": 104051007,
+"para1": 2100
+},
+{
+"id": 104051008,
+"para1": 2400
+},
+{
+"id": 104051009,
+"para1": 2700
+},
+{
+"id": 104051010,
+"para1": 3000
+},
+{
+"id": 104051011,
+"para1": 3300
+},
+{
+"id": 104051012,
+"para1": 3600
+},
+{
+"id": 104051013,
+"para1": 3900
+},
+{
+"id": 104051014,
+"para1": 4200
+},
+{
+"id": 104051015,
+"para1": 4500
+},
+{
+"id": 104051016,
+"para1": 4800
+},
+{
+"id": 104051017,
+"para1": 5100
+},
+{
+"id": 104051018,
+"para1": 5400
+},
+{
+"id": 104051019,
+"para1": 5700
+},
+{
+"id": 104051020,
+"para1": 6000
+},
+{
+"id": 104051021,
+"para1": 6300
+},
+{
+"id": 104051022,
+"para1": 6600
+},
+{
+"id": 104051023,
+"para1": 6900
+},
+{
+"id": 104051024,
+"para1": 7200
+},
+{
+"id": 104051025,
+"para1": 7500
+},
+{
+"id": 104060001,
+"para1": 120
+},
+{
+"id": 104060002,
+"para1": 240
+},
+{
+"id": 104060003,
+"para1": 360
+},
+{
+"id": 104060004,
+"para1": 480
+},
+{
+"id": 104060005,
+"para1": 600
+},
+{
+"id": 104060006,
+"para1": 720
+},
+{
+"id": 104060007,
+"para1": 840
+},
+{
+"id": 104060008,
+"para1": 960
+},
+{
+"id": 104060009,
+"para1": 1080
+},
+{
+"id": 104060010,
+"para1": 1200
+},
+{
+"id": 104060011,
+"para1": 1320
+},
+{
+"id": 104060012,
+"para1": 1440
+},
+{
+"id": 104060013,
+"para1": 1560
+},
+{
+"id": 104060014,
+"para1": 1680
+},
+{
+"id": 104060015,
+"para1": 1800
+},
+{
+"id": 104060016,
+"para1": 1920
+},
+{
+"id": 104060017,
+"para1": 2040
+},
+{
+"id": 104060018,
+"para1": 2160
+},
+{
+"id": 104060019,
+"para1": 2280
+},
+{
+"id": 104060020,
+"para1": 2400
+},
+{
+"id": 104060021,
+"para1": 2520
+},
+{
+"id": 104060022,
+"para1": 2640
+},
+{
+"id": 104060023,
+"para1": 2760
+},
+{
+"id": 104060024,
+"para1": 2880
+},
+{
+"id": 104060025,
+"para1": 3000
+},
+{
+"id": 104094001,
+"para1": 300
+},
+{
+"id": 104094002,
+"para1": 600
+},
+{
+"id": 104094003,
+"para1": 900
+},
+{
+"id": 104094004,
+"para1": 1200
+},
+{
+"id": 104094005,
+"para1": 1500
+},
+{
+"id": 104094006,
+"para1": 1800
+},
+{
+"id": 104094007,
+"para1": 2100
+},
+{
+"id": 104094008,
+"para1": 2400
+},
+{
+"id": 104094009,
+"para1": 2700
+},
+{
+"id": 104094010,
+"para1": 3000
+},
+{
+"id": 104094011,
+"para1": 3300
+},
+{
+"id": 104094012,
+"para1": 3600
+},
+{
+"id": 104094013,
+"para1": 3900
+},
+{
+"id": 104094014,
+"para1": 4200
+},
+{
+"id": 104094015,
+"para1": 4500
+},
+{
+"id": 104094016,
+"para1": 4800
+},
+{
+"id": 104094017,
+"para1": 5100
+},
+{
+"id": 104094018,
+"para1": 5400
+},
+{
+"id": 104094019,
+"para1": 5700
+},
+{
+"id": 104094020,
+"para1": 6000
+},
+{
+"id": 104094021,
+"para1": 6300
+},
+{
+"id": 104094022,
+"para1": 6600
+},
+{
+"id": 104094023,
+"para1": 6900
+},
+{
+"id": 104094024,
+"para1": 7200
+},
+{
+"id": 104094025,
+"para1": 7500
+},
+{
+"id": 104301001,
+"para1": 300
+},
+{
+"id": 104301002,
+"para1": 600
+},
+{
+"id": 104301003,
+"para1": 900
+},
+{
+"id": 104301004,
+"para1": 1200
+},
+{
+"id": 104301005,
+"para1": 1500
+},
+{
+"id": 104301006,
+"para1": 1800
+},
+{
+"id": 104301007,
+"para1": 2100
+},
+{
+"id": 104301008,
+"para1": 2400
+},
+{
+"id": 104301009,
+"para1": 2700
+},
+{
+"id": 104301010,
+"para1": 3000
+},
+{
+"id": 104301011,
+"para1": 3300
+},
+{
+"id": 104301012,
+"para1": 3600
+},
+{
+"id": 104301013,
+"para1": 3900
+},
+{
+"id": 104301014,
+"para1": 4200
+},
+{
+"id": 104301015,
+"para1": 4500
+},
+{
+"id": 104301016,
+"para1": 4800
+},
+{
+"id": 104301017,
+"para1": 5100
+},
+{
+"id": 104301018,
+"para1": 5400
+},
+{
+"id": 104301019,
+"para1": 5700
+},
+{
+"id": 104301020,
+"para1": 6000
+},
+{
+"id": 104301021,
+"para1": 6300
+},
+{
+"id": 104301022,
+"para1": 6600
+},
+{
+"id": 104301023,
+"para1": 6900
+},
+{
+"id": 104301024,
+"para1": 7200
+},
+{
+"id": 104301025,
+"para1": 7500
+},
+{
+"id": 104090001,
+"para1": 120
+},
+{
+"id": 104090002,
+"para1": 240
+},
+{
+"id": 104090003,
+"para1": 360
+},
+{
+"id": 104090004,
+"para1": 480
+},
+{
+"id": 104090005,
+"para1": 600
+},
+{
+"id": 104090006,
+"para1": 720
+},
+{
+"id": 104090007,
+"para1": 840
+},
+{
+"id": 104090008,
+"para1": 960
+},
+{
+"id": 104090009,
+"para1": 1080
+},
+{
+"id": 104090010,
+"para1": 1200
+},
+{
+"id": 104090011,
+"para1": 1320
+},
+{
+"id": 104090012,
+"para1": 1440
+},
+{
+"id": 104090013,
+"para1": 1560
+},
+{
+"id": 104090014,
+"para1": 1680
+},
+{
+"id": 104090015,
+"para1": 1800
+},
+{
+"id": 104090016,
+"para1": 1920
+},
+{
+"id": 104090017,
+"para1": 2040
+},
+{
+"id": 104090018,
+"para1": 2160
+},
+{
+"id": 104090019,
+"para1": 2280
+},
+{
+"id": 104090020,
+"para1": 2400
+},
+{
+"id": 104090021,
+"para1": 2520
+},
+{
+"id": 104090022,
+"para1": 2640
+},
+{
+"id": 104090023,
+"para1": 2760
+},
+{
+"id": 104090024,
+"para1": 2880
+},
+{
+"id": 104090025,
+"para1": 3000
+},
+{
+"id": 104025001,
+"para1": 200,
+"para2": 200,
+"para3": 80,
+"para4": 100
+},
+{
+"id": 104025002,
+"para1": 400,
+"para2": 400,
+"para3": 160,
+"para4": 100
+},
+{
+"id": 104025003,
+"para1": 600,
+"para2": 600,
+"para3": 240,
+"para4": 100
+},
+{
+"id": 104025004,
+"para1": 800,
+"para2": 800,
+"para3": 320,
+"para4": 100
+},
+{
+"id": 104025005,
+"para1": 1000,
+"para2": 1000,
+"para3": 400,
+"para4": 100
+},
+{
+"id": 104025006,
+"para1": 1200,
+"para2": 1200,
+"para3": 480,
+"para4": 100
+},
+{
+"id": 104025007,
+"para1": 1400,
+"para2": 1400,
+"para3": 560,
+"para4": 100
+},
+{
+"id": 104025008,
+"para1": 1600,
+"para2": 1600,
+"para3": 640,
+"para4": 100
+},
+{
+"id": 104025009,
+"para1": 1800,
+"para2": 1800,
+"para3": 720,
+"para4": 100
+},
+{
+"id": 104025010,
+"para1": 2000,
+"para2": 2000,
+"para3": 800,
+"para4": 100
+},
+{
+"id": 104025011,
+"para1": 2200,
+"para2": 2200,
+"para3": 880,
+"para4": 100
+},
+{
+"id": 104025012,
+"para1": 2400,
+"para2": 2400,
+"para3": 960,
+"para4": 100
+},
+{
+"id": 104025013,
+"para1": 2600,
+"para2": 2600,
+"para3": 1040,
+"para4": 100
+},
+{
+"id": 104025014,
+"para1": 2800,
+"para2": 2800,
+"para3": 1120,
+"para4": 100
+},
+{
+"id": 104025015,
+"para1": 3000,
+"para2": 3000,
+"para3": 1200,
+"para4": 100
+},
+{
+"id": 104025016,
+"para1": 3200,
+"para2": 3200,
+"para3": 1280,
+"para4": 100
+},
+{
+"id": 104025017,
+"para1": 3400,
+"para2": 3400,
+"para3": 1360,
+"para4": 100
+},
+{
+"id": 104025018,
+"para1": 3600,
+"para2": 3600,
+"para3": 1440,
+"para4": 100
+},
+{
+"id": 104025019,
+"para1": 3800,
+"para2": 3800,
+"para3": 1520,
+"para4": 100
+},
+{
+"id": 104025020,
+"para1": 4000,
+"para2": 4000,
+"para3": 1600,
+"para4": 100
+},
+{
+"id": 104025021,
+"para1": 4200,
+"para2": 4200,
+"para3": 1680,
+"para4": 100
+},
+{
+"id": 104025022,
+"para1": 4400,
+"para2": 4400,
+"para3": 1760,
+"para4": 100
+},
+{
+"id": 104025023,
+"para1": 4600,
+"para2": 4600,
+"para3": 1840,
+"para4": 100
+},
+{
+"id": 104025024,
+"para1": 4800,
+"para2": 4800,
+"para3": 1920,
+"para4": 100
+},
+{
+"id": 104025025,
+"para1": 5000,
+"para2": 5000,
+"para3": 2000,
+"para4": 100
+},
+{
+"id": 104026001,
+"para1": 200,
+"para4": 100
+},
+{
+"id": 104026002,
+"para1": 400,
+"para4": 100
+},
+{
+"id": 104026003,
+"para1": 600,
+"para4": 100
+},
+{
+"id": 104026004,
+"para1": 800,
+"para4": 100
+},
+{
+"id": 104026005,
+"para1": 1000,
+"para4": 100
+},
+{
+"id": 104026006,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 104026007,
+"para1": 1400,
+"para4": 100
+},
+{
+"id": 104026008,
+"para1": 1600,
+"para4": 100
+},
+{
+"id": 104026009,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 104026010,
+"para1": 2000,
+"para4": 100
+},
+{
+"id": 104026011,
+"para1": 2200,
+"para4": 100
+},
+{
+"id": 104026012,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 104026013,
+"para1": 2600,
+"para4": 100
+},
+{
+"id": 104026014,
+"para1": 2800,
+"para4": 100
+},
+{
+"id": 104026015,
+"para1": 3000,
+"para4": 100
+},
+{
+"id": 104026016,
+"para1": 3200,
+"para4": 100
+},
+{
+"id": 104026017,
+"para1": 3400,
+"para4": 100
+},
+{
+"id": 104026018,
+"para1": 3600,
+"para4": 100
+},
+{
+"id": 104026019,
+"para1": 3800,
+"para4": 100
+},
+{
+"id": 104026020,
+"para1": 4000,
+"para4": 100
+},
+{
+"id": 104026021,
+"para1": 4200,
+"para4": 100
+},
+{
+"id": 104026022,
+"para1": 4400,
+"para4": 100
+},
+{
+"id": 104026023,
+"para1": 4600,
+"para4": 100
+},
+{
+"id": 104026024,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 104026025,
+"para1": 5000,
+"para4": 100
+},
+{
+"id": 104027001,
+"para1": 200,
+"para4": 100
+},
+{
+"id": 104027002,
+"para1": 400,
+"para4": 100
+},
+{
+"id": 104027003,
+"para1": 600,
+"para4": 100
+},
+{
+"id": 104027004,
+"para1": 800,
+"para4": 100
+},
+{
+"id": 104027005,
+"para1": 1000,
+"para4": 100
+},
+{
+"id": 104027006,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 104027007,
+"para1": 1400,
+"para4": 100
+},
+{
+"id": 104027008,
+"para1": 1600,
+"para4": 100
+},
+{
+"id": 104027009,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 104027010,
+"para1": 2000,
+"para4": 100
+},
+{
+"id": 104027011,
+"para1": 2200,
+"para4": 100
+},
+{
+"id": 104027012,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 104027013,
+"para1": 2600,
+"para4": 100
+},
+{
+"id": 104027014,
+"para1": 2800,
+"para4": 100
+},
+{
+"id": 104027015,
+"para1": 3000,
+"para4": 100
+},
+{
+"id": 104027016,
+"para1": 3200,
+"para4": 100
+},
+{
+"id": 104027017,
+"para1": 3400,
+"para4": 100
+},
+{
+"id": 104027018,
+"para1": 3600,
+"para4": 100
+},
+{
+"id": 104027019,
+"para1": 3800,
+"para4": 100
+},
+{
+"id": 104027020,
+"para1": 4000,
+"para4": 100
+},
+{
+"id": 104027021,
+"para1": 4200,
+"para4": 100
+},
+{
+"id": 104027022,
+"para1": 4400,
+"para4": 100
+},
+{
+"id": 104027023,
+"para1": 4600,
+"para4": 100
+},
+{
+"id": 104027024,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 104027025,
+"para1": 5000,
+"para4": 100
+},
+{
+"id": 104028001,
+"para1": 200,
+"para4": 100
+},
+{
+"id": 104028002,
+"para1": 400,
+"para4": 100
+},
+{
+"id": 104028003,
+"para1": 600,
+"para4": 100
+},
+{
+"id": 104028004,
+"para1": 800,
+"para4": 100
+},
+{
+"id": 104028005,
+"para1": 1000,
+"para4": 100
+},
+{
+"id": 104028006,
+"para1": 1200,
+"para4": 100
+},
+{
+"id": 104028007,
+"para1": 1400,
+"para4": 100
+},
+{
+"id": 104028008,
+"para1": 1600,
+"para4": 100
+},
+{
+"id": 104028009,
+"para1": 1800,
+"para4": 100
+},
+{
+"id": 104028010,
+"para1": 2000,
+"para4": 100
+},
+{
+"id": 104028011,
+"para1": 2200,
+"para4": 100
+},
+{
+"id": 104028012,
+"para1": 2400,
+"para4": 100
+},
+{
+"id": 104028013,
+"para1": 2600,
+"para4": 100
+},
+{
+"id": 104028014,
+"para1": 2800,
+"para4": 100
+},
+{
+"id": 104028015,
+"para1": 3000,
+"para4": 100
+},
+{
+"id": 104028016,
+"para1": 3200,
+"para4": 100
+},
+{
+"id": 104028017,
+"para1": 3400,
+"para4": 100
+},
+{
+"id": 104028018,
+"para1": 3600,
+"para4": 100
+},
+{
+"id": 104028019,
+"para1": 3800,
+"para4": 100
+},
+{
+"id": 104028020,
+"para1": 4000,
+"para4": 100
+},
+{
+"id": 104028021,
+"para1": 4200,
+"para4": 100
+},
+{
+"id": 104028022,
+"para1": 4400,
+"para4": 100
+},
+{
+"id": 104028023,
+"para1": 4600,
+"para4": 100
+},
+{
+"id": 104028024,
+"para1": 4800,
+"para4": 100
+},
+{
+"id": 104028025,
+"para1": 5000,
+"para4": 100
+},
+{
+"id": 4099001,
+"para1": 1
+},
+{
+"id": 4099002,
+"para1": 1
+},
+{
+"id": 4099003,
+"para1": 1
+},
+{
+"id": 4099004,
+"para1": 1
+},
+{
+"id": 4099005,
+"para1": 2
+},
+{
+"id": 4099006,
+"para1": 2
+},
+{
+"id": 4099007,
+"para1": 2
+},
+{
+"id": 4099008,
+"para1": 2
+},
+{
+"id": 4099009,
+"para1": 2
+},
+{
+"id": 4099010,
+"para1": 3
+},
+{
+"id": 4099011,
+"para1": 3
+},
+{
+"id": 4099012,
+"para1": 3
+},
+{
+"id": 4099013,
+"para1": 3
+},
+{
+"id": 4099014,
+"para1": 3
+},
+{
+"id": 4099015,
+"para1": 3
+},
+{
+"id": 4099016,
+"para1": 3
+},
+{
+"id": 4099017,
+"para1": 3
+},
+{
+"id": 4099018,
+"para1": 3
+},
+{
+"id": 4099019,
+"para1": 3
+},
+{
+"id": 4099020,
+"para1": 3
+},
+{
+"id": 4099021,
+"para1": 3
+},
+{
+"id": 4099022,
+"para1": 3
+},
+{
+"id": 4099023,
+"para1": 3
+},
+{
+"id": 4099024,
+"para1": 3
+},
+{
+"id": 4099025,
+"para1": 3
+},
+{
+"id": 4900701,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4900801,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4900901,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901001,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901101,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901201,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901301,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901401,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901501,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4101001,
+"para1": 100
+},
+{
+"id": 4101002,
+"para1": 200
+},
+{
+"id": 4101003,
+"para1": 300
+},
+{
+"id": 4101004,
+"para1": 400
+},
+{
+"id": 4101005,
+"para1": 500
+},
+{
+"id": 4101006,
+"para1": 600
+},
+{
+"id": 4101007,
+"para1": 700
+},
+{
+"id": 4101008,
+"para1": 800
+},
+{
+"id": 4101009,
+"para1": 900
+},
+{
+"id": 4101010,
+"para1": 1000
+},
+{
+"id": 4101011,
+"para1": 1100
+},
+{
+"id": 4101012,
+"para1": 1200
+},
+{
+"id": 4101013,
+"para1": 1300
+},
+{
+"id": 4101014,
+"para1": 1400
+},
+{
+"id": 4101015,
+"para1": 1500
+},
+{
+"id": 4101016,
+"para1": 1600
+},
+{
+"id": 4101017,
+"para1": 1700
+},
+{
+"id": 4101018,
+"para1": 1800
+},
+{
+"id": 4101019,
+"para1": 1900
+},
+{
+"id": 4101020,
+"para1": 2000
+},
+{
+"id": 4101021,
+"para1": 2100
+},
+{
+"id": 4101022,
+"para1": 2200
+},
+{
+"id": 4101023,
+"para1": 2300
+},
+{
+"id": 4101024,
+"para1": 2400
+},
+{
+"id": 4101025,
+"para1": 2500
+},
+{
+"id": 4901901,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901601,
+"para1": 20,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 12000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 20
+}
+]
+},
+{
+"id": 4901701,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4901801,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4902101,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 104120001,
+"para1": 200,
+"para2": 200,
+"para3": 80,
+"para4": 120,
+"para5": 120,
+"para6": 40
+},
+{
+"id": 104120002,
+"para1": 400,
+"para2": 400,
+"para3": 160,
+"para4": 240,
+"para5": 240,
+"para6": 100
+},
+{
+"id": 104120003,
+"para1": 600,
+"para2": 600,
+"para3": 240,
+"para4": 360,
+"para5": 360,
+"para6": 140
+},
+{
+"id": 104120004,
+"para1": 800,
+"para2": 800,
+"para3": 320,
+"para4": 480,
+"para5": 480,
+"para6": 200
+},
+{
+"id": 104120005,
+"para1": 1000,
+"para2": 1000,
+"para3": 400,
+"para4": 600,
+"para5": 600,
+"para6": 240
+},
+{
+"id": 104120006,
+"para1": 1200,
+"para2": 1200,
+"para3": 480,
+"para4": 720,
+"para5": 720,
+"para6": 280
+},
+{
+"id": 104120007,
+"para1": 1400,
+"para2": 1400,
+"para3": 560,
+"para4": 840,
+"para5": 840,
+"para6": 340
+},
+{
+"id": 104120008,
+"para1": 1600,
+"para2": 1600,
+"para3": 640,
+"para4": 960,
+"para5": 960,
+"para6": 380
+},
+{
+"id": 104120009,
+"para1": 1800,
+"para2": 1800,
+"para3": 720,
+"para4": 1080,
+"para5": 1080,
+"para6": 440
+},
+{
+"id": 104120010,
+"para1": 2000,
+"para2": 2000,
+"para3": 800,
+"para4": 1200,
+"para5": 1200,
+"para6": 480
+},
+{
+"id": 104120011,
+"para1": 2200,
+"para2": 2200,
+"para3": 880,
+"para4": 1320,
+"para5": 1320,
+"para6": 520
+},
+{
+"id": 104120012,
+"para1": 2400,
+"para2": 2400,
+"para3": 960,
+"para4": 1440,
+"para5": 1440,
+"para6": 580
+},
+{
+"id": 104120013,
+"para1": 2600,
+"para2": 2600,
+"para3": 1040,
+"para4": 1560,
+"para5": 1560,
+"para6": 620
+},
+{
+"id": 104120014,
+"para1": 2800,
+"para2": 2800,
+"para3": 1120,
+"para4": 1680,
+"para5": 1680,
+"para6": 680
+},
+{
+"id": 104120015,
+"para1": 3000,
+"para2": 3000,
+"para3": 1200,
+"para4": 1800,
+"para5": 1800,
+"para6": 720
+},
+{
+"id": 104120016,
+"para1": 3200,
+"para2": 3200,
+"para3": 1280,
+"para4": 1920,
+"para5": 1920,
+"para6": 760
+},
+{
+"id": 104120017,
+"para1": 3400,
+"para2": 3400,
+"para3": 1360,
+"para4": 2040,
+"para5": 2040,
+"para6": 820
+},
+{
+"id": 104120018,
+"para1": 3600,
+"para2": 3600,
+"para3": 1440,
+"para4": 2160,
+"para5": 2160,
+"para6": 860
+},
+{
+"id": 104120019,
+"para1": 3800,
+"para2": 3800,
+"para3": 1520,
+"para4": 2280,
+"para5": 2280,
+"para6": 920
+},
+{
+"id": 104120020,
+"para1": 4000,
+"para2": 4000,
+"para3": 1600,
+"para4": 2400,
+"para5": 2400,
+"para6": 960
+},
+{
+"id": 104120021,
+"para1": 4200,
+"para2": 4200,
+"para3": 1680,
+"para4": 2520,
+"para5": 2520,
+"para6": 1000
+},
+{
+"id": 104120022,
+"para1": 4400,
+"para2": 4400,
+"para3": 1760,
+"para4": 2640,
+"para5": 2640,
+"para6": 1060
+},
+{
+"id": 104120023,
+"para1": 4600,
+"para2": 4600,
+"para3": 1840,
+"para4": 2760,
+"para5": 2760,
+"para6": 1100
+},
+{
+"id": 104120024,
+"para1": 4800,
+"para2": 4800,
+"para3": 1920,
+"para4": 2880,
+"para5": 2880,
+"para6": 1160
+},
+{
+"id": 104120025,
+"para1": 5000,
+"para2": 5000,
+"para3": 2000,
+"para4": 3000,
+"para5": 3000,
+"para6": 1200
+},
+{
+"id": 4902401,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4902601,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4902701,
+"para1": 2,
+"para2": 5,
+"buff_ids": [
+{
+"index": 1,
+"content": 10304
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 2
+}
+]
+},
+{
+"id": 4903201,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4102001,
+"para1": 0
+},
+{
+"id": 4102002,
+"para1": 0
+},
+{
+"id": 4102003,
+"para1": 0
+},
+{
+"id": 4102004,
+"para1": 0
+},
+{
+"id": 4102005,
+"para1": 0
+},
+{
+"id": 4102006,
+"para1": 1
+},
+{
+"id": 4102007,
+"para1": 1
+},
+{
+"id": 4102008,
+"para1": 1
+},
+{
+"id": 4102009,
+"para1": 1
+},
+{
+"id": 4102010,
+"para1": 1
+},
+{
+"id": 4102011,
+"para1": 2
+},
+{
+"id": 4102012,
+"para1": 2
+},
+{
+"id": 4102013,
+"para1": 2
+},
+{
+"id": 4102014,
+"para1": 2
+},
+{
+"id": 4102015,
+"para1": 2
+},
+{
+"id": 4102016,
+"para1": 3
+},
+{
+"id": 4102017,
+"para1": 3
+},
+{
+"id": 4102018,
+"para1": 3
+},
+{
+"id": 4102019,
+"para1": 3
+},
+{
+"id": 4102020,
+"para1": 3
+},
+{
+"id": 4102021,
+"para1": 4
+},
+{
+"id": 4102022,
+"para1": 4
+},
+{
+"id": 4102023,
+"para1": 4
+},
+{
+"id": 4102024,
+"para1": 4
+},
+{
+"id": 4102025,
+"para1": 4
+},
+{
+"id": 4902001,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4904201,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14000
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+},
+{
+"id": 4904101,
+"para1": 10,
+"para2": 1,
+"buff_ids": [
+{
+"index": 1,
+"content": 14700
+}
+],
+"buff_values": [
+{
+"index": 1,
+"content": 10
+}
+]
+}
+]

@@ -1,0 +1,245 @@
+[
+{
+"id": 1,
+"include": [
+5300101,
+5300102,
+5300103,
+5300104,
+5300105
+],
+"gift_new": 239301,
+"icon": "banner_33",
+"trans_title": "trans_title_1"
+},
+{
+"id": 2,
+"include": [
+5300201,
+5300202,
+5300203,
+5300204,
+5300205
+],
+"unlock": 1,
+"gift_new": 239302,
+"icon": "banner_34",
+"trans_title": "trans_title_2"
+},
+{
+"id": 3,
+"include": [
+5300301,
+5300302,
+5300303,
+5300304,
+5300305
+],
+"unlock": 2,
+"gift_new": 239303,
+"icon": "banner_35",
+"trans_title": "trans_title_3"
+},
+{
+"id": 4,
+"include": [
+5300401,
+5300402,
+5300403,
+5300404,
+5300405,
+5300406
+],
+"unlock": 3,
+"gift_new": 239370,
+"icon": "banner_36",
+"trans_title": "trans_title_4"
+},
+{
+"id": 5,
+"include": [
+5300501,
+5300502,
+5300503,
+5300504,
+5300505,
+5300506
+],
+"unlock": 4,
+"gift_new": 239393,
+"icon": "banner_37",
+"trans_title": "trans_title_5"
+},
+{
+"id": 6,
+"include": [
+5300601,
+5300602,
+5300603,
+5300604,
+5300605,
+5300606
+],
+"unlock": 5,
+"gift_new": 239394,
+"icon": "banner_38",
+"trans_title": "trans_title_6"
+},
+{
+"id": 7,
+"include": [
+5300701,
+5300702,
+5300703,
+5300704,
+5300705,
+5300706
+],
+"unlock": 6,
+"gift_new": 239395,
+"icon": "banner_39",
+"trans_title": "trans_title_7"
+},
+{
+"id": 8,
+"include": [
+5300801,
+5300802,
+5300803,
+5300804,
+5300805,
+5300806
+],
+"unlock": 7,
+"gift_new": 239371,
+"icon": "Chapter_banner_8",
+"trans_title": "Chapter_title_8"
+},
+{
+"id": 9,
+"include": [
+5300901,
+5300902,
+5300903,
+5300904,
+5300905,
+5300906
+],
+"unlock": 8,
+"gift_new": 239372,
+"icon": "Chapter_banner_9",
+"trans_title": "Chapter_title_9"
+},
+{
+"id": 10,
+"include": [
+5301001,
+5301002,
+5301003,
+5301004,
+5301005,
+5301006
+],
+"unlock": 9,
+"gift_new": 239373,
+"icon": "Chapter_banner_10",
+"trans_title": "Chapter_title_10"
+},
+{
+"id": 11,
+"include": [
+5301501,
+5301502,
+5301503,
+5301504,
+5301505,
+5301506
+],
+"unlock": 10,
+"gift_new": 239392,
+"icon": "Chapter_banner_11",
+"trans_title": "Chapter_title_11"
+},
+{
+"id": 101,
+"include": [
+5301101,
+5301102,
+5301103,
+5301104
+],
+"gift_new": 239455,
+"icon": "Chapter_banner_101",
+"trans_title": "Chapter_title_101",
+"activity_id": [
+1000401,
+1000405,
+1000408,
+1000411,
+1000415
+]
+},
+{
+"id": 102,
+"include": [
+5301201,
+5301202,
+5301203,
+5301204
+],
+"unlock": 101,
+"gift_new": 239456,
+"icon": "Chapter_banner_102",
+"trans_title": "Chapter_title_102",
+"activity_id": [
+1000401,
+1000405,
+1000408,
+1000411,
+1000415
+]
+},
+{
+"id": 103,
+"include": [
+5301301,
+5301302,
+5301303,
+5301304,
+5301305
+],
+"unlock": 102,
+"gift_new": 239457,
+"icon": "Chapter_banner_103",
+"trans_title": "Chapter_title_103",
+"activity_id": [
+1000401,
+1000405,
+1000408,
+1000411,
+1000415
+]
+},
+{
+"id": 104,
+"include": [
+5301401,
+5301402,
+5301403,
+5301404,
+5301405,
+5301406
+],
+"unlock": 103,
+"gift_new": 239458,
+"icon": "Chapter_banner_104",
+"trans_title": "Chapter_title_104",
+"activity_id": [
+1000401,
+1000405,
+1000408,
+1000411,
+1000415
+]
+}
+]

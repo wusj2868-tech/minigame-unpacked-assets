@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-11-19T16:36:06.588544117+08:00",
+  "scanVersion": 3,
+  "sha256": "d0f8999f7dd437ba84a83bea0c2336971835bddb74b7797d74949d283523826a",
+  "archives": [
+    "target.apk"
+  ],
+  "totalFiles": 9389,
+  "totalBytes": 1189690070,
+  "bundleFiles": 0,
+  "bundleBytes": 0,
+  "categories": [
+    {
+      "key": "texture",
+      "label": "贴图 / 其它图片",
+      "files": 7883,
+      "bytes": 1095213550,
+      "exts": [
+        {
+          "ext": ".astc",
+          "files": 7470,
+          "bytes": 1090548545
+        },
+        {
+          "ext": ".png",
+          "files": 412,
+          "bytes": 4050430
+        },
+        {
+          "ext": ".jpg",
+          "files": 1,
+          "bytes": 614575
+        }
+      ],
+      "samples": [
+        "target.apk/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "target.apk/res/drawable-xxhdpi/sy37_web_forward_disable.png",
+        "target.apk/res/drawable-xxhdpi/com_tencent_ysdk_phone_oauth_login_back.png"
+      ]
+    },
+    {
+      "key": "audio",
+      "label": "音频",
+      "files": 463,
+      "bytes": 88031077,
+      "exts": [
+        {
+          "ext": ".mp3",
+          "files": 462,
+          "bytes": 87689989
+        },
+        {
+          "ext": ".wav",
+          "files": 1,
+          "bytes": 341088
+        }
+      ],
+      "samples": [
+        "target.apk/assets/assets/resources/native/b1/b1796c6a-6f31-4a52-a576-ed5c0758f9a6.mp3",
+        "target.apk/assets/assets/resources/native/41/4160aac6-ebc1-43cc-a37d-fd49954d1799.mp3",
+        "target.apk/assets/assets/resources/native/b2/b299aee5-b918-4f27-bca6-ea8f048d60ae.mp3"
+      ]
+    },
+    {
+      "key": "ui_icon",
+      "label": "图标 / Logo / UI",
+      "files": 264,
+      "bytes": 3092940,
+      "exts": [
+        {
+          "ext": ".png",
+          "files": 257,
+          "bytes": 2820445
+        },
+        {
+          "ext": ".jpg",
+          "files": 7,
+          "bytes": 272495
+        }
+      ],
+      "samples": [
+        "target.apk/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "target.apk/res/mipmap-xxxhdpi/live_loading.png",
+        "target.apk/res/mipmap-xxxhdpi/ic_launcher_round.png"
+      ]
+    },
+    {
+      "key": "font",
+      "label": "字体",
+      "files": 1,
+      "bytes": 1597548,
+      "exts": [
+        {
+          "ext": ".ttf",
+          "files": 1,
+          "bytes": 1597548
+        }
+      ],
+      "samples": [
+        "target.apk/assets/assets/resources/native/fe/fe0a845d-b4b2-48a5-8a7e-e8d17bbf1933/Alibaba-PuHuiTi-Bold.ttf"
+      ]
+    },
+    {
+      "key": "scene",
+      "label": "场景 / 地图",
+      "files": 84,
+      "bytes": 1137535,
+      "exts": [
+        {
+          "ext": ".png",
+          "files": 84,
+          "bytes": 1137535
+        }
+      ],
+      "samples": [
+        "target.apk/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+        "target.apk/res/drawable-xxhdpi/sy_fx_bg_login_fast.png",
+        "target.apk/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png"
+      ]
+    },
+    {
+      "key": "anim2d",
+      "label": "2D 动作（Spine/DragonBones）",
+      "files": 668,
+      "bytes": 609408,
+      "exts": [
+        {
+          "ext": ".atlas",
+          "files": 668,
+          "bytes": 609408
+        }
+      ],
+      "samples": [
+        "target.apk/assets/assets/resources/native/b1/b1eea41e-9076-4ecb-ba70-0126597b24f3.atlas",
+        "target.apk/assets/assets/resources/native/29/294c3dad-7d07-4ad1-b3e2-b930933aa82e.atlas",
+        "target.apk/assets/assets/resources/native/41/419b3282-f1dd-40fb-94a9-7529f8583082.atlas"
+      ]
+    },
+    {
+      "key": "vfx",
+      "label": "特效",
+      "files": 22,
+      "bytes": 7269,
+      "exts": [
+        {
+          "ext": ".png",
+          "files": 22,
+          "bytes": 7269
+        }
+      ],
+      "samples": [
+        "target.apk/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png",
+        "target.apk/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png",
+        "target.apk/res/drawable-xxhdpi/abc_text_select_handle_middle_mtrl_light.png"
+      ]
+    },
+    {
+      "key": "guide",
+      "label": "引导 / 指引素材",
+      "files": 4,
+      "bytes": 743,
+      "exts": [
+        {
+          "ext": ".png",
+          "files": 4,
+          "bytes": 743
+        }
+      ],
+      "samples": [
+        "target.apk/assets/37wan_net/img/guide/nav_btn_menu_press.png",
+        "target.apk/assets/37wan_net/img/guide/nav_btn_menu_end_press.png",
+        "target.apk/assets/37wan_net/img/guide/nav_btn_menu.png"
+      ]
+    }
+  ],
+  "topDirs": [
+    {
+      "path": "target.apk/assets/assets/resources",
+      "files": 8620,
+      "bytes": 1183429704
+    },
+    {
+      "path": "target.apk/res/drawable-hdpi",
+      "files": 268,
+      "bytes": 1023833
+    },
+    {
+      "path": "target.apk/res/drawable-xhdpi",
+      "files": 184,
+      "bytes": 1946946
+    },
+    {
+      "path": "target.apk/res/drawable-xxhdpi",
+      "files": 132,
+      "bytes": 1035055
+    },
+    {
+      "path": "target.apk/res/drawable-mdpi",
+      "files": 59,
+      "bytes": 54606
+    },
+    {
+      "path": "target.apk/res/drawable-xxxhdpi",
+      "files": 33,
+      "bytes": 549106
+    },
+    {
+      "path": "target.apk/res/mipmap-xhdpi",
+      "files": 24,
+      "bytes": 256223
+    },
+    {
+      "path": "target.apk/assets/assets/sqdialogsdk",
+      "files": 17,
+      "bytes": 95958
+    },
+    {
+      "path": "target.apk/assets/37wan_net/img",
+      "files": 7,
+      "bytes": 18418
+    },
+    {
+      "path": "target.apk/res/drawable-ldpi",
+      "files": 6,
+      "bytes": 1315
+    }
+  ],
+  "notes": [
+    "`assets` 下有 4 个疑似引导/指引素材（按命名推断，非确证），可重点看这批文件的用途。",
+    "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。"
+  ]
+}

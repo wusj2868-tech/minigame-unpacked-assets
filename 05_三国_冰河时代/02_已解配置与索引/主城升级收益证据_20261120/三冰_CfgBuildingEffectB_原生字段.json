@@ -1,0 +1,126 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgBuildingEffectB",
+  "field_aliases": {
+    "ID": 0,
+    "Name": 1,
+    "Icon": 2
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "Name": "道具",
+      "Icon": ""
+    },
+    "2": {
+      "ID": 2,
+      "Name": "时间",
+      "Icon": "clock"
+    },
+    "3": {
+      "ID": 3,
+      "Name": "休息",
+      "Icon": "zhuangtai_shuijiao"
+    },
+    "4": {
+      "ID": 4,
+      "Name": "速度",
+      "Icon": "zhuangtai_sudu"
+    },
+    "5": {
+      "ID": 5,
+      "Name": "治愈率",
+      "Icon": "zhuangtai_zhiliao"
+    },
+    "6": {
+      "ID": 6,
+      "Name": "温度值",
+      "Icon": "zhuangtai_huolu"
+    },
+    "7": {
+      "ID": 7,
+      "Name": "产量比例值",
+      "Icon": ""
+    },
+    "8": {
+      "ID": 8,
+      "Name": "摆件模板",
+      "Icon": ""
+    },
+    "9": {
+      "ID": 9,
+      "Name": "摆件模板ID",
+      "Icon": ""
+    },
+    "10": {
+      "ID": 10,
+      "Name": "生命值",
+      "Icon": "zhuangtai_zhiliao"
+    },
+    "11": {
+      "ID": 11,
+      "Name": "道具消耗比例",
+      "Icon": ""
+    },
+    "12": {
+      "ID": 12,
+      "Name": "交涉技巧等级",
+      "Icon": ""
+    },
+    "13": {
+      "ID": 13,
+      "Name": "料理",
+      "Icon": "zhuangtai_shitang"
+    },
+    "14": {
+      "ID": 14,
+      "Name": "罢工事件",
+      "Icon": ""
+    },
+    "15": {
+      "ID": 15,
+      "Name": "时间百分比",
+      "Icon": "clock"
+    },
+    "16": {
+      "ID": 16,
+      "Name": "生命值百分比",
+      "Icon": "zhuangtai_zhiliao"
+    },
+    "17": {
+      "ID": 17,
+      "Name": "过载道具消耗",
+      "Icon": ""
+    },
+    "18": {
+      "ID": 18,
+      "Name": "饱腹值",
+      "Icon": "cmn_jie"
+    },
+    "19": {
+      "ID": 19,
+      "Name": "疲劳值",
+      "Icon": "cmn_xiuxi"
+    },
+    "20": {
+      "ID": 20,
+      "Name": "民兵战力",
+      "Icon": "zhuangtai_reserve"
+    },
+    "21": {
+      "ID": 21,
+      "Name": "兵器坊",
+      "Icon": "tools_icon_sword"
+    },
+    "22": {
+      "ID": 22,
+      "Name": "弓兵坊",
+      "Icon": "tools_icon_bow"
+    },
+    "23": {
+      "ID": 23,
+      "Name": "防具坊",
+      "Icon": "tools_icon_body"
+    }
+  }
+}

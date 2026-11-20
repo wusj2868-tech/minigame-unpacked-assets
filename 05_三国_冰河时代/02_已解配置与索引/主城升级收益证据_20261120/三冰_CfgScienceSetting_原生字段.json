@@ -1,0 +1,41 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_7d.bin",
+  "table": "CfgScienceSetting",
+  "field_aliases": {
+    "ID": 0,
+    "IsTest": 1,
+    "ConfigEditor": 2,
+    "Name": 3,
+    "Value": 4
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "IsTest": 0,
+      "ConfigEditor": "",
+      "Name": "scienceShow",
+      "Value": "7;all"
+    },
+    "2": {
+      "ID": 2,
+      "IsTest": 0,
+      "ConfigEditor": "",
+      "Name": "scienceReset",
+      "Value": "2;all"
+    },
+    "3": {
+      "ID": 3,
+      "IsTest": 0,
+      "ConfigEditor": "",
+      "Name": "scienceTypeGroup1",
+      "Value": "1,2,7,3"
+    },
+    "4": {
+      "ID": 4,
+      "IsTest": 0,
+      "ConfigEditor": "",
+      "Name": "scienceTypeResettable",
+      "Value": "4,5,6"
+    }
+  }
+}

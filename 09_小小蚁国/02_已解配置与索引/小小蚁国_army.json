@@ -1,0 +1,8811 @@
+[
+{
+"id": 107000,
+"army_type": 1,
+"arm": 1,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107000",
+"army_model": "Army_bg_107008",
+"army_smallicon": "Army_Icon_107009",
+"attack": 9,
+"defence": 11,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 5,
+"speed": 15,
+"load": 15,
+"revive_flora": 2,
+"heal_time": 25,
+"heal_res": 500,
+"alliance_heal": 9,
+"upkeep": {
+"category": 2,
+"cost": 0
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"building_category": 4020000,
+"building": 4020001,
+"res_req": [
+{
+"category": 2,
+"amount": 14
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 103,
+"skill": 101000,
+"position": 101,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 15830,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 65,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 600,
+"initial_num": 200
+},
+{
+"id": 107001,
+"army_type": 1,
+"arm": 1,
+"level": 2,
+"level_show": 2,
+"army_translation": "army_translation_107001",
+"army_model": "Army_bg_107002",
+"army_smallicon": "Army_Icon_107001",
+"attack": 13,
+"defence": 15,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 6,
+"speed": 15,
+"load": 15,
+"revive_flora": 3,
+"heal_time": 50,
+"heal_res": 550,
+"alliance_heal": 18,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.4,
+"building_category": 4020000,
+"building": 4020002,
+"res_req": [
+{
+"category": 2,
+"amount": 35
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 8
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 203,
+"skill": 101000,
+"position": 102,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 52617,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 48,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 480
+},
+{
+"id": 107002,
+"army_type": 1,
+"arm": 1,
+"level": 3,
+"level_show": 3,
+"army_translation": "army_translation_107002",
+"army_model": "Army_bg_107003",
+"army_smallicon": "Army_Icon_107002",
+"attack": 18,
+"defence": 20,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 8,
+"speed": 14,
+"load": 14,
+"revive_flora": 4,
+"heal_time": 60,
+"heal_res": 600,
+"alliance_heal": 27,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.9,
+"building_category": 4020000,
+"building": 4020005,
+"res_req": [
+{
+"category": 2,
+"amount": 56
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 12
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 303,
+"skill": 101001,
+"position": 301,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 7100,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 45,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 230
+},
+{
+"id": 107003,
+"army_type": 1,
+"arm": 1,
+"level": 4,
+"level_show": 4,
+"strengthen_id": 107010,
+"army_translation": "army_translation_107003",
+"army_model": "Army_bg_107004",
+"army_smallicon": "Army_Icon_107003",
+"attack": 23,
+"defence": 27,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 11,
+"speed": 14,
+"load": 13,
+"revive_flora": 6,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"building_category": 4020000,
+"building": 4020010,
+"res_req": [
+{
+"category": 2,
+"amount": 75
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 16
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 403,
+"skill": 101000,
+"position": 103,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 54500,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 72,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 460
+},
+{
+"id": 107004,
+"army_type": 1,
+"arm": 1,
+"level": 5,
+"level_show": 5,
+"strengthen_id": 107011,
+"army_translation": "army_translation_107004",
+"army_model": "Army_bg_107001",
+"army_smallicon": "Army_Icon_107004",
+"attack": 32,
+"defence": 33,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 13,
+"load": 12,
+"revive_flora": 8,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"building_category": 4020000,
+"building": 4020013,
+"res_req": [
+{
+"category": 2,
+"amount": 93
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 20
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 503,
+"skill": 101001,
+"position": 302,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 25000,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 76,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107005,
+"army_type": 1,
+"arm": 1,
+"level": 6,
+"level_show": 6,
+"strengthen_id": 107012,
+"army_translation": "army_translation_107005",
+"army_model": "Army_bg_107007",
+"army_smallicon": "Army_Icon_107005",
+"attack": 38,
+"defence": 44,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 18,
+"speed": 13,
+"load": 11,
+"revive_flora": 10,
+"heal_time": 32,
+"heal_res": 600,
+"alliance_heal": 54,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"building_category": 4020000,
+"building": 4020016,
+"res_req": [
+{
+"category": 2,
+"amount": 112
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 25
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 603,
+"skill": 101000,
+"position": 104,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 51700,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 64,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107006,
+"army_type": 1,
+"arm": 1,
+"level": 7,
+"level_show": 7,
+"strengthen_id": 107013,
+"army_translation": "army_translation_107006",
+"army_model": "Army_bg_107005",
+"army_smallicon": "Army_Icon_107006",
+"attack": 46,
+"defence": 53,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 23,
+"speed": 12,
+"load": 10,
+"revive_flora": 12,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"building_category": 4020000,
+"building": 4020019,
+"res_req": [
+{
+"category": 2,
+"amount": 131
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 29
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 703,
+"skill": 101000,
+"position": 105,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 71000,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 67,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 450
+},
+{
+"id": 107007,
+"army_type": 1,
+"arm": 1,
+"level": 8,
+"level_show": 8,
+"strengthen_id": 107014,
+"army_translation": "army_translation_107007",
+"army_model": "Army_bg_107000",
+"army_smallicon": "Army_Icon_107007",
+"attack": 59,
+"defence": 61,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 12,
+"load": 10,
+"revive_flora": 14,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"building_category": 4020000,
+"building": 4020022,
+"res_req": [
+{
+"category": 2,
+"amount": 150
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 33
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 803,
+"skill": 101001,
+"position": 303,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 11794,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 67,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 450
+},
+{
+"id": 107008,
+"army_type": 1,
+"arm": 1,
+"level": 9,
+"level_show": 9,
+"strengthen_id": 107015,
+"army_translation": "army_translation_107008",
+"army_model": "Army_bg_107009",
+"army_smallicon": "Army_Icon_107008",
+"attack": 70,
+"defence": 73,
+"health": 20,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 11,
+"load": 9,
+"revive_flora": 16,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"building_category": 4020000,
+"res_req": [
+{
+"category": 2,
+"amount": 169
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 37
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 903,
+"skill": 101001,
+"position": 304,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 14696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 925
+},
+{
+"id": 107009,
+"army_type": 1,
+"arm": 1,
+"level": 10,
+"level_show": 10,
+"strengthen_id": 107016,
+"army_translation": "army_translation_107009",
+"army_model": "Army_bg_107006",
+"army_smallicon": "Army_Icon_107000",
+"attack": 77,
+"defence": 90,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"revive_flora": 18,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"building_category": 4020000,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 1003,
+"skill": 101000,
+"position": 106,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 52696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 82,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 600
+},
+{
+"id": 107010,
+"army_type": 1,
+"arm": 2,
+"level": 4,
+"level_show": 4,
+"army_translation": "army_translation_107003",
+"army_model": "Army_bg_107004",
+"army_smallicon": "Army_Icon_107003",
+"attack": 25,
+"defence": 28,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 4,
+"speed": 14,
+"load": 13,
+"revive_flora": 6,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"building_category": 4020000,
+"building": 4020010,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 50
+}
+],
+"cure_order": 10403,
+"skill": 101000,
+"position": 103,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 54500,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 72,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 460
+},
+{
+"id": 107011,
+"army_type": 1,
+"arm": 2,
+"level": 5,
+"level_show": 5,
+"army_translation": "army_translation_107004",
+"army_model": "Army_bg_107001",
+"army_smallicon": "Army_Icon_107004",
+"attack": 35,
+"defence": 35,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 6,
+"speed": 13,
+"load": 12,
+"revive_flora": 8,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"building_category": 4020000,
+"building": 4020013,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 60
+}
+],
+"cure_order": 10503,
+"skill": 101001,
+"position": 302,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 25000,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 76,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107012,
+"army_type": 1,
+"arm": 2,
+"level": 6,
+"level_show": 6,
+"army_translation": "army_translation_107005",
+"army_model": "Army_bg_107007",
+"army_smallicon": "Army_Icon_107005",
+"attack": 41,
+"defence": 46,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 7,
+"speed": 13,
+"load": 11,
+"revive_flora": 10,
+"heal_time": 32,
+"heal_res": 600,
+"alliance_heal": 54,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"building_category": 4020000,
+"building": 4020016,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 75
+}
+],
+"cure_order": 10603,
+"skill": 101000,
+"position": 104,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 51700,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 64,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107013,
+"army_type": 1,
+"arm": 2,
+"level": 7,
+"level_show": 7,
+"army_translation": "army_translation_107006",
+"army_model": "Army_bg_107005",
+"army_smallicon": "Army_Icon_107006",
+"attack": 50,
+"defence": 56,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 9,
+"speed": 12,
+"load": 10,
+"revive_flora": 12,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"building_category": 4020000,
+"building": 4020019,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 90
+}
+],
+"cure_order": 10703,
+"skill": 101000,
+"position": 105,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 71000,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 67,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 450
+},
+{
+"id": 107014,
+"army_type": 1,
+"arm": 2,
+"level": 8,
+"level_show": 8,
+"army_translation": "army_translation_107007",
+"army_model": "Army_bg_107000",
+"army_smallicon": "Army_Icon_107007",
+"attack": 64,
+"defence": 65,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 12,
+"speed": 12,
+"load": 10,
+"revive_flora": 14,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"building_category": 4020000,
+"building": 4020022,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 100
+}
+],
+"cure_order": 10803,
+"skill": 101001,
+"position": 303,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 11794,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 67,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 450
+},
+{
+"id": 107015,
+"army_type": 1,
+"arm": 2,
+"level": 9,
+"level_show": 9,
+"army_translation": "army_translation_107008",
+"army_model": "Army_bg_107009",
+"army_smallicon": "Army_Icon_107008",
+"attack": 77,
+"defence": 77,
+"health": 20,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 11,
+"load": 9,
+"revive_flora": 16,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"building_category": 4020000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 125
+}
+],
+"cure_order": 10903,
+"skill": 101001,
+"position": 304,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 14696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 925
+},
+{
+"id": 107016,
+"army_type": 1,
+"arm": 2,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107009",
+"army_model": "Army_bg_107006",
+"army_smallicon": "Army_Icon_107000",
+"attack": 84,
+"defence": 94,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 17,
+"speed": 10,
+"load": 9,
+"revive_flora": 18,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"building_category": 4020000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+],
+"cure_order": 11003,
+"skill": 101000,
+"position": 106,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 52696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 82,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 600
+},
+{
+"id": 107200,
+"army_type": 2,
+"arm": 1,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107200",
+"army_model": "Army_bg_107202",
+"army_smallicon": "Army_Icon_107200",
+"attack": 15,
+"defence": 6,
+"health": 3,
+"range": 3,
+"move": 10,
+"time": 5,
+"speed": 15,
+"load": 15,
+"revive_flora": 2,
+"heal_time": 25,
+"heal_res": 500,
+"alliance_heal": 9,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"building_category": 4021000,
+"building": 4021001,
+"res_req": [
+{
+"category": 2,
+"amount": 14
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 101,
+"skill": 101002,
+"position": 401,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 12247,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 65,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 483
+},
+{
+"id": 107201,
+"army_type": 2,
+"arm": 1,
+"level": 2,
+"level_show": 2,
+"army_translation": "army_translation_107201",
+"army_model": "Army_bg_107200",
+"army_smallicon": "Army_Icon_107201",
+"attack": 21,
+"defence": 9,
+"health": 3,
+"range": 3,
+"move": 10,
+"time": 6,
+"speed": 15,
+"load": 15,
+"revive_flora": 3,
+"heal_time": 50,
+"heal_res": 550,
+"alliance_heal": 18,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.4,
+"building_category": 4021000,
+"building": 4021002,
+"res_req": [
+{
+"category": 2,
+"amount": 32
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 11
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 201,
+"skill": 101002,
+"position": 402,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 6900,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 58,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 480
+},
+{
+"id": 107202,
+"army_type": 2,
+"arm": 1,
+"level": 3,
+"level_show": 3,
+"army_translation": "army_translation_107202",
+"army_model": "Army_bg_107203",
+"army_smallicon": "Army_Icon_107202",
+"attack": 28,
+"defence": 13,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 8,
+"speed": 14,
+"load": 14,
+"revive_flora": 4,
+"heal_time": 60,
+"heal_res": 600,
+"alliance_heal": 27,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.9,
+"building_category": 4021000,
+"building": 4021005,
+"res_req": [
+{
+"category": 2,
+"amount": 36
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 19
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 301,
+"skill": 101002,
+"position": 403,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 17000,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 800
+},
+{
+"id": 107203,
+"army_type": 2,
+"arm": 1,
+"level": 4,
+"level_show": 4,
+"strengthen_id": 107210,
+"army_translation": "army_translation_107203",
+"army_model": "Army_bg_107206",
+"army_smallicon": "Army_Icon_107203",
+"attack": 37,
+"defence": 17,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 11,
+"speed": 14,
+"load": 13,
+"revive_flora": 6,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"building_category": 4021000,
+"building": 4021010,
+"res_req": [
+{
+"category": 2,
+"amount": 50
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 25
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 401,
+"skill": 101003,
+"position": 501,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 5489,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 125,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 443
+},
+{
+"id": 107204,
+"army_type": 2,
+"arm": 1,
+"level": 5,
+"level_show": 5,
+"strengthen_id": 107211,
+"army_translation": "army_translation_107204",
+"army_model": "Army_bg_107207",
+"army_smallicon": "Army_Icon_107204",
+"attack": 48,
+"defence": 20,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 13,
+"load": 12,
+"revive_flora": 8,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"building_category": 4021000,
+"building": 4021013,
+"res_req": [
+{
+"category": 2,
+"amount": 62
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 31
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 501,
+"skill": 101003,
+"position": 502,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 14273,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107205,
+"army_type": 2,
+"arm": 1,
+"level": 6,
+"level_show": 6,
+"strengthen_id": 107212,
+"army_translation": "army_translation_107205",
+"army_model": "Army_bg_107204",
+"army_smallicon": "Army_Icon_107205",
+"attack": 60,
+"defence": 26,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 18,
+"speed": 13,
+"load": 11,
+"revive_flora": 10,
+"heal_time": 32,
+"heal_res": 600,
+"alliance_heal": 54,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"building_category": 4021000,
+"building": 4021016,
+"res_req": [
+{
+"category": 2,
+"amount": 75
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 37
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 601,
+"skill": 101002,
+"position": 404,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 12882,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 668
+},
+{
+"id": 107206,
+"army_type": 2,
+"arm": 1,
+"level": 7,
+"level_show": 7,
+"strengthen_id": 107213,
+"army_translation": "army_translation_107206",
+"army_model": "Army_bg_107201",
+"army_smallicon": "Army_Icon_107206",
+"attack": 73,
+"defence": 34,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 23,
+"speed": 12,
+"load": 10,
+"revive_flora": 12,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"building_category": 4021000,
+"building": 4021019,
+"res_req": [
+{
+"category": 2,
+"amount": 86
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 43
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 701,
+"skill": 101003,
+"position": 503,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 13470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 63,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107207,
+"army_type": 2,
+"arm": 1,
+"level": 8,
+"level_show": 8,
+"strengthen_id": 107214,
+"army_translation": "army_translation_107207",
+"army_model": "Army_bg_107205",
+"army_smallicon": "Army_Icon_107207",
+"attack": 89,
+"defence": 38,
+"health": 12,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 12,
+"load": 10,
+"revive_flora": 14,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"building_category": 4021000,
+"building": 4021022,
+"res_req": [
+{
+"category": 2,
+"amount": 100
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 50
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 801,
+"skill": 101002,
+"position": 405,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 27600,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 66,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 483
+},
+{
+"id": 107208,
+"army_type": 2,
+"arm": 1,
+"level": 9,
+"level_show": 9,
+"strengthen_id": 107215,
+"army_translation": "army_translation_107208",
+"army_model": "Army_bg_107209",
+"army_smallicon": "Army_Icon_107208",
+"attack": 105,
+"defence": 49,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 11,
+"load": 9,
+"revive_flora": 16,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"building_category": 4021000,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 56
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 901,
+"skill": 101003,
+"position": 504,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 20860,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 483
+},
+{
+"id": 107209,
+"army_type": 2,
+"arm": 1,
+"level": 10,
+"level_show": 10,
+"strengthen_id": 107216,
+"army_translation": "army_translation_107209",
+"army_model": "Army_bg_107208",
+"army_smallicon": "Army_Icon_107209",
+"attack": 124,
+"defence": 53,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"revive_flora": 18,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"building_category": 4021000,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 1001,
+"skill": 101002,
+"position": 406,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 16470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107210,
+"army_type": 2,
+"arm": 2,
+"level": 4,
+"level_show": 4,
+"army_translation": "army_translation_107203",
+"army_model": "Army_bg_107206",
+"army_smallicon": "Army_Icon_107203",
+"attack": 40,
+"defence": 18,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 4,
+"speed": 14,
+"load": 13,
+"revive_flora": 6,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"building_category": 4021000,
+"building": 4021010,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 50
+}
+],
+"cure_order": 10401,
+"skill": 101003,
+"position": 501,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 5489,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 125,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 443
+},
+{
+"id": 107211,
+"army_type": 2,
+"arm": 2,
+"level": 5,
+"level_show": 5,
+"army_translation": "army_translation_107204",
+"army_model": "Army_bg_107207",
+"army_smallicon": "Army_Icon_107204",
+"attack": 52,
+"defence": 21,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 6,
+"speed": 13,
+"load": 12,
+"revive_flora": 8,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"building_category": 4021000,
+"building": 4021013,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 60
+}
+],
+"cure_order": 10501,
+"skill": 101003,
+"position": 502,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 14273,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107212,
+"army_type": 2,
+"arm": 2,
+"level": 6,
+"level_show": 6,
+"army_translation": "army_translation_107205",
+"army_model": "Army_bg_107204",
+"army_smallicon": "Army_Icon_107205",
+"attack": 66,
+"defence": 27,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 7,
+"speed": 13,
+"load": 11,
+"revive_flora": 10,
+"heal_time": 32,
+"heal_res": 600,
+"alliance_heal": 54,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"building_category": 4021000,
+"building": 4021016,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 75
+}
+],
+"cure_order": 10601,
+"skill": 101002,
+"position": 404,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 12882,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 668
+},
+{
+"id": 107213,
+"army_type": 2,
+"arm": 2,
+"level": 7,
+"level_show": 7,
+"army_translation": "army_translation_107206",
+"army_model": "Army_bg_107201",
+"army_smallicon": "Army_Icon_107206",
+"attack": 80,
+"defence": 36,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 9,
+"speed": 12,
+"load": 10,
+"revive_flora": 12,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"building_category": 4021000,
+"building": 4021019,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 90
+}
+],
+"cure_order": 10701,
+"skill": 101003,
+"position": 503,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 13470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 63,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107214,
+"army_type": 2,
+"arm": 2,
+"level": 8,
+"level_show": 8,
+"army_translation": "army_translation_107207",
+"army_model": "Army_bg_107205",
+"army_smallicon": "Army_Icon_107207",
+"attack": 97,
+"defence": 40,
+"health": 12,
+"range": 3,
+"move": 10,
+"time": 12,
+"speed": 12,
+"load": 10,
+"revive_flora": 14,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"building_category": 4021000,
+"building": 4021022,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 100
+}
+],
+"cure_order": 10801,
+"skill": 101002,
+"position": 405,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 27600,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 66,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 483
+},
+{
+"id": 107215,
+"army_type": 2,
+"arm": 2,
+"level": 9,
+"level_show": 9,
+"army_translation": "army_translation_107208",
+"army_model": "Army_bg_107209",
+"army_smallicon": "Army_Icon_107208",
+"attack": 115,
+"defence": 51,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 11,
+"load": 9,
+"revive_flora": 16,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"building_category": 4021000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 125
+}
+],
+"cure_order": 10901,
+"skill": 101003,
+"position": 504,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 20860,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 105,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 483
+},
+{
+"id": 107216,
+"army_type": 2,
+"arm": 2,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107209",
+"army_model": "Army_bg_107208",
+"army_smallicon": "Army_Icon_107209",
+"attack": 136,
+"defence": 55,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 17,
+"speed": 10,
+"load": 9,
+"revive_flora": 18,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"building_category": 4021000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+],
+"cure_order": 11001,
+"skill": 101002,
+"position": 406,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 16470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107100,
+"army_type": 3,
+"arm": 1,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107100",
+"army_model": "Army_bg_107103",
+"army_smallicon": "Army_Icon_107100",
+"attack": 11,
+"defence": 8,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 5,
+"speed": 18,
+"load": 15,
+"revive_flora": 2,
+"heal_time": 25,
+"heal_res": 500,
+"alliance_heal": 9,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"building_category": 4022000,
+"building": 4022001,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 14
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 102,
+"skill": 101004,
+"position": 601,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 1406,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 310,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 430
+},
+{
+"id": 107101,
+"army_type": 3,
+"arm": 1,
+"level": 2,
+"level_show": 2,
+"army_translation": "army_translation_107101",
+"army_model": "Army_bg_107101",
+"army_smallicon": "Army_Icon_107101",
+"attack": 16,
+"defence": 11,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 6,
+"speed": 18,
+"load": 15,
+"revive_flora": 3,
+"heal_time": 50,
+"heal_res": 550,
+"alliance_heal": 18,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.4,
+"building_category": 4022000,
+"building": 4022002,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 23
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 12
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 202,
+"skill": 101004,
+"position": 602,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 22680,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 265,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 1270
+},
+{
+"id": 107102,
+"army_type": 3,
+"arm": 1,
+"level": 3,
+"level_show": 3,
+"army_translation": "army_translation_107102",
+"army_model": "Army_bg_107104",
+"army_smallicon": "Army_Icon_107102",
+"attack": 21,
+"defence": 15,
+"health": 6,
+"range": 3,
+"move": 10,
+"time": 8,
+"speed": 17,
+"load": 14,
+"revive_flora": 4,
+"heal_time": 60,
+"heal_res": 600,
+"alliance_heal": 27,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.9,
+"building_category": 4022000,
+"building": 4022005,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 38
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 18
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 302,
+"skill": 101005,
+"position": 701,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 2358,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 222,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 556
+},
+{
+"id": 107103,
+"army_type": 3,
+"arm": 1,
+"level": 4,
+"level_show": 4,
+"strengthen_id": 107110,
+"army_translation": "army_translation_107103",
+"army_model": "Army_bg_107100",
+"army_smallicon": "Army_Icon_107103",
+"attack": 31,
+"defence": 17,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 11,
+"speed": 17,
+"load": 13,
+"revive_flora": 6,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"building_category": 4022000,
+"building": 4022010,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 50
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 24
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 402,
+"skill": 101005,
+"position": 702,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 6690,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 352,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 587
+},
+{
+"id": 107104,
+"army_type": 3,
+"arm": 1,
+"level": 5,
+"level_show": 5,
+"strengthen_id": 107111,
+"army_translation": "army_translation_107104",
+"army_model": "Army_bg_107102",
+"army_smallicon": "Army_Icon_107104",
+"attack": 40,
+"defence": 22,
+"health": 9,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 16,
+"load": 12,
+"revive_flora": 8,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"building_category": 4022000,
+"building": 4022013,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 62
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 30
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 502,
+"skill": 101004,
+"position": 603,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 38400,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 293,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 841
+},
+{
+"id": 107105,
+"army_type": 3,
+"arm": 1,
+"level": 6,
+"level_show": 6,
+"strengthen_id": 107112,
+"army_translation": "army_translation_107105",
+"army_model": "Army_bg_107107",
+"army_smallicon": "Army_Icon_107105",
+"attack": 46,
+"defence": 32,
+"health": 11,
+"range": 3,
+"move": 10,
+"time": 18,
+"speed": 16,
+"load": 11,
+"revive_flora": 10,
+"heal_time": 32,
+"heal_res": 600,
+"alliance_heal": 54,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"building_category": 4022000,
+"building": 4022016,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 75
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 36
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 602,
+"skill": 101004,
+"position": 604,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 4819,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 357,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 357
+},
+{
+"id": 107106,
+"army_type": 3,
+"arm": 1,
+"level": 7,
+"level_show": 7,
+"strengthen_id": 107113,
+"army_translation": "army_translation_107106",
+"army_model": "Army_bg_107105",
+"army_smallicon": "Army_Icon_107106",
+"attack": 61,
+"defence": 34,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 23,
+"speed": 15,
+"load": 10,
+"revive_flora": 12,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"building_category": 4022000,
+"building": 4022019,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 88
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 42
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 702,
+"skill": 101005,
+"position": 703,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 10433,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 293,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 1184
+},
+{
+"id": 107107,
+"army_type": 3,
+"arm": 1,
+"level": 8,
+"level_show": 8,
+"strengthen_id": 107114,
+"army_translation": "army_translation_107107",
+"army_model": "Army_bg_107108",
+"army_smallicon": "Army_Icon_107107",
+"attack": 67,
+"defence": 47,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 15,
+"load": 10,
+"revive_flora": 14,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"building_category": 4022000,
+"building": 4022022,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 99
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 49
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 802,
+"skill": 101004,
+"position": 605,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 27400,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 590,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 1380
+},
+{
+"id": 107108,
+"army_type": 3,
+"arm": 1,
+"level": 9,
+"level_show": 9,
+"strengthen_id": 107115,
+"army_translation": "army_translation_107108",
+"army_model": "Army_bg_107106",
+"army_smallicon": "Army_Icon_107108",
+"attack": 87,
+"defence": 49,
+"health": 18,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 14,
+"load": 9,
+"revive_flora": 16,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"building_category": 4022000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 130
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 53
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 902,
+"skill": 101005,
+"position": 704,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 7790,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 485,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 485
+},
+{
+"id": 107109,
+"army_type": 3,
+"arm": 1,
+"level": 10,
+"level_show": 10,
+"strengthen_id": 107116,
+"army_translation": "army_translation_107109",
+"army_model": "Army_bg_107109",
+"army_smallicon": "Army_Icon_107109",
+"attack": 94,
+"defence": 65,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"revive_flora": 18,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"building_category": 4022000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+],
+"cure_order": 1002,
+"skill": 101004,
+"position": 606,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 5000,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 440,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 440
+},
+{
+"id": 107110,
+"army_type": 3,
+"arm": 2,
+"level": 4,
+"level_show": 4,
+"army_translation": "army_translation_107103",
+"army_model": "Army_bg_107100",
+"army_smallicon": "Army_Icon_107103",
+"attack": 34,
+"defence": 18,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 4,
+"speed": 17,
+"load": 13,
+"revive_flora": 6,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"building_category": 4022000,
+"building": 4022010,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 50
+}
+],
+"cure_order": 10402,
+"skill": 101005,
+"position": 702,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 6690,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 352,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 587
+},
+{
+"id": 107111,
+"army_type": 3,
+"arm": 2,
+"level": 5,
+"level_show": 5,
+"army_translation": "army_translation_107104",
+"army_model": "Army_bg_107102",
+"army_smallicon": "Army_Icon_107104",
+"attack": 44,
+"defence": 23,
+"health": 9,
+"range": 3,
+"move": 10,
+"time": 6,
+"speed": 16,
+"load": 12,
+"revive_flora": 8,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"building_category": 4022000,
+"building": 4022013,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 60
+}
+],
+"cure_order": 10502,
+"skill": 101004,
+"position": 603,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 38400,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 293,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 841
+},
+{
+"id": 107112,
+"army_type": 3,
+"arm": 2,
+"level": 6,
+"level_show": 6,
+"army_translation": "army_translation_107105",
+"army_model": "Army_bg_107107",
+"army_smallicon": "Army_Icon_107105",
+"attack": 50,
+"defence": 33,
+"health": 11,
+"range": 3,
+"move": 10,
+"time": 7,
+"speed": 16,
+"load": 11,
+"revive_flora": 10,
+"heal_time": 32,
+"heal_res": 600,
+"alliance_heal": 54,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"building_category": 4022000,
+"building": 4022016,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 75
+}
+],
+"cure_order": 10602,
+"skill": 101004,
+"position": 604,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 4819,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 357,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 357
+},
+{
+"id": 107113,
+"army_type": 3,
+"arm": 2,
+"level": 7,
+"level_show": 7,
+"army_translation": "army_translation_107106",
+"army_model": "Army_bg_107105",
+"army_smallicon": "Army_Icon_107106",
+"attack": 67,
+"defence": 36,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 9,
+"speed": 15,
+"load": 10,
+"revive_flora": 12,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"building_category": 4022000,
+"building": 4022019,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 90
+}
+],
+"cure_order": 10702,
+"skill": 101005,
+"position": 703,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 10433,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 293,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 1184
+},
+{
+"id": 107114,
+"army_type": 3,
+"arm": 2,
+"level": 8,
+"level_show": 8,
+"army_translation": "army_translation_107107",
+"army_model": "Army_bg_107108",
+"army_smallicon": "Army_Icon_107107",
+"attack": 73,
+"defence": 49,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 12,
+"speed": 15,
+"load": 10,
+"revive_flora": 14,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"building_category": 4022000,
+"building": 4022022,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 100
+}
+],
+"cure_order": 10802,
+"skill": 101004,
+"position": 605,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 27400,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 590,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 1380
+},
+{
+"id": 107115,
+"army_type": 3,
+"arm": 2,
+"level": 9,
+"level_show": 9,
+"army_translation": "army_translation_107108",
+"army_model": "Army_bg_107106",
+"army_smallicon": "Army_Icon_107108",
+"attack": 96,
+"defence": 51,
+"health": 18,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 14,
+"load": 9,
+"revive_flora": 16,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"building_category": 4022000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 125
+}
+],
+"cure_order": 10902,
+"skill": 101005,
+"position": 704,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 7790,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 485,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 485
+},
+{
+"id": 107116,
+"army_type": 3,
+"arm": 2,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107109",
+"army_model": "Army_bg_107109",
+"army_smallicon": "Army_Icon_107109",
+"attack": 103,
+"defence": 68,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 17,
+"speed": 13,
+"load": 9,
+"revive_flora": 18,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"building_category": 4022000,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+],
+"cure_order": 11002,
+"skill": 101004,
+"position": 606,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 5000,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 440,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 440
+},
+{
+"id": 109101,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 10,
+"defence": 0,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 12,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108101,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 9,
+"defence": 11,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 7,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108102,
+"army_type": 1,
+"arm": 0,
+"level": 2,
+"level_show": 2,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 12,
+"defence": 15,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 7,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.4,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108103,
+"army_type": 1,
+"arm": 0,
+"level": 3,
+"level_show": 3,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 17,
+"defence": 20,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 8,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108104,
+"army_type": 1,
+"arm": 0,
+"level": 4,
+"level_show": 4,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 22,
+"defence": 27,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 8,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108105,
+"army_type": 1,
+"arm": 0,
+"level": 5,
+"level_show": 5,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white5",
+"attack": 28,
+"defence": 35,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108106,
+"army_type": 1,
+"arm": 0,
+"level": 6,
+"level_show": 6,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white5",
+"attack": 36,
+"defence": 44,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108107,
+"army_type": 1,
+"arm": 0,
+"level": 7,
+"level_show": 7,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 44,
+"defence": 53,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 10,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108301,
+"army_type": 3,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 11,
+"defence": 8,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 8,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108302,
+"army_type": 3,
+"arm": 0,
+"level": 2,
+"level_show": 2,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 15,
+"defence": 11,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 8,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.4,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108303,
+"army_type": 3,
+"arm": 0,
+"level": 3,
+"level_show": 3,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 20,
+"defence": 15,
+"health": 6,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108304,
+"army_type": 3,
+"arm": 0,
+"level": 4,
+"level_show": 4,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 31,
+"defence": 17,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108305,
+"army_type": 3,
+"arm": 0,
+"level": 5,
+"level_show": 5,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white5",
+"attack": 40,
+"defence": 22,
+"health": 9,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 10,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108306,
+"army_type": 3,
+"arm": 0,
+"level": 6,
+"level_show": 6,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white5",
+"attack": 44,
+"defence": 32,
+"health": 11,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 10,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108307,
+"army_type": 3,
+"arm": 0,
+"level": 7,
+"level_show": 7,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 61,
+"defence": 34,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 11,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108201,
+"army_type": 2,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 15,
+"defence": 6,
+"health": 3,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 6,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108202,
+"army_type": 2,
+"arm": 0,
+"level": 2,
+"level_show": 2,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 21,
+"defence": 9,
+"health": 3,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 6,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.4,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108203,
+"army_type": 2,
+"arm": 0,
+"level": 3,
+"level_show": 3,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 29,
+"defence": 13,
+"health": 4,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 7,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108204,
+"army_type": 2,
+"arm": 0,
+"level": 4,
+"level_show": 4,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white1",
+"attack": 38,
+"defence": 17,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 7,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108205,
+"army_type": 2,
+"arm": 0,
+"level": 5,
+"level_show": 5,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white5",
+"attack": 49,
+"defence": 20,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 8,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108206,
+"army_type": 2,
+"arm": 0,
+"level": 6,
+"level_show": 6,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white5",
+"attack": 62,
+"defence": 26,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 8,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108207,
+"army_type": 2,
+"arm": 0,
+"level": 7,
+"level_show": 7,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 75,
+"defence": 34,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108400,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_lizard",
+"attack": 0,
+"defence": 0,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108500,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 9,
+"defence": 0,
+"health": 500000,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108108,
+"army_type": 1,
+"arm": 0,
+"level": 8,
+"level_show": 8,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 59,
+"defence": 61,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 12,
+"load": 10,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"res_req": [
+{
+"category": 2,
+"amount": 150
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 33
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108109,
+"army_type": 1,
+"arm": 0,
+"level": 9,
+"level_show": 9,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 70,
+"defence": 73,
+"health": 20,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 11,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"res_req": [
+{
+"category": 2,
+"amount": 169
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 37
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108110,
+"army_type": 1,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 77,
+"defence": 92,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108308,
+"army_type": 3,
+"arm": 0,
+"level": 8,
+"level_show": 8,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 67,
+"defence": 47,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 15,
+"load": 10,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 99
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 49
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108309,
+"army_type": 3,
+"arm": 0,
+"level": 9,
+"level_show": 9,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 87,
+"defence": 49,
+"health": 18,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 14,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 130
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 53
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108310,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 94,
+"defence": 67,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108208,
+"army_type": 2,
+"arm": 0,
+"level": 8,
+"level_show": 8,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 89,
+"defence": 38,
+"health": 12,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 12,
+"load": 10,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"res_req": [
+{
+"category": 2,
+"amount": 100
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 50
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108209,
+"army_type": 2,
+"arm": 0,
+"level": 9,
+"level_show": 9,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 105,
+"defence": 49,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 11,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 56
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108210,
+"army_type": 2,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 124,
+"defence": 55,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108111,
+"army_type": 1,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 84,
+"defence": 105,
+"health": 45,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108311,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 103,
+"defence": 94,
+"health": 40,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108211,
+"army_type": 2,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 136,
+"defence": 94,
+"health": 30,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108112,
+"army_type": 1,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107000",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 84,
+"defence": 125,
+"health": 55,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108312,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 103,
+"defence": 115,
+"health": 45,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108212,
+"army_type": 2,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107200",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 136,
+"defence": 105,
+"health": 35,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108313,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 145,
+"defence": 135,
+"health": 65,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108314,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 154,
+"defence": 140,
+"health": 70,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108315,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 163,
+"defence": 145,
+"health": 75,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108316,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 172,
+"defence": 150,
+"health": 80,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108317,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 181,
+"defence": 155,
+"health": 85,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108318,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 190,
+"defence": 160,
+"health": 90,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108319,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 199,
+"defence": 165,
+"health": 95,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108320,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 208,
+"defence": 170,
+"health": 100,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108321,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 217,
+"defence": 175,
+"health": 105,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108322,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_107100",
+"army_smallicon": "Avatar_monster_white10",
+"attack": 226,
+"defence": 180,
+"health": 110,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108130,
+"army_type": 1,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_108130",
+"army_smallicon": "Army_Icon_108130",
+"army_level_icon": "armylevel_icon_jjc",
+"attack": 77,
+"defence": 90,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108230,
+"army_type": 2,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_108230",
+"army_smallicon": "Army_Icon_108230",
+"army_level_icon": "armylevel_icon_jjc",
+"attack": 124,
+"defence": 53,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108330,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_108330",
+"army_smallicon": "Army_Icon_108330",
+"army_level_icon": "armylevel_icon_jjc",
+"attack": 94,
+"defence": 65,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 107017,
+"army_type": 1,
+"arm": 3,
+"level": 1001,
+"level_show": 1001,
+"strengthen_id": 107018,
+"army_translation": "army_translation_107017",
+"army_model": "Army_bg_107010",
+"army_smallicon": "Army_Icon_107010",
+"attack": 89,
+"defence": 95,
+"health": 27,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 17
+}
+],
+"cure_order": 11103,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 20,
+"skill": 101000,
+"position": 106,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 52696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 82,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 600
+},
+{
+"id": 107217,
+"army_type": 2,
+"arm": 3,
+"level": 1001,
+"level_show": 1001,
+"strengthen_id": 107218,
+"army_translation": "army_translation_107217",
+"army_model": "Army_bg_107210",
+"army_smallicon": "Army_Icon_107210",
+"attack": 138,
+"defence": 58,
+"health": 19,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 101
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 40
+},
+{
+"category": 8,
+"amount": 17
+}
+],
+"cure_order": 11101,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 20,
+"skill": 101002,
+"position": 406,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 16470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107117,
+"army_type": 3,
+"arm": 3,
+"level": 1001,
+"level_show": 1001,
+"strengthen_id": 107118,
+"army_translation": "army_translation_107117",
+"army_model": "Army_bg_107110",
+"army_smallicon": "Army_Icon_107110",
+"attack": 109,
+"defence": 72,
+"health": 23,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 76
+},
+{
+"category": 4,
+"amount": 98
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 41
+},
+{
+"category": 8,
+"amount": 17
+}
+],
+"cure_order": 11102,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 20,
+"skill": 101004,
+"position": 606,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 5000,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 440,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 440
+},
+{
+"id": 107018,
+"army_type": 1,
+"arm": 4,
+"level": 1001,
+"level_show": 1001,
+"army_translation": "army_translation_107017",
+"army_model": "Army_bg_107010",
+"army_smallicon": "Army_Icon_107010",
+"attack": 96,
+"defence": 99,
+"health": 27,
+"range": 3,
+"move": 10,
+"time": 8,
+"speed": 10,
+"load": 9,
+"heal_time": 36,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 500,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 17
+}
+],
+"cure_order": 11203,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 14,
+"skill": 101000,
+"position": 106,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 52696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 82,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 600
+},
+{
+"id": 107218,
+"army_type": 2,
+"arm": 4,
+"level": 1001,
+"level_show": 1001,
+"army_translation": "army_translation_107217",
+"army_model": "Army_bg_107210",
+"army_smallicon": "Army_Icon_107210",
+"attack": 150,
+"defence": 60,
+"health": 19,
+"range": 3,
+"move": 10,
+"time": 8,
+"speed": 10,
+"load": 9,
+"heal_time": 36,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 500,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 101
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 40
+},
+{
+"category": 8,
+"amount": 17
+}
+],
+"cure_order": 11201,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 14,
+"skill": 101002,
+"position": 406,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 16470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107118,
+"army_type": 3,
+"arm": 4,
+"level": 1001,
+"level_show": 1001,
+"army_translation": "army_translation_107117",
+"army_model": "Army_bg_107110",
+"army_smallicon": "Army_Icon_107110",
+"attack": 118,
+"defence": 75,
+"health": 23,
+"range": 3,
+"move": 10,
+"time": 8,
+"speed": 13,
+"load": 9,
+"heal_time": 36,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 250,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 76
+},
+{
+"category": 4,
+"amount": 98
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 41
+},
+{
+"category": 8,
+"amount": 17
+}
+],
+"cure_order": 11202,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 14,
+"skill": 101004,
+"position": 606,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 5000,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 440,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 440
+},
+{
+"id": 107019,
+"army_type": 1,
+"arm": 0,
+"level": 10,
+"level_show": 1000,
+"army_translation": "army_translation_107019",
+"army_model": "Army_bg_107011",
+"army_smallicon": "Army_Icon_107011",
+"attack": 77,
+"defence": 90,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 9,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 79
+},
+{
+"category": 4,
+"amount": 46
+},
+{
+"category": 6,
+"amount": 29
+},
+{
+"category": 7,
+"amount": 20
+},
+{
+"category": 8,
+"amount": 26
+}
+],
+"cure_order": 11103,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 10,
+"skill": 101000,
+"position": 106,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 52696,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 82,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 600
+},
+{
+"id": 107219,
+"army_type": 2,
+"arm": 0,
+"level": 10,
+"level_show": 1000,
+"army_translation": "army_translation_107219",
+"army_model": "Army_bg_107211",
+"army_smallicon": "Army_Icon_107211",
+"attack": 124,
+"defence": 53,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 9,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 71
+},
+{
+"category": 4,
+"amount": 46
+},
+{
+"category": 6,
+"amount": 24
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 26
+}
+],
+"cure_order": 11101,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 10,
+"skill": 101002,
+"position": 406,
+"para1_name": "UI_Army_Story_Weight",
+"para1_num": 16470,
+"para2_name": "UI_Army_Story_Speed",
+"para2_num": 100,
+"para3_name": "UI_Army_Story_Distance",
+"para3_num": 500
+},
+{
+"id": 107119,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 1000,
+"army_translation": "army_translation_107119",
+"army_model": "Army_bg_107111",
+"army_smallicon": "Army_Icon_107111",
+"attack": 94,
+"defence": 65,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 9,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 53
+},
+{
+"category": 4,
+"amount": 69
+},
+{
+"category": 6,
+"amount": 24
+},
+{
+"category": 7,
+"amount": 29
+},
+{
+"category": 8,
+"amount": 26
+}
+],
+"cure_order": 11102,
+"attack_limit": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"RegenerateFungus_Cost": 10,
+"skill": 101004,
+"position": 606,
+"para1_name": "UI_Army_Story_MTOW",
+"para1_num": 5000,
+"para2_name": "UI_Army_Story_Airspeed",
+"para2_num": 440,
+"para3_name": "UI_Army_Story_Voyage",
+"para3_num": 440
+},
+{
+"id": 108401,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 9,
+"defence": 0,
+"health": 500000,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108402,
+"army_type": 2,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 9,
+"defence": 0,
+"health": 500000,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108403,
+"army_type": 3,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 9,
+"defence": 0,
+"health": 500000,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108611,
+"army_type": 1,
+"arm": 0,
+"level": 101,
+"level_show": 4,
+"army_translation": "army_translation_107003",
+"army_model": "Army_bg_107004",
+"army_smallicon": "Army_Icon_107003",
+"attack": 23,
+"defence": 27,
+"health": 8,
+"range": 3,
+"move": 10,
+"time": 11,
+"speed": 14,
+"load": 13,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"res_req": [
+{
+"category": 2,
+"amount": 75
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 16
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108612,
+"army_type": 1,
+"arm": 0,
+"level": 102,
+"level_show": 5,
+"army_translation": "army_translation_107004",
+"army_model": "Army_bg_107001",
+"army_smallicon": "Army_Icon_107004",
+"attack": 32,
+"defence": 33,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 14,
+"speed": 13,
+"load": 12,
+"heal_time": 40,
+"heal_res": 600,
+"alliance_heal": 45,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 3.2,
+"res_req": [
+{
+"category": 2,
+"amount": 93
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 20
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108613,
+"army_type": 1,
+"arm": 0,
+"level": 103,
+"level_show": 7,
+"army_translation": "army_translation_107006",
+"army_model": "Army_bg_107005",
+"army_smallicon": "Army_Icon_107006",
+"attack": 46,
+"defence": 53,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 23,
+"speed": 12,
+"load": 10,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"res_req": [
+{
+"category": 2,
+"amount": 131
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 29
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108614,
+"army_type": 1,
+"arm": 0,
+"level": 104,
+"level_show": 9,
+"army_translation": "army_translation_107008",
+"army_model": "Army_bg_107009",
+"army_smallicon": "Army_Icon_107008",
+"attack": 70,
+"defence": 73,
+"health": 20,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 11,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"res_req": [
+{
+"category": 2,
+"amount": 169
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 37
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108615,
+"army_type": 1,
+"arm": 0,
+"level": 105,
+"level_show": 10,
+"army_translation": "army_translation_107009",
+"army_model": "Army_bg_107006",
+"army_smallicon": "Army_Icon_107000",
+"attack": 77,
+"defence": 90,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108616,
+"army_type": 1,
+"arm": 0,
+"level": 106,
+"level_show": 1001,
+"army_translation": "army_translation_107017",
+"army_model": "Army_bg_107010",
+"army_smallicon": "Army_Icon_107010",
+"attack": 89,
+"defence": 95,
+"health": 27,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108617,
+"army_type": 1,
+"arm": 0,
+"level": 107,
+"level_show": 1001,
+"army_translation": "army_translation_107017",
+"army_model": "Army_bg_107010",
+"army_smallicon": "Army_Icon_107010",
+"attack": 89,
+"defence": 95,
+"health": 27,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108621,
+"army_type": 2,
+"arm": 0,
+"level": 101,
+"level_show": 4,
+"army_translation": "army_translation_107203",
+"army_model": "Army_bg_107206",
+"army_smallicon": "Army_Icon_107203",
+"attack": 37,
+"defence": 17,
+"health": 5,
+"range": 3,
+"move": 10,
+"time": 11,
+"speed": 14,
+"load": 13,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 2,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"res_req": [
+{
+"category": 2,
+"amount": 50
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 25
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108622,
+"army_type": 2,
+"arm": 0,
+"level": 102,
+"level_show": 7,
+"army_translation": "army_translation_107206",
+"army_model": "Army_bg_107201",
+"army_smallicon": "Army_Icon_107206",
+"attack": 73,
+"defence": 34,
+"health": 10,
+"range": 3,
+"move": 10,
+"time": 23,
+"speed": 12,
+"load": 10,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"res_req": [
+{
+"category": 2,
+"amount": 86
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 43
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108623,
+"army_type": 2,
+"arm": 0,
+"level": 103,
+"level_show": 8,
+"army_translation": "army_translation_107207",
+"army_model": "Army_bg_107205",
+"army_smallicon": "Army_Icon_107207",
+"attack": 89,
+"defence": 38,
+"health": 12,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 12,
+"load": 10,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 2,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"res_req": [
+{
+"category": 2,
+"amount": 100
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 50
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108624,
+"army_type": 2,
+"arm": 0,
+"level": 104,
+"level_show": 9,
+"army_translation": "army_translation_107208",
+"army_model": "Army_bg_107209",
+"army_smallicon": "Army_Icon_107208",
+"attack": 105,
+"defence": 49,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 11,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 56
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108625,
+"army_type": 2,
+"arm": 0,
+"level": 105,
+"level_show": 10,
+"army_translation": "army_translation_107209",
+"army_model": "Army_bg_107208",
+"army_smallicon": "Army_Icon_107209",
+"attack": 124,
+"defence": 53,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108626,
+"army_type": 2,
+"arm": 0,
+"level": 106,
+"level_show": 1001,
+"army_translation": "army_translation_107217",
+"army_model": "Army_bg_107210",
+"army_smallicon": "Army_Icon_107210",
+"attack": 138,
+"defence": 58,
+"health": 19,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 101
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 40
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108627,
+"army_type": 2,
+"arm": 0,
+"level": 107,
+"level_show": 1001,
+"army_translation": "army_translation_107217",
+"army_model": "Army_bg_107210",
+"army_smallicon": "Army_Icon_107210",
+"attack": 138,
+"defence": 58,
+"health": 19,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 101
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 40
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108631,
+"army_type": 3,
+"arm": 0,
+"level": 101,
+"level_show": 4,
+"army_translation": "army_translation_107103",
+"army_model": "Army_bg_107100",
+"army_smallicon": "Army_Icon_107103",
+"attack": 31,
+"defence": 17,
+"health": 7,
+"range": 3,
+"move": 10,
+"time": 11,
+"speed": 17,
+"load": 13,
+"heal_time": 50,
+"heal_res": 600,
+"alliance_heal": 36,
+"upkeep": {
+"category": 4,
+"cost": 0.04
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 2.5,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 50
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 24
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108632,
+"army_type": 3,
+"arm": 0,
+"level": 102,
+"level_show": 7,
+"army_translation": "army_translation_107106",
+"army_model": "Army_bg_107105",
+"army_smallicon": "Army_Icon_107106",
+"attack": 61,
+"defence": 34,
+"health": 13,
+"range": 3,
+"move": 10,
+"time": 23,
+"speed": 15,
+"load": 10,
+"heal_time": 26,
+"heal_res": 600,
+"alliance_heal": 63,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 4.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 88
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 42
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108633,
+"army_type": 3,
+"arm": 0,
+"level": 103,
+"level_show": 8,
+"army_translation": "army_translation_107107",
+"army_model": "Army_bg_107108",
+"army_smallicon": "Army_Icon_107107",
+"attack": 67,
+"defence": 47,
+"health": 15,
+"range": 3,
+"move": 10,
+"time": 29,
+"speed": 15,
+"load": 10,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 72,
+"upkeep": {
+"category": 4,
+"cost": 0.08
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 5.9,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 99
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 49
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108634,
+"army_type": 3,
+"arm": 0,
+"level": 104,
+"level_show": 9,
+"army_translation": "army_translation_107108",
+"army_model": "Army_bg_107106",
+"army_smallicon": "Army_Icon_107108",
+"attack": 87,
+"defence": 49,
+"health": 18,
+"range": 3,
+"move": 10,
+"time": 36,
+"speed": 14,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 81,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 7,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 130
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 53
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108635,
+"army_type": 3,
+"arm": 0,
+"level": 105,
+"level_show": 10,
+"army_translation": "army_translation_107109",
+"army_model": "Army_bg_107109",
+"army_smallicon": "Army_Icon_107109",
+"attack": 94,
+"defence": 65,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108636,
+"army_type": 3,
+"arm": 0,
+"level": 106,
+"level_show": 1001,
+"army_translation": "army_translation_107117",
+"army_model": "Army_bg_107110",
+"army_smallicon": "Army_Icon_107110",
+"attack": 109,
+"defence": 72,
+"health": 23,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 76
+},
+{
+"category": 4,
+"amount": 98
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 41
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108637,
+"army_type": 3,
+"arm": 0,
+"level": 107,
+"level_show": 1001,
+"army_translation": "army_translation_107117",
+"army_model": "Army_bg_107110",
+"army_smallicon": "Army_Icon_107110",
+"attack": 109,
+"defence": 72,
+"health": 23,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 76
+},
+{
+"category": 4,
+"amount": 98
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 41
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108131,
+"army_type": 1,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_108131",
+"army_smallicon": "Army_Icon_108130",
+"army_level_icon": "art_maze_icon_05",
+"attack": 77,
+"defence": 90,
+"health": 25,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 0,
+"cost": 2
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 189
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108231,
+"army_type": 2,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_108231",
+"army_smallicon": "Army_Icon_108230",
+"army_level_icon": "art_maze_icon_05",
+"attack": 124,
+"defence": 53,
+"health": 17,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 0,
+"cost": 2
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 126
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 64
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108331,
+"army_type": 3,
+"arm": 0,
+"level": 10,
+"level_show": 10,
+"army_translation": "army_translation_108331",
+"army_smallicon": "Army_Icon_108330",
+"army_level_icon": "art_maze_icon_05",
+"attack": 94,
+"defence": 65,
+"health": 21,
+"range": 3,
+"move": 10,
+"time": 360,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 0,
+"cost": 4
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 8.2,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 164
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 69
+},
+{
+"category": 8,
+"amount": 0
+}
+]
+},
+{
+"id": 108601,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 0,
+"defence": 0,
+"health": 80,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108602,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 0,
+"defence": 0,
+"health": 200,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108603,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 0,
+"defence": 0,
+"health": 360,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108501,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 0,
+"defence": 0,
+"health": 80,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 108618,
+"army_type": 1,
+"arm": 0,
+"level": 108,
+"level_show": 1001,
+"army_translation": "army_translation_107017",
+"army_model": "Army_bg_107010",
+"army_smallicon": "Army_Icon_107010",
+"attack": 89,
+"defence": 95,
+"health": 27,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108628,
+"army_type": 2,
+"arm": 0,
+"level": 108,
+"level_show": 1001,
+"army_translation": "army_translation_107217",
+"army_model": "Army_bg_107210",
+"army_smallicon": "Army_Icon_107210",
+"attack": 138,
+"defence": 58,
+"health": 19,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 101
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 40
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108638,
+"army_type": 3,
+"arm": 0,
+"level": 108,
+"level_show": 1001,
+"army_translation": "army_translation_107117",
+"army_model": "Army_bg_107110",
+"army_smallicon": "Army_Icon_107110",
+"attack": 109,
+"defence": 72,
+"health": 23,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 76
+},
+{
+"category": 4,
+"amount": 98
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 41
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108604,
+"army_type": 1,
+"arm": 0,
+"level": 1,
+"level_show": 1,
+"attack": 0,
+"defence": 0,
+"health": 1000,
+"range": 3,
+"move": 10,
+"time": 59,
+"speed": 10,
+"load": 9,
+"heal_time": 31,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.12
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 1,
+"res_req": [
+{
+"category": 2,
+"amount": 0
+},
+{
+"category": 4,
+"amount": 0
+},
+{
+"category": 6,
+"amount": 0
+},
+{
+"category": 7,
+"amount": 0
+},
+{
+"category": 8,
+"amount": 150
+}
+]
+},
+{
+"id": 109000,
+"attack": 12,
+"defence": 8,
+"health": 4
+},
+{
+"id": 109001,
+"attack": 17,
+"defence": 12,
+"health": 4
+},
+{
+"id": 109002,
+"attack": 22,
+"defence": 16,
+"health": 6
+},
+{
+"id": 109003,
+"attack": 30,
+"defence": 20,
+"health": 7
+},
+{
+"id": 109004,
+"attack": 40,
+"defence": 25,
+"health": 9
+},
+{
+"id": 109005,
+"attack": 48,
+"defence": 34,
+"health": 11
+},
+{
+"id": 109006,
+"attack": 60,
+"defence": 40,
+"health": 13
+},
+{
+"id": 109007,
+"attack": 72,
+"defence": 49,
+"health": 15
+},
+{
+"id": 109008,
+"attack": 87,
+"defence": 57,
+"health": 17
+},
+{
+"id": 109009,
+"attack": 98,
+"defence": 69,
+"health": 21
+},
+{
+"id": 109010,
+"attack": 33,
+"defence": 21,
+"health": 7
+},
+{
+"id": 109011,
+"attack": 44,
+"defence": 26,
+"health": 9
+},
+{
+"id": 109012,
+"attack": 52,
+"defence": 35,
+"health": 11
+},
+{
+"id": 109013,
+"attack": 66,
+"defence": 43,
+"health": 13
+},
+{
+"id": 109014,
+"attack": 78,
+"defence": 51,
+"health": 15
+},
+{
+"id": 109015,
+"attack": 96,
+"defence": 60,
+"health": 17
+},
+{
+"id": 109016,
+"attack": 108,
+"defence": 72,
+"health": 21
+},
+{
+"id": 109017,
+"attack": 112,
+"defence": 75,
+"health": 23
+},
+{
+"id": 109018,
+"attack": 121,
+"defence": 78,
+"health": 23
+},
+{
+"id": 109019,
+"attack": 98,
+"defence": 69,
+"health": 21
+},
+{
+"id": 108619,
+"army_type": 1,
+"arm": 0,
+"level": 107,
+"level_show": 1001,
+"army_translation": "army_translation_107017",
+"army_model": "Army_bg_107010",
+"army_smallicon": "Army_Icon_107010",
+"attack": 89,
+"defence": 95,
+"health": 27000,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 113
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 42
+},
+{
+"category": 7,
+"amount": 28
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108629,
+"army_type": 2,
+"arm": 0,
+"level": 107,
+"level_show": 1001,
+"army_translation": "army_translation_107217",
+"army_model": "Army_bg_107210",
+"army_smallicon": "Army_Icon_107210",
+"attack": 138,
+"defence": 58,
+"health": 19000,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 10,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 2,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 101
+},
+{
+"category": 4,
+"amount": 66
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 40
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+},
+{
+"id": 108639,
+"army_type": 3,
+"arm": 0,
+"level": 107,
+"level_show": 1001,
+"army_translation": "army_translation_107117",
+"army_model": "Army_bg_107110",
+"army_smallicon": "Army_Icon_107110",
+"attack": 109,
+"defence": 72,
+"health": 23000,
+"range": 3,
+"move": 10,
+"time": 10,
+"speed": 13,
+"load": 9,
+"heal_time": 22,
+"heal_res": 600,
+"alliance_heal": 90,
+"upkeep": {
+"category": 4,
+"cost": 0.16
+},
+"crit": 0,
+"anti_crit": 0,
+"hit_rate": 100,
+"miss": 0,
+"block": 0,
+"power": 9.5,
+"res_req": [
+{
+"category": 2,
+"amount": 76
+},
+{
+"category": 4,
+"amount": 98
+},
+{
+"category": 6,
+"amount": 34
+},
+{
+"category": 7,
+"amount": 41
+},
+{
+"category": 8,
+"amount": 17
+}
+]
+}
+]

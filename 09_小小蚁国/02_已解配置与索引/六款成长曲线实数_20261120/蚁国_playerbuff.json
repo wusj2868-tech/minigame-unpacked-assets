@@ -1,0 +1,2611 @@
+[
+{
+"id": 1001,
+"name": "Palyer_buff_1001",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100001
+},
+{
+"id": 1002,
+"name": "Palyer_buff_1002",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100002
+},
+{
+"id": 1003,
+"name": "Palyer_buff_1003",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100003
+},
+{
+"id": 1004,
+"name": "Palyer_buff_1004",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100004
+},
+{
+"id": 1005,
+"name": "Palyer_buff_1005",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100017
+},
+{
+"id": 1006,
+"name": "Palyer_buff_1006",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100018
+},
+{
+"id": 1007,
+"name": "Palyer_buff_1007",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100020
+},
+{
+"id": 1008,
+"name": "Palyer_buff_1008",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100021
+},
+{
+"id": 1009,
+"name": "Palyer_buff_1009",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100022
+},
+{
+"id": 1010,
+"name": "Palyer_buff_1010",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100023
+},
+{
+"id": 1016,
+"name": "Palyer_buff_1016",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100030
+},
+{
+"id": 1015,
+"name": "Palyer_buff_1015",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100028
+},
+{
+"id": 1014,
+"name": "Palyer_buff_1014",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100027
+},
+{
+"id": 1013,
+"name": "Palyer_buff_1013",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100026
+},
+{
+"id": 1018,
+"name": "Palyer_buff_1018",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100032
+},
+{
+"id": 1019,
+"name": "Palyer_buff_1019",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100033
+},
+{
+"id": 1017,
+"name": "Palyer_buff_1017",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100031
+},
+{
+"id": 1011,
+"name": "Palyer_buff_1011",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100024,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1012,
+"name": "Palyer_buff_1012",
+"ascription_type": 10,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100025,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1101,
+"name": "Palyer_buff_1101",
+"ascription_type": 11,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100005
+},
+{
+"id": 1102,
+"name": "Palyer_buff_1102",
+"ascription_type": 11,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100006
+},
+{
+"id": 1103,
+"name": "Palyer_buff_1103",
+"ascription_type": 11,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100007
+},
+{
+"id": 1104,
+"name": "Palyer_buff_1104",
+"ascription_type": 11,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100008
+},
+{
+"id": 1105,
+"name": "Palyer_buff_1105",
+"ascription_type": 11,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100009
+},
+{
+"id": 1106,
+"name": "Palyer_buff_1106",
+"ascription_type": 11,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100010
+},
+{
+"id": 1201,
+"name": "Palyer_buff_1201",
+"ascription_type": 12,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100011
+},
+{
+"id": 1202,
+"name": "Palyer_buff_1202",
+"ascription_type": 12,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100012
+},
+{
+"id": 1203,
+"name": "Palyer_buff_1203",
+"ascription_type": 12,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100013
+},
+{
+"id": 1204,
+"name": "Palyer_buff_1204",
+"ascription_type": 12,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100014
+},
+{
+"id": 1205,
+"name": "Palyer_buff_1205",
+"ascription_type": 12,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100015
+},
+{
+"id": 1206,
+"name": "Palyer_buff_1206",
+"ascription_type": 12,
+"number_type": 1,
+"buff_type": 0,
+"attr_id": 100016
+},
+{
+"id": 1301,
+"name": "Palyer_buff_1301",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300700
+},
+{
+"id": 1302,
+"name": "Palyer_buff_1302",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300801
+},
+{
+"id": 1303,
+"name": "Palyer_buff_1303",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 300902
+},
+{
+"id": 1304,
+"name": "Palyer_buff_1304",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 300904
+},
+{
+"id": 1305,
+"name": "Palyer_buff_1305",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 300906
+},
+{
+"id": 1306,
+"name": "Palyer_buff_1306",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 300907
+},
+{
+"id": 1307,
+"name": "Palyer_buff_1307",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300400
+},
+{
+"id": 1308,
+"name": "Palyer_buff_1308",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300302
+},
+{
+"id": 1309,
+"name": "Palyer_buff_1310",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300303
+},
+{
+"id": 1310,
+"name": "Palyer_buff_1309",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300304
+},
+{
+"id": 1311,
+"name": "Palyer_buff_1311",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300305
+},
+{
+"id": 1312,
+"name": "Palyer_buff_1313",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300306
+},
+{
+"id": 1313,
+"name": "Palyer_buff_1312",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300307
+},
+{
+"id": 1314,
+"name": "Palyer_buff_1314",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300102
+},
+{
+"id": 1315,
+"name": "Palyer_buff_1315",
+"ascription_type": 13,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 300202
+},
+{
+"id": 1316,
+"name": "Palyer_buff_1316",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300103
+},
+{
+"id": 1317,
+"name": "Palyer_buff_1317",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300104
+},
+{
+"id": 1318,
+"name": "Palyer_buff_1318",
+"ascription_type": 13,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 300204
+},
+{
+"id": 1319,
+"name": "Palyer_buff_1319",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300105
+},
+{
+"id": 1320,
+"name": "Palyer_buff_1320",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300107
+},
+{
+"id": 1321,
+"name": "Palyer_buff_1321",
+"ascription_type": 13,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 300207
+},
+{
+"id": 1322,
+"name": "Palyer_buff_1322",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300106
+},
+{
+"id": 1323,
+"name": "Palyer_buff_1323",
+"ascription_type": 13,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 300206
+},
+{
+"id": 1324,
+"name": "Palyer_buff_1324",
+"ascription_type": 13,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300108
+},
+{
+"id": 1325,
+"name": "Palyer_buff_1325",
+"ascription_type": 13,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 300208
+},
+{
+"id": 1326,
+"name": "Palyer_buff_1326",
+"ascription_type": 13,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 300500
+},
+{
+"id": 1403,
+"name": "Palyer_buff_1403",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302600
+},
+{
+"id": 1404,
+"name": "Palyer_buff_1404",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302304
+},
+{
+"id": 1406,
+"name": "Palyer_buff_1406",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302404
+},
+{
+"id": 1407,
+"name": "Palyer_buff_1407",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302504
+},
+{
+"id": 1408,
+"name": "Palyer_buff_1408",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302301
+},
+{
+"id": 1410,
+"name": "Palyer_buff_1410",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302401
+},
+{
+"id": 1411,
+"name": "Palyer_buff_1411",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302501
+},
+{
+"id": 1412,
+"name": "Palyer_buff_1412",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302302
+},
+{
+"id": 1414,
+"name": "Palyer_buff_1414",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302402
+},
+{
+"id": 1415,
+"name": "Palyer_buff_1415",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302502
+},
+{
+"id": 1416,
+"name": "Palyer_buff_1416",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302303
+},
+{
+"id": 1418,
+"name": "Palyer_buff_1418",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302403
+},
+{
+"id": 1419,
+"name": "Palyer_buff_1419",
+"ascription_type": 14,
+"apc_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302503
+},
+{
+"id": 1420,
+"name": "Palyer_buff_1420",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301002
+},
+{
+"id": 1421,
+"name": "Palyer_buff_1421",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301004
+},
+{
+"id": 1422,
+"name": "Palyer_buff_1423",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301006
+},
+{
+"id": 1423,
+"name": "Palyer_buff_1422",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301007
+},
+{
+"id": 1424,
+"name": "Palyer_buff_1424",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300602
+},
+{
+"id": 1425,
+"name": "Palyer_buff_1425",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300604
+},
+{
+"id": 1426,
+"name": "Palyer_buff_1426",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300606
+},
+{
+"id": 1427,
+"name": "Palyer_buff_1427",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300607
+},
+{
+"id": 1428,
+"name": "Palyer_buff_1428",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 300601
+},
+{
+"id": 1429,
+"name": "Palyer_buff_1429",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302201
+},
+{
+"id": 1430,
+"name": "Palyer_buff_1430",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302102
+},
+{
+"id": 1431,
+"name": "Palyer_buff_1431",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301901
+},
+{
+"id": 1432,
+"name": "Palyer_buff_1432",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302000
+},
+{
+"id": 1433,
+"name": "Palyer_buff_1433",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301902
+},
+{
+"id": 1434,
+"name": "Palyer_buff_1434",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302001
+},
+{
+"id": 1435,
+"name": "Palyer_buff_1435",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301903
+},
+{
+"id": 1436,
+"name": "Palyer_buff_1436",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 302002
+},
+{
+"id": 1438,
+"name": "Palyer_buff_1438",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306401,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+300100000
+],
+"group_id": [
+1000411002
+]
+},
+{
+"id": 1439,
+"name": "Palyer_buff_1439",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306501,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+300100000
+],
+"group_id": [
+1000411002
+]
+},
+{
+"id": 1440,
+"name": "Palyer_buff_1440",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306601,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+300100000
+],
+"group_id": [
+1000411002
+]
+},
+{
+"id": 1441,
+"name": "Palyer_buff_1441",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307301,
+"scene_type": [
+200300000,
+400100000
+]
+},
+{
+"id": 1442,
+"name": "Palyer_buff_1442",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307401,
+"scene_type": [
+200300000,
+400100000
+]
+},
+{
+"id": 1443,
+"name": "Palyer_buff_1443",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307501,
+"scene_type": [
+200300000,
+400100000
+]
+},
+{
+"id": 1444,
+"name": "Palyer_buff_1444",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307601,
+"scene_type": [
+200300000,
+400100000
+]
+},
+{
+"id": 1445,
+"name": "Palyer_buff_1445",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307701,
+"scene_type": [
+200300000,
+400100000
+]
+},
+{
+"id": 1446,
+"name": "Palyer_buff_1446",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307801,
+"scene_type": [
+200300000,
+400100000
+]
+},
+{
+"id": 1503,
+"name": "Palyer_buff_1503",
+"ascription_type": 15,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 100008
+},
+{
+"id": 1504,
+"name": "Palyer_buff_1504",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301801
+},
+{
+"id": 1505,
+"name": "Palyer_buff_1505",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301401
+},
+{
+"id": 1506,
+"name": "Palyer_buff_1506",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301404
+},
+{
+"id": 1507,
+"name": "Palyer_buff_1507",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301301
+},
+{
+"id": 1508,
+"name": "Palyer_buff_1508",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301402
+},
+{
+"id": 1509,
+"name": "Palyer_buff_1509",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301405
+},
+{
+"id": 1510,
+"name": "Palyer_buff_1510",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301302
+},
+{
+"id": 1511,
+"name": "Palyer_buff_1511",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301403
+},
+{
+"id": 1512,
+"name": "Palyer_buff_1512",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301406
+},
+{
+"id": 1513,
+"name": "Palyer_buff_1513",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301303
+},
+{
+"id": 1514,
+"name": "Palyer_buff_1514",
+"ascription_type": 15,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 301601
+},
+{
+"id": 1515,
+"name": "Palyer_buff_1515",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301701
+},
+{
+"id": 1516,
+"name": "Palyer_buff_1516",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301501
+},
+{
+"id": 1517,
+"name": "Palyer_buff_1517",
+"ascription_type": 15,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 301602
+},
+{
+"id": 1518,
+"name": "Palyer_buff_1518",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301702
+},
+{
+"id": 1519,
+"name": "Palyer_buff_1519",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301502
+},
+{
+"id": 1520,
+"name": "Palyer_buff_1520",
+"ascription_type": 15,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 301603
+},
+{
+"id": 1521,
+"name": "Palyer_buff_1521",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 301703
+},
+{
+"id": 1522,
+"name": "Palyer_buff_1522",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 301503
+},
+{
+"id": 1523,
+"name": "Palyer_buff_1523",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305501,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1524,
+"name": "Palyer_buff_1524",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305502,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1525,
+"name": "Palyer_buff_1525",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305503,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1526,
+"name": "Palyer_buff_1526",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 305801,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1527,
+"name": "Palyer_buff_1527",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 305802,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1528,
+"name": "Palyer_buff_1528",
+"ascription_type": 15,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 305803,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1601,
+"name": "Palyer_buff_1601",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303801,
+"buff_id": [
+11801
+]
+},
+{
+"id": 1602,
+"name": "Palyer_buff_1602",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303901,
+"buff_id": [
+11901
+]
+},
+{
+"id": 1603,
+"name": "Palyer_buff_1603",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304001,
+"buff_id": [
+12001
+]
+},
+{
+"id": 1604,
+"name": "Palyer_buff_1604",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304101,
+"buff_id": [
+13001
+]
+},
+{
+"id": 1605,
+"name": "Palyer_buff_1605",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304201,
+"buff_id": [
+13101
+]
+},
+{
+"id": 1606,
+"name": "Palyer_buff_1606",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304301,
+"buff_id": [
+14001
+]
+},
+{
+"id": 1607,
+"name": "Palyer_buff_1607",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304401,
+"buff_id": [
+14701
+]
+},
+{
+"id": 1608,
+"name": "Palyer_buff_1608",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304501,
+"buff_id": [
+17501
+]
+},
+{
+"id": 1609,
+"name": "Palyer_buff_1609",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304601,
+"buff_id": [
+17601
+]
+},
+{
+"id": 1610,
+"name": "Palyer_buff_1610",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 305001,
+"buff_id": [
+12901
+]
+},
+{
+"id": 1611,
+"name": "Palyer_buff_1611",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305301,
+"buff_id": [
+13812
+]
+},
+{
+"id": 1612,
+"name": "Palyer_buff_1612",
+"ascription_type": 16,
+"army_type": 1,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304701,
+"buff_id": [
+60000
+]
+},
+{
+"id": 1701,
+"name": "Palyer_buff_1701",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303802,
+"buff_id": [
+11802
+]
+},
+{
+"id": 1702,
+"name": "Palyer_buff_1702",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303902,
+"buff_id": [
+11902
+]
+},
+{
+"id": 1703,
+"name": "Palyer_buff_1703",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304002,
+"buff_id": [
+12002
+]
+},
+{
+"id": 1704,
+"name": "Palyer_buff_1704",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304102,
+"buff_id": [
+13002
+]
+},
+{
+"id": 1705,
+"name": "Palyer_buff_1705",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304202,
+"buff_id": [
+13102
+]
+},
+{
+"id": 1706,
+"name": "Palyer_buff_1706",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304302,
+"buff_id": [
+14002
+]
+},
+{
+"id": 1707,
+"name": "Palyer_buff_1707",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304402,
+"buff_id": [
+14702
+]
+},
+{
+"id": 1708,
+"name": "Palyer_buff_1708",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304502,
+"buff_id": [
+17502
+]
+},
+{
+"id": 1709,
+"name": "Palyer_buff_1709",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304602,
+"buff_id": [
+17602
+]
+},
+{
+"id": 1710,
+"name": "Palyer_buff_1710",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305102,
+"buff_id": [
+12902
+]
+},
+{
+"id": 1711,
+"name": "Palyer_buff_1711",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305402,
+"buff_id": [
+13823
+]
+},
+{
+"id": 1712,
+"name": "Palyer_buff_1712",
+"ascription_type": 17,
+"army_type": 2,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304702,
+"buff_id": [
+60000
+]
+},
+{
+"id": 1801,
+"name": "Palyer_buff_1801",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303803,
+"buff_id": [
+11803
+]
+},
+{
+"id": 1802,
+"name": "Palyer_buff_1802",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303903,
+"buff_id": [
+11903
+]
+},
+{
+"id": 1803,
+"name": "Palyer_buff_1803",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304003,
+"buff_id": [
+12003
+]
+},
+{
+"id": 1804,
+"name": "Palyer_buff_1804",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304103,
+"buff_id": [
+13003
+]
+},
+{
+"id": 1805,
+"name": "Palyer_buff_1805",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304203,
+"buff_id": [
+13103
+]
+},
+{
+"id": 1806,
+"name": "Palyer_buff_1806",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304303,
+"buff_id": [
+14003
+]
+},
+{
+"id": 1807,
+"name": "Palyer_buff_1807",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304403,
+"buff_id": [
+14703
+]
+},
+{
+"id": 1808,
+"name": "Palyer_buff_1808",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304503,
+"buff_id": [
+17503
+]
+},
+{
+"id": 1809,
+"name": "Palyer_buff_1809",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304603,
+"buff_id": [
+17603
+]
+},
+{
+"id": 1811,
+"name": "Palyer_buff_1810",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305203,
+"buff_id": [
+13823
+]
+},
+{
+"id": 1812,
+"name": "Palyer_buff_1812",
+"ascription_type": 18,
+"army_type": 3,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304703,
+"buff_id": [
+60000
+]
+},
+{
+"id": 1901,
+"name": "Palyer_buff_1901",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303801,
+"buff_id": [
+11801
+]
+},
+{
+"id": 1902,
+"name": "Palyer_buff_1902",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303901,
+"buff_id": [
+11901
+]
+},
+{
+"id": 1903,
+"name": "Palyer_buff_1903",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304001,
+"buff_id": [
+12001
+]
+},
+{
+"id": 1904,
+"name": "Palyer_buff_1904",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304301,
+"buff_id": [
+14001
+]
+},
+{
+"id": 1905,
+"name": "Palyer_buff_1905",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304401,
+"buff_id": [
+14701
+]
+},
+{
+"id": 1906,
+"name": "Palyer_buff_1906",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304501,
+"buff_id": [
+17501
+]
+},
+{
+"id": 1907,
+"name": "Palyer_buff_1907",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304601,
+"buff_id": [
+17601
+]
+},
+{
+"id": 1908,
+"name": "Palyer_buff_1908",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 305001,
+"buff_id": [
+12901
+]
+},
+{
+"id": 1909,
+"name": "Palyer_buff_1909",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305301,
+"buff_id": [
+13812
+]
+},
+{
+"id": 1910,
+"name": "Palyer_buff_1910",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304701,
+"buff_id": [
+60000
+]
+},
+{
+"id": 1911,
+"name": "Palyer_buff_1911",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305901,
+"buff_id": [
+23700
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1912,
+"name": "Palyer_buff_1912",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306001,
+"buff_id": [
+23701
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 1913,
+"name": "Palyer_buff_1913",
+"ascription_type": 19,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306101,
+"buff_id": [
+23702
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2001,
+"name": "Palyer_buff_2001",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303802,
+"buff_id": [
+11802
+]
+},
+{
+"id": 2002,
+"name": "Palyer_buff_2002",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303902,
+"buff_id": [
+11902
+]
+},
+{
+"id": 2003,
+"name": "Palyer_buff_2003",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304002,
+"buff_id": [
+12002
+]
+},
+{
+"id": 2004,
+"name": "Palyer_buff_2004",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304302,
+"buff_id": [
+14002
+]
+},
+{
+"id": 2005,
+"name": "Palyer_buff_2005",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304402,
+"buff_id": [
+14702
+]
+},
+{
+"id": 2006,
+"name": "Palyer_buff_2006",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304502,
+"buff_id": [
+17502
+]
+},
+{
+"id": 2007,
+"name": "Palyer_buff_2007",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304602,
+"buff_id": [
+17602
+]
+},
+{
+"id": 2008,
+"name": "Palyer_buff_2008",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305102,
+"buff_id": [
+12902
+]
+},
+{
+"id": 2009,
+"name": "Palyer_buff_2009",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305402,
+"buff_id": [
+13823
+]
+},
+{
+"id": 2010,
+"name": "Palyer_buff_2010",
+"ascription_type": 20,
+"army_type": 2,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304702,
+"buff_id": [
+60000
+]
+},
+{
+"id": 2011,
+"name": "Palyer_buff_2011",
+"ascription_type": 20,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305902,
+"buff_id": [
+23700
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2012,
+"name": "Palyer_buff_2012",
+"ascription_type": 20,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306002,
+"buff_id": [
+23701
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2013,
+"name": "Palyer_buff_2013",
+"ascription_type": 20,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306102,
+"buff_id": [
+23702
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2101,
+"name": "Palyer_buff_2101",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303803,
+"buff_id": [
+11803
+]
+},
+{
+"id": 2102,
+"name": "Palyer_buff_2102",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303903,
+"buff_id": [
+11903
+]
+},
+{
+"id": 2103,
+"name": "Palyer_buff_2103",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304003,
+"buff_id": [
+12003
+]
+},
+{
+"id": 2104,
+"name": "Palyer_buff_2104",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304303,
+"buff_id": [
+14003
+]
+},
+{
+"id": 2105,
+"name": "Palyer_buff_2105",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304403,
+"buff_id": [
+14703
+]
+},
+{
+"id": 2106,
+"name": "Palyer_buff_2106",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304503,
+"buff_id": [
+17503
+]
+},
+{
+"id": 2107,
+"name": "Palyer_buff_2107",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304603,
+"buff_id": [
+17603
+]
+},
+{
+"id": 2109,
+"name": "Palyer_buff_1810",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305203,
+"buff_id": [
+13823
+]
+},
+{
+"id": 2110,
+"name": "Palyer_buff_2110",
+"ascription_type": 21,
+"army_type": 3,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304703,
+"buff_id": [
+60000
+]
+},
+{
+"id": 2111,
+"name": "Palyer_buff_2111",
+"ascription_type": 21,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305903,
+"buff_id": [
+23700
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2112,
+"name": "Palyer_buff_2112",
+"ascription_type": 21,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306003,
+"buff_id": [
+23701
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2113,
+"name": "Palyer_buff_2113",
+"ascription_type": 21,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 306103,
+"buff_id": [
+23702
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+]
+},
+{
+"id": 2201,
+"name": "Palyer_buff_2201",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303801,
+"buff_id": [
+11801
+]
+},
+{
+"id": 2202,
+"name": "Palyer_buff_2202",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303901,
+"buff_id": [
+11901
+]
+},
+{
+"id": 2203,
+"name": "Palyer_buff_2203",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304001,
+"buff_id": [
+12001
+]
+},
+{
+"id": 2204,
+"name": "Palyer_buff_2204",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304801,
+"buff_id": [
+13201
+]
+},
+{
+"id": 2205,
+"name": "Palyer_buff_2205",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304901,
+"buff_id": [
+13301
+]
+},
+{
+"id": 2206,
+"name": "Palyer_buff_2206",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304301,
+"buff_id": [
+14001
+]
+},
+{
+"id": 2207,
+"name": "Palyer_buff_2207",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304401,
+"buff_id": [
+14701
+]
+},
+{
+"id": 2208,
+"name": "Palyer_buff_2208",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304501,
+"buff_id": [
+17501
+]
+},
+{
+"id": 2209,
+"name": "Palyer_buff_2209",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304601,
+"buff_id": [
+17601
+]
+},
+{
+"id": 2210,
+"name": "Palyer_buff_2210",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 2,
+"attr_id": 305001,
+"buff_id": [
+12901
+]
+},
+{
+"id": 2211,
+"name": "Palyer_buff_2211",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305301,
+"buff_id": [
+13812
+]
+},
+{
+"id": 2212,
+"name": "Palyer_buff_2212",
+"ascription_type": 22,
+"army_type": 1,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304701,
+"buff_id": [
+60000
+]
+},
+{
+"id": 2301,
+"name": "Palyer_buff_2301",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303802,
+"buff_id": [
+11802
+]
+},
+{
+"id": 2302,
+"name": "Palyer_buff_2302",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303902,
+"buff_id": [
+11902
+]
+},
+{
+"id": 2303,
+"name": "Palyer_buff_2303",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304002,
+"buff_id": [
+12002
+]
+},
+{
+"id": 2304,
+"name": "Palyer_buff_2304",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304802,
+"buff_id": [
+13202
+]
+},
+{
+"id": 2305,
+"name": "Palyer_buff_2305",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304902,
+"buff_id": [
+13302
+]
+},
+{
+"id": 2306,
+"name": "Palyer_buff_2306",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304302,
+"buff_id": [
+14002
+]
+},
+{
+"id": 2307,
+"name": "Palyer_buff_2307",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304402,
+"buff_id": [
+14702
+]
+},
+{
+"id": 2308,
+"name": "Palyer_buff_2308",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304502,
+"buff_id": [
+17502
+]
+},
+{
+"id": 2309,
+"name": "Palyer_buff_2309",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304602,
+"buff_id": [
+17602
+]
+},
+{
+"id": 2310,
+"name": "Palyer_buff_2310",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305102,
+"buff_id": [
+12902
+]
+},
+{
+"id": 2311,
+"name": "Palyer_buff_2311",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305402,
+"buff_id": [
+13823
+]
+},
+{
+"id": 2312,
+"name": "Palyer_buff_2312",
+"ascription_type": 23,
+"army_type": 2,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304702,
+"buff_id": [
+60000
+]
+},
+{
+"id": 2401,
+"name": "Palyer_buff_2401",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303803,
+"buff_id": [
+11803
+]
+},
+{
+"id": 2402,
+"name": "Palyer_buff_2402",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 303903,
+"buff_id": [
+11903
+]
+},
+{
+"id": 2403,
+"name": "Palyer_buff_2403",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304003,
+"buff_id": [
+12003
+]
+},
+{
+"id": 2404,
+"name": "Palyer_buff_2404",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304803,
+"buff_id": [
+13203
+]
+},
+{
+"id": 2405,
+"name": "Palyer_buff_2405",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304903,
+"buff_id": [
+13303
+]
+},
+{
+"id": 2406,
+"name": "Palyer_buff_2406",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304303,
+"buff_id": [
+14003
+]
+},
+{
+"id": 2407,
+"name": "Palyer_buff_2407",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304403,
+"buff_id": [
+14703
+]
+},
+{
+"id": 2408,
+"name": "Palyer_buff_2408",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304503,
+"buff_id": [
+17503
+]
+},
+{
+"id": 2409,
+"name": "Palyer_buff_2409",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 304603,
+"buff_id": [
+17603
+]
+},
+{
+"id": 2411,
+"name": "Palyer_buff_1810",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 305203,
+"buff_id": [
+13823
+]
+},
+{
+"id": 2412,
+"name": "Palyer_buff_2412",
+"ascription_type": 24,
+"army_type": 3,
+"number_type": 1,
+"buff_type": 1,
+"attr_id": 304703,
+"buff_id": [
+60000
+]
+},
+{
+"id": 1447,
+"name": "Palyer_buff_1447",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307301,
+"scene_type": [
+300100000
+],
+"group_id": [
+1000411001
+]
+},
+{
+"id": 1448,
+"name": "Palyer_buff_1448",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307401,
+"scene_type": [
+300100000
+],
+"group_id": [
+1000411001
+]
+},
+{
+"id": 1449,
+"name": "Palyer_buff_1449",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307501,
+"scene_type": [
+300100000
+],
+"group_id": [
+1000411001
+]
+},
+{
+"id": 1450,
+"name": "Palyer_buff_1450",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 307901,
+"scene_type": [
+300100000
+],
+"group_id": [
+1000411001
+]
+},
+{
+"id": 1451,
+"name": "Palyer_buff_1451",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 308001,
+"scene_type": [
+300100000
+],
+"group_id": [
+1000411001
+]
+},
+{
+"id": 1452,
+"name": "Palyer_buff_1452",
+"ascription_type": 14,
+"number_type": 2,
+"buff_type": 1,
+"attr_id": 308101,
+"scene_type": [
+300100000
+],
+"group_id": [
+1000411001
+]
+}
+]

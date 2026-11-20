@@ -1,0 +1,254 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgBuildingAssociation",
+  "field_aliases": {
+    "ID": 0,
+    "BuildLevelId": 1,
+    "BuildStar": 2,
+    "Season": 3,
+    "Unlock": 4,
+    "BuildName": 5
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "BuildLevelId": 31,
+      "BuildStar": 0,
+      "Season": 3,
+      "Unlock": "81",
+      "BuildName": "build_name_330101_31"
+    },
+    "2": {
+      "ID": 2,
+      "BuildLevelId": 32,
+      "BuildStar": 0,
+      "Season": 3,
+      "Unlock": "81",
+      "BuildName": "build_name_330101_32"
+    },
+    "3": {
+      "ID": 3,
+      "BuildLevelId": 33,
+      "BuildStar": 0,
+      "Season": 3,
+      "Unlock": "81",
+      "BuildName": "build_name_330101_33"
+    },
+    "4": {
+      "ID": 4,
+      "BuildLevelId": 34,
+      "BuildStar": 0,
+      "Season": 3,
+      "Unlock": "81",
+      "BuildName": "build_name_330101_34"
+    },
+    "5": {
+      "ID": 5,
+      "BuildLevelId": 35,
+      "BuildStar": 0,
+      "Season": 3,
+      "Unlock": "81",
+      "BuildName": "build_name_330101_35"
+    },
+    "6": {
+      "ID": 6,
+      "BuildLevelId": 36,
+      "BuildStar": 1,
+      "Season": 3,
+      "Unlock": "81",
+      "BuildName": "build_name_330101_36"
+    },
+    "7": {
+      "ID": 7,
+      "BuildLevelId": 37,
+      "BuildStar": 1,
+      "Season": 3,
+      "Unlock": "120",
+      "BuildName": "build_name_330101_37"
+    },
+    "8": {
+      "ID": 8,
+      "BuildLevelId": 38,
+      "BuildStar": 1,
+      "Season": 3,
+      "Unlock": "120",
+      "BuildName": "build_name_330101_38"
+    },
+    "9": {
+      "ID": 9,
+      "BuildLevelId": 39,
+      "BuildStar": 1,
+      "Season": 3,
+      "Unlock": "120",
+      "BuildName": "build_name_330101_39"
+    },
+    "10": {
+      "ID": 10,
+      "BuildLevelId": 40,
+      "BuildStar": 1,
+      "Season": 3,
+      "Unlock": "120",
+      "BuildName": "build_name_330101_40"
+    },
+    "11": {
+      "ID": 11,
+      "BuildLevelId": 41,
+      "BuildStar": 1,
+      "Season": 3,
+      "Unlock": "120",
+      "BuildName": "build_name_330101_41"
+    },
+    "12": {
+      "ID": 12,
+      "BuildLevelId": 42,
+      "BuildStar": 2,
+      "Season": 3,
+      "Unlock": "120",
+      "BuildName": "build_name_330101_42"
+    },
+    "13": {
+      "ID": 13,
+      "BuildLevelId": 43,
+      "BuildStar": 2,
+      "Season": 5,
+      "Unlock": "121",
+      "BuildName": "build_name_330101_43"
+    },
+    "14": {
+      "ID": 14,
+      "BuildLevelId": 44,
+      "BuildStar": 2,
+      "Season": 5,
+      "Unlock": "121",
+      "BuildName": "build_name_330101_44"
+    },
+    "15": {
+      "ID": 15,
+      "BuildLevelId": 45,
+      "BuildStar": 2,
+      "Season": 5,
+      "Unlock": "121",
+      "BuildName": "build_name_330101_45"
+    },
+    "16": {
+      "ID": 16,
+      "BuildLevelId": 46,
+      "BuildStar": 2,
+      "Season": 5,
+      "Unlock": "121",
+      "BuildName": "build_name_330101_46"
+    },
+    "17": {
+      "ID": 17,
+      "BuildLevelId": 47,
+      "BuildStar": 2,
+      "Season": 5,
+      "Unlock": "121",
+      "BuildName": "build_name_330101_47"
+    },
+    "18": {
+      "ID": 18,
+      "BuildLevelId": 48,
+      "BuildStar": 3,
+      "Season": 5,
+      "Unlock": "121",
+      "BuildName": "build_name_330101_48"
+    },
+    "19": {
+      "ID": 19,
+      "BuildLevelId": 49,
+      "BuildStar": 3,
+      "Season": 8,
+      "Unlock": "122",
+      "BuildName": "build_name_330101_49"
+    },
+    "20": {
+      "ID": 20,
+      "BuildLevelId": 50,
+      "BuildStar": 3,
+      "Season": 8,
+      "Unlock": "122",
+      "BuildName": "build_name_330101_50"
+    },
+    "21": {
+      "ID": 21,
+      "BuildLevelId": 51,
+      "BuildStar": 3,
+      "Season": 8,
+      "Unlock": "122",
+      "BuildName": "build_name_330101_51"
+    },
+    "22": {
+      "ID": 22,
+      "BuildLevelId": 52,
+      "BuildStar": 3,
+      "Season": 8,
+      "Unlock": "122",
+      "BuildName": "build_name_330101_52"
+    },
+    "23": {
+      "ID": 23,
+      "BuildLevelId": 53,
+      "BuildStar": 3,
+      "Season": 8,
+      "Unlock": "122",
+      "BuildName": "build_name_330101_53"
+    },
+    "24": {
+      "ID": 24,
+      "BuildLevelId": 54,
+      "BuildStar": 4,
+      "Season": 8,
+      "Unlock": "122",
+      "BuildName": "build_name_330101_54"
+    },
+    "25": {
+      "ID": 25,
+      "BuildLevelId": 55,
+      "BuildStar": 4,
+      "Season": 11,
+      "Unlock": "123",
+      "BuildName": "build_name_330101_55"
+    },
+    "26": {
+      "ID": 26,
+      "BuildLevelId": 56,
+      "BuildStar": 4,
+      "Season": 11,
+      "Unlock": "123",
+      "BuildName": "build_name_330101_56"
+    },
+    "27": {
+      "ID": 27,
+      "BuildLevelId": 57,
+      "BuildStar": 4,
+      "Season": 11,
+      "Unlock": "123",
+      "BuildName": "build_name_330101_57"
+    },
+    "28": {
+      "ID": 28,
+      "BuildLevelId": 58,
+      "BuildStar": 4,
+      "Season": 11,
+      "Unlock": "123",
+      "BuildName": "build_name_330101_58"
+    },
+    "29": {
+      "ID": 29,
+      "BuildLevelId": 59,
+      "BuildStar": 4,
+      "Season": 11,
+      "Unlock": "123",
+      "BuildName": "build_name_330101_59"
+    },
+    "30": {
+      "ID": 30,
+      "BuildLevelId": 60,
+      "BuildStar": 5,
+      "Season": 11,
+      "Unlock": "123",
+      "BuildName": "build_name_330101_60"
+    }
+  }
+}

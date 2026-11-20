@@ -1,0 +1,3283 @@
+{
+  "game": {
+    "name": "小小蚁国",
+    "package": "com.tencent.tmgp.xxyg",
+    "version": "3.0.60",
+    "engine": "Unity (IL2CPP + XLua + FairyGUI)",
+    "genre": "SLG 策略养成（蚂蚁题材：建造 / 资源 / 科技 / 兵种 / 联盟 / 赛季）",
+    "publisher": "37wan / Star Union 星合（依据 37wan_config.xml、configServer.json、支付 product_id 推断）",
+    "channel": "应用宝 (com.tencent.tmgp)"
+  },
+  "summary": "《小小蚁国》是一款蚂蚁题材的长线 SLG 手游，安装包为 Unity IL2CPP + XLua + FairyGUI；com.tencent.tmgp.xxyg 说明经应用宝分发，37wan/Star Union 为实际发行与支付体系。配置以 Lua 5.3 编译字节码（gen/excels/*.lua）打包在 AssetBundle 中，本轮自写 Lua 5.3 解析器与最小 VM，从 722 张表导出 139,540 行 JSON。同时修复了长字符串长度编码（0xff 后为 4 字节小端 u32），补齐 19 张 i18n 中文表共 33,989 条词条：建筑名 153/165、野怪名覆盖全部 507 行、科技名 368/368 分类与 4,395/4,395 行全部回填中文、道具名与 UI/任务文案可用。关卡侧落盘 1,760 条可核验记录：地下洞穴 8 塔 980 层、特化蚁进化 4 塔 400 层、地下迷宫 100 层、英雄星级塔 200 层、吞噬小游戏 20 组、赛季 NPC 60 层。核心循环为建造/升级蚁巢 → 生产采集六类资源 → 研究科技与孵化兵蚁 → 出征野怪/洞穴/赛季打架 → 升级蚁后解锁新系统；体力系统已定位（上限 100、480 秒/点，野怪 10/首领 20），ArtBundle 中 135 张 UI/图集贴图已统计分辨率与 ETC2 格式。主线并非编号关卡，而是 15 章 × 82 个剧情任务 + 434 条主线任务的任务链（名称与奖励 100% 解析），因此不计算困难关密度；`level_data/records.jsonl` 现为 2,373 条（含 531 条主线任务链与 82 条未归属剧情任务）。剩余最大缺口是模型/特效/shader 类 bundle 未逐对象展开；任务条件 54 种 finish.type 已按任务名归纳为可读语义（推断，非官方枚举）。",
+  "coreLoop": {
+    "summary": "靠蚁巢等级与建造/科技时间墙驱动资源、兵力和新系统解锁，再用野怪/洞穴/联盟/赛季持续消耗兵力并回收奖励",
+    "cycle": "建造升级 → 生产/采集资源 → 研究科技 + 孵化兵蚁 → 出征野怪/地下洞穴/竞技 → 升级蚁后解锁新系统 → 更高等级建造，循环",
+    "steps": [
+      {
+        "order": 1,
+        "name": "建造/升级建筑",
+        "action": "消耗多类资源与时间升级蚁后、孵化地、采集地等",
+        "cost": "res_req 指定的肉/水/植物/湿土/沙子/菌",
+        "reward": "建筑等级与战力提升",
+        "gate": "condition 要求前置建筑达到指定等级；蚁后等级限制整体上限",
+        "files": [
+          "extracted/config/building.json",
+          "extracted/config/buildingcategory.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "资源生产与采集",
+        "action": "资源建筑按等级产出，世界地图采集点补充",
+        "cost": "建筑等级与时间",
+        "reward": "六类资源进入存储上限",
+        "gate": "resources.storage 上限；采集建筑等级",
+        "files": [
+          "extracted/config/resbuilding.json",
+          "extracted/config/resources.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "孵化兵蚁",
+        "action": "在近卫/射手/运输蚁孵化地训练兵种",
+        "cost": "res_req 资源与 upkeep 维持",
+        "reward": "获得 attack/defence/health 等属性的部队",
+        "gate": "孵化地等级 building_category 门控；兵力维持消耗",
+        "files": [
+          "extracted/config/army.json"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "研究科技",
+        "action": "按科技树逐级研究，获得 buff_ids/buff_values",
+        "cost": "资源 + duration 时间",
+        "reward": "属性与产能加成",
+        "gate": "building_condition 要求指定建筑等级；科技前置 lv",
+        "files": [
+          "extracted/config/tech.json"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "出征 PVE / 竞技",
+        "action": "攻打世界野怪、地下洞穴层、特化蚁进化层、赛季 NPC 与 3v3 竞技",
+        "cost": "兵力 + 体力：体力上限 100（StaminaMaxDefault），480 秒/点恢复（StaminaRecoveryTime）；野怪 10、首领 20、打玩家/营地/援助/国家任务各 5",
+        "reward": "exp、rewards、need_score 达标奖励、段位奖励",
+        "gate": "体力上限 100 与 480 秒/点恢复限制连续出征；层数/战力前置；兵力损耗",
+        "files": [
+          "extracted/config/monster.json",
+          "extracted/config/undergroundcavelv.json",
+          "extracted/config/heroevochallengefloor.json",
+          "extracted/config/arenastage.json"
+        ]
+      },
+      {
+        "order": 6,
+        "name": "升级蚁后解锁系统",
+        "action": "蚁后与进化菌丛升级，触发 functionopentime",
+        "cost": "大量资源与数十天建造时间",
+        "reward": "解锁特化蚁、细胞、地下洞穴、基因、赛季等",
+        "gate": "前置建筑等级 + 超长建造时间，形成付费加速压力",
+        "files": [
+          "extracted/config/functionopentime.json",
+          "extracted/config/building.json"
+        ]
+      },
+      {
+        "order": 7,
+        "name": "联盟与赛季",
+        "action": "加入联盟参与活动、赛季建筑与联盟玩法",
+        "cost": "时间与兵力",
+        "reward": "联盟奖励、赛季进度",
+        "gate": "赛季周期与联盟活动开放时间",
+        "files": [
+          "extracted/config/activity.json",
+          "extracted/config/functionopentime.json"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "肉（Res_Name_2 / category 2）",
+        "income": "肉采集地 4040000 与资源建筑产出"
+      },
+      {
+        "name": "水（Res_Name_3 / category 3）",
+        "income": "水采集地 4041000"
+      },
+      {
+        "name": "植物（category 4）",
+        "income": "植物采集地 4042000"
+      },
+      {
+        "name": "湿土/沙子/菌（category 6/7/5 等）",
+        "income": "对应采集地与菌丛产出"
+      },
+      {
+        "name": "钻石/蚁币",
+        "income": "充值、活动、任务"
+      },
+      {
+        "name": "加速道具与护盾",
+        "income": "礼包、活动、商城"
+      },
+      {
+        "name": "体力（Stamina）",
+        "income": "每 480 秒自然恢复 1 点；体力道具 204017（普通食物，value=10）；建造行军集结地可 +100 上限（i18n cn_Army_UI_39）"
+      }
+    ],
+    "loopMinutes": "单次上线 5~30 分钟；单次建造/研究从秒级到约 45 天（3895850 秒）",
+    "evidence": [
+      "extracted/config/building.json",
+      "extracted/config/resbuilding.json",
+      "extracted/config/army.json",
+      "extracted/config/tech.json",
+      "extracted/config/functionopentime.json",
+      "extracted/config/resources.json",
+      "extracted/config/global.json"
+    ],
+    "confidence": "high"
+  },
+  "monetization": {
+    "summary": "以“建造/科技数十天时间墙 + 高层洞穴与赛季战力压力”制造付费点，售卖加速、资源礼包、月卡与多档直购礼包",
+    "cycle": "长建造/研究排队 → 买加速或资源 → 快速升级蚁后/建筑 → 进入更高层洞穴与赛季 → 战力差距扩大 → 购买更高档礼包",
+    "steps": [
+      {
+        "order": 1,
+        "name": "时间墙卡住",
+        "action": "蚁后 25 级、部分建筑 10 级单次建造达 1893030~3895850 秒",
+        "cost": "等待 22~45 天",
+        "reward": "无（等待本身）",
+        "gate": "加速道具与付费礼包"
+      },
+      {
+        "order": 2,
+        "name": "资源见底",
+        "action": "高阶建筑 res_req 达数千万至 1.8 亿",
+        "cost": "采集时间",
+        "reward": "继续升级",
+        "gate": "资源礼包/采集加速"
+      },
+      {
+        "order": 3,
+        "name": "战力不足卡层",
+        "action": "地下洞穴高层 need_score 达 6065488，赛季 NPC 与竞技需要更强部队；体力上限 100/480 秒恢复使连续出征受限（野怪 10、首领 20 点/次）",
+        "cost": "兵力损耗 + 体力（100 上限，480 秒/点）",
+        "reward": "层奖励与段位奖励",
+        "gate": "兵种/特化蚁养成礼包、月卡"
+      },
+      {
+        "order": 4,
+        "name": "购买推进",
+        "action": "购买月卡、直购礼包、钻石与加速",
+        "cost": "人民币 6~648 元",
+        "reward": "资源、加速、特权 buff",
+        "gate": "下一档建筑/赛季继续抬升"
+      }
+    ],
+    "payPoints": [
+      {
+        "name": "直购档位 30/68/128/198 元",
+        "price": "¥30 / ¥68 / ¥128 / ¥198（pay.json）",
+        "trigger": "活动与系统解锁直购",
+        "effect": "对应礼包内容（ThemePassCheck、UndergroundKingdom 等）",
+        "config": "extracted/config/pay.json"
+      },
+      {
+        "name": "月卡/周卡",
+        "price": "30 天 ¥128/¥168；7 天 ¥6/¥30/¥68（monthcard.json）",
+        "trigger": "福利中心常驻",
+        "effect": "每日领取 + buff_id/buff_value 加成",
+        "config": "extracted/config/monthcard.json"
+      },
+      {
+        "name": "限时/成长礼包",
+        "price": "¥6/¥30/¥68/¥128/¥198/¥328/¥648（giftpack.json，按档位 115/430/548/441/28/267/285 条）",
+        "trigger": "giftgroup.json 1,672 行按 open/show/trigger 的 {x,y} 条件对 + trigger_times 触发；time 多为 -1（常驻）或 43200/86400/604800 秒，refresh=12 为主；limits=1 为主（限购 1 次），gift_type 29/11/13/14 占多数。例 id=29043 绑定 init_gift 2904001、time=604800（7 天）、trigger 坐标 {x:102,y:1}、trigger_times [1]",
+        "effect": "资源、加速、兵种与特化蚁材料",
+        "config": "extracted/config/giftpack.json"
+      },
+      {
+        "name": "加速道具",
+        "price": "随礼包/钻石商店",
+        "trigger": "建造、研究、治疗队列",
+        "effect": "缩短 duartion/duration/heal_time",
+        "config": "extracted/config/item.json"
+      },
+      {
+        "name": "巢穴保护",
+        "price": "随礼包/商城",
+        "trigger": "被攻击风险",
+        "effect": "1/8/24 小时/3 天保护",
+        "config": "extracted/config/item.json"
+      }
+    ],
+    "ads": [
+      "穿山甲（PangolinAd）激励视频 SDK 已接入：plugin_config.json 中 \"ad\": \"com.star.union.starunion.ad.PangolinAd\"；具体激励奖励与触发点未在本地配置中定位"
+    ],
+    "prices": "礼包 ¥6~¥648（USD 0.99~99.99）；月卡 ¥6~¥168；pay.json 直购档 ¥30/68/128/198；中国区 product_id 前缀 com.sy.xxyiguo.* 与 com.jsjq.xxyg.*",
+    "evidence": [
+      "extracted/config/pay.json",
+      "extracted/config/monthcard.json",
+      "extracted/config/giftpack.json",
+      "extracted/config/giftgroup.json",
+      "apk_data/assets/plugin_config.json",
+      "extracted/config/i18nfunction_sc.json"
+    ],
+    "confidence": "medium"
+  },
+  "modules": [
+    {
+      "name": "建造与资源生产",
+      "summary": "以蚁后为核心的多类建筑等级体系，建筑升级消耗资源与时间，资源建筑按等级产出六类资源",
+      "sourceFile": "extracted/config/building.json",
+      "details": [
+        "building.json 1461 行，字段 id/level/category/next_id/duartion/power/electricity_consume/ant_num/res_req/condition；category 指向 buildingcategory 的建筑类型",
+        "buildingcategory.json 164 行，字段 id/area/init_building/max_lv/building_type/name；蚁后 4000000 max_lv=25，进化菌丛 4003000 max_lv=25，奇异豌豆 4321000 最高 60 级",
+        "resbuilding.json 250 行中 225 行有 produce{category,amount}，每类 25 级；如 4030001 produce category=5 amount=3350",
+        "resources.json 9 行定义资源名、图标、storage 上限、采集建筑与采集点"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/building.json",
+        "extracted/config/buildingcategory.json",
+        "extracted/config/resbuilding.json",
+        "extracted/config/resources.json",
+        "extracted/config/i18nbuilding_sc.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "科技研究",
+      "summary": "按建筑等级解锁的科技树，逐级消耗资源与时间，提供 buff 加成",
+      "sourceFile": "extracted/config/tech.json",
+      "details": [
+        "tech.json 4395 行，字段 id/category/lv/max_lv/building_condition[{confId,level}]/res_req/duration/buff_ids/buff_values/power/priority",
+        "样例 7000101：category 7000100，lv1，需进化菌丛 4003000 到 1 级，消耗 category8 资源 800，duration 100 秒，buff 17202=1",
+        "最高 duration 达 2623035 秒，与建造共同构成时间墙",
+        "科技名映射已验证：techcategory.title 是序列 key（TechName_1、TechName_2…），经 i18ntech_sc 命中 368/368 分类与 4,395/4,395 科技行；如 7000100→急速宰杀、7000200→急速切割、7000300→急速挖掘，TechCategoryName_1→急速生产",
+        "duration 分布：最小 80 秒、最大 2,623,035 秒（约 30.4 天），超过 86,400 秒（1 天）的有 2,554 行；与建筑时间墙叠加形成长线付费加速空间"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/tech.json",
+        "extracted/config/i18ntech_sc.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "兵种与部队属性",
+      "summary": "近卫/射手/运输等兵种按等级配置战斗属性、治疗与维持消耗",
+      "sourceFile": "extracted/config/army.json",
+      "details": [
+        "army.json 170 行（150 行有 level，20 行可能为特殊单位），字段 army_type/arm/level/attack/defence/health/range/move/speed/load/upkeep/heal_time/heal_res/res_req/building_category",
+        "样例 107000 lv1：attack 9、defence 11、health 4、range 3、move 10、speed 15、load 15、crit 0、hit_rate 100、power 1",
+        "upkeep{category,cost} 表示维持消耗；cure_order/heal_time 对应治疗体系"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/army.json",
+        "extracted/config/i18narmy_sc.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "特化蚁与基因/细菌/真菌养成",
+      "summary": "多层养成系统，通过 functionopentime 在蚁后/建筑达到条件后解锁",
+      "sourceFile": "extracted/config/functionopentime.json",
+      "details": [
+        "functionopentime 19 行中文 func_name：特化蚁、细胞系统、地下洞穴挑战、水晶矿洞、基因系统、细菌系统、蚁后对决、真菌系统、3v3竞技场、野怪深度养成、T10 科技线、勋章、联盟活动、特化蚁异化、赛季建筑、兵种改造、特化蚁觉醒、地下迷宫",
+        "解锁条件多为 type=2 指定建筑 confId 达到等级（如地下洞穴挑战需 4093000，水晶矿洞需 4095000）",
+        "heroevo 系列表对应特化蚁进化挑战，heroevochallengefloor 400 层"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/functionopentime.json",
+        "extracted/config/heroevochallengefloor.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "地下洞穴 PVE",
+      "summary": "8 座洞穴塔，每座 100~160 层，按 need_score 门槛推进并给首通/日常奖励",
+      "sourceFile": "extracted/config/undergroundcavelv.json",
+      "details": [
+        "undergroundcave.json 8 行：id/is_open/base_level/total_floor/open_time/order/army[]/UnderCaveName/UnderMonsterModel/banner",
+        "undergroundcavelv.json 980 行，字段 id/tower_type/army_num/need_score/score_para/FirstPassRewards/daily_rewards",
+        "各塔层数：7601=160、7605=130、7602/7603/7606/7607=120、7604=110、7608=100",
+        "need_score 从数百递增到 6065488 量级"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/undergroundcave.json",
+        "extracted/config/undergroundcavelv.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "主线章节任务链与进度解锁",
+      "summary": "用章节→剧情任务→主线任务三级链驱动前期新手进程与系统解锁，是替代传统编号关卡的主线推进结构",
+      "sourceFile": "extracted/config/maintask.json",
+      "details": [
+        "chaptertask 15 章，每章 include 5~6 个 plottask，gift_new 给章节完成礼包（239301/239302/…/239458）",
+        "plottask.finish 决定单个剧情任务完成条件（type/para1/para2），gift 为完成奖励，164/164 可解析到 gift.json",
+        "maintask 434 条：unlock1 控制前置（{item,value}），order1 控制排序，finish 为完成条件，award 为奖励礼包；add/inside 区分任务分组/归属",
+        "i18ntask_sc.json 共 1,661 条，章节/剧情/主线任务名 100% 命中，可直接还原玩家可见文本",
+        "任务完成条件 type 与 tasktype.json（仅 302 个 id）缺少语义标签，具体条件类型未枚举；服务端下发/实时活动任务不在本地"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/chaptertask.json",
+        "extracted/config/plottask.json",
+        "extracted/config/maintask.json",
+        "extracted/config/i18ntask_sc.json",
+        "extracted/config/gift.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "世界地图野怪与采集",
+      "summary": "世界地图上分布野怪与资源采集点，击杀给经验、基础/额外/首杀奖励",
+      "sourceFile": "extracted/config/monster.json",
+      "details": [
+        "monster.json 507 行，字段 army[]/sub_type/type/is_rally/exp/rec_force/rewards[{type,confId,lower,upper}]/extra_rewards/first_reward/monster_model",
+        "样例 9400：level1、army[300200]、exp15、rec_force100、rewards 资源 2 的 2000~8000、extra_rewards 204235 的 12~22、首杀 204066×5",
+        "monstergroup 286 行、citymapexplore 208 行、explorearea 7 行构成地图编组与探索"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/monster.json",
+        "extracted/config/monstergroup.json",
+        "extracted/config/citymapexplore.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "联盟 / 赛季 / 竞技",
+      "summary": "联盟活动、赛季 NPC 挑战、3v3 竞技段位与赛季建筑",
+      "sourceFile": "extracted/config/seasonnpcchallenge.json",
+      "details": [
+        "seasonnpcchallenge 60 行：floor/next_floor/formation_challenge[{city,strength,queue}]/reward",
+        "arenastage 18 段位（青铜III 起），字段 rise_num/rise_stage/max_rank/reward_win/reward_lose/reward_daily/robot",
+        "activity 169 行、giftgroup 1672 行承载限时活动与礼包触发"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/seasonnpcchallenge.json",
+        "extracted/config/arenastage.json",
+        "extracted/config/activity.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "商城 / 支付 / 商业化",
+      "summary": "多币种多档位直购、月卡、礼包与道具商城，渠道支付由 StarUnion/37wan 体系承接",
+      "sourceFile": "extracted/config/pay.json",
+      "details": [
+        "pay.json 16 行 price_rmb 128/68/30/198，中国区 product_id_china com.jsjq.xxyg.*",
+        "monthcard.json 25 行：30 天 ¥168/¥128，7 天 ¥68/¥30/¥6",
+        "giftpack.json 2315 行，price_rmb 分布 68×548、128×441、30×430、648×285、328×267、6×115",
+        "itemshop 63 行、shoppurchase 5 行、tradingcentershop 1173 行、vipshop 16 行",
+        "37wan_config.xml gameid=1014003 partner=41；configServer.json 指向 com.star.union.planetant"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/pay.json",
+        "extracted/config/monthcard.json",
+        "extracted/config/giftpack.json",
+        "extracted/config/itemshop.json",
+        "apk_data/assets/37wan_config.xml"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "新手引导系统",
+      "summary": "配置驱动的分段遮罩引导，按事件推进并在 UI 控件路径上高亮/手指提示",
+      "sourceFile": "extracted/config/triggerguide.json",
+      "details": [
+        "guidemain 199 行：id/nextId/trigger{type,confId,param}/type/isInner/isMask/isNear/time/mainUIState",
+        "triggerguide 581 行：event/nextId/type/isInner/isMask/endPosId/uiName/maskData{type,shape,path}/handData[]/handType",
+        "样例链 1100002→1100003→1100004：MainUI 高亮 _mainRight._btnBuild → BuildSelectMain itemBuildIndex-1 → BuildSelect itemBuild-4040000（肉采集地）",
+        "另有 guidemainb、seasonfourthguide、seasonguide、seasoniiguide、seasonthirdguide、newbieboost"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/guidemain.json",
+        "extracted/config/triggerguide.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "本地化与文案（i18n）",
+      "summary": "19 张 i18n_*_sc 表把配置中的 *_Name_<id> 占位 key 映射为中文，是回填建筑/野怪/道具/UI/任务显示名的基础数据层",
+      "sourceFile": "extracted/config/i18nui_sc.json",
+      "details": [
+        "词条格式 {id, value}，如 Item_Name_200000 → 1,000肉；共 33,989 条，最大表 i18nui_sc 9,262 条、i18nitem_sc 4,092 条",
+        "建筑显示名：buildingcategory.name 形如 BuildingName_4000000，经 i18nbuilding_sc 解析 153/165 个分类（蚁后、进化菌丛、近卫蚁孵化地、肉/水采集地、菌铺等）",
+        "野怪显示名：monster.i18n_monster_name 共 93 个不同 key，全部命中 i18nworld_sc（瓢虫、青蛙、黑魔鬼竹节虫等），覆盖 507 行",
+        "道具名：item.json 自带中文 name 字段",
+        "科技名：经核实 techcategory.title 并非数字 ID，而是 TechName_<序号> 序列 key；据此映射 i18ntech_sc 后 368/368 分类、4,395/4,395 科技行全部有中文名（急速宰杀/急速切割/急速生产等）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/index.tsv",
+        "extracted/config/i18nbuilding_sc.json",
+        "extracted/config/i18nworld_sc.json",
+        "extracted/config/i18ntech_sc.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "小游戏与特殊挑战（迷宫/星级塔/吞噬）",
+      "summary": "除主 SLG 外还有三类轻量玩法：地下迷宫 100 层、英雄星级塔 200 层、吞噬小游戏 20 组，各有独立关卡表与奖励",
+      "sourceFile": "extracted/config/undermazefloor.json",
+      "details": [
+        "undermazefloor 100 行：id 77000001~77000100，template_random/monster_random 权重抽取模板与怪物，common_power 最高 10,238,000、boss_power 最高 10,853,000",
+        "herostartowerlevel 200 行：id 86021001 起，need_score 0→7,446,000 递增，reward_on_hook 为挂机奖励",
+        "swallowgamelevelgroup 20 组：i18n 名称全对齐（孵化准备…极限挑战），level_time 恒 -1，range 10×10、map_range 60/110，block_model 1~13，success_condition/rewards 见 levels[吞噬小游戏]",
+        "三者都只有层/组序号，没有官方玩家关号，因此 records 中 scope 标为 event:*",
+        "swallowgameelement 43 行 + swallowgameelementmod 513 行定义元素/怪物属性与模型；swallowgamebase 用 open_condition 控制开放（通关 140005 + 条件 5300303）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/config/undermazefloor.json",
+        "extracted/config/herostartowerlevel.json",
+        "extracted/config/swallowgamelevelgroup.json",
+        "level_data/records.jsonl",
+        "extracted/config/swallowgameelement.json",
+        "extracted/config/i18nfunction_sc.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "建筑升级表",
+      "summary": "所有建筑的等级、前置条件、资源消耗、建造时长与战力",
+      "sourceFile": "extracted/config/building.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "4000025",
+          "meaning": "建筑等级唯一 ID"
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "sample": "25",
+          "meaning": "建筑等级"
+        },
+        {
+          "name": "category",
+          "type": "int",
+          "sample": "4000000",
+          "meaning": "建筑类型，对应 buildingcategory.id"
+        },
+        {
+          "name": "duartion",
+          "type": "int",
+          "sample": "1893030",
+          "meaning": "建造/升级耗时（秒）"
+        },
+        {
+          "name": "res_req",
+          "type": "array",
+          "sample": "[{category:2,amount:60000000}]",
+          "meaning": "资源需求"
+        },
+        {
+          "name": "condition",
+          "type": "array",
+          "sample": "[{confId:4046000,level:24}]",
+          "meaning": "前置建筑等级"
+        },
+        {
+          "name": "power",
+          "type": "int",
+          "sample": "49417",
+          "meaning": "提供的战力"
+        }
+      ],
+      "samples": [
+        "{\"id\":4000025,\"level\":25,\"category\":4000000,\"duartion\":1893030,\"power\":49417,\"electricity_consume\":325,\"ant_num\":60,\"res_req\":[{\"category\":2,\"amount\":60000000},{\"category\":4,\"amount\":60000000},{\"category\":5,\"amount\":3800000},{\"category\":6,\"amount\":120000000},{\"category\":7,\"amount\":88000000},{\"category\":8,\"amount\":34000000}],\"condition\":[{\"confId\":4046000,\"level\":24},{\"confId\":4060000,\"level\":24}]}",
+        "{\"id\":4072010,\"level\":10,\"category\":4072000,\"duartion\":3895850,\"power\":24495,\"res_req\":[{\"category\":6,\"amount\":86000000},{\"category\":7,\"amount\":64000000},{\"category\":8,\"amount\":26000000}],\"condition\":[{\"confId\":4071000,\"level\":10}]}"
+      ],
+      "evidence": [
+        "extracted/config/building.json",
+        "extracted/config/buildingcategory.json",
+        "extracted/config/i18nbuilding_sc.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "资源建筑产出表",
+      "summary": "各资源建筑每级产出类别与数量",
+      "sourceFile": "extracted/config/resbuilding.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "4030001",
+          "meaning": "资源建筑等级 ID"
+        },
+        {
+          "name": "produce.category",
+          "type": "int",
+          "sample": "5",
+          "meaning": "产出的资源类别"
+        },
+        {
+          "name": "produce.amount",
+          "type": "int",
+          "sample": "3350",
+          "meaning": "单次/单位时间产出量"
+        }
+      ],
+      "samples": [
+        "{\"id\":4030001,\"produce\":{\"category\":5,\"amount\":3350}}"
+      ],
+      "evidence": [
+        "extracted/config/resbuilding.json",
+        "extracted/config/resources.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "兵种属性表",
+      "summary": "各兵种等级的攻防血、射程、速度、载重、维持与治疗参数",
+      "sourceFile": "extracted/config/army.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "107000",
+          "meaning": "兵种等级 ID"
+        },
+        {
+          "name": "army_type",
+          "type": "int",
+          "sample": "1",
+          "meaning": "兵种类型"
+        },
+        {
+          "name": "attack",
+          "type": "int",
+          "sample": "9",
+          "meaning": "攻击"
+        },
+        {
+          "name": "defence",
+          "type": "int",
+          "sample": "11",
+          "meaning": "防御"
+        },
+        {
+          "name": "health",
+          "type": "int",
+          "sample": "4",
+          "meaning": "生命"
+        },
+        {
+          "name": "range",
+          "type": "int",
+          "sample": "3",
+          "meaning": "射程"
+        },
+        {
+          "name": "speed",
+          "type": "int",
+          "sample": "15",
+          "meaning": "速度"
+        },
+        {
+          "name": "load",
+          "type": "int",
+          "sample": "15",
+          "meaning": "载重"
+        },
+        {
+          "name": "upkeep",
+          "type": "object",
+          "sample": "{category:2,cost:0}",
+          "meaning": "维持消耗"
+        }
+      ],
+      "samples": [
+        "{\"id\":107000,\"army_type\":1,\"arm\":1,\"level\":1,\"attack\":9,\"defence\":11,\"health\":4,\"range\":3,\"move\":10,\"time\":5,\"speed\":15,\"load\":15,\"crit\":0,\"hit_rate\":100,\"power\":1,\"building_category\":4020000,\"res_req\":[{\"category\":2,\"amount\":14}]}"
+      ],
+      "evidence": [
+        "extracted/config/army.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "科技表",
+      "summary": "科技树等级、前置建筑、资源与时间消耗、buff 效果；4395 行 duration 范围 80~2,623,035 秒，全部可回填中文科技名",
+      "sourceFile": "extracted/config/tech.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "7000101",
+          "meaning": "科技等级 ID"
+        },
+        {
+          "name": "category",
+          "type": "int",
+          "sample": "7000100",
+          "meaning": "科技线"
+        },
+        {
+          "name": "building_condition",
+          "type": "array",
+          "sample": "[{confId:4003000,level:1}]",
+          "meaning": "建筑前置"
+        },
+        {
+          "name": "duration",
+          "type": "int",
+          "sample": "100",
+          "meaning": "研究耗时（秒）"
+        },
+        {
+          "name": "buff_ids/buff_values",
+          "type": "array",
+          "sample": "[17202]/[1]",
+          "meaning": "加成 ID 与数值"
+        },
+        {
+          "name": "category->title",
+          "type": "string",
+          "sample": "7000100 → TechName_1 → 急速宰杀",
+          "meaning": "科技线经 techcategory.title 序列 key 到 i18ntech_sc 的中文名映射"
+        },
+        {
+          "name": "duration",
+          "type": "int",
+          "sample": "80 ~ 2623035",
+          "meaning": "研究耗时秒数；>86400 秒的 2,554 行"
+        }
+      ],
+      "samples": [
+        "{\"id\":7000101,\"category\":7000100,\"lv\":1,\"max_lv\":1,\"building_condition\":[{\"confId\":4003000,\"level\":1}],\"res_req\":[{\"category\":8,\"amount\":800}],\"duration\":100,\"buff_ids\":[17202],\"buff_values\":[1],\"power\":2,\"priority\":1}",
+        "{\"id\":7000100,\"title\":\"TechName_1\",\"tab\":1,\"max_lv\":1,\"relation\":[7000200],\"tech_list\":[7000101],\"i18n\":\"急速宰杀\"}",
+        "{\"id\":7000200,\"title\":\"TechName_2\",\"i18n\":\"急速切割\"}",
+        "{\"id\":7000300,\"title\":\"TechName_3\",\"i18n\":\"急速挖掘\"}"
+      ],
+      "evidence": [
+        "extracted/config/tech.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "充值档位表",
+      "summary": "16 个直购商品档位，国内计费 ID 为 com.jsjq.xxyg.{30,68,128,198}lb；另有美元/台币/越南盾多区域定价",
+      "sourceFile": "extracted/config/pay.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "price_rmb",
+          "type": "int",
+          "sample": "128",
+          "meaning": "人民币价格"
+        },
+        {
+          "name": "product_id_china",
+          "type": "string",
+          "sample": "com.jsjq.xxyg.128lb",
+          "meaning": "中国区计费 ID"
+        },
+        {
+          "name": "get_des",
+          "type": "string",
+          "sample": "ThemePassCheck",
+          "meaning": "对应系统标识"
+        }
+      ],
+      "samples": [
+        "{\"id\":10200001,\"price\":19.99,\"price_rmb\":128,\"product_id_china\":\"com.jsjq.xxyg.128lb\",\"get_des\":\"ThemePassCheck\"}",
+        "{\"price_rmb\":68,\"product_id_china\":\"com.jsjq.xxyg.68lb\",\"get_des\":\"UndergroundKingdom\"}",
+        "{\"id\":10200002,\"price\":9.99,\"price_rmb\":68,\"ant_coin\":68,\"product_id_china\":\"com.jsjq.xxyg.68lb\",\"get_des\":\"UndergroundKingdom\"}"
+      ],
+      "evidence": [
+        "extracted/config/pay.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "月卡表",
+      "summary": "30 天月卡与 7 天周卡的价格、每日奖励与 buff",
+      "sourceFile": "extracted/config/monthcard.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "days",
+          "type": "int",
+          "sample": "30",
+          "meaning": "有效天数"
+        },
+        {
+          "name": "price_rmb",
+          "type": "int",
+          "sample": "168",
+          "meaning": "人民币价格"
+        },
+        {
+          "name": "buff_id/buff_value",
+          "type": "int",
+          "sample": "未在样例行",
+          "meaning": "特权加成"
+        },
+        {
+          "name": "product_id_china",
+          "type": "string",
+          "sample": "com.sy.xxyiguo.13",
+          "meaning": "中国区计费 ID"
+        }
+      ],
+      "samples": [
+        "{\"id\":10303000,\"category\":1,\"days\":30,\"price_rmb\":168,\"card_name\":\"WelfareCenter_name_106\",\"product_id_china\":\"com.sy.xxyiguo.13\"}",
+        "{\"days\":7,\"price_rmb\":68,\"product_id_china\":\"com.sy.xxyiguo.10\"}"
+      ],
+      "evidence": [
+        "extracted/config/monthcard.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "礼包表",
+      "summary": "按 group 组织的限时/成长礼包，共 2,315 行；price_rmb 分布 68×548、128×441、30×430、648×285、328×267、6×115、198×28，另有 144 行无价（活动/条件包）、45 行为 0（免费）；product_id 前缀 com.allstarunion.planetant×2,126",
+      "sourceFile": "extracted/config/giftpack.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id/group_id",
+          "type": "int",
+          "sample": "2900101/29001",
+          "meaning": "礼包与分组"
+        },
+        {
+          "name": "value",
+          "type": "float",
+          "sample": "0.99",
+          "meaning": "美元定价"
+        },
+        {
+          "name": "price_rmb",
+          "type": "int",
+          "sample": "6",
+          "meaning": "人民币定价"
+        },
+        {
+          "name": "product_id_china",
+          "type": "string",
+          "sample": "com.sy.xxyiguo.8",
+          "meaning": "中国区计费 ID"
+        },
+        {
+          "name": "limits_name",
+          "type": "string",
+          "sample": "gift_limits_hotsale",
+          "meaning": "限购标签"
+        }
+      ],
+      "samples": [
+        "{\"id\":2900101,\"group_id\":29001,\"gift_name\":\"gift_name_2900101\",\"price_rmb\":6,\"product_id\":\"com.allstarunion.planetant.pack1\",\"limits_name\":\"gift_limits_hotsale\"}",
+        "{\"id\":2900102,\"price_rmb\":30,\"product_id\":\"com.allstarunion.planetant.pack2\"}",
+        "price_rmb 计数：68:548, 128:441, 30:430, 648:285, 328:267, 6:115, 198:28, 0:45, null:144"
+      ],
+      "evidence": [
+        "extracted/config/giftpack.json",
+        "extracted/config/giftgroup.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "道具表",
+      "summary": "道具名称、图标、类型、使用方式与排序；含加速与保护类道具",
+      "sourceFile": "extracted/config/item.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "200084",
+          "meaning": "道具 ID"
+        },
+        {
+          "name": "name",
+          "type": "array<string>",
+          "sample": "[\"神秘资源包\"]",
+          "meaning": "内置名称"
+        },
+        {
+          "name": "item_name/item_desc",
+          "type": "string",
+          "sample": "Item_Name_200084",
+          "meaning": "i18n 键"
+        },
+        {
+          "name": "type/category",
+          "type": "int",
+          "sample": "5/4",
+          "meaning": "道具分类"
+        },
+        {
+          "name": "use/useall",
+          "type": "int",
+          "sample": "1/2",
+          "meaning": "使用方式"
+        }
+      ],
+      "samples": [
+        "{\"id\":200084,\"name\":[\"神秘资源包\"],\"item_name\":\"Item_Name_200084\",\"package\":\"texture/itemicon\",\"icon\":\"item_200084\",\"type\":5,\"value\":239451,\"category\":4}"
+      ],
+      "evidence": [
+        "extracted/config/item.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "本地化词条表（i18n）",
+      "summary": "19 张 i18n*_sc 表，把配置中的占位 key 转成中文；是建筑/野怪/道具/UI/任务显示名的唯一来源",
+      "sourceFile": "extracted/config/i18nui_sc.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "sample": "Item_Name_200000",
+          "meaning": "词条 key，前缀编码所属域"
+        },
+        {
+          "name": "value",
+          "type": "string",
+          "sample": "1,000肉",
+          "meaning": "简体中文文案，可含数字格式化"
+        }
+      ],
+      "samples": [
+        "{\"id\":\"Item_Name_200000\",\"value\":\"1,000肉\"}",
+        "{\"id\":\"TechCategoryName_1\",\"value\":\"急速生产\"}",
+        "{\"id\":\"monster_white1\",\"value\":\"白蚁\"}"
+      ],
+      "evidence": [
+        "extracted/config/index.tsv",
+        "extracted/config/i18nitem_sc.json",
+        "extracted/config/i18nbuilding_sc.json",
+        "extracted/scripts/lua53.py"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "野怪掉落表",
+      "summary": "monster.rewards 是 [type, confId, lower, upper] 区间奖励；extra_rewards 为额外掉落，first_reward 为首杀奖励",
+      "sourceFile": "extracted/config/monster.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "rewards[].type",
+          "type": "int",
+          "sample": "1",
+          "meaning": "奖励类型（1/2 两类，具体语义未在本地枚举）"
+        },
+        {
+          "name": "rewards[].confId",
+          "type": "int",
+          "sample": "2",
+          "meaning": "奖励道具/资源 ID"
+        },
+        {
+          "name": "rewards[].lower",
+          "type": "int",
+          "sample": "2000",
+          "meaning": "数量下限"
+        },
+        {
+          "name": "rewards[].upper",
+          "type": "int",
+          "sample": "8000",
+          "meaning": "数量上限"
+        }
+      ],
+      "samples": [
+        "{\"id\":9400,\"level\":1,\"rewards\":[{\"type\":1,\"confId\":2,\"lower\":2000,\"upper\":8000}]}",
+        "全部 507 行共 1,612 个 rewards 条目：type=1 有 260 个、type=2 有 1,352 个；lower 范围 1~142,400"
+      ],
+      "evidence": [
+        "extracted/config/monster.json",
+        "extracted/config/i18nworld_sc.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "吞噬小游戏元素/怪物属性表",
+      "summary": "定义吞噬小游戏中可被吞噬元素与敌方怪物的基础分、攻击、血量、清除数与奖励；model 表另给模型缩放、碰撞体与移动速度",
+      "sourceFile": "extracted/config/swallowgameelement.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "100001",
+          "meaning": "元素/怪物配置 id"
+        },
+        {
+          "name": "type",
+          "type": "int",
+          "sample": "1/2/3/4/5",
+          "meaning": "元素类别（43 行中 type2×22、type3×10、type5×9、type1×1、type4×1；枚举语义本地未给出）"
+        },
+        {
+          "name": "score_start",
+          "type": "int",
+          "sample": "1/2/3/10",
+          "meaning": "初始分值"
+        },
+        {
+          "name": "attack",
+          "type": "int",
+          "sample": "1 / -1",
+          "meaning": "攻击力，-1 表示不适用"
+        },
+        {
+          "name": "blood",
+          "type": "int",
+          "sample": "5 / -1",
+          "meaning": "血量，-1 表示不适用"
+        },
+        {
+          "name": "clear_num",
+          "type": "int",
+          "sample": "1",
+          "meaning": "清除所需次数（type3 元素）"
+        },
+        {
+          "name": "score_range",
+          "type": "float",
+          "sample": "1 / 1.5",
+          "meaning": "得分范围系数"
+        },
+        {
+          "name": "score_speed",
+          "type": "float",
+          "sample": "0.1/0.2",
+          "meaning": "得分速度系数"
+        },
+        {
+          "name": "reward",
+          "type": "array",
+          "sample": "[{\"confId\":100002,\"amountMin\":10,\"amountMax\":30}]",
+          "meaning": "击杀/清除掉落区间"
+        },
+        {
+          "name": "model_resources",
+          "type": "string",
+          "sample": "cn_swallowant_model_01",
+          "meaning": "swallowgameelementmod 中的模型资源名"
+        }
+      ],
+      "samples": [
+        "{\"id\": 100001, \"type\": 1, \"score_start\": 1, \"attack\": 1, \"blood\": -1}",
+        "{\"id\": 100005, \"type\": 4, \"score_start\": 10, \"attack\": -1, \"blood\": 5}",
+        "{\"id\": 100006, \"type\": 5, \"score_start\": 0, \"attack\": -1, \"blood\": 5, \"reward\": [{\"confId\": 100002, \"amountMin\": 10, \"amountMax\": 30}], \"score_range\": 1.5, \"score_speed\": 0.2}",
+        "{\"id\": 1001, \"model_resources\": \"cn_swallowant_model_01\", \"model_scaling\": 1.03, \"collision_volume\": 0.63, \"move_speed\": 1, \"nomal_speed\": 3, \"attack_speed\": 1}"
+      ],
+      "evidence": [
+        "extracted/config/swallowgameelement.json",
+        "extracted/config/swallowgameelementmod.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "章节/剧情/主线任务链表",
+      "summary": "定义主线章节包含关系、剧情任务与主线任务的完成条件、排序与奖励礼包；是主线进度的实际配置来源",
+      "sourceFile": "extracted/config/maintask.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "5300101 / 5200620",
+          "meaning": "任务唯一 id（plottask 5,300,101 起；maintask 5,200,6xx 起）"
+        },
+        {
+          "name": "include",
+          "type": "array<int>",
+          "sample": "[5300101,5300102,...]",
+          "meaning": "chaptertask 引用的剧情任务 id 列表"
+        },
+        {
+          "name": "finish",
+          "type": "object",
+          "sample": "{\"type\":101,\"para1\":4000000,\"para2\":7}",
+          "meaning": "完成条件：type 为条件类型（语义未枚举），para1 为目标对象 id，para2 为目标等级/数量"
+        },
+        {
+          "name": "unlock1",
+          "type": "object",
+          "sample": "{\"item\":1,\"value\":4000006}",
+          "meaning": "maintask 前置解锁条件引用"
+        },
+        {
+          "name": "order1",
+          "type": "int",
+          "sample": "1001~10061",
+          "meaning": "主线任务排序号（非玩家关号）"
+        },
+        {
+          "name": "award / gift",
+          "type": "int",
+          "sample": "239701 / 239308",
+          "meaning": "奖励礼包 id，指向 gift.json"
+        },
+        {
+          "name": "add",
+          "type": "int",
+          "sample": "1/2",
+          "meaning": "任务分组标记（368 条 add=2、66 条 add=1）"
+        },
+        {
+          "name": "inside",
+          "type": "int",
+          "sample": "1/2",
+          "meaning": "任务归属标记（370 条 inside=1、64 条 inside=2）"
+        },
+        {
+          "name": "plot_task/main_task",
+          "type": "string",
+          "sample": "main_task_5200620",
+          "meaning": "i18n key，经 i18ntask_sc.json 还原中文任务名"
+        }
+      ],
+      "samples": [
+        "{\"id\": 1, \"include\": [5300101, 5300102, 5300103, 5300104, 5300105], \"gift_new\": 239301, \"trans_title\": \"trans_title_1\"}",
+        "{\"id\": 5300101, \"add\": 1, \"finish\": {\"type\": 701, \"para1\": 0, \"para2\": 6}, \"plot_task\": \"plot_task_5300101\", \"gift\": 239308}",
+        "{\"id\": 5200620, \"unlock1\": {\"item\": 1, \"value\": 4000006}, \"finish\": {\"type\": 101, \"para1\": 4000000, \"para2\": 7}, \"main_task\": \"main_task_5200620\", \"award\": 239701, \"order1\": 1001, \"add\": 2, \"inside\": 1}",
+        "{\"id\": 239701, \"res\": [{\"category\": 2, \"amount\": 5000}, {\"category\": 4, \"amount\": 5000}, {\"category\": 6, \"amount\": 6000}, {\"category\": 7, \"amount\": 4000}, {\"category\": 8, \"amount\": 32000}], \"items\": [{\"confId\": 202001, \"amount\": 10}]}"
+      ],
+      "evidence": [
+        "extracted/config/chaptertask.json",
+        "extracted/config/plottask.json",
+        "extracted/config/maintask.json",
+        "extracted/config/i18ntask_sc.json",
+        "extracted/config/gift.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "levels": [
+    {
+      "name": "地下洞穴 8 塔 980 层",
+      "summary": "游戏主要 PVE 爬层内容，按塔类型与 need_score 推进，给首通与日常奖励",
+      "sourceFile": "extracted/config/undergroundcavelv.json",
+      "details": [
+        "undergroundcave 8 行定义 8 座塔：total_floor 分别为 160/130/120/120/120/120/110/100，合计 980 层",
+        "每层字段 tower_type、army_num、need_score、score_para、FirstPassRewards、daily_rewards",
+        "undergroundcave.army[] 给出该塔敌方编队，如 76010000 为 [107008,107208,107108,107008,107208,107108]",
+        "need_score 从 7920 起递增到 6065488；army_num 为敌方兵力规模"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":76010001,\"tower_type\":76010000,\"army_num\":20000,\"need_score\":7920,\"score_para\":500,\"FirstPassRewards\":30,\"daily_rewards\":3}",
+        "{\"id\":76010000,\"is_open\":true,\"base_level\":10,\"total_floor\":160,\"order\":4,\"army\":[107008,107208,107108,107008,107208,107108],\"UnderMonsterModel\":\"centipede_anim\"}"
+      ],
+      "evidence": [
+        "extracted/config/undergroundcave.json",
+        "extracted/config/undergroundcavelv.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "特化蚁进化挑战 4 塔 400 层",
+      "summary": "4 条挑战线各 100 层，指定 monster_id 与 score 门槛，给 rewards",
+      "sourceFile": "extracted/config/heroevochallengefloor.json",
+      "details": [
+        "heroevochallenge 4 行定义塔；heroevochallengefloor 400 行 = 4×100",
+        "字段 tower_type/monster_id/score/score_para/rewards[{type,confId,amount}]",
+        "样例首层 score 2000，奖励 type2 confId204535 ×10"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":941100001,\"tower_type\":941100000,\"monster_id\":3001,\"score\":2000,\"score_para\":500,\"rewards\":[{\"type\":2,\"confId\":204535,\"amount\":10}]}"
+      ],
+      "evidence": [
+        "extracted/config/heroevochallengefloor.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "世界野怪 507 种",
+      "summary": "世界地图 PVE 单位配置，含编队、等级、经验、掉落与首杀奖励",
+      "sourceFile": "extracted/config/monster.json",
+      "details": [
+        "monster.json 507 行；monstergroup 286 行做地图编组",
+        "字段 army[]、sub_type、type、is_rally、exp、rec_force、rewards、extra_rewards、first_reward、monster_model",
+        "rewards 用 lower/upper 表示数量区间，适合做掉落分布统计"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":9400,\"idx\":1,\"level\":1,\"army\":[300200],\"sub_type\":2,\"type\":1,\"exp\":15,\"rec_force\":100,\"rewards\":[{\"type\":1,\"confId\":2,\"lower\":2000,\"upper\":8000}],\"first_reward\":[{\"type\":2,\"confId\":204066,\"lower\":5}]}"
+      ],
+      "evidence": [
+        "extracted/config/monster.json",
+        "extracted/config/monstergroup.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "赛季 NPC 挑战 60 层",
+      "summary": "赛季限时 PVE 层，按 floor/next_floor 串联，含多城编队与奖励",
+      "sourceFile": "extracted/config/seasonnpcchallenge.json",
+      "details": [
+        "60 行，字段 id/floor/next_floor/name/battle_background_banner/formation_challenge[{city,strength,queue}]/reward",
+        "样例 100001：floor1→100002，四支 city211001 强度 1~4 的编队"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":100001,\"floor\":1,\"next_floor\":100002,\"name\":\"Strength_name_1\",\"formation_challenge\":[{\"city\":211001,\"strength\":1,\"queue\":1},{\"city\":211001,\"strength\":2,\"queue\":1},{\"city\":211001,\"strength\":3,\"queue\":1},{\"city\":211001,\"strength\":4,\"queue\":1}],\"reward\":60164201}"
+      ],
+      "evidence": [
+        "extracted/config/seasonnpcchallenge.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "竞技场段位 18 档",
+      "summary": "3v3 竞技段位、升降条件、胜负与每日奖励、机器人配置",
+      "sourceFile": "extracted/config/arenastage.json",
+      "details": [
+        "18 行，从青铜III 开始；字段 name/rise_num/rise_stage/max_rank/reward_win/reward_lose/reward_daily/robot",
+        "样例 101 青铜III：rise_num 200 晋升 102，max_rank 3000"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":101,\"name\":\"青铜III\",\"rise_num\":200,\"rise_stage\":102,\"max_rank\":3000,\"reward_win\":[{\"rank\":50000,\"rewardId\":60120006}],\"reward_daily\":[{\"rank\":200,\"rewardId\":60110044}]}"
+      ],
+      "evidence": [
+        "extracted/config/arenastage.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "主线章节任务链（15 章 / 82 章内剧情任务 / 434 主线任务）",
+      "summary": "游戏没有 chapter/stage 式编号关卡，主线由 15 个章节串联 82 个剧情任务，另有 434 条主线任务驱动蚁后等级、建造与系统解锁；三者均以任务名+完成条件+奖励礼包表达，无玩家关号字段。",
+      "sourceFile": "extracted/config/chaptertask.json",
+      "details": [
+        "chaptertask 15 章：id 1~11、101~104；每章 include 5~6 个 plottask，共 82 个章内剧情任务；章节名经 i18ntask_sc 全命中（新生群落/地下威胁/食物危机/进化变异/战斗准备/地上世界/帝国初建/整装待发/团结协作/增强战力/繁荣之路/全新世界/群落发展/探索准备/征服之路）",
+        "plottask 164 行（id 5300101~15301506）：82 行被章节 include 引用，另 82 行未被任何章节引用（scope 记为 unknown:plot）；finish.type 以 101 为主（65 条），另有 702/929/942/106/111 等；每行 gift 均可在 gift.json 解析",
+        "maintask 434 行：unlock1={item,value} + finish={type,para1,para2}，order1 1001~10061，award 指向 gift.json（434/434 可解析），add=2 有 368 条 / add=1 有 66 条，inside=1 有 370 条 / inside=2 有 64 条",
+        "任务名 434/434 命中 i18n（如 main_task_5200620=蚁后等级升至7级、main_task_5200610=建造特殊行军集结地）；plot_task 164/164 命中（如 plot_task_5300101=开拓巢穴）",
+        "tasktype.json 仅含 302 行 id（无官方描述）；本轮基于 maintask/plottask 中文任务名与 para1/para2 模式归纳出 54 种 finish.type 语义（如 102=建造指定建筑、127=行军队列战力阈值、165=狩猎指定等级野怪、208=特化蚁升至指定等级），覆盖 598 行任务，产物见 extracted/analysis/task_type_inference.json；该映射为推断，非官方枚举",
+        "本轮已将 15 章 + 82 章内剧情任务 + 434 主线任务 + 82 未归属剧情任务写入 level_data/records.jsonl（scope 分别为 mainline:chapter / mainline:chapter_N / mainline:maintask / unknown:plot），全部 player_level_number=null"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\": 1, \"include\": [5300101, 5300102, 5300103, 5300104, 5300105], \"gift_new\": 239301, \"trans_title\": \"trans_title_1\", \"name\": \"新生群落\"}",
+        "{\"id\": 5300101, \"finish\": {\"type\": 701, \"para1\": 0, \"para2\": 6}, \"plot_task\": \"plot_task_5300101\", \"name\": \"开拓巢穴\", \"gift\": 239308}",
+        "{\"id\": 5200620, \"unlock1\": {\"item\": 1, \"value\": 4000006}, \"finish\": {\"type\": 101, \"para1\": 4000000, \"para2\": 7}, \"main_task\": \"main_task_5200620\", \"name\": \"蚁后等级升至7级\", \"award\": 239701, \"order1\": 1001, \"add\": 2, \"inside\": 1}",
+        "{\"id\": 239701, \"res\": [{\"category\": 2, \"amount\": 5000}, {\"category\": 4, \"amount\": 5000}, {\"category\": 8, \"amount\": 32000}], \"items\": [{\"confId\": 202001, \"amount\": 10}]}"
+      ],
+      "evidence": [
+        "extracted/config/chaptertask.json",
+        "extracted/config/plottask.json",
+        "extracted/config/maintask.json",
+        "extracted/config/i18ntask_sc.json",
+        "extracted/config/gift.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "地下迷宫 100 层",
+      "summary": "限时/活动式迷宫 PVE，按层抽模板与怪物组合，有普通与 BOSS 战力门槛",
+      "sourceFile": "extracted/config/undermazefloor.json",
+      "details": [
+        "100 行，id 77000001~77000100",
+        "template_random[{templateId,weight}] 与 monster_random[{monsterId,weight}] 做随机编队",
+        "common_power 1,392,000~10,238,000、boss_power 最高 10,853,000",
+        "rewards/random_reward/reward_show 三层奖励字段"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":77000001,\"template_random\":[{\"templateId\":1001,\"weight\":100}],\"monster_random\":[{\"monsterId\":77021061,\"weight\":100}],\"common_power\":1392000}"
+      ],
+      "evidence": [
+        "extracted/config/undermazefloor.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "英雄星级塔 200 层",
+      "summary": "按 need_score 门槛逐层挑战，带挂机奖励，是英雄养成的验证与产出场景",
+      "sourceFile": "extracted/config/herostartowerlevel.json",
+      "details": [
+        "200 行，id 86021001 起",
+        "need_score 从 0 递增到 7,446,000",
+        "monster_name/monster_model/monster_banner/monster_avatar 指定守关怪物外观",
+        "reward_on_hook 为挂机/层奖励"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":86021001,\"level\":1,\"monster_name\":\"TowerMonsterName_09\",\"need_score\":0,\"score_para\":500,\"reward_on_hook\":35}"
+      ],
+      "evidence": [
+        "extracted/config/herostartowerlevel.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "吞噬小游戏 20 组",
+      "summary": "吞噬小游戏共 20 关（id 140001~140020），单局为 10×10 可吞噬区域、地图 60×60 或 110×110；1~5 关为新手引导关，6~20 关按 param 3~10 递进解锁。20 关 i18n 名称已全部对齐（孵化准备 … 极限挑战）。 所有关卡 level_time=-1（不限时），成功条件由 success_condition 数组给定；每关固定 2 条 rewards（type=2，confId+amount）。1~5 关 score_ratio=1，6 关起跳为 300，配合 block_model 6~12 各 2 次、13 最后一关，形成难度阶梯。",
+      "sourceFile": "extracted/config/swallowgamelevelgroup.json",
+      "details": [
+        "20 关，id 140001~140020；level_name 经 i18nfunction_sc.json 全部命中：01 孵化准备 / 02 探查建筑 / 03 巢穴安全 / 04 劲敌出现 / 05 清除威胁 / 06 飞速建设 / 07 捕获猎物 / 08 能力比拼 / 09 辛勤劳作 / 10 斗智斗勇 / 11 未知恐惧 / 12 囤积资源 / 13 奋勇作战 / 14 抵抗天敌 / 15 稳步发展 / 16 刺探敌情 / 17 胜者为王 / 18 神秘洞穴 / 19 勇气试炼 / 20 极限挑战",
+        "level_time 恒为 -1（无时间限制）；guide_key=1 出现在 140001~140005（前 5 关带引导），140006 起为 0",
+        "range 恒为 10×10；map_range 前 5 关 60×60、140006 起 110×110；search_condition 前 19 关 50，第 20 关 25",
+        "block_model 1~5 各 1 关、6~12 各 2 关、13 仅第 20 关；score_ratio/monster_score_ratio 前 5 关为 1，140006 起为 300（140020 的 monster_score_ratio=0.9）",
+        "success_condition 条件条数 15×type4 + 5×type2 + 3×type1 + 2×type5（按条件条计）；type4 的 successCondition 为 2/3、num 为该类型击杀/收集目标数（10~125 递增），type1 为 {successCondition:0, num:120/180}，type5 为 {successCondition:100038/100039, num:1}；type 枚举语义未在本地配置给出",
+        "unlock_condition：140006 起为 {type:1, unlockCondition:4000000, param:3..10}，每 2 关升一档 param，即按进度段解锁",
+        "每关固定 2 条 rewards，均为 {type:2, confId: 200002/200017/200039/200064/202001/202009/202025/202027/202033/202039/204039, amount:3~50}",
+        "swallowgameelement（43 行）定义元素/怪物 type 1/2/3/4/5，含 score_start/attack/blood/clear_num/score_range/score_speed/reward；swallowgameelementmod（513 行）给模型 id 对应 model_resources/缩放/碰撞体/移动速度",
+        "swallowgamebase（1 行）的 open_condition=[{type:1,condition:140005},{type:2,condition:5300303}] 说明通关 140005 且满足 5300303 条件后开放，switch=true"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\": 140001, \"level_name\": \"cn_swallowgame_level_01\", \"level_time\": -1, \"guide_key\": 1, \"success_condition\": [{\"type\": 4, \"successCondition\": 3, \"num\": 20}, {\"type\": 2, \"successCondition\": 100024, \"num\": 1}], \"rewards\": [{\"type\": 2, \"confId\": 202001, \"amount\": 15}, {\"type\": 2, \"confId\": 200002, \"amount\": 10}], \"range\": {\"length\": 10, \"width\": 10}, \"map_range\": {\"length\": 60, \"width\": 60}, \"block_model\": 1, \"search_condition\": 50, \"score_ratio\": 1, \"monster_score_ratio\": 1}",
+        "{\"id\": 140006, \"level_name\": \"cn_swallowgame_level_06\", \"level_time\": -1, \"guide_key\": 0, \"success_condition\": [{\"type\": 4, \"successCondition\": 3, \"num\": 50}], \"rewards\": [{\"type\": 2, \"confId\": 204039, \"amount\": 10}, {\"type\": 2, \"confId\": 200002, \"amount\": 10}], \"range\": {\"length\": 10, \"width\": 10}, \"map_range\": {\"length\": 110, \"width\": 110}, \"block_model\": 6, \"search_condition\": 50, \"score_ratio\": 300, \"monster_score_ratio\": 300, \"unlock_condition\": {\"type\": 1, \"unlockCondition\": 4000000, \"param\": 3}}",
+        "{\"id\": 140010, \"level_name\": \"cn_swallowgame_level_10\", \"level_time\": -1, \"guide_key\": 0, \"success_condition\": [{\"type\": 4, \"successCondition\": 3, \"num\": 75}], \"rewards\": [{\"type\": 2, \"confId\": 204039, \"amount\": 15}, {\"type\": 2, \"confId\": 202027, \"amount\": 3}], \"range\": {\"length\": 10, \"width\": 10}, \"map_range\": {\"length\": 110, \"width\": 110}, \"block_model\": 8, \"search_condition\": 50, \"score_ratio\": 300, \"monster_score_ratio\": 300, \"unlock_condition\": {\"type\": 1, \"unlockCondition\": 4000000, \"param\": 5}}",
+        "{\"id\": 140020, \"level_name\": \"cn_swallowgame_level_20\", \"level_time\": -1, \"guide_key\": 0, \"success_condition\": [{\"type\": 5, \"successCondition\": 100039, \"num\": 1}], \"rewards\": [{\"type\": 2, \"confId\": 204039, \"amount\": 15}, {\"type\": 2, \"confId\": 202027, \"amount\": 3}], \"range\": {\"length\": 10, \"width\": 10}, \"map_range\": {\"length\": 110, \"width\": 110}, \"block_model\": 13, \"search_condition\": 25, \"score_ratio\": 300, \"monster_score_ratio\": 0.9, \"unlock_condition\": {\"type\": 1, \"unlockCondition\": 4000000, \"param\": 10}}"
+      ],
+      "evidence": [
+        "extracted/config/swallowgamelevelgroup.json",
+        "extracted/config/i18nfunction_sc.json",
+        "extracted/config/swallowgameelement.json",
+        "extracted/config/swallowgameelementmod.json",
+        "extracted/config/swallowgamebase.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 heroevochallenge_941100000",
+      "summary": "本地解析出 100 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=100",
+        "目标字段：缺失 100 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 heroevochallenge_941200000",
+      "summary": "本地解析出 100 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=100",
+        "目标字段：缺失 100 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 heroevochallenge_941300000",
+      "summary": "本地解析出 100 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=100",
+        "目标字段：缺失 100 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 heroevochallenge_941400000",
+      "summary": "本地解析出 100 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=100",
+        "目标字段：缺失 100 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 herostartower",
+      "summary": "本地解析出 200 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=200",
+        "目标字段：缺失 200 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 seasonnpcchallenge",
+      "summary": "本地解析出 60 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=60",
+        "目标字段：缺失 60 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 swallowgame",
+      "summary": "本地解析出 20 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=20",
+        "目标字段：缺失 20 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76010000",
+      "summary": "本地解析出 160 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=160",
+        "目标字段：缺失 160 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76020000",
+      "summary": "本地解析出 120 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=120",
+        "目标字段：缺失 120 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76030000",
+      "summary": "本地解析出 120 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=120",
+        "目标字段：缺失 120 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76040000",
+      "summary": "本地解析出 110 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=110",
+        "目标字段：缺失 110 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76050000",
+      "summary": "本地解析出 130 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=130",
+        "目标字段：缺失 130 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76060000",
+      "summary": "本地解析出 120 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=120",
+        "目标字段：缺失 120 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76070000",
+      "summary": "本地解析出 120 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=120",
+        "目标字段：缺失 120 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundcave_76080000",
+      "summary": "本地解析出 100 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=100",
+        "目标字段：缺失 100 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 undergroundmaze",
+      "summary": "本地解析出 100 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=100",
+        "目标字段：缺失 100 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter",
+      "summary": "本地解析出 15 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=15",
+        "目标字段：缺失 15 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_1",
+      "summary": "本地解析出 5 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=5",
+        "目标字段：缺失 5 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_10",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_101",
+      "summary": "本地解析出 4 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=4",
+        "目标字段：缺失 4 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_102",
+      "summary": "本地解析出 4 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=4",
+        "目标字段：缺失 4 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_103",
+      "summary": "本地解析出 5 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=5",
+        "目标字段：缺失 5 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_104",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_11",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_2",
+      "summary": "本地解析出 5 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=5",
+        "目标字段：缺失 5 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_3",
+      "summary": "本地解析出 5 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=5",
+        "目标字段：缺失 5 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_4",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_5",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_6",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_7",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_8",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:chapter_9",
+      "summary": "本地解析出 6 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=6",
+        "目标字段：缺失 6 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：mainline:maintask",
+      "summary": "本地解析出 434 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=434",
+        "目标字段：缺失 434 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：unknown:plot",
+      "summary": "本地解析出 82 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=82",
+        "目标字段：缺失 82 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 2373 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "artAssets": [
+    {
+      "name": "UI 图集与 FairyGUI 包",
+      "summary": "UI 资源以 atlas + _fui 成对打包，覆盖活动、联盟、军队、图标、战斗等界面",
+      "sourceFile": "apk_data/assets/Bundles/Android/ui/",
+      "details": [
+        "ui/ 下存在 activity_atlas/activity_fui、alliance_atlas/alliance_fui、army_atlas/army_fui、armyicon_atlas 等数百个 bundle",
+        "atlas 提供贴图图集，_fui 提供 FairyGUI 界面描述与依赖",
+        "bundle 头部仅有 1~19 字节前缀垃圾，切掉后 UnityPy 可正常解析，非加密",
+        "可复用度高：按系统/活动命名，适合直接替换或二次利用"
+      ],
+      "fields": null,
+      "samples": [
+        "apk_data/assets/Bundles/Android/ui/army_atlas",
+        "apk_data/assets/Bundles/Android/ui/armyicon_atlas",
+        "apk_data/assets/Bundles/Android/ui/battleground_fui"
+      ],
+      "evidence": [
+        "apk_data/assets/Bundles/Android/ui/",
+        "extracted/bundles_all/index.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "模型 / 贴图 / 材质 / 特效",
+      "summary": "世界地图与角色资源按 atlas/texture/materials/prefabs/shader 分类打包",
+      "sourceFile": "apk_data/assets/Bundles/Android/",
+      "details": [
+        "atlas 2.4MB 级、texture 1.7MB 级、materials 1.8MB 级、prefabs 3.7MB 级，均为高熵压缩 bundle",
+        "crypto_report 的高熵/整文件加密判断经实际切头验证为压缩而非 AES",
+        "prefabs 内含 swallowgame 小游戏相关 prefab（cn_swallowmonster_108 等）",
+        "已对 ui/atlas/texture 类 146 个 bundle 扫描 Texture2D：135 张成功、0 错误；尺寸以 2048×2048（34 张）最多，其次 1024×512（20）、256×256（20）、1024×1024（13）、2048×1024（12）、128×128（9）、512×256（6）、512×512（5）、4096×4096（2）",
+        "纹理格式以 ETC2_RGBA8(47) 109 张为主、ETC2_RGB(45) 25 张、RGB24(4) 1 张；图集命名如 sactx-0-2048x2048-ETC2-NestBuilding_1，可直接按 sactx-<页>-<宽x高>-<格式>-<图集名> 定位页与规格"
+      ],
+      "fields": null,
+      "samples": [
+        "apk_data/assets/Bundles/Android/atlas/3125432bb7d2a3631c1ee8b91bd44f70",
+        "apk_data/assets/Bundles/Android/prefabs/db85a266410f070843bcd10d0d64d578",
+        "apk_data/assets/Bundles/Android/texture/484c865b28daefa31e25fa638869ab79"
+      ],
+      "evidence": [
+        "apk_data/assets/Bundles/Android/",
+        "crypto_report.md",
+        "extracted/bundles_all/index.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "新手引导素材",
+      "summary": "引导高亮与手指提示由配置路径驱动，配套引导图集",
+      "sourceFile": "apk_data/assets/Bundles/Android/ui/guide_atlas",
+      "details": [
+        "art_inventory 记录 assets/37wan_net/img/guide/ 下 4 张引导 PNG",
+        "UI 侧存在 guide_atlas bundle；文字与箭头遮罩由 triggerguide 的 maskData/handData 指定",
+        "引导对象不是独立动画，而是运行时按 UI 控件路径定位并叠加遮罩/手型"
+      ],
+      "fields": null,
+      "samples": [
+        "apk_data/assets/Bundles/Android/ui/guide_atlas",
+        "triggerguide 1100002 maskData.path=_mainRight._btnBuild"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "extracted/config/triggerguide.json",
+        "apk_data/assets/Bundles/Android/ui/guide_atlas"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "开场 CG 与音频",
+      "summary": "安装包内含一段开场视频与通知音效，主体音乐在 music bundle 中（APK 内路径 assets/beginFilm.mp4，由本地 art_inventory 确定性扫描记录；本轮未单独抽取该视频）",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "art_inventory 记录 1 个 mp4 / 3.4MB：assets/beginFilm.mp4",
+        "1 个 ogg 通知音：res/raw/notify_sound.ogg；music bundle 目录含多个哈希命名音频包",
+        "视频与音频均为常规封装，未见额外加密"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk!assets/beginFilm.mp4",
+        "apk_data/assets/Bundles/Android/music/02d07221a9e7ca288810dc6f62d463a5"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "preinspect.md"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "artGuidance": {
+    "found": true,
+    "kind": "配置驱动分段遮罩引导（强制/非强制混合）",
+    "summary": "首次进入主界面后按 guidemain/triggerguide 链逐步推进，通过 isMask 遮罩与 maskData.path 高亮指定 UI 控件，部分步骤带 handData 手指提示，未完成不前进",
+    "steps": [
+      {
+        "order": 1,
+        "name": "主界面建造入口",
+        "trigger": "event 20003，MainUI 首次展示",
+        "hint": "遮罩高亮 _mainRight._btnBuild 建造按钮",
+        "gate": "isMask=true、isInner=1，需点击建造按钮",
+        "assets": [
+          "apk_data/assets/Bundles/Android/ui/guide_atlas"
+        ],
+        "files": [
+          "extracted/config/triggerguide.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "建造分类选择",
+        "trigger": "event 20004，BuildSelectMain 打开",
+        "hint": "高亮 itemBuildIndex-1 分类",
+        "gate": "isMask=true，需选择分类",
+        "assets": [
+          "apk_data/assets/Bundles/Android/ui/guide_atlas"
+        ],
+        "files": [
+          "extracted/config/triggerguide.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "选择肉采集地",
+        "trigger": "event 20005，BuildSelect 打开",
+        "hint": "高亮 itemBuild-4040000 并显示手型 95094",
+        "gate": "isMask=false 但 handType=1，引导点击肉采集地",
+        "assets": [
+          "apk_data/assets/Bundles/Android/ui/guide_atlas"
+        ],
+        "files": [
+          "extracted/config/triggerguide.json"
+        ]
+      }
+    ],
+    "mechanisms": [
+      "guidemain 主链 + triggerguide 事件链双表驱动",
+      "isMask 遮罩拦截点击",
+      "maskData.path 运行时定位 UI 控件",
+      "handData/handType 手指提示",
+      "nextId 串联步骤，isInner 控制内层引导",
+      "另有 seasonfourthguide/seasonguide/seasoniiguide/seasonthirdguide/newbieboost 赛季与新手分支"
+    ],
+    "assets": [
+      "apk_data/assets/Bundles/Android/ui/guide_atlas",
+      "target.apk!assets/37wan_net/img/guide/"
+    ],
+    "evidence": [
+      "extracted/config/guidemain.json",
+      "extracted/config/triggerguide.json",
+      "art_inventory.json"
+    ],
+    "confidence": "high"
+  },
+  "encryption": {
+    "findings": [
+      "AssetBundle 非加密：所有 bundle 仅在 UnityFS 头前加 1~19 字节垃圾前缀，切掉后 UnityPy 可正常解析；crypto_report 的高熵/整文件加密为压缩误判",
+      "配置为 Lua 5.3 编译字节码，放在 gen/excels/*.lua；需自写 Lua 5.3 解析器与 VM 执行取表",
+      "global-metadata.dat 在 0x27256 出现 encrypt 关键词，但 Cpp2IL 已能产出 DiffableCs/isil，说明当前 dump 可用",
+      "支付与登录走 StarUnion/37wan SDK：configServer.json 的 com.star.union.planetant、plugin_config.json 的 com.star.union.starunion.*",
+      "广告 SDK 为穿山甲 PangolinAd",
+      "i18n 长中文串解析失败根因不是加密，而是 Lua 5.3 字符串长度编码：0xff 后应为 4 字节小端 u32，原实现按 varint 处理导致错位"
+    ],
+    "decrypted": [
+      "Lua 配置总覆盖 722 张表 / 139,540 行（725 张候选，3 张无文件；extracted/config/index.tsv）",
+      "4298 个 TextAsset 从 4298 个 bundle 中导出（extracted/textassets/）",
+      "bundle 前缀剥离与索引：extracted/bundles_all/index.json、extracted/file_to_bundle.json",
+      "i18n 中文表 19 张全部解出，共 33,989 条；建筑名 153/165、野怪名覆盖 507 行、科技名 368/368 分类与 4,395/4,395 行",
+      "global.json 体力系统数值已定位：StaminaMaxDefault=100、StaminaRecoveryTime=480 秒/点、MonsterEnergy=10、BossEnergy=20、AttackPlayerEnergy=5"
+    ],
+    "blocked": [
+      "3 张表无文件：lucasreward、seasondifficultybase、swarmtreasureshop",
+      "assets/Bundles/Android/version_list 无法用 UnityPy 解析",
+      "asset bundle 中 9 个对象导出失败（EOFError 4、read_i_array 3、MemoryError 1、缺 unity default resources 1）；未导出不代表不存在"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "level_stats.json",
+      "note": "本地已解析关卡的全量统计与缺失项"
+    },
+    {
+      "path": "level_stats.md",
+      "note": "关卡分布与顺序映射的验收摘要"
+    },
+    {
+      "path": "extracted/config/index.tsv",
+      "note": "722 张已导出 Lua 配置表索引（表名/行数/字段）"
+    },
+    {
+      "path": "extracted/config/building.json",
+      "note": "建筑升级全表 1461 行"
+    },
+    {
+      "path": "extracted/config/army.json",
+      "note": "兵种属性全表 170 行"
+    },
+    {
+      "path": "extracted/config/tech.json",
+      "note": "科技全表 4395 行"
+    },
+    {
+      "path": "extracted/config/giftpack.json",
+      "note": "礼包全表 2315 行"
+    },
+    {
+      "path": "extracted/config/undergroundcavelv.json",
+      "note": "地下洞穴 980 层"
+    },
+    {
+      "path": "extracted/config/heroevochallengefloor.json",
+      "note": "特化蚁挑战 400 层"
+    },
+    {
+      "path": "extracted/config/triggerguide.json",
+      "note": "触发式引导 581 行"
+    },
+    {
+      "path": "extracted/scripts/lua53.py",
+      "note": "Lua 5.3 字节码解析器"
+    },
+    {
+      "path": "extracted/scripts/luavm.py",
+      "note": "最小 Lua VM，用于执行配置 chunk"
+    },
+    {
+      "path": "extracted/scripts/export_configs.py",
+      "note": "批量导出配置为 JSON"
+    },
+    {
+      "path": "level_data/records.jsonl",
+      "note": "1,760 条关卡层记录（洞穴/挑战/赛季/迷宫/星级塔/吞噬）"
+    },
+    {
+      "path": "extracted/bundles_all/index.json",
+      "note": "bundle 前缀剥离与解析索引"
+    },
+    {
+      "path": "extracted/file_to_bundle.json",
+      "note": "资源文件到 bundle 映射"
+    },
+    {
+      "path": "extracted/config/i18nui_sc.json",
+      "note": "UI 中文词条 9,262 条"
+    },
+    {
+      "path": "extracted/config/i18nbuilding_sc.json",
+      "note": "建筑中文名 845 条，覆盖 153/165 分类"
+    },
+    {
+      "path": "extracted/config/i18nworld_sc.json",
+      "note": "世界/野怪中文名 906 条，覆盖 507 行野怪"
+    },
+    {
+      "path": "extracted/config/undermazefloor.json",
+      "note": "地下迷宫 100 层配置"
+    },
+    {
+      "path": "extracted/config/herostartowerlevel.json",
+      "note": "英雄星级塔 200 层配置"
+    },
+    {
+      "path": "extracted/config/swallowgamelevelgroup.json",
+      "note": "吞噬小游戏 20 组配置"
+    },
+    {
+      "path": "extracted/scripts/add_levels2.py",
+      "note": "关卡记录增量合并与原子替换脚本"
+    },
+    {
+      "path": "extracted/art_texture_stats.json",
+      "note": "146 个 ui/atlas/texture bundle 的 135 张 Texture2D 尺寸/格式/体积统计"
+    },
+    {
+      "path": "extracted/config/global.json",
+      "note": "全局参数 1237 键，含体力上限/恢复/各玩法消耗"
+    },
+    {
+      "path": "extracted/config/techcategory.json",
+      "note": "368 条科技线（title 为 TechName_<序号>）"
+    },
+    {
+      "path": "extracted/config/i18ntech_sc.json",
+      "note": "732 条科技中文词条，已映射全部科技分类与等级"
+    },
+    {
+      "path": "extracted/config/swallowgameelement.json",
+      "note": "吞噬小游戏元素/怪物属性表，43 行，已解析"
+    },
+    {
+      "path": "extracted/config/swallowgameelementmod.json",
+      "note": "吞噬小游戏模型属性表，513 行，已解析"
+    },
+    {
+      "path": "extracted/config/i18nfunction_sc.json",
+      "note": "功能/小游戏 i18n，2,151 条；吞噬 20 关名称全命中"
+    },
+    {
+      "path": "extracted/config/giftgroup.json",
+      "note": "礼包触发组表，1,672 行，字段已统计"
+    },
+    {
+      "path": "extracted/config/swallowgamebase.json",
+      "note": "吞噬小游戏开放条件与元素头像绑定，1 行"
+    },
+    {
+      "path": "extracted/config/chaptertask.json",
+      "note": "主线章节表，15 章，include 列表已解析"
+    },
+    {
+      "path": "extracted/config/plottask.json",
+      "note": "剧情任务表，164 行，含 finish/gift"
+    },
+    {
+      "path": "extracted/config/maintask.json",
+      "note": "主线任务表，434 行，含 unlock1/finish/award/order1"
+    },
+    {
+      "path": "extracted/config/i18ntask_sc.json",
+      "note": "任务 i18n，1,661 条；章节/剧情/主线名 100% 命中"
+    },
+    {
+      "path": "extracted/config/gift.json",
+      "note": "奖励礼包表，11,120 行；任务 award 全部可解析"
+    },
+    {
+      "path": "extracted/config/tasktype.json",
+      "note": "任务条件 id 表，302 行（无语义标签）"
+    },
+    {
+      "path": "extracted/analysis/task_type_inference.json",
+      "note": "54 种任务 finish.type 语义推断（基于 maintask/plottask 中文名的归纳，非官方枚举）"
+    }
+  ],
+  "limitations": [
+    "主线是章节任务链而非编号关卡（15 章/82 章内剧情任务/434 主线任务），无可信 player_level_number，无法计算主线关号密度；82 条剧情任务未被章节引用，scope 标为 unknown:plot",
+    "AssetBundle 内 135 张 ui/atlas/texture 贴图已统计分辨率/格式；模型、特效、shader 与 ldt 类 bundle 未逐对象展开",
+    "服务器下发配置、活动实时参数与支付回调不在本地包内，商业化触发点仅按本地表推断",
+    "cpp2il/isil 方法体仅抽查，未逐方法还原 Lua 配置加载与战斗结算公式",
+    "体力数值已定位（上限 100、480 秒/点），但建造/采集队列与加速道具对体力的实际扣减链未逐方法验证",
+    "tasktype.json 无官方语义描述；54 种 finish.type 仅由任务名/para 模式归纳（extracted/analysis/task_type_inference.json，推断），未获官方枚举验证"
+  ],
+  "generatedAt": "2026-11-20T10:38:02.733210418+08:00",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "artInventory": {
+    "generatedAt": "2026-11-20T10:13:48.335405843+08:00",
+    "scanVersion": 3,
+    "sha256": "80d65b898a694786046e80ee5294d0587fc4235d1c48957bccd4e898eab50c03",
+    "archives": [
+      "target.apk"
+    ],
+    "totalFiles": 792,
+    "totalBytes": 12269271,
+    "bundleFiles": 1,
+    "bundleBytes": 874123,
+    "categories": [
+      {
+        "key": "ui_icon",
+        "label": "图标 / Logo / UI",
+        "files": 284,
+        "bytes": 3558608,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 277,
+            "bytes": 3286113
+          },
+          {
+            "ext": ".jpg",
+            "files": 7,
+            "bytes": 272495
+          }
+        ],
+        "samples": [
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher.png"
+        ]
+      },
+      {
+        "key": "video",
+        "label": "视频 / CG",
+        "files": 1,
+        "bytes": 3523825,
+        "exts": [
+          {
+            "ext": ".mp4",
+            "files": 1,
+            "bytes": 3523825
+          }
+        ],
+        "samples": [
+          "target.apk/assets/beginFilm.mp4"
+        ]
+      },
+      {
+        "key": "scene",
+        "label": "场景 / 地图",
+        "files": 90,
+        "bytes": 2245842,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 90,
+            "bytes": 2245842
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+          "target.apk/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png",
+          "target.apk/res/drawable-mdpi/notification_bg_normal.9.png"
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "贴图 / 其它图片",
+        "files": 389,
+        "bytes": 2022393,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 389,
+            "bytes": 2022393
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+          "target.apk/res/drawable-xxhdpi/sy37_web_forward_disable.png",
+          "target.apk/res/drawable-xxhdpi/com_tencent_ysdk_phone_oauth_login_back.png"
+        ]
+      },
+      {
+        "key": "bundle",
+        "label": "AssetBundle（未展开）",
+        "files": 1,
+        "bytes": 874123,
+        "exts": [
+          {
+            "ext": ".unity3d",
+            "files": 1,
+            "bytes": 874123
+          }
+        ],
+        "samples": [
+          "target.apk/assets/bin/Data/data.unity3d"
+        ]
+      },
+      {
+        "key": "audio",
+        "label": "音频",
+        "files": 1,
+        "bytes": 36468,
+        "exts": [
+          {
+            "ext": ".ogg",
+            "files": 1,
+            "bytes": 36468
+          }
+        ],
+        "samples": [
+          "target.apk/res/raw/notify_sound.ogg"
+        ]
+      },
+      {
+        "key": "vfx",
+        "label": "特效",
+        "files": 22,
+        "bytes": 7269,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 22,
+            "bytes": 7269
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png",
+          "target.apk/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png",
+          "target.apk/res/drawable-xxhdpi/abc_text_select_handle_middle_mtrl_light.png"
+        ]
+      },
+      {
+        "key": "guide",
+        "label": "引导 / 指引素材",
+        "files": 4,
+        "bytes": 743,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 4,
+            "bytes": 743
+          }
+        ],
+        "samples": [
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_press.png",
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_end_press.png",
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu.png"
+        ]
+      }
+    ],
+    "topDirs": [
+      {
+        "path": "target.apk/res/drawable-hdpi",
+        "files": 270,
+        "bytes": 1051870
+      },
+      {
+        "path": "target.apk/res/drawable-xhdpi",
+        "files": 185,
+        "bytes": 1999516
+      },
+      {
+        "path": "target.apk/res/drawable-xxhdpi",
+        "files": 134,
+        "bytes": 938921
+      },
+      {
+        "path": "target.apk/res/drawable-mdpi",
+        "files": 61,
+        "bytes": 66017
+      },
+      {
+        "path": "target.apk/res/drawable-xxxhdpi",
+        "files": 36,
+        "bytes": 782175
+      },
+      {
+        "path": "target.apk/res/mipmap-xhdpi",
+        "files": 25,
+        "bytes": 246767
+      },
+      {
+        "path": "target.apk/assets/liveshowUI/2",
+        "files": 21,
+        "bytes": 2097312
+      },
+      {
+        "path": "target.apk/res/drawable",
+        "files": 8,
+        "bytes": 70074
+      },
+      {
+        "path": "target.apk/assets/37wan_net/img",
+        "files": 7,
+        "bytes": 18418
+      },
+      {
+        "path": "target.apk/res/mipmap-mdpi",
+        "files": 5,
+        "bytes": 11847
+      }
+    ],
+    "notes": [
+      "`assets` 下有 4 个疑似引导/指引素材（按命名推断，非确证），可重点看这批文件的用途。",
+      "其中 761/792 个图片位于 `res/`（原生资源目录，含系统图标与第三方 SDK 素材），通常不代表游戏主美术；主美术更可能在 `assets/` 或 AssetBundle 内。",
+      "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。",
+      "其中 1 个 AssetBundle（0.8 MB）只统计到容器本身；贴图/图集要展开 bundle 才能看到，需在分析轮里拆。"
+    ]
+  },
+  "levelStatistics": {
+    "version": 1,
+    "coverage": "observed/local-only; game-wide coverage unknown",
+    "inputs": [
+      {
+        "path": "level_data/records.jsonl",
+        "schema": "normalized/v1",
+        "records": 2373,
+        "failures": 0,
+        "status": "selected"
+      }
+    ],
+    "processed_records": 2373,
+    "parsed_records": 2373,
+    "unique_records": 2373,
+    "duplicates": 0,
+    "conflicting_records": 0,
+    "conflict_occurrences": 0,
+    "failures": 0,
+    "missing_fields": {
+      "difficulty_raw": 2373,
+      "goals": 2373,
+      "player_level_number": 2373,
+      "reliable_difficulty_label": 2373
+    },
+    "scopes": [
+      {
+        "schema": "normalized/v1",
+        "scope": "event:heroevochallenge_941100000",
+        "unique_records": 100,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 100
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 100,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:heroevochallenge_941200000",
+        "unique_records": 100,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 100
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 100,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:heroevochallenge_941300000",
+        "unique_records": 100,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 100
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 100,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:heroevochallenge_941400000",
+        "unique_records": 100,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 100
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 100,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:herostartower",
+        "unique_records": 200,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 200
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 200,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:seasonnpcchallenge",
+        "unique_records": 60,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 60
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 60,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:swallowgame",
+        "unique_records": 20,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 20
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 20,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76010000",
+        "unique_records": 160,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 160
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 160,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76020000",
+        "unique_records": 120,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 120
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 120,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76030000",
+        "unique_records": 120,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 120
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 120,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76040000",
+        "unique_records": 110,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 110
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 110,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76050000",
+        "unique_records": 130,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 130
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 130,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76060000",
+        "unique_records": 120,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 120
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 120,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76070000",
+        "unique_records": 120,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 120
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 120,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundcave_76080000",
+        "unique_records": 100,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 100
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 100,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:undergroundmaze",
+        "unique_records": 100,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 100
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 100,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter",
+        "unique_records": 15,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 15
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 15,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_1",
+        "unique_records": 5,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 5
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 5,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_10",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_101",
+        "unique_records": 4,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 4
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 4,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_102",
+        "unique_records": 4,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 4
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 4,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_103",
+        "unique_records": 5,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 5
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 5,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_104",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_11",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_2",
+        "unique_records": 5,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 5
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 5,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_3",
+        "unique_records": 5,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 5
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 5,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_4",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_5",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_6",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_7",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_8",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:chapter_9",
+        "unique_records": 6,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 6
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 6,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline:maintask",
+        "unique_records": 434,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 434
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 434,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "unknown:plot",
+        "unique_records": 82,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 82
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 82,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      }
+    ],
+    "issues": [],
+    "issues_omitted": 0,
+    "pending": [
+      "补可靠难度枚举/显式标签；未知难度不计为正常，difficultyIndicator/tags不用于判难。",
+      "补目标列表及数量语义；缺失不是零，Babytopia num/manualNum/isManual未推测。",
+      "需要带证据的官方玩家关号、主线/活动 scope 与完整范围声明，才能验证顺序和困难关密度/连续段。"
+    ],
+    "partial": false,
+    "read_bytes": 1583376
+  },
+  "quality": {
+    "sectionsFilled": 7,
+    "sectionsTotal": 7,
+    "blockedCount": 3,
+    "evidenceCount": 116,
+    "score": 100
+  }
+}

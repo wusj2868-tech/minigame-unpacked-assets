@@ -1,0 +1,41 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgDefaultSetting",
+  "field_aliases": {
+    "ID": 0,
+    "Name": 1,
+    "Value": 2
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "Name": "cd_time",
+      "Value": "180"
+    },
+    "2": {
+      "ID": 2,
+      "Name": "condition_level",
+      "Value": "30"
+    },
+    "3": {
+      "ID": 3,
+      "Name": "condition_pay",
+      "Value": "6"
+    },
+    "4": {
+      "ID": 4,
+      "Name": "morale_default",
+      "Value": "37"
+    },
+    "5": {
+      "ID": 5,
+      "Name": "resident_default",
+      "Value": "10"
+    },
+    "6": {
+      "ID": 6,
+      "Name": "chapter_mission_default",
+      "Value": "6"
+    }
+  }
+}

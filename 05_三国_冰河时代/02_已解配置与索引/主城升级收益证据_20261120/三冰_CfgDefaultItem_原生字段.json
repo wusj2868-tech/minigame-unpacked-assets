@@ -1,0 +1,90 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgDefaultItem",
+  "field_aliases": {
+    "ID": 0,
+    "FteType": 1,
+    "ItemType": 2,
+    "ItemId": 3,
+    "ItemNum": 4
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "FteType": "1",
+      "ItemType": "2",
+      "ItemId": "1",
+      "ItemNum": "1760"
+    },
+    "2": {
+      "ID": 2,
+      "FteType": "1",
+      "ItemType": "2",
+      "ItemId": "6",
+      "ItemNum": "4050"
+    },
+    "3": {
+      "ID": 3,
+      "FteType": "1",
+      "ItemType": "2",
+      "ItemId": "7",
+      "ItemNum": "8800"
+    },
+    "4": {
+      "ID": 4,
+      "FteType": "1",
+      "ItemType": "2",
+      "ItemId": "8",
+      "ItemNum": "5800"
+    },
+    "5": {
+      "ID": 5,
+      "FteType": "1",
+      "ItemType": "2",
+      "ItemId": "9",
+      "ItemNum": "1000"
+    },
+    "6": {
+      "ID": 6,
+      "FteType": "1",
+      "ItemType": "1",
+      "ItemId": "10401001",
+      "ItemNum": "100"
+    },
+    "7": {
+      "ID": 7,
+      "FteType": "1",
+      "ItemType": "1",
+      "ItemId": "10403108",
+      "ItemNum": "8"
+    },
+    "8": {
+      "ID": 8,
+      "FteType": "1",
+      "ItemType": "1",
+      "ItemId": "19902001",
+      "ItemNum": "1"
+    },
+    "9": {
+      "ID": 9,
+      "FteType": "1",
+      "ItemType": "1",
+      "ItemId": "19908001",
+      "ItemNum": "7"
+    },
+    "10": {
+      "ID": 10,
+      "FteType": "1",
+      "ItemType": "1",
+      "ItemId": "19908002",
+      "ItemNum": "2"
+    },
+    "11": {
+      "ID": 11,
+      "FteType": "1",
+      "ItemType": "1",
+      "ItemId": "10201001",
+      "ItemNum": "22"
+    }
+  }
+}

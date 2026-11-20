@@ -1,0 +1,84 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgDefaultBuilding",
+  "field_aliases": {
+    "ID": 0,
+    "FteType": 1,
+    "BuildingType": 2,
+    "DefaultLevel": 3
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "FteType": "1",
+      "BuildingType": "330101",
+      "DefaultLevel": 6
+    },
+    "2": {
+      "ID": 2,
+      "FteType": "1",
+      "BuildingType": "330701",
+      "DefaultLevel": 5
+    },
+    "3": {
+      "ID": 3,
+      "FteType": "1",
+      "BuildingType": "330801",
+      "DefaultLevel": 5
+    },
+    "4": {
+      "ID": 4,
+      "FteType": "1",
+      "BuildingType": "330501",
+      "DefaultLevel": 5
+    },
+    "5": {
+      "ID": 5,
+      "FteType": "1",
+      "BuildingType": "330301",
+      "DefaultLevel": 5
+    },
+    "6": {
+      "ID": 6,
+      "FteType": "1",
+      "BuildingType": "330601",
+      "DefaultLevel": 5
+    },
+    "7": {
+      "ID": 7,
+      "FteType": "1",
+      "BuildingType": "330201",
+      "DefaultLevel": 5
+    },
+    "8": {
+      "ID": 8,
+      "FteType": "1",
+      "BuildingType": "330202",
+      "DefaultLevel": 5
+    },
+    "9": {
+      "ID": 9,
+      "FteType": "1",
+      "BuildingType": "330203",
+      "DefaultLevel": 5
+    },
+    "10": {
+      "ID": 10,
+      "FteType": "1",
+      "BuildingType": "330204",
+      "DefaultLevel": 5
+    },
+    "11": {
+      "ID": 11,
+      "FteType": "1",
+      "BuildingType": "330401",
+      "DefaultLevel": 5
+    },
+    "12": {
+      "ID": 12,
+      "FteType": "1",
+      "BuildingType": "330901",
+      "DefaultLevel": 1
+    }
+  }
+}

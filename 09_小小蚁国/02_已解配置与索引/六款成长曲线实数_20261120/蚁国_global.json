@@ -1,0 +1,4562 @@
+{
+"MapTypeTown": 1,
+"MapTypeMine": 2,
+"MapTypeBlank": 3,
+"MapTypeMonster": 4,
+"MapTypeFort": 11,
+"MapTypeThrone": 12,
+"MapTypeSecretBase": 13,
+"MapTypeCamp": 14,
+"MapTypeBlock": 15,
+"PeopleSpdPara1": 0.3,
+"PeopleSpdPara2": 2,
+"PeopleSpdPara3": 10,
+"PeopleSpdPara4": 1,
+"PeopleSpdPara5": 1,
+"PeopleSpdPara6": 1,
+"population_config_k1": 100,
+"population_config_k2": 1,
+"population_config_k3": 0,
+"population_config_k4": 0.45,
+"population_config_k5": 0.496,
+"population_config_k6": 1,
+"population_config_k7": 1,
+"population_config_k8": 0.6,
+"population_config_k9": 0.4,
+"population_config_k10": 2,
+"population_config_k11": 3.2,
+"DayTime": 30,
+"NightTime": 5,
+"MapAreaBornLimits": [
+25,
+50,
+125
+],
+"PeopleLowerLimit": 7000,
+"BlackAreaMinePercent": 0.0075,
+"MapAreaMinePercent": 0.1,
+"MapResZoneLen": 30,
+"BlackAreaMonsterLimit": 35,
+"MapAreaMonsterLimit": 80,
+"TimeToGemParams": [
+24,
+10
+],
+"TurboBaseUpperLimit": 75,
+"TurboUsableLowerLimit": 30,
+"TurboRatioRecoveryTime": 30,
+"TurboRatioDecrease": 25,
+"TurboDurabilityDecrease": 0,
+"EventTypeBuilding": 1,
+"EventTypeTrain": 2,
+"EventTypeTech": 3,
+"EventTypeMission": 4,
+"EventTypeCure": 5,
+"EventTypeBuildingDestroy": 6,
+"EventTypeTrans": 7,
+"EventTypeExplore": 8,
+"EventTypeEquipMake": 9,
+"EventTypeMaterialMake": 10,
+"EventTypeMissileMake": 11,
+"EventTypeCollect": 12,
+"EventTypeBeastCure": 13,
+"ExploreTimeSections": [
+4,
+6,
+8,
+12
+],
+"EventTradingCenterShop": 14,
+"MsgMaxAmount": 500,
+"HelicopterStayTime": 10800,
+"TradingCenterRefreshCost": 1000,
+"TradingCenterRefreshAmount": 2,
+"RankOfAllianceType": 1,
+"RankOfPlayerType": 2,
+"RankCategories": [
+1,
+2,
+3,
+4,
+5,
+6
+],
+"RankByPlayerKills": 2,
+"RankByPlayerPower": 1,
+"RankByPlayerBuildingCenter": 3,
+"RankByAllianceKills": 5,
+"RankByAlliancePower": 4,
+"RankNeedForEncode": [
+3,
+4
+],
+"PlayerRankCategories": [
+1,
+2,
+3,
+6
+],
+"AllianceRankCategories": [
+4,
+5
+],
+"PlayerRankLimit": 150,
+"AllianceRankLimit": 100,
+"ItemModifyUserName": 204007,
+"ModifyUserNameCost": 2000,
+"MissionSpy": 1,
+"MissionAttack": 2,
+"MissionMining": 3,
+"MissionPVE": 4,
+"MissionReturn": 5,
+"MissionTrade": 6,
+"MissionRally": 7,
+"MissionAssist": 8,
+"MissionResAssist": 9,
+"MissionResStore": 10,
+"MissionAISiege": 11,
+"MissionCamp": 12,
+"MissionExplore": 13,
+"MissionMissile": 14,
+"MissionKingsTask": 16,
+"MissionStatusMarch": 0,
+"MissionStatusMining": 1,
+"MissionStatusRally": 2,
+"MissionStatusAssist": 3,
+"MissionStatusBattle": 4,
+"MissionStatusCamp": 5,
+"MissionStatusExploring": 6,
+"MissionStatusBuilding": 7,
+"MissionStatusDestroying": 8,
+"MissionStatusGarrison": 9,
+"MissionStatusMissile": 10,
+"MissionStatusKingsTask": 12,
+"MissionStatusRallyMarch": 11,
+"SpySpeed": 40,
+"SpyTimeFactor": 1,
+"SpyBaseCost": 500,
+"SpyKingdomWarCostFactor": 30,
+"TradingCenterRes": [
+2,
+3,
+4,
+5,
+6,
+7
+],
+"RewardTypeRes": 1,
+"RewardTypeItem": 2,
+"RewardTypeGift": 3,
+"RewardTypeHero": 4,
+"RewardTypeAllianceScore": 5,
+"RewardTypeFeedBeast": 6,
+"MailMsgTypeNormal": 1,
+"MailMsgTypeAllianceNotify": 2,
+"MailGroup_Invite": 201,
+"MailGroup_Remove": 202,
+"MailGroup_Leave": 203,
+"MailMsgTypeSystem": 2,
+"AlliancePosR1": 1,
+"AlliancePosR2": 2,
+"AlliancePosR3": 3,
+"AlliancePosR4": 4,
+"AlliancePosR5": 5,
+"MarchFuelCostPara1": 0.75,
+"MarchFuelCostPara2": 0.04,
+"MarchDurCostPara1": 5,
+"MarchTimePara1": 0.84,
+"MarchTimePara2": 108,
+"BlackMarchTimeFactor": 0.1,
+"BattleMaxRound": 8,
+"MailTypeMsg": 1,
+"MailTypeAlliance": 2,
+"MailTypeReport": 3,
+"MailTypeActivity": 4,
+"MailTypeStudio": 5,
+"MailTypeSystem": 6,
+"MailTypeMineReport": 7,
+"MailTypeMonsterReport": 8,
+"MailTypeNPCAttackReport": 9,
+"MailTypeMissileReport": 10,
+"MailTypeExploreReport": 11,
+"MailTypeMonsterSiege": 12,
+"MailTypeStar": 13,
+"MailTypeGiftRecord": 14,
+"MailTypeSeasonNoticeRecord": 15,
+"MailTypeSeasonNewsRecord": 16,
+"MailTypeMarmot": 17,
+"MailSubTypePvP": 1,
+"MailSubTypeSpy": 2,
+"MailSubTypeUnderSpy": 3,
+"MailSubTypeAllianceOrder": 4,
+"MailSubTypeAllianceAssistRes": 5,
+"MailSubTypeAllianceAssistArmies": 6,
+"MailSubTypeAllianceInvite": 7,
+"MailSubTypePersonal": 8,
+"MailSubTypeGroup": 9,
+"MailSubTypeAllianceNotify": 16,
+"MailSubTypeAlliance": 0,
+"MailSubTypeAllianceBuildcomplete": 10,
+"MailSubTypeAllianceBuildRecovery": 11,
+"MailSubTypeAllianceBuildPlace": 12,
+"MailSubTypeSpyFail": 13,
+"MailSubTypeSecretBase": 14,
+"MailSubTypeActiveCombat": 15,
+"MailDeleteDefaultTime": 1209600,
+"MailAllianceMessage": 11,
+"MailAllianceMessageTime": 300,
+"MailAllianceMessageTimes": 5,
+"ACCostBonusTimes": [
+5,
+25
+],
+"ATHighLevelGemParamConsumptionRatio": [
+0.8,
+0.2
+],
+"ATMiddleLevelGemParamConsumptionRatio": [
+0.4,
+0.6
+],
+"AllianceTechDonate": [
+10,
+20
+],
+"ATMultiContriHighLevelGemParam": 1.71,
+"ATMultiContriHighLevelResParam": 0.88,
+"ATContributeNewJoinCool": 14000,
+"ATMultiContriDefaultTimes": 20,
+"AllianceDonateRankDaily": 1,
+"AllianceDonateRankWeekly": 2,
+"AllianceDonateRankHistory": 3,
+"BattleATKPara": 50,
+"BattleDEFPara": 50,
+"BattleAccuracyPara": 10000,
+"BattleCritPara": 0,
+"BattleCritDamPara": 5000,
+"BattleRandDamPara": 0,
+"BattleArmyDecreasePara": 1,
+"SeriouslyInjuredFactor": 0.4,
+"CoordCollectNumLimit": 400,
+"DailyTask": 1,
+"PlotTask": 2,
+"MainTask": 3,
+"PersonalArmament": 4,
+"WorldTask": 5,
+"HeroPathTask": 6,
+"ProjectFalcon": 7,
+"UnlockBuildingLevel": 1,
+"UnlockTime": 5,
+"UnlockPreTask": 3,
+"BaseTrainNum": 20,
+"TypedBuffAll": 0,
+"TypedBuffTech": 1,
+"TypedBuffHero": 2,
+"TypedBuffItem": 3,
+"TypedBuffAllianceTech": 4,
+"TypedBuffEmblem": 5,
+"TypedBuffVip": 6,
+"TypedBuffSub": 7,
+"TypedBuffOfficialTitle": 8,
+"TypedBuffAllianceTitle": 9,
+"TypedBuffKingdomSkill": 10,
+"TypedBuffAllianceDomain": 11,
+"TypedBuffBeastTech": 12,
+"TypedBuffCareer": 13,
+"TypedBuffBuilding": 14,
+"TypedBuffEquip": 15,
+"TypedBuffGiant": 16,
+"TypedBuffMissile": 17,
+"TypedBuffCareerCard": 18,
+"TypedBuffMonthCard": 24,
+"TypedBuffSeason": 28,
+"MaxChapter": 11,
+"BasePromoNum": 100,
+"BaseResProtect": 10000,
+"BaseLoadPara": 1.2,
+"RobLoadPara1": 0.45,
+"RobLoadPara2": 0.1,
+"HeroMaxLevel": 50,
+"GiantMaxLevel": 50,
+"MonsterTypeNormal": 1,
+"MonsterTypeRally": 2,
+"MonsterTypeActivity": 3,
+"HeroRedeemMedal": 204081,
+"PlayerAvatarDefault": 1001,
+"ShieldUsingRecordNum": 20,
+"Shieldcolddown": 1200,
+"StaminaMaxDefault": 100,
+"StaminaRecoveryTime": 480,
+"CHAT_type_normal": 100001,
+"CHAT_type_redpacket": 100400,
+"World_CreateAlliance": 100101,
+"Chat_attack_win": 100201,
+"Chat_attack_lose": 100202,
+"Chat_missile_atk": 100203,
+"Chat_scout": 100204,
+"Chat_attacked_win": 100205,
+"Chat_attacked_lose": 100206,
+"Army_Aggregation": 100207,
+"Aliance_welcome": 100208,
+"Alliance_BePromotedUp": 100209,
+"Alliance_BePromotedDown": 100210,
+"Alliance_kick": 100211,
+"Chat_invite_aliance": 100212,
+"Chat_transfer_owner": 100213,
+"Chat_missile_suf": 100214,
+"Chat_share_player": 100301,
+"Chat_share_position": 100302,
+"Chat_share_formation": 100303,
+"World_chat_Lucky": 100401,
+"World_chat_gift": 100402,
+"World_chat_Alliance_Invite": 100403,
+"ChatAttackSuccessShare": 100501,
+"ChatAttackFailShare": 100502,
+"ChatDefenceSuccessShare": 100503,
+"ChatDefenceFailShare": 100504,
+"ChatBescoutShare": 100505,
+"ChatScoutShare": 100506,
+"ChatRangeRewardRecordShare": 100507,
+"ArmyInjuredAfterNoDefense": 0.1,
+"NationQuestEnergy": 5,
+"AttackPlayerEnergy": 5,
+"CampEnergy": 5,
+"AssistEnergy": 5,
+"MonsterEnergy": 10,
+"BossEnergy": 20,
+"MapSearchRange": 100,
+"DefaultResDonateTimes": 25,
+"DefaultGemDonateTimes": 50,
+"ResDonateCoolDown": 1200,
+"SplitResReturnRate": 0.8,
+"ResourceStatusPara": [
+0.2,
+0.95
+],
+"PartsFactoryK1": 0.1,
+"PartsFactoryK2": 0.1,
+"PartsFactoryK3": 0.1,
+"PartsFactoryK4": 0.1,
+"PartsFactoryK5": 0.1,
+"PartsFactoryK6": 0.1,
+"DriveExploreLevel": 16,
+"DriveAutoLevel": 16,
+"MaterialUnlockTechCondition": [
+7140101,
+7140401,
+7140701,
+7141701,
+7142401
+],
+"MaterialUnlockBuildingCondition": [
+4100002,
+4100004,
+4100008,
+4100010
+],
+"CourageMedalRateAfterMonster": 232001,
+"StorageLoadingDuration": 2,
+"StorageUIThresholdYellow": 1000,
+"StorageUIThresholdGreen": 5000,
+"FreeTransferCareerLevel": [
+6,
+10,
+13,
+16,
+19,
+22,
+25
+],
+"GreenMaterialUnlockCondition": 7140104,
+"ThroneBdIds": [
+6000600,
+6050605,
+6050596,
+5960596,
+5960605
+],
+"MallCategories": [
+1,
+2,
+3,
+4,
+5
+],
+"GoodsForSell": [
+2,
+3,
+4,
+5
+],
+"MaxRefreshCount": 13,
+"GoodsOnlyForDisplay": 1,
+"SeparateCategories": 1,
+"WeekdayCategory": 1,
+"HasItemCategory": 2,
+"RefreshedTimesCategory": 3,
+"BuildingCenterCategories": 2,
+"BuildingCenterLevelGreater": 1,
+"BuildingCenterLevelLess": 2,
+"ServerDeployedTimeCategories": 3,
+"InNDays": 1,
+"AfterNDays": 2,
+"PlayerLevelCategories": 4,
+"PlayerLevelGreater": 1,
+"PlayerLevelLess": 2,
+"ActivityCategories": 5,
+"HasKillActivityToday": 1,
+"HasTimeLimitedActivity": 2,
+"HasTimeLimitedActivityYesterday": 3,
+"TimeRelatedCategories": 6,
+"BeforeAppointedTime": 1,
+"AfterAppointedTime": 2,
+"ResRelatedCategories": 7,
+"WoodUpperLimit": 1,
+"WoodLowerLimit": 2,
+"FoodUpperLimit": 3,
+"FoodLowerLimit": 4,
+"IronUpperLimit": 5,
+"IronLowerLimit": 6,
+"MineralUpperLimit": 7,
+"MineralLowerLimit": 8,
+"ResourceTypes4GoodHarvest": [
+2,
+4,
+6,
+3,
+5,
+7
+],
+"CareerOpenLevel": 6,
+"EnhanceMinLevel": 4,
+"TypeArmyTrain": 1,
+"TypeArmyPromote": 2,
+"TypeArmyEnhance": 3,
+"BaseCareerNumb": 3,
+"DailySignReward": 2500000,
+"ShopResDefaultColor": 3,
+"PersonalArmamentActivityDuration": 1,
+"PersonalArmamentActivityStart": 5,
+"PersonalArmamentActivityEnd": 0,
+"PersonalArmamentActivityCircleTimes": 3,
+"PersonalArmamentActivityCircleAmount": 8,
+"BaseMaxLevel": 25,
+"MaterialMakeAmountOnce": 1,
+"PersonalArmamentLvInterval": [
+{
+"lower": 6,
+"upper": 8
+},
+{
+"lower": 9,
+"upper": 10
+},
+{
+"lower": 11,
+"upper": 13
+},
+{
+"lower": 14,
+"upper": 16
+},
+{
+"lower": 17,
+"upper": 19
+},
+{
+"lower": 20,
+"upper": 22
+},
+{
+"lower": 23,
+"upper": 24
+},
+{
+"lower": 25,
+"upper": 25
+}
+],
+"ProductionCenterTurboCoolDown": 12,
+"AllianceNameChangePrice": 500,
+"AllianceShortNameChangePrice": 200,
+"AllianceFlagDefault": 1000,
+"ActivityCenterOpenLv": 6,
+"TurboBubbleShowLimit": 15,
+"NewsBubbleShowLimit": 6,
+"AllianceGiftLevelUpExp": [
+2000000,
+6000000,
+12000000,
+18000000,
+24000000,
+30000000,
+40000000,
+60000000,
+80000000,
+100000000,
+120000000,
+160000000,
+320000000,
+700000000,
+1400000000
+],
+"RepairWallFee": 200,
+"RepairWallDurability": 600,
+"WallSelfRepairedSpeed": 20,
+"OriginalDurability": 1100,
+"WallBurnSpeed": 35,
+"WallBurnDuration": 1800,
+"WallDurability4AttackedReposition": 500,
+"WallDurability4AttackedMomentFactor1": 15,
+"WallDurability4AttackedMomentFactor2": 0.38,
+"WallAttackedMailCondition": 0.1,
+"MapRecStateNormal": 0,
+"MapRecStateBuilding": 1,
+"MapRecStateAttacked": 2,
+"MapRecStateBurning": 3,
+"MapRecStateUnfinished": 4,
+"MapRecStateBroken": 5,
+"MapRecStateAttackedByMissile": 6,
+"MapRecStateInFight": 7,
+"WelfareCenterOpenLv": 3,
+"WelfareCenterOpenChapter": 0,
+"HeroProjectMaxDay": 30,
+"HeroPathMaxDay": 7,
+"TexFormatType1": "{num}",
+"TexFormatType2": "{num}%",
+"TexFormatType3": "{str}",
+"TexFormatType4": "+{num}%",
+"TexFormatType5": "{num} {18n_1}",
+"TexFormatType6": "-{num}%",
+"AllianceMergeApplyExpireDays": 10,
+"AllianceMergeApplyFailReserveDays": 3,
+"MainTaskUnlockedByChapterIndex": 3,
+"WelfareCenterDailySupply": 2500000,
+"NoviceProtectBaseLevel": 16,
+"MaxLevel4Spy": 5,
+"HeroProjectGift": 2610148,
+"DriverChange": 100000,
+"OccupyThroneParam1": 431428248,
+"OccupyThroneParam2": 994442444,
+"OccupyThroneParam3": 20000000,
+"OccupyProcess": [
+50,
+80,
+90
+],
+"NationManageResAddTime": 86400,
+"NationManageResTypeAddPercent": 2000,
+"NationManageMineNumb": 5,
+"NationManageMineLev": 8,
+"NationManageMaxMineRange": 5,
+"NationManageStopCreateMineRange": 10,
+"NationManageMineLevel": 8,
+"AllianceOfficers": [
+1,
+2,
+3,
+4
+],
+"PersonalArmamentActivityStartTime": 8,
+"FortAttackInterval": 30,
+"FortAttackReduce": 1,
+"DamageParam1_4Type1": 0.4,
+"DamageParam1_4Type2": 0.37,
+"DamageParam1_4Type3": 0.36,
+"DamageParam2_4Type1": 23,
+"DamageParam2_4Type2": 17,
+"DamageParam2_4Type3": 14,
+"AlliancePoint": 209001,
+"AllianceContribution": 209002,
+"AllianceHelpTimesWithoutBuilding": 3,
+"AllianceHelpSecondWithoutBuilding": 10,
+"CloneGeneSegmentParamK": 1.2,
+"CloneGeneSegmentParamK1": 0.3,
+"CloneGeneSegmentParamK2": 0.7,
+"AcrossDayTime": 8,
+"AllianceRecommendPara": 8,
+"Robot1": 300,
+"Robot2": 25,
+"Robot3": 3,
+"Robot4": [
+{
+"rate": 40,
+"level": 0
+},
+{
+"rate": 30,
+"level": 1
+},
+{
+"rate": 20,
+"level": 2
+},
+{
+"rate": 10,
+"level": 3
+}
+],
+"Robot5": [
+3,
+2,
+1,
+0
+],
+"Robot6": 604800,
+"Robot7": [
+300,
+1800
+],
+"Robot8": [
+14400,
+28800
+],
+"Robot9": 5,
+"Robot10": [
+2,
+8
+],
+"Robot11": 2000,
+"Robot12": 500,
+"Robot13": 8,
+"Robot14": 500,
+"Robot15": 1000,
+"Robot16": 3000,
+"Robot17": 3000,
+"Robot18": 4,
+"ArmsSupplyFirstRewards": 2510007,
+"ArmsSupplyAttiredRewards": 2510008,
+"ArmsSupplyDuration": 30,
+"AllianceAttackedRecordCategories": [
+1,
+2
+],
+"AllianceAttackedRecordNum": 5,
+"AllianceBattleRecordNum": 50,
+"AllianceDynamicNum": [
+1,
+3,
+3
+],
+"JoinUnionCenterLimit": 6,
+"AllianceBehaviorRecordNum": 50,
+"DarkKnightMass": {
+"rank": 42
+},
+"DarkKnightMaxTime": 973,
+"DarkKnightRank": 10,
+"DarkKnightRefreshTime": 6,
+"DarkKnightInjured": 0,
+"DarkKnightVictoryCondition": 0.5,
+"SecretBaseLimit": 4,
+"SecretBaseRange": [
+86400,
+172800
+],
+"AliRecommendInterval": 12000,
+"AllianceTeleportRange": 32,
+"TimeThresholdToTip": 2100,
+"KingBattleLogLimit": 50,
+"KingBattleLogReserveDays": 2,
+"KingBattleTypeOccupy": 1,
+"KingBattleTypeAssist": 2,
+"KingBattleTypeAttack": 3,
+"MilitaryFlashNewsRankNeed": 200,
+"MilitaryNewsRecordNum": 10,
+"BlockNumInSetting": 200,
+"MilitaryHeadlinesParam": 100,
+"FoeRankParam1": 5,
+"FoeRankParam2": 1,
+"DetectAttack": 1,
+"DetectRallyAttack": 2,
+"DetectAssist": 3,
+"DetectRallyAssist": 4,
+"DetectResAssist": 5,
+"DetectSpy": 6,
+"DetectMissile": 7,
+"DetectAI": 8,
+"DetectMarmotRevenge": 9,
+"NormalMonsterRefreshTimeInMap": 7200,
+"RallyMonsterRefreshTimeInMap": 7200,
+"NormalMonsterWaitReliveTime": 360,
+"MaxPercentLimit4ActivityMonster": 0.5,
+"HeroProjectPeriods": 4,
+"CarSpeed": 2,
+"AliAnnounceDefault": "ali_announce_default",
+"AllianceChangeShortNameFee": 200,
+"CarWaitingTime": [
+2,
+15
+],
+"CarCollectingresourceTime": 6,
+"CitizenNum": [
+{
+"rank": 1,
+"level": 0
+},
+{
+"rank": 2,
+"level": 3
+},
+{
+"rank": 3,
+"level": 3
+},
+{
+"rank": 4,
+"level": 3
+},
+{
+"rank": 5,
+"level": 4
+},
+{
+"rank": 6,
+"level": 4
+},
+{
+"rank": 7,
+"level": 5
+},
+{
+"rank": 8,
+"level": 5
+},
+{
+"rank": 9,
+"level": 5
+},
+{
+"rank": 10,
+"level": 6
+},
+{
+"rank": 11,
+"level": 6
+},
+{
+"rank": 12,
+"level": 6
+},
+{
+"rank": 13,
+"level": 6
+},
+{
+"rank": 14,
+"level": 6
+},
+{
+"rank": 15,
+"level": 6
+},
+{
+"rank": 16,
+"level": 7
+},
+{
+"rank": 17,
+"level": 7
+},
+{
+"rank": 18,
+"level": 7
+},
+{
+"rank": 19,
+"level": 7
+},
+{
+"rank": 20,
+"level": 8
+},
+{
+"rank": 21,
+"level": 8
+},
+{
+"rank": 22,
+"level": 8
+},
+{
+"rank": 23,
+"level": 8
+},
+{
+"rank": 24,
+"level": 8
+},
+{
+"rank": 25,
+"level": 9
+}
+],
+"CitizenExistTime": 150,
+"CitizenRefreshTime": 60,
+"TransferKingInterval": 3600,
+"HeroRecruitQuality": [
+4,
+5
+],
+"AllianceHeroShowNums": 14,
+"TotalHeroShowNums": 24,
+"SpiesAmount": {
+"up": 0
+},
+"SpiesAward": [
+{
+"category": 1,
+"amount": 3
+},
+{
+"category": 2,
+"amount": 50
+},
+{
+"category": 3,
+"amount": 120
+},
+{
+"category": 4,
+"amount": 50
+},
+{
+"category": 6,
+"amount": 12
+},
+{
+"category": 8,
+"amount": 102
+},
+{
+"category": 7,
+"amount": 22
+}
+],
+"SpiesSpeed": 1,
+"SpiesUpperLimit": 8,
+"ArmyQueenCareerDefaultName": "career_army_queen",
+"ArmyQueenOneDefaultName": "army_queen_1",
+"ArmyQueenTwoDefaultName": "army_queen_2",
+"ArmyQueenThreeDefaultName": "army_queen_3",
+"ArmyQueenCollectDefaultName": "army_queen_collect",
+"ArmyQueenType1": 1,
+"ArmyQueenTypeCareer": 4,
+"ArmyQueenType2": 2,
+"ArmyQueenType3": 3,
+"HeroPathFinalReward": 207001,
+"ResourceRankInTechAndBuilding": [
+8,
+2,
+3,
+4,
+5,
+6,
+7
+],
+"HeroShopRefreshInterval": 1209600,
+"TradingCenterShopUnlockLv": 10,
+"GiantSeriouslyInjuredFactor": 0.4,
+"SpyArmyNumbDeviationFactor": 0.4,
+"FirstKillMonsterLevelToNotify": 6,
+"ArmyHurtPercent4GuardingCityFail": 0,
+"ReliveInjuredSoldierPercentPerRound": 0.24,
+"GiantReliveInjuredSoldierPercentPerRound": 0.24,
+"GiantReliveHpPercent": 100,
+"GiantHpColorPercent_1": 1000,
+"GiantHpColorPercent_2": 6000,
+"GiantHpColorPercent_3": 9000,
+"Training_maxnum": 6,
+"Training_equalnum": 20,
+"AllianceContributionRankingRewards": [
+3000001,
+3000002,
+3000003
+],
+"AllianceContributionRewardsTechValue": 20000,
+"AllianceContributionRewardsPlayerNum": 20,
+"FirstTimeJoinAllianceRewards": 3000004,
+"ReplacePresidentFee": 1000,
+"ReplacePresidentOffline": 259200,
+"ReplacePresidentOfflineFree": 604800,
+"GMCenterButton": [
+64,
+65,
+66
+],
+"AttackBattleReportCondition": 0.05,
+"GlobalExplorationReward": {
+"res": 1
+},
+"GlobalExplorationOfRewardProbability": 4,
+"GMCenterUnlockLevel": {
+"confid": 4000000,
+"level": 2
+},
+"ActivityTipKeepTime": 4,
+"DarkKnightRewardRank": 30,
+"DarkKnightAllianceRank": 5,
+"TheoryMaxUnitNum": 325050,
+"CarNameLen": 12,
+"TowerSkillFactor": 1,
+"TowerModDamage": 8,
+"MaxKillTeamPercent4Tower": 0.2,
+"TowerK1": 0.1,
+"TowerK2": 0.1,
+"TowerK6": 0.4,
+"DefaultStaminaItemId": 204017,
+"RallyMonsterGetDamageRewardTimes": 2,
+"RallyMonsterGetKillRewardTimes": 10,
+"Antimissilerecordtime": 604800,
+"Antimissilerecordnum": 20,
+"OccupationTransferItem": 212400,
+"playerbeattactedbymissilenum": 1,
+"DarkKnightPlayerRank": 10,
+"ProjectFalconTime": 25,
+"GuideSpyPosition": {
+"x": 11,
+"y": -4
+},
+"GuideSpyPositionGift": {
+"res": 0
+},
+"GuideHeroComingTime": 43200,
+"SkillResistancePara1": 10000,
+"MainInterfaceGiftButton": 2,
+"BookMarkNameMaxLength": 128,
+"BookMarkNameMinLength": 1,
+"ServerPopRareNum": 200,
+"ServerPopSaturateNum": 600,
+"RareServerMaxPercent": 2000,
+"SaturateServerMinPercent": 1000,
+"AllSaturateNum": 5,
+"LoginPresentCountdown": 43200,
+"DefeatCasualtiesHurtPercent": 1450,
+"ArmsSupplyPurchase": 2802001,
+"HeroProjectPurchase": 2802002,
+"GuideBaseUpgradeLimit": {
+"level": 0
+},
+"MaxTimesEquipCoinPerDayFromNormMonster": 20,
+"MaxTimesHeroCoinPerDayFromArmament": 3,
+"MaxArmyLevFromHeroSkill": 9,
+"ArmSupplyBubbleId": 40004,
+"ArmSupplyNametagId": 30002,
+"DefaultBubbleId": 40003,
+"DefaultNametagId": 30001,
+"giant_hp_color_percent": [
+0.1,
+0.6,
+0.9
+],
+"personal_arms_race_kill_times": 3,
+"ResidentAPCStopTime": 1,
+"ResidentAPCRefreshTime": 15,
+"AreaUpperlimit": [
+{
+"level": 0,
+"amount": 128
+},
+{
+"level": 1,
+"amount": 256
+},
+{
+"level": 2,
+"amount": 256
+},
+{
+"level": 3,
+"amount": 256
+},
+{
+"level": 4,
+"amount": 320
+},
+{
+"level": 5,
+"amount": 448
+},
+{
+"level": 6,
+"amount": 512
+},
+{
+"level": 7,
+"amount": 640
+},
+{
+"level": 8,
+"amount": 768
+},
+{
+"level": 9,
+"amount": 800
+},
+{
+"level": 10,
+"amount": 864
+},
+{
+"level": 11,
+"amount": 928
+},
+{
+"level": 12,
+"amount": 992
+},
+{
+"level": 13,
+"amount": 992
+},
+{
+"level": 14,
+"amount": 992
+},
+{
+"level": 15,
+"amount": 1056
+},
+{
+"level": 16,
+"amount": 1120
+},
+{
+"level": 17,
+"amount": 1120
+},
+{
+"level": 18,
+"amount": 1184
+},
+{
+"level": 19,
+"amount": 1184
+},
+{
+"level": 20,
+"amount": 1216
+},
+{
+"level": 21,
+"amount": 1216
+},
+{
+"level": 22,
+"amount": 1216
+},
+{
+"level": 23,
+"amount": 1216
+},
+{
+"level": 24,
+"amount": 1216
+},
+{
+"level": 25,
+"amount": 1216
+}
+],
+"SoldierAnimationNum": {
+"min": 1,
+"max": 9,
+"k": 0.01
+},
+"CitymapArea": {
+"min_x": 73,
+"max_x": 137,
+"min_y": 82,
+"max_y": 118
+},
+"HreoArmymath": {
+"min": 100,
+"k": 100
+},
+"DigMaxarea": 10,
+"AllianceMemberNum": [
+{
+"tech": 0,
+"num": 50
+},
+{
+"tech": 80,
+"num": 55
+},
+{
+"tech": 240,
+"num": 60
+},
+{
+"tech": 360,
+"num": 65
+},
+{
+"tech": 480,
+"num": 70
+},
+{
+"tech": 600,
+"num": 75
+},
+{
+"tech": 720,
+"num": 80
+},
+{
+"tech": 840,
+"num": 85
+},
+{
+"tech": 960,
+"num": 90
+},
+{
+"tech": 1080,
+"num": 95
+},
+{
+"tech": 1200,
+"num": 100
+}
+],
+"AreaUnlockFog": [
+{
+"x": 0,
+"z": 85,
+"sizeX": 125,
+"sizeY": 30
+},
+{
+"x": -56.4,
+"z": 0,
+"sizeX": 7,
+"sizeY": 60
+},
+{
+"x": 0,
+"z": -68.68,
+"sizeX": 60,
+"sizeY": 20
+},
+{
+"x": 87.57,
+"z": 0,
+"sizeX": 33,
+"sizeY": 60
+}
+],
+"MailForceClaimTime": 1209600,
+"MailSubTypeForceUpgrade": 16,
+"PersonalArmamentKill": 8,
+"RapidDevelopmentTask": 9,
+"TideOfIronTask": 10,
+"HeroCallTask": 11,
+"SurvivorSeriesTask": 12,
+"TechnologyTioneerTask": 13,
+"OverallDevelopTask": 14,
+"CleanWildernessTask": 15,
+"FoxHunterTask": 16,
+"PointWelfareTaskSubtype1": 17,
+"PointWelfareTaskSubtype2": 18,
+"RiseAtDawnTask": 19,
+"PathToProsperity": 20,
+"ThemeActivityFiveDays": 21,
+"MonsterHatchTask": 22,
+"AlliTreeTask": 23,
+"TurnOverCardsTask": 24,
+"SkinTask": 25,
+"MonopolyTask": 26,
+"SeasonReputationTask": 27,
+"SeasonChapterTask": 28,
+"SeasonScoreTask": 31,
+"AnniversaryTask": 29,
+"AnniversaryCelebrateTask": 30,
+"CumulativeIncubationTask": 32,
+"NewServerSprintTask": 33,
+"AdventureTask": 34,
+"MedalSuccessTask": 35,
+"AntPartyTask": 36,
+"GodzillaJigsawTask": 37,
+"GodzillaFlappyTask": 38,
+"GodzillaBattleTask": 39,
+"GodzillaWelfareTask": 40,
+"WeChatInvitationTask": 41,
+"ColorDiamondTask": 42,
+"SeasonIISparGetTask": 43,
+"SeasonRacePointGetTask": 44,
+"AccumulatedRechargeTask": 47,
+"DoubleGalaTask": 49,
+"FeedBeastSkinSuccessTask": 50,
+"AnniversaryIIIPuzzleTask": 53,
+"AnniversaryIIICelebrateTask": 54,
+"HeroDetachTask": 46,
+"AntHuntTask": 48,
+"ThanksGivingPuzzleTask": 64,
+"TurntableTask": 65,
+"FestivalHeroPathFinalRewards": 204132,
+"OpeningVideoSubtitle": [
+{
+"starttime": 2,
+"i18n": "Opening_Video_01"
+},
+{
+"starttime": 5,
+"i18n": "Opening_Video_02"
+},
+{
+"starttime": 11,
+"i18n": "Opening_Video_03"
+},
+{
+"starttime": 19,
+"i18n": "Opening_Video_04"
+}
+],
+"Mail_Guard_NormalAttack": "Skill_hero_610046",
+"Default_name": "统领",
+"GMAvatar": "PlayerAvatar_06",
+"GMAttiredBubble": 10003,
+"GuideNewHero": 1000131,
+"MailFacebookJump": "https://discord.gg/PazRBH8kCC",
+"SaleIcon": "icon_active_sale_01 ",
+"GiftUnlockLv": 5,
+"NoobChosingStateTime": 259200,
+"NoobChosingStateBaseLimit": 14,
+"OperationFlashPointLimit": 20,
+"OperationFlashPointRewardsPreview": [
+{
+"confid": 204023,
+"amount": 1
+},
+{
+"confid": 204002,
+"amount": 1
+},
+{
+"confid": 203004,
+"amount": 1
+},
+{
+"confid": 204042,
+"amount": 1
+}
+],
+"OperationFlashPointDefaultRewards": 217004,
+"FindRogersEventsInTotal": [
+1900014,
+1900032,
+1900033,
+1900034
+],
+"FindRogersRefresh": 86400,
+"FindRogersLimit": 20,
+"SpeicalMonsterRallyMaxium": 10,
+"SpeicalMonsterDailyRewards": 1,
+"FindRogersDefaultRewards": 217002,
+"FindRogersDefaultRewardsNew": 217201,
+"FindRogersRewardsPreview": [
+{
+"confid": 208368,
+"amount": 1
+},
+{
+"confid": 204002,
+"amount": 1
+},
+{
+"confid": 204023,
+"amount": 1
+},
+{
+"confid": 203004,
+"amount": 1
+}
+],
+"BestStateLvInterval": [
+{
+"lower": 6,
+"upper": 8
+},
+{
+"lower": 9,
+"upper": 10
+},
+{
+"lower": 11,
+"upper": 13
+},
+{
+"lower": 14,
+"upper": 16
+},
+{
+"lower": 17,
+"upper": 19
+},
+{
+"lower": 20,
+"upper": 22
+},
+{
+"lower": 23,
+"upper": 24
+},
+{
+"lower": 25,
+"upper": 25
+}
+],
+"BestStateRewardsUnlock": [
+{
+"techId": 7090301,
+"lower": 4,
+"upper": 6
+},
+{
+"techId": 7090901,
+"lower": 7,
+"upper": 9
+}
+],
+"BestStateTaskChoice": 2010201,
+"BestStateNoPointAddTask": [
+1
+],
+"BestStateShopRereshTime": 0,
+"BestStateNeedPoint": 3000,
+"BestStateRewardsDouble": 7091901,
+"BestStateNoticeTech": [
+13,
+14
+],
+"KingsWarOccupyTime": 28800,
+"KingsWarBatteryAttackTime": 30,
+"KingsWarBatteryAttackReduce": 100,
+"ScreenShowPlayerMax": 20,
+"KingsWarAppointTime": 14400,
+"KingsWarAppointRefreshTime": 0,
+"KingsWarGiftLimit": 1,
+"KingsWarMailLv": 15,
+"KingsWarMailCost": 2000,
+"KingsWarSpyCost": 30,
+"KingsWarPresidentGift": 80010001,
+"KingsTaskRefreshTime": 300,
+"KingsTaskStayTime": 64500,
+"KingsTaskPresidentExpPer": 35,
+"KingsTaskOfficialExpPer": 30,
+"KingsTaskPresidentExpLimit": 3200,
+"KingsTaskOfficialExpLimit": 3000,
+"KingsTaskCardNumInitial": [
+{
+"cardType": 1,
+"amount": 3
+},
+{
+"cardType": 2,
+"amount": 3
+}
+],
+"KingsTaskCardNumLimit": [
+{
+"cardType": 1,
+"amount": 6
+},
+{
+"cardType": 2,
+"amount": 6
+}
+],
+"CareerLvMax": 200,
+"RecruitTimeLimitItem": 204086,
+"RecruitTimeLimitGiftGroup": 29054,
+"RecruitTimeLimitRefresh": 2,
+"ExploreCallBackCost": 200,
+"VIPMailCost": 500,
+"AvatarUpColdTime": 86400,
+"AvatarUpOverTime": 10,
+"ShareCD": 600,
+"UnderAgeRange": [
+7,
+15,
+17
+],
+"UnderAgeOnceCost": [
+0,
+50,
+100
+],
+"UnderAgeMonthCost": [
+0,
+200,
+400
+],
+"UnderAgeWorkdayTime": 5400,
+"UnderAgeHolidayTime": 10800,
+"UnderAgePlayTime": {
+"lower": 28800,
+"upper": 79200
+},
+"SkinButtonLevel": 6,
+"ScoreLinkAndroid": "https://play.google.com/store/apps/details?id=",
+"ScoreReward": [
+{
+"itemId": 204023,
+"num": 1
+},
+{
+"itemId": 200077,
+"num": 5
+},
+{
+"itemId": 200201,
+"num": 1
+},
+{
+"itemId": 204042,
+"num": 1
+},
+{
+"itemId": 202003,
+"num": 5
+}
+],
+"ScoreUnlockLv": 8,
+"FeedBeastUnlockLv": 16,
+"FeedBeastFirstStage": 0.5,
+"FeedBeastSecondStage": 1,
+"FeedBeastReturnFeed": 0.8,
+"FeedBeastCollectProp": 0.25,
+"FeedBeastProduceTime": 120,
+"FeedBeastProduceRes": {
+"resId": 8,
+"num": 1000
+},
+"FeedBeastTime": 54000,
+"FeedBeastCostRes": [
+{
+"resId": 2,
+"num": 660000
+},
+{
+"resId": 4,
+"num": 520000
+},
+{
+"resId": 6,
+"num": 280000
+},
+{
+"resId": 7,
+"num": 180000
+}
+],
+"FeedBeastCostItem": [
+{
+"itemId": 204115,
+"num": 800
+},
+{
+"itemId": 204116,
+"num": 1
+}
+],
+"EventFeedBeast": 15,
+"EventFeedProduce": 16,
+"FeedBeastEggId": 204116,
+"FeedBeastTypeIcon": [
+{
+"pkg": "Icon",
+"name": "icon_herotag_02"
+},
+{
+"pkg": "Icon",
+"name": "icon_herotag_04"
+}
+],
+"FeedBeastTypeName": [
+"FeedBeast_ui_11",
+"FeedBeast_ui_10"
+],
+"FeedBeastExchangeItemId": 204117,
+"ADSWatchReward": [
+{
+"itemId": 204022,
+"num": 1
+},
+{
+"itemId": 200076,
+"num": 1
+},
+{
+"itemId": 204040,
+"num": 2
+},
+{
+"itemId": 202001,
+"num": 5
+}
+],
+"ADSWatchTimesDaily": 3,
+"ADSWatchCD": 300,
+"RescueNowUnlockLv": 8,
+"RescueNowAntsReward": [
+{
+"confid": 107000,
+"amount": 1000
+},
+{
+"confid": 107200,
+"amount": 1000
+},
+{
+"confid": 107100,
+"amount": 1000
+}
+],
+"ChatQuietCost": 0,
+"MarmotAttackEnergy": 0,
+"MissionMarmot": 17,
+"PreRegistrationReward": [
+{
+"confid": 200077,
+"amount": 5
+},
+{
+"confid": 202001,
+"amount": 10
+},
+{
+"confid": 200022,
+"amount": 1
+},
+{
+"confid": 202003,
+"amount": 3
+},
+{
+"confid": 204022,
+"amount": 3
+},
+{
+"confid": 203001,
+"amount": 1
+},
+{
+"confid": 204042,
+"amount": 1
+},
+{
+"confid": 204085,
+"amount": 10
+},
+{
+"confid": 204023,
+"amount": 1
+},
+{
+"confid": 200007,
+"amount": 1
+}
+],
+"PreRegistrationRewardTime": 1296000,
+"ResRobPara": [
+{
+"lower": -24,
+"upper": 2,
+"prop": 10000
+},
+{
+"lower": 3,
+"upper": 3,
+"prop": 8000
+},
+{
+"lower": 4,
+"upper": 4,
+"prop": 6500
+},
+{
+"lower": 5,
+"upper": 5,
+"prop": 5000
+},
+{
+"lower": 6,
+"upper": 24,
+"prop": 3000
+}
+],
+"ThemeActivityDailyItemLimit": 80,
+"ThemeActivityId": [
+1000109,
+1000110,
+1000111,
+1000112,
+1000127
+],
+"ThemeActivityItemId": [
+204124,
+204125,
+204126,
+204127,
+204176
+],
+"ThemeActivityRewardShow": [
+{
+"confid": 200000,
+"amount": 1
+}
+],
+"ThemeActivityBigRewardLv": [
+20
+],
+"ThemeActivityDefaultRewards": [
+{
+"confid": 1000109,
+"amount": 217008
+},
+{
+"confid": 1000110,
+"amount": 217011
+},
+{
+"confid": 1000111,
+"amount": 217014
+},
+{
+"confid": 1000112,
+"amount": 217017
+},
+{
+"confid": 1000127,
+"amount": 217026
+}
+],
+"ThemeActivityRewardsPreview": [
+{
+"confid": 1000109,
+"amount": 80000503
+},
+{
+"confid": 1000110,
+"amount": 80000504
+},
+{
+"confid": 1000111,
+"amount": 80000505
+},
+{
+"confid": 1000112,
+"amount": 80000506
+},
+{
+"confid": 1000127,
+"amount": 80002338
+}
+],
+"ThemeActivityRefresh": 7200,
+"WarReportColdTime": 30,
+"WarReportHoldTime": 86400,
+"WarReportVisibleLimit": 30000,
+"GiftPackIconCarouselNum": 4,
+"ProfessionChangeColdTime": 259200,
+"MarmotExtraRewardTimes": 20,
+"FreeGiftId": [
+2913601
+],
+"VisitNestUnlockLevel": 3,
+"LoginGiftLoopNum": 5,
+"FreeBuyCost": [
+0,
+3000,
+20000
+],
+"SkinCommonPieceId": [
+204114,
+204133
+],
+"BestStateRankUpPer": [
+0.2,
+0.2,
+0
+],
+"BestStateRankDownPer": [
+0,
+0.35,
+0.35
+],
+"BestStateMatchElo1": 1000,
+"BestStateMatchElo2": [
+6,
+6,
+4
+],
+"BestStateMatchElo3": [
+-2,
+-4,
+-4
+],
+"MissionCannon": 18,
+"SkinPiecesUseNum": 10,
+"SkinStarLvLimit": 12,
+"DeclarationChangeCost": 200,
+"DeclarationLengthLimit": 30,
+"ResAssistTimes": [
+40,
+50
+],
+"OpenGiftPackReport": 0,
+"CumulativeValueSpecial": [
+9500,
+100000,
+300000,
+400000
+],
+"DiscountedReward": [
+204088,
+204042,
+204067,
+204023
+],
+"ShareBeastCD": 180,
+"PayChangeServerLv": 15,
+"PayChangeServerCD": 2419200,
+"PayChangeServerGroup1": 50,
+"PayChangeServerGroup2": 6,
+"PayChangeServerPower": 10,
+"PayChangeServerNum": 300,
+"PayChangeServerModifyLvCD": 3600,
+"PayChangeServerLimitSpecial": [
+{
+"serverId": 2,
+"num": 0
+},
+{
+"serverId": 6,
+"num": 0
+},
+{
+"serverId": 60,
+"num": 0
+}
+],
+"PayChangeServerRejectApproval": 86400,
+"PayChangeServerDefaultLv": {
+"min": 15,
+"max": 25
+},
+"PayChangeServerMinLv": 15,
+"PayChangeServerMaxLv": 25,
+"PayChangeServerDefaultNum": 10,
+"PayChangeServerMinPower": 1,
+"PayChangeServerMaxPower": 9000000000,
+"NewChangeServerGroup": 50,
+"GVEMonsterMaxLevel": [
+60,
+25,
+1
+],
+"GVEMonsterIdInitial": [
+22001,
+22026,
+22051,
+22076,
+22101
+],
+"GVEBossIdInitial": [
+21001,
+21002,
+21003,
+21004,
+21005
+],
+"GVEMonsterTime": [
+3600,
+7200
+],
+"GVEOpenBossTitle": 4,
+"GVEHelpTimesLimit": 5,
+"GVEAttackBossTimes": 5,
+"GVERewardShow": [
+200080,
+200072,
+200050,
+200062,
+204115,
+204117,
+204066,
+202005
+],
+"BestStateCannonVacancy": 30,
+"BestStateCannonSecond": 30,
+"BestStateChangeOpponentTime": 14400,
+"BestStateScriptRunTime": 12600,
+"BestStatePreparationTime": 1800,
+"CannonNeedPower": 200000,
+"CannonNeedArmy": 50000,
+"CannonBuffTime": 14400,
+"CannonBuff": [
+{
+"buffId": 11800,
+"value": 20000
+},
+{
+"buffId": 11900,
+"value": 5000
+},
+{
+"buffId": 20900,
+"value": 4000000
+}
+],
+"CannonGarrisonRewardItem": 204029,
+"CannonGarrisonReward": 50,
+"CannonAttackRewardK1": 2000,
+"SeriouslyInjuredFactorPVE": 0.04,
+"AnthillHPReducePropLimit": 9000,
+"TimeLimitedWelfareTicketNum": 5,
+"RobotRallyJoinTime": 10,
+"MidAutumnRewardDisplay": [
+213044,
+213045,
+213046,
+213047
+],
+"FreeBuyTabId": 7,
+"FlappybirdRewardShow": [
+204023,
+204067,
+204066,
+200069
+],
+"FlappybirdScreenScrolling": 5,
+"FlappybirdObsStart": 15,
+"FlappybirdObsHorizontalSpace": 6,
+"FlappybirdObsChangeNeed": 24,
+"FlappybirdObsSpaceInitial": 1,
+"FlappybirdObsSpace": 0.25,
+"FlappybirdObsFloating": 3.5,
+"FlappybirdObsFloatingMax": 7,
+"FlappybirdObsLongChange": 0.75,
+"FlappybirdObsLongMin": 1.5,
+"FlappybirdUpSpeed": 6,
+"FlappybirdDownSpeed": 7,
+"FlappybirdDownSpeedAdd": 16,
+"FlappybirdFlyTimeMin": 0.3,
+"FlappybirdFlyClickIntervalMin": 0.3,
+"FlappybirdForcedEndTime": 18000,
+"FlappybirdScoreLimit": 999999,
+"FlappybirdPlayTime": 432000,
+"CNFlappybirdDistancePara": 3.8,
+"CNFlappybirdDistancStage": 60,
+"CNFlappybirdObsSpace": [
+0.4,
+0.17
+],
+"CNFlappybirdObsLongChange": [
+1.1,
+0.36
+],
+"SmallGamesPowerRecoveryTime": 3600,
+"SmallGamesPowerLimit": 12,
+"SmallGamesPowerItemLimit": 12,
+"BGInitialScore": 800,
+"BGVictoryScore": 60,
+"BGDefeatScore": -40,
+"BGVictoryReward": [
+{
+"itemId": 204160,
+"num": 3
+},
+{
+"itemId": 204022,
+"num": 1
+},
+{
+"itemId": 202035,
+"num": 4
+},
+{
+"itemId": 202033,
+"num": 12
+},
+{
+"itemId": 202018,
+"num": 4
+},
+{
+"itemId": 202017,
+"num": 12
+},
+{
+"itemId": 200005,
+"num": 6
+},
+{
+"itemId": 200003,
+"num": 20
+},
+{
+"itemId": 200020,
+"num": 6
+},
+{
+"itemId": 200018,
+"num": 20
+},
+{
+"itemId": 200043,
+"num": 4
+},
+{
+"itemId": 200041,
+"num": 10
+},
+{
+"itemId": 200055,
+"num": 4
+},
+{
+"itemId": 200053,
+"num": 10
+}
+],
+"BGDefeatReward": [
+{
+"itemId": 204160,
+"num": 2
+},
+{
+"itemId": 202035,
+"num": 2
+},
+{
+"itemId": 202033,
+"num": 6
+},
+{
+"itemId": 202018,
+"num": 2
+},
+{
+"itemId": 202017,
+"num": 6
+},
+{
+"itemId": 200005,
+"num": 3
+},
+{
+"itemId": 200003,
+"num": 10
+},
+{
+"itemId": 200020,
+"num": 3
+},
+{
+"itemId": 200018,
+"num": 10
+},
+{
+"itemId": 200043,
+"num": 2
+},
+{
+"itemId": 200041,
+"num": 5
+},
+{
+"itemId": 200055,
+"num": 2
+},
+{
+"itemId": 200053,
+"num": 5
+}
+],
+"MapTypeHold": 16,
+"MapTypeMercenary": 17,
+"MapTypeFieldMine": 18,
+"BGBeginTimeSelect": [
+216000,
+219600
+],
+"BGMatchServer": 1000,
+"BGMatchNum": [
+{
+"lower": 20,
+"upper": 29
+},
+{
+"lower": 30,
+"upper": 39
+},
+{
+"lower": 40,
+"upper": 49
+},
+{
+"lower": 50,
+"upper": 59
+},
+{
+"lower": 60,
+"upper": 69
+},
+{
+"lower": 70,
+"upper": 79
+},
+{
+"lower": 80,
+"upper": 89
+},
+{
+"lower": 90,
+"upper": 99
+},
+{
+"lower": 100,
+"upper": 100
+}
+],
+"BGMatchNumAverage": [
+{
+"lower": 0,
+"upper": 9
+},
+{
+"lower": 10,
+"upper": 19
+},
+{
+"lower": 20,
+"upper": 29
+},
+{
+"lower": 30,
+"upper": 39
+},
+{
+"lower": 40,
+"upper": 49
+},
+{
+"lower": 50,
+"upper": 59
+},
+{
+"lower": 60,
+"upper": 69
+},
+{
+"lower": 70,
+"upper": 79
+},
+{
+"lower": 80,
+"upper": 89
+},
+{
+"lower": 90,
+"upper": 100
+}
+],
+"BGPrepareTime": 600,
+"BGBeginCountDown": 60,
+"BGGameDuration": 3600,
+"BGReviveFloraScoreK1": 0.6,
+"BGReviveFloraScoreK2": 0.2,
+"BGMoveAnthillEnergyCost": [
+30,
+200
+],
+"BGMoveAnthillEnergyGrow": {
+"time": 1,
+"num": 1
+},
+"BGMoveAnthillEnergyLimit": 200,
+"BGAnthillHPGrowAdd": 2.5,
+"BGAllianceScorePara": 1,
+"BGKillScore": [
+{
+"armyLv": 10,
+"score": 20
+},
+{
+"armyLv": 9,
+"score": 18
+},
+{
+"armyLv": 8,
+"score": 15
+},
+{
+"armyLv": 7,
+"score": 12
+},
+{
+"armyLv": 6,
+"score": 10
+},
+{
+"armyLv": 5,
+"score": 8
+},
+{
+"armyLv": 4,
+"score": 5
+},
+{
+"armyLv": 3,
+"score": 3
+},
+{
+"armyLv": 2,
+"score": 2
+},
+{
+"armyLv": 1,
+"score": 1
+}
+],
+"BGBuff": [
+{
+"buffId": 10503
+},
+{
+"buffId": -7000
+}
+],
+"BGRallyTimeSelect": [
+120,
+180,
+300,
+600
+],
+"MissionFieldMine": 19,
+"TypedBuffCannon": 25,
+"TypedBuffBG": 26,
+"BGUnlockTime": 180,
+"BGAnthillHPScoreK1": 0.067,
+"BGAnthillHPScoreK2": 0,
+"AllianceMoveCityLv": 13,
+"UnderCaveScoreHeroLv": [
+{
+"color": 1,
+"score": 100
+},
+{
+"color": 2,
+"score": 320
+},
+{
+"color": 3,
+"score": 1000
+},
+{
+"color": 4,
+"score": 1600
+}
+],
+"UnderCaveScoreHeroSkillLv": [
+{
+"color": 1,
+"score": 200
+},
+{
+"color": 2,
+"score": 500
+},
+{
+"color": 3,
+"score": 1100
+},
+{
+"color": 4,
+"score": 2300
+}
+],
+"UnderCaveScoreHeroSkillStar": [
+{
+"color": 1,
+"score": 3000
+},
+{
+"color": 2,
+"score": 3300
+},
+{
+"color": 3,
+"score": 3600
+},
+{
+"color": 4,
+"score": 3900
+},
+{
+"color": 5,
+"score": 4200
+},
+{
+"color": 6,
+"score": 4500
+},
+{
+"color": 7,
+"score": 4800
+},
+{
+"color": 8,
+"score": 5100
+}
+],
+"UnderCaveScoreHeroMutatePara": [
+{
+"id": 722001000,
+"para": 1
+},
+{
+"id": 722002000,
+"para": 1.05
+},
+{
+"id": 722003000,
+"para": 1.1
+},
+{
+"id": 722004000,
+"para": 1.15
+},
+{
+"id": 722005000,
+"para": 1.2
+},
+{
+"id": 722006000,
+"para": 1.25
+},
+{
+"id": 722007000,
+"para": 1.3
+},
+{
+"id": 722008000,
+"para": 1.35
+},
+{
+"id": 722009000,
+"para": 1.4
+},
+{
+"id": 722010000,
+"para": 1.4
+},
+{
+"id": 722011000,
+"para": 1.4
+},
+{
+"id": 722012000,
+"para": 1.4
+}
+],
+"UnderCaveScoreHeroMutateLv": [
+{
+"level": 1,
+"score": 1000
+},
+{
+"level": 2,
+"score": 1000
+},
+{
+"level": 3,
+"score": 1000
+},
+{
+"level": 4,
+"score": 1000
+},
+{
+"level": 5,
+"score": 1000
+},
+{
+"level": 6,
+"score": 1000
+},
+{
+"level": 7,
+"score": 1000
+},
+{
+"level": 8,
+"score": 1000
+},
+{
+"level": 9,
+"score": 1000
+},
+{
+"level": 10,
+"score": 1000
+},
+{
+"level": 11,
+"score": 1000
+},
+{
+"level": 12,
+"score": 1000
+},
+{
+"level": 13,
+"score": 1000
+},
+{
+"level": 14,
+"score": 1000
+},
+{
+"level": 15,
+"score": 1000
+},
+{
+"level": 16,
+"score": 1000
+},
+{
+"level": 17,
+"score": 1000
+},
+{
+"level": 18,
+"score": 1000
+},
+{
+"level": 19,
+"score": 1000
+},
+{
+"level": 20,
+"score": 1400
+},
+{
+"level": 21,
+"score": 1400
+},
+{
+"level": 22,
+"score": 1400
+},
+{
+"level": 23,
+"score": 1400
+},
+{
+"level": 24,
+"score": 1400
+},
+{
+"level": 25,
+"score": 1400
+},
+{
+"level": 26,
+"score": 1400
+},
+{
+"level": 27,
+"score": 1400
+},
+{
+"level": 28,
+"score": 1400
+},
+{
+"level": 29,
+"score": 1400
+},
+{
+"level": 30,
+"score": 1400
+},
+{
+"level": 31,
+"score": 1400
+},
+{
+"level": 32,
+"score": 1400
+},
+{
+"level": 33,
+"score": 1400
+},
+{
+"level": 34,
+"score": 1400
+},
+{
+"level": 35,
+"score": 1400
+},
+{
+"level": 36,
+"score": 1400
+},
+{
+"level": 37,
+"score": 1400
+},
+{
+"level": 38,
+"score": 1400
+},
+{
+"level": 39,
+"score": 1400
+},
+{
+"level": 40,
+"score": 1800
+},
+{
+"level": 41,
+"score": 1800
+},
+{
+"level": 42,
+"score": 1800
+},
+{
+"level": 43,
+"score": 1800
+},
+{
+"level": 44,
+"score": 1800
+},
+{
+"level": 45,
+"score": 1800
+},
+{
+"level": 46,
+"score": 1800
+},
+{
+"level": 47,
+"score": 1800
+},
+{
+"level": 48,
+"score": 1800
+},
+{
+"level": 49,
+"score": 1800
+},
+{
+"level": 50,
+"score": 1800
+},
+{
+"level": 51,
+"score": 1800
+},
+{
+"level": 52,
+"score": 1800
+},
+{
+"level": 53,
+"score": 1800
+},
+{
+"level": 54,
+"score": 1800
+},
+{
+"level": 55,
+"score": 1800
+},
+{
+"level": 56,
+"score": 1800
+},
+{
+"level": 57,
+"score": 1800
+},
+{
+"level": 58,
+"score": 1800
+},
+{
+"level": 59,
+"score": 1800
+},
+{
+"level": 60,
+"score": 2500
+}
+],
+"UnderCaveScoreBeastStar": [
+{
+"color": 2,
+"score": 7000
+},
+{
+"color": 3,
+"score": 14000
+},
+{
+"color": 4,
+"score": 36000
+}
+],
+"UnderCaveScoreBeastTalentPoint": [
+{
+"color": 2,
+"score": 300
+},
+{
+"color": 3,
+"score": 600
+},
+{
+"color": 4,
+"score": 1500
+}
+],
+"UnderCaveScoreBeastTalentBreak": [
+{
+"color": 2,
+"score": 500
+},
+{
+"color": 3,
+"score": 1000
+},
+{
+"color": 4,
+"score": 2500
+}
+],
+"UnderCaveScoreCellsStarLv": [
+{
+"color": 2,
+"score": 754
+},
+{
+"color": 3,
+"score": 943
+},
+{
+"color": 4,
+"score": 1131
+},
+{
+"color": 5,
+"score": 1508
+},
+{
+"color": 6,
+"score": 1886
+},
+{
+"color": 7,
+"score": 2451
+},
+{
+"color": 8,
+"score": 3017
+}
+],
+"UnderCaveScoreCellsBreak": [
+{
+"color": 1,
+"score": 132000
+},
+{
+"color": 2,
+"score": 264000
+},
+{
+"color": 3,
+"score": 293000
+},
+{
+"color": 4,
+"score": 323000
+},
+{
+"color": 5,
+"score": 352000
+},
+{
+"color": 6,
+"score": 381000
+},
+{
+"color": 7,
+"score": 411000
+},
+{
+"color": 8,
+"score": 440000
+},
+{
+"color": 9,
+"score": 469000
+},
+{
+"color": 10,
+"score": 499000
+},
+{
+"color": 11,
+"score": 528000
+},
+{
+"color": 12,
+"score": 557000
+},
+{
+"color": 13,
+"score": 587000
+},
+{
+"color": 14,
+"score": 616000
+},
+{
+"color": 15,
+"score": 645000
+},
+{
+"color": 16,
+"score": 675000
+},
+{
+"color": 17,
+"score": 704000
+},
+{
+"color": 18,
+"score": 733000
+},
+{
+"color": 19,
+"score": 763000
+},
+{
+"color": 20,
+"score": 792000
+}
+],
+"CellsInitial": [
+{
+"itemId": 210001,
+"num": 1
+},
+{
+"itemId": 210002,
+"num": 1
+},
+{
+"itemId": 210003,
+"num": 1
+},
+{
+"itemId": 210004,
+"num": 1
+},
+{
+"itemId": 210005,
+"num": 1
+},
+{
+"itemId": 210006,
+"num": 1
+}
+],
+"CellsNumLimit": 10000,
+"TypedBuffCell": 27,
+"CellsDropUnlockLv": 10,
+"VipContinuousSignInDays": 30,
+"VipOpenLv": 15,
+"MonsterTypeBattle": 4,
+"CellsStarLimit": 7,
+"HalloweenDailyRewardMaxGetNum": 20,
+"ReportCD": 600,
+"ReportNeedLv": 5,
+"BroadcastPara": 15,
+"UnderCaveScoreGeneStarLv": [
+{
+"color": 1,
+"score": 348
+},
+{
+"color": 2,
+"score": 444
+},
+{
+"color": 3,
+"score": 570
+},
+{
+"color": 4,
+"score": 716
+},
+{
+"color": 5,
+"score": 982
+},
+{
+"color": 6,
+"score": 1236
+},
+{
+"color": 7,
+"score": 1552
+},
+{
+"color": 8,
+"score": 1964
+},
+{
+"color": 9,
+"score": 2503
+},
+{
+"color": 10,
+"score": 3168
+}
+],
+"UnderCaveScoreGeneBreak": [
+{
+"color": 1,
+"score": 105600
+},
+{
+"color": 2,
+"score": 211200
+},
+{
+"color": 3,
+"score": 235000
+},
+{
+"color": 4,
+"score": 258000
+},
+{
+"color": 5,
+"score": 282000
+},
+{
+"color": 6,
+"score": 305000
+},
+{
+"color": 7,
+"score": 329000
+},
+{
+"color": 8,
+"score": 352000
+},
+{
+"color": 9,
+"score": 375000
+},
+{
+"color": 10,
+"score": 399000
+},
+{
+"color": 11,
+"score": 422000
+},
+{
+"color": 12,
+"score": 446000
+},
+{
+"color": 13,
+"score": 469000
+},
+{
+"color": 14,
+"score": 493000
+},
+{
+"color": 15,
+"score": 516000
+},
+{
+"color": 16,
+"score": 540000
+},
+{
+"color": 17,
+"score": 563000
+},
+{
+"color": 18,
+"score": 587000
+},
+{
+"color": 19,
+"score": 610000
+},
+{
+"color": 20,
+"score": 633600
+}
+],
+"RewardTypeCurrency": 7,
+"ThanksGivingRewardDisplay": [
+204132,
+204115,
+200083,
+204116
+],
+"AntsGettingInformationKeepNum": 60,
+"BGShopRefreshRounds": 1,
+"ShareRecordCD": 180,
+"UnderCaveScoreGermStarLv": [
+{
+"color": 1,
+"score": 348
+},
+{
+"color": 2,
+"score": 444
+},
+{
+"color": 3,
+"score": 570
+},
+{
+"color": 4,
+"score": 716
+},
+{
+"color": 5,
+"score": 982
+},
+{
+"color": 6,
+"score": 1236
+},
+{
+"color": 7,
+"score": 1552
+},
+{
+"color": 8,
+"score": 1964
+},
+{
+"color": 9,
+"score": 2503
+},
+{
+"color": 10,
+"score": 3168
+}
+],
+"UnderCaveScoreGermBreak": [
+{
+"color": 1,
+"score": 105600
+},
+{
+"color": 2,
+"score": 211200
+},
+{
+"color": 3,
+"score": 235000
+},
+{
+"color": 4,
+"score": 258000
+},
+{
+"color": 5,
+"score": 282000
+},
+{
+"color": 6,
+"score": 305000
+},
+{
+"color": 7,
+"score": 329000
+},
+{
+"color": 8,
+"score": 352000
+},
+{
+"color": 9,
+"score": 375000
+},
+{
+"color": 10,
+"score": 399000
+},
+{
+"color": 11,
+"score": 422000
+},
+{
+"color": 12,
+"score": 446000
+},
+{
+"color": 13,
+"score": 469000
+},
+{
+"color": 14,
+"score": 493000
+},
+{
+"color": 15,
+"score": 516000
+},
+{
+"color": 16,
+"score": 540000
+},
+{
+"color": 17,
+"score": 563000
+},
+{
+"color": 18,
+"score": 587000
+},
+{
+"color": 19,
+"score": 610000
+},
+{
+"color": 20,
+"score": 633600
+}
+],
+"HeroRecruit10TimesCost": {
+"item_id": 204023,
+"amount": 9
+},
+"ResignedCostDiamonds": 50,
+"ActivityOpenDay": 14,
+"ReportCollection": 10,
+"UnderCaveScoreFungusLv": [
+{
+"color": 1,
+"score": 2031
+},
+{
+"color": 2,
+"score": 4062
+},
+{
+"color": 3,
+"score": 6093
+},
+{
+"color": 4,
+"score": 8124
+},
+{
+"color": 5,
+"score": 10155
+},
+{
+"color": 6,
+"score": 12186
+},
+{
+"color": 7,
+"score": 14217
+},
+{
+"color": 8,
+"score": 16248
+},
+{
+"color": 9,
+"score": 18279
+},
+{
+"color": 10,
+"score": 20310
+},
+{
+"color": 11,
+"score": 22341
+},
+{
+"color": 12,
+"score": 24372
+},
+{
+"color": 13,
+"score": 26403
+},
+{
+"color": 14,
+"score": 28434
+},
+{
+"color": 15,
+"score": 30465
+},
+{
+"color": 16,
+"score": 32496
+},
+{
+"color": 17,
+"score": 34527
+},
+{
+"color": 18,
+"score": 36558
+},
+{
+"color": 19,
+"score": 38589
+},
+{
+"color": 20,
+"score": 40620
+},
+{
+"color": 21,
+"score": 42651
+},
+{
+"color": 22,
+"score": 44682
+},
+{
+"color": 23,
+"score": 46713
+},
+{
+"color": 24,
+"score": 48744
+},
+{
+"color": 25,
+"score": 50775
+},
+{
+"color": 26,
+"score": 52806
+},
+{
+"color": 27,
+"score": 54837
+},
+{
+"color": 28,
+"score": 56868
+},
+{
+"color": 29,
+"score": 58899
+},
+{
+"color": 30,
+"score": 60930
+},
+{
+"color": 31,
+"score": 62961
+},
+{
+"color": 32,
+"score": 64992
+},
+{
+"color": 33,
+"score": 67023
+},
+{
+"color": 34,
+"score": 69054
+}
+],
+"UnderCaveScoreFungusSheetLv": [
+{
+"color": 1,
+"score": 4062
+},
+{
+"color": 2,
+"score": 8124
+},
+{
+"color": 3,
+"score": 12186
+},
+{
+"color": 4,
+"score": 16248
+},
+{
+"color": 5,
+"score": 20310
+},
+{
+"color": 6,
+"score": 24372
+},
+{
+"color": 7,
+"score": 28434
+},
+{
+"color": 8,
+"score": 32496
+},
+{
+"color": 9,
+"score": 36558
+},
+{
+"color": 10,
+"score": 40620
+},
+{
+"color": 11,
+"score": 44682
+},
+{
+"color": 12,
+"score": 48744
+},
+{
+"color": 13,
+"score": 52806
+},
+{
+"color": 14,
+"score": 56868
+},
+{
+"color": 15,
+"score": 60930
+},
+{
+"color": 16,
+"score": 64992
+},
+{
+"color": 17,
+"score": 69054
+},
+{
+"color": 18,
+"score": 73116
+},
+{
+"color": 19,
+"score": 77178
+},
+{
+"color": 20,
+"score": 81240
+},
+{
+"color": 21,
+"score": 85302
+},
+{
+"color": 22,
+"score": 89364
+},
+{
+"color": 23,
+"score": 93426
+},
+{
+"color": 24,
+"score": 97488
+}
+],
+"UnderCaveScoreFungusBreak": [
+{
+"color": 1,
+"score": 105600
+},
+{
+"color": 2,
+"score": 211200
+},
+{
+"color": 3,
+"score": 235000
+},
+{
+"color": 4,
+"score": 258000
+},
+{
+"color": 5,
+"score": 282000
+},
+{
+"color": 6,
+"score": 305000
+},
+{
+"color": 7,
+"score": 329000
+},
+{
+"color": 8,
+"score": 352000
+},
+{
+"color": 9,
+"score": 375000
+},
+{
+"color": 10,
+"score": 399000
+},
+{
+"color": 11,
+"score": 422000
+},
+{
+"color": 12,
+"score": 446000
+},
+{
+"color": 13,
+"score": 469000
+},
+{
+"color": 14,
+"score": 493000
+},
+{
+"color": 15,
+"score": 516000
+},
+{
+"color": 16,
+"score": 540000
+},
+{
+"color": 17,
+"score": 563000
+},
+{
+"color": 18,
+"score": 587000
+},
+{
+"color": 19,
+"score": 610000
+},
+{
+"color": 20,
+"score": 633600
+}
+],
+"MissionWatering": 20,
+"MissionGetReward": 21,
+"MapTypeAlliTree": 19,
+"BuildingStarExp": [
+{
+"type": 7,
+"area": 3,
+"exp": 500
+},
+{
+"type": 7,
+"area": 1,
+"exp": 100
+}
+],
+"BuildingCommonPieceId": [
+204150
+],
+"BuildingPiecesUseNum": 10,
+"BuildingStarLvLimit": 10,
+"EventBuildingReinforce": 17,
+"LimitGiftPackOpenCondition": 16,
+"QueueSkinCommonPieceId": [
+204200,
+204201
+],
+"RewardTypeCell": 8,
+"RewardTypeGene": 9,
+"RewardTypeGerm": 10,
+"RewardTypeSsAlliRes": 11,
+"MonopolyRallyMonsterLiveTime": 7200,
+"CommunityBanner": [
+"community_banner_1",
+"community_banner_2",
+"community_banner_3",
+"community_banner_4"
+],
+"CommunityTitle": [
+"IntegrateCommunity_02",
+"IntegrateCommunity_03",
+"IntegrateCommunity_04",
+"IntegrateCommunity_05"
+],
+"MonopolyRallyFirstRewardTimes": 2,
+"MonopolyRallyRewardTimes": 8,
+"AlliChangeLocationTimes": 1,
+"AlliPlayerChangeLocation": [
+4,
+5
+],
+"CommunityJump": "https://discord.gg/theantsofficial",
+"MissionAllianceBoss": 22,
+"AlliAttendance": [
+45,
+25
+],
+"AlliKickFactor": [
+{
+"min": 0,
+"max": 15,
+"num": 0
+},
+{
+"min": 16,
+"max": 30,
+"num": 0.0667
+},
+{
+"min": 31,
+"max": 40,
+"num": 0.1
+},
+{
+"min": 41,
+"max": 45,
+"num": 0.1333
+},
+{
+"min": 46,
+"max": 50,
+"num": 0.2
+},
+{
+"min": 51,
+"max": -1,
+"num": 0.4545
+}
+],
+"MarmotDailyMaxTimes": 20,
+"MapTypeBuilding": 5,
+"MapTypeCampSeason": 6,
+"MapTypeTerrain": 7,
+"MapTypeTower": 8,
+"MapTypeFortSeason": 9,
+"MapTypeWall": 10,
+"MapTypeMineSeason": 20,
+"MapTypeAlliMineSeason": 21,
+"AlliSwapGuidance": 4,
+"SeriouslyInjuredFactorSeasonCity": 0.1,
+"SeriouslyInjuredFactorSeasonField": 0.1,
+"OrangeMonsterLogLimited": 60,
+"ShareAllianceCD": 1,
+"BattleRegistrationRecordLimited": 20,
+"KingsWarLevelLimited": 14,
+"KingsWarTimeLimited": 86400,
+"AlliOnlineActivePoints": [
+{
+"min": 0,
+"max": 3600,
+"point": 10000
+},
+{
+"min": 3601,
+"max": 18000,
+"point": 20000
+},
+{
+"min": 18001,
+"max": -1,
+"point": 50000
+}
+],
+"OpenActivitiesOpenLv": 3,
+"AlliInviteableLv": 7,
+"AlliNotOnlineTime": 86400,
+"SsCrossServerJoinAlliCD": 1814400,
+"SsCrossServerJoinAlliStartTime": 3000,
+"SsCrossServerJoinAlliCloseTime": 3600,
+"SsCrossServerJoinAlliLvLimit": 23,
+"SsCrossServerJoinAlliPowerInitial": 300000,
+"SsCrossServerJoinAlliActiveMember": 20,
+"SsCrossServerJoinWordLimit": 400,
+"SsCrossServerJoinArmyLimit": {
+"armyLv": 8,
+"playerNum": 25
+},
+"SsCrossServerJoinAlliEvolutionScoreLimit": 1200,
+"SsCrossServerActiveDay": 3,
+"SsCrossServerAlliMemberJoinArmyLimit": 8,
+"SsCrossServerAlliMemberJoinAntLvLimit": 23,
+"SsCrossServerMaxArmyLv": 10,
+"SsCrossServerDeleteAccountLvLimit": 23,
+"RoleNumberLimit": 30,
+"PreventArmyConsumePara": 0.2,
+"AlliLeaderAssemble": [
+{
+"min": 0,
+"max": 0,
+"num": 0.4
+},
+{
+"min": 1,
+"max": 9,
+"num": 0.5
+},
+{
+"min": 10,
+"max": 19,
+"num": 0.8
+},
+{
+"min": 20,
+"max": -1,
+"num": 1
+}
+],
+"SeriouslyInjuredFactorSeasonField1": 0,
+"DailyMustOpenLevelLimit": 10,
+"BestStateServerLimit": 550,
+"CNJoinCommunity": [
+{
+"id": 1,
+"icon": "cn_community_icon_02",
+"text": "cn_jioncommunity_ui_01"
+},
+{
+"id": 2,
+"icon": "cn_community_icon_01",
+"text": "cn_jioncommunity_ui_02"
+},
+{
+"id": 3,
+"icon": "cn_community_icon_04",
+"text": "cn_jioncommunity_ui_03"
+},
+{
+"id": 4,
+"icon": "cn_community_icon_03",
+"text": "cn_jioncommunity_ui_04"
+}
+],
+"CNJoinCommunityBlockChannel": [
+"41",
+"710",
+"730",
+"375",
+"14",
+"713",
+"9",
+"50",
+"123",
+"252",
+"705",
+"16",
+"247",
+"569",
+"181",
+"12",
+"417",
+"666",
+"2"
+],
+"CommunityJumpSwitch": 1,
+"CellsEvoStar": 7,
+"CellsEvoBuilding": [
+{
+"confId": 4094000,
+"level": 25
+},
+{
+"confId": 4000000,
+"level": 25
+}
+],
+"CellsEvoMaxLv": 50,
+"CNServerPaging": 50,
+"UnderCaveScoreCellsEvolutionLv": 3078,
+"UnderCaveScoreHeroAwakeAdvance": [
+{
+"color": 1,
+"score": 10110
+},
+{
+"color": 2,
+"score": 20220
+},
+{
+"color": 3,
+"score": 40440
+},
+{
+"color": 4,
+"score": 70770
+}
+],
+"UnderCaveScoreHeroAwakeLevel": 3500,
+"CNOpenServiceDelayTime": 300,
+"SearchMonsterLevel": {
+"min": 1,
+"max": 3
+},
+"SearchMonsterExistenceTime": 3600,
+"PresetQueenTabUnlockLevel": [
+{
+"queue": 1,
+"lv": 1
+},
+{
+"queue": 2,
+"lv": 16
+},
+{
+"queue": 3,
+"lv": 22
+},
+{
+"queue": 4,
+"lv": 25
+}
+],
+"PresetQueenTabMaxNum": 4,
+"CNSensitiveWordRestriction": 0,
+"CellsBreakMaxLv": 20,
+"CNChannelEvaluationCondition": 10,
+"CNChannelEvaluationCD": 259200,
+"CNIntoGameQueueTime": 10,
+"OpenActivitiesNewSurpriseFig": 1691435100,
+"CNAntRadioOpenLv": 5,
+"CNResRobLevelPara": [
+{
+"minLv": 1,
+"maxLv": 10,
+"prop": 500
+},
+{
+"minLv": 11,
+"maxLv": 13,
+"prop": 1000
+},
+{
+"minLv": 14,
+"maxLv": 16,
+"prop": 2000
+},
+{
+"minLv": 17,
+"maxLv": 17,
+"prop": 3000
+},
+{
+"minLv": 18,
+"maxLv": 18,
+"prop": 4500
+},
+{
+"minLv": 19,
+"maxLv": 19,
+"prop": 6000
+},
+{
+"minLv": 20,
+"maxLv": 25,
+"prop": 10000
+}
+],
+"CNEstimatedQueueMaxTime": 7200,
+"CNEstimatedQueueMinTime": 60,
+"CNChatLimitInterval": 5,
+"CNAutoRenewalChannel": [
+"17",
+"46",
+"785"
+],
+"CNAutoRenewalChannelSwitch": true,
+"CNSprayMelonDiamondsNum": 100000000,
+"CNSprayMelonDiamondsProgressRefresh": 10,
+"CNSprayMelonMaturityPeriodNum": 2,
+"CNSprayMelonAvailableTimes": 1,
+"CNSprayMelonFloatModulus": {
+"min": 0.9,
+"max": 1.1
+},
+"CNSprayMelonTimeModulus": [
+0.6,
+0.9
+],
+"CNSprayMelonModulusA": 5000,
+"CNSprayMelonModulusB": 0.5,
+"CNSprayMelonModulusRounding": 10,
+"CNSprayMelonMaturityPeriodTime": [
+{
+"startTime": 14400,
+"endTime": 21600
+},
+{
+"startTime": 39600,
+"endTime": 46800
+}
+],
+"CNSprayMelonDiamondsPool": [
+{
+"giftId": 2553572,
+"weight": 100
+},
+{
+"giftId": 2553573,
+"weight": 100
+},
+{
+"giftId": 2553574,
+"weight": 100
+},
+{
+"giftId": 2553575,
+"weight": 100
+}
+],
+"CNRegionalBlessingSignGet": {
+"itemId": 204507,
+"num": 1
+},
+"CNRegionalBlessingRecharge": {
+"itemId": 204507,
+"num": 1
+},
+"CNRegionalBlessingMarchConsumption": {
+"itemId": 204507,
+"num": 1
+},
+"CNRegionalBlessingMarchMaxTime": 180,
+"CNRegionalBlessingEffectDifferent": {
+"time": 180,
+"num": 10
+},
+"MissionRegionalBlessing": 28,
+"CNRegionalBlessingRewardsPreview": [
+{
+"type": 204042,
+"confId": 1
+},
+{
+"type": 204022,
+"confId": 1
+},
+{
+"type": 204067,
+"confId": 1
+},
+{
+"type": 202003,
+"confId": 1
+}
+],
+"CNGVEMonsterMaxLevel": [
+65,
+90
+],
+"CNGVEMonsterIdInitial": 32101,
+"CNGVEBossIdInitial": 31101,
+"CNGVEOpenBossTitle": 4,
+"CNGVEPromoteLevel": 1,
+"CNGVEDailyPromoteLevel": 10,
+"CNGVEServerGroup1": [
+{
+"activityId": 0,
+"num": 5
+},
+{
+"activityId": 1000405,
+"num": 10
+}
+],
+"CNGVESingleRank": [
+{
+"min": 1,
+"max": 1,
+"rewardId": 60000032
+},
+{
+"min": 2,
+"max": 5,
+"rewardId": 60000033
+},
+{
+"min": 6,
+"max": 10,
+"rewardId": 60000034
+},
+{
+"min": 11,
+"max": 20,
+"rewardId": 60000035
+},
+{
+"min": 21,
+"max": 50,
+"rewardId": 60000036
+},
+{
+"min": 51,
+"max": 100,
+"rewardId": 60000037
+},
+{
+"min": 101,
+"max": 200,
+"rewardId": 60000038
+},
+{
+"min": 201,
+"max": -1,
+"rewardId": 60000039
+}
+],
+"CNGVEAlliRank": [
+{
+"min": 1,
+"max": 1,
+"rewardId": 60000040
+},
+{
+"min": 2,
+"max": 5,
+"rewardId": 60000041
+},
+{
+"min": 6,
+"max": 15,
+"rewardId": 60000042
+},
+{
+"min": 16,
+"max": -1,
+"rewardId": 60000043
+}
+],
+"CNGVESingleMaxRank": 200,
+"CNGVEAlliMaxRank": 50,
+"CNGVEAlliRewardPreview": [
+{
+"confid": 200079,
+"amount": 1
+},
+{
+"confid": 204117,
+"amount": 1
+},
+{
+"confid": 204115,
+"amount": 1
+},
+{
+"confid": 204066,
+"amount": 1
+}
+],
+"CNGVEBossBeAttackedUpperLimit": 650,
+"BGSignUpLimit": 20,
+"CNAllianceShieldOpenCD": 86400,
+"CNAllianceShieldRecordNum": 50,
+"CNAllianceShieldOpenNum": 10,
+"CNKingsWarPreviewMail": 172800,
+"MissionMarmotRevenge": 31,
+"SeriouslyInjuredMine": 0.1,
+"CNPlunderRankListingConditions": [
+{
+"day": 1,
+"condition": 5
+},
+{
+"day": 2,
+"condition": 10
+},
+{
+"day": 3,
+"condition": 15
+},
+{
+"day": 4,
+"condition": 20
+},
+{
+"day": 5,
+"condition": 25
+},
+{
+"day": 6,
+"condition": 30
+},
+{
+"day": 7,
+"condition": 30
+}
+],
+"CNPlunderRankMaxShow": 50,
+"CNPlunderRankPersonalMaxShow": 500,
+"CNPlunderRankRefreshTime": 604800,
+"CNPlunderRankIsOpen": true,
+"CNPlunderRanksOpenCondition": 3,
+"CNPlunderRanksModulus": 30,
+"CNShareGameLvLimit": 6,
+"CNShareGameSpecializedAntLvLimit": 5,
+"CNShareGameAntLvPop": [
+{
+"lv": 10,
+"buildingId": 4093000
+},
+{
+"lv": 10,
+"buildingId": 4094000
+},
+{
+"lv": 16,
+"buildingId": 4301000
+},
+{
+"lv": 16,
+"buildingId": 4302000
+},
+{
+"lv": 16,
+"buildingId": 4303000
+}
+],
+"CNShareGameGetAccelerate": {
+"itemId": 202001,
+"num": 1
+},
+"CNShareGameGetVipPoints": {
+"itemId": 204169,
+"num": 1
+},
+"CNShareGameVipNumLimit": 1,
+"CNShareGameAccelerateNumLimit": 1,
+"CNShareGameHatchNumLimit": 1,
+"CNShareGameHatchRewards": [
+{
+"itemId": 204021,
+"num": 1
+},
+{
+"itemId": 200074,
+"num": 1
+}
+],
+"CNPlunderRedNameMaxLv": 5,
+"CNPlunderRedNameLvUp": 1,
+"CNPlunderRedNameConditions": 50,
+"CNPlunderRedNameTimeConditions": 8,
+"CNRelocationServiceApproval": 25,
+"CNShareGameAntLv10Pop": [
+4093000,
+4094000
+],
+"CNShareGameAntLv16Pop": [
+4301000,
+4302000,
+4303000
+],
+"CNChannelEvaluationAppointAnt": [
+1000161,
+1000164,
+1000163,
+1000177,
+1000165
+],
+"CNShareOrangeAntCD": 180,
+"CNNewChangeProhibitRelocationService": 604800,
+"CNBlackLandNestMigrationLvLimit": 16,
+"CNHeroChipGiftID": [
+2553623,
+2553624,
+2553625
+],
+"CNHeroChipGiftIcon": [
+"gift_icon_29185",
+"gift_icon_29288",
+"gift_icon_29287"
+],
+"CNAllianceRecommendRefreshTime": 600,
+"CNAllianceSameIPAccountLimit": 5,
+"CNAllianceRecommend": 26,
+"CNAllianceSameIPTimeLimit": 604800,
+"BGAllianceActiveDay": 3,
+"CNAllianceSignInWithInDays": 3,
+"CNSeasonWatchTheBattleNumber": [
+12969413,
+17851383,
+18368355,
+18240898,
+18097037,
+18096834,
+17980420,
+17978176,
+22457396,
+22456120,
+22457660,
+22457009,
+22456239,
+10574741,
+22443810,
+23522764
+],
+"CNDuelOfQueensGloryQuota": [
+{
+"time": 1,
+"num": 100
+},
+{
+"time": 10,
+"num": 120
+},
+{
+"time": 15,
+"num": 140
+},
+{
+"time": 20,
+"num": 160
+},
+{
+"time": 25,
+"num": 180
+},
+{
+"time": 30,
+"num": 200
+},
+{
+"time": 35,
+"num": 220
+},
+{
+"time": 40,
+"num": 240
+}
+],
+"SimplifyModePopupWindow": 10,
+"MapTypeGodzilla": 22,
+"MapTypeMothra": 23,
+"MapTypeRodan": 24,
+"MapTypeGhidorah": 25,
+"MapTypeDefenseTower": 26,
+"MapTypeSpaceTimeDoor": 27,
+"MapTypeDenseFog": 28,
+"MissionRodanBoss": 29,
+"MissionGhidorahBoss": 30,
+"CNAntAssistantGameHubRewardsPreview": [
+{
+"type": 2,
+"confId": 200084
+},
+{
+"type": 2,
+"confId": 204021
+},
+{
+"type": 2,
+"confId": 200073
+}
+],
+"CNSpecialProtectiveCoverTime": 10368000,
+"CNStopRechargeGiftAttackMonsterType": [
+1,
+2,
+3,
+4,
+5,
+6,
+8,
+21,
+24
+],
+"CNAntAssistantCollectReward": [
+{
+"itemId": 200076,
+"num": 1
+},
+{
+"itemId": 200005,
+"num": 1
+},
+{
+"itemId": 200020,
+"num": 1
+},
+{
+"itemId": 202001,
+"num": 5
+}
+],
+"CNPlotTaskUpdateTime": 1690243200,
+"ArmyCureDiamondsCost": 1000,
+"TheAntsCollection": 10,
+"BGPreheatTimeLength": 259200,
+"BGSignUpTimeLength": 86400,
+"BGMatchTimeLength": 86400,
+"MapTypeGroupCamp": 31,
+"MapTypeGroupMine": 29,
+"MapTypeGroupFort": 30,
+"ShareOrangeAntTimeLimit": 180,
+"FortuneFrogRewardsPreview": [
+{
+"type": 2,
+"confId": 204702
+},
+{
+"type": 2,
+"confId": 217173
+},
+{
+"type": 2,
+"confId": 200070
+},
+{
+"type": 2,
+"confId": 204067
+}
+],
+"HalloweenSquirrelAttackLvLimit": 6,
+"AntLayoutTabUnlockLevel": [
+{
+"num": 1,
+"lv": 1
+},
+{
+"num": 2,
+"lv": 25
+},
+{
+"num": 3,
+"lv": 25
+},
+{
+"num": 4,
+"lv": 25
+}
+],
+"AntLayoutTabMaxNum": 4,
+"AntLayoutNameLimit": 12,
+"ProsopocoilusOccSkillPara": 10,
+"SystemUseInfoList": "user.37.com.cn/sdkv1/user-system/useInfoList",
+"SystemShareInfoList": "user.37.com.cn/sdkv1/user-system/shareInfoList",
+"CNHeroExperienceMagnification": [
+{
+"activityId": 1000405,
+"num": 10000
+},
+{
+"activityId": 1000408,
+"num": 20000
+}
+],
+"CNHeroExperienceDailyFightNumLimit": 10,
+"CNHeroExperienceAccumulateNumLimit": 50,
+"SeasonRound": [
+{
+"activityId": 1000405,
+"round": 1,
+"day": 63
+},
+{
+"activityId": 1000408,
+"round": 1,
+"day": 63
+}
+],
+"CNHeroContinuousRechargeServerLimited": [
+{
+"min": 1,
+"max": 693
+}
+],
+"QueueSkinStarLv": 10,
+"UnderCaveScoreGeneEvolutionLv": 1428,
+"MarchTroopsEmojiDailyFreeUseNum": 5,
+"MarchTroopsEmojiUseDiamondsNum": 200,
+"MarchTroopsEmojiDurationTime": 2,
+"MarchTroopsEmojiMaxEquipmentNum": 6,
+"MarchTroopsEmojiDefaultEquipment": [
+71400100,
+71400200,
+71400400,
+71400600,
+71400800,
+71401000
+],
+"MarchTroopsEmojiDefaultUnlock": [
+71400101,
+71400201,
+71400401,
+71400601,
+71400801,
+71401001,
+71401101,
+71401201,
+71401401,
+71401501
+],
+"MarchTroopsEmojiShieldMarchType": [
+1,
+11,
+13,
+14,
+20,
+21,
+29,
+30,
+31
+],
+"MarchTroopsEmojiDisplayMaxNum": 20,
+"BeastBatchOperationLimit": 50,
+"CNRecordJump": "https://beian.miit.gov.cn/#/Integrated/index",
+"MainTaskTimeLimited": 1711393500,
+"BestStateStaminaTaskBeginTime": 1711411200,
+"UnderCaveScoreGermEvolutionLv": 1428,
+"MapTypeWorldBoss": 32,
+"MissionSeasonMine": 24,
+"SpeedUpItemHealingIDRank": [
+202016,
+202017,
+202018,
+202019,
+202044,
+202020,
+202021,
+202022,
+202023
+],
+"SpeedUpItemIDRank": [
+202000,
+202001,
+202046,
+202002,
+202003,
+202004,
+202005,
+202006,
+202007
+],
+"SwallowGameSeverLimitPara": 753,
+"IOSChannelShieldRechargeTime": 7,
+"IOSChannelShieldRechargeLv": 1721675100,
+"IceBreakRechargeClientTimePara": 1721675100,
+"ActivityRewardIfOpen": true,
+"UnderCaveScoreFungusColonyEvolutionLv": 3390,
+"CNLemurNumber": [
+{
+"min": 1,
+"lemurNum": 4,
+"criNum": 1,
+"itemNum": 1
+},
+{
+"min": 51,
+"lemurNum": 7,
+"criNum": 3,
+"itemNum": 1
+},
+{
+"min": 201,
+"lemurNum": 18,
+"criNum": 7,
+"itemNum": 2
+},
+{
+"min": 351,
+"lemurNum": 38,
+"criNum": 12,
+"itemNum": 2
+}
+],
+"AntPresentSkillShow": [
+2,
+5,
+8
+],
+"HeroDetachRetrieveItemAddPara": 2,
+"CNWateringPitayaNumber": [
+{
+"min": 1,
+"max": 3,
+"num": 1
+},
+{
+"min": 4,
+"max": 10,
+"num": 2
+},
+{
+"min": 11,
+"max": 17,
+"num": 3
+},
+{
+"min": 18,
+"max": 24,
+"num": 4
+},
+{
+"min": 25,
+"max": 60,
+"num": 5
+}
+],
+"FeedBeastMonthCardUnlock": {
+"activity": 1000405,
+"time": 0
+},
+"MonsterRallySpeedUpRate": 70000,
+"MonsterRallyMaxTime": 600,
+"RainForestArmyQueenNum": 4,
+"CN103NewPersonalArmamentTimeStamp2": 1733788800,
+"CNActiveRewardOpenCondition": [
+{
+"id": 2,
+"time": 1733788800
+}
+],
+"CN103NewPersonalArmamentTimeStamp3": 1736190000,
+"SeasonHeroAwakeShopSever": {
+"StartSever": 1,
+"EndSever": 9999
+},
+"SeasonHeroAwakeShopTabLimit": 1000411,
+"BestStateTaskBeginTimeStamp": 1736208000,
+"SeasonHeroAwakeShopSever2": {
+"StartSever": 1,
+"EndSever": 9999
+},
+"MajorUpdateCostDiamonds": 10,
+"CN2025SpringFestivalMailTimePara": {
+"startTime": 1738108800,
+"endTime": 1738713600
+},
+"BestStateTaskBeginTimeStamp1": 1737417600,
+"BlackFridayItemDisplayPop": [
+{
+"type": 2,
+"confId": 217103
+},
+{
+"type": 2,
+"confId": 217259
+},
+{
+"type": 2,
+"confId": 217260
+}
+],
+"MajorUpdateBindingTurntable": 1000274,
+"HeroChipGiftID1": [
+2556338,
+2556339,
+2556340,
+2556075,
+2556076,
+2556077,
+2556078
+],
+"HeroChipGiftIcon1": [
+"item_icon_217324",
+"item_icon_217326",
+"item_icon_217325",
+"gift_icon_31280",
+"gift_icon_31281",
+"gift_icon_31282",
+"gift_icon_31283"
+],
+"ShopQuickPurchaseLimit": 200,
+"CatchUpTimeLimit": 1740441600,
+"CatchUpMessageBallDayLimit": 30,
+"CatchUpMessageTimeLimit": 1740423600,
+"HeroRecruit10TimesPara": 10,
+"CatchUpMonthCardSeverLimit": {
+"severId": 769,
+"timeLimit": 1740441600
+},
+"FeedBeastPartnerFirstUnlockTimePara": 1741028700,
+"FeedBeastPartnerGuidePresent1": 72002001,
+"FeedBeastPartnerGuidePresent2": 93101000,
+"FeedBeastPartnerAttrIconPara": [
+{
+"buffId": 75000,
+"iconType": 1
+},
+{
+"buffId": 74000,
+"iconType": 2
+},
+{
+"buffId": 77000,
+"iconType": 3
+},
+{
+"buffId": 75001,
+"iconType": 1
+},
+{
+"buffId": 74001,
+"iconType": 2
+},
+{
+"buffId": 77001,
+"iconType": 3
+},
+{
+"buffId": 75002,
+"iconType": 1
+},
+{
+"buffId": 74002,
+"iconType": 2
+},
+{
+"buffId": 77002,
+"iconType": 3
+},
+{
+"buffId": 75003,
+"iconType": 1
+},
+{
+"buffId": 74003,
+"iconType": 2
+},
+{
+"buffId": 77003,
+"iconType": 3
+}
+],
+"RewardTypeFeedBeastPartner": 12,
+"FeedBeastPartnerIllustraOpenBaseLv": 10,
+"FeedBeastPartnerIllustraOpenStarLv": 8,
+"UnderCaveScoreFeedBeastPartnerColorPoint": [
+{
+"color": 3,
+"score": 5000
+},
+{
+"color": 4,
+"score": 10000
+}
+],
+"UnderCaveScoreFeedBeastPartnerStarPoint": [
+{
+"color": 0,
+"score": 0
+},
+{
+"color": 1,
+"score": 48000
+},
+{
+"color": 2,
+"score": 96000
+},
+{
+"color": 3,
+"score": 144000
+},
+{
+"color": 4,
+"score": 192000
+},
+{
+"color": 5,
+"score": 240000
+},
+{
+"color": 6,
+"score": 288000
+},
+{
+"color": 7,
+"score": 336000
+},
+{
+"color": 8,
+"score": 384000
+}
+],
+"UnderCaveScoreFeedBeastPartnerStarStepPoint": [
+{
+"color": 0,
+"score": 9600
+},
+{
+"color": 1,
+"score": 19200
+},
+{
+"color": 2,
+"score": 28800
+},
+{
+"color": 3,
+"score": 38400
+},
+{
+"color": 4,
+"score": 48000
+}
+],
+"OpenCatchUpActivityId": 791,
+"FeedBeastPartnerMailServerLimit": 4301000,
+"MapSearchRangeLvMax": 15,
+"AgreeApplyCrossJoinCD": 10,
+"SeasonSearchAutoGenerateGeckoMonster": [
+9505,
+9510,
+9515,
+9520,
+9525,
+9530,
+9531,
+9535,
+9540
+],
+"CNHeroRecruitStartSever": 795,
+"CNHeroRecruitOldWelfareClosePara": 7257570,
+"CNHeroRecruitTimePara1": 5443200,
+"CNHeroRecruitTimePara2": 6739200,
+"RankByPlayerKillsInAlliance": 25,
+"RankByPlayerPowerInAlliance": 26,
+"RankByPlayerBuildingCenterInAlliance": 27,
+"RankByPlayerKillsSeasonInAlliance": 28,
+"RankByPlayerPowerSeasonInAlliance": 29,
+"RankByPlayerBuildingCenterSeasonInAlliance": 30,
+"RankByPlayerHonorSeasonInAlliance": 31,
+"RankByPlayerKillsSeasonInCamp": 32,
+"RankByPlayerPowerSeasonInCamp": 33,
+"RankByPlayerBuildingCenterSeasonInCamp": 34,
+"RankByPlayerHonorSeasonInCamp": 35,
+"ArenaChangeEvoPara": 940300000,
+"EvoHeroTagGroup": [
+9,
+10,
+11,
+12
+],
+"TradingCenterShopOneClickPurchaseLimit": 15,
+"ArenaRewardChangeTimePara1": 1750032000,
+"ArenaRewardChangeTimePara2": 1750636800,
+"ArenaRewardMailMaxDays": 7,
+"MapTypeAlliCircleBoss": 301,
+"MissionAlliCircleBoss": 301,
+"SeasonAutoRallyDurationTime": [
+2,
+6,
+10
+],
+"StorageMultiplePara1": 25,
+"StorageMultiplePara2": 3,
+"FeedBeastPartnerSecondTimePara": [
+"1749497400",
+"Banner/mbanner_monster/feed_partner_avatar_4",
+"feed_partner_avatar_4",
+"1748908800"
+],
+"Season4RewardPreviewTimePara": 1752278400,
+"TurntableOverdueTimePara": 1752537599,
+"SeasonAntSpeakUnlockTimePara": 1752278400,
+"CNSpeedUpItemReturn": [
+{
+"type2": 0,
+"confId": 202000
+},
+{
+"type2": 3,
+"confId": 202008
+},
+{
+"type2": 4,
+"confId": 202016
+},
+{
+"type2": 1,
+"confId": 202024
+},
+{
+"type2": 2,
+"confId": 202032
+}
+],
+"S4HitShooterHeroSkill": [
+710244,
+730244
+],
+"S4HitShooterHeroSkillDamageLimt": 5,
+"RankNPCKillsListAll": 40,
+"RankByNPCKills": 7,
+"RankNPCKilllsListAlliance": 41,
+"RankNPCKilllsListCamp": 42,
+"SeasonAutoCureSpeedUpItemHealingIDRank": [
+202016,
+202017,
+202018,
+202019,
+202044,
+202020,
+202021,
+202022,
+202023
+],
+"SeasonAutoCureSpeedUpItemIDRank": [
+202000,
+202001,
+202046,
+202002,
+202003,
+202004,
+202005,
+202006,
+202007
+],
+"LucasAnniversaryTask": 55,
+"LucasGodTreeDailyTask": 56,
+"LucasMaizieTask": 57,
+"LucasJumpDaily": 58,
+"LucasMainDailyTask": 59,
+"LucasMainWelfareTask": 60,
+"LucasDigTask": 61,
+"LucasMaizieDailyTask": 62,
+"LucasFareWellDailyTask": 63,
+"MoveAntNestOpenTime": 1756166400,
+"SeasonCompensateDeadlineTime": 1757678400,
+"SeasonAutoCureLogNumberMax": 200,
+"SeasonAutoCureLogTimeMax": 259200,
+"CatchUpMonthCardNewUpRuleSeverStart": 800
+}

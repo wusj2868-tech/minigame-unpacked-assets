@@ -1,0 +1,3382 @@
+[
+{
+"id": "BuildingTagIndex_1",
+"value": "蚁巢"
+},
+{
+"id": "BuildingTagIndex_2",
+"value": "资源"
+},
+{
+"id": "BuildingTagIndex_3",
+"value": "其他"
+},
+{
+"id": "BuildingTag_1",
+"value": "肉"
+},
+{
+"id": "BuildingTag_2",
+"value": "水"
+},
+{
+"id": "BuildingTag_3",
+"value": "植物"
+},
+{
+"id": "BuildingTag_4",
+"value": "湿土"
+},
+{
+"id": "BuildingTag_5",
+"value": "沙子"
+},
+{
+"id": "BuildingTag_6",
+"value": "菌"
+},
+{
+"id": "BuildingTag_7",
+"value": "蚁群数量"
+},
+{
+"id": "BuildingTag_8",
+"value": "蜜露"
+},
+{
+"id": "BuildingTag_9",
+"value": "习性"
+},
+{
+"id": "BuildingTag_10",
+"value": "发展"
+},
+{
+"id": "BuildingTag_11",
+"value": "战斗"
+},
+{
+"id": "BuildingTag_12",
+"value": "联盟"
+},
+{
+"id": "BuildingTag_13",
+"value": "挖掘蚁道"
+},
+{
+"id": "BuildingTag_14",
+"value": "填充蚁道"
+},
+{
+"id": "BuildingTag_15",
+"value": "填充土块"
+},
+{
+"id": "BuildingName_4000000",
+"value": "蚁后"
+},
+{
+"id": "BuildingName_4001000",
+"value": "蚁道(不可移动）"
+},
+{
+"id": "BuildingName_4002000",
+"value": "蚁道"
+},
+{
+"id": "BuildingName_4003000",
+"value": "进化菌丛"
+},
+{
+"id": "BuildingName_4010000",
+"value": "工蚁栖息地I"
+},
+{
+"id": "BuildingName_4011000",
+"value": "工蚁栖息地Ⅱ"
+},
+{
+"id": "BuildingName_4012000",
+"value": "工蚁栖息地Ⅲ"
+},
+{
+"id": "BuildingName_4013000",
+"value": "工蚁栖息地IV"
+},
+{
+"id": "BuildingName_4014000",
+"value": "超级工蚁栖息地I"
+},
+{
+"id": "BuildingName_4015000",
+"value": "超级工蚁栖息地Ⅱ"
+},
+{
+"id": "BuildingName_4016000",
+"value": "超级工蚁栖息地Ⅲ"
+},
+{
+"id": "BuildingName_4017000",
+"value": "超级工蚁栖息地IV"
+},
+{
+"id": "BuildingName_4020000",
+"value": "近卫蚁孵化地"
+},
+{
+"id": "BuildingName_4021000",
+"value": "射手蚁孵化地"
+},
+{
+"id": "BuildingName_4022000",
+"value": "运输蚁孵化地"
+},
+{
+"id": "BuildingName_4023000",
+"value": "结茧介质"
+},
+{
+"id": "BuildingName_4024000",
+"value": "兵蚁栖息地"
+},
+{
+"id": "BuildingName_4025000",
+"value": "特殊集结地"
+},
+{
+"id": "BuildingName_4026000",
+"value": "行军集结地I"
+},
+{
+"id": "BuildingName_4027000",
+"value": "行军集结地Ⅱ"
+},
+{
+"id": "BuildingName_4028000",
+"value": "行军集结地Ⅲ"
+},
+{
+"id": "BuildingName_4029000",
+"value": "兵蚁治愈池"
+},
+{
+"id": "BuildingName_4030000",
+"value": "自生菌丛"
+},
+{
+"id": "BuildingName_4031000",
+"value": "切叶蚁"
+},
+{
+"id": "BuildingName_4040000",
+"value": "肉采集地"
+},
+{
+"id": "BuildingName_4041000",
+"value": "水采集地"
+},
+{
+"id": "BuildingName_4042000",
+"value": "植物采集地"
+},
+{
+"id": "BuildingName_4043000",
+"value": "湿土采集地"
+},
+{
+"id": "BuildingName_4044000",
+"value": "沙子采集地"
+},
+{
+"id": "BuildingName_4045000",
+"value": "蚜虫"
+},
+{
+"id": "BuildingName_4046000",
+"value": "进食区"
+},
+{
+"id": "BuildingName_4047000",
+"value": "工蚁孵化地"
+},
+{
+"id": "BuildingName_4050000",
+"value": "旅行虫栖息地"
+},
+{
+"id": "BuildingName_4051000",
+"value": "巢穴口"
+},
+{
+"id": "BuildingName_4052000",
+"value": "剧毒菌丛"
+},
+{
+"id": "BuildingName_4053000",
+"value": "放哨蚁"
+},
+{
+"id": "BuildingName_4060000",
+"value": "联盟蚁栖息地"
+},
+{
+"id": "BuildingName_4070000",
+"value": "菌铺"
+},
+{
+"id": "BuildingName_4071000",
+"value": "菌铺Ⅱ"
+},
+{
+"id": "BuildingName_4072000",
+"value": "菌铺Ⅲ"
+},
+{
+"id": "BuildingName_4073000",
+"value": "蓄水池"
+},
+{
+"id": "BuildingName_4074000",
+"value": "蓄水池Ⅱ"
+},
+{
+"id": "BuildingName_4075000",
+"value": "蓄水池Ⅲ"
+},
+{
+"id": "BuildingName_4076000",
+"value": "植物存放地"
+},
+{
+"id": "BuildingName_4077000",
+"value": "植物存放地Ⅱ"
+},
+{
+"id": "BuildingName_4078000",
+"value": "植物存放地Ⅲ"
+},
+{
+"id": "BuildingName_4079000",
+"value": "肉存放地"
+},
+{
+"id": "BuildingName_4080000",
+"value": "肉存放地Ⅱ"
+},
+{
+"id": "BuildingName_4081000",
+"value": "肉存放地Ⅲ"
+},
+{
+"id": "BuildingName_4082000",
+"value": "湿土存放地"
+},
+{
+"id": "BuildingName_4083000",
+"value": "湿土存放地Ⅱ"
+},
+{
+"id": "BuildingName_4084000",
+"value": "湿土存放地Ⅲ"
+},
+{
+"id": "BuildingName_4085000",
+"value": "沙子存放地"
+},
+{
+"id": "BuildingName_4086000",
+"value": "沙子存放地Ⅱ"
+},
+{
+"id": "BuildingName_4087000",
+"value": "沙子存放地Ⅲ"
+},
+{
+"id": "BuildingName_4090000",
+"value": "特化蚁栖息地"
+},
+{
+"id": "BuildingName_4091000",
+"value": "特化蚁孵化地"
+},
+{
+"id": "BuildingName_4092000",
+"value": "特化蚁变异池"
+},
+{
+"id": "BuildingName_4120000",
+"value": "兵蚁运输通道"
+},
+{
+"id": "BuildingName_4140000",
+"value": "资源运输通道"
+},
+{
+"id": "BuildingName_4141000",
+"value": "资源加工地"
+},
+{
+"id": "BuildingName_4142000",
+"value": "战利品存放地"
+},
+{
+"id": "building_name_4140000",
+"value": "资源运输通道"
+},
+{
+"id": "building_name_4141000",
+"value": "资源加工地"
+},
+{
+"id": "building_name_4142000",
+"value": "战利品存放地"
+},
+{
+"id": "building_name_4160000",
+"value": "超级自生菌丛"
+},
+{
+"id": "building_name_4161000",
+"value": "建设中心"
+},
+{
+"id": "BuildingBtnFuncName_1",
+"value": "技能"
+},
+{
+"id": "BuildingBtnFuncName_2",
+"value": "呼叫"
+},
+{
+"id": "BuildingBtnFuncName_3",
+"value": "驻扎"
+},
+{
+"id": "BuildingBtnFuncName_4",
+"value": "习性"
+},
+{
+"id": "BuildingBtnFuncName_5",
+"value": "详情"
+},
+{
+"id": "BuildingBtnFuncName_6",
+"value": "加速"
+},
+{
+"id": "BuildingBtnFuncName_7",
+"value": "升级"
+},
+{
+"id": "BuildingBtnFuncName_8",
+"value": "蚁巢增益"
+},
+{
+"id": "BuildingBtnFuncName_9",
+"value": "急速"
+},
+{
+"id": "BuildingBtnFuncName_10",
+"value": "运输"
+},
+{
+"id": "BuildingBtnFuncName_11",
+"value": "修复"
+},
+{
+"id": "BuildingBtnFuncName_12",
+"value": "孵化"
+},
+{
+"id": "BuildingBtnFuncName_13",
+"value": "治愈"
+},
+{
+"id": "BuildingBtnFuncName_14",
+"value": "进化"
+},
+{
+"id": "BuildingBtnFuncName_15",
+"value": "兵蚁"
+},
+{
+"id": "BuildingBtnFuncName_16",
+"value": "编队"
+},
+{
+"id": "BuildingBtnFuncName_17",
+"value": "交易"
+},
+{
+"id": "BuildingBtnFuncName_18",
+"value": "防御"
+},
+{
+"id": "BuildingBtnFuncName_19",
+"value": "驻守"
+},
+{
+"id": "BuildingBtnFuncName_20",
+"value": "碎片兑换"
+},
+{
+"id": "BuildingBtnFuncName_21",
+"value": "孵化"
+},
+{
+"id": "BuildingBtnFuncName_22",
+"value": "兑换"
+},
+{
+"id": "BuildingBtnFuncName_23",
+"value": "驻扎"
+},
+{
+"id": "BuildingBtnFuncName_24",
+"value": "习性手册"
+},
+{
+"id": "BuildingBtnFuncName_25",
+"value": "习性"
+},
+{
+"id": "BuildingBtnFuncName_26",
+"value": "国家任务"
+},
+{
+"id": "BuildingBtnFuncName_27",
+"value": "加工"
+},
+{
+"id": "BuildingBtnFuncName_28",
+"value": "资源帮助"
+},
+{
+"id": "BuildingBtnFuncName_29",
+"value": "旅行商人"
+},
+{
+"id": "BuildingBtnFuncName_31",
+"value": "帮助"
+},
+{
+"id": "BuildingBtnFuncName_32",
+"value": "兵蚁援助"
+},
+{
+"id": "BuildingBtnFuncName_33",
+"value": "联盟工资"
+},
+{
+"id": "BuildingBtnFuncName_34",
+"value": "联盟战争"
+},
+{
+"id": "BuildingBtnFuncName_35",
+"value": "军情"
+},
+{
+"id": "BuildingBtnFuncName_36",
+"value": "防御手册"
+},
+{
+"id": "BuildingBtnFuncName_56",
+"value": "旅行"
+},
+{
+"id": "BuildingBtnFuncName_61",
+"value": "查看"
+},
+{
+"id": "BuildingBtnFuncName_63",
+"value": "蚁巢布局"
+},
+{
+"id": "BuildingDetail_1",
+"value": "战斗力"
+},
+{
+"id": "BuildingDetail_2",
+"value": "每小时产量"
+},
+{
+"id": "BuildingDetail_3",
+"value": "蚁群数量"
+},
+{
+"id": "BuildingDetail_4",
+"value": "蓄养蚜虫所需蚁群数量"
+},
+{
+"id": "BuildingDetail_5",
+"value": "资源容纳上限"
+},
+{
+"id": "BuildingDetail_6",
+"value": "旅行虫负重"
+},
+{
+"id": "BuildingDetail_7",
+"value": "进化速度"
+},
+{
+"id": "BuildingDetail_8",
+"value": "近卫蚁孵化量"
+},
+{
+"id": "BuildingDetail_9",
+"value": "射手蚁孵化量"
+},
+{
+"id": "BuildingDetail_10",
+"value": "运输蚁孵化量"
+},
+{
+"id": "BuildingDetail_11",
+"value": "效果"
+},
+{
+"id": "BuildingDetail_12",
+"value": "孵化速度"
+},
+{
+"id": "BuildingDetail_13",
+"value": "孵化量"
+},
+{
+"id": "BuildingDetail_14",
+"value": "出征兵蚁数量"
+},
+{
+"id": "BuildingDetail_15",
+"value": "受伤兵蚁容量"
+},
+{
+"id": "BuildingDetail_16",
+"value": "应急植物"
+},
+{
+"id": "BuildingDetail_17",
+"value": "应急肉"
+},
+{
+"id": "BuildingDetail_18",
+"value": "水容量"
+},
+{
+"id": "BuildingDetail_19",
+"value": "肉容量"
+},
+{
+"id": "BuildingDetail_20",
+"value": "植物容量"
+},
+{
+"id": "BuildingDetail_21",
+"value": "植物消耗（小时）"
+},
+{
+"id": "BuildingDetail_22",
+"value": "耐久值"
+},
+{
+"id": "BuildingDetail_23",
+"value": "守巢攻击"
+},
+{
+"id": "BuildingDetail_24",
+"value": "守巢防御"
+},
+{
+"id": "BuildingDetail_25",
+"value": "剧毒菌丛攻击力"
+},
+{
+"id": "BuildingDetail_26",
+"value": "援助兵蚁容纳数量"
+},
+{
+"id": "BuildingDetail_27",
+"value": "帮助减少时间"
+},
+{
+"id": "BuildingDetail_28",
+"value": "帮助次数"
+},
+{
+"id": "BuildingDetail_29",
+"value": "领导力"
+},
+{
+"id": "BuildingDetail_30",
+"value": "特化蚁获得经验加成"
+},
+{
+"id": "BuildingDetail_31",
+"value": "单个养殖时间(秒)"
+},
+{
+"id": "BuildingDetail_32",
+"value": "养殖消耗"
+},
+{
+"id": "BuildingDetail_33",
+"value": "养殖上限"
+},
+{
+"id": "BuildingDetail_34",
+"value": "单个生产时间"
+},
+{
+"id": "BuildingDetail_35",
+"value": "集结部队数目"
+},
+{
+"id": "BuildingDetail_36",
+"value": "兑换消耗"
+},
+{
+"id": "BuildingDetail_37",
+"value": "兑换数量"
+},
+{
+"id": "BuildingDetail_39",
+"value": "放哨蚁效果"
+},
+{
+"id": "building_detail_49",
+"value": "破坏力"
+},
+{
+"id": "building_detail_50",
+"value": "兵蚁部队负重"
+},
+{
+"id": "building_detail_51",
+"value": "采集速度"
+},
+{
+"id": "building_detail_52",
+"value": "加工获得量(小时)"
+},
+{
+"id": "building_detail_53",
+"value": "资源产量加成（不包含蜜露）"
+},
+{
+"id": "building_detail_54",
+"value": "特殊队列攻击"
+},
+{
+"id": "building_detail_55",
+"value": "特殊队列防御"
+},
+{
+"id": "building_detail_56",
+"value": "建造速度"
+},
+{
+"id": "building_detail_57",
+"value": "应急植物"
+},
+{
+"id": "building_detail_58",
+"value": "剧毒菌丛攻击力"
+},
+{
+"id": "building_detail_59",
+"value": "近卫蚁攻击"
+},
+{
+"id": "building_detail_60",
+"value": "近卫蚁防御"
+},
+{
+"id": "building_detail_61",
+"value": "射手蚁攻击"
+},
+{
+"id": "building_detail_62",
+"value": "射手蚁防御"
+},
+{
+"id": "building_detail_63",
+"value": "运输蚁攻击"
+},
+{
+"id": "building_detail_64",
+"value": "运输蚁防御"
+},
+{
+"id": "building_detail_65",
+"value": "入侵行军速度"
+},
+{
+"id": "building_detail_66",
+"value": "近卫蚁战斗速度"
+},
+{
+"id": "building_detail_67",
+"value": "射手蚁战斗速度"
+},
+{
+"id": "building_detail_68",
+"value": "运输蚁战斗速度"
+},
+{
+"id": "building_detail_69",
+"value": "入侵我方敌军行军速度减少"
+},
+{
+"id": "building_detail_70",
+"value": "旅行虫到来间隔时间减少"
+},
+{
+"id": "building_detail_71",
+"value": "商品数量"
+},
+{
+"id": "Army_Unlock_1",
+"value": "解锁全异巨首蚁"
+},
+{
+"id": "Army_Unlock_2",
+"value": "解锁金沙巨首蚁"
+},
+{
+"id": "Army_Unlock_3",
+"value": "解锁褐岩巨首蚁"
+},
+{
+"id": "Army_Unlock_4",
+"value": "解锁棘刺切叶蚁"
+},
+{
+"id": "Army_Unlock_5",
+"value": "解锁热砂巨首蚁"
+},
+{
+"id": "Army_Unlock_6",
+"value": "解锁巨首收获蚁"
+},
+{
+"id": "Army_Unlock_7",
+"value": "解锁分异巨首蚁"
+},
+{
+"id": "Army_Unlock_8",
+"value": "解锁北美巨首蚁"
+},
+{
+"id": "Army_Unlock_11",
+"value": "解锁木栖举腹蚁"
+},
+{
+"id": "Army_Unlock_12",
+"value": "解锁丝光褐林蚁"
+},
+{
+"id": "Army_Unlock_13",
+"value": "解锁黑铁弓背蚁"
+},
+{
+"id": "Army_Unlock_14",
+"value": "解锁血足弓背蚁"
+},
+{
+"id": "Army_Unlock_15",
+"value": "解锁金环弓背蚁"
+},
+{
+"id": "Army_Unlock_16",
+"value": "解锁尼克巴弓背蚁"
+},
+{
+"id": "Army_Unlock_17",
+"value": "解锁谜巢举腹蚁"
+},
+{
+"id": "Army_Unlock_18",
+"value": "解锁赤面弓背蚁"
+},
+{
+"id": "Army_Unlock_21",
+"value": "解锁巴图弓背蚁"
+},
+{
+"id": "Army_Unlock_22",
+"value": "解锁黄拟立毛蚁"
+},
+{
+"id": "Army_Unlock_23",
+"value": "解锁黑腹前结蚁"
+},
+{
+"id": "Army_Unlock_24",
+"value": "解锁放牧甲壳蚁"
+},
+{
+"id": "Army_Unlock_25",
+"value": "解锁荒漠蜜罐蚁"
+},
+{
+"id": "Army_Unlock_26",
+"value": "解锁冬蚁"
+},
+{
+"id": "Army_Unlock_27",
+"value": "解锁贾尔短蚁"
+},
+{
+"id": "Army_Unlock_28",
+"value": "解锁拟态蜜罐蚁"
+},
+{
+"id": "Radar_details_1",
+"value": "[警报]会告知向你行军部队蚁巢的名称及坐标"
+},
+{
+"id": "Radar_details_2",
+"value": "[侦察]可以侦察到对方各种资源的可掠夺数量"
+},
+{
+"id": "Radar_details_3",
+"value": "[警报]会告知向你行军部队的攻击目标"
+},
+{
+"id": "Radar_details_4",
+"value": "[侦察]可以侦察到对方参与守巢的兵蚁大致数量和剧毒菌丛等级"
+},
+{
+"id": "Radar_details_5",
+"value": "[警报]会告知向你行军部队的抵达时间"
+},
+{
+"id": "Radar_details_6",
+"value": "[侦察]可以侦察到对方的习性"
+},
+{
+"id": "Radar_details_7",
+"value": "[警报]会告知向你行军部队蚁巢的习性"
+},
+{
+"id": "Radar_details_8",
+"value": "[侦察]可以侦察到对方援助兵蚁的大致数量"
+},
+{
+"id": "Radar_details_9",
+"value": "[警报]会告知向你行军的援军的详细信息"
+},
+{
+"id": "Radar_details_10",
+"value": "[侦察]可以侦察到对方守巢编队和兵蚁的大致数量"
+},
+{
+"id": "Radar_details_11",
+"value": "[警报]会告知向你行军部队的大致数量"
+},
+{
+"id": "Radar_details_12",
+"value": "[侦察]可以侦察到对方守巢编队中特化蚁的大致情况"
+},
+{
+"id": "Radar_details_13",
+"value": "[警报]会告知向你行军部队的兵种信息"
+},
+{
+"id": "Radar_details_14",
+"value": "[侦察]可以侦察到对方援军统领的名称和习性"
+},
+{
+"id": "Radar_details_15",
+"value": "[警报]会告知向你行军主部队中特化蚁的大致信息"
+},
+{
+"id": "Radar_details_16",
+"value": "[侦察]可以侦察到对方守巢编队和兵蚁的准确数量"
+},
+{
+"id": "Radar_details_17",
+"value": "[警报]会告知向你集结部队中特化蚁的大致信息"
+},
+{
+"id": "Radar_details_18",
+"value": "[侦察]可以侦察到对方援军编队信息和部队大致数量"
+},
+{
+"id": "Radar_details_19",
+"value": "[警报]会告知向你行军部队的准确数量"
+},
+{
+"id": "Radar_details_20",
+"value": "[侦察]可以侦察到对方守巢编队中特化蚁的等级"
+},
+{
+"id": "Radar_details_22",
+"value": "[侦察]可以侦察到对方援军编队中特化蚁和兵蚁的准确数量"
+},
+{
+"id": "Radar_details_23",
+"value": "[警报]会告知向你行军部队中特化蚁的等级和技能"
+},
+{
+"id": "Radar_details_24",
+"value": "[侦察]可以侦察到对方守巢编队中特化蚁的战斗技能"
+},
+{
+"id": "Radar_details_25",
+"value": "[警报]会告知向你集结部队中特化蚁的等级和技能"
+},
+{
+"id": "ResText_1",
+"value": "已储存"
+},
+{
+"id": "ResText_2",
+"value": "生产"
+},
+{
+"id": "ResText_3",
+"value": "生产效率"
+},
+{
+"id": "ResText_4",
+"value": "兵蚁消耗"
+},
+{
+"id": "ResText_5",
+"value": "仓库保护"
+},
+{
+"id": "ResText_6",
+"value": "消耗"
+},
+{
+"id": "ResText_7",
+"value": "菌供应"
+},
+{
+"id": "ResText_8",
+"value": "蚁群数量增长"
+},
+{
+"id": "ResText_9",
+"value": "蚁群数量上限"
+},
+{
+"id": "electricity_no_supply",
+"value": "菌存量不足。"
+},
+{
+"id": "electricity_no_durability",
+"value": "资源建筑耐久不足，请尽快修复。"
+},
+{
+"id": "electricity_supply mormal",
+"value": "菌供应充足，产能正常。"
+},
+{
+"id": "purchase_quantity_number",
+"value": "x{num}"
+},
+{
+"id": "details_i18n_4000000",
+"value": "蚁后是蚁群诞生和发展的基础。\n升级可解锁更多功能、玩法，以及其他建筑的等级上限。"
+},
+{
+"id": "details_i18n_4003000",
+"value": "蚁群进化的重要建筑；升级它可提升进化速度，并解锁更高级进化buff属性的限制。"
+},
+{
+"id": "details_i18n_4010000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4011000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4012000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4013000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4014000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4015000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4016000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4017000",
+"value": "强壮有力的工蚁，负责蚁巢建设；\n多个工蚁栖息地，代表多个建造队列，表示可同时升级/建造多个建筑。"
+},
+{
+"id": "details_i18n_4020000",
+"value": "孵化近卫蚁的场所，近卫蚁是三种兵蚁（近卫蚁、射手蚁、运输蚁）中的肉盾型兵蚁；升级可解锁更高级近卫蚁。"
+},
+{
+"id": "details_i18n_4021000",
+"value": "孵化射手蚁的场所，射手蚁是三种兵蚁（近卫蚁、射手蚁、运输蚁）中的中后排进攻兵蚁；升级可解锁更高级射手蚁。"
+},
+{
+"id": "details_i18n_4022000",
+"value": "孵化运输蚁的场所，运输蚁是三种兵蚁（近卫蚁、射手蚁、运输蚁）中能攻能守的兵蚁；升级可解锁更高级运输蚁。"
+},
+{
+"id": "details_i18n_4023000",
+"value": "蚁群收集来的沙土树叶，可以帮助幼虫结茧，升级可提升兵蚁（近卫蚁、射手蚁、运输蚁）的孵化速度和数量。"
+},
+{
+"id": "details_i18n_4024000",
+"value": "建设后可以预览兵蚁（近卫蚁、射手蚁、运输蚁）详情，兵蚁可以在这里强化异变，升级为对应的更高级兵蚁。"
+},
+{
+"id": "details_i18n_4025000",
+"value": "为探索危险的巢外（野外采集或进攻其它蚁巢），兵蚁需在此“编队”；升级可提升本队列中兵蚁数量上限。"
+},
+{
+"id": "details_i18n_4026000",
+"value": "为探索危险的巢外（野外采集或进攻其它蚁巢），兵蚁需在此“编队”；升级可提升本队列中兵蚁数量上限。"
+},
+{
+"id": "details_i18n_4027000",
+"value": "为探索危险的巢外（野外采集或进攻其它蚁巢），兵蚁需在此“编队”；升级可提升本队列中兵蚁数量上限。"
+},
+{
+"id": "details_i18n_4028000",
+"value": "为探索危险的巢外（野外采集或进攻其它蚁巢），兵蚁需在此“编队”；升级可提升本队列中兵蚁数量上限。"
+},
+{
+"id": "details_i18n_4029000",
+"value": "帮助受伤兵蚁（近卫蚁、射手蚁、运输蚁）恢复；升级可提升伤兵容纳上限，超出上限的伤兵会死亡。"
+},
+{
+"id": "details_i18n_4030000",
+"value": "生长在地下的天然菌类，升级可提升每小时菌产量。"
+},
+{
+"id": "details_i18n_4031000",
+"value": "向每个切叶蚁运输植物，才可生产为菌类；升级切叶蚁可提升每小时菌产量"
+},
+{
+"id": "details_i18n_4040000",
+"value": "被饲养起来的鼠妇，肉资源的主要获取途径；升级可提升每小时肉产量。"
+},
+{
+"id": "details_i18n_4041000",
+"value": "水资源的主要获取途径，升级可提升每小时水产量。"
+},
+{
+"id": "details_i18n_4042000",
+"value": "植物资源的主要获取途径，升级可提升每小时植物产量。"
+},
+{
+"id": "details_i18n_4043000",
+"value": "湿土资源的主要获取途径，升级可提升每小时湿土产量。"
+},
+{
+"id": "details_i18n_4044000",
+"value": "沙子资源的主要获取途径，升级可提升每小时沙子产量。"
+},
+{
+"id": "details_i18n_4045000",
+"value": "蚁群饲养蚜虫，收获它分泌的蜜露；升级蚜虫可提升每小时蜜露产量。"
+},
+{
+"id": "details_i18n_4046000",
+"value": "蚁群进食的地方，会不断消耗运输而来的肉和水；升级可提升进食区供应的肉和水容量。"
+},
+{
+"id": "details_i18n_4047000",
+"value": "工蚁孵化的地方，可以帮助我们提升蚁巢内工蚁的数量。"
+},
+{
+"id": "details_i18n_4050000",
+"value": "旅行虫会定期访问蚁巢，并带着可交易的资源；升级它可缩短旅行虫访问时间间隔、增加可交易物资数量。"
+},
+{
+"id": "details_i18n_4051000",
+"value": "蚁巢的洞口，保护其不受外敌入侵；升级可提升洞口的耐久值，降低蚁巢被攻破的风险。"
+},
+{
+"id": "details_i18n_4052000",
+"value": "含有剧毒的菌丛，种植在蚁巢内抵御外敌；升级可提升毒性（攻击力）。"
+},
+{
+"id": "details_i18n_4053000",
+"value": "专职负责放哨的蚂蚁，具有警报和侦察的功能；升级可提升放哨蚁探知信息的能力。"
+},
+{
+"id": "details_i18n_4060000",
+"value": "联盟成员互相帮助、联盟发放工资的建筑；升级可提升联盟内被帮助效率、接受支援队伍数量。"
+},
+{
+"id": "details_i18n_4070000",
+"value": "专门存放菌材料的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4071000",
+"value": "专门存放菌材料的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4072000",
+"value": "专门存放菌材料的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4073000",
+"value": "专门存放水的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4074000",
+"value": "专门存放水的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4075000",
+"value": "专门存放水的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4076000",
+"value": "专门存放植物的“仓库”，升级可提升“仓库”容量上限。"
+},
+{
+"id": "details_i18n_4077000",
+"value": "专门存放植物的“仓库”，升级可提升“仓库”容量上限。"
+},
+{
+"id": "details_i18n_4078000",
+"value": "专门存放植物的“仓库”，升级可提升“仓库”容量上限。"
+},
+{
+"id": "details_i18n_4079000",
+"value": "专门存放肉资源的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4080000",
+"value": "专门存放肉资源的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4081000",
+"value": "专门存放肉资源的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4082000",
+"value": "专门存放湿土的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4083000",
+"value": "专门存放湿土的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4084000",
+"value": "专门存放湿土的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4085000",
+"value": "专门存放沙子的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4086000",
+"value": "专门存放沙子的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4087000",
+"value": "专门存放沙子的“仓库”，升级可提升它的容量上限。"
+},
+{
+"id": "details_i18n_4090000",
+"value": "特化蚁的栖息场所，发展型特化蚁“驻扎”后可以获得增益。升级后可以提升兵蚁守巢时的攻击力和发展型特化蚁获得的经验值。"
+},
+{
+"id": "details_i18n_4091000",
+"value": "蚁卵在这里孵化后会发生特化，诞生特化蚁，特化蚁是蚁巢的文武将军们，不同的特化蚁有属性、技能等差异。"
+},
+{
+"id": "details_i18n_4092000",
+"value": "“兑换”可选择将多余的特化蚁转换为变异孢子，变异孢子是特化蚁技能升级的重要材料。升级该建筑可提升兑换效率。"
+},
+{
+"id": "details_i18n_4120000",
+"value": "联盟内不同蚁巢相互连通的通道，可以集结盟友的兵蚁来一同出战；升级可提升集结的队伍数量上限。"
+},
+{
+"id": "details_i18n_4140000",
+"value": "畜牧习性特有的建筑，可以进行资源的帮助。"
+},
+{
+"id": "details_i18n_4141000",
+"value": "种植习性特有的建筑，可以在这里进行资源的加工，获得更多资源。"
+},
+{
+"id": "details_i18n_4142000",
+"value": "掠夺习性特有的建筑，获得的战利品会给予兵蚁激励。"
+},
+{
+"id": "details_i18n_4160000",
+"value": "自生菌丛的异种，可以吸收地下微弱的光源来生长，产生更多的菌"
+},
+{
+"id": "details_i18n_4161000",
+"value": "地下被蚁群挖出的奇异洞穴，可以提升蚁巢内的建造速度"
+},
+{
+"id": "city_map_desc_2",
+"value": "鼠妇的群落聚集地，可以被蚁群圈养起来用作肉资源的获取方式。"
+},
+{
+"id": "city_map_desc_3",
+"value": "地下泉的小小泉眼，是地下为数不多的天然水源。"
+},
+{
+"id": "city_map_desc_6",
+"value": "被水浸透的泥潭，可以挖掘出大量的湿土。"
+},
+{
+"id": "city_map_desc_7",
+"value": "从巢穴上方源源不断掉落的流沙沙堆，是蚂蚁修补巢穴不可或缺的重要资源"
+},
+{
+"id": "city_map_desc_4",
+"value": "生长在半阴环境下的玉露，需要光合作用，是地下优质的植物获取地。"
+},
+{
+"id": "UI_InnerCity_DigTips01",
+"value": "地下坚硬的石块，没有办法被挖掘。"
+},
+{
+"id": "UI_InnerCity_DigTips02",
+"value": "没有蚁道连接。蚂蚁无法到达挖掘。"
+},
+{
+"id": "UI_Building_status_01",
+"value": "升级："
+},
+{
+"id": "UI_Building_status_02",
+"value": "倒计时："
+},
+{
+"id": "UI_Building_status_03",
+"value": "运输："
+},
+{
+"id": "UI_Building_status_04",
+"value": "异变："
+},
+{
+"id": "UI_Building_status_05",
+"value": "强化："
+},
+{
+"id": "UI_Building_status_06",
+"value": "孵化："
+},
+{
+"id": "UI_Building_status_07",
+"value": "进化："
+},
+{
+"id": "UI_Building_status_08",
+"value": "治愈："
+},
+{
+"id": "tank_unlock_tip_1",
+"value": "将在1级解锁1级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_2",
+"value": "将在2级解锁2级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_3",
+"value": "将在5级解锁3级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_4",
+"value": "将在10级解锁4级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_5",
+"value": "将在13级解锁5级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_6",
+"value": "将在16级解锁6级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_7",
+"value": "将在19级解锁7级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_8",
+"value": "将在22级解锁8级近卫蚁的孵化"
+},
+{
+"id": "tank_unlock_tip_9",
+"value": "将在25级解锁9级近卫蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_1",
+"value": "将在1级解锁1级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_2",
+"value": "将在2级解锁2级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_3",
+"value": "将在5级解锁3级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_4",
+"value": "将在10级解锁4级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_5",
+"value": "将在13级解锁5级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_6",
+"value": "将在16级解锁6级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_7",
+"value": "将在19级解锁7级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_8",
+"value": "将在22级解锁8级射手蚁的孵化"
+},
+{
+"id": "apc_unlock_tip_9",
+"value": "将在25级解锁9级射手蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_1",
+"value": "将在1级解锁1级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_2",
+"value": "将在2级解锁2级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_3",
+"value": "将在5级解锁3级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_4",
+"value": "将在10级解锁4级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_5",
+"value": "将在13级解锁5级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_6",
+"value": "将在16级解锁6级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_7",
+"value": "将在19级解锁7级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_8",
+"value": "将在22级解锁8级运输蚁的孵化"
+},
+{
+"id": "helicopter_unlock_tip_9",
+"value": "将在25级解锁9级运输蚁的孵化"
+},
+{
+"id": "plant_desc",
+"value": "植物是蚁巢所必须要的资源，蚂蚁们会将切割好的植物培养成蚁巢所需要的菌，来供应蚁巢发展。"
+},
+{
+"id": "mud_desc",
+"value": "湿土是蚁巢建设重要的资源。"
+},
+{
+"id": "base_levelup_tip",
+"value": "升级蚁后可以解锁新功能，以及其他建筑等级上限"
+},
+{
+"id": "sand_desc",
+"value": "沙子是蚁巢建设所必不可少的资源。"
+},
+{
+"id": "food_desc",
+"value": "食物是蚁群增长的重要资源。"
+},
+{
+"id": "water_desc",
+"value": "水是蚁群增长的重要资源。"
+},
+{
+"id": "fungus_desc",
+"value": "菌是蚁巢的动力来源"
+},
+{
+"id": "turboLimit",
+"value": "没有储存的植物可以消耗，无法急速生产"
+},
+{
+"id": "turboSucess",
+"value": "获取{resource} x {num}"
+},
+{
+"id": "turboFailed",
+"value": "急速失败"
+},
+{
+"id": "upgradeRadarTip",
+"value": "升级放哨蚁等级获取更多信息"
+},
+{
+"id": "templateBuilding_Tip_1",
+"value": "请先将蚁后升到6级！"
+},
+{
+"id": "templateBuilding_Tip_2",
+"value": "请先解锁所有能解锁的区域！"
+},
+{
+"id": "templateBuilding_Tip_3",
+"value": "请先探索整个巢穴！"
+},
+{
+"id": "building_to_discover_1",
+"value": "生长在地底的珍贵植物，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_2",
+"value": "蠢蠢欲动的幼虫，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_3",
+"value": "清澈甘甜的泉水，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_4",
+"value": "湿润肥沃的土壤，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_5",
+"value": "奇怪的茧在微微地颤动，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_6",
+"value": "稀疏的沙子从地表漏下来，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_7",
+"value": "透着微光的洞口，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_8",
+"value": "不知通向何处的蚁道入口，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_9",
+"value": "神秘的孢子生长在附近，解锁地块后可以探索。"
+},
+{
+"id": "building_to_discover_10",
+"value": "前往解锁"
+},
+{
+"id": "building_activity_01",
+"value": "需要开启光照合约"
+},
+{
+"id": "building_acticity_tip",
+"value": "该活动暂未开放"
+},
+{
+"id": "building_detail_40",
+"value": "损耗率"
+},
+{
+"id": "building_detail_41",
+"value": "负重上限"
+},
+{
+"id": "BuildingBtnFuncName_43",
+"value": "加工"
+},
+{
+"id": "BuildingBtnFuncName_54",
+"value": "解锁"
+},
+{
+"id": "BuildingName_4160000",
+"value": "超级自生菌丛"
+},
+{
+"id": "BuildingName_4161000",
+"value": "建设中心"
+},
+{
+"id": "building_detail_47",
+"value": "守巢攻击"
+},
+{
+"id": "building_detail_48",
+"value": "守巢防御"
+},
+{
+"id": "building_gift_locked",
+"value": "前往礼包商城解锁超级工蚁！"
+},
+{
+"id": "building_detail_76",
+"value": "发起集结时，队员攻击增加"
+},
+{
+"id": "BuildingBtnFuncName_64",
+"value": "区域建设"
+},
+{
+"id": "BuildingBtnFuncName_65",
+"value": "习性特性"
+},
+{
+"id": "BuildingBtnFuncName_66",
+"value": "批量急速"
+},
+{
+"id": "BuildingBtnFuncName_67",
+"value": "装扮"
+},
+{
+"id": "BuildingName_4301000",
+"value": "野怪栖息地"
+},
+{
+"id": "BuildingName_4302000",
+"value": "野怪孵化地"
+},
+{
+"id": "BuildingName_4303000",
+"value": "饲料养殖地"
+},
+{
+"id": "BuildingTag_16",
+"value": "野怪"
+},
+{
+"id": "details_i18n_4301000",
+"value": "野怪的栖息场所，野怪“工作”后可以获得增益。升级后提升兵蚁守巢时的防御力和生命力。"
+},
+{
+"id": "details_i18n_4302000",
+"value": "孵化野怪和伙伴碎片的场所，卵会在这里孵化为幼体，并最终成长为健壮的野怪，每次孵化有概率获得伙伴碎片"
+},
+{
+"id": "details_i18n_4303000",
+"value": "白蚁是野怪最爱的食物，帮助野怪提升星级。提供蜜露就可以在这里“饲养”白蚁；升级它可以提升白蚁的饲养效率。"
+},
+{
+"id": "Radar_details_21",
+"value": "[侦察][警报]会告知对方野怪的品质和星级"
+},
+{
+"id": "BuildingBtnFuncName_68",
+"value": "查看野怪"
+},
+{
+"id": "BuildingBtnFuncName_69",
+"value": "工作"
+},
+{
+"id": "BuildingBtnFuncName_70",
+"value": "饲养"
+},
+{
+"id": "BuildingBtnFuncName_71",
+"value": "孵化"
+},
+{
+"id": "BuildingDetail_72",
+"value": "领导力"
+},
+{
+"id": "BuildingName_4321000",
+"value": "奇异豌豆"
+},
+{
+"id": "details_i18n_4321000",
+"value": "点击其他统领头像或蚁巢，选择“参观”，给对方奇异豌豆浇水，可帮助对方获得钻石奖励。"
+},
+{
+"id": "BuildingBtnFuncName_73",
+"value": "奇异豌豆"
+},
+{
+"id": "BuildingTag_17",
+"value": "景观"
+},
+{
+"id": "BuildingName_4312000",
+"value": "寄生伞菌"
+},
+{
+"id": "BuildingName_4313000",
+"value": "璀璨珍珠"
+},
+{
+"id": "BuildingDetail_73",
+"value": "成长奖励"
+},
+{
+"id": "details_i18n_4312000",
+"value": "听闻彩色贝壳被海浪冲上沙滩后，随着潮汐涨退，数天后贝壳内会长出一种粉嫩的海鲜菇。拥有后[color=#34b05a]肉产量+0.02%[/color]。"
+},
+{
+"id": "details_i18n_4313000",
+"value": "一万个贝壳才能孕育出一颗完美无瑕的珍珠，能拥有他是蚁巢繁华强大的象征。拥有后[color=#34b05a]资源产量+0.1%[/color]。"
+},
+{
+"id": "BuildingDetail_74",
+"value": "肉产量"
+},
+{
+"id": "BuildingBtnFuncName_72",
+"value": "回收"
+},
+{
+"id": "BuildingName_4314000",
+"value": "月影多肉"
+},
+{
+"id": "BuildingName_4315000",
+"value": "石莲多肉"
+},
+{
+"id": "details_i18n_4314000",
+"value": "月影多肉种类植物，拥有后[color=#34b05a]肉采集速度+0.02%[/color]。"
+},
+{
+"id": "details_i18n_4315000",
+"value": "石莲多肉种类植物，拥有后[color=#34b05a]资源采集速度+0.1%[/color]。"
+},
+{
+"id": "BuildingDetail_75",
+"value": "肉采集速度"
+},
+{
+"id": "BuildingName_4600000",
+"value": "樱花琥珀"
+},
+{
+"id": "BuildingName_4600100",
+"value": "猎杀时刻"
+},
+{
+"id": "BuildingName_4700000",
+"value": "猫掌化石"
+},
+{
+"id": "BuildingName_4700100",
+"value": "蜥蜴遗骸"
+},
+{
+"id": "details_i18n_4600000",
+"value": "包有樱花的琥珀，拥有后[color=#34b05a]受伤近卫蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4600100",
+"value": "猎手猎杀的永恒瞬间，拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4700000",
+"value": "外观像猫爪的化石，拥有后[color=#34b05a]近卫蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4700100",
+"value": "远古蜥蜴的遗骸，遗骸旁长出了散发荧光的蘑菇，拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_78",
+"value": "受伤近卫蚁治愈速度"
+},
+{
+"id": "BuildingDetail_77",
+"value": "所有兵蚁攻击"
+},
+{
+"id": "BuildingBtnFuncName_74",
+"value": "景观"
+},
+{
+"id": "BuildingDetail_80",
+"value": "植物产量加成"
+},
+{
+"id": "BuildingDetail_79",
+"value": "植物采集速度"
+},
+{
+"id": "details_i18n_4400000",
+"value": "多年生草本植物，贴于地面匍匐生长，拥有后[color=#34b05a]植物采集速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4400100",
+"value": "石莲花属多肉植物的一种，拥有后[color=#34b05a]资源采集速度+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4500000",
+"value": "被海浪冲刷上岸的神秘贝壳，拥有后[color=#34b05a]植物产量+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4500100",
+"value": "壳大而坚实，常分布于深海海底，最早由库克船长在航海中发现，拥有后[color=#34b05a]资源产量+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4400000",
+"value": "落地金钱"
+},
+{
+"id": "BuildingName_4400100",
+"value": "夏夜莲语"
+},
+{
+"id": "BuildingName_4500000",
+"value": "巨壳阵"
+},
+{
+"id": "BuildingName_4500100",
+"value": "深海之星"
+},
+{
+"id": "BuildingName_4600200",
+"value": "魔晶石堆"
+},
+{
+"id": "BuildingName_4600300",
+"value": "苍蓝魔像"
+},
+{
+"id": "details_i18n_4600200",
+"value": "作为材料的晶石堆，用途广泛，拥有后[color=#34b05a]受伤射手蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4600300",
+"value": "蚂蚁们用小晶石堆起的图腾，寄托了对谁的敬畏之心呢？拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_81",
+"value": "受伤射手蚁治愈速度"
+},
+{
+"id": "BuildingName_4700200",
+"value": "鱼骨化石"
+},
+{
+"id": "BuildingName_4700300",
+"value": "苍蓝之眸"
+},
+{
+"id": "details_i18n_4700200",
+"value": "看起来很有年头的鱼骨头，拥有后[color=#34b05a]射手蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4700300",
+"value": "小蝌蚪在一颗鸟类头骨中游着，可能它也向往天空吧。拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4400200",
+"value": "孤星叶"
+},
+{
+"id": "BuildingName_4400300",
+"value": "繁星叶"
+},
+{
+"id": "BuildingName_4500200",
+"value": "碧蓝珊瑚"
+},
+{
+"id": "BuildingName_4500300",
+"value": "深海宝藏"
+},
+{
+"id": "details_i18n_4400200",
+"value": "拥有独特叶片的植物，拥有后[color=#34b05a]湿土采集速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4400300",
+"value": "由多个孤星叶组成，拥有后[color=#34b05a]资源采集速度+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4500200",
+"value": "如大海般沉静、深邃的碧蓝色的珊瑚，拥有后[color=#34b05a]湿土产量+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4500300",
+"value": "来自深海的礼物，拥有后[color=#34b05a]资源产量+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_82",
+"value": "湿土采集速度"
+},
+{
+"id": "BuildingDetail_83",
+"value": "湿土产量加成"
+},
+{
+"id": "BuildingName_4600400",
+"value": "水晶石台"
+},
+{
+"id": "BuildingName_4600500",
+"value": "水晶之握"
+},
+{
+"id": "BuildingName_4700400",
+"value": "半截鱼骨"
+},
+{
+"id": "BuildingName_4700500",
+"value": "毒菌骷鱼"
+},
+{
+"id": "details_i18n_4600400",
+"value": "一点点水晶也能焕发光芒，拥有后[color=#34b05a]受伤运输蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4600500",
+"value": "由黄水晶构成的利爪状建筑，还是最好不要触碰了，拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4700400",
+"value": "不知道剩下半截去哪儿了呢？拥有后[color=#34b05a]运输蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4700500",
+"value": "不知名的彩色毒菌从鱼骨的残骸中生长出来，拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_84",
+"value": "受伤运输蚁治愈速度"
+},
+{
+"id": "Bgbuilding_101",
+"value": "天然运输通道-1"
+},
+{
+"id": "Bgbuilding_102",
+"value": "天然运输通道-2"
+},
+{
+"id": "Bgbuilding_103",
+"value": "天然运输通道-3"
+},
+{
+"id": "Bgbuilding_104",
+"value": "天然运输通道-4"
+},
+{
+"id": "Bgbuilding_105",
+"value": "天然运输通道-5"
+},
+{
+"id": "Bgbuilding_106",
+"value": "天然运输通道-6"
+},
+{
+"id": "Bgbuilding_107",
+"value": "天然运输通道-7"
+},
+{
+"id": "Bgbuilding_108",
+"value": "天然运输通道-8"
+},
+{
+"id": "Bgbuilding_109",
+"value": "天然运输通道-9"
+},
+{
+"id": "Bgbuilding_201",
+"value": "异香魔芋-1"
+},
+{
+"id": "Bgbuilding_202",
+"value": "异香魔芋-2"
+},
+{
+"id": "Bgbuilding_300",
+"value": "初级龙舌兰"
+},
+{
+"id": "Bgbuilding_400",
+"value": "中级龙舌兰"
+},
+{
+"id": "Bgbuilding_500",
+"value": "高级龙舌兰"
+},
+{
+"id": "BuildingDetail_85",
+"value": "全兵蚁生命"
+},
+{
+"id": "BuildingName_4800000",
+"value": "缤纷多肉"
+},
+{
+"id": "BuildingName_4800100",
+"value": "祈愿达摩"
+},
+{
+"id": "details_i18n_4800000",
+"value": "缤纷多彩的多肉植物，活力的象征。拥有后[color=#34b05a]全兵蚁生命+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4800100",
+"value": "代表祈福、许愿的三色达摩吉祥物。拥有后[color=#34b05a]全兵蚁生命+0.2%。[/color]"
+},
+{
+"id": "BGCoronaName_1",
+"value": "说明"
+},
+{
+"id": "BGCoronaName_2",
+"value": "迁巢"
+},
+{
+"id": "BGCoronaName_3",
+"value": "查看部队"
+},
+{
+"id": "BGCoronaName_4",
+"value": "召回"
+},
+{
+"id": "BGCoronaName_5",
+"value": "无"
+},
+{
+"id": "BGCoronaName_6",
+"value": "侦查"
+},
+{
+"id": "BGCoronaName_7",
+"value": "采集"
+},
+{
+"id": "BGCoronaName_8",
+"value": "驻扎"
+},
+{
+"id": "BGCoronaName_9",
+"value": "攻击"
+},
+{
+"id": "BGCoronaName_10",
+"value": "占领"
+},
+{
+"id": "BGCoronaName_11",
+"value": "集结"
+},
+{
+"id": "BuildingName_4400400",
+"value": "寄生幼苞"
+},
+{
+"id": "BuildingName_4400500",
+"value": "赤艳氤氲"
+},
+{
+"id": "BuildingName_4500400",
+"value": "炫螺蜜蝶"
+},
+{
+"id": "BuildingName_4500500",
+"value": "浮光晶蛤"
+},
+{
+"id": "details_i18n_4400400",
+"value": "一株等待盛开的寄生花苞，拥有后[color=#34b05a]沙子采集速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4400500",
+"value": "弥漫着危险气息的殷红花朵，拥有后[color=#34b05a]采集速度+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4500400",
+"value": "炫丽贝壳堆砌的小蝴蝶，拥有后[color=#34b05a]沙子产量加成+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4500500",
+"value": "泛着些许红晕的海菊贝，拥有后[color=#34b05a]资源产量加成+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_86",
+"value": "沙子采集速度"
+},
+{
+"id": "BuildingDetail_87",
+"value": "沙子产量加成"
+},
+{
+"id": "BuildingName_4094000",
+"value": "变异菌丛"
+},
+{
+"id": "BuildingName_4093000",
+"value": "地下洞穴"
+},
+{
+"id": "details_i18n_4093000",
+"value": "闪烁着神秘光芒的地下洞穴，洞穴中似乎有着神秘的资源和诡异危险的生物"
+},
+{
+"id": "details_i18n_4094000",
+"value": "蚁群通过变异的细菌和真菌改变了自身的细胞和基因"
+},
+{
+"id": "BuildingBtnFuncName_75",
+"value": "洞穴挑战"
+},
+{
+"id": "BuildingBtnFuncName_76",
+"value": "变异"
+},
+{
+"id": "BGCoronaName_12",
+"value": "统领信息"
+},
+{
+"id": "BuildingName_4600600",
+"value": "沉沙之忆"
+},
+{
+"id": "BuildingName_4600700",
+"value": "翠魄勾玉"
+},
+{
+"id": "BuildingName_4700600",
+"value": "同心之证"
+},
+{
+"id": "BuildingName_4700700",
+"value": "竭河之殇"
+},
+{
+"id": "details_i18n_4600600",
+"value": "一只斜插入地面的忍者手里剑，拥有后[color=#34b05a]受伤近卫蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4600700",
+"value": "迸发着翠绿色光芒的奇异宝石，拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4700600",
+"value": "枯壳堆砌成的爱心，象征着至死不渝的爱，拥有后[color=#34b05a]近卫蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4700700",
+"value": "青蛙的骸骨依然守护着新孕育的生命，拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4400600",
+"value": "绿绒小果"
+},
+{
+"id": "BuildingName_4400700",
+"value": "碧塘莲星"
+},
+{
+"id": "BuildingName_4500600",
+"value": "丹红孤螺"
+},
+{
+"id": "BuildingName_4500700",
+"value": "深海奇韵"
+},
+{
+"id": "details_i18n_4400600",
+"value": "外观像胜利手势的绿绒小果，拥有后[color=#34b05a]肉采集速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4400700",
+"value": "碧塘莲星，泛起涟漪，拥有后[color=#34b05a]资源采集速度+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4500600",
+"value": "格外显眼的孤螺，不知道将会是谁的新巢？拥有后[color=#34b05a]肉产量+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4500700",
+"value": "开启深海探索的奇妙旅程，拥有后[color=#34b05a]资源产量+0.1%。[/color]"
+},
+{
+"id": "BGCoronaName_13",
+"value": "驻守"
+},
+{
+"id": "BuildingName_4600800",
+"value": "炫目晶魂"
+},
+{
+"id": "BuildingName_4600900",
+"value": "异域魔晶"
+},
+{
+"id": "BuildingName_4700800",
+"value": "乌亮骨爪"
+},
+{
+"id": "BuildingName_4700900",
+"value": "残垣稚喙"
+},
+{
+"id": "details_i18n_4600800",
+"value": "绚丽的鹅卵状晶石，拥有后[color=#34b05a]受伤射手蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4600900",
+"value": "闪耀着奇异色彩的五彩晶石，拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4700800",
+"value": "某种大型生物的脚爪，拥有后[color=#34b05a]射手蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4700900",
+"value": "形似河童的头骨，拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4900000",
+"value": "呜嚎枯叶"
+},
+{
+"id": "BuildingName_4900100",
+"value": "饕餮猛椒"
+},
+{
+"id": "BuildingName_4900200",
+"value": "淘气幽灵"
+},
+{
+"id": "BuildingName_4900300",
+"value": "狂魍金粒"
+},
+{
+"id": "details_i18n_4900000",
+"value": "这是一片想要说点什么的枯叶，拥有后[color=#34b05a]特化蚁技能防御+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4900100",
+"value": "外表看起来很凶狠的辣椒，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4900200",
+"value": "两个淘气的小幽灵，拥有后[color=#34b05a]特化蚁技能防御+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4900300",
+"value": "金灿灿的玉米来啦！拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4095000",
+"value": "水晶矿洞"
+},
+{
+"id": "details_i18n_4095000",
+"value": "含有大量奇异物质的矿洞，洞中似乎链接着其他的蚁巢帝国"
+},
+{
+"id": "BuildingBtnFuncName_77",
+"value": "进入矿洞"
+},
+{
+"id": "BuildingDetail_88",
+"value": "特化蚁技能防御"
+},
+{
+"id": "BuildingBtnFuncName_78",
+"value": "荧光菌商店"
+},
+{
+"id": "BuildingBtnFuncName_79",
+"value": "矿洞商店"
+},
+{
+"id": "BuildingName_4400800",
+"value": "含羞菇娘"
+},
+{
+"id": "BuildingName_4400900",
+"value": "粉妆玉砌"
+},
+{
+"id": "BuildingName_4500800",
+"value": "斑纹螺号"
+},
+{
+"id": "BuildingName_4500900",
+"value": "流光纹螺"
+},
+{
+"id": "details_i18n_4400800",
+"value": "若隐若现的酸甜菇娘果实，拥有后[color=#34b05a]湿土采集速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4400900",
+"value": "泛起红润光泽的清甜荔枝，让人垂涎，拥有后[color=#34b05a]资源采集速度+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4500800",
+"value": "把它贴在耳边能听到大海的回响，拥有后[color=#34b05a]湿土产量+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4500900",
+"value": "色彩、纹路都很夺目的泛光海螺，拥有后[color=#34b05a]资源产量+0.1%。[/color]"
+},
+{
+"id": "BuildingBtnFuncName_80",
+"value": "对决"
+},
+{
+"id": "BuildingName_4096000",
+"value": "决斗坑道"
+},
+{
+"id": "details_i18n_4096000",
+"value": "连接着多个蚁巢的坑道网络，诸多统领在这里决斗称王"
+},
+{
+"id": "equip_unlock_1",
+"value": "解锁细胞系统"
+},
+{
+"id": "equip_unlock_2",
+"value": "解锁基因系统"
+},
+{
+"id": "equip_unlock_3",
+"value": "解锁细菌系统"
+},
+{
+"id": "equip_unlock_4",
+"value": "解锁真菌系统"
+},
+{
+"id": "equip_unlock_tip_1",
+"value": "将在变异菌丛Lv.1且蚁后等级Lv.10时解锁细胞系统"
+},
+{
+"id": "equip_unlock_tip_2",
+"value": " "
+},
+{
+"id": "equip_unlock_tip_3",
+"value": " "
+},
+{
+"id": "equip_unlock_tip_4",
+"value": " "
+},
+{
+"id": "BuildingDetail_89",
+"value": "细胞系统"
+},
+{
+"id": "BuildingDetail_90",
+"value": "基因系统"
+},
+{
+"id": "BuildingDetail_91",
+"value": "细菌系统"
+},
+{
+"id": "equip_unlock_5",
+"value": "变异菌丛Lv.1且蚁后等级Lv.10时解锁"
+},
+{
+"id": "equip_unlock_6",
+"value": "变异菌丛Lv.3且蚁后等级Lv.13时解锁"
+},
+{
+"id": "equip_unlock_7",
+"value": "变异菌丛Lv.5且蚁后等级Lv.17时解锁"
+},
+{
+"id": "equip_unlock_8",
+"value": "已解锁"
+},
+{
+"id": "BuildingBtnFuncName_81",
+"value": "决斗商店"
+},
+{
+"id": "building_activity_02",
+"value": "签订光照合约后才可以驻扎{name}，是否前往签订？"
+},
+{
+"id": "BuildingName_4601000",
+"value": "惊讶玛瑙"
+},
+{
+"id": "BuildingName_4601100",
+"value": "幻想之镜"
+},
+{
+"id": "BuildingName_4701000",
+"value": "萌兽印记"
+},
+{
+"id": "BuildingName_4701100",
+"value": "顽皮鳄骸"
+},
+{
+"id": "details_i18n_4601000",
+"value": "小小雨花石充满了大大的问号，拥有后[color=#34b05a]受伤运输蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4601100",
+"value": "充满神秘力量的绿晶石，拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4701000",
+"value": "外观像小鳄鱼的化石，拥有后[color=#34b05a]运输蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4701100",
+"value": "泡澡小鳄鱼，拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4900600",
+"value": "金色传说"
+},
+{
+"id": "details_i18n_4900600",
+"value": "闪耀的成就达成！倒着看，有惊喜哦，拥有后[color=#34b05a]沙子采集速度+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4900400",
+"value": "冰雪精灵"
+},
+{
+"id": "BuildingName_4900500",
+"value": "圣诞雪橇"
+},
+{
+"id": "details_i18n_4900400",
+"value": "圣诞限定小可爱，拥有后[color=#34b05a]队列采集负重+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4900500",
+"value": "看看雪橇上都送来了什么惊喜？拥有后[color=#34b05a]湿土采集速度+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_92",
+"value": "队列采集负重"
+},
+{
+"id": "BuildingDetail_93",
+"value": "解锁功能"
+},
+{
+"id": "BuildingUnlock_01",
+"value": "解锁进化系统"
+},
+{
+"id": "BuildingUnlock_02",
+"value": "解锁特化蚁系统"
+},
+{
+"id": "BuildingUnlock_03",
+"value": "解锁联盟功能，旅行虫商店"
+},
+{
+"id": "BuildingUnlock_04",
+"value": "解锁特化蚁变异池，习性选择"
+},
+{
+"id": "BuildingUnlock_05",
+"value": "解锁特化蚁变异池"
+},
+{
+"id": "BuildingUnlock_06",
+"value": "解锁地下洞穴挑战，细胞系统，野怪系统"
+},
+{
+"id": "BuildingUnlock_07",
+"value": "解锁水晶矿洞，基因系统"
+},
+{
+"id": "BuildingUnlock_08",
+"value": "解锁野怪系统"
+},
+{
+"id": "BuildingUnlock_09",
+"value": "解锁细菌系统，蚁后对决"
+},
+{
+"id": "BuildingName_4401000",
+"value": "热辣红唇"
+},
+{
+"id": "BuildingName_4401100",
+"value": "灯笼红椒"
+},
+{
+"id": "BuildingName_4501000",
+"value": "贝壳点心"
+},
+{
+"id": "BuildingName_4501100",
+"value": "坚壳圣代"
+},
+{
+"id": "details_i18n_4401000",
+"value": "吃了之后，你的嘴唇就会变成这样。拥有后[color=#34b05a]植物采集速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4401100",
+"value": "红润光泽的灯笼椒，应该不辣吧？拥有后[color=#34b05a]资源采集速度+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4501000",
+"value": "像苏打饼干一样的小贝壳，一口下去会硌掉牙。拥有后[color=#34b05a]植物产量+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4501100",
+"value": "奶油，糖果！哇嗷！甜蜜的负担！拥有后[color=#34b05a]资源产量+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4601200",
+"value": "小石甲虫"
+},
+{
+"id": "BuildingName_4601300",
+"value": "绯红棘怪"
+},
+{
+"id": "details_i18n_4601200",
+"value": "背甲已经龟裂，但双眸依旧澈亮的岩石甲虫。拥有后[color=#34b05a]受伤近卫蚁治愈速度+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4601300",
+"value": "镶嵌着昂贵红玉石的巨像，仿佛想要捏碎觊觎宝石的窃贼。拥有后[color=#34b05a]受伤兵蚁容量+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4701200",
+"value": "闪电利齿"
+},
+{
+"id": "BuildingName_4701300",
+"value": "朱果角蜥"
+},
+{
+"id": "details_i18n_4701200",
+"value": "蜥蜴牙齿拼凑起来的小闪电，拥有后[color=#34b05a]近卫蚁攻击+0.02%。[/color]"
+},
+{
+"id": "details_i18n_4701300",
+"value": "可要小心这顽皮的小角蜥！拥有后[color=#34b05a]所有兵蚁攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4097000",
+"value": "绚丽奇景"
+},
+{
+"id": "details_i18n_4097000",
+"value": "绚丽的景观建筑，可以在此查看与摆放蚁巢内的景观"
+},
+{
+"id": "building_star_desc_1",
+"value": "采集速度"
+},
+{
+"id": "building_star_desc_2",
+"value": "受伤兵蚁治愈速度"
+},
+{
+"id": "building_star_desc_3",
+"value": "采集中的队列攻击"
+},
+{
+"id": "building_star_desc_4",
+"value": "采集中的队列防御"
+},
+{
+"id": "building_star_desc_5",
+"value": "守巢防御"
+},
+{
+"id": "building_star_desc_6",
+"value": "守巢攻击"
+},
+{
+"id": "building_star_desc_7",
+"value": "守巢生命"
+},
+{
+"id": "building_star_desc_8",
+"value": "兵蚁防御"
+},
+{
+"id": "building_star_desc_9",
+"value": "兵蚁攻击"
+},
+{
+"id": "building_star_desc_10",
+"value": "兵蚁生命"
+},
+{
+"id": "building_star_desc_11",
+"value": "景观可占用地格数"
+},
+{
+"id": "BuildingDetail_94",
+"value": "真菌系统"
+},
+{
+"id": "equip_unlock_9",
+"value": "变异菌丛Lv.7且蚁后等级Lv.19时解锁"
+},
+{
+"id": "BuildingBtnFuncName_82",
+"value": "残壳商店"
+},
+{
+"id": "SsBuildBtnNameInner_500",
+"value": "加固"
+},
+{
+"id": "SsBuildBtnNameInner_501",
+"value": "赛季回顾"
+},
+{
+"id": "SsBuildBtnNameInner_502",
+"value": "赛季详情"
+},
+{
+"id": "BuildingDetail_2023",
+"value": "荣誉值"
+},
+{
+"id": "BuildingName_4098000",
+"value": "赛季兵蚁栖息地"
+},
+{
+"id": "details_i18n_4098000",
+"value": "世界争霸期间，赛季兵蚁将聚集于此。"
+},
+{
+"id": "season_reinforce_desc_101",
+"value": "兵蚁得到攻击加成"
+},
+{
+"id": "season_reinforce_desc_102",
+"value": "兵蚁得到防御加成"
+},
+{
+"id": "season_reinforce_desc_103",
+"value": "兵蚁得到生命加成"
+},
+{
+"id": "season_reinforce_desc_202",
+"value": "赛季近卫蚁治愈速度提升"
+},
+{
+"id": "season_reinforce_desc_302",
+"value": "赛季射手蚁治愈速度提升"
+},
+{
+"id": "season_reinforce_desc_402",
+"value": "赛季运输蚁治愈速度提升"
+},
+{
+"id": "season_reinforce_desc_501",
+"value": "赛季兵蚁攻击提升"
+},
+{
+"id": "season_reinforce_desc_601",
+"value": "赛季兵蚁防御提升"
+},
+{
+"id": "season_reinforce_desc_701",
+"value": "赛季兵蚁生命提升"
+},
+{
+"id": "season_reinforce_desc_801",
+"value": "争夺据点时，全兵蚁得到攻击提升"
+},
+{
+"id": "season_reinforce_desc_901",
+"value": "争夺据点时，全兵蚁得到防御提升"
+},
+{
+"id": "season_reinforce_desc_1001",
+"value": "争夺据点时，全兵蚁得到生命提升"
+},
+{
+"id": "season_reinforce_desc_1101",
+"value": "特殊队列内的兵蚁得到攻击加成"
+},
+{
+"id": "season_reinforce_desc_1102",
+"value": "特殊队列内的兵蚁得到防御加成"
+},
+{
+"id": "season_reinforce_desc_1103",
+"value": "特殊队列内的兵蚁得到生命加成"
+},
+{
+"id": "season_reinforce_desc_1201",
+"value": "争夺据点时，兵蚁行军队列Ⅰ内的兵蚁破坏值提升"
+},
+{
+"id": "season_reinforce_desc_1301",
+"value": "争夺据点时，兵蚁行军队列Ⅱ内的兵蚁破坏值提升"
+},
+{
+"id": "season_reinforce_desc_1401",
+"value": "争夺据点时，兵蚁行军队列Ⅲ内的兵蚁破坏值提升"
+},
+{
+"id": "BuildingDetail_2001",
+"value": "全兵蚁攻击"
+},
+{
+"id": "BuildingDetail_2002",
+"value": "全兵蚁防御"
+},
+{
+"id": "BuildingDetail_2003",
+"value": "全兵蚁生命"
+},
+{
+"id": "BuildingDetail_2007",
+"value": "赛季近卫蚁治愈速度"
+},
+{
+"id": "BuildingDetail_2008",
+"value": "赛季射手蚁治愈速度"
+},
+{
+"id": "BuildingDetail_2009",
+"value": "赛季运输蚁治愈速度"
+},
+{
+"id": "BuildingDetail_2010",
+"value": "赛季兵蚁攻击"
+},
+{
+"id": "BuildingDetail_2011",
+"value": "赛季兵蚁防御"
+},
+{
+"id": "BuildingDetail_2012",
+"value": "赛季兵蚁生命"
+},
+{
+"id": "BuildingDetail_2013",
+"value": "争夺据点时，全兵蚁攻击"
+},
+{
+"id": "BuildingDetail_2014",
+"value": "争夺据点时，全兵蚁防御"
+},
+{
+"id": "BuildingDetail_2015",
+"value": "争夺据点时，全兵蚁生命"
+},
+{
+"id": "BuildingDetail_2016",
+"value": "特殊队列兵蚁攻击"
+},
+{
+"id": "BuildingDetail_2017",
+"value": "特殊队列兵蚁防御"
+},
+{
+"id": "BuildingDetail_2018",
+"value": "特殊队列兵蚁生命"
+},
+{
+"id": "BuildingDetail_2019",
+"value": "争夺据点时，队列Ⅰ兵蚁破坏值"
+},
+{
+"id": "BuildingDetail_2020",
+"value": "争夺据点时，队列Ⅱ兵蚁破坏值"
+},
+{
+"id": "BuildingDetail_2021",
+"value": "争夺据点时，队列Ⅲ兵蚁破坏值"
+},
+{
+"id": "SsBuildBtnNameInner_83",
+"value": "蚁巢全景"
+},
+{
+"id": "BuildingBtnFuncName_84",
+"value": "收取"
+},
+{
+"id": "BuildingBtnFuncName_85",
+"value": "野怪猎场"
+},
+{
+"id": "BuildingDetail_2024",
+"value": "赛季近卫蚁治愈消耗"
+},
+{
+"id": "BuildingDetail_2025",
+"value": "赛季射手蚁治愈消耗"
+},
+{
+"id": "BuildingDetail_2026",
+"value": "赛季运输蚁治愈消耗"
+},
+{
+"id": "season_reinforce_desc_201",
+"value": "赛季11级近卫蚁每小时产量"
+},
+{
+"id": "season_reinforce_desc_301",
+"value": "赛季11级射手蚁每小时产量"
+},
+{
+"id": "season_reinforce_desc_401",
+"value": "赛季11级运输蚁每小时产量"
+},
+{
+"id": "BuildingDetail_2004",
+"value": "赛季11级近卫蚁产量(小时)"
+},
+{
+"id": "BuildingDetail_2005",
+"value": "赛季11级射手蚁产量(小时)"
+},
+{
+"id": "BuildingDetail_2006",
+"value": "赛季11级运输蚁产量(h)"
+},
+{
+"id": "BuildingUnlock_10",
+"value": "解锁野怪猎场，特化蚁异化，资源容纳上限提升"
+},
+{
+"id": "BuildingUnlock_11",
+"value": "解锁真菌系统"
+},
+{
+"id": "BuildingBtnFuncName_86",
+"value": "异化"
+},
+{
+"id": "HeroMutate_Unlock_1",
+"value": "特化蚁异化系统已解锁，统领可以前往【特化蚁变异池】，点击【异化】为特化蚁增加变异能力吧！"
+},
+{
+"id": "BuildingUnlock_12",
+"value": "解锁兵种改造系统"
+},
+{
+"id": "BuildingBtnFuncName_87",
+"value": "改造宝箱"
+},
+{
+"id": "BuildingBtnFuncName_88",
+"value": "查看改造"
+},
+{
+"id": "BuildingDetail_104",
+"value": "改造槽位数量"
+},
+{
+"id": "BuildingName_4099000",
+"value": "兵种改造池"
+},
+{
+"id": "details_i18n_4099000",
+"value": "针对兵种的特殊改造池，可以改造每个兵种的部位，使兵种产生更多的能力变化"
+},
+{
+"id": "BuildingName_4900700",
+"value": "绯芯黄蝉"
+},
+{
+"id": "details_i18n_4900700",
+"value": "一株带有特殊意义的花，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "BuildingBtnFuncName_89",
+"value": "觉醒图鉴"
+},
+{
+"id": "BuildingBtnFuncName_90",
+"value": "地下迷宫"
+},
+{
+"id": "BuildingDetail_105",
+"value": "每小时蜜露产量"
+},
+{
+"id": "BuildingDetail_106",
+"value": "守巢攻击"
+},
+{
+"id": "BuildingDetail_107",
+"value": "发展蚂蚁经验值"
+},
+{
+"id": "BuildingDetail_108",
+"value": "守巢防御"
+},
+{
+"id": "BuildingDetail_109",
+"value": "守巢生命"
+},
+{
+"id": "BuildingDetail_110",
+"value": "特化蚁技能攻击"
+},
+{
+"id": "cn_BuildingName_4900800",
+"value": "花粉定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4900900",
+"value": "琥珀定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4901000",
+"value": "小米定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4901100",
+"value": "vivo定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4901200",
+"value": "九游定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4901300",
+"value": "应用宝定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4901400",
+"value": "37定制—诗礼银杏"
+},
+{
+"id": "cn_BuildingName_4901500",
+"value": "4399定制—诗礼银杏"
+},
+{
+"id": "cn_details_i18n_4900800",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4900900",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4901000",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4901100",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4901200",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4901300",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4901400",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_details_i18n_4901500",
+"value": "代表了祝福的银杏树叶，仅通过渠道专属福利活动获得，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "cn_BuildingName_4901900",
+"value": "刺角甜瓜"
+},
+{
+"id": "cn_details_i18n_4901900",
+"value": "带有尖刺的金黄色刺角瓜，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4901600",
+"value": "哥斯拉造型景观"
+},
+{
+"id": "BuildingName_4901700",
+"value": "摩斯拉造型景观"
+},
+{
+"id": "BuildingName_4901800",
+"value": "王者基多拉造型景观"
+},
+{
+"id": "details_i18n_4901600",
+"value": "由紫色水晶和黑色岩石基底天然形成，外形酷似哥斯拉，拥有后[color=#34b05a]全兵蚁生命+0.2%。[/color]"
+},
+{
+"id": "details_i18n_4901700",
+"value": "由棕色玉石和黑色岩石基底天然形成，外形酷似摩斯拉幼虫，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "details_i18n_4901800",
+"value": "由金矿石和白色岩石基底天然形成，外形酷似基多拉，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingBtnFuncName_93",
+"value": "进入农场"
+},
+{
+"id": "BuildingBtnFuncName_94",
+"value": "免费种子"
+},
+{
+"id": "BuildingBtnFuncName_95",
+"value": "升级"
+},
+{
+"id": "BuildingBtnFuncName_96",
+"value": "商店"
+},
+{
+"id": "BuildingBtnFuncName_97",
+"value": "农场景观"
+},
+{
+"id": "BuildingBtnFuncName_98",
+"value": "农场装扮"
+},
+{
+"id": "BuildingBtnFuncName_99",
+"value": "农场全景"
+},
+{
+"id": "BuildingBtnFuncName_100",
+"value": "移除"
+},
+{
+"id": "farmBuild_name_723000000",
+"value": "蚂蚁庄园"
+},
+{
+"id": "farmBuild_name_723010000",
+"value": "田地"
+},
+{
+"id": "farmBuild_name_723020000",
+"value": "小蔓长春花"
+},
+{
+"id": "farmBuild_name_723030000",
+"value": "银莲花"
+},
+{
+"id": "farmBuild_name_723040000",
+"value": "羽扇豆"
+},
+{
+"id": "farmBuild_name_723050000",
+"value": "小橡皮草"
+},
+{
+"id": "farmBuild_name_723060000",
+"value": "佛手蔓绿绒"
+},
+{
+"id": "farmBuild_desc_723020000",
+"value": "蓝紫色的伞状花朵配合嫩绿色的枝丫，尽显宁静优雅的氛围，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723030000",
+"value": "白色花朵和纤细的叶片细嫩而清新，衬托出沉静安和的氛围，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723040000",
+"value": "紫色的花穗簇拥着黄色柱头探出，显得分外绚丽，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723050000",
+"value": "叶片紧密缠绕成枫叶般的串珠并有粉白色的小花从中心绽开，显得格外迷人，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723060000",
+"value": "淡黄色的花朵配合玫红色的花苞能起到完美的装饰和点缀，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "BuildingName_4902100",
+"value": "碧月清辉"
+},
+{
+"id": "details_i18n_4902100",
+"value": "形似月牙散发着月光般清辉的神秘晶石，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "farmBuild_name_723120000",
+"value": "贝壳花"
+},
+{
+"id": "farmBuild_name_723130000",
+"value": "箭羽竹芋"
+},
+{
+"id": "farmBuild_name_723140000",
+"value": "雪饼草"
+},
+{
+"id": "farmBuild_desc_723120000",
+"value": "白色的小花被翠绿色的贝壳状花萼所包围，呈现出一种清淡雅致的美感，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723130000",
+"value": "以明暗交替的绿色为基调的箭羽状叶脉装点着华丽的紫红色花朵，相得益彰，格外绚丽，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723140000",
+"value": "呈漏斗形的紫褐色管状结构向上延伸，边缘卷曲优美，凸显出中央纯洁的花蕊，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "cn_BuildingName_4902400",
+"value": "一周年快乐"
+},
+{
+"id": "cn_details_i18n_4902400",
+"value": "一周年限定景观，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingDetail_2027",
+"value": "队列Ⅰ、Ⅱ、Ⅲ兵蚁攻击"
+},
+{
+"id": "BuildingDetail_2028",
+"value": "队列Ⅰ、Ⅱ、Ⅲ兵蚁防御"
+},
+{
+"id": "BuildingDetail_2029",
+"value": "队列Ⅰ、Ⅱ、Ⅲ兵蚁生命"
+},
+{
+"id": "farmBuild_name_723160000",
+"value": "蝉翼荠"
+},
+{
+"id": "farmBuild_name_723170000",
+"value": "长萼龙胆"
+},
+{
+"id": "farmBuild_desc_723160000",
+"value": "如蝉翼般通透，似羽毛般纯洁的叶片从大地拔起，焕发出充满活力的景象，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723170000",
+"value": "蓝紫色花朵被一簇翠绿的叶子所环绕，花冠则呈现出条纹装饰，展现出高贵神秘之美，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_name_723150000",
+"value": "马桶猪笼草"
+},
+{
+"id": "farmBuild_desc_723150000",
+"value": "捕虫笼形如马桶，连接在红色扁平笼口下方，散发出诱人的清新香气，拥有后[color=#34b05a]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "BuildingName_4902600",
+"value": "圣诞红袜"
+},
+{
+"id": "details_i18n_4902600",
+"value": "红彤彤的圣诞袜，期待被礼物装满，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4902700",
+"value": "礼物使者"
+},
+{
+"id": "details_i18n_4902700",
+"value": "圣诞礼物来咯！拥有后[color=#34b05a]植物采集速度+0.02%。[/color]"
+},
+{
+"id": "farmBuild_name_723180000",
+"value": "龟甲繁花"
+},
+{
+"id": "farmBuild_name_723190000",
+"value": "辉煌水晶"
+},
+{
+"id": "farmBuild_name_723200000",
+"value": "欧泊印记"
+},
+{
+"id": "farmBuild_name_723210000",
+"value": "骸骨巨石"
+},
+{
+"id": "farmBuild_name_723220000",
+"value": "琥珀物语"
+},
+{
+"id": "farmBuild_name_723230000",
+"value": "菊石旋涡"
+},
+{
+"id": "farmBuild_name_723240000",
+"value": "闪耀晶簇"
+},
+{
+"id": "farmBuild_desc_723180000",
+"value": "这枚龟壳不知是何时被丢弃这里的，经过漫长的岁月，已经开满了鲜花，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723190000",
+"value": "金色的水晶原石闪烁着耀眼的光芒，分外吸引眼球，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723200000",
+"value": "绚丽的欧泊石组成一枚巨大的脚印，形成了一处奇特的景观，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723210000",
+"value": "惨白骸骨与黝黑的石块交错堆叠，记录下发生在这里的激烈战斗，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723220000",
+"value": "橙色的晶体包裹着一只蝎子，它为何被封印在此？拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723230000",
+"value": "旋涡般的菊石承载着远古的记忆，历史就是这样被记录了下来拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723240000",
+"value": "紫色的晶簇内部仿佛流动着奇异的能量，神秘又吸引，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "BuildingBtnFuncName_91",
+"value": "宝藏仓库"
+},
+{
+"id": "BuildingName_4101000",
+"value": "宝藏存放地"
+},
+{
+"id": "details_i18n_4101000",
+"value": "工蚁通过探索获得的宝藏会存放在此处，来供应蚁巢发展。"
+},
+{
+"id": "BuildingDetail_111",
+"value": "探索资源"
+},
+{
+"id": "BuildingUnlock_13",
+"value": "解锁工蚁宝藏，工蚁探索"
+},
+{
+"id": "BuildingBtnFuncName_92",
+"value": "工蚁探索"
+},
+{
+"id": "BGCoronaName_14",
+"value": "表情"
+},
+{
+"id": "BuildingName_4103000",
+"value": "野怪装扮存放地"
+},
+{
+"id": "details_i18n_4103000",
+"value": "这里存放着各种新奇的野怪装扮，这些装扮能够激活不同的潜能。"
+},
+{
+"id": "BuildingBtnFuncName_108",
+"value": "装扮图鉴"
+},
+{
+"id": "BuildingBtnFuncName_109",
+"value": "野怪潜能"
+},
+{
+"id": "BuildingBtnFuncName_110",
+"value": "潜能水晶"
+},
+{
+"id": "farmBuild_desc_723260000",
+"value": "盛放时节的君子兰，花姿端庄优雅，正如翩翩君子，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_name_723260000",
+"value": "翩翩君子"
+},
+{
+"id": "cn_BuildingName_4903200",
+"value": "粽叶幽兰"
+},
+{
+"id": "cn_details_i18n_4903200",
+"value": "端午粽香蛋韵，传统美味的完美邂逅。拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4102000",
+"value": "进化陨石"
+},
+{
+"id": "details_i18n_4102000",
+"value": "一颗神秘的陨石，内含丰富的奇异元素，特化蚁可以通过它进行进化。"
+},
+{
+"id": "BuildingDetail_113",
+"value": "增加任务"
+},
+{
+"id": "BuildingBtnFuncName_105",
+"value": "进化"
+},
+{
+"id": "BuildingBtnFuncName_106",
+"value": "陨坑探险"
+},
+{
+"id": "BuildingBtnFuncName_107",
+"value": "任务派遣"
+},
+{
+"id": "farmBuild_name_723270000",
+"value": "温馨粉葵"
+},
+{
+"id": "farmBuild_name_723280000",
+"value": "螺海星辰"
+},
+{
+"id": "farmBuild_desc_723270000",
+"value": "粉色的天竺葵花团，温馨浪漫，给你无声的陪伴，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723280000",
+"value": "星辰花的花朵小巧秀丽，成片开放时，就像夜空中的点点繁星，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "BuildingDetail_2030",
+"value": "所有行军队列兵蚁攻击"
+},
+{
+"id": "BuildingDetail_2031",
+"value": "所有行军队列兵蚁防御"
+},
+{
+"id": "BuildingDetail_2032",
+"value": "所有行军队列兵蚁生命"
+},
+{
+"id": "BuildingName_4902000",
+"value": "水晶之羽"
+},
+{
+"id": "details_i18n_4902000",
+"value": "一座由天鹅幻化而成的水晶，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "CN_BuildingDetail_2033",
+"value": "浇水次数"
+},
+{
+"id": "BuildingBtnFuncName_113",
+"value": "拓展编队"
+},
+{
+"id": "BuildingName_4026000_01",
+"value": "超级行军集结地I"
+},
+{
+"id": "BuildingName_4027000_01",
+"value": "超级行军集结地II"
+},
+{
+"id": "BuildingName_4028000_01",
+"value": "超级行军集结地III"
+},
+{
+"id": "BuildingName_4025000_01",
+"value": "超级特殊行军集结地"
+},
+{
+"id": "BuildingDetail_114",
+"value": "体力上限"
+},
+{
+"id": "farmBuild_name_723290000",
+"value": "凄美骸骨"
+},
+{
+"id": "farmBuild_name_723300000",
+"value": "纯白梦境"
+},
+{
+"id": "farmBuild_desc_723290000",
+"value": "这具骸骨静静的躺在花丛之中，宛如一幅诡异而美丽的图画，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723300000",
+"value": "洁白优美的睡莲，仿佛一位圣洁的女神，守护着大家的梦境，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "BuildingName_4904200",
+"value": "翡翠蛇宝"
+},
+{
+"id": "details_i18n_4904200",
+"value": "一块酷似青蛇的翡翠原石，似乎能给蚁巢带来好运，拥有后[color=#34b05a]特化蚁技能攻击+0.1%。[/color]"
+},
+{
+"id": "BuildingName_4904100",
+"value": "欢乐号手"
+},
+{
+"id": "details_i18n_4904100",
+"value": "庆祝蚁国世界焕然一新，拥有后[color=#34b05a]特化蚁技能防御+0.1%。[/color]"
+},
+{
+"id": "BuildingBtnFuncName_111",
+"value": "伙伴图鉴"
+},
+{
+"id": "BuildingUnlock_15",
+"value": "解锁野怪装扮系统"
+},
+{
+"id": "farmBuild_name_723320000",
+"value": "礁海星吟"
+},
+{
+"id": "farmBuild_name_723350000",
+"value": "紫螺仙踪"
+},
+{
+"id": "farmBuild_desc_723320000",
+"value": "以珊瑚礁为舞台，海星在低吟，演绎着海洋一隅的静谧时刻，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+},
+{
+"id": "farmBuild_desc_723350000",
+"value": "珊瑚间，紫螺静卧，蚌含珠玑，似藏着深海仙子走过留下的神秘仙踪，拥有后[color=#34B05A]农场作物精华产量+10%[/color]。"
+}
+]

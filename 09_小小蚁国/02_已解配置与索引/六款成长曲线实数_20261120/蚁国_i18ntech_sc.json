@@ -1,0 +1,2930 @@
+[
+{
+"id": "TechCategoryName_1",
+"value": "急速生产"
+},
+{
+"id": "TechCategoryName_2",
+"value": "蚁巢发展"
+},
+{
+"id": "TechCategoryName_3",
+"value": "基础战斗"
+},
+{
+"id": "TechCategoryName_4",
+"value": "行军队列I"
+},
+{
+"id": "TechCategoryName_5",
+"value": "特殊行军队列"
+},
+{
+"id": "TechCategoryName_6",
+"value": "兵蚁治愈"
+},
+{
+"id": "TechCategoryName_7",
+"value": "基础军事"
+},
+{
+"id": "TechCategoryName_8",
+"value": "行军队列II"
+},
+{
+"id": "TechCategoryName_9",
+"value": "行军队列III"
+},
+{
+"id": "TechCategoryName_12",
+"value": "近卫蚁孵化"
+},
+{
+"id": "TechCategoryName_13",
+"value": "射手蚁孵化"
+},
+{
+"id": "TechCategoryName_14",
+"value": "运输蚁孵化"
+},
+{
+"id": "TechName_1",
+"value": "急速宰杀"
+},
+{
+"id": "TechName_2",
+"value": "急速切割"
+},
+{
+"id": "TechName_3",
+"value": "急速挖掘"
+},
+{
+"id": "TechName_4",
+"value": "急速吸取"
+},
+{
+"id": "TechName_5",
+"value": "急速培育"
+},
+{
+"id": "TechName_6",
+"value": "急速搬运"
+},
+{
+"id": "TechName_7",
+"value": "资源再生"
+},
+{
+"id": "TechName_8",
+"value": "高效急速宰杀"
+},
+{
+"id": "TechName_9",
+"value": "高效急速切割"
+},
+{
+"id": "TechName_10",
+"value": "高效急速挖掘"
+},
+{
+"id": "TechName_11",
+"value": "高效急速吸取"
+},
+{
+"id": "TechName_12",
+"value": "高效急速培育"
+},
+{
+"id": "TechName_13",
+"value": "高效急速搬运"
+},
+{
+"id": "TechName_14",
+"value": "高效生产"
+},
+{
+"id": "TechName_15",
+"value": "稳定生产"
+},
+{
+"id": "TechName_16",
+"value": "优质饵料"
+},
+{
+"id": "TechName_17",
+"value": "腐生植物"
+},
+{
+"id": "TechName_18",
+"value": "松软土壤"
+},
+{
+"id": "TechName_19",
+"value": "地下喷泉"
+},
+{
+"id": "TechName_20",
+"value": "特殊菌种"
+},
+{
+"id": "TechName_21",
+"value": "大块砂石"
+},
+{
+"id": "TechName_22",
+"value": "巨型蚜虫"
+},
+{
+"id": "TechName_23",
+"value": "群体捕杀"
+},
+{
+"id": "TechName_24",
+"value": "软化土壤"
+},
+{
+"id": "TechName_25",
+"value": "灵活攀爬"
+},
+{
+"id": "TechName_26",
+"value": "高速搬运"
+},
+{
+"id": "TechName_27",
+"value": "精准切割"
+},
+{
+"id": "TechName_28",
+"value": "储存大师"
+},
+{
+"id": "TechName_29",
+"value": "建筑大师"
+},
+{
+"id": "TechName_30",
+"value": "勇气嘉奖"
+},
+{
+"id": "TechName_31",
+"value": "近卫蚁异变I"
+},
+{
+"id": "TechName_32",
+"value": "射手蚁异变I"
+},
+{
+"id": "TechName_33",
+"value": "运输蚁异变I"
+},
+{
+"id": "TechName_34",
+"value": "额外掠夺"
+},
+{
+"id": "TechName_35",
+"value": "初级攻击"
+},
+{
+"id": "TechName_36",
+"value": "初级防御"
+},
+{
+"id": "TechName_37",
+"value": "近卫蚁异变II"
+},
+{
+"id": "TechName_38",
+"value": "射手蚁异变II"
+},
+{
+"id": "TechName_39",
+"value": "运输蚁异变II"
+},
+{
+"id": "TechName_40",
+"value": "经验提升"
+},
+{
+"id": "TechName_41",
+"value": "中级攻击"
+},
+{
+"id": "TechName_42",
+"value": "中级防御"
+},
+{
+"id": "TechName_43",
+"value": "回避技巧"
+},
+{
+"id": "TechName_44",
+"value": "高级攻击"
+},
+{
+"id": "TechName_45",
+"value": "高级防御"
+},
+{
+"id": "TechName_46",
+"value": "初级协同作战"
+},
+{
+"id": "TechName_47",
+"value": "高效采集"
+},
+{
+"id": "TechName_48",
+"value": "负重提升"
+},
+{
+"id": "TechName_49",
+"value": "坚硬头骨"
+},
+{
+"id": "TechName_50",
+"value": "尖刺后背"
+},
+{
+"id": "TechName_51",
+"value": "弹性腹部"
+},
+{
+"id": "TechName_52",
+"value": "行军加速"
+},
+{
+"id": "TechName_53",
+"value": "中级协同作战"
+},
+{
+"id": "TechName_54",
+"value": "蚁群召回"
+},
+{
+"id": "TechName_55",
+"value": "快速行军"
+},
+{
+"id": "TechName_56",
+"value": "快速恢复"
+},
+{
+"id": "TechName_57",
+"value": "锯齿口钳"
+},
+{
+"id": "TechName_58",
+"value": "毒性蚁酸"
+},
+{
+"id": "TechName_59",
+"value": "粗壮足节"
+},
+{
+"id": "TechName_60",
+"value": "高级协同作战"
+},
+{
+"id": "TechName_61",
+"value": "初级协同作战"
+},
+{
+"id": "TechName_62",
+"value": "高效采集"
+},
+{
+"id": "TechName_63",
+"value": "负重提升"
+},
+{
+"id": "TechName_64",
+"value": "坚硬头骨"
+},
+{
+"id": "TechName_65",
+"value": "尖刺后背"
+},
+{
+"id": "TechName_66",
+"value": "弹性腹部"
+},
+{
+"id": "TechName_67",
+"value": "行军加速"
+},
+{
+"id": "TechName_68",
+"value": "中级协同作战"
+},
+{
+"id": "TechName_69",
+"value": "蚁群召回"
+},
+{
+"id": "TechName_70",
+"value": "快速行军"
+},
+{
+"id": "TechName_71",
+"value": "快速恢复"
+},
+{
+"id": "TechName_72",
+"value": "锯齿口钳"
+},
+{
+"id": "TechName_73",
+"value": "毒性蚁酸"
+},
+{
+"id": "TechName_74",
+"value": "粗壮足节"
+},
+{
+"id": "TechName_75",
+"value": "高级协同作战"
+},
+{
+"id": "TechName_76",
+"value": "近卫蚁自动愈合"
+},
+{
+"id": "TechName_77",
+"value": "射手蚁自动愈合"
+},
+{
+"id": "TechName_78",
+"value": "运输蚁自动愈合"
+},
+{
+"id": "TechName_79",
+"value": "集中治愈"
+},
+{
+"id": "TechName_80",
+"value": "近卫蚁快速治愈"
+},
+{
+"id": "TechName_81",
+"value": "射手蚁快速治愈"
+},
+{
+"id": "TechName_82",
+"value": "运输蚁快速治愈"
+},
+{
+"id": "TechName_83",
+"value": "治愈池扩建"
+},
+{
+"id": "TechName_84",
+"value": "避开要害"
+},
+{
+"id": "TechName_85",
+"value": "临时治愈池"
+},
+{
+"id": "TechName_86",
+"value": "单打独斗"
+},
+{
+"id": "TechName_87",
+"value": "近卫蚁快速成长I"
+},
+{
+"id": "TechName_88",
+"value": "射手蚁快速成长I"
+},
+{
+"id": "TechName_89",
+"value": "运输蚁快速成长I"
+},
+{
+"id": "TechName_90",
+"value": "介质扩建"
+},
+{
+"id": "TechName_91",
+"value": "近卫蚁快速成长II"
+},
+{
+"id": "TechName_92",
+"value": "射手蚁快速成长II"
+},
+{
+"id": "TechName_93",
+"value": "运输蚁快速成长II"
+},
+{
+"id": "TechName_94",
+"value": "精力充沛"
+},
+{
+"id": "TechName_95",
+"value": "树叶介质"
+},
+{
+"id": "TechName_96",
+"value": "木头介质"
+},
+{
+"id": "TechName_97",
+"value": "沙土介质"
+},
+{
+"id": "TechName_98",
+"value": "致命攻击"
+},
+{
+"id": "TechName_99",
+"value": "初级协同作战"
+},
+{
+"id": "TechName_100",
+"value": "高效采集"
+},
+{
+"id": "TechName_101",
+"value": "负重提升"
+},
+{
+"id": "TechName_102",
+"value": "坚硬头骨"
+},
+{
+"id": "TechName_103",
+"value": "尖刺后背"
+},
+{
+"id": "TechName_104",
+"value": "弹性腹部"
+},
+{
+"id": "TechName_105",
+"value": "行军加速"
+},
+{
+"id": "TechName_106",
+"value": "中级协同作战"
+},
+{
+"id": "TechName_107",
+"value": "蚁群召回"
+},
+{
+"id": "TechName_108",
+"value": "快速行军"
+},
+{
+"id": "TechName_109",
+"value": "快速恢复"
+},
+{
+"id": "TechName_110",
+"value": "锯齿口钳"
+},
+{
+"id": "TechName_111",
+"value": "毒性蚁酸"
+},
+{
+"id": "TechName_112",
+"value": "粗壮足节"
+},
+{
+"id": "TechName_113",
+"value": "高级协同作战"
+},
+{
+"id": "TechName_114",
+"value": "初级协同作战"
+},
+{
+"id": "TechName_115",
+"value": "高效采集"
+},
+{
+"id": "TechName_116",
+"value": "负重提升"
+},
+{
+"id": "TechName_117",
+"value": "坚硬头骨"
+},
+{
+"id": "TechName_118",
+"value": "尖刺后背"
+},
+{
+"id": "TechName_119",
+"value": "弹性腹部"
+},
+{
+"id": "TechName_120",
+"value": "行军加速"
+},
+{
+"id": "TechName_121",
+"value": "中级协同作战"
+},
+{
+"id": "TechName_122",
+"value": "蚁群召回"
+},
+{
+"id": "TechName_123",
+"value": "快速行军"
+},
+{
+"id": "TechName_124",
+"value": "快速恢复"
+},
+{
+"id": "TechName_125",
+"value": "锯齿口钳"
+},
+{
+"id": "TechName_126",
+"value": "毒性蚁酸"
+},
+{
+"id": "TechName_127",
+"value": "粗壮足节"
+},
+{
+"id": "TechName_128",
+"value": "高级协同作战"
+},
+{
+"id": "TechName_163",
+"value": "天生蛮力"
+},
+{
+"id": "TechName_164",
+"value": "甲壳盔甲"
+},
+{
+"id": "TechName_165",
+"value": "坚硬头部"
+},
+{
+"id": "TechName_166",
+"value": "加固关节"
+},
+{
+"id": "TechName_167",
+"value": "坚守蚁巢"
+},
+{
+"id": "TechName_168",
+"value": "坚硬身躯"
+},
+{
+"id": "TechName_169",
+"value": "巨力撕咬"
+},
+{
+"id": "TechName_170",
+"value": "坚固甲壳"
+},
+{
+"id": "TechName_171",
+"value": "强化孵化"
+},
+{
+"id": "TechName_172",
+"value": "特定产卵"
+},
+{
+"id": "TechName_173",
+"value": "精准异变"
+},
+{
+"id": "TechName_174",
+"value": "酸蚀免疫"
+},
+{
+"id": "TechName_175",
+"value": "近卫蚁异变III"
+},
+{
+"id": "TechName_176",
+"value": "守巢决心"
+},
+{
+"id": "TechName_177",
+"value": "尖刺甲壳"
+},
+{
+"id": "TechName_178",
+"value": "解锁9级近卫蚁"
+},
+{
+"id": "TechName_179",
+"value": "举腹突击"
+},
+{
+"id": "TechName_180",
+"value": "菌丝护身"
+},
+{
+"id": "TechName_181",
+"value": "弱点瞄准"
+},
+{
+"id": "TechName_182",
+"value": "精准攻击"
+},
+{
+"id": "TechName_183",
+"value": "纤维护甲"
+},
+{
+"id": "TechName_184",
+"value": "精准瞄准"
+},
+{
+"id": "TechName_185",
+"value": "蚁酸进化"
+},
+{
+"id": "TechName_186",
+"value": "高级纤维"
+},
+{
+"id": "TechName_187",
+"value": "强化孵化"
+},
+{
+"id": "TechName_188",
+"value": "特定产卵"
+},
+{
+"id": "TechName_189",
+"value": "精准异变"
+},
+{
+"id": "TechName_190",
+"value": "稳定瞄准"
+},
+{
+"id": "TechName_191",
+"value": "射手蚁异变III"
+},
+{
+"id": "TechName_192",
+"value": "攻坚战练习"
+},
+{
+"id": "TechName_193",
+"value": "剧毒蚁酸"
+},
+{
+"id": "TechName_194",
+"value": "解锁9级射手蚁"
+},
+{
+"id": "TechName_195",
+"value": "灵活作战"
+},
+{
+"id": "TechName_196",
+"value": "腹部加固"
+},
+{
+"id": "TechName_197",
+"value": "碾压"
+},
+{
+"id": "TechName_198",
+"value": "腹囊存储"
+},
+{
+"id": "TechName_199",
+"value": "轻便行动"
+},
+{
+"id": "TechName_200",
+"value": "重装碾压"
+},
+{
+"id": "TechName_201",
+"value": "口器强化"
+},
+{
+"id": "TechName_202",
+"value": "坚硬身躯"
+},
+{
+"id": "TechName_203",
+"value": "强化孵化"
+},
+{
+"id": "TechName_204",
+"value": "特定产卵"
+},
+{
+"id": "TechName_205",
+"value": "精准异变"
+},
+{
+"id": "TechName_206",
+"value": "撕裂碾压"
+},
+{
+"id": "TechName_207",
+"value": "运输蚁异变III"
+},
+{
+"id": "TechName_208",
+"value": "野外作战专家"
+},
+{
+"id": "TechName_209",
+"value": "厚重蚁躯"
+},
+{
+"id": "TechName_210",
+"value": "解锁9级运输蚁"
+},
+{
+"id": "TechDes_1",
+"value": "解锁肉采集地急速生产，激活成功后立即获得肉"
+},
+{
+"id": "TechDes_2",
+"value": "解锁植物采集地急速生产，激活成功后立即获得植物"
+},
+{
+"id": "TechDes_3",
+"value": "解锁湿土采集地急速生产，激活成功后可立即获得湿土"
+},
+{
+"id": "TechDes_4",
+"value": "解锁水采集地急速生产，激活成功后立即获得水"
+},
+{
+"id": "TechDes_5",
+"value": "解锁切叶蚁急速生产，激活成功后立即获得菌"
+},
+{
+"id": "TechDes_6",
+"value": "解锁沙子采集地急速生产，激活成功后可立即获得沙子"
+},
+{
+"id": "TechDes_7",
+"value": "资源建筑升级后，快速生产成功率恢复"
+},
+{
+"id": "TechDes_8",
+"value": "提升肉采集地快速生产成功后的资源产量"
+},
+{
+"id": "TechDes_9",
+"value": "提升植物采集地快速生产成功后的资源产量"
+},
+{
+"id": "TechDes_10",
+"value": "提升湿土采集地快速生产成功后的资源产量"
+},
+{
+"id": "TechDes_11",
+"value": "提升水采集地快速生产成功后的资源产量"
+},
+{
+"id": "TechDes_12",
+"value": "提升切叶蚁快速生产成功后的资源产量"
+},
+{
+"id": "TechDes_13",
+"value": "提升沙子采集地快速生产成功后的资源产量"
+},
+{
+"id": "TechDes_14",
+"value": "各类资源建筑当日首次使用急速模式必定成功"
+},
+{
+"id": "TechDes_15",
+"value": "提升快速生产的稳定性，增加初始成功率"
+},
+{
+"id": "TechDes_16",
+"value": "肉产量提高"
+},
+{
+"id": "TechDes_17",
+"value": "植物产量提高"
+},
+{
+"id": "TechDes_18",
+"value": "湿土生产率提高"
+},
+{
+"id": "TechDes_19",
+"value": "水产量提高"
+},
+{
+"id": "TechDes_20",
+"value": "菌产量提高"
+},
+{
+"id": "TechDes_21",
+"value": "沙子生产率提高"
+},
+{
+"id": "TechDes_22",
+"value": "蜜露产量提高"
+},
+{
+"id": "TechDes_23",
+"value": "肉采集速度增快"
+},
+{
+"id": "TechDes_24",
+"value": "湿土采集速度增快"
+},
+{
+"id": "TechDes_25",
+"value": "植物采集速度增快"
+},
+{
+"id": "TechDes_26",
+"value": "沙子采集速度增快"
+},
+{
+"id": "TechDes_27",
+"value": "钻石采集速度增加"
+},
+{
+"id": "TechDes_28",
+"value": "资源储存上限增加"
+},
+{
+"id": "TechDes_29",
+"value": "建筑建造速度加快"
+},
+{
+"id": "TechDes_30",
+"value": "战胜野外生物后，有几率获得生物残骸"
+},
+{
+"id": "TechDes_31",
+"value": "1到3级近卫蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_32",
+"value": "1到3级射手蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_33",
+"value": "1到3级运输蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_34",
+"value": "战胜野外生物后，获得资源数量增加"
+},
+{
+"id": "TechDes_35",
+"value": "攻击1到5级野外生物时，所有单位攻击提升"
+},
+{
+"id": "TechDes_36",
+"value": "攻击1到5级野外生物时，所有单位防御提升"
+},
+{
+"id": "TechDes_37",
+"value": "4到6级近卫蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_38",
+"value": "4到6级射手蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_39",
+"value": "4到6级运输蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_40",
+"value": "战胜野外生物后，获得特化蚁经验数量提升"
+},
+{
+"id": "TechDes_41",
+"value": "攻击6到10级野外生物时，所有单位攻击提升"
+},
+{
+"id": "TechDes_42",
+"value": "攻击6到10级野外生物时，所有单位防御提升"
+},
+{
+"id": "TechDes_43",
+"value": "攻击1到15级野外生物时，所有小队受到的伤害减少"
+},
+{
+"id": "TechDes_44",
+"value": "攻击11到15级野外生物时，所有单位攻击提升"
+},
+{
+"id": "TechDes_45",
+"value": "攻击11到15级野外生物时，所有单位防御提升"
+},
+{
+"id": "TechDes_46",
+"value": "可以派遣1名特化蚁随队列{num}出征"
+},
+{
+"id": "TechDes_47",
+"value": "队列{num}采集速度加快"
+},
+{
+"id": "TechDes_48",
+"value": "队列{num}出征负重提升"
+},
+{
+"id": "TechDes_49",
+"value": "队列{num}内的近卫蚁防御提升"
+},
+{
+"id": "TechDes_50",
+"value": "队列{num}内的射手蚁防御提升"
+},
+{
+"id": "TechDes_51",
+"value": "队列{num}内的运输蚁防御提升"
+},
+{
+"id": "TechDes_52",
+"value": "队列{num}可以加速"
+},
+{
+"id": "TechDes_53",
+"value": "可以派遣2名特化蚁随队列{num}出征"
+},
+{
+"id": "TechDes_54",
+"value": "队列{num}可以被召回"
+},
+{
+"id": "TechDes_55",
+"value": "队列{num}的行军速度提升"
+},
+{
+"id": "TechDes_56",
+"value": "队列{num}的体力恢复速度提升"
+},
+{
+"id": "TechDes_57",
+"value": "队列{num}内的近卫蚁攻击提升"
+},
+{
+"id": "TechDes_58",
+"value": "队列{num}内的射手蚁攻击提升"
+},
+{
+"id": "TechDes_59",
+"value": "队列{num}内的运输蚁攻击提升"
+},
+{
+"id": "TechDes_60",
+"value": "可以派遣3名特化蚁随队列{num}出征"
+},
+{
+"id": "TechDes_61",
+"value": "可以派遣1名特化蚁随兵蚁行军队列Ⅱ出征"
+},
+{
+"id": "TechDes_62",
+"value": "兵蚁行军队列Ⅱ采集速度加快"
+},
+{
+"id": "TechDes_63",
+"value": "兵蚁行军队列Ⅱ出征负重提升"
+},
+{
+"id": "TechDes_64",
+"value": "兵蚁行军队列Ⅱ内的近卫蚁防御提升"
+},
+{
+"id": "TechDes_65",
+"value": "兵蚁行军队列Ⅱ内的射手蚁防御提升"
+},
+{
+"id": "TechDes_66",
+"value": "兵蚁行军队列Ⅱ内的运输蚁防御提升"
+},
+{
+"id": "TechDes_67",
+"value": "兵蚁行军队列Ⅱ可以加速"
+},
+{
+"id": "TechDes_68",
+"value": "可以派遣2名特化蚁随兵蚁行军队列Ⅱ出征"
+},
+{
+"id": "TechDes_69",
+"value": "兵蚁行军队列Ⅱ可以被召回"
+},
+{
+"id": "TechDes_70",
+"value": "兵蚁行军队列Ⅱ的行军速度提升"
+},
+{
+"id": "TechDes_71",
+"value": "兵蚁行军队列Ⅱ的体力恢复速度提升"
+},
+{
+"id": "TechDes_72",
+"value": "兵蚁行军队列Ⅱ内的近卫蚁攻击提升"
+},
+{
+"id": "TechDes_73",
+"value": "兵蚁行军队列Ⅱ内的射手蚁攻击提升"
+},
+{
+"id": "TechDes_74",
+"value": "兵蚁行军队列Ⅱ内的运输蚁攻击提升"
+},
+{
+"id": "TechDes_75",
+"value": "可以派遣3名特化蚁随兵蚁行军队列Ⅱ出征"
+},
+{
+"id": "TechDes_76",
+"value": "近卫蚁治愈消耗减少"
+},
+{
+"id": "TechDes_77",
+"value": "射手蚁治愈消耗减少"
+},
+{
+"id": "TechDes_78",
+"value": "运输蚁治愈消耗减少"
+},
+{
+"id": "TechDes_79",
+"value": "兵蚁治愈池基础受伤兵蚁容纳上限增加"
+},
+{
+"id": "TechDes_80",
+"value": "近卫蚁治愈速度提升"
+},
+{
+"id": "TechDes_81",
+"value": "射手蚁治愈速度提升"
+},
+{
+"id": "TechDes_82",
+"value": "运输蚁治愈速度提升"
+},
+{
+"id": "TechDes_83",
+"value": "额外建造一个兵蚁治愈池"
+},
+{
+"id": "TechDes_84",
+"value": "治愈池容量增加"
+},
+{
+"id": "TechDes_85",
+"value": "兵蚁治愈池满员后，部分受伤兵蚁依旧可以进入"
+},
+{
+"id": "TechDes_86",
+"value": "独自入侵时，我方死亡兵蚁转化为受伤兵蚁的比例提升"
+},
+{
+"id": "TechDes_87",
+"value": "近卫蚁孵化速度提升"
+},
+{
+"id": "TechDes_88",
+"value": "射手蚁孵化速度提升"
+},
+{
+"id": "TechDes_89",
+"value": "运输蚁孵化速度提升"
+},
+{
+"id": "TechDes_90",
+"value": "额外建造一个结茧介质"
+},
+{
+"id": "TechDes_91",
+"value": "近卫蚁孵化速度提升"
+},
+{
+"id": "TechDes_92",
+"value": "射手蚁孵化速度提升"
+},
+{
+"id": "TechDes_93",
+"value": "运输蚁孵化速度提升"
+},
+{
+"id": "TechDes_94",
+"value": "所有兵蚁生命提升"
+},
+{
+"id": "TechDes_95",
+"value": "近卫蚁孵化数量提升"
+},
+{
+"id": "TechDes_96",
+"value": "射手蚁孵化数量提升"
+},
+{
+"id": "TechDes_97",
+"value": "运输蚁孵化数量提升"
+},
+{
+"id": "TechDes_98",
+"value": "入侵敌方蚁巢时致死率（敌方受伤兵蚁转化为死亡兵蚁的比例）提升"
+},
+{
+"id": "TechDes_99",
+"value": "可以派遣1名特化蚁随兵蚁行军队列Ⅲ出征"
+},
+{
+"id": "TechDes_100",
+"value": "兵蚁行军队列Ⅲ采集速度加快"
+},
+{
+"id": "TechDes_101",
+"value": "兵蚁行军队列Ⅲ出征负重提升"
+},
+{
+"id": "TechDes_102",
+"value": "兵蚁行军队列Ⅲ内的近卫蚁防御提升"
+},
+{
+"id": "TechDes_103",
+"value": "兵蚁行军队列Ⅲ内的射手蚁防御提升"
+},
+{
+"id": "TechDes_104",
+"value": "兵蚁行军队列Ⅲ内的运输蚁防御提升"
+},
+{
+"id": "TechDes_105",
+"value": "兵蚁行军队列Ⅲ可以加速"
+},
+{
+"id": "TechDes_106",
+"value": "可以派遣2名特化蚁随兵蚁行军队列Ⅲ出征"
+},
+{
+"id": "TechDes_107",
+"value": "兵蚁行军队列Ⅲ可以被召回"
+},
+{
+"id": "TechDes_108",
+"value": "兵蚁行军队列Ⅲ的行军速度提升"
+},
+{
+"id": "TechDes_109",
+"value": "兵蚁行军队列Ⅲ的体力恢复速度提升"
+},
+{
+"id": "TechDes_110",
+"value": "兵蚁行军队列Ⅲ内的近卫蚁攻击提升"
+},
+{
+"id": "TechDes_111",
+"value": "兵蚁行军队列Ⅲ内的射手蚁攻击提升"
+},
+{
+"id": "TechDes_112",
+"value": "兵蚁行军队列Ⅲ内的运输蚁攻击提升"
+},
+{
+"id": "TechDes_113",
+"value": "可以派遣3名特化蚁随兵蚁行军队列Ⅲ出征"
+},
+{
+"id": "TechDes_114",
+"value": "可以派遣1名特化蚁随兵蚁行军队列Ⅰ出征"
+},
+{
+"id": "TechDes_115",
+"value": "兵蚁行军队列Ⅰ采集速度加快"
+},
+{
+"id": "TechDes_116",
+"value": "兵蚁行军队列Ⅰ出征负重提升"
+},
+{
+"id": "TechDes_117",
+"value": "兵蚁行军队列Ⅰ内的近卫蚁防御提升"
+},
+{
+"id": "TechDes_118",
+"value": "兵蚁行军队列Ⅰ内的射手蚁防御提升"
+},
+{
+"id": "TechDes_119",
+"value": "兵蚁行军队列Ⅰ内的运输蚁防御提升"
+},
+{
+"id": "TechDes_120",
+"value": "兵蚁行军队列Ⅰ可以加速"
+},
+{
+"id": "TechDes_121",
+"value": "可以派遣2名特化蚁随兵蚁行军队列Ⅰ出征"
+},
+{
+"id": "TechDes_122",
+"value": "兵蚁行军队列Ⅰ可以被召回"
+},
+{
+"id": "TechDes_123",
+"value": "兵蚁行军队列Ⅰ的行军速度提升"
+},
+{
+"id": "TechDes_124",
+"value": "兵蚁行军队列Ⅰ的体力恢复速度提升"
+},
+{
+"id": "TechDes_125",
+"value": "兵蚁行军队列Ⅰ内的近卫蚁攻击提升"
+},
+{
+"id": "TechDes_126",
+"value": "兵蚁行军队列Ⅰ内的射手蚁攻击提升"
+},
+{
+"id": "TechDes_127",
+"value": "兵蚁行军队列Ⅰ内的运输蚁攻击提升"
+},
+{
+"id": "TechDes_128",
+"value": "可以派遣3名特化蚁随兵蚁行军队列Ⅰ出征"
+},
+{
+"id": "TechDes_163",
+"value": "近卫蚁攻击提升"
+},
+{
+"id": "TechDes_164",
+"value": "近卫蚁防御提升"
+},
+{
+"id": "TechDes_165",
+"value": "近卫蚁对射手蚁的克制提升"
+},
+{
+"id": "TechDes_166",
+"value": "近卫蚁受到的暴击伤害降低"
+},
+{
+"id": "TechDes_167",
+"value": "近卫蚁守巢防御提升"
+},
+{
+"id": "TechDes_168",
+"value": "近卫蚁对射手蚁的克制提升"
+},
+{
+"id": "TechDes_169",
+"value": "近卫蚁攻击提升"
+},
+{
+"id": "TechDes_170",
+"value": "近卫蚁防御提升"
+},
+{
+"id": "TechDes_171",
+"value": "4到9级近卫蚁可以进行强化训练"
+},
+{
+"id": "TechDes_172",
+"value": "近卫蚁孵化消耗减少"
+},
+{
+"id": "TechDes_173",
+"value": "近卫蚁单次异变量增加"
+},
+{
+"id": "TechDes_174",
+"value": "近卫蚁对射手蚁的克制提升"
+},
+{
+"id": "TechDes_175",
+"value": "7到9级近卫蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_176",
+"value": "近卫蚁守巢攻击力提升"
+},
+{
+"id": "TechDes_177",
+"value": "近卫蚁防御增加"
+},
+{
+"id": "TechDes_178",
+"value": "解锁9级近卫蚁的孵化"
+},
+{
+"id": "TechDes_179",
+"value": "射手蚁攻击提升"
+},
+{
+"id": "TechDes_180",
+"value": "射手蚁防御提升"
+},
+{
+"id": "TechDes_181",
+"value": "射手蚁对运输蚁的克制提升"
+},
+{
+"id": "TechDes_182",
+"value": "射手蚁暴击几率增加"
+},
+{
+"id": "TechDes_183",
+"value": "射手蚁入侵防御提升"
+},
+{
+"id": "TechDes_184",
+"value": "射手蚁对运输蚁的克制提升"
+},
+{
+"id": "TechDes_185",
+"value": "射手蚁攻击提升"
+},
+{
+"id": "TechDes_186",
+"value": "射手蚁防御提升"
+},
+{
+"id": "TechDes_187",
+"value": "4到9级射手蚁可以进行强化训练"
+},
+{
+"id": "TechDes_188",
+"value": "射手蚁孵化消耗减少"
+},
+{
+"id": "TechDes_189",
+"value": "射手蚁单次异变量增加"
+},
+{
+"id": "TechDes_190",
+"value": "射手蚁对运输蚁的克制提升"
+},
+{
+"id": "TechDes_191",
+"value": "7到9级射手蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_192",
+"value": "射手蚁入侵攻击提升"
+},
+{
+"id": "TechDes_193",
+"value": "射手蚁攻击增加"
+},
+{
+"id": "TechDes_194",
+"value": "解锁9级射手蚁的孵化"
+},
+{
+"id": "TechDes_195",
+"value": "运输蚁攻击提升"
+},
+{
+"id": "TechDes_196",
+"value": "运输蚁防御提升"
+},
+{
+"id": "TechDes_197",
+"value": "运输蚁对近卫蚁的克制提升"
+},
+{
+"id": "TechDes_198",
+"value": "运输蚁负重提升"
+},
+{
+"id": "TechDes_199",
+"value": "运输蚁行军速度提升"
+},
+{
+"id": "TechDes_200",
+"value": "运输蚁对近卫蚁的克制提升"
+},
+{
+"id": "TechDes_201",
+"value": "运输蚁攻击提升"
+},
+{
+"id": "TechDes_202",
+"value": "运输蚁防御提升"
+},
+{
+"id": "TechDes_203",
+"value": "4到9级运输蚁可以进行强化训练"
+},
+{
+"id": "TechDes_204",
+"value": "运输蚁孵化消耗减少"
+},
+{
+"id": "TechDes_205",
+"value": "运输蚁单次异变量增加"
+},
+{
+"id": "TechDes_206",
+"value": "运输蚁对近卫蚁的克制提升"
+},
+{
+"id": "TechDes_207",
+"value": "7到9级运输蚁可以异变至当前兵种可孵化最高等级"
+},
+{
+"id": "TechDes_208",
+"value": "运输蚁野外战斗攻击提升"
+},
+{
+"id": "TechDes_209",
+"value": "运输蚁生命增加"
+},
+{
+"id": "TechDes_210",
+"value": "解锁9级运输蚁的孵化"
+},
+{
+"id": "TechCategoryName_15",
+"value": "区域发展"
+},
+{
+"id": "TechName_7090100",
+"value": "高效采集"
+},
+{
+"id": "TechName_7090200",
+"value": "额外收获"
+},
+{
+"id": "TechName_7090300",
+"value": "中级奖励"
+},
+{
+"id": "TechName_7090400",
+"value": "积分提升I"
+},
+{
+"id": "TechName_7090500",
+"value": "快速行军"
+},
+{
+"id": "TechName_7090600",
+"value": "负重提升"
+},
+{
+"id": "TechName_7090700",
+"value": "快速孵化"
+},
+{
+"id": "TechName_7090800",
+"value": "混合介质"
+},
+{
+"id": "TechName_7090900",
+"value": "高级奖励"
+},
+{
+"id": "TechName_7091000",
+"value": "采集积分"
+},
+{
+"id": "TechName_7091100",
+"value": "建造积分"
+},
+{
+"id": "TechName_7091200",
+"value": "进化积分"
+},
+{
+"id": "TechName_7091300",
+"value": "击败积分"
+},
+{
+"id": "TechName_7091400",
+"value": "狩猎积分"
+},
+{
+"id": "TechName_7091500",
+"value": "变异孢子积分"
+},
+{
+"id": "TechName_7091600",
+"value": "升级积分"
+},
+{
+"id": "TechName_7091700",
+"value": "孵化积分"
+},
+{
+"id": "TechName_7091800",
+"value": "积分提升II"
+},
+{
+"id": "TechName_7091900",
+"value": "双倍奖励"
+},
+{
+"id": "TechDes_7090100",
+"value": "最强区域战期间采集速度提升"
+},
+{
+"id": "TechDes_7090200",
+"value": "最强区域战期间采集额外获得资源"
+},
+{
+"id": "TechDes_7090300",
+"value": "解锁最强区域战4-6档奖励"
+},
+{
+"id": "TechDes_7090400",
+"value": "最强区域战活动期间积分获取增加"
+},
+{
+"id": "TechDes_7090500",
+"value": "最强区域战期间狩猎野怪行军速度提升"
+},
+{
+"id": "TechDes_7090600",
+"value": "最强区域战期间负重提高"
+},
+{
+"id": "TechDes_7090700",
+"value": "最强区域战期间兵蚁孵化速度提升"
+},
+{
+"id": "TechDes_7090800",
+"value": "最强区域战期间兵蚁孵化量增加"
+},
+{
+"id": "TechDes_7090900",
+"value": "解锁最强区域战7-9档奖励"
+},
+{
+"id": "TechDes_7091000",
+"value": "采集获得的最强区域战积分增加"
+},
+{
+"id": "TechDes_7091100",
+"value": "建造获得的最强区域战积分增加"
+},
+{
+"id": "TechDes_7091200",
+"value": "进化获得的最强区域战积分增加"
+},
+{
+"id": "TechDes_7091300",
+"value": "击败敌方兵蚁部队获得积分增加"
+},
+{
+"id": "TechDes_7091400",
+"value": "最强区域战期间狩猎野怪积分增加"
+},
+{
+"id": "TechDes_7091500",
+"value": "兑换和消耗变异孢子获得的最强区域战积分增加"
+},
+{
+"id": "TechDes_7091600",
+"value": "特化蚁获得经验和解锁技能获得的最强区域战积分增加"
+},
+{
+"id": "TechDes_7091700",
+"value": "特化蚁孵化获得的最强区域战积分增加"
+},
+{
+"id": "TechDes_7091800",
+"value": "最强区域战活动期间积分获取增加"
+},
+{
+"id": "TechDes_7091900",
+"value": "领取区域单人奖励时获得双份奖励（不包括已达成的奖励）"
+},
+{
+"id": "TechDes_7040100",
+"value": "可以派遣1名特化蚁随特殊队列出征"
+},
+{
+"id": "TechDes_7040200",
+"value": "特殊队列采集速度加快"
+},
+{
+"id": "TechDes_7040300",
+"value": "特殊队列出征负重提升"
+},
+{
+"id": "TechDes_7040400",
+"value": "特殊队列内的近卫蚁防御提升"
+},
+{
+"id": "TechDes_7040500",
+"value": "特殊队列内的射手蚁防御提升"
+},
+{
+"id": "TechDes_7040600",
+"value": "特殊队列内的运输蚁防御提升"
+},
+{
+"id": "TechDes_7040700",
+"value": "特殊队列可以加速"
+},
+{
+"id": "TechDes_7040800",
+"value": "可以派遣2名特化蚁随特殊队列出征"
+},
+{
+"id": "TechDes_7040900",
+"value": "特殊队列可以被召回"
+},
+{
+"id": "TechDes_7041000",
+"value": "特殊队列的行军速度提升"
+},
+{
+"id": "TechDes_7041100",
+"value": "特殊队列的体力恢复速度提升"
+},
+{
+"id": "TechDes_7041200",
+"value": "特殊队列内的近卫蚁攻击提升"
+},
+{
+"id": "TechDes_7041300",
+"value": "特殊队列内的射手蚁攻击提升"
+},
+{
+"id": "TechDes_7041400",
+"value": "特殊队列内的运输蚁攻击提升"
+},
+{
+"id": "TechDes_7041500",
+"value": "可以派遣3名特化蚁随特殊队列出征"
+},
+{
+"id": "TechName_7100100",
+"value": "避开要害I"
+},
+{
+"id": "TechName_7100200",
+"value": "区域攻击"
+},
+{
+"id": "TechName_7100300",
+"value": "区域防御"
+},
+{
+"id": "TechName_7100400",
+"value": "区域生命"
+},
+{
+"id": "TechName_7100500",
+"value": "入侵攻击"
+},
+{
+"id": "TechName_7100600",
+"value": "入侵防御"
+},
+{
+"id": "TechName_7100700",
+"value": "入侵生命"
+},
+{
+"id": "TechName_7100800",
+"value": "避开要害II"
+},
+{
+"id": "TechName_7100900",
+"value": "伏击"
+},
+{
+"id": "TechName_7101000",
+"value": "地形优势"
+},
+{
+"id": "TechName_7101100",
+"value": "长途奔袭"
+},
+{
+"id": "TechName_7101200",
+"value": "隐藏巢穴"
+},
+{
+"id": "TechName_7101300",
+"value": "集结蚁群"
+},
+{
+"id": "TechName_7101400",
+"value": "装死"
+},
+{
+"id": "TechName_7101500",
+"value": "致死攻击"
+},
+{
+"id": "TechDes_7100100",
+"value": "最强区域战期间，受伤兵蚁数量上限提高"
+},
+{
+"id": "TechDes_7100200",
+"value": "最强区域战期间，在己方区域内所有兵蚁攻击提升"
+},
+{
+"id": "TechDes_7100300",
+"value": "最强区域战期间，在己方区域内所有兵蚁防御提升"
+},
+{
+"id": "TechDes_7100400",
+"value": "最强区域战期间，在己方区域内所有兵蚁生命提升"
+},
+{
+"id": "TechDes_7100500",
+"value": "最强区域战期间，在敌方区域内所有兵蚁攻击提升"
+},
+{
+"id": "TechDes_7100600",
+"value": "最强区域战期间，在敌方区域内所有兵蚁防御提升"
+},
+{
+"id": "TechDes_7100700",
+"value": "最强区域战期间，在敌方区域内所有兵蚁生命提升"
+},
+{
+"id": "TechDes_7100800",
+"value": "最强区域战期间，受伤兵蚁数量上限提高"
+},
+{
+"id": "TechDes_7100900",
+"value": "最强区域战期间，在己方区域内所有兵蚁入侵攻击提升"
+},
+{
+"id": "TechDes_7101000",
+"value": "最强区域战期间，在己方区域内所有兵蚁守巢防御提升"
+},
+{
+"id": "TechDes_7101100",
+"value": "最强区域战期间，在敌方区域内所有兵蚁入侵攻击提升"
+},
+{
+"id": "TechDes_7101200",
+"value": "最强区域战期间，在敌方区域内所有兵蚁守巢防御提升"
+},
+{
+"id": "TechDes_7101300",
+"value": "最强区域战期间，参与集结成员数增加"
+},
+{
+"id": "TechDes_7101400",
+"value": "最强区域战期间，入侵敌方蚁巢时，己方死亡兵蚁转化为受伤兵蚁的比例提升"
+},
+{
+"id": "TechDes_7101500",
+"value": "最强区域战期间，入侵敌方蚁巢时致死率（敌方受伤兵蚁转化为死亡兵蚁的比例）提升"
+},
+{
+"id": "TechCategoryName_16",
+"value": "区域战斗"
+},
+{
+"id": "TechName_7150100",
+"value": "孵化地扩建Ⅰ"
+},
+{
+"id": "TechName_7150200",
+"value": "高效养殖Ⅰ"
+},
+{
+"id": "TechName_7150300",
+"value": "高效孵化Ⅰ"
+},
+{
+"id": "TechName_7150400",
+"value": "养殖地扩建Ⅰ"
+},
+{
+"id": "TechName_7150500",
+"value": "循环利用Ⅰ"
+},
+{
+"id": "TechName_7150600",
+"value": "节约饲料Ⅰ"
+},
+{
+"id": "TechName_7150700",
+"value": "孵化地扩建Ⅱ"
+},
+{
+"id": "TechName_7150800",
+"value": "高效养殖Ⅱ"
+},
+{
+"id": "TechName_7150900",
+"value": "高效孵化Ⅱ"
+},
+{
+"id": "TechName_7151000",
+"value": "养殖地扩建Ⅱ"
+},
+{
+"id": "TechName_7151100",
+"value": "循环利用Ⅱ"
+},
+{
+"id": "TechName_7151200",
+"value": "节约饲料Ⅱ"
+},
+{
+"id": "TechName_7151300",
+"value": "高效宰杀"
+},
+{
+"id": "TechName_7151400",
+"value": "爆产"
+},
+{
+"id": "TechDes_7150100",
+"value": "额外建造一个野怪孵化地"
+},
+{
+"id": "TechDes_7150200",
+"value": "野怪饲料生产速度提升"
+},
+{
+"id": "TechDes_7150300",
+"value": "野怪孵化速度提升"
+},
+{
+"id": "TechDes_7150400",
+"value": "额外建造一个饲料养殖地"
+},
+{
+"id": "TechDes_7150500",
+"value": "野怪孵化时消耗资源消耗减少"
+},
+{
+"id": "TechDes_7150600",
+"value": "野怪孵化时消耗的野怪饲料减少"
+},
+{
+"id": "TechDes_7150700",
+"value": "额外建造一个野怪孵化地"
+},
+{
+"id": "TechDes_7150800",
+"value": "饲料生产速度提升"
+},
+{
+"id": "TechDes_7150900",
+"value": "野怪孵化速度提升"
+},
+{
+"id": "TechDes_7151000",
+"value": "额外建造一个饲料养殖地"
+},
+{
+"id": "TechDes_7151100",
+"value": "野怪孵化时消耗资源消耗减少"
+},
+{
+"id": "TechDes_7151200",
+"value": "野怪孵化时消耗的野怪饲料减少"
+},
+{
+"id": "TechDes_7151300",
+"value": "宰杀野怪获得的野怪残壳增加"
+},
+{
+"id": "TechDes_7151400",
+"value": "野怪孵化地中野怪幼虫变为野怪成虫时，有概率出现1星以上的野怪。（1.8%概率孵出3星野怪，9.7%概率孵出2星野怪）"
+},
+{
+"id": "TechCategoryName_1",
+"value": "急速生产"
+},
+{
+"id": "TechCategoryName_2",
+"value": "蚁巢发展"
+},
+{
+"id": "TechCategoryName_3",
+"value": "基础战斗"
+},
+{
+"id": "TechCategoryName_4",
+"value": "行军队列I"
+},
+{
+"id": "TechCategoryName_5",
+"value": "特殊行军队列"
+},
+{
+"id": "TechCategoryName_6",
+"value": "兵蚁治愈"
+},
+{
+"id": "TechCategoryName_7",
+"value": "基础军事"
+},
+{
+"id": "TechCategoryName_8",
+"value": "行军队列II"
+},
+{
+"id": "TechCategoryName_9",
+"value": "行军队列III"
+},
+{
+"id": "TechCategoryName_12",
+"value": "近卫蚁孵化"
+},
+{
+"id": "TechCategoryName_13",
+"value": "射手蚁孵化"
+},
+{
+"id": "TechCategoryName_14",
+"value": "运输蚁孵化"
+},
+{
+"id": "TechCategoryName_15",
+"value": "区域发展"
+},
+{
+"id": "TechCategoryName_16",
+"value": "区域战斗"
+},
+{
+"id": "TechCategoryName_17",
+"value": "野怪养成"
+},
+{
+"id": "TechCategoryName_18",
+"value": "高级战斗"
+},
+{
+"id": "TechName_7160100",
+"value": "闪避技巧"
+},
+{
+"id": "TechName_7160200",
+"value": "近卫蚁协同作战"
+},
+{
+"id": "TechName_7160300",
+"value": "射手蚁协同作战"
+},
+{
+"id": "TechName_7160400",
+"value": "运输蚁协同作战"
+},
+{
+"id": "TechName_7160500",
+"value": "蚁群先锋"
+},
+{
+"id": "TechName_7160600",
+"value": "迷惑气味"
+},
+{
+"id": "TechName_7160700",
+"value": "近卫蚁迅捷攻击"
+},
+{
+"id": "TechName_7160800",
+"value": "射手蚁迅捷攻击"
+},
+{
+"id": "TechName_7160900",
+"value": "运输蚁迅捷攻击"
+},
+{
+"id": "TechDes_7160100",
+"value": "在战斗中兵蚁部队受到敌方技能伤害时，对敌方技能伤害的防御增强。"
+},
+{
+"id": "TechDes_7160200",
+"value": "当任意编队中所有兵蚁部队均为近卫蚁时，编队中的近卫蚁得到攻击防御加成。"
+},
+{
+"id": "TechDes_7160300",
+"value": "当任意编队中所有兵蚁部队均为射手蚁时，编队中的射手蚁得到攻击防御加成。"
+},
+{
+"id": "TechDes_7160400",
+"value": "当任意编队中所有兵蚁部队均为运输蚁时，编队中的运输蚁得到攻击防御加成。"
+},
+{
+"id": "TechDes_7160500",
+"value": "我方在进攻其他统领巢穴时获得的行军速度加成。"
+},
+{
+"id": "TechDes_7160600",
+"value": "敌方在进攻我方巢穴时行军速度降低。"
+},
+{
+"id": "TechDes_7160700",
+"value": "近卫蚁得到战斗速度加成。"
+},
+{
+"id": "TechDes_7160800",
+"value": "射手蚁得到战斗速度加成。"
+},
+{
+"id": "TechDes_7160900",
+"value": "运输蚁得到战斗速度加成。"
+},
+{
+"id": "TechCategoryName_19",
+"value": "高级近卫蚁孵化"
+},
+{
+"id": "TechCategoryName_20",
+"value": "高级射手蚁孵化"
+},
+{
+"id": "TechCategoryName_21",
+"value": "高级运输蚁孵化"
+},
+{
+"id": "TechName_7170100",
+"value": "特化口钳"
+},
+{
+"id": "TechName_7170200",
+"value": "特化甲壳"
+},
+{
+"id": "TechName_7170300",
+"value": "巨大上颚"
+},
+{
+"id": "TechName_7170400",
+"value": "硬化甲壳"
+},
+{
+"id": "TechName_7170500",
+"value": "近卫蚁迅捷攻击II"
+},
+{
+"id": "TechName_7170600",
+"value": "耐酸蚁躯"
+},
+{
+"id": "TechName_7170700",
+"value": "高级树叶介质"
+},
+{
+"id": "TechName_7170800",
+"value": "近卫蚁高级异变"
+},
+{
+"id": "TechName_7170900",
+"value": "正面强攻"
+},
+{
+"id": "TechName_7171000",
+"value": "奋力抵抗"
+},
+{
+"id": "TechName_7171100",
+"value": "近卫蚁高速治愈"
+},
+{
+"id": "TechName_7171200",
+"value": "特化口钳II"
+},
+{
+"id": "TechName_7171300",
+"value": "特化甲壳II"
+},
+{
+"id": "TechName_7171400",
+"value": "致命撕咬"
+},
+{
+"id": "TechName_7171500",
+"value": "近卫蚁蚁躯强化"
+},
+{
+"id": "TechName_7171600",
+"value": "解锁10级近卫蚁"
+},
+{
+"id": "TechName_7180100",
+"value": "特化蚁酸"
+},
+{
+"id": "TechName_7180200",
+"value": "特化纤维"
+},
+{
+"id": "TechName_7180300",
+"value": "腐蚀蚁酸"
+},
+{
+"id": "TechName_7180400",
+"value": "硬化纤维"
+},
+{
+"id": "TechName_7180500",
+"value": "射手蚁迅捷攻击II"
+},
+{
+"id": "TechName_7180600",
+"value": "锁定瞄准"
+},
+{
+"id": "TechName_7180700",
+"value": "高级木头介质"
+},
+{
+"id": "TechName_7180800",
+"value": "射手蚁高级异变"
+},
+{
+"id": "TechName_7180900",
+"value": "集中火力"
+},
+{
+"id": "TechName_7181000",
+"value": "隐藏弱点"
+},
+{
+"id": "TechName_7181100",
+"value": "射手蚁高速治愈"
+},
+{
+"id": "TechName_7181200",
+"value": "特化蚁酸II"
+},
+{
+"id": "TechName_7181300",
+"value": "特化纤维II"
+},
+{
+"id": "TechName_7181400",
+"value": "致命蚁酸"
+},
+{
+"id": "TechName_7181500",
+"value": "射手蚁蚁躯强化"
+},
+{
+"id": "TechName_7181600",
+"value": "解锁10级射手蚁"
+},
+{
+"id": "TechName_7190100",
+"value": "特化口器"
+},
+{
+"id": "TechName_7190200",
+"value": "特化蚁躯"
+},
+{
+"id": "TechName_7190300",
+"value": "锋利口器"
+},
+{
+"id": "TechName_7190400",
+"value": "硬化蚁躯"
+},
+{
+"id": "TechName_7190500",
+"value": "运输蚁迅捷攻击II"
+},
+{
+"id": "TechName_7190600",
+"value": "弱点碾压"
+},
+{
+"id": "TechName_7190700",
+"value": "高级沙土介质"
+},
+{
+"id": "TechName_7190800",
+"value": "运输蚁高级异变"
+},
+{
+"id": "TechName_7190900",
+"value": "定点突袭"
+},
+{
+"id": "TechName_7191000",
+"value": "守巢蚁躯"
+},
+{
+"id": "TechName_7191100",
+"value": "运输蚁高速治愈"
+},
+{
+"id": "TechName_7191200",
+"value": "特化口器II"
+},
+{
+"id": "TechName_7191300",
+"value": "特化蚁躯II"
+},
+{
+"id": "TechName_7191400",
+"value": "致命口器"
+},
+{
+"id": "TechName_7191500",
+"value": "运输蚁蚁躯强化"
+},
+{
+"id": "TechName_7191600",
+"value": "解锁10级运输蚁"
+},
+{
+"id": "TechDes_7170100",
+"value": "特化蚁携带近卫蚁施放战斗技能时，近卫蚁攻击提升"
+},
+{
+"id": "TechDes_7170200",
+"value": "近卫蚁受到战斗技能攻击时，近卫蚁防御提升"
+},
+{
+"id": "TechDes_7170300",
+"value": "近卫蚁攻击提升"
+},
+{
+"id": "TechDes_7170400",
+"value": "近卫蚁防御提升"
+},
+{
+"id": "TechDes_7170500",
+"value": "近卫蚁得到战斗速度加成"
+},
+{
+"id": "TechDes_7170600",
+"value": "近卫蚁对射手蚁的克制提升"
+},
+{
+"id": "TechDes_7170700",
+"value": "近卫蚁孵化数量提升"
+},
+{
+"id": "TechDes_7170800",
+"value": "近卫蚁单次异变量增加"
+},
+{
+"id": "TechDes_7170900",
+"value": "近卫蚁入侵攻击提升"
+},
+{
+"id": "TechDes_7171000",
+"value": "近卫蚁守巢防御提升"
+},
+{
+"id": "TechDes_7171100",
+"value": "近卫蚁治愈速度提升"
+},
+{
+"id": "TechDes_7171200",
+"value": "特化蚁携带近卫蚁施放战斗技能时，近卫蚁攻击提升"
+},
+{
+"id": "TechDes_7171300",
+"value": "近卫蚁受到战斗技能攻击时，近卫蚁防御提升"
+},
+{
+"id": "TechDes_7171400",
+"value": "近卫蚁造成伤害提升"
+},
+{
+"id": "TechDes_7171500",
+"value": "近卫蚁生命增加"
+},
+{
+"id": "TechDes_7171600",
+"value": "解锁10级近卫蚁的孵化。赛季近卫蚁可以进行强化训练"
+},
+{
+"id": "TechDes_7180100",
+"value": "特化蚁携带射手蚁施放战斗技能时，射手蚁攻击提升"
+},
+{
+"id": "TechDes_7180200",
+"value": "射手蚁受到战斗技能攻击时，射手蚁防御提升"
+},
+{
+"id": "TechDes_7180300",
+"value": "射手蚁攻击提升"
+},
+{
+"id": "TechDes_7180400",
+"value": "射手蚁防御提升"
+},
+{
+"id": "TechDes_7180500",
+"value": "射手蚁得到战斗速度加成"
+},
+{
+"id": "TechDes_7180600",
+"value": "射手蚁对运输蚁的克制提升"
+},
+{
+"id": "TechDes_7180700",
+"value": "射手蚁孵化数量提升"
+},
+{
+"id": "TechDes_7180800",
+"value": "射手蚁单次异变量增加"
+},
+{
+"id": "TechDes_7180900",
+"value": "射手蚁入侵攻击提升"
+},
+{
+"id": "TechDes_7181000",
+"value": "射手蚁守巢防御提升"
+},
+{
+"id": "TechDes_7181100",
+"value": "射手蚁治愈速度提升"
+},
+{
+"id": "TechDes_7181200",
+"value": "特化蚁携带射手蚁施放战斗技能时，射手蚁攻击提升"
+},
+{
+"id": "TechDes_7181300",
+"value": "射手蚁受到战斗技能攻击时，射手蚁防御提升"
+},
+{
+"id": "TechDes_7181400",
+"value": "射手蚁造成伤害提升"
+},
+{
+"id": "TechDes_7181500",
+"value": "射手蚁生命增加"
+},
+{
+"id": "TechDes_7181600",
+"value": "解锁10级射手蚁的孵化。赛季射手蚁可以进行强化训练"
+},
+{
+"id": "TechDes_7190100",
+"value": "特化蚁携带运输蚁施放战斗技能时，运输蚁攻击提升"
+},
+{
+"id": "TechDes_7190200",
+"value": "运输蚁受到战斗技能攻击时，运输蚁防御提升"
+},
+{
+"id": "TechDes_7190300",
+"value": "运输蚁攻击提升"
+},
+{
+"id": "TechDes_7190400",
+"value": "运输蚁防御提升"
+},
+{
+"id": "TechDes_7190500",
+"value": "运输蚁得到战斗速度加成"
+},
+{
+"id": "TechDes_7190600",
+"value": "运输蚁对近卫蚁的克制提升"
+},
+{
+"id": "TechDes_7190700",
+"value": "运输蚁孵化数量提升"
+},
+{
+"id": "TechDes_7190800",
+"value": "运输蚁单次异变量增加"
+},
+{
+"id": "TechDes_7190900",
+"value": "运输蚁入侵攻击提升"
+},
+{
+"id": "TechDes_7191000",
+"value": "运输蚁守巢防御提升"
+},
+{
+"id": "TechDes_7191100",
+"value": "运输蚁治愈速度提升"
+},
+{
+"id": "TechDes_7191200",
+"value": "特化蚁携带运输蚁施放战斗技能时，运输蚁攻击提升"
+},
+{
+"id": "TechDes_7191300",
+"value": "运输蚁受到战斗技能攻击时，运输蚁防御提升"
+},
+{
+"id": "TechDes_7191400",
+"value": "运输蚁造成伤害提升"
+},
+{
+"id": "TechDes_7191500",
+"value": "运输蚁生命增加"
+},
+{
+"id": "TechDes_7191600",
+"value": "解锁10级运输蚁的孵化。赛季运输蚁可以进行强化训练"
+},
+{
+"id": "TechCategoryName_22",
+"value": "中级战斗"
+},
+{
+"id": "TechName_7200100",
+"value": "巨力撕咬"
+},
+{
+"id": "TechName_7200200",
+"value": "酸蚀喷射"
+},
+{
+"id": "TechName_7200300",
+"value": "重装碾压"
+},
+{
+"id": "TechName_7200400",
+"value": "等级碾压I"
+},
+{
+"id": "TechName_7200500",
+"value": "战斗决心"
+},
+{
+"id": "TechName_7200600",
+"value": "近卫蚁协同防御"
+},
+{
+"id": "TechName_7200700",
+"value": "射手蚁协同防御"
+},
+{
+"id": "TechName_7200800",
+"value": "运输蚁协同防御"
+},
+{
+"id": "TechName_7200900",
+"value": "等级碾压II"
+},
+{
+"id": "TechName_7201000",
+"value": "对决大师I"
+},
+{
+"id": "TechName_7201100",
+"value": "近卫蚁协同攻击"
+},
+{
+"id": "TechName_7201200",
+"value": "射手蚁协同攻击"
+},
+{
+"id": "TechName_7201300",
+"value": "运输蚁协同攻击"
+},
+{
+"id": "TechName_7201400",
+"value": "等级碾压III"
+},
+{
+"id": "TechName_7201500",
+"value": "对决大师II"
+},
+{
+"id": "TechDes_7200100",
+"value": "队列内全为近卫蚁时，近卫蚁普通攻击伤害提高"
+},
+{
+"id": "TechDes_7200200",
+"value": "队列内全为射手蚁时，射手蚁普通攻击伤害提高"
+},
+{
+"id": "TechDes_7200300",
+"value": "队列内全为运输蚁时，运输蚁普通攻击伤害提高"
+},
+{
+"id": "TechDes_7200400",
+"value": "在统领对抗中，高级兵蚁对低级兵蚁作战时会获得碾压效果，战斗能力增强。兵蚁等级差越大，碾压效果越强"
+},
+{
+"id": "TechDes_7200500",
+"value": "在蚁后对决中，防守时生命提高"
+},
+{
+"id": "TechDes_7200600",
+"value": "队列内全为近卫蚁时，近卫蚁防御提高"
+},
+{
+"id": "TechDes_7200700",
+"value": "队列内全为射手蚁时，射手蚁防御提高"
+},
+{
+"id": "TechDes_7200800",
+"value": "队列内全为运输蚁时，运输蚁防御提高"
+},
+{
+"id": "TechDes_7200900",
+"value": "在统领对抗中，高级兵蚁对低级兵蚁作战时会获得碾压效果，战斗能力增强。兵蚁等级差越大，碾压效果越强"
+},
+{
+"id": "TechDes_7201000",
+"value": "在蚁后对决中，防守时攻击防御提高"
+},
+{
+"id": "TechDes_7201100",
+"value": "队列内全为近卫蚁时，近卫蚁攻击提高"
+},
+{
+"id": "TechDes_7201200",
+"value": "队列内全为射手蚁时，射手蚁攻击提高"
+},
+{
+"id": "TechDes_7201300",
+"value": "队列内全为运输蚁时，运输蚁攻击提高"
+},
+{
+"id": "TechDes_7201400",
+"value": "在统领对抗中，高级兵蚁对低级兵蚁作战时会获得碾压效果，战斗能力增强。兵蚁等级差越大，碾压效果越强"
+},
+{
+"id": "TechDes_7201500",
+"value": "在蚁后对决中，进攻时攻击防御提高"
+},
+{
+"id": "TechCategoryName_23",
+"value": "卓越强化"
+},
+{
+"id": "TechName_7210100",
+"value": "先锋防卫"
+},
+{
+"id": "TechName_7210200",
+"value": "全能近卫防御"
+},
+{
+"id": "TechName_7210300",
+"value": "全能射手防御"
+},
+{
+"id": "TechName_7210400",
+"value": "全能运输防御"
+},
+{
+"id": "TechName_7210500",
+"value": "坚守"
+},
+{
+"id": "TechName_7210600",
+"value": "隐匿突袭"
+},
+{
+"id": "TechName_7210700",
+"value": "全能近卫攻击"
+},
+{
+"id": "TechName_7210800",
+"value": "全能射手攻击"
+},
+{
+"id": "TechName_7210900",
+"value": "全能运输攻击"
+},
+{
+"id": "TechName_7211000",
+"value": "强攻"
+},
+{
+"id": "TechName_7211100",
+"value": "潜能强化"
+},
+{
+"id": "TechName_7211200",
+"value": "全能近卫生命"
+},
+{
+"id": "TechName_7211300",
+"value": "全能射手生命"
+},
+{
+"id": "TechName_7211400",
+"value": "全能运输生命"
+},
+{
+"id": "TechName_7211500",
+"value": "清醒"
+},
+{
+"id": "TechName_7211600",
+"value": "绝处逢生"
+},
+{
+"id": "TechDes_7210100",
+"value": "我方前排小队防御提升"
+},
+{
+"id": "TechDes_7210200",
+"value": "我方队列每有一支近卫蚁小队，全队列防御提升"
+},
+{
+"id": "TechDes_7210300",
+"value": "我方队列每有一支射手蚁小队，全队列防御提升"
+},
+{
+"id": "TechDes_7210400",
+"value": "我方队列每有一支运输蚁小队，全队列防御提升"
+},
+{
+"id": "TechDes_7210500",
+"value": "我方全体小队受到技能伤害减少"
+},
+{
+"id": "TechDes_7210600",
+"value": "我方后排小队攻击提升"
+},
+{
+"id": "TechDes_7210700",
+"value": "我方队列每有一支近卫蚁小队，全队列攻击提升"
+},
+{
+"id": "TechDes_7210800",
+"value": "我方队列每有一支射手蚁小队，全队列攻击提升"
+},
+{
+"id": "TechDes_7210900",
+"value": "我方队列每有一支运输蚁小队，全队列攻击提升"
+},
+{
+"id": "TechDes_7211000",
+"value": "我方全体小队造成技能伤害提升"
+},
+{
+"id": "TechDes_7211100",
+"value": "我方中排小队生命提升"
+},
+{
+"id": "TechDes_7211200",
+"value": "我方队列每有一支近卫蚁小队，全队列生命提升"
+},
+{
+"id": "TechDes_7211300",
+"value": "我方队列每有一支射手蚁小队，全队列生命提升"
+},
+{
+"id": "TechDes_7211400",
+"value": "我方队列每有一支运输蚁小队，全队列生命提升"
+},
+{
+"id": "TechDes_7211500",
+"value": "我方全体小队控制抗性增加"
+},
+{
+"id": "TechDes_7211600",
+"value": "我方任意1支小队兵力值即将为0时,该小队立即恢复总伤兵的"
+},
+{
+"id": "TechCategoryName_24",
+"value": "超凡强化"
+},
+{
+"id": "TechName_7220100",
+"value": "激昂斗志"
+},
+{
+"id": "TechName_7220200",
+"value": "猛烈攻势"
+},
+{
+"id": "TechName_7220300",
+"value": "强势瓦解"
+},
+{
+"id": "TechName_7220400",
+"value": "灵活应变"
+},
+{
+"id": "TechName_7220500",
+"value": "强健躯体"
+},
+{
+"id": "TechName_7220600",
+"value": "韧性骨节"
+},
+{
+"id": "TechName_7220700",
+"value": "敏锐感官"
+},
+{
+"id": "TechName_7220800",
+"value": "铁壁防御"
+},
+{
+"id": "TechName_7220900",
+"value": "攻防一体"
+},
+{
+"id": "TechName_7221000",
+"value": "逆境爆发"
+},
+{
+"id": "TechName_7221100",
+"value": "锁定弱点"
+},
+{
+"id": "TechName_7221200",
+"value": "短兵相接"
+},
+{
+"id": "TechName_7221300",
+"value": "精英突击"
+},
+{
+"id": "TechName_7221400",
+"value": "远距控场"
+},
+{
+"id": "TechName_7221500",
+"value": "生命充盈"
+},
+{
+"id": "TechName_7221600",
+"value": "超凡战术"
+},
+{
+"id": "TechDes_7220100",
+"value": "我方全体小队攻击提升"
+},
+{
+"id": "TechDes_7220200",
+"value": "我方全体小队进攻时，普通攻击伤害提升"
+},
+{
+"id": "TechDes_7220300",
+"value": "我方全体小队进攻时，技能伤害提升"
+},
+{
+"id": "TechDes_7220400",
+"value": "受到敌方兵蚁克制降低"
+},
+{
+"id": "TechDes_7220500",
+"value": "前排小队技能防御提升"
+},
+{
+"id": "TechDes_7220600",
+"value": "中排小队技能防御提升"
+},
+{
+"id": "TechDes_7220700",
+"value": "后排小队技能防御提升"
+},
+{
+"id": "TechDes_7220800",
+"value": "我方全体小队防御提升"
+},
+{
+"id": "TechDes_7220900",
+"value": "我方全体小队防守时，普通攻击伤害提升"
+},
+{
+"id": "TechDes_7221000",
+"value": "我方全体小队防守时，技能伤害提升"
+},
+{
+"id": "TechDes_7221100",
+"value": "对敌方兵蚁克制提升"
+},
+{
+"id": "TechDes_7221200",
+"value": "前排小队技能攻击提升"
+},
+{
+"id": "TechDes_7221300",
+"value": "中排小队技能攻击提升"
+},
+{
+"id": "TechDes_7221400",
+"value": "后排小队技能攻击提升"
+},
+{
+"id": "TechDes_7221500",
+"value": "我方全体小队生命提升"
+},
+{
+"id": "TechDes_7221600",
+"value": "若我方全体小队首回合任意伤害技能未释放，则第2回合该技能的概率和伤害提升"
+},
+{
+"id": "TechDes_7031600",
+"value": "行军队列体力恢复速度提升{num}%"
+},
+{
+"id": "SeasonTechName_1",
+"value": "干劲十足Ⅰ"
+},
+{
+"id": "SeasonTechName_2",
+"value": "干劲十足Ⅱ"
+},
+{
+"id": "SeasonTechName_3",
+"value": "精神饱满Ⅰ"
+},
+{
+"id": "SeasonTechName_4",
+"value": "饱餐一顿Ⅰ"
+},
+{
+"id": "SeasonTechName_5",
+"value": "干劲十足Ⅲ"
+},
+{
+"id": "SeasonTechName_6",
+"value": "干劲十足Ⅳ"
+},
+{
+"id": "SeasonTechName_7",
+"value": "精神饱满Ⅱ"
+},
+{
+"id": "SeasonTechName_8",
+"value": "饱餐一顿Ⅱ"
+},
+{
+"id": "SeasonTechName_9",
+"value": "干劲十足Ⅴ"
+},
+{
+"id": "SeasonTechName_10",
+"value": "精神饱满Ⅲ"
+},
+{
+"id": "SeasonTechName_11",
+"value": "大快朵颐"
+},
+{
+"id": "SeasonTechName_12",
+"value": "量大管饱Ⅰ"
+},
+{
+"id": "SeasonTechName_13",
+"value": "量大管饱Ⅱ"
+},
+{
+"id": "SeasonTechName_14",
+"value": "量大管饱Ⅲ"
+},
+{
+"id": "SeasonTechDes_1",
+"value": "赛季体力上限提升"
+},
+{
+"id": "SeasonTechDes_2",
+"value": "赛季体力恢复速度提升"
+},
+{
+"id": "SeasonTechDes_3",
+"value": "每个赛季恢复赛季体力次数提升"
+},
+{
+"id": "SeasonTechDes_4",
+"value": "近卫蚁生命提升"
+},
+{
+"id": "SeasonTechDes_5",
+"value": "运输蚁生命提升"
+},
+{
+"id": "SeasonTechDes_6",
+"value": "射手蚁生命提升"
+},
+{
+"id": "SeasonTechDes_7",
+"value": "赛季区域内赛季体力未达上限时可免费领取赛季体力"
+},
+{
+"id": "SeasonTechDes_8",
+"value": "每次领取赛季体力增加"
+},
+{
+"id": "TechCategoryName_25",
+"value": "赛季体力发展Ⅰ"
+},
+{
+"id": "TechCategoryName_26",
+"value": "赛季体力发展Ⅱ"
+}
+]

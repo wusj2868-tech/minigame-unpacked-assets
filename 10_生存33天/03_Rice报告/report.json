@@ -1,0 +1,1702 @@
+{
+  "game": {
+    "name": "生存33天",
+    "package": "com.tencent.tmgp.gzlcscssst",
+    "version": "1.0.26",
+    "engine": "Cocos Creator",
+    "genre": "末日生存 / 放置挂机 / 基地建造 / 卡牌养成",
+    "publisher": "广州龙畅网络科技有限公司（37手游）",
+    "channel": "应用宝（腾讯移动游戏平台）"
+  },
+  "summary": "本包是 37 手游研发/发行的末日生存放置 RPG《生存33天》，使用 Cocos Creator（Cocos2d-JS/JSB），10 个 dex 全是应用宝 YSDK/Midas 等渠道 SDK，游戏业务逻辑主要在 Cocos 脚本与配置表中。配置管线已完整解出：5 个 .sd33 卷经“外层 zlib 解压 → pako 字符串 → base64 + 内层 zlib”两层还原出 593 张表、776,413 行明文 JSON，覆盖任务、世界地图、建造、英雄成长、抽卡、商店充值与各类副本。玩法是主线任务驱动区域探索与采集、升级主基地和幸存者、再挑战首领/爬塔/日常副本的放置循环；商业化由钻石直充、月卡/终身卡/周卡等特权卡、限时礼包和 6 个广告点位构成。最大障碍是 Cocos 的 .jsc 脚本（cocos2d-jsb.jsc、settings.jsc、main/index.jsc）未能解密，故运行时逻辑只能由配置与资源结构反推；另外所有副本/塔层都没有官方玩家关号字段，无法生成主线关号映射。",
+  "coreLoop": {
+    "summary": "主线任务指向地图目标，玩家进区域探索、清怪采集、回营地建造并培养英雄，战力达标后挑战首领/塔/日常副本拿资源，再解锁下一段主线。",
+    "cycle": "接主线任务 → 进入区域探索/清怪 → 采集木材石料铁板与罐头 → 升级主基地、培养幸存者 → 挑战首领试炼/实验塔/日常副本 → 解锁新区域与更高档奖励 → 回主线继续",
+    "steps": [
+      {
+        "order": 1,
+        "name": "接主线任务",
+        "action": "按 Quest.index 顺序接取任务，目标类型由 questAim/completeCondition 指定（触发 NPC、进入地图、收集等）",
+        "cost": "无",
+        "reward": "questReward 奖励包（16001…）",
+        "gate": "unlockQuest 串成前序链，未完成上一任务不开放下一任务",
+        "files": [
+          "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Quest.json",
+          "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/MainQuest.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "区域探索",
+        "action": "进入 WorldMap 区域（废墟之城/荒漠之地/毒森旷野/寒冰之地…），按 regionRange 范围推进探索度",
+        "cost": "时间与战斗损耗",
+        "reward": "探索度与 showReward 区域奖励",
+        "gate": "区域按 region 顺序与 talkGuideMap/前置 NPC 条件解锁",
+        "files": [
+          "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "杀怪与采集",
+        "action": "击杀丧尸/精英，采集木材(4)、石块(5)、铁板(6)，获取钞票(2)与过期罐头(3)",
+        "cost": "战斗消耗",
+        "reward": "建造与养成基础资源",
+        "gate": "钞票有每日获取上限（Item 2 描述明确写明）",
+        "files": [
+          "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Item.json",
+          "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Monster.json"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "升级主基地",
+        "action": "消耗资源升级主基地与功能建筑，解锁 NPC/房间",
+        "cost": "Build 1001 需木材×20；1002 需木材×30+石块×15",
+        "reward": "新建筑、新功能与任务线",
+        "gate": "next 串成建筑等级链，buildAfterNpc 控制 NPC 出现",
+        "files": [
+          "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Build.json",
+          "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/RoomLevel.json"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "培养幸存者",
+        "action": "用罐头提升英雄等级，提升 atk/def/maxhp，解锁技能等级",
+        "cost": "HeroLevel_0：3100001 需过期罐头×3，Lv100 需×53",
+        "reward": "英雄属性与技能成长",
+        "gate": "等级受玩家等级/头衔开放条件限制（ButtonOpen）",
+        "files": [
+          "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/HeroLevel_0.json",
+          "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/Hero.json",
+          "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/Power.json"
+        ]
+      },
+      {
+        "order": 6,
+        "name": "挑战副本与首领",
+        "action": "消耗密钥进入实验塔/罐头副本/首领试炼/寂静岭，获取装备、罐头与招募资源",
+        "cost": "Tower 每层实验室密钥×1；DailyDungeon 罐头密钥×1",
+        "reward": "装备、罐头、招募券与专属奖励",
+        "gate": "日常副本 limit=1/日；塔层战力门槛 power 7600 起；首领试炼 180 秒限时",
+        "files": [
+          "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Tower.json",
+          "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/DailyDungeon.json",
+          "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/BossTrial.json",
+          "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/SilentHillExploreMap.json"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "钻石",
+        "income": "充值、任务与活动奖励"
+      },
+      {
+        "name": "钞票",
+        "income": "野外杀怪、首领试炼、日常任务、装备分解"
+      },
+      {
+        "name": "过期罐头",
+        "income": "罐头副本、探索与任务"
+      },
+      {
+        "name": "木材/石块/铁板",
+        "income": "地图采集与装备分解"
+      },
+      {
+        "name": "实验室密钥",
+        "income": "任务/商店/活动"
+      },
+      {
+        "name": "罐头密钥",
+        "income": "商店与活动"
+      }
+    ],
+    "loopMinutes": "单次探索或副本 1~3 分钟；一段主线约 15~30 分钟",
+    "evidence": [
+      "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Quest.json",
+      "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json",
+      "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Build.json",
+      "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Item.json",
+      "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Tower.json",
+      "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/DailyDungeon.json"
+    ],
+    "confidence": "high"
+  },
+  "monetization": {
+    "summary": "以钻石直充为底座，叠加月卡/终身卡/周卡等特权卡、限时战败与成长礼包、黑市与免广告卡；压力点来自每日副本次数、爬塔密钥、战力门槛与每日钞票上限。",
+    "cycle": "卡关或日常次数用尽 → 弹出战败/限时礼包或导流商店 → 买钻石/特权卡/礼包 → 获得资源与挂机/掉落加成 → 推进更高塔层与新区 → 出现更高档礼包与黑市商品",
+    "steps": [
+      {
+        "order": 1,
+        "name": "卡关/次数耗尽",
+        "action": "战力不足或日常副本 limit=1 已用完",
+        "cost": "时间或失败",
+        "reward": "无",
+        "gate": "Tower 战力门槛与 BossTrial 180 秒限时"
+      },
+      {
+        "order": 2,
+        "name": "触发礼包",
+        "action": "TimeLimitGift「战败」等限时礼包弹出",
+        "cost": "付费",
+        "reward": "reward 奖励包",
+        "gate": "buyLimit=1，TimeLimitGiftGroup 限时 7200 秒"
+      },
+      {
+        "order": 3,
+        "name": "购买特权卡",
+        "action": "月卡/终身卡/周卡提供长期收益与功能特权",
+        "cost": "¥8~¥198",
+        "reward": "免广告、挂机上限 360 分钟、招募 9 折、钞票掉落上限+1000 等",
+        "gate": "按天生效，终身卡 -1 天"
+      },
+      {
+        "order": 4,
+        "name": "资源转化为战力",
+        "action": "钻石→招募/商店资源→英雄与装备成长",
+        "cost": "钻石与钞票",
+        "reward": "战力提升",
+        "gate": "RecruitmentPool 常驻招募 100 钞票/次"
+      },
+      {
+        "order": 5,
+        "name": "进入下一档压力",
+        "action": "更高塔层/新区/黑市（开服 49 天开放）",
+        "cost": "更高战力与付费",
+        "reward": "更高档奖励与礼包",
+        "gate": "Store.showCondition 与开服天数"
+      }
+    ],
+    "payPoints": [
+      {
+        "name": "钻石直充 60/300/680/1280/3280/6480",
+        "price": "¥6 / ¥30 / ¥68 / ¥128 / ¥328 / ¥648",
+        "trigger": "商店充值页",
+        "effect": "获得等额钻石",
+        "config": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json"
+      },
+      {
+        "name": "月卡",
+        "price": "¥30 / 30 天",
+        "trigger": "特权卡页",
+        "effect": "免广告、副本 3 倍速、每日自选招募 1 次、挂机快速 10 次、竞技场跳过",
+        "config": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json"
+      },
+      {
+        "name": "终身卡",
+        "price": "¥198 / 永久",
+        "trigger": "特权卡页",
+        "effect": "挂机上限 360 分钟、招募 9 折（HeroRecruitCostOff off:1000）",
+        "config": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json"
+      },
+      {
+        "name": "周卡",
+        "price": "¥8 / 7 天",
+        "trigger": "特权卡页",
+        "effect": "钞票掉落加成 1000、免费快速挂机 2 次、钞票双倍、竞技场券掉率加成 500",
+        "config": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json"
+      },
+      {
+        "name": "限时战败礼包",
+        "price": "payOff 指向付费档（未与 Recharge 建外键，价格未解出）",
+        "trigger": "战斗失败",
+        "effect": "发放 reward 奖励包",
+        "config": "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/TimeLimitGift.json"
+      },
+      {
+        "name": "免广告卡",
+        "price": "¥1",
+        "trigger": "广告点位/商店",
+        "effect": "免除广告观看（Recharge id=506）",
+        "config": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json"
+      },
+      {
+        "name": "黑市商品",
+        "price": "钻石 200 起（cost item|id:1_num:200）",
+        "trigger": "开服第 49 天开放",
+        "effect": "兑换 reward 7015",
+        "config": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Store.json"
+      }
+    ],
+    "ads": [
+      "AdReward 共 6 个点位（buttonId 20202/20502/340004/20503/490003/570005），maxCount=1",
+      "激励视频用于资源/奖励领取，具体按钮语义需运行时确认"
+    ],
+    "prices": "钻石 ¥6/30/68/128/328/648；月卡 ¥30、至尊月卡 ¥68、终身卡 ¥198、矿卡 ¥30、周卡 ¥8、废土争霸月卡 ¥30、废土争霸特权卡 ¥128；另有多档 ¥1~¥648 礼包",
+    "evidence": [
+      "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json",
+      "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json",
+      "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Store.json",
+      "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/TimeLimitGift.json",
+      "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/AdReward.json",
+      "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/RecruitmentPool.json"
+    ],
+    "confidence": "high"
+  },
+  "modules": [
+    {
+      "name": "配置加载与解包管线",
+      "summary": "5 个 .sd33 卷承载全部游戏表，双层压缩后为明文 JSON，按 __KEY_MAP__ 列映射成行。",
+      "sourceFile": "extracted/data/tables/_index.json",
+      "details": [
+        "外层：.sd33 → zlib 解压 → JSON dict（key=表名，value='pako:eJ...'）",
+        "内层：pako 字符串 → base64 → zlib → 明文 JSON",
+        "行结构 {\"<id>\":{\"datas\":[[...]]},\"__KEY_MAP__\":{字段:列号}}，字符串值 '$<id>' 表示继承同字段",
+        "产物 593 表 / 776,413 行，索引 extracted/data/tables/_index.json"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322.sd33.raw",
+        "extracted/data/tables/_index.json",
+        "q.py"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "主线任务系统",
+      "summary": "Quest 以 index 顺序与 unlockQuest 前序链驱动新手主线，completeCondition 描述触发/到达/收集条件。",
+      "sourceFile": "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Quest.json",
+      "details": [
+        "Quest 1,688 行，index 1~109 为新手主线段",
+        "completeCondition 例：TriggerNpcCondition|{npcSpawnId:100001}、CurInMapCondition|{mapId:3001_isIn:true}",
+        "questAim 为结构化目标 {type, content, target}",
+        "questReward 指向奖励包，text 为任务文案"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Quest.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/MainQuest.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "世界探索与地图",
+      "summary": "WorldMap 定义 12 区域，每区域 3 个 mapId；GameMap 描述室内、首领、尸潮、主城等具体地图。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json",
+      "details": [
+        "WorldMap 72 行 = 12 区域 × 3 mapId，regionName 从废墟之城到浮空之岛",
+        "regionRange 为多边形探索范围，monsterExplore 控制怪物探索阈值",
+        "GameMap 552 行，mapType 含 InDoor/BossTrial/ZombieWave/MainCity",
+        "RoomLevel 1,248 行控制房间等级，NpcSpawn 6,201 行控制 NPC 刷新"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/GameMap.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/RoomLevel.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/NpcSpawn.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "基地建造与房间",
+      "summary": "Build 定义主基地与功能建筑的等级、造价、前置 NPC 与后续等级。",
+      "sourceFile": "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Build.json",
+      "details": [
+        "Build 1001 主基地 Lv1：cost item|id:4_num:20（木材×20），next=1002",
+        "Build 1002：cost 木材×30+石块×15",
+        "buildAfterNpc1~5 控制升级后出现的 NPC",
+        "questIds 关联任务，BuildStage 控制建造阶段表现"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Build.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/BuildStage.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/RoomLevel.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "英雄养成与战斗数值",
+      "summary": "Hero 定义幸存者职业/品质/技能，HeroLevel_0 给出每级属性与升级消耗，Power 给出战斗公式系数。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/HeroLevel_0.json",
+      "details": [
+        "Hero 53 行：1 水管工（战士 Q3）、2 电锯人（战士 Q4）、4 小护士（辅助 Q3）",
+        "HeroLevel_0 9,995 行：3100001 Lv1 atk21/def5/hp479，Lv100 atk1693/def423/hp38107",
+        "Power atk=6、def=6、damageBonus≈1.0512，含暴击/格挡/连击/吸血等加成列",
+        "技能等级以 'skillId_level' 形式写在 Hero.skill1/2/3/5"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/Hero.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/HeroLevel_0.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/Power.json",
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Skill.json",
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Equip.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "招募抽卡",
+      "summary": "RecruitmentPool 定义卡池消耗、权重与保底档位；常驻池用钞票，活动池用专用道具。",
+      "sourceFile": "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/RecruitmentPool.json",
+      "details": [
+        "id1 常驻招募：cost item|id:2_num:100（钞票×100）",
+        "id2 宝箱贺礼（剑圣）：cost item|id:49_num:5，activityId 绑定活动期",
+        "grandPrize 为 {档位:权重} 形式，最高档 10000"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/RecruitmentPool.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/Hero.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "副本与挑战",
+      "summary": "日常副本、实验塔、首领试炼、寂静岭构成主要 PvE 挑战与资源产出。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/DailyDungeon.json",
+      "details": [
+        "DailyDungeon 2,978 行：typeName 罐头副本，limit=1/日，cost 罐头密钥×1，condition PlayerLevel|minLevel:4",
+        "Tower 3,460 层：cost 实验室密钥×1，power 7600 起，skipPower 350000",
+        "BossTrial 384 行：time=180 秒，hpNum=100，mapId=600001，rewardCondition 控制奖励",
+        "SilentHillExploreMap 3 层：exploreCost 1/2/4，unLockCost 传送石×2/×3"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/DailyDungeon.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Tower.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/BossTrial.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/SilentHillExploreMap.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "商店、充值与特权",
+      "summary": "Store 定义货架与限购，Recharge 定义真实付费 SKU，PrivilegeConfig 定义特权卡权益串。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json",
+      "details": [
+        "Store 1,822 行：type 100002 每日限购、100006 密钥特惠、40001 黑市",
+        "Recharge type=1 钻石直充，type=3 礼包，type=5 特权卡",
+        "PrivilegeConfig 6 行，privilege 串如 SkipAd|count:1、OnHookCap|minutes:360",
+        "TimeLimitGift 1,489 行按战败/成长等场景弹限时礼包"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Store.json",
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/TimeLimitGift.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/TimeLimitGiftGroup.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "挂机收益",
+      "summary": "Onhook 定义离线/在线挂机产出与上限，OnhookFastCost 定义快速挂机消耗。",
+      "sourceFile": "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Onhook.json",
+      "details": [
+        "Onhook 表控制挂机产出节奏",
+        "PrivilegeConfig 终身卡 OnHookCap|minutes:360 提高挂机上限",
+        "OnhookFastCost 控制快速挂机消耗"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Onhook.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/OnhookFastCost.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "广告奖励",
+      "summary": "AdReward 用 buttonId 绑定 6 个激励视频点位，每个每日 1 次。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/AdReward.json",
+      "details": [
+        "buttonId 20202/20502/340004/20503/490003/570005",
+        "maxCount=1，refreshType=1",
+        "rewardId 指向奖励包",
+        "Recharge 506 为 ¥1 免广告卡"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/AdReward.json",
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "新手引导与功能开放",
+      "summary": "TalkGuideMap 驱动 NPC 对话式地图引导，ButtonOpen 按头衔/开服天数解锁功能，GuideView 等预制体承载强制引导表现。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/TalkGuideMap.json",
+      "details": [
+        "TalkGuideMap 13 行：atlas npcTalkSub1 / npcTalkMapGuide2~13，pos1~pos5 为对话气泡锚点",
+        "ButtonOpen 31 行：4001 班长Ⅰ、4010 连长Ⅰ、4011 旅长Ⅰ、4012 司令Ⅰ、开服第 3 天等",
+        "引导预制体 uuid：prefab/guide/GuideView、GuideMapView、GuideMoveView、GuideHeroAutoView、GuideHelpView"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/TalkGuideMap.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/ButtonOpen.json",
+        "extracted/assets/assets/resources/config.json"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "Item 物品/货币表",
+      "summary": "定义货币、材料、密钥、次数类道具的堆叠、品质、获取与用途文案。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Item.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "1",
+          "meaning": "物品 ID"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "sample": "Currency",
+          "meaning": "物品大类，材料常继承 $1"
+        },
+        {
+          "name": "stackNum",
+          "type": "int",
+          "sample": "999999",
+          "meaning": "堆叠上限"
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "sample": "6",
+          "meaning": "品质档"
+        },
+        {
+          "name": "des",
+          "type": "string",
+          "sample": "每90分钟恢复1点",
+          "meaning": "用途与恢复规则"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"name\":\"钻石\",\"type\":\"Currency\",\"quality\":6,\"stackNum\":999999}",
+        "{\"id\":2,\"name\":\"钞票\",\"des\":\"...每30分钟...每日钞票有获取上限\"}",
+        "{\"id\":3,\"name\":\"过期罐头\",\"type\":\"$1\"}",
+        "{\"id\":4,\"name\":\"普通的木材\"}",
+        "{\"id\":20,\"name\":\"实验室密钥\",\"des\":\"开启实验塔下一层的关键道具\"}",
+        "{\"id\":46,\"name\":\"罐头密钥\",\"des\":\"可用于参与挑战罐头副本\"}",
+        "{\"id\":67,\"name\":\"体力\",\"des\":\"每90分钟恢复1点\"}",
+        "{\"id\":82,\"name\":\"探查次数\",\"des\":\"每30分钟恢复1个\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Item.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "PlayerLevel 玩家等级表",
+      "summary": "玩家等级经验曲线与每级 limit 值。",
+      "sourceFile": "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/PlayerLevel.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "level",
+          "type": "int",
+          "sample": "1",
+          "meaning": "玩家等级"
+        },
+        {
+          "name": "exp",
+          "type": "int",
+          "sample": "250",
+          "meaning": "升到下一级所需经验"
+        },
+        {
+          "name": "limit",
+          "type": "object",
+          "sample": "{\"4\":300}",
+          "meaning": "按类型区分的上限值，具体语义未确认"
+        },
+        {
+          "name": "monsterExp",
+          "type": "int",
+          "sample": "44808",
+          "meaning": "怪物经验参数"
+        }
+      ],
+      "samples": [
+        "{\"level\":1,\"exp\":250,\"limit\":{\"4\":300},\"monsterExp\":44808}",
+        "{\"level\":2,\"exp\":600}",
+        "{\"level\":3,\"exp\":650}",
+        "Lv10 exp=1650；Lv100 exp=5,476,641（表内实测）"
+      ],
+      "evidence": [
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/PlayerLevel.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "HeroLevel_0 英雄成长表",
+      "summary": "按英雄与等级给出三围属性与升级罐头消耗，type=31 为常规英雄。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/HeroLevel_0.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "3100001",
+          "meaning": "英雄×等级编码"
+        },
+        {
+          "name": "attr",
+          "type": "object",
+          "sample": "{\"atk\":21,\"def\":5,\"maxhp\":479}",
+          "meaning": "基础三围"
+        },
+        {
+          "name": "spAttr",
+          "type": "string",
+          "sample": "atk:3,def:1,maxhp:60",
+          "meaning": "每级成长"
+        },
+        {
+          "name": "cost",
+          "type": "string",
+          "sample": "item|id:3_num:3",
+          "meaning": "升级消耗（过期罐头）"
+        }
+      ],
+      "samples": [
+        "{\"id\":3100001,\"level\":1,\"attr\":{\"atk\":21,\"def\":5,\"maxhp\":479},\"cost\":\"item|id:3_num:3\"}",
+        "{\"id\":3100002,\"level\":2,\"attr\":{\"atk\":28,\"def\":7,\"maxhp\":638},\"cost\":\"$3100001\"}",
+        "{\"id\":3100100,\"level\":100,\"attr\":{\"atk\":1693,\"def\":423,\"maxhp\":38107},\"cost\":\"item|id:3_num:53\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/HeroLevel_0.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Power 战斗系数表",
+      "summary": "战斗公式的攻防基数与各类增伤/减伤、暴击、格挡、连击、吸血系数。",
+      "sourceFile": "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/Power.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "1",
+          "meaning": "系数档位"
+        },
+        {
+          "name": "atk",
+          "type": "int",
+          "sample": "6",
+          "meaning": "攻击基数"
+        },
+        {
+          "name": "def",
+          "type": "int",
+          "sample": "6",
+          "meaning": "防御基数"
+        },
+        {
+          "name": "damageBonus",
+          "type": "float",
+          "sample": "1.05118077813",
+          "meaning": "伤害加成系数"
+        },
+        {
+          "name": "criticalBonus",
+          "type": "float",
+          "sample": "0.31535423344",
+          "meaning": "暴击加成"
+        },
+        {
+          "name": "skillsuckBloodRate",
+          "type": "float",
+          "sample": "见表",
+          "meaning": "技能吸血率"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"atk\":6,\"def\":6,\"damageBonus\":1.05118077813,\"blockDmgBonus\":0.31535423344}",
+        "{\"id\":2,\"atk\":6,\"def\":6,\"damageBonus\":\"$1\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/Power.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Hero 英雄定义表",
+      "summary": "英雄名称、职业、品质、技能组、武器与展示资源。",
+      "sourceFile": "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/Hero.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "1",
+          "meaning": "英雄 ID"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "sample": "水管工",
+          "meaning": "英雄名"
+        },
+        {
+          "name": "quality",
+          "type": "int",
+          "sample": "3",
+          "meaning": "品质"
+        },
+        {
+          "name": "sect",
+          "type": "int",
+          "sample": "3",
+          "meaning": "职业分类"
+        },
+        {
+          "name": "skill1",
+          "type": "string",
+          "sample": "10010201_0,10010202_3,10010203_7",
+          "meaning": "技能 ID_解锁等级"
+        },
+        {
+          "name": "chip",
+          "type": "int",
+          "sample": "1001",
+          "meaning": "碎片物品 ID"
+        }
+      ],
+      "samples": [
+        "{\"id\":1,\"name\":\"水管工\",\"quality\":3,\"sect\":3,\"desc\":\"强力三连劈\"}",
+        "{\"id\":2,\"name\":\"电锯人\",\"quality\":4,\"sect\":1,\"desc\":\"撕裂一切，歪比巴卜\"}",
+        "{\"id\":4,\"name\":\"小护士\",\"quality\":3,\"sect\":3,\"desc\":\"群体治疗，新手保姆\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/Hero.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Recharge 付费 SKU 表",
+      "summary": "真实充值商品：钻石直充、礼包与特权卡，含 Android/iOS 商品 ID 与价格。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "101",
+          "meaning": "内部 SKU ID"
+        },
+        {
+          "name": "type",
+          "type": "int",
+          "sample": "1",
+          "meaning": "1 钻石直充 / 3 礼包 / 5 特权卡"
+        },
+        {
+          "name": "currency",
+          "type": "string",
+          "sample": "6",
+          "meaning": "人民币价格"
+        },
+        {
+          "name": "diamonds",
+          "type": "string",
+          "sample": "60",
+          "meaning": "获得钻石数"
+        },
+        {
+          "name": "androidProductId",
+          "type": "string",
+          "sample": "com.sy.lhxz.sy.60zs",
+          "meaning": "渠道商品号"
+        }
+      ],
+      "samples": [
+        "{\"id\":101,\"type\":1,\"currency\":\"6\",\"diamonds\":\"60\",\"androidProductId\":\"com.sy.lhxz.sy.60zs\"}",
+        "{\"id\":104,\"type\":1,\"currency\":\"128\",\"diamonds\":\"1280\"}",
+        "{\"id\":501,\"type\":5,\"productName\":\"月卡\",\"currency\":\"30\"}",
+        "{\"id\":503,\"type\":5,\"productName\":\"终身卡\",\"currency\":\"198\"}",
+        "{\"id\":505,\"type\":5,\"productName\":\"周卡\",\"currency\":\"8\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Recharge.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "PrivilegeConfig 特权卡权益表",
+      "summary": "每张特权卡的权益串、每日奖励与文案。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "501",
+          "meaning": "对应 Recharge 特权卡 ID"
+        },
+        {
+          "name": "name1",
+          "type": "string",
+          "sample": "月卡",
+          "meaning": "卡名（501 月卡 / 505 周卡）"
+        },
+        {
+          "name": "privilege",
+          "type": "string",
+          "sample": "CoinDouble|count:1,CoinDropAdd|count:1000",
+          "meaning": "权益键值串"
+        },
+        {
+          "name": "dailyReward",
+          "type": "int",
+          "sample": "30010",
+          "meaning": "每日奖励包"
+        }
+      ],
+      "samples": [
+        "{\"id\":501,\"privilege\":\"SkipAd|count:1,DungeonSpeed|speed:3,RecruitSelfSelect|dailyTimes:1,OnHookFastTimes|times:10\"}",
+        "{\"id\":503,\"privilege\":\"OnHookCap|minutes:360,HeroRecruitCostOff|off:1000\"}",
+        "{\"id\":505,\"privilege\":\"CoinDropAdd|count:1000,OnHookFreeFastTimes|times:2,CoinDouble|count:1,ArenaTicketDropRate|rate:500\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/PrivilegeConfig.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Store 商店货架表",
+      "summary": "商店/黑市商品、货币类型、限购与开服条件。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Store.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "1015",
+          "meaning": "货架 ID"
+        },
+        {
+          "name": "type",
+          "type": "int",
+          "sample": "40001",
+          "meaning": "100002 每日限购 / 100006 密钥特惠 / 40001 黑市"
+        },
+        {
+          "name": "cost",
+          "type": "string",
+          "sample": "item|id:1_num:200",
+          "meaning": "售价"
+        },
+        {
+          "name": "showCondition",
+          "type": "string",
+          "sample": "OpenServerDayCondition|day:49",
+          "meaning": "开放条件"
+        }
+      ],
+      "samples": [
+        "{\"id\":1015,\"name\":\"黑市\",\"type\":40001,\"cost\":\"item|id:1_num:200\",\"showCondition\":\"OpenServerDayCondition|day:49\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/Store.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "AdReward 广告奖励表",
+      "summary": "6 个激励视频按钮位与奖励包映射。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/AdReward.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "buttonId",
+          "type": "int",
+          "sample": "20202",
+          "meaning": "UI 按钮 ID"
+        },
+        {
+          "name": "rewardId",
+          "type": "int",
+          "sample": "19",
+          "meaning": "奖励包 ID"
+        },
+        {
+          "name": "maxCount",
+          "type": "int",
+          "sample": "1",
+          "meaning": "每日次数"
+        }
+      ],
+      "samples": [
+        "{\"buttonId\":20202,\"rewardId\":19,\"maxCount\":1}",
+        "{\"buttonId\":340004,\"rewardId\":270000,\"maxCount\":1}"
+      ],
+      "evidence": [
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/AdReward.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "levels": [
+    {
+      "name": "主线任务链（Quest）",
+      "summary": "任务表以 index 递增 + unlockQuest 前序链构成新手主线，目标类型由 completeCondition 描述。",
+      "sourceFile": "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Quest.json",
+      "details": [
+        "Quest 1,688 行；index 1~109 为可识别的新手主线段",
+        "index 是任务本地顺序，不是官方玩家关号",
+        "completeCondition 覆盖 TriggerNpcCondition / CurInMapCondition 等",
+        "questAim 结构化目标 {type, content, target}"
+      ],
+      "fields": null,
+      "samples": [
+        "index1 救援丽娜 → TriggerNpcCondition|{npcSpawnId:100001}",
+        "index2 驱散地图迷雾 → TriggerNpcCondition|{npcSpawnId:301001}",
+        "index3 探索民居 → CurInMapCondition|{mapId:3001_isIn:true}"
+      ],
+      "evidence": [
+        "extracted/data/tables/39e1975e-fbec-4759-b381-3e992f9ac513/Quest.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/MainQuest.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "世界区域与地图（WorldMap / GameMap）",
+      "summary": "12 个区域 × 3 mapId 组成大地图；GameMap 提供具体战斗/功能场景。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json",
+      "details": [
+        "WorldMap 72 行，regionName 含废墟之城、荒漠之地、毒森旷野、寒冰之地等 12 区",
+        "GameMap 552 行，mapType 含 InDoor 206、BossTrial 60、ZombieWave 25、MainCity 16",
+        "RoomLevel 1,248 行、NpcSpawn 6,201 行支撑房间与 NPC 刷新"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"regionName\":\"废墟之城\",\"mapId\":100001,\"explore\":\"50,100\"}",
+        "{\"id\":2,\"regionName\":\"荒漠之地\",\"talkGuideMap\":3}"
+      ],
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/GameMap.json",
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/RoomLevel.json",
+        "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/NpcSpawn.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "实验塔（Tower）",
+      "summary": "3,460 层线性爬塔，每层固定怪物编队与战力门槛，消耗实验室密钥。",
+      "sourceFile": "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Tower.json",
+      "details": [
+        "id 1..3460 连续楼层",
+        "power 从 7600 起递增；skipPower=350000 控制扫荡门槛",
+        "cost item|id:20_num:1（实验室密钥）",
+        "monsterId 为三层怪物组合，offset/position 控制站位"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"power\":7600,\"cost\":\"item|id:20_num:1\",\"monsterId\":\"4000101,4000102,4000111\"}",
+        "{\"id\":2,\"power\":11500}",
+        "{\"id\":3,\"power\":15300}"
+      ],
+      "evidence": [
+        "extracted/data/tables/fecc50ad-de79-48c8-985f-64c5977f780f/Tower.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "日常副本（DailyDungeon）",
+      "summary": "2,978 条日常副本配置，按 type 分资源副本等，限次并消耗密钥。",
+      "sourceFile": "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/DailyDungeon.json",
+      "details": [
+        "type 700001 = 罐头副本，typeName 罐头副本",
+        "limit=1/日，adLimit=1（可看广告加一次）",
+        "cost item|id:46_num:1（罐头密钥）",
+        "condition 例 PlayerLevel|minLevel:4"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"type\":700001,\"typeName\":\"罐头副本\",\"limit\":1,\"cost\":\"item|id:46_num:1\",\"condition\":\"PlayerLevel|minLevel:4\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/DailyDungeon.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "首领试炼（BossTrial）",
+      "summary": "384 条首领关，180 秒限时，按层与地图组织，奖励条件独立。",
+      "sourceFile": "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/BossTrial.json",
+      "details": [
+        "time=180 秒，hpNum=100",
+        "mapId 600001 起，bossSpawn 引用怪物刷新",
+        "lock 用 TriggerNpcCondition 控制开启",
+        "trialReward/showBoxReward 给首通与宝箱奖励"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"layer\":1,\"time\":180,\"hpNum\":100,\"desc1\":\"击败首领\",\"tips\":\"召唤_变身\"}",
+        "{\"id\":2,\"tips\":\"高伤\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/BossTrial.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "寂静岭探索（SilentHillExploreMap）",
+      "summary": "3 层递进式探索地图，逐层提高探索消耗与事件权重。",
+      "sourceFile": "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/SilentHillExploreMap.json",
+      "details": [
+        "3 层：探索消耗 1/2/4",
+        "二层需传送石×2、三层需传送石×3",
+        "event/mustevent 为事件 ID_权重",
+        "unlockCondition 形如 [2101,2102,2103]_2"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"name\":\"寂静岭一层\",\"exploreCost\":1,\"nextFloor\":2}",
+        "{\"id\":2,\"name\":\"寂静岭二层\",\"exploreCost\":2,\"unLockCost\":\"item|id:70006_num:2\"}",
+        "{\"id\":3,\"name\":\"寂静岭三层\",\"exploreCost\":4,\"unLockCost\":\"item|id:70006_num:3\"}"
+      ],
+      "evidence": [
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/SilentHillExploreMap.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：boss_trial",
+      "summary": "本地解析出 384 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=384",
+        "目标字段：缺失 384 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 6825 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：daily_dungeon",
+      "summary": "本地解析出 2978 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=2978",
+        "目标字段：缺失 2978 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 6825 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：silent_hill",
+      "summary": "本地解析出 3 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=3",
+        "目标字段：缺失 3 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 6825 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：tower_experiment",
+      "summary": "本地解析出 3460 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=3460",
+        "目标字段：缺失 3460 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 6825 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "artAssets": [
+    {
+      "name": "贴图与图集（astc/png）",
+      "summary": "资源集中在 assets/assets/resources，按 uires 业务目录组织，主格式为 ASTC 压缩贴图。",
+      "sourceFile": "extracted/assets/assets/resources",
+      "details": [
+        ".astc 7,470 个、.png 412、.jpg 1，共 1,044.5 MB（压缩后）",
+        "一级目录 uires 13,978 个文件，按 skillEffect/角色/UI 等业务拆分",
+        "命名多为 <模块>_<类型>_<编号>，如 zi yuan fu ben_sp_0004",
+        "可复用度高但需 ASTC 解码器，图集/散图混合"
+      ],
+      "fields": null,
+      "samples": [
+        "res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+        "assets/assets/resources/native/b1/b1796c6a-6f31-4a52-a576-ed5c0758f9a6.mp3"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "extracted/assets/assets/resources/config.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "2D 骨骼动作（Spine）",
+      "summary": "668 个 .atlas 描述 Spine 骨骼动画，配合 spine 目录下的贴图与 skel。",
+      "sourceFile": "extracted/assets/assets/resources",
+      "details": [
+        ".atlas 668 个 / 0.6 MB",
+        "一级目录 spine 2,416 个文件",
+        "命名如 guide_1 引导骨骼",
+        "与 prefab 中的 Spine 组件配套"
+      ],
+      "fields": null,
+      "samples": [
+        "assets/assets/resources/native/b1/b1eea41e-9076-4ecb-ba70-0126597b24f3.atlas"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "音频",
+      "summary": "462 个 mp3 + 1 个 wav，按 audio/audioNew 分旧新两套。",
+      "sourceFile": "extracted/assets/assets/resources",
+      "details": [
+        "463 个 / 84.0 MB",
+        "audio 268 个、audioNew 195 个",
+        "GameMap.sound 字段引用音频 ID",
+        "UUID 命名，需经 config.json 的 paths/uuids 映射回逻辑名"
+      ],
+      "fields": null,
+      "samples": [
+        "assets/assets/resources/native/b1/b1796c6a-6f31-4a52-a576-ed5c0758f9a6.mp3"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/GameMap.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "UI / 图标 / 字体",
+      "summary": "应用图标、UI 图标与 1 个阿里巴巴普惠体字体。",
+      "sourceFile": "art_inventory.json",
+      "details": [
+        "图标/Logo/UI 264 个 / 2.9 MB",
+        "res/drawable-* 与 mipmap-* 为 Android 原生资源",
+        "字体 1 个：Alibaba-PuHuiTi-Bold.ttf",
+        "渠道 SDK 图标（abc_*）与游戏 UI 混在同一 res 下"
+      ],
+      "fields": null,
+      "samples": [
+        "res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "assets/assets/resources/native/fe/fe0a845d-b4b2-48a5-8a7e-e8d17bbf1933/Alibaba-PuHuiTi-Bold.ttf"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "场景与地图背景",
+      "summary": "地图/场景背景以 png 为主，WorldMap.showMap 与 GameMap.atlas 引用具体资源。",
+      "sourceFile": "extracted/assets/assets/resources",
+      "details": [
+        "场景/地图 84 个 / 1.1 MB",
+        "WorldMap.showMap 例 main_sp_0051",
+        "GameMap.atlas 例 duanwuzongzidazuozhan",
+        "SilentHill mapBg 例 png_jijinglingtanmi_sp_0035"
+      ],
+      "fields": null,
+      "samples": [
+        "res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/WorldMap.json",
+        "extracted/data/tables/1103dce5-c9c1-4527-8c4a-b1a8e84291b2/SilentHillExploreMap.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "资源打包与索引",
+      "summary": "Cocos 资源通过 config.json 的 paths/uuids/packs 三张索引表定位 import 与 native 文件，主配置声明 encrypted:true。",
+      "sourceFile": "extracted/assets/assets/resources/config.json",
+      "details": [
+        "paths 19,740、uuids 106,582、packs 4,287",
+        "import JSON 16,799 个可直接读，说明导入层未加密",
+        "main/config.json 中 encrypted:true，可能只对打包后的 bundle 生效",
+        "native 资源多用 UUID 命名，需查 config.json 映射"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"paths\":{\"0\":[\"uires/skillEffect/plantzombie/effect_plant_302_skill_1\",8]}}",
+        "\"encrypted\":true（main/config.json）"
+      ],
+      "evidence": [
+        "extracted/assets/assets/resources/config.json",
+        "extracted/assets/assets/main/config.json",
+        "extracted/jsonasset_index.json"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "artGuidance": {
+    "found": true,
+    "kind": "剧情/地图引导 + 功能开启提示",
+    "summary": "TalkGuideMap 定义 13 段 NPC 对话式地图引导（atlas + 5 个气泡锚点），ButtonOpen 用头衔/开服天数控制功能开放，GuideView/GuideMapView/GuideMoveView 等预制体承载引导表现。",
+    "steps": [
+      {
+        "order": 1,
+        "name": "NPC 对话引导",
+        "trigger": "进入对应区域/首次对话",
+        "hint": "TalkGuideMap 指定 npcTalkSub1 / npcTalkMapGuide2~13 图集与 5 个气泡位置",
+        "gate": "按 WorldMap.talkGuideMap 顺序推进（1→2→3…）",
+        "assets": [
+          "npcTalkSub1",
+          "npcTalkMapGuide2"
+        ],
+        "files": [
+          "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/TalkGuideMap.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "地图指引",
+        "trigger": "任务指向具体区域",
+        "hint": "GuideMapView + pos/offest/sacle 定位高亮",
+        "gate": "随主线任务推进触发",
+        "assets": [
+          "prefab/guide/GuideMapView"
+        ],
+        "files": [
+          "extracted/assets/assets/resources/config.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "功能开放提示",
+        "trigger": "头衔或开服天数达标",
+        "hint": "ButtonOpen 显示 icon/text（如 班长Ⅰ开启、开服第3天）",
+        "gate": "头衔链 4001→4010→4011→4012 与 season 条件",
+        "assets": [
+          "main_icon_0070"
+        ],
+        "files": [
+          "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/ButtonOpen.json"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "操作/战斗引导",
+        "trigger": "首次进入对应玩法",
+        "hint": "GuideView/GuideMoveView/GuideHeroAutoView/GuideHelpView 预制体",
+        "gate": "需运行时确认是否强制遮罩；本地仅见预制体与资源",
+        "assets": [
+          "prefab/guide/GuideView",
+          "spine/guide_1/guide_1"
+        ],
+        "files": [
+          "extracted/assets/assets/resources/config.json"
+        ]
+      }
+    ],
+    "mechanisms": [
+      "配置表驱动（TalkGuideMap/ButtonOpen）",
+      "NPC 对话 + 地图气泡锚点",
+      "头衔/开服天数门槛解锁",
+      "引导预制体独立打包在 prefab/guide"
+    ],
+    "assets": [
+      "assets/assets/resources/prefab/guide/",
+      "npcTalkSub1",
+      "npcTalkMapGuide2~13"
+    ],
+    "evidence": [
+      "extracted/data/tables/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322/TalkGuideMap.json",
+      "extracted/data/tables/973c4c14-e03b-409a-b106-b11c64331442/ButtonOpen.json",
+      "extracted/assets/assets/resources/config.json"
+    ],
+    "confidence": "medium"
+  },
+  "encryption": {
+    "findings": [
+      "配置卷 .sd33 是两层压缩而非加密：外层 zlib → pako:eJ... 字符串 → base64 + 内层 zlib → 明文 JSON",
+      "Cocos 主配置 extracted/assets/assets/main/config.json 声明 encrypted:true，但 resources/import 下 16,799 个 import JSON 可直接读",
+      "assets/src/cocos2d-jsb.jsc（269 KB，熵 7.99）与 settings.jsc/main/index.jsc 为 Cocos 加密脚本，未解出",
+      "libsecuritydevice.so 中的 MD5/ChaCha/AES 字符串属腾讯安全组件；lib39285EFA.so 的 XorArray/encryptJar 与配置链无关",
+      "assets/toyger.face.dat（1.4 MB，熵 7.99）为人脸识别 SDK 数据，非游戏配置"
+    ],
+    "decrypted": [
+      "5 个 .sd33 卷 → 593 张表 / 776,413 行明文 JSON（extracted/data/tables/）",
+      "16,799 个 Cocos import JSON（extracted/assets/assets/resources/import/）",
+      "172 个 cc.JsonAsset（extracted/config/，含 mapCfg Tiled 地图）"
+    ],
+    "blocked": [
+      "cocos2d-jsb.jsc / settings.jsc / main/index.jsc 未解密，运行时脚本逻辑无法直接阅读",
+      "资源包运行时的解密 key 未定位；config.json encrypted:true 的实际作用范围未验证",
+      "TimeLimitGift.payOff 与 Recharge.id 的外键关系未确认，限时礼包真实价格未解出",
+      "PlayerLevel.limit 的键（如 {\"4\":300}）语义未确认"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "level_stats.json",
+      "note": "本地已解析关卡的全量统计与缺失项"
+    },
+    {
+      "path": "level_stats.md",
+      "note": "关卡分布与顺序映射的验收摘要"
+    },
+    {
+      "path": "extracted/data/tables/_index.json",
+      "note": "593 张配置表索引（表名→卷 UUID）"
+    },
+    {
+      "path": "extracted/data/tables/_names.txt",
+      "note": "表名清单"
+    },
+    {
+      "path": "q.py",
+      "note": "配置表读取/打印工具（L/rows/head）"
+    },
+    {
+      "path": "extracted/jsonasset_index.json",
+      "note": "172 个 cc.JsonAsset 索引"
+    },
+    {
+      "path": "level_data/records.jsonl",
+      "note": "6,825 条副本/塔层结构记录（Tower 3460、DailyDungeon 2978、BossTrial 384、SilentHill 3）"
+    },
+    {
+      "path": "extracted/data/4e83b5f4-d8c1-4f6c-8297-1ba90d7c8322.sd33.raw",
+      "note": "原始配置卷样本"
+    },
+    {
+      "path": "art_inventory.json",
+      "note": "美术资源普查（数量/体积/目录）"
+    },
+    {
+      "path": "analysis_notes.md",
+      "note": "跨轮次进度笔记"
+    }
+  ],
+  "limitations": [
+    "Cocos .jsc 脚本未解密，模块调用链只能由配置表与资源结构反推，未验证到 C#/JS 方法级",
+    "所有副本/塔层均无官方玩家关号字段，level_data 记录 player_level_number=null，未生成 sequence 映射；不能据此判断全部主线关卡",
+    "Quest.index 是任务本地顺序，不等同官方玩家关号",
+    "TimeLimitGift.payOff 与 Recharge 的外键未确认，限时礼包价格未解出",
+    "PlayerLevel.limit 的键语义、部分 type 枚举（如 DailyDungeon 各 type）未完全枚举",
+    "level_data 仅覆盖本地可解析的塔/日常副本/首领/寂静岭，不含全部活动与临时玩法",
+    "配置由客户端内置，但服务器下发/热更内容未在静态包中体现"
+  ],
+  "generatedAt": "2026-11-19T16:48:32.023966711+08:00",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "artInventory": {
+    "generatedAt": "2026-11-19T16:36:06.588544117+08:00",
+    "scanVersion": 3,
+    "sha256": "d0f8999f7dd437ba84a83bea0c2336971835bddb74b7797d74949d283523826a",
+    "archives": [
+      "target.apk"
+    ],
+    "totalFiles": 9389,
+    "totalBytes": 1189690070,
+    "bundleFiles": 0,
+    "bundleBytes": 0,
+    "categories": [
+      {
+        "key": "texture",
+        "label": "贴图 / 其它图片",
+        "files": 7883,
+        "bytes": 1095213550,
+        "exts": [
+          {
+            "ext": ".astc",
+            "files": 7470,
+            "bytes": 1090548545
+          },
+          {
+            "ext": ".png",
+            "files": 412,
+            "bytes": 4050430
+          },
+          {
+            "ext": ".jpg",
+            "files": 1,
+            "bytes": 614575
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+          "target.apk/res/drawable-xxhdpi/sy37_web_forward_disable.png",
+          "target.apk/res/drawable-xxhdpi/com_tencent_ysdk_phone_oauth_login_back.png"
+        ]
+      },
+      {
+        "key": "audio",
+        "label": "音频",
+        "files": 463,
+        "bytes": 88031077,
+        "exts": [
+          {
+            "ext": ".mp3",
+            "files": 462,
+            "bytes": 87689989
+          },
+          {
+            "ext": ".wav",
+            "files": 1,
+            "bytes": 341088
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/resources/native/b1/b1796c6a-6f31-4a52-a576-ed5c0758f9a6.mp3",
+          "target.apk/assets/assets/resources/native/41/4160aac6-ebc1-43cc-a37d-fd49954d1799.mp3",
+          "target.apk/assets/assets/resources/native/b2/b299aee5-b918-4f27-bca6-ea8f048d60ae.mp3"
+        ]
+      },
+      {
+        "key": "ui_icon",
+        "label": "图标 / Logo / UI",
+        "files": 264,
+        "bytes": 3092940,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 257,
+            "bytes": 2820445
+          },
+          {
+            "ext": ".jpg",
+            "files": 7,
+            "bytes": 272495
+          }
+        ],
+        "samples": [
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+          "target.apk/res/mipmap-xxxhdpi/live_loading.png",
+          "target.apk/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        ]
+      },
+      {
+        "key": "font",
+        "label": "字体",
+        "files": 1,
+        "bytes": 1597548,
+        "exts": [
+          {
+            "ext": ".ttf",
+            "files": 1,
+            "bytes": 1597548
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/resources/native/fe/fe0a845d-b4b2-48a5-8a7e-e8d17bbf1933/Alibaba-PuHuiTi-Bold.ttf"
+        ]
+      },
+      {
+        "key": "scene",
+        "label": "场景 / 地图",
+        "files": 84,
+        "bytes": 1137535,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 84,
+            "bytes": 1137535
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+          "target.apk/res/drawable-xxhdpi/sy_fx_bg_login_fast.png",
+          "target.apk/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png"
+        ]
+      },
+      {
+        "key": "anim2d",
+        "label": "2D 动作（Spine/DragonBones）",
+        "files": 668,
+        "bytes": 609408,
+        "exts": [
+          {
+            "ext": ".atlas",
+            "files": 668,
+            "bytes": 609408
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/resources/native/b1/b1eea41e-9076-4ecb-ba70-0126597b24f3.atlas",
+          "target.apk/assets/assets/resources/native/29/294c3dad-7d07-4ad1-b3e2-b930933aa82e.atlas",
+          "target.apk/assets/assets/resources/native/41/419b3282-f1dd-40fb-94a9-7529f8583082.atlas"
+        ]
+      },
+      {
+        "key": "vfx",
+        "label": "特效",
+        "files": 22,
+        "bytes": 7269,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 22,
+            "bytes": 7269
+          }
+        ],
+        "samples": [
+          "target.apk/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png",
+          "target.apk/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png",
+          "target.apk/res/drawable-xxhdpi/abc_text_select_handle_middle_mtrl_light.png"
+        ]
+      },
+      {
+        "key": "guide",
+        "label": "引导 / 指引素材",
+        "files": 4,
+        "bytes": 743,
+        "exts": [
+          {
+            "ext": ".png",
+            "files": 4,
+            "bytes": 743
+          }
+        ],
+        "samples": [
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_press.png",
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu_end_press.png",
+          "target.apk/assets/37wan_net/img/guide/nav_btn_menu.png"
+        ]
+      }
+    ],
+    "topDirs": [
+      {
+        "path": "target.apk/assets/assets/resources",
+        "files": 8620,
+        "bytes": 1183429704
+      },
+      {
+        "path": "target.apk/res/drawable-hdpi",
+        "files": 268,
+        "bytes": 1023833
+      },
+      {
+        "path": "target.apk/res/drawable-xhdpi",
+        "files": 184,
+        "bytes": 1946946
+      },
+      {
+        "path": "target.apk/res/drawable-xxhdpi",
+        "files": 132,
+        "bytes": 1035055
+      },
+      {
+        "path": "target.apk/res/drawable-mdpi",
+        "files": 59,
+        "bytes": 54606
+      },
+      {
+        "path": "target.apk/res/drawable-xxxhdpi",
+        "files": 33,
+        "bytes": 549106
+      },
+      {
+        "path": "target.apk/res/mipmap-xhdpi",
+        "files": 24,
+        "bytes": 256223
+      },
+      {
+        "path": "target.apk/assets/assets/sqdialogsdk",
+        "files": 17,
+        "bytes": 95958
+      },
+      {
+        "path": "target.apk/assets/37wan_net/img",
+        "files": 7,
+        "bytes": 18418
+      },
+      {
+        "path": "target.apk/res/drawable-ldpi",
+        "files": 6,
+        "bytes": 1315
+      }
+    ],
+    "notes": [
+      "`assets` 下有 4 个疑似引导/指引素材（按命名推断，非确证），可重点看这批文件的用途。",
+      "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。"
+    ]
+  },
+  "levelStatistics": {
+    "version": 1,
+    "coverage": "observed/local-only; game-wide coverage unknown",
+    "inputs": [
+      {
+        "path": "level_data/records.jsonl",
+        "schema": "normalized/v1",
+        "records": 6825,
+        "failures": 0,
+        "status": "selected"
+      }
+    ],
+    "processed_records": 6825,
+    "parsed_records": 6825,
+    "unique_records": 6825,
+    "duplicates": 0,
+    "conflicting_records": 0,
+    "conflict_occurrences": 0,
+    "failures": 0,
+    "missing_fields": {
+      "difficulty_raw": 6825,
+      "goals": 6825,
+      "player_level_number": 6825,
+      "reliable_difficulty_label": 6825
+    },
+    "scopes": [
+      {
+        "schema": "normalized/v1",
+        "scope": "boss_trial",
+        "unique_records": 384,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 384
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 384,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "daily_dungeon",
+        "unique_records": 2978,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 2978
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 2978,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "silent_hill",
+        "unique_records": 3,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 3
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 3,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "tower_experiment",
+        "unique_records": 3460,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 3460
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 3460,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      }
+    ],
+    "issues": [],
+    "issues_omitted": 0,
+    "pending": [
+      "补可靠难度枚举/显式标签；未知难度不计为正常，difficultyIndicator/tags不用于判难。",
+      "补目标列表及数量语义；缺失不是零，Babytopia num/manualNum/isManual未推测。",
+      "需要带证据的官方玩家关号、主线/活动 scope 与完整范围声明，才能验证顺序和困难关密度/连续段。"
+    ],
+    "partial": false,
+    "read_bytes": 2038983
+  },
+  "quality": {
+    "sectionsFilled": 7,
+    "sectionsTotal": 7,
+    "blockedCount": 4,
+    "evidenceCount": 83,
+    "score": 100
+  }
+}

@@ -1,0 +1,3842 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgBuildingBaseD",
+  "field_aliases": {
+    "ID": 0,
+    "Mapid": 1,
+    "BuildTemplateType": 2,
+    "BuildTemplateNum": 3,
+    "BuildId": 4,
+    "BuildNameNum": 5,
+    "CommonId": 6,
+    "Isdefault": 7,
+    "OverTime": 8,
+    "HeroType": 9,
+    "ProductIcon": 10,
+    "LevelRestrictions": 11,
+    "ShowWithLine": 12,
+    "Show": 13,
+    "DefenceNpc": 14,
+    "CelebrateSort": 15,
+    "Func1Type": 16,
+    "Func1Param1": 17,
+    "Func1Param2": 18,
+    "Func1Param3": 19,
+    "Func1Param4": 20,
+    "Func1Param5": 21,
+    "Func1Param6": 22,
+    "Func2Type": 23,
+    "Func2Param1": 24,
+    "Func2Param2": 25,
+    "Func2Param3": 26,
+    "Func2Param4": 27,
+    "Func2Param5": 28,
+    "Func2Param6": 29,
+    "UnbuildModel": 30,
+    "LoadPriority": 31,
+    "UseScaffold": 32,
+    "Drama": 33,
+    "BuildingType": 34,
+    "UpgradeCrossDrama": 35
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "Mapid": 1,
+      "BuildTemplateType": 101,
+      "BuildTemplateNum": 1,
+      "BuildId": 110101,
+      "BuildNameNum": "",
+      "CommonId": 5,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          1,
+          102001
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        110501,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 5,
+      "Func1Type": 4,
+      "Func1Param1": [
+        3
+      ],
+      "Func1Param2": [
+        "102004",
+        "2"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [
+        102001,
+        1
+      ],
+      "Func1Param5": [
+        1
+      ],
+      "Func1Param6": [
+        -1
+      ],
+      "Func2Type": 5,
+      "Func2Param1": [
+        -1
+      ],
+      "Func2Param2": [
+        [
+          1,
+          30
+        ]
+      ],
+      "Func2Param3": [
+        2,
+        1
+      ],
+      "Func2Param4": [
+        102001
+      ],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "2": {
+      "ID": 2,
+      "Mapid": 1,
+      "BuildTemplateType": 102,
+      "BuildTemplateNum": 1,
+      "BuildId": 110201,
+      "BuildNameNum": "甲",
+      "CommonId": 3,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 2,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "3": {
+      "ID": 3,
+      "Mapid": 1,
+      "BuildTemplateType": 102,
+      "BuildTemplateNum": 2,
+      "BuildId": 110202,
+      "BuildNameNum": "乙",
+      "CommonId": 3,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "4": {
+      "ID": 4,
+      "Mapid": 1,
+      "BuildTemplateType": 102,
+      "BuildTemplateNum": 3,
+      "BuildId": 110203,
+      "BuildNameNum": "丙",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        110401,
+        2
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 4,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "5": {
+      "ID": 5,
+      "Mapid": 1,
+      "BuildTemplateType": 103,
+      "BuildTemplateNum": 1,
+      "BuildId": 110301,
+      "BuildNameNum": "",
+      "CommonId": 1,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 1,
+      "Func1Type": 1,
+      "Func1Param1": [
+        102005,
+        0.15
+      ],
+      "Func1Param2": [
+        "2"
+      ],
+      "Func1Param3": [
+        "15"
+      ],
+      "Func1Param4": [
+        30
+      ],
+      "Func1Param5": [
+        1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "6": {
+      "ID": 6,
+      "Mapid": 1,
+      "BuildTemplateType": 104,
+      "BuildTemplateNum": 1,
+      "BuildId": 110401,
+      "BuildNameNum": "",
+      "CommonId": 13,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102004
+        ],
+        [
+          1,
+          102004
+        ],
+        [
+          1,
+          102004
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        110101,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 6,
+      "Func1Type": 8,
+      "Func1Param1": [
+        102004,
+        9
+      ],
+      "Func1Param2": [
+        "2"
+      ],
+      "Func1Param3": [
+        "-1",
+        "-1"
+      ],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "7": {
+      "ID": 7,
+      "Mapid": 1,
+      "BuildTemplateType": 105,
+      "BuildTemplateNum": 1,
+      "BuildId": 110501,
+      "BuildNameNum": "",
+      "CommonId": 2,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102005
+        ],
+        [
+          1,
+          102005
+        ],
+        [
+          1,
+          102005
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 7,
+      "Func1Type": 2,
+      "Func1Param1": [
+        10
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102005",
+        "13"
+      ],
+      "Func1Param4": [
+        4
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "8": {
+      "ID": 8,
+      "Mapid": 1,
+      "BuildTemplateType": 106,
+      "BuildTemplateNum": 1,
+      "BuildId": 110601,
+      "BuildNameNum": "",
+      "CommonId": 7,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102006
+        ],
+        [
+          1,
+          102006
+        ],
+        [
+          1,
+          102006
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        110401,
+        2
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 8,
+      "Func1Type": 2,
+      "Func1Param1": [
+        25
+      ],
+      "Func1Param2": [
+        "102005,50"
+      ],
+      "Func1Param3": [
+        "102006",
+        "5"
+      ],
+      "Func1Param4": [
+        2
+      ],
+      "Func1Param5": [
+        -1,
+        -1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "9": {
+      "ID": 9,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 1,
+      "BuildId": 210701,
+      "BuildNameNum": "甲",
+      "CommonId": 3,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 2,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "10": {
+      "ID": 10,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 2,
+      "BuildId": 210702,
+      "BuildNameNum": "乙",
+      "CommonId": 3,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "11": {
+      "ID": 11,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 3,
+      "BuildId": 210703,
+      "BuildNameNum": "丙",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 2,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "12": {
+      "ID": 12,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 4,
+      "BuildId": 210704,
+      "BuildNameNum": "丁",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "13": {
+      "ID": 13,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 5,
+      "BuildId": 210705,
+      "BuildNameNum": "戊",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        2
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "14": {
+      "ID": 14,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 6,
+      "BuildId": 210706,
+      "BuildNameNum": "己",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        2
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "15": {
+      "ID": 15,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 7,
+      "BuildId": 210707,
+      "BuildNameNum": "庚",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        3
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "16": {
+      "ID": 16,
+      "Mapid": 2,
+      "BuildTemplateType": 107,
+      "BuildTemplateNum": 8,
+      "BuildId": 210708,
+      "BuildNameNum": "辛",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        3
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "17": {
+      "ID": 17,
+      "Mapid": 2,
+      "BuildTemplateType": 108,
+      "BuildTemplateNum": 1,
+      "BuildId": 210801,
+      "BuildNameNum": "",
+      "CommonId": 5,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          1,
+          102001
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 5,
+      "Func1Type": 4,
+      "Func1Param1": [
+        10
+      ],
+      "Func1Param2": [
+        "102004",
+        "4"
+      ],
+      "Func1Param3": [
+        "-1"
+      ],
+      "Func1Param4": [
+        102001,
+        1
+      ],
+      "Func1Param5": [
+        3
+      ],
+      "Func1Param6": [
+        -1,
+        -1,
+        -1
+      ],
+      "Func2Type": 5,
+      "Func2Param1": [
+        -1
+      ],
+      "Func2Param2": [
+        [
+          1,
+          20
+        ]
+      ],
+      "Func2Param3": [
+        2,
+        1
+      ],
+      "Func2Param4": [
+        102001
+      ],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "18": {
+      "ID": 18,
+      "Mapid": 2,
+      "BuildTemplateType": 109,
+      "BuildTemplateNum": 1,
+      "BuildId": 210901,
+      "BuildNameNum": "",
+      "CommonId": 13,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102004
+        ],
+        [
+          1,
+          102004
+        ],
+        [
+          1,
+          102004
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 6,
+      "Func1Type": 8,
+      "Func1Param1": [
+        102004,
+        9
+      ],
+      "Func1Param2": [
+        "4"
+      ],
+      "Func1Param3": [
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "19": {
+      "ID": 19,
+      "Mapid": 2,
+      "BuildTemplateType": 110,
+      "BuildTemplateNum": 1,
+      "BuildId": 211001,
+      "BuildNameNum": "",
+      "CommonId": 10,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": 3,
+      "ProductIcon": [
+        [
+          1,
+          102007
+        ],
+        [
+          1,
+          102007
+        ],
+        [
+          1,
+          102007
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 7,
+      "Func1Type": 2,
+      "Func1Param1": [
+        15
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102007",
+        "10"
+      ],
+      "Func1Param4": [
+        6
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        5,
+        9,
+        12,
+        15
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "20": {
+      "ID": 20,
+      "Mapid": 2,
+      "BuildTemplateType": 111,
+      "BuildTemplateNum": 1,
+      "BuildId": 211101,
+      "BuildNameNum": "",
+      "CommonId": 11,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": 2,
+      "ProductIcon": [
+        [
+          1,
+          102008
+        ],
+        [
+          1,
+          102008
+        ],
+        [
+          1,
+          102008
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 7,
+      "Func1Type": 2,
+      "Func1Param1": [
+        18
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102008",
+        "15"
+      ],
+      "Func1Param4": [
+        6
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        5,
+        9,
+        12,
+        15
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "21": {
+      "ID": 21,
+      "Mapid": 2,
+      "BuildTemplateType": 112,
+      "BuildTemplateNum": 1,
+      "BuildId": 211201,
+      "BuildNameNum": "甲",
+      "CommonId": 7,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": 2,
+      "ProductIcon": [
+        [
+          1,
+          102009
+        ],
+        [
+          1,
+          102009
+        ],
+        [
+          1,
+          102009
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        2
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 8,
+      "Func1Type": 2,
+      "Func1Param1": [
+        25
+      ],
+      "Func1Param2": [
+        "102007,1.5"
+      ],
+      "Func1Param3": [
+        "102009",
+        "7"
+      ],
+      "Func1Param4": [
+        4
+      ],
+      "Func1Param5": [
+        -1,
+        9,
+        12,
+        15
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "22": {
+      "ID": 22,
+      "Mapid": 2,
+      "BuildTemplateType": 112,
+      "BuildTemplateNum": 2,
+      "BuildId": 211202,
+      "BuildNameNum": "乙",
+      "CommonId": 7,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": 2,
+      "ProductIcon": [
+        [
+          1,
+          102010
+        ],
+        [
+          1,
+          102010
+        ],
+        [
+          1,
+          102010
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        4
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 8,
+      "Func1Type": 2,
+      "Func1Param1": [
+        35
+      ],
+      "Func1Param2": [
+        "102011,1.7",
+        "102009,3.7"
+      ],
+      "Func1Param3": [
+        "102010",
+        "2"
+      ],
+      "Func1Param4": [
+        4
+      ],
+      "Func1Param5": [
+        -1,
+        9,
+        12,
+        15
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "23": {
+      "ID": 23,
+      "Mapid": 2,
+      "BuildTemplateType": 113,
+      "BuildTemplateNum": 1,
+      "BuildId": 211301,
+      "BuildNameNum": "",
+      "CommonId": 4,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": 1,
+      "ProductIcon": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 6,
+      "Func1Param1": [
+        10
+      ],
+      "Func1Param2": [
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "24": {
+      "ID": 24,
+      "Mapid": 2,
+      "BuildTemplateType": 114,
+      "BuildTemplateNum": 1,
+      "BuildId": 211401,
+      "BuildNameNum": "",
+      "CommonId": 14,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": 4,
+      "ProductIcon": [
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 1,
+      "Func1Type": 1,
+      "Func1Param1": [
+        102007,
+        0.05
+      ],
+      "Func1Param2": [
+        "2"
+      ],
+      "Func1Param3": [
+        "30"
+      ],
+      "Func1Param4": [
+        30
+      ],
+      "Func1Param5": [
+        1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "25": {
+      "ID": 25,
+      "Mapid": 2,
+      "BuildTemplateType": 115,
+      "BuildTemplateNum": 1,
+      "BuildId": 211501,
+      "BuildNameNum": "",
+      "CommonId": 8,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": 3,
+      "ProductIcon": [
+        [
+          1,
+          102011
+        ],
+        [
+          1,
+          102011
+        ],
+        [
+          1,
+          102011
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        211401,
+        3
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 7,
+      "Func1Type": 2,
+      "Func1Param1": [
+        40
+      ],
+      "Func1Param2": [
+        "102008,14.7",
+        "102007,3.9"
+      ],
+      "Func1Param3": [
+        "102011",
+        "6"
+      ],
+      "Func1Param4": [
+        4
+      ],
+      "Func1Param5": [
+        -1,
+        9,
+        12,
+        15
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "26": {
+      "ID": 26,
+      "Mapid": 3,
+      "BuildTemplateType": 301,
+      "BuildTemplateNum": 1,
+      "BuildId": 330101,
+      "BuildNameNum": "",
+      "CommonId": 14,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 1,
+      "Func1Type": 1,
+      "Func1Param1": [
+        102005,
+        1
+      ],
+      "Func1Param2": [
+        "2"
+      ],
+      "Func1Param3": [
+        "20"
+      ],
+      "Func1Param4": [
+        30
+      ],
+      "Func1Param5": [
+        2
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_firecamp_0_0",
+      "LoadPriority": 50,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 0,
+      "UpgradeCrossDrama": 0
+    },
+    "27": {
+      "ID": 27,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 1,
+      "BuildId": 330201,
+      "BuildNameNum": "building_name_330201",
+      "CommonId": 3,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 2,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "28": {
+      "ID": 28,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 2,
+      "BuildId": 330202,
+      "BuildNameNum": "building_name_330202",
+      "CommonId": 3,
+      "Isdefault": 1,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        -1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 2,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 48,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "29": {
+      "ID": 29,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 3,
+      "BuildId": 330203,
+      "BuildNameNum": "building_name_330203",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        4
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 2,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 48,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "30": {
+      "ID": 30,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 4,
+      "BuildId": 330204,
+      "BuildNameNum": "building_name_330204",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        5
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 40,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "31": {
+      "ID": 31,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 5,
+      "BuildId": 330205,
+      "BuildNameNum": "building_name_330205",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        7
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 3,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 40,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "32": {
+      "ID": 32,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 6,
+      "BuildId": 330206,
+      "BuildNameNum": "building_name_330206",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        9
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 4,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "33": {
+      "ID": 33,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 7,
+      "BuildId": 330207,
+      "BuildNameNum": "building_name_330207",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        11
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 4,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "34": {
+      "ID": 34,
+      "Mapid": 3,
+      "BuildTemplateType": 302,
+      "BuildTemplateNum": 8,
+      "BuildId": 330208,
+      "BuildNameNum": "building_name_330208",
+      "CommonId": 3,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        13
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 5,
+      "Func1Type": 3,
+      "Func1Param1": [
+        150
+      ],
+      "Func1Param2": [
+        "2",
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "37": {
+      "ID": 37,
+      "Mapid": 3,
+      "BuildTemplateType": 303,
+      "BuildTemplateNum": 1,
+      "BuildId": 330301,
+      "BuildNameNum": "",
+      "CommonId": 5,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102001
+        ],
+        [
+          1,
+          102001
+        ],
+        [
+          1,
+          102001
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [
+        330501,
+        2
+      ],
+      "Show": [
+        330501,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 7,
+      "Func1Type": 4,
+      "Func1Param1": [
+        10
+      ],
+      "Func1Param2": [
+        "102004",
+        "4"
+      ],
+      "Func1Param3": [
+        "-1"
+      ],
+      "Func1Param4": [
+        102001,
+        1
+      ],
+      "Func1Param5": [
+        3
+      ],
+      "Func1Param6": [
+        -1,
+        -1,
+        -1
+      ],
+      "Func2Type": 5,
+      "Func2Param1": [
+        -1,
+        20,
+        30
+      ],
+      "Func2Param2": [
+        [
+          1,
+          20
+        ],
+        [
+          1,
+          25
+        ],
+        [
+          1,
+          30
+        ]
+      ],
+      "Func2Param3": [
+        2,
+        1
+      ],
+      "Func2Param4": [
+        102001,
+        102002,
+        102003
+      ],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_canteen_0_0",
+      "LoadPriority": 46,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "38": {
+      "ID": 38,
+      "Mapid": 3,
+      "BuildTemplateType": 304,
+      "BuildTemplateNum": 1,
+      "BuildId": 330401,
+      "BuildNameNum": "",
+      "CommonId": 4,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        3
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 8,
+      "Func1Type": 6,
+      "Func1Param1": [
+        10
+      ],
+      "Func1Param2": [
+        "10"
+      ],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_hospital_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "39": {
+      "ID": 39,
+      "Mapid": 3,
+      "BuildTemplateType": 305,
+      "BuildTemplateNum": 1,
+      "BuildId": 330501,
+      "BuildNameNum": "",
+      "CommonId": 13,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102004
+        ],
+        [
+          1,
+          102004
+        ],
+        [
+          1,
+          102004
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 11,
+      "Func1Type": 8,
+      "Func1Param1": [
+        5
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102004",
+        "5"
+      ],
+      "Func1Param4": [
+        6
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_huner_0_0",
+      "LoadPriority": 48,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "40": {
+      "ID": 40,
+      "Mapid": 3,
+      "BuildTemplateType": 306,
+      "BuildTemplateNum": 1,
+      "BuildId": 330601,
+      "BuildNameNum": "",
+      "CommonId": 2,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102005
+        ],
+        [
+          1,
+          102005
+        ],
+        [
+          1,
+          102005
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [
+        330201,
+        5
+      ],
+      "Show": [
+        330301,
+        1
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 11,
+      "Func1Type": 2,
+      "Func1Param1": [
+        5
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102005",
+        "5"
+      ],
+      "Func1Param4": [
+        6
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_sawmill_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "41": {
+      "ID": 41,
+      "Mapid": 3,
+      "BuildTemplateType": 307,
+      "BuildTemplateNum": 1,
+      "BuildId": 330701,
+      "BuildNameNum": "",
+      "CommonId": 10,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102007
+        ],
+        [
+          1,
+          102007
+        ],
+        [
+          1,
+          102007
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        2
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 10,
+      "Func1Type": 2,
+      "Func1Param1": [
+        5
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102007",
+        "2.5"
+      ],
+      "Func1Param4": [
+        6
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_colliery_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "42": {
+      "ID": 42,
+      "Mapid": 3,
+      "BuildTemplateType": 308,
+      "BuildTemplateNum": 1,
+      "BuildId": 330801,
+      "BuildNameNum": "",
+      "CommonId": 15,
+      "Isdefault": 0,
+      "OverTime": 1,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          1,
+          102011
+        ],
+        [
+          1,
+          102011
+        ],
+        [
+          1,
+          102011
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        5
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 8,
+      "Func1Type": 2,
+      "Func1Param1": [
+        5
+      ],
+      "Func1Param2": [],
+      "Func1Param3": [
+        "102008",
+        "1.25"
+      ],
+      "Func1Param4": [
+        6
+      ],
+      "Func1Param5": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_ironmine_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 1,
+      "UpgradeCrossDrama": 0
+    },
+    "43": {
+      "ID": 43,
+      "Mapid": 3,
+      "BuildTemplateType": 309,
+      "BuildTemplateNum": 1,
+      "BuildId": 330901,
+      "BuildNameNum": "",
+      "CommonId": 26,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        4
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 12,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_zxplatform_0_0",
+      "LoadPriority": 48,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "44": {
+      "ID": 44,
+      "Mapid": 3,
+      "BuildTemplateType": 310,
+      "BuildTemplateNum": 1,
+      "BuildId": 331001,
+      "BuildNameNum": "",
+      "CommonId": 20,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 4,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        6
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 12,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_beaumarchais_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "45": {
+      "ID": 45,
+      "Mapid": 3,
+      "BuildTemplateType": 311,
+      "BuildTemplateNum": 1,
+      "BuildId": 331101,
+      "BuildNameNum": "",
+      "CommonId": 19,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 4,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        8
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_beaumarchais_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "46": {
+      "ID": 46,
+      "Mapid": 3,
+      "BuildTemplateType": 312,
+      "BuildTemplateNum": 1,
+      "BuildId": 331201,
+      "BuildNameNum": "",
+      "CommonId": 18,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 5,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        7
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 10,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_bowtower_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "47": {
+      "ID": 47,
+      "Mapid": 3,
+      "BuildTemplateType": 313,
+      "BuildTemplateNum": 1,
+      "BuildId": 331301,
+      "BuildNameNum": "",
+      "CommonId": 33,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 5,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        6
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_citywall_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "48": {
+      "ID": 48,
+      "Mapid": 3,
+      "BuildTemplateType": 314,
+      "BuildTemplateNum": 1,
+      "BuildId": 331401,
+      "BuildNameNum": "",
+      "CommonId": 21,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 4,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        8
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_militaryhospital_0_0",
+      "LoadPriority": 48,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "49": {
+      "ID": 49,
+      "Mapid": 3,
+      "BuildTemplateType": 315,
+      "BuildTemplateNum": 1,
+      "BuildId": 331501,
+      "BuildNameNum": "",
+      "CommonId": 28,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 8,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        9
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_acakemy_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "50": {
+      "ID": 50,
+      "Mapid": 3,
+      "BuildTemplateType": 316,
+      "BuildTemplateNum": 1,
+      "BuildId": 331601,
+      "BuildNameNum": "",
+      "CommonId": 30,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 9,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        10
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_commandpost_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "51": {
+      "ID": 51,
+      "Mapid": 3,
+      "BuildTemplateType": 317,
+      "BuildTemplateNum": 1,
+      "BuildId": 331701,
+      "BuildNameNum": "",
+      "CommonId": 31,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 9,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        8
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_consulate_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "52": {
+      "ID": 52,
+      "Mapid": 3,
+      "BuildTemplateType": 318,
+      "BuildTemplateNum": 1,
+      "BuildId": 331801,
+      "BuildNameNum": "",
+      "CommonId": 29,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 2,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        9
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_warehouse_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "53": {
+      "ID": 53,
+      "Mapid": 3,
+      "BuildTemplateType": 319,
+      "BuildTemplateNum": 1,
+      "BuildId": 331901,
+      "BuildNameNum": "",
+      "CommonId": 23,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 2,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        8
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_maarena_0_0",
+      "LoadPriority": 48,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "54": {
+      "ID": 54,
+      "Mapid": 3,
+      "BuildTemplateType": 320,
+      "BuildTemplateNum": 1,
+      "BuildId": 332001,
+      "BuildNameNum": "",
+      "CommonId": 32,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 3,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        6
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_shop_0_0",
+      "LoadPriority": 48,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "55": {
+      "ID": 55,
+      "Mapid": 3,
+      "BuildTemplateType": 321,
+      "BuildTemplateNum": 1,
+      "BuildId": 332101,
+      "BuildNameNum": "",
+      "CommonId": 27,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 6,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        8
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "building_milestone_0_0",
+      "LoadPriority": 0,
+      "UseScaffold": 1,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "56": {
+      "ID": 56,
+      "Mapid": 3,
+      "BuildTemplateType": 322,
+      "BuildTemplateNum": 1,
+      "BuildId": 332201,
+      "BuildNameNum": "",
+      "CommonId": 25,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 3,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        8
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "57": {
+      "ID": 57,
+      "Mapid": 3,
+      "BuildTemplateType": 323,
+      "BuildTemplateNum": 1,
+      "BuildId": 332301,
+      "BuildNameNum": "",
+      "CommonId": 34,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        21
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 9,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "",
+      "BuildingType": 2,
+      "UpgradeCrossDrama": 0
+    },
+    "62": {
+      "ID": 62,
+      "Mapid": 3,
+      "BuildTemplateType": 328,
+      "BuildTemplateNum": 1,
+      "BuildId": 332801,
+      "BuildNameNum": "",
+      "CommonId": 39,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1003|1005",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 8
+    },
+    "63": {
+      "ID": 63,
+      "Mapid": 3,
+      "BuildTemplateType": 329,
+      "BuildTemplateNum": 1,
+      "BuildId": 332802,
+      "BuildNameNum": "",
+      "CommonId": 40,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1004",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 8
+    },
+    "64": {
+      "ID": 64,
+      "Mapid": 3,
+      "BuildTemplateType": 330,
+      "BuildTemplateNum": 1,
+      "BuildId": 332803,
+      "BuildNameNum": "",
+      "CommonId": 41,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1007",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 8
+    },
+    "65": {
+      "ID": 65,
+      "Mapid": 3,
+      "BuildTemplateType": 331,
+      "BuildTemplateNum": 1,
+      "BuildId": 332804,
+      "BuildNameNum": "",
+      "CommonId": 42,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1009",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 14
+    },
+    "66": {
+      "ID": 66,
+      "Mapid": 3,
+      "BuildTemplateType": 332,
+      "BuildTemplateNum": 1,
+      "BuildId": 332805,
+      "BuildNameNum": "",
+      "CommonId": 43,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1010",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 11
+    },
+    "67": {
+      "ID": 67,
+      "Mapid": 3,
+      "BuildTemplateType": 333,
+      "BuildTemplateNum": 1,
+      "BuildId": 332806,
+      "BuildNameNum": "",
+      "CommonId": 44,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1011",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 11
+    },
+    "68": {
+      "ID": 68,
+      "Mapid": 3,
+      "BuildTemplateType": 334,
+      "BuildTemplateNum": 1,
+      "BuildId": 332807,
+      "BuildNameNum": "",
+      "CommonId": 45,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1012|1098",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 14
+    },
+    "69": {
+      "ID": 69,
+      "Mapid": 3,
+      "BuildTemplateType": 335,
+      "BuildTemplateNum": 1,
+      "BuildId": 332808,
+      "BuildNameNum": "",
+      "CommonId": 46,
+      "Isdefault": 0,
+      "OverTime": 0,
+      "HeroType": -1,
+      "ProductIcon": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          2,
+          19
+        ]
+      ],
+      "LevelRestrictions": 0,
+      "ShowWithLine": [],
+      "Show": [
+        330101,
+        25
+      ],
+      "DefenceNpc": "",
+      "CelebrateSort": 0,
+      "Func1Type": 0,
+      "Func1Param1": [],
+      "Func1Param2": [],
+      "Func1Param3": [],
+      "Func1Param4": [],
+      "Func1Param5": [],
+      "Func1Param6": [],
+      "Func2Type": 0,
+      "Func2Param1": [],
+      "Func2Param2": [],
+      "Func2Param3": [],
+      "Func2Param4": [],
+      "Func2Param5": [],
+      "Func2Param6": [],
+      "UnbuildModel": "",
+      "LoadPriority": 0,
+      "UseScaffold": 0,
+      "Drama": "1013",
+      "BuildingType": 3,
+      "UpgradeCrossDrama": 14
+    }
+  }
+}

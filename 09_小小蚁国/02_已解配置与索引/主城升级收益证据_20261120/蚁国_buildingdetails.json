@@ -1,0 +1,1506 @@
+[
+{
+"id": 1,
+"title": "BuildingDetail_1",
+"tab_name": "Building",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"power"
+]
+},
+{
+"id": 2,
+"title": "BuildingDetail_2",
+"res_category": 2,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 3,
+"title": "BuildingDetail_2",
+"res_category": 3,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 4,
+"title": "BuildingDetail_2",
+"res_category": 4,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 5,
+"title": "BuildingDetail_2",
+"res_category": 5,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 6,
+"title": "BuildingDetail_2",
+"res_category": 6,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 7,
+"title": "BuildingDetail_2",
+"res_category": 7,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 8,
+"title": "BuildingDetail_3",
+"res_category": 9,
+"tab_name": "StorageBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"storage",
+"amount"
+]
+},
+{
+"id": 9,
+"title": "BuildingDetail_4",
+"res_category": 9,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 10,
+"title": "BuildingDetail_5",
+"tab_name": "StorageBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"storage",
+"amount"
+]
+},
+{
+"id": 11,
+"title": "BuildingDetail_6",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 12,
+"title": "BuildingDetail_7",
+"tab_name": "FunctionalBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 13,
+"title": "BuildingDetail_8",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 14,
+"title": "BuildingDetail_9",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 15,
+"title": "BuildingDetail_10",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 16,
+"title": "BuildingDetail_11",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para8"
+]
+},
+{
+"id": 17,
+"title": "BuildingDetail_12",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 18,
+"title": "BuildingDetail_13",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 19,
+"title": "BuildingDetail_14",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 20,
+"title": "BuildingDetail_15",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 21,
+"title": "BuildingDetail_16",
+"tab_name": "StorageBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1",
+"amount"
+]
+},
+{
+"id": 22,
+"title": "BuildingDetail_17",
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para5"
+]
+},
+{
+"id": 23,
+"title": "BuildingDetail_18",
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"cost",
+"2",
+"amount"
+]
+},
+{
+"id": 24,
+"title": "BuildingDetail_19",
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"cost",
+"1",
+"amount"
+]
+},
+{
+"id": 25,
+"title": "BuildingDetail_20",
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"cost",
+"1",
+"amount"
+]
+},
+{
+"id": 26,
+"title": "BuildingDetail_21",
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 27,
+"title": "BuildingDetail_22",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 28,
+"title": "BuildingDetail_23",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 29,
+"title": "BuildingDetail_24",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 30,
+"title": "building_detail_58",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 31,
+"title": "BuildingDetail_26",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 32,
+"title": "BuildingDetail_27",
+"tab_name": "FunctionalBuilding",
+"show_format": 5,
+"decimal_num": 0,
+"i18n_1_key": "time_second",
+"path": [
+"para1"
+]
+},
+{
+"id": 33,
+"title": "BuildingDetail_28",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 34,
+"title": "BuildingDetail_29",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 35,
+"title": "BuildingDetail_30",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 36,
+"title": "BuildingDetail_31",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 37,
+"title": "BuildingDetail_32",
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 38,
+"title": "BuildingDetail_33",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 39,
+"title": "BuildingDetail_34",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 40,
+"title": "BuildingDetail_35",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 41,
+"title": "BuildingDetail_36",
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 42,
+"title": "BuildingDetail_37",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 43,
+"title": "BuildingDetail_38",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 44,
+"title": "BuildingDetail_39",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para8"
+]
+},
+{
+"id": 45,
+"title": "building_detail_40",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 46,
+"title": "building_detail_41",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para4"
+]
+},
+{
+"id": 47,
+"title": "building_detail_47",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 48,
+"title": "building_detail_48",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 54,
+"title": "building_detail_49",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 55,
+"title": "building_detail_50",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para4"
+]
+},
+{
+"id": 56,
+"title": "building_detail_51",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 57,
+"title": "building_detail_52",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 1,
+"decimal_num": 1,
+"path": [
+"para2"
+]
+},
+{
+"id": 58,
+"title": "building_detail_53",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 59,
+"title": "building_detail_54",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 60,
+"title": "building_detail_55",
+"tab_name": "FunctionalCareerBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 61,
+"title": "building_detail_56",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para1"
+]
+},
+{
+"id": 62,
+"title": "building_detail_57",
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para5"
+]
+},
+{
+"id": 63,
+"title": "building_detail_59",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 64,
+"title": "building_detail_60",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 65,
+"title": "building_detail_61",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 66,
+"title": "building_detail_62",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 67,
+"title": "building_detail_63",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 68,
+"title": "building_detail_64",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 69,
+"title": "building_detail_65",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 70,
+"title": "building_detail_66",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 71,
+"title": "building_detail_67",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 72,
+"title": "building_detail_68",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 73,
+"title": "building_detail_69",
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 74,
+"title": "building_detail_70",
+"tab_name": "FunctionalBuilding",
+"show_format": 5,
+"decimal_num": 0,
+"i18n_1_key": "time_minute",
+"path": [
+"para4"
+]
+},
+{
+"id": 75,
+"title": "building_detail_71",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 76,
+"title": "building_detail_76",
+"tab_name": "FunctionalBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 1001,
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para9"
+]
+},
+{
+"id": 1002,
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para10"
+]
+},
+{
+"id": 1003,
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para9"
+]
+},
+{
+"id": 1004,
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para8"
+]
+},
+{
+"id": 78,
+"title": "BuildingDetail_12",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 79,
+"title": "BuildingDetail_72",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 80,
+"title": "BuildingDetail_73",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 81,
+"title": "BuildingDetail_74",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 82,
+"title": "BuildingDetail_75",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 83,
+"title": "building_detail_51",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 84,
+"title": "building_detail_53",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 85,
+"title": "BuildingDetail_78",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 86,
+"title": "BuildingDetail_15",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 87,
+"title": "BuildingDetail_77",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 88,
+"title": "BuildingDetail_80",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 89,
+"title": "BuildingDetail_79",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 90,
+"title": "BuildingDetail_81",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 91,
+"title": "BuildingDetail_82",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 92,
+"title": "BuildingDetail_83",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 93,
+"title": "BuildingDetail_84",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 94,
+"title": "BuildingDetail_85",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 95,
+"title": "BuildingDetail_86",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 96,
+"title": "BuildingDetail_87",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 97,
+"title": "BuildingDetail_88",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 1005,
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para9"
+]
+},
+{
+"id": 98,
+"title": "BuildingDetail_89",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para12"
+]
+},
+{
+"id": 99,
+"title": "BuildingDetail_90",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para13"
+]
+},
+{
+"id": 100,
+"title": "BuildingDetail_91",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para14"
+]
+},
+{
+"id": 101,
+"title": "BuildingDetail_92",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 102,
+"title": "BuildingDetail_93",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"i18n_1_key": "I18nBuilding",
+"path": [
+"para13"
+]
+},
+{
+"id": 103,
+"title": "BuildingDetail_94",
+"tab_name": "FunctionalBuilding",
+"show_format": 3,
+"decimal_num": 0,
+"path": [
+"para15"
+]
+},
+{
+"id": 2001,
+"title": "BuildingDetail_2001",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2002,
+"title": "BuildingDetail_2002",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2003,
+"title": "BuildingDetail_2003",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 2004,
+"title": "BuildingDetail_2004",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2005,
+"title": "BuildingDetail_2005",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2006,
+"title": "BuildingDetail_2006",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2007,
+"title": "BuildingDetail_2007",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2008,
+"title": "BuildingDetail_2008",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2009,
+"title": "BuildingDetail_2009",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2010,
+"title": "BuildingDetail_2010",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2011,
+"title": "BuildingDetail_2011",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2012,
+"title": "BuildingDetail_2012",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2013,
+"title": "BuildingDetail_2013",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2014,
+"title": "BuildingDetail_2014",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2015,
+"title": "BuildingDetail_2015",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2016,
+"title": "BuildingDetail_2016",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2017,
+"title": "BuildingDetail_2017",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2018,
+"title": "BuildingDetail_2018",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 2019,
+"title": "BuildingDetail_2019",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2020,
+"title": "BuildingDetail_2020",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2021,
+"title": "BuildingDetail_2021",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2022,
+"title": "BuildingDetail_1",
+"tab_name": "SeasonReinforce",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"power"
+],
+"type": 1
+},
+{
+"id": 2023,
+"title": "BuildingDetail_2023",
+"tab_name": "SeasonReinforce",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"honor"
+],
+"type": 1
+},
+{
+"id": 2024,
+"title": "BuildingDetail_2024",
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 2025,
+"title": "BuildingDetail_2025",
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 2026,
+"title": "BuildingDetail_2026",
+"tab_name": "FunctionalBuilding",
+"show_format": 6,
+"decimal_num": 0,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 104,
+"title": "BuildingDetail_104",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 105,
+"title": "BuildingDetail_105",
+"res_category": 8,
+"tab_name": "ResBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"produce",
+"amount"
+]
+},
+{
+"id": 106,
+"title": "BuildingDetail_106",
+"tab_name": "FunctionalBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 107,
+"title": "BuildingDetail_107",
+"tab_name": "FunctionalBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 108,
+"title": "BuildingDetail_108",
+"tab_name": "FunctionalBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para2"
+]
+},
+{
+"id": 109,
+"title": "BuildingDetail_109",
+"tab_name": "FunctionalBuilding",
+"show_format": 2,
+"decimal_num": 0,
+"path": [
+"para3"
+]
+},
+{
+"id": 110,
+"title": "BuildingDetail_110",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 111,
+"title": "BuildingDetail_111",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 2027,
+"title": "BuildingDetail_2027",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2028,
+"title": "BuildingDetail_2028",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2029,
+"title": "BuildingDetail_2029",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 112,
+"title": "BuildingDetail_113",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 2030,
+"title": "BuildingDetail_2030",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para1"
+],
+"type": 1
+},
+{
+"id": 2031,
+"title": "BuildingDetail_2031",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 0,
+"path": [
+"para2"
+],
+"type": 1
+},
+{
+"id": 2032,
+"title": "BuildingDetail_2032",
+"tab_name": "FunctionalBuilding",
+"show_format": 4,
+"decimal_num": 1,
+"path": [
+"para3"
+],
+"type": 1
+},
+{
+"id": 2033,
+"title": "CN_BuildingDetail_2033",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para1"
+]
+},
+{
+"id": 114,
+"title": "BuildingDetail_114",
+"tab_name": "FunctionalBuilding",
+"show_format": 1,
+"decimal_num": 0,
+"path": [
+"para4"
+]
+}
+]

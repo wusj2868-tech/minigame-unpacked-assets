@@ -1,0 +1,11423 @@
+[
+{
+"id": 7000100,
+"title": "TechName_1",
+"des": "TechDes_1",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7000200
+],
+"tech_list": [
+7000101
+],
+"show": 2
+},
+{
+"id": 7000200,
+"title": "TechName_2",
+"des": "TechDes_2",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7000300
+],
+"tech_list": [
+7000201
+],
+"show": 2
+},
+{
+"id": 7000300,
+"title": "TechName_3",
+"des": "TechDes_3",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000300",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7000700
+],
+"tech_list": [
+7000301
+],
+"show": 2
+},
+{
+"id": 7000400,
+"title": "TechName_4",
+"des": "TechDes_4",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000400",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7000500
+],
+"tech_list": [
+7000401
+],
+"show": 2
+},
+{
+"id": 7000500,
+"title": "TechName_5",
+"des": "TechDes_5",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000500",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7000600
+],
+"tech_list": [
+7000501
+],
+"show": 2
+},
+{
+"id": 7000600,
+"title": "TechName_6",
+"des": "TechDes_6",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7000700
+],
+"tech_list": [
+7000601
+],
+"show": 2
+},
+{
+"id": 7000700,
+"title": "TechName_7",
+"des": "TechDes_7",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7000700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7000800,
+7001100
+],
+"tech_list": [
+7000701
+],
+"show": 2
+},
+{
+"id": 7000800,
+"title": "TechName_8",
+"des": "TechDes_8",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7000800",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7000900
+],
+"tech_list": [
+7000801,
+7000802,
+7000803,
+7000804,
+7000805
+],
+"show": 1
+},
+{
+"id": 7000900,
+"title": "TechName_9",
+"des": "TechDes_9",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7000900",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7001000
+],
+"tech_list": [
+7000901,
+7000902,
+7000903,
+7000904,
+7000905
+],
+"show": 1
+},
+{
+"id": 7001000,
+"title": "TechName_10",
+"des": "TechDes_10",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7001000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7001400
+],
+"tech_list": [
+7001001,
+7001002,
+7001003,
+7001004,
+7001005
+],
+"show": 1
+},
+{
+"id": 7001100,
+"title": "TechName_11",
+"des": "TechDes_11",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7001100",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7001200
+],
+"tech_list": [
+7001101,
+7001102,
+7001103,
+7001104,
+7001105
+],
+"show": 1
+},
+{
+"id": 7001200,
+"title": "TechName_12",
+"des": "TechDes_12",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7001200",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7001300
+],
+"tech_list": [
+7001201,
+7001202,
+7001203,
+7001204,
+7001205
+],
+"show": 1
+},
+{
+"id": 7001300,
+"title": "TechName_13",
+"des": "TechDes_13",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7001300",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7001400
+],
+"tech_list": [
+7001301,
+7001302,
+7001303,
+7001304,
+7001305
+],
+"show": 1
+},
+{
+"id": 7001400,
+"title": "TechName_14",
+"des": "TechDes_14",
+"tab": 1,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7001400",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7001500
+],
+"tech_list": [
+7001401
+],
+"show": 2
+},
+{
+"id": 7001500,
+"title": "TechName_15",
+"des": "TechDes_15",
+"tab": 1,
+"max_lv": 5,
+"pkg": "Tech",
+"icon": "tech_7001500",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7001501,
+7001502,
+7001503,
+7001504,
+7001505
+],
+"show": 1
+},
+{
+"id": 7010100,
+"title": "TechName_16",
+"des": "TechDes_16",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7010200
+],
+"tech_list": [
+7010101,
+7010102,
+7010103,
+7010104,
+7010105,
+7010106,
+7010107,
+7010108,
+7010109,
+7010110
+],
+"show": 1
+},
+{
+"id": 7010200,
+"title": "TechName_17",
+"des": "TechDes_17",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7010300
+],
+"tech_list": [
+7010201,
+7010202,
+7010203,
+7010204,
+7010205,
+7010206,
+7010207,
+7010208,
+7010209,
+7010210
+],
+"show": 1
+},
+{
+"id": 7010300,
+"title": "TechName_18",
+"des": "TechDes_18",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010300",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7010700
+],
+"tech_list": [
+7010301,
+7010302,
+7010303,
+7010304,
+7010305,
+7010306,
+7010307,
+7010308,
+7010309,
+7010310
+],
+"show": 1
+},
+{
+"id": 7010400,
+"title": "TechName_19",
+"des": "TechDes_19",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010400",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7010500
+],
+"tech_list": [
+7010401,
+7010402,
+7010403,
+7010404,
+7010405,
+7010406,
+7010407,
+7010408,
+7010409,
+7010410
+],
+"show": 1
+},
+{
+"id": 7010500,
+"title": "TechName_20",
+"des": "TechDes_20",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010500",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7010600
+],
+"tech_list": [
+7010501,
+7010502,
+7010503,
+7010504,
+7010505,
+7010506,
+7010507,
+7010508,
+7010509,
+7010510
+],
+"show": 1
+},
+{
+"id": 7010600,
+"title": "TechName_21",
+"des": "TechDes_21",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7010700
+],
+"tech_list": [
+7010601,
+7010602,
+7010603,
+7010604,
+7010605,
+7010606,
+7010607,
+7010608,
+7010609,
+7010610
+],
+"show": 1
+},
+{
+"id": 7010700,
+"title": "TechName_22",
+"des": "TechDes_22",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7010800,
+7011000
+],
+"tech_list": [
+7010701,
+7010702,
+7010703,
+7010704,
+7010705,
+7010706,
+7010707,
+7010708,
+7010709,
+7010710
+],
+"show": 1
+},
+{
+"id": 7010800,
+"title": "TechName_23",
+"des": "TechDes_23",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010800",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7010900
+],
+"tech_list": [
+7010801,
+7010802,
+7010803,
+7010804,
+7010805,
+7010806,
+7010807,
+7010808,
+7010809,
+7010810
+],
+"show": 1
+},
+{
+"id": 7010900,
+"title": "TechName_24",
+"des": "TechDes_24",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7010900",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7011200
+],
+"tech_list": [
+7010901,
+7010902,
+7010903,
+7010904,
+7010905,
+7010906,
+7010907,
+7010908,
+7010909,
+7010910
+],
+"show": 1
+},
+{
+"id": 7011000,
+"title": "TechName_25",
+"des": "TechDes_25",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7011000",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7011100
+],
+"tech_list": [
+7011001,
+7011002,
+7011003,
+7011004,
+7011005,
+7011006,
+7011007,
+7011008,
+7011009,
+7011010
+],
+"show": 1
+},
+{
+"id": 7011100,
+"title": "TechName_26",
+"des": "TechDes_26",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7011100",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7011200
+],
+"tech_list": [
+7011101,
+7011102,
+7011103,
+7011104,
+7011105,
+7011106,
+7011107,
+7011108,
+7011109,
+7011110
+],
+"show": 1
+},
+{
+"id": 7011200,
+"title": "TechName_27",
+"des": "TechDes_27",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7011200",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7011300
+],
+"tech_list": [
+7011201,
+7011202,
+7011203,
+7011204,
+7011205,
+7011206,
+7011207,
+7011208,
+7011209,
+7011210
+],
+"show": 1
+},
+{
+"id": 7011300,
+"title": "TechName_28",
+"des": "TechDes_28",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7011300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7011400
+],
+"tech_list": [
+7011301,
+7011302,
+7011303,
+7011304,
+7011305,
+7011306,
+7011307,
+7011308,
+7011309,
+7011310
+],
+"show": 2
+},
+{
+"id": 7011400,
+"title": "TechName_29",
+"des": "TechDes_29",
+"tab": 2,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7011400",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7011401,
+7011402,
+7011403,
+7011404,
+7011405,
+7011406,
+7011407,
+7011408,
+7011409,
+7011410
+],
+"show": 1
+},
+{
+"id": 7020100,
+"title": "TechName_30",
+"des": "TechDes_30",
+"tab": 3,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7020100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7020200,
+7020300,
+7020400
+],
+"tech_list": [
+7020101
+],
+"show": 2
+},
+{
+"id": 7020200,
+"title": "TechName_31",
+"des": "TechDes_31",
+"tab": 3,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7020200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7020500
+],
+"tech_list": [
+7020201
+],
+"show": 2
+},
+{
+"id": 7020300,
+"title": "TechName_32",
+"des": "TechDes_32",
+"tab": 3,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7020300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7020500
+],
+"tech_list": [
+7020301
+],
+"show": 2
+},
+{
+"id": 7020400,
+"title": "TechName_33",
+"des": "TechDes_33",
+"tab": 3,
+"max_lv": 1,
+"pkg": "Tech",
+"icon": "tech_7020400",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7020500
+],
+"tech_list": [
+7020401
+],
+"show": 2
+},
+{
+"id": 7020500,
+"title": "TechName_34",
+"des": "TechDes_34",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7020500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7020600,
+7020700
+],
+"tech_list": [
+7020501,
+7020502,
+7020503,
+7020504,
+7020505
+],
+"show": 1
+},
+{
+"id": 7020600,
+"title": "TechName_35",
+"des": "TechDes_35",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7020600",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7020800,
+7020900,
+7021000
+],
+"tech_list": [
+7020601,
+7020602,
+7020603,
+7020604,
+7020605
+],
+"show": 1
+},
+{
+"id": 7020700,
+"title": "TechName_36",
+"des": "TechDes_36",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7020700",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7020800,
+7020900,
+7021000
+],
+"tech_list": [
+7020701,
+7020702,
+7020703,
+7020704,
+7020705
+],
+"show": 1
+},
+{
+"id": 7020800,
+"title": "TechName_37",
+"des": "TechDes_37",
+"tab": 3,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7020800",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7021100
+],
+"tech_list": [
+7020801
+],
+"show": 2
+},
+{
+"id": 7020900,
+"title": "TechName_38",
+"des": "TechDes_38",
+"tab": 3,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7020900",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7021100
+],
+"tech_list": [
+7020901
+],
+"show": 2
+},
+{
+"id": 7021000,
+"title": "TechName_39",
+"des": "TechDes_39",
+"tab": 3,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7021000",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7021100
+],
+"tech_list": [
+7021001
+],
+"show": 2
+},
+{
+"id": 7021100,
+"title": "TechName_40",
+"des": "TechDes_40",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7021100",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7021200,
+7021300
+],
+"tech_list": [
+7021101,
+7021102,
+7021103,
+7021104,
+7021105
+],
+"show": 1
+},
+{
+"id": 7021200,
+"title": "TechName_41",
+"des": "TechDes_41",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7021200",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7021400
+],
+"tech_list": [
+7021201,
+7021202,
+7021203,
+7021204,
+7021205
+],
+"show": 1
+},
+{
+"id": 7021300,
+"title": "TechName_42",
+"des": "TechDes_42",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7021300",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7021400
+],
+"tech_list": [
+7021301,
+7021302,
+7021303,
+7021304,
+7021305
+],
+"show": 1
+},
+{
+"id": 7021400,
+"title": "TechName_43",
+"des": "TechDes_43",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7021400",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7021500,
+7021600
+],
+"tech_list": [
+7021401,
+7021402,
+7021403,
+7021404,
+7021405
+],
+"show": 1
+},
+{
+"id": 7021500,
+"title": "TechName_44",
+"des": "TechDes_44",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7021500",
+"position": {
+"x": 2,
+"y": 9
+},
+"tech_list": [
+7021501,
+7021502,
+7021503,
+7021504,
+7021505
+],
+"show": 1
+},
+{
+"id": 7021600,
+"title": "TechName_45",
+"des": "TechDes_45",
+"tab": 3,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7021600",
+"position": {
+"x": 6,
+"y": 9
+},
+"tech_list": [
+7021601,
+7021602,
+7021603,
+7021604,
+7021605
+],
+"show": 1
+},
+{
+"id": 7030100,
+"title": "TechName_46",
+"des": "TechDes_114",
+"tab": 4,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7030200,
+7030300
+],
+"tech_list": [
+7030101
+],
+"show": 2
+},
+{
+"id": 7030200,
+"title": "TechName_47",
+"des": "TechDes_115",
+"tab": 4,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7030400,
+7030500,
+7030600
+],
+"tech_list": [
+7030201,
+7030202,
+7030203,
+7030204,
+7030205
+],
+"show": 1
+},
+{
+"id": 7030300,
+"title": "TechName_48",
+"des": "TechDes_116",
+"tab": 4,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030300",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7030400,
+7030500,
+7030600
+],
+"tech_list": [
+7030301,
+7030302,
+7030303,
+7030304,
+7030305
+],
+"show": 1
+},
+{
+"id": 7030400,
+"title": "TechName_49",
+"des": "TechDes_117",
+"tab": 4,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7030700
+],
+"tech_list": [
+7030401,
+7030402,
+7030403,
+7030404,
+7030405,
+7030406,
+7030407,
+7030408,
+7030409,
+7030410
+],
+"show": 1
+},
+{
+"id": 7030500,
+"title": "TechName_50",
+"des": "TechDes_118",
+"tab": 4,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7030700
+],
+"tech_list": [
+7030501,
+7030502,
+7030503,
+7030504,
+7030505,
+7030506,
+7030507,
+7030508,
+7030509,
+7030510
+],
+"show": 1
+},
+{
+"id": 7030600,
+"title": "TechName_51",
+"des": "TechDes_119",
+"tab": 4,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7030700
+],
+"tech_list": [
+7030601,
+7030602,
+7030603,
+7030604,
+7030605,
+7030606,
+7030607,
+7030608,
+7030609,
+7030610
+],
+"show": 1
+},
+{
+"id": 7030700,
+"title": "TechName_52",
+"des": "TechDes_120",
+"tab": 4,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7030800
+],
+"tech_list": [
+7030701
+],
+"show": 2
+},
+{
+"id": 7030800,
+"title": "TechName_53",
+"des": "TechDes_121",
+"tab": 4,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030800",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7030900
+],
+"tech_list": [
+7030801
+],
+"show": 2
+},
+{
+"id": 7030900,
+"title": "TechName_54",
+"des": "TechDes_122",
+"tab": 4,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7031000,
+7031100
+],
+"tech_list": [
+7030901
+],
+"show": 2
+},
+{
+"id": 7031000,
+"title": "TechName_55",
+"des": "TechDes_123",
+"tab": 4,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7031200,
+7031300,
+7031400
+],
+"tech_list": [
+7031001,
+7031002,
+7031003,
+7031004,
+7031005
+],
+"show": 1
+},
+{
+"id": 7031100,
+"title": "TechName_56",
+"des": "TechDes_7031600",
+"tab": 4,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031100",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7031200,
+7031300,
+7031400
+],
+"tech_list": [
+7031101,
+7031102,
+7031103,
+7031104,
+7031105
+],
+"show": 1
+},
+{
+"id": 7031200,
+"title": "TechName_57",
+"des": "TechDes_125",
+"tab": 4,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7031500
+],
+"tech_list": [
+7031201,
+7031202,
+7031203,
+7031204,
+7031205,
+7031206,
+7031207,
+7031208,
+7031209,
+7031210
+],
+"show": 1
+},
+{
+"id": 7031300,
+"title": "TechName_58",
+"des": "TechDes_126",
+"tab": 4,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7031500
+],
+"tech_list": [
+7031301,
+7031302,
+7031303,
+7031304,
+7031305,
+7031306,
+7031307,
+7031308,
+7031309,
+7031310
+],
+"show": 1
+},
+{
+"id": 7031400,
+"title": "TechName_59",
+"des": "TechDes_127",
+"tab": 4,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7031500
+],
+"tech_list": [
+7031401,
+7031402,
+7031403,
+7031404,
+7031405,
+7031406,
+7031407,
+7031408,
+7031409,
+7031410
+],
+"show": 1
+},
+{
+"id": 7031500,
+"title": "TechName_60",
+"des": "TechDes_128",
+"tab": 4,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7031500",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7031501
+],
+"show": 2
+},
+{
+"id": 7040100,
+"title": "TechName_61",
+"des": "TechDes_7040100",
+"tab": 5,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7040200,
+7040300
+],
+"tech_list": [
+7040101
+],
+"show": 2
+},
+{
+"id": 7040200,
+"title": "TechName_62",
+"des": "TechDes_7040200",
+"tab": 5,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7040400,
+7040500,
+7040600
+],
+"tech_list": [
+7040201,
+7040202,
+7040203,
+7040204,
+7040205
+],
+"show": 1
+},
+{
+"id": 7040300,
+"title": "TechName_63",
+"des": "TechDes_7040300",
+"tab": 5,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030300",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7040400,
+7040500,
+7040600
+],
+"tech_list": [
+7040301,
+7040302,
+7040303,
+7040304,
+7040305
+],
+"show": 1
+},
+{
+"id": 7040400,
+"title": "TechName_64",
+"des": "TechDes_7040400",
+"tab": 5,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7040700
+],
+"tech_list": [
+7040401,
+7040402,
+7040403,
+7040404,
+7040405,
+7040406,
+7040407,
+7040408,
+7040409,
+7040410
+],
+"show": 1
+},
+{
+"id": 7040500,
+"title": "TechName_65",
+"des": "TechDes_7040500",
+"tab": 5,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7040700
+],
+"tech_list": [
+7040501,
+7040502,
+7040503,
+7040504,
+7040505,
+7040506,
+7040507,
+7040508,
+7040509,
+7040510
+],
+"show": 1
+},
+{
+"id": 7040600,
+"title": "TechName_66",
+"des": "TechDes_7040600",
+"tab": 5,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7040700
+],
+"tech_list": [
+7040601,
+7040602,
+7040603,
+7040604,
+7040605,
+7040606,
+7040607,
+7040608,
+7040609,
+7040610
+],
+"show": 1
+},
+{
+"id": 7040700,
+"title": "TechName_67",
+"des": "TechDes_7040700",
+"tab": 5,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7040800
+],
+"tech_list": [
+7040701
+],
+"show": 2
+},
+{
+"id": 7040800,
+"title": "TechName_68",
+"des": "TechDes_7040800",
+"tab": 5,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030800",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7040900
+],
+"tech_list": [
+7040801
+],
+"show": 2
+},
+{
+"id": 7040900,
+"title": "TechName_69",
+"des": "TechDes_7040900",
+"tab": 5,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7041000,
+7041100
+],
+"tech_list": [
+7040901
+],
+"show": 2
+},
+{
+"id": 7041000,
+"title": "TechName_70",
+"des": "TechDes_7041000",
+"tab": 5,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7041200,
+7041300,
+7041400
+],
+"tech_list": [
+7041001,
+7041002,
+7041003,
+7041004,
+7041005
+],
+"show": 1
+},
+{
+"id": 7041100,
+"title": "TechName_71",
+"des": "TechDes_7031600",
+"tab": 5,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031100",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7041200,
+7041300,
+7041400
+],
+"tech_list": [
+7041101,
+7041102,
+7041103,
+7041104,
+7041105
+],
+"show": 1
+},
+{
+"id": 7041200,
+"title": "TechName_72",
+"des": "TechDes_7041200",
+"tab": 5,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7041500
+],
+"tech_list": [
+7041201,
+7041202,
+7041203,
+7041204,
+7041205,
+7041206,
+7041207,
+7041208,
+7041209,
+7041210
+],
+"show": 1
+},
+{
+"id": 7041300,
+"title": "TechName_73",
+"des": "TechDes_7041300",
+"tab": 5,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7041500
+],
+"tech_list": [
+7041301,
+7041302,
+7041303,
+7041304,
+7041305,
+7041306,
+7041307,
+7041308,
+7041309,
+7041310
+],
+"show": 1
+},
+{
+"id": 7041400,
+"title": "TechName_74",
+"des": "TechDes_7041400",
+"tab": 5,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7041500
+],
+"tech_list": [
+7041401,
+7041402,
+7041403,
+7041404,
+7041405,
+7041406,
+7041407,
+7041408,
+7041409,
+7041410
+],
+"show": 1
+},
+{
+"id": 7041500,
+"title": "TechName_75",
+"des": "TechDes_7041500",
+"tab": 5,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7031500",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7041501
+],
+"show": 2
+},
+{
+"id": 7050100,
+"title": "TechName_76",
+"des": "TechDes_76",
+"tab": 6,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7050100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7050400
+],
+"tech_list": [
+7050101,
+7050102,
+7050103,
+7050104,
+7050105,
+7050106,
+7050107,
+7050108,
+7050109,
+7050110
+],
+"show": 1
+},
+{
+"id": 7050200,
+"title": "TechName_77",
+"des": "TechDes_77",
+"tab": 6,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7050200",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7050400
+],
+"tech_list": [
+7050201,
+7050202,
+7050203,
+7050204,
+7050205,
+7050206,
+7050207,
+7050208,
+7050209,
+7050210
+],
+"show": 1
+},
+{
+"id": 7050300,
+"title": "TechName_78",
+"des": "TechDes_78",
+"tab": 6,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7050300",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7050400
+],
+"tech_list": [
+7050301,
+7050302,
+7050303,
+7050304,
+7050305,
+7050306,
+7050307,
+7050308,
+7050309,
+7050310
+],
+"show": 1
+},
+{
+"id": 7050400,
+"title": "TechName_79",
+"des": "TechDes_79",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7050400",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7050500,
+7050600,
+7050700
+],
+"tech_list": [
+7050401,
+7050402,
+7050403,
+7050404,
+7050405,
+7050406,
+7050407,
+7050408,
+7050409,
+7050410,
+7050411,
+7050412,
+7050413,
+7050414,
+7050415
+],
+"show": 1
+},
+{
+"id": 7050500,
+"title": "TechName_80",
+"des": "TechDes_80",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7050500",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7050800
+],
+"tech_list": [
+7050501,
+7050502,
+7050503,
+7050504,
+7050505,
+7050506,
+7050507,
+7050508,
+7050509,
+7050510,
+7050511,
+7050512,
+7050513,
+7050514,
+7050515
+],
+"show": 1
+},
+{
+"id": 7050600,
+"title": "TechName_81",
+"des": "TechDes_81",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7050600",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7050800
+],
+"tech_list": [
+7050601,
+7050602,
+7050603,
+7050604,
+7050605,
+7050606,
+7050607,
+7050608,
+7050609,
+7050610,
+7050611,
+7050612,
+7050613,
+7050614,
+7050615
+],
+"show": 1
+},
+{
+"id": 7050700,
+"title": "TechName_82",
+"des": "TechDes_82",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7050700",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7050800
+],
+"tech_list": [
+7050701,
+7050702,
+7050703,
+7050704,
+7050705,
+7050706,
+7050707,
+7050708,
+7050709,
+7050710,
+7050711,
+7050712,
+7050713,
+7050714,
+7050715
+],
+"show": 1
+},
+{
+"id": 7050800,
+"title": "TechName_83",
+"des": "TechDes_83",
+"tab": 6,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7050800",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7050900
+],
+"tech_list": [
+7050801
+],
+"show": 2
+},
+{
+"id": 7050900,
+"title": "TechName_84",
+"des": "TechDes_84",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7050900",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7051000,
+7051100
+],
+"tech_list": [
+7050901,
+7050902,
+7050903,
+7050904,
+7050905,
+7050906,
+7050907,
+7050908,
+7050909,
+7050910,
+7050911,
+7050912,
+7050913,
+7050914,
+7050915
+],
+"show": 2
+},
+{
+"id": 7051000,
+"title": "TechName_85",
+"des": "TechDes_85",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7051000",
+"position": {
+"x": 2,
+"y": 6
+},
+"tech_list": [
+7051001,
+7051002,
+7051003,
+7051004,
+7051005,
+7051006,
+7051007,
+7051008,
+7051009,
+7051010,
+7051011,
+7051012,
+7051013,
+7051014,
+7051015
+],
+"show": 1
+},
+{
+"id": 7051100,
+"title": "TechName_86",
+"des": "TechDes_86",
+"tab": 6,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7051100",
+"position": {
+"x": 6,
+"y": 6
+},
+"tech_list": [
+7051101,
+7051102,
+7051103,
+7051104,
+7051105,
+7051106,
+7051107,
+7051108,
+7051109,
+7051110,
+7051111,
+7051112,
+7051113,
+7051114,
+7051115
+],
+"show": 1
+},
+{
+"id": 7060100,
+"title": "TechName_87",
+"des": "TechDes_87",
+"tab": 7,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7060100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7060400
+],
+"tech_list": [
+7060101,
+7060102,
+7060103,
+7060104,
+7060105,
+7060106,
+7060107,
+7060108,
+7060109,
+7060110
+],
+"show": 1
+},
+{
+"id": 7060200,
+"title": "TechName_88",
+"des": "TechDes_88",
+"tab": 7,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7060200",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7060400
+],
+"tech_list": [
+7060201,
+7060202,
+7060203,
+7060204,
+7060205,
+7060206,
+7060207,
+7060208,
+7060209,
+7060210
+],
+"show": 1
+},
+{
+"id": 7060300,
+"title": "TechName_89",
+"des": "TechDes_89",
+"tab": 7,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7060300",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7060400
+],
+"tech_list": [
+7060301,
+7060302,
+7060303,
+7060304,
+7060305,
+7060306,
+7060307,
+7060308,
+7060309,
+7060310
+],
+"show": 1
+},
+{
+"id": 7060400,
+"title": "TechName_90",
+"des": "TechDes_90",
+"tab": 7,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7060400",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7060500,
+7060600,
+7060700
+],
+"tech_list": [
+7060401
+],
+"show": 2
+},
+{
+"id": 7060500,
+"title": "TechName_91",
+"des": "TechDes_91",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060100",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7060800
+],
+"tech_list": [
+7060501,
+7060502,
+7060503,
+7060504,
+7060505,
+7060506,
+7060507,
+7060508,
+7060509,
+7060510,
+7060511,
+7060512,
+7060513,
+7060514,
+7060515
+],
+"show": 1
+},
+{
+"id": 7060600,
+"title": "TechName_92",
+"des": "TechDes_92",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060200",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7060800
+],
+"tech_list": [
+7060601,
+7060602,
+7060603,
+7060604,
+7060605,
+7060606,
+7060607,
+7060608,
+7060609,
+7060610,
+7060611,
+7060612,
+7060613,
+7060614,
+7060615
+],
+"show": 1
+},
+{
+"id": 7060700,
+"title": "TechName_93",
+"des": "TechDes_93",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060300",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7060800
+],
+"tech_list": [
+7060701,
+7060702,
+7060703,
+7060704,
+7060705,
+7060706,
+7060707,
+7060708,
+7060709,
+7060710,
+7060711,
+7060712,
+7060713,
+7060714,
+7060715
+],
+"show": 1
+},
+{
+"id": 7060800,
+"title": "TechName_94",
+"des": "TechDes_94",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060800",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7060900,
+7061000,
+7061100
+],
+"tech_list": [
+7060801,
+7060802,
+7060803,
+7060804,
+7060805,
+7060806,
+7060807,
+7060808,
+7060809,
+7060810,
+7060811,
+7060812,
+7060813,
+7060814,
+7060815
+],
+"show": 1
+},
+{
+"id": 7060900,
+"title": "TechName_95",
+"des": "TechDes_95",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060900",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7061200
+],
+"tech_list": [
+7060901,
+7060902,
+7060903,
+7060904,
+7060905,
+7060906,
+7060907,
+7060908,
+7060909,
+7060910,
+7060911,
+7060912,
+7060913,
+7060914,
+7060915
+],
+"show": 2
+},
+{
+"id": 7061000,
+"title": "TechName_96",
+"des": "TechDes_96",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061000",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7061200
+],
+"tech_list": [
+7061001,
+7061002,
+7061003,
+7061004,
+7061005,
+7061006,
+7061007,
+7061008,
+7061009,
+7061010,
+7061011,
+7061012,
+7061013,
+7061014,
+7061015
+],
+"show": 2
+},
+{
+"id": 7061100,
+"title": "TechName_97",
+"des": "TechDes_97",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061100",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7061200
+],
+"tech_list": [
+7061101,
+7061102,
+7061103,
+7061104,
+7061105,
+7061106,
+7061107,
+7061108,
+7061109,
+7061110,
+7061111,
+7061112,
+7061113,
+7061114,
+7061115
+],
+"show": 2
+},
+{
+"id": 7061200,
+"title": "TechName_98",
+"des": "TechDes_98",
+"tab": 7,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061200",
+"position": {
+"x": 4,
+"y": 6
+},
+"tech_list": [
+7061201,
+7061202,
+7061203,
+7061204,
+7061205,
+7061206,
+7061207,
+7061208,
+7061209,
+7061210,
+7061211,
+7061212,
+7061213,
+7061214,
+7061215
+],
+"show": 1
+},
+{
+"id": 7070100,
+"title": "TechName_99",
+"des": "TechDes_61",
+"tab": 8,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7070200,
+7070300
+],
+"tech_list": [
+7070101
+],
+"show": 2
+},
+{
+"id": 7070200,
+"title": "TechName_100",
+"des": "TechDes_62",
+"tab": 8,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7070400,
+7070500,
+7070600
+],
+"tech_list": [
+7070201,
+7070202,
+7070203,
+7070204,
+7070205
+],
+"show": 1
+},
+{
+"id": 7070300,
+"title": "TechName_101",
+"des": "TechDes_63",
+"tab": 8,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030300",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7070400,
+7070500,
+7070600
+],
+"tech_list": [
+7070301,
+7070302,
+7070303,
+7070304,
+7070305
+],
+"show": 1
+},
+{
+"id": 7070400,
+"title": "TechName_102",
+"des": "TechDes_64",
+"tab": 8,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7070700
+],
+"tech_list": [
+7070401,
+7070402,
+7070403,
+7070404,
+7070405,
+7070406,
+7070407,
+7070408,
+7070409,
+7070410
+],
+"show": 1
+},
+{
+"id": 7070500,
+"title": "TechName_103",
+"des": "TechDes_65",
+"tab": 8,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7070700
+],
+"tech_list": [
+7070501,
+7070502,
+7070503,
+7070504,
+7070505,
+7070506,
+7070507,
+7070508,
+7070509,
+7070510
+],
+"show": 1
+},
+{
+"id": 7070600,
+"title": "TechName_104",
+"des": "TechDes_66",
+"tab": 8,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7070700
+],
+"tech_list": [
+7070601,
+7070602,
+7070603,
+7070604,
+7070605,
+7070606,
+7070607,
+7070608,
+7070609,
+7070610
+],
+"show": 1
+},
+{
+"id": 7070700,
+"title": "TechName_105",
+"des": "TechDes_67",
+"tab": 8,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7070800
+],
+"tech_list": [
+7070701
+],
+"show": 2
+},
+{
+"id": 7070800,
+"title": "TechName_106",
+"des": "TechDes_68",
+"tab": 8,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030800",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7070900
+],
+"tech_list": [
+7070801
+],
+"show": 2
+},
+{
+"id": 7070900,
+"title": "TechName_107",
+"des": "TechDes_69",
+"tab": 8,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7071000,
+7071100
+],
+"tech_list": [
+7070901
+],
+"show": 2
+},
+{
+"id": 7071000,
+"title": "TechName_108",
+"des": "TechDes_70",
+"tab": 8,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7071200,
+7071300,
+7071400
+],
+"tech_list": [
+7071001,
+7071002,
+7071003,
+7071004,
+7071005
+],
+"show": 1
+},
+{
+"id": 7071100,
+"title": "TechName_109",
+"des": "TechDes_7031600",
+"tab": 8,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031100",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7071200,
+7071300,
+7071400
+],
+"tech_list": [
+7071101,
+7071102,
+7071103,
+7071104,
+7071105
+],
+"show": 1
+},
+{
+"id": 7071200,
+"title": "TechName_110",
+"des": "TechDes_72",
+"tab": 8,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7071500
+],
+"tech_list": [
+7071201,
+7071202,
+7071203,
+7071204,
+7071205,
+7071206,
+7071207,
+7071208,
+7071209,
+7071210
+],
+"show": 1
+},
+{
+"id": 7071300,
+"title": "TechName_111",
+"des": "TechDes_73",
+"tab": 8,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7071500
+],
+"tech_list": [
+7071301,
+7071302,
+7071303,
+7071304,
+7071305,
+7071306,
+7071307,
+7071308,
+7071309,
+7071310
+],
+"show": 1
+},
+{
+"id": 7071400,
+"title": "TechName_112",
+"des": "TechDes_74",
+"tab": 8,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7071500
+],
+"tech_list": [
+7071401,
+7071402,
+7071403,
+7071404,
+7071405,
+7071406,
+7071407,
+7071408,
+7071409,
+7071410
+],
+"show": 1
+},
+{
+"id": 7071500,
+"title": "TechName_113",
+"des": "TechDes_75",
+"tab": 8,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7031500",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7071501
+],
+"show": 2
+},
+{
+"id": 7080100,
+"title": "TechName_114",
+"des": "TechDes_99",
+"tab": 9,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7080200,
+7080300
+],
+"tech_list": [
+7080101
+],
+"show": 2
+},
+{
+"id": 7080200,
+"title": "TechName_115",
+"des": "TechDes_100",
+"tab": 9,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7080400,
+7080500,
+7080600
+],
+"tech_list": [
+7080201,
+7080202,
+7080203,
+7080204,
+7080205
+],
+"show": 1
+},
+{
+"id": 7080300,
+"title": "TechName_116",
+"des": "TechDes_101",
+"tab": 9,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030300",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7080400,
+7080500,
+7080600
+],
+"tech_list": [
+7080301,
+7080302,
+7080303,
+7080304,
+7080305
+],
+"show": 1
+},
+{
+"id": 7080400,
+"title": "TechName_117",
+"des": "TechDes_102",
+"tab": 9,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7080700
+],
+"tech_list": [
+7080401,
+7080402,
+7080403,
+7080404,
+7080405,
+7080406,
+7080407,
+7080408,
+7080409,
+7080410
+],
+"show": 1
+},
+{
+"id": 7080500,
+"title": "TechName_118",
+"des": "TechDes_103",
+"tab": 9,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7080700
+],
+"tech_list": [
+7080501,
+7080502,
+7080503,
+7080504,
+7080505,
+7080506,
+7080507,
+7080508,
+7080509,
+7080510
+],
+"show": 1
+},
+{
+"id": 7080600,
+"title": "TechName_119",
+"des": "TechDes_104",
+"tab": 9,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7080700
+],
+"tech_list": [
+7080601,
+7080602,
+7080603,
+7080604,
+7080605,
+7080606,
+7080607,
+7080608,
+7080609,
+7080610
+],
+"show": 1
+},
+{
+"id": 7080700,
+"title": "TechName_120",
+"des": "TechDes_105",
+"tab": 9,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7080800
+],
+"tech_list": [
+7080701
+],
+"show": 2
+},
+{
+"id": 7080800,
+"title": "TechName_121",
+"des": "TechDes_106",
+"tab": 9,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030800",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7080900
+],
+"tech_list": [
+7080801
+],
+"show": 2
+},
+{
+"id": 7080900,
+"title": "TechName_122",
+"des": "TechDes_107",
+"tab": 9,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7030900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7081000,
+7081100
+],
+"tech_list": [
+7080901
+],
+"show": 2
+},
+{
+"id": 7081000,
+"title": "TechName_123",
+"des": "TechDes_108",
+"tab": 9,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7081200,
+7081300,
+7081400
+],
+"tech_list": [
+7081001,
+7081002,
+7081003,
+7081004,
+7081005
+],
+"show": 1
+},
+{
+"id": 7081100,
+"title": "TechName_124",
+"des": "TechDes_7031600",
+"tab": 9,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031100",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7081200,
+7081300,
+7081400
+],
+"tech_list": [
+7081101,
+7081102,
+7081103,
+7081104,
+7081105
+],
+"show": 1
+},
+{
+"id": 7081200,
+"title": "TechName_125",
+"des": "TechDes_110",
+"tab": 9,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7081500
+],
+"tech_list": [
+7081201,
+7081202,
+7081203,
+7081204,
+7081205,
+7081206,
+7081207,
+7081208,
+7081209,
+7081210
+],
+"show": 1
+},
+{
+"id": 7081300,
+"title": "TechName_126",
+"des": "TechDes_111",
+"tab": 9,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7081500
+],
+"tech_list": [
+7081301,
+7081302,
+7081303,
+7081304,
+7081305,
+7081306,
+7081307,
+7081308,
+7081309,
+7081310
+],
+"show": 1
+},
+{
+"id": 7081400,
+"title": "TechName_127",
+"des": "TechDes_112",
+"tab": 9,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7081500
+],
+"tech_list": [
+7081401,
+7081402,
+7081403,
+7081404,
+7081405,
+7081406,
+7081407,
+7081408,
+7081409,
+7081410
+],
+"show": 1
+},
+{
+"id": 7081500,
+"title": "TechName_128",
+"des": "TechDes_113",
+"tab": 9,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7031500",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7081501
+],
+"show": 2
+},
+{
+"id": 7110100,
+"title": "TechName_163",
+"des": "TechDes_163",
+"tab": 10,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7110300
+],
+"tech_list": [
+7110101,
+7110102,
+7110103,
+7110104,
+7110105
+],
+"show": 1
+},
+{
+"id": 7110200,
+"title": "TechName_164",
+"des": "TechDes_164",
+"tab": 10,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7110300
+],
+"tech_list": [
+7110201,
+7110202,
+7110203,
+7110204,
+7110205
+],
+"show": 1
+},
+{
+"id": 7110300,
+"title": "TechName_165",
+"des": "TechDes_165",
+"tab": 10,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7110300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7110400,
+7110500
+],
+"tech_list": [
+7110301,
+7110302,
+7110303,
+7110304,
+7110305,
+7110306,
+7110307,
+7110308,
+7110309,
+7110310
+],
+"show": 1
+},
+{
+"id": 7110400,
+"title": "TechName_166",
+"des": "TechDes_166",
+"tab": 10,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7110400",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7110600
+],
+"tech_list": [
+7110401,
+7110402,
+7110403,
+7110404,
+7110405,
+7110406,
+7110407,
+7110408,
+7110409,
+7110410,
+7110411,
+7110412,
+7110413,
+7110414,
+7110415
+],
+"show": 1
+},
+{
+"id": 7110500,
+"title": "TechName_167",
+"des": "TechDes_167",
+"tab": 10,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7110500",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7110600
+],
+"tech_list": [
+7110501,
+7110502,
+7110503,
+7110504,
+7110505,
+7110506,
+7110507,
+7110508,
+7110509,
+7110510,
+7110511,
+7110512,
+7110513,
+7110514,
+7110515
+],
+"show": 1
+},
+{
+"id": 7110600,
+"title": "TechName_168",
+"des": "TechDes_168",
+"tab": 10,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7110300",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7110700,
+7110800
+],
+"tech_list": [
+7110601,
+7110602,
+7110603,
+7110604,
+7110605,
+7110606,
+7110607,
+7110608,
+7110609,
+7110610
+],
+"show": 1
+},
+{
+"id": 7110700,
+"title": "TechName_169",
+"des": "TechDes_169",
+"tab": 10,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7110900
+],
+"tech_list": [
+7110701,
+7110702,
+7110703,
+7110704,
+7110705,
+7110706,
+7110707,
+7110708,
+7110709,
+7110710,
+7110711,
+7110712,
+7110713,
+7110714,
+7110715
+],
+"show": 1
+},
+{
+"id": 7110800,
+"title": "TechName_170",
+"des": "TechDes_170",
+"tab": 10,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7110900
+],
+"tech_list": [
+7110801,
+7110802,
+7110803,
+7110804,
+7110805,
+7110806,
+7110807,
+7110808,
+7110809,
+7110810,
+7110811,
+7110812,
+7110813,
+7110814,
+7110815
+],
+"show": 1
+},
+{
+"id": 7110900,
+"title": "TechName_171",
+"des": "TechDes_171",
+"tab": 10,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7110900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7111000,
+7111100
+],
+"tech_list": [
+7110901
+],
+"show": 2
+},
+{
+"id": 7111000,
+"title": "TechName_172",
+"des": "TechDes_172",
+"tab": 10,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7111000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7111200
+],
+"tech_list": [
+7111001,
+7111002,
+7111003,
+7111004,
+7111005,
+7111006,
+7111007,
+7111008,
+7111009,
+7111010,
+7111011,
+7111012,
+7111013,
+7111014,
+7111015
+],
+"show": 1
+},
+{
+"id": 7111100,
+"title": "TechName_173",
+"des": "TechDes_173",
+"tab": 10,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060900",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7111200
+],
+"tech_list": [
+7111101,
+7111102,
+7111103,
+7111104,
+7111105,
+7111106,
+7111107,
+7111108,
+7111109,
+7111110,
+7111111,
+7111112,
+7111113,
+7111114,
+7111115
+],
+"show": 2
+},
+{
+"id": 7111200,
+"title": "TechName_174",
+"des": "TechDes_174",
+"tab": 10,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7110300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7111300
+],
+"tech_list": [
+7111201,
+7111202,
+7111203,
+7111204,
+7111205,
+7111206,
+7111207,
+7111208,
+7111209,
+7111210
+],
+"show": 1
+},
+{
+"id": 7111300,
+"title": "TechName_175",
+"des": "TechDes_175",
+"tab": 10,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7111300",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7111400,
+7111500
+],
+"tech_list": [
+7111301
+],
+"show": 2
+},
+{
+"id": 7111400,
+"title": "TechName_176",
+"des": "TechDes_176",
+"tab": 10,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7111400",
+"position": {
+"x": 2,
+"y": 10
+},
+"relation": [
+7111600
+],
+"tech_list": [
+7111401,
+7111402,
+7111403,
+7111404,
+7111405,
+7111406,
+7111407,
+7111408,
+7111409,
+7111410,
+7111411,
+7111412,
+7111413,
+7111414,
+7111415,
+7111416,
+7111417,
+7111418,
+7111419,
+7111420
+],
+"show": 1
+},
+{
+"id": 7111500,
+"title": "TechName_177",
+"des": "TechDes_177",
+"tab": 10,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 6,
+"y": 10
+},
+"relation": [
+7111600
+],
+"tech_list": [
+7111501,
+7111502,
+7111503,
+7111504,
+7111505,
+7111506,
+7111507,
+7111508,
+7111509,
+7111510,
+7111511,
+7111512,
+7111513,
+7111514,
+7111515,
+7111516,
+7111517,
+7111518,
+7111519,
+7111520
+],
+"show": 1
+},
+{
+"id": 7111600,
+"title": "TechName_178",
+"des": "TechDes_178",
+"tab": 10,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7111600",
+"position": {
+"x": 4,
+"y": 11
+},
+"tech_list": [
+7111601
+],
+"show": 2
+},
+{
+"id": 7120100,
+"title": "TechName_179",
+"des": "TechDes_179",
+"tab": 11,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7120300
+],
+"tech_list": [
+7120101,
+7120102,
+7120103,
+7120104,
+7120105
+],
+"show": 1
+},
+{
+"id": 7120200,
+"title": "TechName_180",
+"des": "TechDes_180",
+"tab": 11,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7120300
+],
+"tech_list": [
+7120201,
+7120202,
+7120203,
+7120204,
+7120205
+],
+"show": 1
+},
+{
+"id": 7120300,
+"title": "TechName_181",
+"des": "TechDes_181",
+"tab": 11,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7120300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7120400,
+7120500
+],
+"tech_list": [
+7120301,
+7120302,
+7120303,
+7120304,
+7120305,
+7120306,
+7120307,
+7120308,
+7120309,
+7120310
+],
+"show": 1
+},
+{
+"id": 7120400,
+"title": "TechName_182",
+"des": "TechDes_182",
+"tab": 11,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7120400",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7120600
+],
+"tech_list": [
+7120401,
+7120402,
+7120403,
+7120404,
+7120405,
+7120406,
+7120407,
+7120408,
+7120409,
+7120410,
+7120411,
+7120412,
+7120413,
+7120414,
+7120415
+],
+"show": 1
+},
+{
+"id": 7120500,
+"title": "TechName_183",
+"des": "TechDes_183",
+"tab": 11,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7120500",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7120600
+],
+"tech_list": [
+7120501,
+7120502,
+7120503,
+7120504,
+7120505,
+7120506,
+7120507,
+7120508,
+7120509,
+7120510,
+7120511,
+7120512,
+7120513,
+7120514,
+7120515
+],
+"show": 1
+},
+{
+"id": 7120600,
+"title": "TechName_184",
+"des": "TechDes_184",
+"tab": 11,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7120300",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7120700,
+7120800
+],
+"tech_list": [
+7120601,
+7120602,
+7120603,
+7120604,
+7120605,
+7120606,
+7120607,
+7120608,
+7120609,
+7120610
+],
+"show": 1
+},
+{
+"id": 7120700,
+"title": "TechName_185",
+"des": "TechDes_185",
+"tab": 11,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7120900
+],
+"tech_list": [
+7120701,
+7120702,
+7120703,
+7120704,
+7120705,
+7120706,
+7120707,
+7120708,
+7120709,
+7120710,
+7120711,
+7120712,
+7120713,
+7120714,
+7120715
+],
+"show": 1
+},
+{
+"id": 7120800,
+"title": "TechName_186",
+"des": "TechDes_186",
+"tab": 11,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7120900
+],
+"tech_list": [
+7120801,
+7120802,
+7120803,
+7120804,
+7120805,
+7120806,
+7120807,
+7120808,
+7120809,
+7120810,
+7120811,
+7120812,
+7120813,
+7120814,
+7120815
+],
+"show": 1
+},
+{
+"id": 7120900,
+"title": "TechName_187",
+"des": "TechDes_187",
+"tab": 11,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7120900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7121000,
+7121100
+],
+"tech_list": [
+7120901
+],
+"show": 2
+},
+{
+"id": 7121000,
+"title": "TechName_188",
+"des": "TechDes_188",
+"tab": 11,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7121000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7121200
+],
+"tech_list": [
+7121001,
+7121002,
+7121003,
+7121004,
+7121005,
+7121006,
+7121007,
+7121008,
+7121009,
+7121010,
+7121011,
+7121012,
+7121013,
+7121014,
+7121015
+],
+"show": 1
+},
+{
+"id": 7121100,
+"title": "TechName_189",
+"des": "TechDes_189",
+"tab": 11,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061000",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7121200
+],
+"tech_list": [
+7121101,
+7121102,
+7121103,
+7121104,
+7121105,
+7121106,
+7121107,
+7121108,
+7121109,
+7121110,
+7121111,
+7121112,
+7121113,
+7121114,
+7121115
+],
+"show": 2
+},
+{
+"id": 7121200,
+"title": "TechName_190",
+"des": "TechDes_190",
+"tab": 11,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7120300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7121300
+],
+"tech_list": [
+7121201,
+7121202,
+7121203,
+7121204,
+7121205,
+7121206,
+7121207,
+7121208,
+7121209,
+7121210
+],
+"show": 1
+},
+{
+"id": 7121300,
+"title": "TechName_191",
+"des": "TechDes_191",
+"tab": 11,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7121300",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7121400,
+7121500
+],
+"tech_list": [
+7121301
+],
+"show": 2
+},
+{
+"id": 7121400,
+"title": "TechName_192",
+"des": "TechDes_192",
+"tab": 11,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7121400",
+"position": {
+"x": 2,
+"y": 10
+},
+"relation": [
+7121600
+],
+"tech_list": [
+7121401,
+7121402,
+7121403,
+7121404,
+7121405,
+7121406,
+7121407,
+7121408,
+7121409,
+7121410,
+7121411,
+7121412,
+7121413,
+7121414,
+7121415,
+7121416,
+7121417,
+7121418,
+7121419,
+7121420
+],
+"show": 1
+},
+{
+"id": 7121500,
+"title": "TechName_193",
+"des": "TechDes_193",
+"tab": 11,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 6,
+"y": 10
+},
+"relation": [
+7121600
+],
+"tech_list": [
+7121501,
+7121502,
+7121503,
+7121504,
+7121505,
+7121506,
+7121507,
+7121508,
+7121509,
+7121510,
+7121511,
+7121512,
+7121513,
+7121514,
+7121515,
+7121516,
+7121517,
+7121518,
+7121519,
+7121520
+],
+"show": 1
+},
+{
+"id": 7121600,
+"title": "TechName_194",
+"des": "TechDes_194",
+"tab": 11,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7121600",
+"position": {
+"x": 4,
+"y": 11
+},
+"tech_list": [
+7121601
+],
+"show": 2
+},
+{
+"id": 7130100,
+"title": "TechName_195",
+"des": "TechDes_195",
+"tab": 12,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7130300
+],
+"tech_list": [
+7130101,
+7130102,
+7130103,
+7130104,
+7130105
+],
+"show": 1
+},
+{
+"id": 7130200,
+"title": "TechName_196",
+"des": "TechDes_196",
+"tab": 12,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7130300
+],
+"tech_list": [
+7130201,
+7130202,
+7130203,
+7130204,
+7130205
+],
+"show": 1
+},
+{
+"id": 7130300,
+"title": "TechName_197",
+"des": "TechDes_197",
+"tab": 12,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7130300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7130400,
+7130500
+],
+"tech_list": [
+7130301,
+7130302,
+7130303,
+7130304,
+7130305,
+7130306,
+7130307,
+7130308,
+7130309,
+7130310
+],
+"show": 1
+},
+{
+"id": 7130400,
+"title": "TechName_198",
+"des": "TechDes_198",
+"tab": 12,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7030300",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7130600
+],
+"tech_list": [
+7130401,
+7130402,
+7130403,
+7130404,
+7130405,
+7130406,
+7130407,
+7130408,
+7130409,
+7130410,
+7130411,
+7130412,
+7130413,
+7130414,
+7130415
+],
+"show": 1
+},
+{
+"id": 7130500,
+"title": "TechName_199",
+"des": "TechDes_199",
+"tab": 12,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7130500",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7130600
+],
+"tech_list": [
+7130501,
+7130502,
+7130503,
+7130504,
+7130505,
+7130506,
+7130507,
+7130508,
+7130509,
+7130510,
+7130511,
+7130512,
+7130513,
+7130514,
+7130515
+],
+"show": 1
+},
+{
+"id": 7130600,
+"title": "TechName_200",
+"des": "TechDes_200",
+"tab": 12,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7130300",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7130700,
+7130800
+],
+"tech_list": [
+7130601,
+7130602,
+7130603,
+7130604,
+7130605,
+7130606,
+7130607,
+7130608,
+7130609,
+7130610
+],
+"show": 1
+},
+{
+"id": 7130700,
+"title": "TechName_201",
+"des": "TechDes_201",
+"tab": 12,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7130900
+],
+"tech_list": [
+7130701,
+7130702,
+7130703,
+7130704,
+7130705,
+7130706,
+7130707,
+7130708,
+7130709,
+7130710,
+7130711,
+7130712,
+7130713,
+7130714,
+7130715
+],
+"show": 1
+},
+{
+"id": 7130800,
+"title": "TechName_202",
+"des": "TechDes_202",
+"tab": 12,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7130900
+],
+"tech_list": [
+7130801,
+7130802,
+7130803,
+7130804,
+7130805,
+7130806,
+7130807,
+7130808,
+7130809,
+7130810,
+7130811,
+7130812,
+7130813,
+7130814,
+7130815
+],
+"show": 1
+},
+{
+"id": 7130900,
+"title": "TechName_203",
+"des": "TechDes_203",
+"tab": 12,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7130900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7131000,
+7131100
+],
+"tech_list": [
+7130901
+],
+"show": 2
+},
+{
+"id": 7131000,
+"title": "TechName_204",
+"des": "TechDes_204",
+"tab": 12,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7131000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7131200
+],
+"tech_list": [
+7131001,
+7131002,
+7131003,
+7131004,
+7131005,
+7131006,
+7131007,
+7131008,
+7131009,
+7131010,
+7131011,
+7131012,
+7131013,
+7131014,
+7131015
+],
+"show": 1
+},
+{
+"id": 7131100,
+"title": "TechName_205",
+"des": "TechDes_205",
+"tab": 12,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061100",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7131200
+],
+"tech_list": [
+7131101,
+7131102,
+7131103,
+7131104,
+7131105,
+7131106,
+7131107,
+7131108,
+7131109,
+7131110,
+7131111,
+7131112,
+7131113,
+7131114,
+7131115
+],
+"show": 2
+},
+{
+"id": 7131200,
+"title": "TechName_206",
+"des": "TechDes_206",
+"tab": 12,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7130300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7131300
+],
+"tech_list": [
+7131201,
+7131202,
+7131203,
+7131204,
+7131205,
+7131206,
+7131207,
+7131208,
+7131209,
+7131210
+],
+"show": 1
+},
+{
+"id": 7131300,
+"title": "TechName_207",
+"des": "TechDes_207",
+"tab": 12,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7131300",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7131400,
+7131500
+],
+"tech_list": [
+7131301
+],
+"show": 2
+},
+{
+"id": 7131400,
+"title": "TechName_208",
+"des": "TechDes_208",
+"tab": 12,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7131400",
+"position": {
+"x": 2,
+"y": 10
+},
+"relation": [
+7131600
+],
+"tech_list": [
+7131401,
+7131402,
+7131403,
+7131404,
+7131405,
+7131406,
+7131407,
+7131408,
+7131409,
+7131410,
+7131411,
+7131412,
+7131413,
+7131414,
+7131415,
+7131416,
+7131417,
+7131418,
+7131419,
+7131420
+],
+"show": 1
+},
+{
+"id": 7131500,
+"title": "TechName_209",
+"des": "TechDes_209",
+"tab": 12,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7131500",
+"position": {
+"x": 6,
+"y": 10
+},
+"relation": [
+7131600
+],
+"tech_list": [
+7131501,
+7131502,
+7131503,
+7131504,
+7131505,
+7131506,
+7131507,
+7131508,
+7131509,
+7131510,
+7131511,
+7131512,
+7131513,
+7131514,
+7131515,
+7131516,
+7131517,
+7131518,
+7131519,
+7131520
+],
+"show": 1
+},
+{
+"id": 7131600,
+"title": "TechName_210",
+"des": "TechDes_210",
+"tab": 12,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "tech_7131600",
+"position": {
+"x": 4,
+"y": 11
+},
+"tech_list": [
+7131601
+],
+"show": 2
+},
+{
+"id": 7090100,
+"title": "TechName_7090100",
+"des": "TechDes_7090100",
+"tab": 13,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "tech_7030200",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7090300
+],
+"tech_list": [
+7090101,
+7090102,
+7090103,
+7090104,
+7090105,
+7090106,
+7090107,
+7090108,
+7090109,
+7090110
+],
+"show": 1
+},
+{
+"id": 7090200,
+"title": "TechName_7090200",
+"des": "TechDes_7090200",
+"tab": 13,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090200",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7090300
+],
+"tech_list": [
+7090201,
+7090202,
+7090203,
+7090204,
+7090205,
+7090206,
+7090207,
+7090208,
+7090209,
+7090210
+],
+"show": 1
+},
+{
+"id": 7090300,
+"title": "TechName_7090300",
+"des": "TechDes_7090300",
+"tab": 13,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7090400
+],
+"tech_list": [
+7090301
+],
+"show": 2
+},
+{
+"id": 7090400,
+"title": "TechName_7090400",
+"des": "TechDes_7090400",
+"tab": 13,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090400",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7090500,
+7090700
+],
+"tech_list": [
+7090401,
+7090402,
+7090403,
+7090404,
+7090405,
+7090406,
+7090407,
+7090408,
+7090409,
+7090410
+],
+"show": 1
+},
+{
+"id": 7090500,
+"title": "TechName_7090500",
+"des": "TechDes_7090500",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7031000",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7090600
+],
+"tech_list": [
+7090501,
+7090502,
+7090503,
+7090504,
+7090505,
+7090506,
+7090507,
+7090508,
+7090509,
+7090510,
+7090511,
+7090512,
+7090513,
+7090514,
+7090515
+],
+"show": 1
+},
+{
+"id": 7090600,
+"title": "TechName_7090600",
+"des": "TechDes_7090600",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7030300",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7090900
+],
+"tech_list": [
+7090601,
+7090602,
+7090603,
+7090604,
+7090605,
+7090606,
+7090607,
+7090608,
+7090609,
+7090610,
+7090611,
+7090612,
+7090613,
+7090614,
+7090615
+],
+"show": 1
+},
+{
+"id": 7090700,
+"title": "TechName_7090700",
+"des": "TechDes_7090700",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090700",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7090800
+],
+"tech_list": [
+7090701,
+7090702,
+7090703,
+7090704,
+7090705,
+7090706,
+7090707,
+7090708,
+7090709,
+7090710,
+7090711,
+7090712,
+7090713,
+7090714,
+7090715
+],
+"show": 1
+},
+{
+"id": 7090800,
+"title": "TechName_7090800",
+"des": "TechDes_7090800",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090800",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7090900
+],
+"tech_list": [
+7090801,
+7090802,
+7090803,
+7090804,
+7090805,
+7090806,
+7090807,
+7090808,
+7090809,
+7090810,
+7090811,
+7090812,
+7090813,
+7090814,
+7090815
+],
+"show": 2
+},
+{
+"id": 7090900,
+"title": "TechName_7090900",
+"des": "TechDes_7090900",
+"tab": 13,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090900",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7091000,
+7091400
+],
+"tech_list": [
+7090901
+],
+"show": 2
+},
+{
+"id": 7091000,
+"title": "TechName_7091000",
+"des": "TechDes_7091000",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7091100
+],
+"tech_list": [
+7091001,
+7091002,
+7091003,
+7091004,
+7091005,
+7091006,
+7091007,
+7091008,
+7091009,
+7091010,
+7091011,
+7091012,
+7091013,
+7091014,
+7091015
+],
+"show": 1
+},
+{
+"id": 7091100,
+"title": "TechName_7091100",
+"des": "TechDes_7091100",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091100",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7091200
+],
+"tech_list": [
+7091101,
+7091102,
+7091103,
+7091104,
+7091105,
+7091106,
+7091107,
+7091108,
+7091109,
+7091110,
+7091111,
+7091112,
+7091113,
+7091114,
+7091115
+],
+"show": 1
+},
+{
+"id": 7091200,
+"title": "TechName_7091200",
+"des": "TechDes_7091200",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091200",
+"position": {
+"x": 2,
+"y": 9
+},
+"relation": [
+7091300
+],
+"tech_list": [
+7091201,
+7091202,
+7091203,
+7091204,
+7091205,
+7091206,
+7091207,
+7091208,
+7091209,
+7091210,
+7091211,
+7091212,
+7091213,
+7091214,
+7091215
+],
+"show": 1
+},
+{
+"id": 7091300,
+"title": "TechName_7091300",
+"des": "TechDes_7091300",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091300",
+"position": {
+"x": 2,
+"y": 10
+},
+"relation": [
+7091800
+],
+"tech_list": [
+7091301,
+7091302,
+7091303,
+7091304,
+7091305,
+7091306,
+7091307,
+7091308,
+7091309,
+7091310,
+7091311,
+7091312,
+7091313,
+7091314,
+7091315
+],
+"show": 1
+},
+{
+"id": 7091400,
+"title": "TechName_7091400",
+"des": "TechDes_7091400",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091400",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7091500
+],
+"tech_list": [
+7091401,
+7091402,
+7091403,
+7091404,
+7091405,
+7091406,
+7091407,
+7091408,
+7091409,
+7091410,
+7091411,
+7091412,
+7091413,
+7091414,
+7091415
+],
+"show": 1
+},
+{
+"id": 7091500,
+"title": "TechName_7091500",
+"des": "TechDes_7091500",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091500",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7091600
+],
+"tech_list": [
+7091501,
+7091502,
+7091503,
+7091504,
+7091505,
+7091506,
+7091507,
+7091508,
+7091509,
+7091510,
+7091511,
+7091512,
+7091513,
+7091514,
+7091515
+],
+"show": 1
+},
+{
+"id": 7091600,
+"title": "TechName_7091600",
+"des": "TechDes_7091600",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091600",
+"position": {
+"x": 6,
+"y": 9
+},
+"relation": [
+7091700
+],
+"tech_list": [
+7091601,
+7091602,
+7091603,
+7091604,
+7091605,
+7091606,
+7091607,
+7091608,
+7091609,
+7091610,
+7091611,
+7091612,
+7091613,
+7091614,
+7091615
+],
+"show": 1
+},
+{
+"id": 7091700,
+"title": "TechName_7091700",
+"des": "TechDes_7091700",
+"tab": 13,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091700",
+"position": {
+"x": 6,
+"y": 10
+},
+"relation": [
+7091800
+],
+"tech_list": [
+7091701,
+7091702,
+7091703,
+7091704,
+7091705,
+7091706,
+7091707,
+7091708,
+7091709,
+7091710,
+7091711,
+7091712,
+7091713,
+7091714,
+7091715
+],
+"show": 1
+},
+{
+"id": 7091800,
+"title": "TechName_7091800",
+"des": "TechDes_7091800",
+"tab": 13,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7090400",
+"position": {
+"x": 4,
+"y": 11
+},
+"relation": [
+7091900
+],
+"tech_list": [
+7091801,
+7091802,
+7091803,
+7091804,
+7091805,
+7091806,
+7091807,
+7091808,
+7091809,
+7091810,
+7091811,
+7091812,
+7091813,
+7091814,
+7091815,
+7091816,
+7091817,
+7091818,
+7091819,
+7091820
+],
+"show": 1
+},
+{
+"id": 7091900,
+"title": "TechName_7091900",
+"des": "TechDes_7091900",
+"tab": 13,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7091900",
+"position": {
+"x": 4,
+"y": 12
+},
+"tech_list": [
+7091901
+],
+"show": 2
+},
+{
+"id": 7100100,
+"title": "TechName_7100100",
+"des": "TechDes_7100100",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7100200,
+7100500
+],
+"tech_list": [
+7100101,
+7100102,
+7100103,
+7100104,
+7100105,
+7100106,
+7100107,
+7100108,
+7100109,
+7100110
+],
+"show": 2
+},
+{
+"id": 7100200,
+"title": "TechName_7100200",
+"des": "TechDes_7100200",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7100300
+],
+"tech_list": [
+7100201,
+7100202,
+7100203,
+7100204,
+7100205,
+7100206,
+7100207,
+7100208,
+7100209,
+7100210
+],
+"show": 1
+},
+{
+"id": 7100300,
+"title": "TechName_7100300",
+"des": "TechDes_7100300",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100300",
+"position": {
+"x": 2,
+"y": 3
+},
+"relation": [
+7100400
+],
+"tech_list": [
+7100301,
+7100302,
+7100303,
+7100304,
+7100305,
+7100306,
+7100307,
+7100308,
+7100309,
+7100310
+],
+"show": 1
+},
+{
+"id": 7100400,
+"title": "TechName_7100400",
+"des": "TechDes_7100400",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100400",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7100800
+],
+"tech_list": [
+7100401,
+7100402,
+7100403,
+7100404,
+7100405,
+7100406,
+7100407,
+7100408,
+7100409,
+7100410
+],
+"show": 1
+},
+{
+"id": 7100500,
+"title": "TechName_7100500",
+"des": "TechDes_7100500",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100500",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7100600
+],
+"tech_list": [
+7100501,
+7100502,
+7100503,
+7100504,
+7100505,
+7100506,
+7100507,
+7100508,
+7100509,
+7100510
+],
+"show": 1
+},
+{
+"id": 7100600,
+"title": "TechName_7100600",
+"des": "TechDes_7100600",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100600",
+"position": {
+"x": 6,
+"y": 3
+},
+"relation": [
+7100700
+],
+"tech_list": [
+7100601,
+7100602,
+7100603,
+7100604,
+7100605,
+7100606,
+7100607,
+7100608,
+7100609,
+7100610
+],
+"show": 1
+},
+{
+"id": 7100700,
+"title": "TechName_7100700",
+"des": "TechDes_7100700",
+"tab": 14,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100700",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7100800
+],
+"tech_list": [
+7100701,
+7100702,
+7100703,
+7100704,
+7100705,
+7100706,
+7100707,
+7100708,
+7100709,
+7100710
+],
+"show": 1
+},
+{
+"id": 7100800,
+"title": "TechName_7100800",
+"des": "TechDes_7100800",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100100",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7100900,
+7101100
+],
+"tech_list": [
+7100801,
+7100802,
+7100803,
+7100804,
+7100805,
+7100806,
+7100807,
+7100808,
+7100809,
+7100810,
+7100811,
+7100812,
+7100813,
+7100814,
+7100815
+],
+"show": 2
+},
+{
+"id": 7100900,
+"title": "TechName_7100900",
+"des": "TechDes_7100900",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7100900",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7101000
+],
+"tech_list": [
+7100901,
+7100902,
+7100903,
+7100904,
+7100905,
+7100906,
+7100907,
+7100908,
+7100909,
+7100910,
+7100911,
+7100912,
+7100913,
+7100914,
+7100915
+],
+"show": 1
+},
+{
+"id": 7101000,
+"title": "TechName_7101000",
+"des": "TechDes_7101000",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7101000",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7101300
+],
+"tech_list": [
+7101001,
+7101002,
+7101003,
+7101004,
+7101005,
+7101006,
+7101007,
+7101008,
+7101009,
+7101010,
+7101011,
+7101012,
+7101013,
+7101014,
+7101015
+],
+"show": 1
+},
+{
+"id": 7101100,
+"title": "TechName_7101100",
+"des": "TechDes_7101100",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7101100",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7101200
+],
+"tech_list": [
+7101101,
+7101102,
+7101103,
+7101104,
+7101105,
+7101106,
+7101107,
+7101108,
+7101109,
+7101110,
+7101111,
+7101112,
+7101113,
+7101114,
+7101115
+],
+"show": 1
+},
+{
+"id": 7101200,
+"title": "TechName_7101200",
+"des": "TechDes_7101200",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7101200",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7101300
+],
+"tech_list": [
+7101201,
+7101202,
+7101203,
+7101204,
+7101205,
+7101206,
+7101207,
+7101208,
+7101209,
+7101210,
+7101211,
+7101212,
+7101213,
+7101214,
+7101215
+],
+"show": 1
+},
+{
+"id": 7101300,
+"title": "TechName_7101300",
+"des": "TechDes_7101300",
+"tab": 14,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7101300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7101400,
+7101500
+],
+"tech_list": [
+7101301
+],
+"show": 2
+},
+{
+"id": 7101400,
+"title": "TechName_7101400",
+"des": "TechDes_7101400",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7101400",
+"position": {
+"x": 2,
+"y": 9
+},
+"tech_list": [
+7101401,
+7101402,
+7101403,
+7101404,
+7101405,
+7101406,
+7101407,
+7101408,
+7101409,
+7101410,
+7101411,
+7101412,
+7101413,
+7101414,
+7101415
+],
+"show": 1
+},
+{
+"id": 7101500,
+"title": "TechName_7101500",
+"des": "TechDes_7101500",
+"tab": 14,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7101500",
+"position": {
+"x": 6,
+"y": 9
+},
+"tech_list": [
+7101501,
+7101502,
+7101503,
+7101504,
+7101505,
+7101506,
+7101507,
+7101508,
+7101509,
+7101510,
+7101511,
+7101512,
+7101513,
+7101514,
+7101515
+],
+"show": 1
+},
+{
+"id": 7150100,
+"title": "TechName_7150100",
+"des": "TechDes_7150100",
+"tab": 15,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7150200,
+7150300
+],
+"tech_list": [
+7150101
+],
+"show": 1
+},
+{
+"id": 7150200,
+"title": "TechName_7150200",
+"des": "TechDes_7150200",
+"tab": 15,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7150400
+],
+"tech_list": [
+7150201,
+7150202,
+7150203,
+7150204,
+7150205,
+7150206,
+7150207,
+7150208,
+7150209,
+7150210
+],
+"show": 2
+},
+{
+"id": 7150300,
+"title": "TechName_7150300",
+"des": "TechDes_7150300",
+"tab": 15,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150300",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7150400
+],
+"tech_list": [
+7150301,
+7150302,
+7150303,
+7150304,
+7150305,
+7150306,
+7150307,
+7150308,
+7150309,
+7150310
+],
+"show": 2
+},
+{
+"id": 7150400,
+"title": "TechName_7150400",
+"des": "TechDes_7150400",
+"tab": 15,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150400",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7150500,
+7150600
+],
+"tech_list": [
+7150401
+],
+"show": 1
+},
+{
+"id": 7150500,
+"title": "TechName_7150500",
+"des": "TechDes_7150500",
+"tab": 15,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150500",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7150700
+],
+"tech_list": [
+7150501,
+7150502,
+7150503,
+7150504,
+7150505,
+7150506,
+7150507,
+7150508,
+7150509,
+7150510,
+7150511,
+7150512,
+7150513,
+7150514,
+7150515
+],
+"show": 2
+},
+{
+"id": 7150600,
+"title": "TechName_7150600",
+"des": "TechDes_7150600",
+"tab": 15,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150600",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7150700
+],
+"tech_list": [
+7150601,
+7150602,
+7150603,
+7150604,
+7150605,
+7150606,
+7150607,
+7150608,
+7150609,
+7150610,
+7150611,
+7150612,
+7150613,
+7150614,
+7150615
+],
+"show": 2
+},
+{
+"id": 7150700,
+"title": "TechName_7150700",
+"des": "TechDes_7150700",
+"tab": 15,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150100",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7150800,
+7150900
+],
+"tech_list": [
+7150701
+],
+"show": 1
+},
+{
+"id": 7150800,
+"title": "TechName_7150800",
+"des": "TechDes_7150800",
+"tab": 15,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150200",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7151000
+],
+"tech_list": [
+7150801,
+7150802,
+7150803,
+7150804,
+7150805,
+7150806,
+7150807,
+7150808,
+7150809,
+7150810,
+7150811,
+7150812,
+7150813,
+7150814,
+7150815,
+7150816,
+7150817,
+7150818,
+7150819,
+7150820
+],
+"show": 2
+},
+{
+"id": 7150900,
+"title": "TechName_7150900",
+"des": "TechDes_7150900",
+"tab": 15,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150300",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7151000
+],
+"tech_list": [
+7150901,
+7150902,
+7150903,
+7150904,
+7150905,
+7150906,
+7150907,
+7150908,
+7150909,
+7150910,
+7150911,
+7150912,
+7150913,
+7150914,
+7150915,
+7150916,
+7150917,
+7150918,
+7150919,
+7150920
+],
+"show": 2
+},
+{
+"id": 7151000,
+"title": "TechName_7151000",
+"des": "TechDes_7151000",
+"tab": 15,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150400",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7151100,
+7151200
+],
+"tech_list": [
+7151001
+],
+"show": 1
+},
+{
+"id": 7151100,
+"title": "TechName_7151100",
+"des": "TechDes_7151100",
+"tab": 15,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150500",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7151300
+],
+"tech_list": [
+7151101,
+7151102,
+7151103,
+7151104,
+7151105,
+7151106,
+7151107,
+7151108,
+7151109,
+7151110,
+7151111,
+7151112,
+7151113,
+7151114,
+7151115,
+7151116,
+7151117,
+7151118,
+7151119,
+7151120
+],
+"show": 2
+},
+{
+"id": 7151200,
+"title": "TechName_7151200",
+"des": "TechDes_7151200",
+"tab": 15,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7150600",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7151300
+],
+"tech_list": [
+7151201,
+7151202,
+7151203,
+7151204,
+7151205,
+7151206,
+7151207,
+7151208,
+7151209,
+7151210,
+7151211,
+7151212,
+7151213,
+7151214,
+7151215,
+7151216,
+7151217,
+7151218,
+7151219,
+7151220
+],
+"show": 2
+},
+{
+"id": 7151300,
+"title": "TechName_7151300",
+"des": "TechDes_7151300",
+"tab": 15,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7151300",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7151400
+],
+"tech_list": [
+7151301,
+7151302,
+7151303,
+7151304,
+7151305,
+7151306,
+7151307,
+7151308,
+7151309,
+7151310,
+7151311,
+7151312,
+7151313,
+7151314,
+7151315,
+7151316,
+7151317,
+7151318,
+7151319,
+7151320
+],
+"show": 2
+},
+{
+"id": 7151400,
+"title": "TechName_7151400",
+"des": "TechDes_7151400",
+"tab": 15,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7151400",
+"position": {
+"x": 4,
+"y": 10
+},
+"tech_list": [
+7151401
+],
+"show": 1
+},
+{
+"id": 7160100,
+"title": "TechName_7160100",
+"des": "TechDes_7160100",
+"tab": 16,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7160200,
+7160300,
+7160400
+],
+"tech_list": [
+7160101,
+7160102,
+7160103,
+7160104,
+7160105,
+7160106,
+7160107,
+7160108,
+7160109,
+7160110,
+7160111,
+7160112,
+7160113,
+7160114,
+7160115,
+7160116,
+7160117,
+7160118,
+7160119,
+7160120
+],
+"show": 1
+},
+{
+"id": 7160200,
+"title": "TechName_7160200",
+"des": "TechDes_7160200",
+"tab": 16,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7160500
+],
+"tech_list": [
+7160201,
+7160202,
+7160203,
+7160204,
+7160205,
+7160206,
+7160207,
+7160208,
+7160209,
+7160210,
+7160211,
+7160212,
+7160213,
+7160214,
+7160215,
+7160216,
+7160217,
+7160218,
+7160219,
+7160220
+],
+"show": 1
+},
+{
+"id": 7160300,
+"title": "TechName_7160300",
+"des": "TechDes_7160300",
+"tab": 16,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7160500
+],
+"tech_list": [
+7160301,
+7160302,
+7160303,
+7160304,
+7160305,
+7160306,
+7160307,
+7160308,
+7160309,
+7160310,
+7160311,
+7160312,
+7160313,
+7160314,
+7160315,
+7160316,
+7160317,
+7160318,
+7160319,
+7160320
+],
+"show": 1
+},
+{
+"id": 7160400,
+"title": "TechName_7160400",
+"des": "TechDes_7160400",
+"tab": 16,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160400",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7160500
+],
+"tech_list": [
+7160401,
+7160402,
+7160403,
+7160404,
+7160405,
+7160406,
+7160407,
+7160408,
+7160409,
+7160410,
+7160411,
+7160412,
+7160413,
+7160414,
+7160415,
+7160416,
+7160417,
+7160418,
+7160419,
+7160420
+],
+"show": 1
+},
+{
+"id": 7160500,
+"title": "TechName_7160500",
+"des": "TechDes_7160500",
+"tab": 16,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7160600
+],
+"tech_list": [
+7160501,
+7160502,
+7160503,
+7160504,
+7160505,
+7160506,
+7160507,
+7160508,
+7160509,
+7160510,
+7160511,
+7160512,
+7160513,
+7160514,
+7160515,
+7160516,
+7160517,
+7160518,
+7160519,
+7160520
+],
+"show": 1
+},
+{
+"id": 7160600,
+"title": "TechName_7160600",
+"des": "TechDes_7160600",
+"tab": 16,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160600",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7160700,
+7160800,
+7160900
+],
+"tech_list": [
+7160601,
+7160602,
+7160603,
+7160604,
+7160605,
+7160606,
+7160607,
+7160608,
+7160609,
+7160610,
+7160611,
+7160612,
+7160613,
+7160614,
+7160615,
+7160616,
+7160617,
+7160618,
+7160619,
+7160620
+],
+"show": 1
+},
+{
+"id": 7160700,
+"title": "TechName_7160700",
+"des": "TechDes_7160700",
+"tab": 16,
+"max_lv": 25,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160700",
+"position": {
+"x": 2,
+"y": 5
+},
+"tech_list": [
+7160701,
+7160702,
+7160703,
+7160704,
+7160705,
+7160706,
+7160707,
+7160708,
+7160709,
+7160710,
+7160711,
+7160712,
+7160713,
+7160714,
+7160715,
+7160716,
+7160717,
+7160718,
+7160719,
+7160720,
+7160721,
+7160722,
+7160723,
+7160724,
+7160725
+],
+"show": 2
+},
+{
+"id": 7160800,
+"title": "TechName_7160800",
+"des": "TechDes_7160800",
+"tab": 16,
+"max_lv": 25,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160800",
+"position": {
+"x": 4,
+"y": 5
+},
+"tech_list": [
+7160801,
+7160802,
+7160803,
+7160804,
+7160805,
+7160806,
+7160807,
+7160808,
+7160809,
+7160810,
+7160811,
+7160812,
+7160813,
+7160814,
+7160815,
+7160816,
+7160817,
+7160818,
+7160819,
+7160820,
+7160821,
+7160822,
+7160823,
+7160824,
+7160825
+],
+"show": 2
+},
+{
+"id": 7160900,
+"title": "TechName_7160900",
+"des": "TechDes_7160900",
+"tab": 16,
+"max_lv": 25,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160900",
+"position": {
+"x": 6,
+"y": 5
+},
+"tech_list": [
+7160901,
+7160902,
+7160903,
+7160904,
+7160905,
+7160906,
+7160907,
+7160908,
+7160909,
+7160910,
+7160911,
+7160912,
+7160913,
+7160914,
+7160915,
+7160916,
+7160917,
+7160918,
+7160919,
+7160920,
+7160921,
+7160922,
+7160923,
+7160924,
+7160925
+],
+"show": 2
+},
+{
+"id": 7170100,
+"title": "TechName_7170100",
+"des": "TechDes_7170100",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7170100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7170300
+],
+"tech_list": [
+7170101,
+7170102,
+7170103,
+7170104,
+7170105,
+7170106,
+7170107,
+7170108,
+7170109,
+7170110,
+7170111,
+7170112,
+7170113,
+7170114,
+7170115,
+7170116,
+7170117,
+7170118,
+7170119,
+7170120
+],
+"show": 1
+},
+{
+"id": 7170200,
+"title": "TechName_7170200",
+"des": "TechDes_7170200",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7170200",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7170400
+],
+"tech_list": [
+7170201,
+7170202,
+7170203,
+7170204,
+7170205,
+7170206,
+7170207,
+7170208,
+7170209,
+7170210,
+7170211,
+7170212,
+7170213,
+7170214,
+7170215,
+7170216,
+7170217,
+7170218,
+7170219,
+7170220
+],
+"show": 1
+},
+{
+"id": 7170300,
+"title": "TechName_7170300",
+"des": "TechDes_7170300",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7170500
+],
+"tech_list": [
+7170301,
+7170302,
+7170303,
+7170304,
+7170305,
+7170306,
+7170307,
+7170308,
+7170309,
+7170310,
+7170311,
+7170312,
+7170313,
+7170314,
+7170315,
+7170316,
+7170317,
+7170318,
+7170319,
+7170320
+],
+"show": 1
+},
+{
+"id": 7170400,
+"title": "TechName_7170400",
+"des": "TechDes_7170400",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7170500
+],
+"tech_list": [
+7170401,
+7170402,
+7170403,
+7170404,
+7170405,
+7170406,
+7170407,
+7170408,
+7170409,
+7170410,
+7170411,
+7170412,
+7170413,
+7170414,
+7170415,
+7170416,
+7170417,
+7170418,
+7170419,
+7170420
+],
+"show": 1
+},
+{
+"id": 7170500,
+"title": "TechName_7170500",
+"des": "TechDes_7170500",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160700",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7170600
+],
+"tech_list": [
+7170501,
+7170502,
+7170503,
+7170504,
+7170505,
+7170506,
+7170507,
+7170508,
+7170509,
+7170510,
+7170511,
+7170512,
+7170513,
+7170514,
+7170515,
+7170516,
+7170517,
+7170518,
+7170519,
+7170520
+],
+"show": 2
+},
+{
+"id": 7170600,
+"title": "TechName_7170600",
+"des": "TechDes_7170600",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7110300",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7170700,
+7170800
+],
+"tech_list": [
+7170601,
+7170602,
+7170603,
+7170604,
+7170605,
+7170606,
+7170607,
+7170608,
+7170609,
+7170610,
+7170611,
+7170612,
+7170613,
+7170614,
+7170615,
+7170616,
+7170617,
+7170618,
+7170619,
+7170620
+],
+"show": 1
+},
+{
+"id": 7170700,
+"title": "TechName_7170700",
+"des": "TechDes_7170700",
+"tab": 17,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7060900",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7170900
+],
+"tech_list": [
+7170701,
+7170702,
+7170703,
+7170704,
+7170705,
+7170706,
+7170707,
+7170708,
+7170709,
+7170710,
+7170711,
+7170712,
+7170713,
+7170714,
+7170715
+],
+"show": 2
+},
+{
+"id": 7170800,
+"title": "TechName_7170800",
+"des": "TechDes_7170800",
+"tab": 17,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7170800",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7171000
+],
+"tech_list": [
+7170801,
+7170802,
+7170803,
+7170804,
+7170805,
+7170806,
+7170807,
+7170808,
+7170809,
+7170810,
+7170811,
+7170812,
+7170813,
+7170814,
+7170815
+],
+"show": 2
+},
+{
+"id": 7170900,
+"title": "TechName_7170900",
+"des": "TechDes_7170900",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7170900",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7171100
+],
+"tech_list": [
+7170901,
+7170902,
+7170903,
+7170904,
+7170905,
+7170906,
+7170907,
+7170908,
+7170909,
+7170910,
+7170911,
+7170912,
+7170913,
+7170914,
+7170915,
+7170916,
+7170917,
+7170918,
+7170919,
+7170920
+],
+"show": 1
+},
+{
+"id": 7171000,
+"title": "TechName_7171000",
+"des": "TechDes_7171000",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7111400",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7171100
+],
+"tech_list": [
+7171001,
+7171002,
+7171003,
+7171004,
+7171005,
+7171006,
+7171007,
+7171008,
+7171009,
+7171010,
+7171011,
+7171012,
+7171013,
+7171014,
+7171015,
+7171016,
+7171017,
+7171018,
+7171019,
+7171020
+],
+"show": 1
+},
+{
+"id": 7171100,
+"title": "TechName_7171100",
+"des": "TechDes_7171100",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7050500",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7171200,
+7171300
+],
+"tech_list": [
+7171101,
+7171102,
+7171103,
+7171104,
+7171105,
+7171106,
+7171107,
+7171108,
+7171109,
+7171110,
+7171111,
+7171112,
+7171113,
+7171114,
+7171115,
+7171116,
+7171117,
+7171118,
+7171119,
+7171120
+],
+"show": 1
+},
+{
+"id": 7171200,
+"title": "TechName_7171200",
+"des": "TechDes_7171200",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7170100",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7171400
+],
+"tech_list": [
+7171201,
+7171202,
+7171203,
+7171204,
+7171205,
+7171206,
+7171207,
+7171208,
+7171209,
+7171210,
+7171211,
+7171212,
+7171213,
+7171214,
+7171215,
+7171216,
+7171217,
+7171218,
+7171219,
+7171220
+],
+"show": 1
+},
+{
+"id": 7171300,
+"title": "TechName_7171300",
+"des": "TechDes_7171300",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7170200",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7171400
+],
+"tech_list": [
+7171301,
+7171302,
+7171303,
+7171304,
+7171305,
+7171306,
+7171307,
+7171308,
+7171309,
+7171310,
+7171311,
+7171312,
+7171313,
+7171314,
+7171315,
+7171316,
+7171317,
+7171318,
+7171319,
+7171320
+],
+"show": 1
+},
+{
+"id": 7171400,
+"title": "TechName_7171400",
+"des": "TechDes_7171400",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7171400",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7171500
+],
+"tech_list": [
+7171401,
+7171402,
+7171403,
+7171404,
+7171405,
+7171406,
+7171407,
+7171408,
+7171409,
+7171410,
+7171411,
+7171412,
+7171413,
+7171414,
+7171415,
+7171416,
+7171417,
+7171418,
+7171419,
+7171420
+],
+"show": 1
+},
+{
+"id": 7171500,
+"title": "TechName_7171500",
+"des": "TechDes_7171500",
+"tab": 17,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7171500",
+"position": {
+"x": 4,
+"y": 10
+},
+"relation": [
+7171600
+],
+"tech_list": [
+7171501,
+7171502,
+7171503,
+7171504,
+7171505,
+7171506,
+7171507,
+7171508,
+7171509,
+7171510,
+7171511,
+7171512,
+7171513,
+7171514,
+7171515,
+7171516,
+7171517,
+7171518,
+7171519,
+7171520
+],
+"show": 1
+},
+{
+"id": 7171600,
+"title": "TechName_7171600",
+"des": "TechDes_7171600",
+"tab": 17,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7171600",
+"position": {
+"x": 4,
+"y": 11
+},
+"tech_list": [
+7171601
+],
+"show": 2
+},
+{
+"id": 7180100,
+"title": "TechName_7180100",
+"des": "TechDes_7180100",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7180100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7180300
+],
+"tech_list": [
+7180101,
+7180102,
+7180103,
+7180104,
+7180105,
+7180106,
+7180107,
+7180108,
+7180109,
+7180110,
+7180111,
+7180112,
+7180113,
+7180114,
+7180115,
+7180116,
+7180117,
+7180118,
+7180119,
+7180120
+],
+"show": 1
+},
+{
+"id": 7180200,
+"title": "TechName_7180200",
+"des": "TechDes_7180200",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7180200",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7180400
+],
+"tech_list": [
+7180201,
+7180202,
+7180203,
+7180204,
+7180205,
+7180206,
+7180207,
+7180208,
+7180209,
+7180210,
+7180211,
+7180212,
+7180213,
+7180214,
+7180215,
+7180216,
+7180217,
+7180218,
+7180219,
+7180220
+],
+"show": 1
+},
+{
+"id": 7180300,
+"title": "TechName_7180300",
+"des": "TechDes_7180300",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7180500
+],
+"tech_list": [
+7180301,
+7180302,
+7180303,
+7180304,
+7180305,
+7180306,
+7180307,
+7180308,
+7180309,
+7180310,
+7180311,
+7180312,
+7180313,
+7180314,
+7180315,
+7180316,
+7180317,
+7180318,
+7180319,
+7180320
+],
+"show": 1
+},
+{
+"id": 7180400,
+"title": "TechName_7180400",
+"des": "TechDes_7180400",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7180500
+],
+"tech_list": [
+7180401,
+7180402,
+7180403,
+7180404,
+7180405,
+7180406,
+7180407,
+7180408,
+7180409,
+7180410,
+7180411,
+7180412,
+7180413,
+7180414,
+7180415,
+7180416,
+7180417,
+7180418,
+7180419,
+7180420
+],
+"show": 1
+},
+{
+"id": 7180500,
+"title": "TechName_7180500",
+"des": "TechDes_7180500",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160800",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7180600
+],
+"tech_list": [
+7180501,
+7180502,
+7180503,
+7180504,
+7180505,
+7180506,
+7180507,
+7180508,
+7180509,
+7180510,
+7180511,
+7180512,
+7180513,
+7180514,
+7180515,
+7180516,
+7180517,
+7180518,
+7180519,
+7180520
+],
+"show": 2
+},
+{
+"id": 7180600,
+"title": "TechName_7180600",
+"des": "TechDes_7180600",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7120300",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7180700,
+7180800
+],
+"tech_list": [
+7180601,
+7180602,
+7180603,
+7180604,
+7180605,
+7180606,
+7180607,
+7180608,
+7180609,
+7180610,
+7180611,
+7180612,
+7180613,
+7180614,
+7180615,
+7180616,
+7180617,
+7180618,
+7180619,
+7180620
+],
+"show": 1
+},
+{
+"id": 7180700,
+"title": "TechName_7180700",
+"des": "TechDes_7180700",
+"tab": 18,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061000",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7180900
+],
+"tech_list": [
+7180701,
+7180702,
+7180703,
+7180704,
+7180705,
+7180706,
+7180707,
+7180708,
+7180709,
+7180710,
+7180711,
+7180712,
+7180713,
+7180714,
+7180715
+],
+"show": 2
+},
+{
+"id": 7180800,
+"title": "TechName_7180800",
+"des": "TechDes_7180800",
+"tab": 18,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7180800",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7181000
+],
+"tech_list": [
+7180801,
+7180802,
+7180803,
+7180804,
+7180805,
+7180806,
+7180807,
+7180808,
+7180809,
+7180810,
+7180811,
+7180812,
+7180813,
+7180814,
+7180815
+],
+"show": 2
+},
+{
+"id": 7180900,
+"title": "TechName_7180900",
+"des": "TechDes_7180900",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7121400",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7181100
+],
+"tech_list": [
+7180901,
+7180902,
+7180903,
+7180904,
+7180905,
+7180906,
+7180907,
+7180908,
+7180909,
+7180910,
+7180911,
+7180912,
+7180913,
+7180914,
+7180915,
+7180916,
+7180917,
+7180918,
+7180919,
+7180920
+],
+"show": 1
+},
+{
+"id": 7181000,
+"title": "TechName_7181000",
+"des": "TechDes_7181000",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7181000",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7181100
+],
+"tech_list": [
+7181001,
+7181002,
+7181003,
+7181004,
+7181005,
+7181006,
+7181007,
+7181008,
+7181009,
+7181010,
+7181011,
+7181012,
+7181013,
+7181014,
+7181015,
+7181016,
+7181017,
+7181018,
+7181019,
+7181020
+],
+"show": 1
+},
+{
+"id": 7181100,
+"title": "TechName_7181100",
+"des": "TechDes_7181100",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7050600",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7181200,
+7181300
+],
+"tech_list": [
+7181101,
+7181102,
+7181103,
+7181104,
+7181105,
+7181106,
+7181107,
+7181108,
+7181109,
+7181110,
+7181111,
+7181112,
+7181113,
+7181114,
+7181115,
+7181116,
+7181117,
+7181118,
+7181119,
+7181120
+],
+"show": 1
+},
+{
+"id": 7181200,
+"title": "TechName_7181200",
+"des": "TechDes_7181200",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7180100",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7181400
+],
+"tech_list": [
+7181201,
+7181202,
+7181203,
+7181204,
+7181205,
+7181206,
+7181207,
+7181208,
+7181209,
+7181210,
+7181211,
+7181212,
+7181213,
+7181214,
+7181215,
+7181216,
+7181217,
+7181218,
+7181219,
+7181220
+],
+"show": 1
+},
+{
+"id": 7181300,
+"title": "TechName_7181300",
+"des": "TechDes_7181300",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7180200",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7181400
+],
+"tech_list": [
+7181301,
+7181302,
+7181303,
+7181304,
+7181305,
+7181306,
+7181307,
+7181308,
+7181309,
+7181310,
+7181311,
+7181312,
+7181313,
+7181314,
+7181315,
+7181316,
+7181317,
+7181318,
+7181319,
+7181320
+],
+"show": 1
+},
+{
+"id": 7181400,
+"title": "TechName_7181400",
+"des": "TechDes_7181400",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7181400",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7181500
+],
+"tech_list": [
+7181401,
+7181402,
+7181403,
+7181404,
+7181405,
+7181406,
+7181407,
+7181408,
+7181409,
+7181410,
+7181411,
+7181412,
+7181413,
+7181414,
+7181415,
+7181416,
+7181417,
+7181418,
+7181419,
+7181420
+],
+"show": 1
+},
+{
+"id": 7181500,
+"title": "TechName_7181500",
+"des": "TechDes_7181500",
+"tab": 18,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7181500",
+"position": {
+"x": 4,
+"y": 10
+},
+"relation": [
+7181600
+],
+"tech_list": [
+7181501,
+7181502,
+7181503,
+7181504,
+7181505,
+7181506,
+7181507,
+7181508,
+7181509,
+7181510,
+7181511,
+7181512,
+7181513,
+7181514,
+7181515,
+7181516,
+7181517,
+7181518,
+7181519,
+7181520
+],
+"show": 1
+},
+{
+"id": 7181600,
+"title": "TechName_7181600",
+"des": "TechDes_7181600",
+"tab": 18,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7181600",
+"position": {
+"x": 4,
+"y": 11
+},
+"tech_list": [
+7181601
+],
+"show": 2
+},
+{
+"id": 7190100,
+"title": "TechName_7190100",
+"des": "TechDes_7190100",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7190100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7190300
+],
+"tech_list": [
+7190101,
+7190102,
+7190103,
+7190104,
+7190105,
+7190106,
+7190107,
+7190108,
+7190109,
+7190110,
+7190111,
+7190112,
+7190113,
+7190114,
+7190115,
+7190116,
+7190117,
+7190118,
+7190119,
+7190120
+],
+"show": 1
+},
+{
+"id": 7190200,
+"title": "TechName_7190200",
+"des": "TechDes_7190200",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7190200",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7190400
+],
+"tech_list": [
+7190201,
+7190202,
+7190203,
+7190204,
+7190205,
+7190206,
+7190207,
+7190208,
+7190209,
+7190210,
+7190211,
+7190212,
+7190213,
+7190214,
+7190215,
+7190216,
+7190217,
+7190218,
+7190219,
+7190220
+],
+"show": 1
+},
+{
+"id": 7190300,
+"title": "TechName_7190300",
+"des": "TechDes_7190300",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7190500
+],
+"tech_list": [
+7190301,
+7190302,
+7190303,
+7190304,
+7190305,
+7190306,
+7190307,
+7190308,
+7190309,
+7190310,
+7190311,
+7190312,
+7190313,
+7190314,
+7190315,
+7190316,
+7190317,
+7190318,
+7190319,
+7190320
+],
+"show": 1
+},
+{
+"id": 7190400,
+"title": "TechName_7190400",
+"des": "TechDes_7190400",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7190500
+],
+"tech_list": [
+7190401,
+7190402,
+7190403,
+7190404,
+7190405,
+7190406,
+7190407,
+7190408,
+7190409,
+7190410,
+7190411,
+7190412,
+7190413,
+7190414,
+7190415,
+7190416,
+7190417,
+7190418,
+7190419,
+7190420
+],
+"show": 1
+},
+{
+"id": 7190500,
+"title": "TechName_7190500",
+"des": "TechDes_7190500",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7160900",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7190600
+],
+"tech_list": [
+7190501,
+7190502,
+7190503,
+7190504,
+7190505,
+7190506,
+7190507,
+7190508,
+7190509,
+7190510,
+7190511,
+7190512,
+7190513,
+7190514,
+7190515,
+7190516,
+7190517,
+7190518,
+7190519,
+7190520
+],
+"show": 2
+},
+{
+"id": 7190600,
+"title": "TechName_7190600",
+"des": "TechDes_7190600",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7130300",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7190700,
+7190800
+],
+"tech_list": [
+7190601,
+7190602,
+7190603,
+7190604,
+7190605,
+7190606,
+7190607,
+7190608,
+7190609,
+7190610,
+7190611,
+7190612,
+7190613,
+7190614,
+7190615,
+7190616,
+7190617,
+7190618,
+7190619,
+7190620
+],
+"show": 1
+},
+{
+"id": 7190700,
+"title": "TechName_7190700",
+"des": "TechDes_7190700",
+"tab": 19,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "tech_7061100",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7190900
+],
+"tech_list": [
+7190701,
+7190702,
+7190703,
+7190704,
+7190705,
+7190706,
+7190707,
+7190708,
+7190709,
+7190710,
+7190711,
+7190712,
+7190713,
+7190714,
+7190715
+],
+"show": 2
+},
+{
+"id": 7190800,
+"title": "TechName_7190800",
+"des": "TechDes_7190800",
+"tab": 19,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7190800",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7191000
+],
+"tech_list": [
+7190801,
+7190802,
+7190803,
+7190804,
+7190805,
+7190806,
+7190807,
+7190808,
+7190809,
+7190810,
+7190811,
+7190812,
+7190813,
+7190814,
+7190815
+],
+"show": 2
+},
+{
+"id": 7190900,
+"title": "TechName_7190900",
+"des": "TechDes_7190900",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7190900",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7191100
+],
+"tech_list": [
+7190901,
+7190902,
+7190903,
+7190904,
+7190905,
+7190906,
+7190907,
+7190908,
+7190909,
+7190910,
+7190911,
+7190912,
+7190913,
+7190914,
+7190915,
+7190916,
+7190917,
+7190918,
+7190919,
+7190920
+],
+"show": 1
+},
+{
+"id": 7191000,
+"title": "TechName_7191000",
+"des": "TechDes_7191000",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7191000",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7191100
+],
+"tech_list": [
+7191001,
+7191002,
+7191003,
+7191004,
+7191005,
+7191006,
+7191007,
+7191008,
+7191009,
+7191010,
+7191011,
+7191012,
+7191013,
+7191014,
+7191015,
+7191016,
+7191017,
+7191018,
+7191019,
+7191020
+],
+"show": 1
+},
+{
+"id": 7191100,
+"title": "TechName_7191100",
+"des": "TechDes_7191100",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7050700",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7191200,
+7191300
+],
+"tech_list": [
+7191101,
+7191102,
+7191103,
+7191104,
+7191105,
+7191106,
+7191107,
+7191108,
+7191109,
+7191110,
+7191111,
+7191112,
+7191113,
+7191114,
+7191115,
+7191116,
+7191117,
+7191118,
+7191119,
+7191120
+],
+"show": 1
+},
+{
+"id": 7191200,
+"title": "TechName_7191200",
+"des": "TechDes_7191200",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7190100",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7191400
+],
+"tech_list": [
+7191201,
+7191202,
+7191203,
+7191204,
+7191205,
+7191206,
+7191207,
+7191208,
+7191209,
+7191210,
+7191211,
+7191212,
+7191213,
+7191214,
+7191215,
+7191216,
+7191217,
+7191218,
+7191219,
+7191220
+],
+"show": 1
+},
+{
+"id": 7191300,
+"title": "TechName_7191300",
+"des": "TechDes_7191300",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7190200",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7191400
+],
+"tech_list": [
+7191301,
+7191302,
+7191303,
+7191304,
+7191305,
+7191306,
+7191307,
+7191308,
+7191309,
+7191310,
+7191311,
+7191312,
+7191313,
+7191314,
+7191315,
+7191316,
+7191317,
+7191318,
+7191319,
+7191320
+],
+"show": 1
+},
+{
+"id": 7191400,
+"title": "TechName_7191400",
+"des": "TechDes_7191400",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7191400",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7191500
+],
+"tech_list": [
+7191401,
+7191402,
+7191403,
+7191404,
+7191405,
+7191406,
+7191407,
+7191408,
+7191409,
+7191410,
+7191411,
+7191412,
+7191413,
+7191414,
+7191415,
+7191416,
+7191417,
+7191418,
+7191419,
+7191420
+],
+"show": 1
+},
+{
+"id": 7191500,
+"title": "TechName_7191500",
+"des": "TechDes_7191500",
+"tab": 19,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7131500",
+"position": {
+"x": 4,
+"y": 10
+},
+"relation": [
+7191600
+],
+"tech_list": [
+7191501,
+7191502,
+7191503,
+7191504,
+7191505,
+7191506,
+7191507,
+7191508,
+7191509,
+7191510,
+7191511,
+7191512,
+7191513,
+7191514,
+7191515,
+7191516,
+7191517,
+7191518,
+7191519,
+7191520
+],
+"show": 1
+},
+{
+"id": 7191600,
+"title": "TechName_7191600",
+"des": "TechDes_7191600",
+"tab": 19,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7191600",
+"position": {
+"x": 4,
+"y": 11
+},
+"tech_list": [
+7191601
+],
+"show": 2
+},
+{
+"id": 7200100,
+"title": "TechName_7200100",
+"des": "TechDes_7200100",
+"tab": 20,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200100",
+"position": {
+"x": 2,
+"y": 1
+},
+"relation": [
+7200400
+],
+"tech_list": [
+7200101,
+7200102,
+7200103,
+7200104,
+7200105
+],
+"show": 1
+},
+{
+"id": 7200200,
+"title": "TechName_7200200",
+"des": "TechDes_7200200",
+"tab": 20,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200200",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7200400
+],
+"tech_list": [
+7200201,
+7200202,
+7200203,
+7200204,
+7200205
+],
+"show": 1
+},
+{
+"id": 7200300,
+"title": "TechName_7200300",
+"des": "TechDes_7200300",
+"tab": 20,
+"max_lv": 5,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200300",
+"position": {
+"x": 6,
+"y": 1
+},
+"relation": [
+7200400
+],
+"tech_list": [
+7200301,
+7200302,
+7200303,
+7200304,
+7200305
+],
+"show": 1
+},
+{
+"id": 7200400,
+"title": "TechName_7200400",
+"des": "TechDes_7200400",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200400",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7200500
+],
+"tech_list": [
+7200401,
+7200402,
+7200403,
+7200404,
+7200405,
+7200406,
+7200407,
+7200408,
+7200409,
+7200410
+],
+"show": 1
+},
+{
+"id": 7200500,
+"title": "TechName_7200500",
+"des": "TechDes_7200500",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7200600,
+7200700,
+7200800
+],
+"tech_list": [
+7200501,
+7200502,
+7200503,
+7200504,
+7200505,
+7200506,
+7200507,
+7200508,
+7200509,
+7200510
+],
+"show": 1
+},
+{
+"id": 7200600,
+"title": "TechName_7200600",
+"des": "TechDes_7200600",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200600",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7200900
+],
+"tech_list": [
+7200601,
+7200602,
+7200603,
+7200604,
+7200605,
+7200606,
+7200607,
+7200608,
+7200609,
+7200610
+],
+"show": 1
+},
+{
+"id": 7200700,
+"title": "TechName_7200700",
+"des": "TechDes_7200700",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200700",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7200900
+],
+"tech_list": [
+7200701,
+7200702,
+7200703,
+7200704,
+7200705,
+7200706,
+7200707,
+7200708,
+7200709,
+7200710
+],
+"show": 1
+},
+{
+"id": 7200800,
+"title": "TechName_7200800",
+"des": "TechDes_7200800",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200800",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7200900
+],
+"tech_list": [
+7200801,
+7200802,
+7200803,
+7200804,
+7200805,
+7200806,
+7200807,
+7200808,
+7200809,
+7200810
+],
+"show": 1
+},
+{
+"id": 7200900,
+"title": "TechName_7200900",
+"des": "TechDes_7200900",
+"tab": 20,
+"max_lv": 15,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200400",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7201000
+],
+"tech_list": [
+7200901,
+7200902,
+7200903,
+7200904,
+7200905,
+7200906,
+7200907,
+7200908,
+7200909,
+7200910,
+7200911,
+7200912,
+7200913,
+7200914,
+7200915
+],
+"show": 1
+},
+{
+"id": 7201000,
+"title": "TechName_7201000",
+"des": "TechDes_7201000",
+"tab": 20,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7201000",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7201100,
+7201200,
+7201300
+],
+"tech_list": [
+7201001,
+7201002,
+7201003,
+7201004,
+7201005,
+7201006,
+7201007,
+7201008,
+7201009,
+7201010,
+7201011,
+7201012,
+7201013,
+7201014,
+7201015,
+7201016,
+7201017,
+7201018,
+7201019,
+7201020
+],
+"show": 1
+},
+{
+"id": 7201100,
+"title": "TechName_7201100",
+"des": "TechDes_7201100",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7201100",
+"position": {
+"x": 2,
+"y": 7
+},
+"relation": [
+7201400
+],
+"tech_list": [
+7201101,
+7201102,
+7201103,
+7201104,
+7201105,
+7201106,
+7201107,
+7201108,
+7201109,
+7201110
+],
+"show": 1
+},
+{
+"id": 7201200,
+"title": "TechName_7201200",
+"des": "TechDes_7201200",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7201200",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7201400
+],
+"tech_list": [
+7201201,
+7201202,
+7201203,
+7201204,
+7201205,
+7201206,
+7201207,
+7201208,
+7201209,
+7201210
+],
+"show": 1
+},
+{
+"id": 7201300,
+"title": "TechName_7201300",
+"des": "TechDes_7201300",
+"tab": 20,
+"max_lv": 10,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7201300",
+"position": {
+"x": 6,
+"y": 7
+},
+"relation": [
+7201400
+],
+"tech_list": [
+7201301,
+7201302,
+7201303,
+7201304,
+7201305,
+7201306,
+7201307,
+7201308,
+7201309,
+7201310
+],
+"show": 1
+},
+{
+"id": 7201400,
+"title": "TechName_7201400",
+"des": "TechDes_7201400",
+"tab": 20,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7200400",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7201500
+],
+"tech_list": [
+7201401,
+7201402,
+7201403,
+7201404,
+7201405,
+7201406,
+7201407,
+7201408,
+7201409,
+7201410,
+7201411,
+7201412,
+7201413,
+7201414,
+7201415,
+7201416,
+7201417,
+7201418,
+7201419,
+7201420
+],
+"show": 1
+},
+{
+"id": 7201500,
+"title": "TechName_7201500",
+"des": "TechDes_7201500",
+"tab": 20,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7201500",
+"position": {
+"x": 4,
+"y": 9
+},
+"tech_list": [
+7201501,
+7201502,
+7201503,
+7201504,
+7201505,
+7201506,
+7201507,
+7201508,
+7201509,
+7201510,
+7201511,
+7201512,
+7201513,
+7201514,
+7201515,
+7201516,
+7201517,
+7201518,
+7201519,
+7201520
+],
+"show": 1
+},
+{
+"id": 7210100,
+"title": "TechName_7210100",
+"des": "TechDes_7210100",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7210200,
+7210300,
+7210400
+],
+"tech_list": [
+7210101,
+7210102,
+7210103,
+7210104,
+7210105,
+7210106,
+7210107,
+7210108,
+7210109,
+7210110,
+7210111,
+7210112,
+7210113,
+7210114,
+7210115,
+7210116,
+7210117,
+7210118,
+7210119,
+7210120
+],
+"show": 1
+},
+{
+"id": 7210200,
+"title": "TechName_7210200",
+"des": "TechDes_7210200",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7210500
+],
+"tech_list": [
+7210201,
+7210202,
+7210203,
+7210204,
+7210205,
+7210206,
+7210207,
+7210208,
+7210209,
+7210210,
+7210211,
+7210212,
+7210213,
+7210214,
+7210215,
+7210216,
+7210217,
+7210218,
+7210219,
+7210220
+],
+"show": 1
+},
+{
+"id": 7210300,
+"title": "TechName_7210300",
+"des": "TechDes_7210300",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7210500
+],
+"tech_list": [
+7210301,
+7210302,
+7210303,
+7210304,
+7210305,
+7210306,
+7210307,
+7210308,
+7210309,
+7210310,
+7210311,
+7210312,
+7210313,
+7210314,
+7210315,
+7210316,
+7210317,
+7210318,
+7210319,
+7210320
+],
+"show": 1
+},
+{
+"id": 7210400,
+"title": "TechName_7210400",
+"des": "TechDes_7210400",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210400",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7210500
+],
+"tech_list": [
+7210401,
+7210402,
+7210403,
+7210404,
+7210405,
+7210406,
+7210407,
+7210408,
+7210409,
+7210410,
+7210411,
+7210412,
+7210413,
+7210414,
+7210415,
+7210416,
+7210417,
+7210418,
+7210419,
+7210420
+],
+"show": 1
+},
+{
+"id": 7210500,
+"title": "TechName_7210500",
+"des": "TechDes_7210500",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210500",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7210600
+],
+"tech_list": [
+7210501,
+7210502,
+7210503,
+7210504,
+7210505,
+7210506,
+7210507,
+7210508,
+7210509,
+7210510,
+7210511,
+7210512,
+7210513,
+7210514,
+7210515,
+7210516,
+7210517,
+7210518,
+7210519,
+7210520
+],
+"show": 1
+},
+{
+"id": 7210600,
+"title": "TechName_7210600",
+"des": "TechDes_7210600",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210600",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7210700,
+7210800,
+7210900
+],
+"tech_list": [
+7210601,
+7210602,
+7210603,
+7210604,
+7210605,
+7210606,
+7210607,
+7210608,
+7210609,
+7210610,
+7210611,
+7210612,
+7210613,
+7210614,
+7210615,
+7210616,
+7210617,
+7210618,
+7210619,
+7210620
+],
+"show": 1
+},
+{
+"id": 7210700,
+"title": "TechName_7210700",
+"des": "TechDes_7210700",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210700",
+"position": {
+"x": 2,
+"y": 5
+},
+"relation": [
+7211000
+],
+"tech_list": [
+7210701,
+7210702,
+7210703,
+7210704,
+7210705,
+7210706,
+7210707,
+7210708,
+7210709,
+7210710,
+7210711,
+7210712,
+7210713,
+7210714,
+7210715,
+7210716,
+7210717,
+7210718,
+7210719,
+7210720
+],
+"show": 1
+},
+{
+"id": 7210800,
+"title": "TechName_7210800",
+"des": "TechDes_7210800",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210800",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7211000
+],
+"tech_list": [
+7210801,
+7210802,
+7210803,
+7210804,
+7210805,
+7210806,
+7210807,
+7210808,
+7210809,
+7210810,
+7210811,
+7210812,
+7210813,
+7210814,
+7210815,
+7210816,
+7210817,
+7210818,
+7210819,
+7210820
+],
+"show": 1
+},
+{
+"id": 7210900,
+"title": "TechName_7210900",
+"des": "TechDes_7210900",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7210900",
+"position": {
+"x": 6,
+"y": 5
+},
+"relation": [
+7211000
+],
+"tech_list": [
+7210901,
+7210902,
+7210903,
+7210904,
+7210905,
+7210906,
+7210907,
+7210908,
+7210909,
+7210910,
+7210911,
+7210912,
+7210913,
+7210914,
+7210915,
+7210916,
+7210917,
+7210918,
+7210919,
+7210920
+],
+"show": 1
+},
+{
+"id": 7211000,
+"title": "TechName_7211000",
+"des": "TechDes_7211000",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211000",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7211100
+],
+"tech_list": [
+7211001,
+7211002,
+7211003,
+7211004,
+7211005,
+7211006,
+7211007,
+7211008,
+7211009,
+7211010,
+7211011,
+7211012,
+7211013,
+7211014,
+7211015,
+7211016,
+7211017,
+7211018,
+7211019,
+7211020
+],
+"show": 1
+},
+{
+"id": 7211100,
+"title": "TechName_7211100",
+"des": "TechDes_7211100",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211100",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7211200,
+7211300,
+7211400
+],
+"tech_list": [
+7211101,
+7211102,
+7211103,
+7211104,
+7211105,
+7211106,
+7211107,
+7211108,
+7211109,
+7211110,
+7211111,
+7211112,
+7211113,
+7211114,
+7211115,
+7211116,
+7211117,
+7211118,
+7211119,
+7211120
+],
+"show": 1
+},
+{
+"id": 7211200,
+"title": "TechName_7211200",
+"des": "TechDes_7211200",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211200",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7211500
+],
+"tech_list": [
+7211201,
+7211202,
+7211203,
+7211204,
+7211205,
+7211206,
+7211207,
+7211208,
+7211209,
+7211210,
+7211211,
+7211212,
+7211213,
+7211214,
+7211215,
+7211216,
+7211217,
+7211218,
+7211219,
+7211220
+],
+"show": 1
+},
+{
+"id": 7211300,
+"title": "TechName_7211300",
+"des": "TechDes_7211300",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7211500
+],
+"tech_list": [
+7211301,
+7211302,
+7211303,
+7211304,
+7211305,
+7211306,
+7211307,
+7211308,
+7211309,
+7211310,
+7211311,
+7211312,
+7211313,
+7211314,
+7211315,
+7211316,
+7211317,
+7211318,
+7211319,
+7211320
+],
+"show": 1
+},
+{
+"id": 7211400,
+"title": "TechName_7211400",
+"des": "TechDes_7211400",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211400",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7211500
+],
+"tech_list": [
+7211401,
+7211402,
+7211403,
+7211404,
+7211405,
+7211406,
+7211407,
+7211408,
+7211409,
+7211410,
+7211411,
+7211412,
+7211413,
+7211414,
+7211415,
+7211416,
+7211417,
+7211418,
+7211419,
+7211420
+],
+"show": 1
+},
+{
+"id": 7211500,
+"title": "TechName_7211500",
+"des": "TechDes_7211500",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211500",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7211600
+],
+"tech_list": [
+7211501,
+7211502,
+7211503,
+7211504,
+7211505,
+7211506,
+7211507,
+7211508,
+7211509,
+7211510,
+7211511,
+7211512,
+7211513,
+7211514,
+7211515,
+7211516,
+7211517,
+7211518,
+7211519,
+7211520
+],
+"show": 1
+},
+{
+"id": 7211600,
+"title": "TechName_7211600",
+"des": "TechDes_7211600",
+"tab": 21,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7211600",
+"position": {
+"x": 4,
+"y": 10
+},
+"tech_list": [
+7211601,
+7211602,
+7211603,
+7211604,
+7211605,
+7211606,
+7211607,
+7211608,
+7211609,
+7211610,
+7211611,
+7211612,
+7211613,
+7211614,
+7211615,
+7211616,
+7211617,
+7211618,
+7211619,
+7211620
+],
+"show": 1
+},
+{
+"id": 7220100,
+"title": "TechName_7220100",
+"des": "TechDes_7220100",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220100",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7220200,
+7220300
+],
+"tech_list": [
+7220101,
+7220102,
+7220103,
+7220104,
+7220105,
+7220106,
+7220107,
+7220108,
+7220109,
+7220110,
+7220111,
+7220112,
+7220113,
+7220114,
+7220115,
+7220116,
+7220117,
+7220118,
+7220119,
+7220120
+],
+"show": 1
+},
+{
+"id": 7220200,
+"title": "TechName_7220200",
+"des": "TechDes_7220200",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7220400
+],
+"tech_list": [
+7220201,
+7220202,
+7220203,
+7220204,
+7220205,
+7220206,
+7220207,
+7220208,
+7220209,
+7220210,
+7220211,
+7220212,
+7220213,
+7220214,
+7220215,
+7220216,
+7220217,
+7220218,
+7220219,
+7220220
+],
+"show": 1
+},
+{
+"id": 7220300,
+"title": "TechName_7220300",
+"des": "TechDes_7220300",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220300",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7220400
+],
+"tech_list": [
+7220301,
+7220302,
+7220303,
+7220304,
+7220305,
+7220306,
+7220307,
+7220308,
+7220309,
+7220310,
+7220311,
+7220312,
+7220313,
+7220314,
+7220315,
+7220316,
+7220317,
+7220318,
+7220319,
+7220320
+],
+"show": 1
+},
+{
+"id": 7220400,
+"title": "TechName_7220400",
+"des": "TechDes_7220400",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220400",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7220500,
+7220600,
+7220700
+],
+"tech_list": [
+7220401,
+7220402,
+7220403,
+7220404,
+7220405,
+7220406,
+7220407,
+7220408,
+7220409,
+7220410,
+7220411,
+7220412,
+7220413,
+7220414,
+7220415,
+7220416,
+7220417,
+7220418,
+7220419,
+7220420
+],
+"show": 1
+},
+{
+"id": 7220500,
+"title": "TechName_7220500",
+"des": "TechDes_7220500",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220500",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7220800
+],
+"tech_list": [
+7220501,
+7220502,
+7220503,
+7220504,
+7220505,
+7220506,
+7220507,
+7220508,
+7220509,
+7220510,
+7220511,
+7220512,
+7220513,
+7220514,
+7220515,
+7220516,
+7220517,
+7220518,
+7220519,
+7220520
+],
+"show": 1
+},
+{
+"id": 7220600,
+"title": "TechName_7220600",
+"des": "TechDes_7220600",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220600",
+"position": {
+"x": 4,
+"y": 4
+},
+"relation": [
+7220800
+],
+"tech_list": [
+7220601,
+7220602,
+7220603,
+7220604,
+7220605,
+7220606,
+7220607,
+7220608,
+7220609,
+7220610,
+7220611,
+7220612,
+7220613,
+7220614,
+7220615,
+7220616,
+7220617,
+7220618,
+7220619,
+7220620
+],
+"show": 1
+},
+{
+"id": 7220700,
+"title": "TechName_7220700",
+"des": "TechDes_7220700",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220700",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7220800
+],
+"tech_list": [
+7220701,
+7220702,
+7220703,
+7220704,
+7220705,
+7220706,
+7220707,
+7220708,
+7220709,
+7220710,
+7220711,
+7220712,
+7220713,
+7220714,
+7220715,
+7220716,
+7220717,
+7220718,
+7220719,
+7220720
+],
+"show": 1
+},
+{
+"id": 7220800,
+"title": "TechName_7220800",
+"des": "TechDes_7220800",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220800",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7220900,
+7221000
+],
+"tech_list": [
+7220801,
+7220802,
+7220803,
+7220804,
+7220805,
+7220806,
+7220807,
+7220808,
+7220809,
+7220810,
+7220811,
+7220812,
+7220813,
+7220814,
+7220815,
+7220816,
+7220817,
+7220818,
+7220819,
+7220820
+],
+"show": 1
+},
+{
+"id": 7220900,
+"title": "TechName_7220900",
+"des": "TechDes_7220900",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7220900",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7221100
+],
+"tech_list": [
+7220901,
+7220902,
+7220903,
+7220904,
+7220905,
+7220906,
+7220907,
+7220908,
+7220909,
+7220910,
+7220911,
+7220912,
+7220913,
+7220914,
+7220915,
+7220916,
+7220917,
+7220918,
+7220919,
+7220920
+],
+"show": 1
+},
+{
+"id": 7221000,
+"title": "TechName_7221000",
+"des": "TechDes_7221000",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221000",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7221100
+],
+"tech_list": [
+7221001,
+7221002,
+7221003,
+7221004,
+7221005,
+7221006,
+7221007,
+7221008,
+7221009,
+7221010,
+7221011,
+7221012,
+7221013,
+7221014,
+7221015,
+7221016,
+7221017,
+7221018,
+7221019,
+7221020
+],
+"show": 1
+},
+{
+"id": 7221100,
+"title": "TechName_7221100",
+"des": "TechDes_7221100",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221100",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7221200,
+7221300,
+7221400
+],
+"tech_list": [
+7221101,
+7221102,
+7221103,
+7221104,
+7221105,
+7221106,
+7221107,
+7221108,
+7221109,
+7221110,
+7221111,
+7221112,
+7221113,
+7221114,
+7221115,
+7221116,
+7221117,
+7221118,
+7221119,
+7221120
+],
+"show": 1
+},
+{
+"id": 7221200,
+"title": "TechName_7221200",
+"des": "TechDes_7221200",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221200",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7221500
+],
+"tech_list": [
+7221201,
+7221202,
+7221203,
+7221204,
+7221205,
+7221206,
+7221207,
+7221208,
+7221209,
+7221210,
+7221211,
+7221212,
+7221213,
+7221214,
+7221215,
+7221216,
+7221217,
+7221218,
+7221219,
+7221220
+],
+"show": 1
+},
+{
+"id": 7221300,
+"title": "TechName_7221300",
+"des": "TechDes_7221300",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221300",
+"position": {
+"x": 4,
+"y": 8
+},
+"relation": [
+7221500
+],
+"tech_list": [
+7221301,
+7221302,
+7221303,
+7221304,
+7221305,
+7221306,
+7221307,
+7221308,
+7221309,
+7221310,
+7221311,
+7221312,
+7221313,
+7221314,
+7221315,
+7221316,
+7221317,
+7221318,
+7221319,
+7221320
+],
+"show": 1
+},
+{
+"id": 7221400,
+"title": "TechName_7221400",
+"des": "TechDes_7221400",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221400",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7221500
+],
+"tech_list": [
+7221401,
+7221402,
+7221403,
+7221404,
+7221405,
+7221406,
+7221407,
+7221408,
+7221409,
+7221410,
+7221411,
+7221412,
+7221413,
+7221414,
+7221415,
+7221416,
+7221417,
+7221418,
+7221419,
+7221420
+],
+"show": 1
+},
+{
+"id": 7221500,
+"title": "TechName_7221500",
+"des": "TechDes_7221500",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221500",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7221600
+],
+"tech_list": [
+7221501,
+7221502,
+7221503,
+7221504,
+7221505,
+7221506,
+7221507,
+7221508,
+7221509,
+7221510,
+7221511,
+7221512,
+7221513,
+7221514,
+7221515,
+7221516,
+7221517,
+7221518,
+7221519,
+7221520
+],
+"show": 1
+},
+{
+"id": 7221600,
+"title": "TechName_7221600",
+"des": "TechDes_7221600",
+"tab": 22,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7221600",
+"position": {
+"x": 4,
+"y": 10
+},
+"tech_list": [
+7221601,
+7221602,
+7221603,
+7221604,
+7221605,
+7221606,
+7221607,
+7221608,
+7221609,
+7221610,
+7221611,
+7221612,
+7221613,
+7221614,
+7221615,
+7221616,
+7221617,
+7221618,
+7221619,
+7221620
+],
+"show": 1
+},
+{
+"id": 7230100,
+"title": "SeasonTechName_1",
+"des": "SeasonTechDes_1",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7230200,
+7230300,
+7230400
+],
+"tech_list": [
+7230101,
+7230102,
+7230103,
+7230104,
+7230105,
+7230106,
+7230107,
+7230108,
+7230109,
+7230110,
+7230111,
+7230112,
+7230113,
+7230114,
+7230115,
+7230116,
+7230117,
+7230118,
+7230119,
+7230120
+],
+"show": 1
+},
+{
+"id": 7230200,
+"title": "TechName_163",
+"des": "TechDes_163",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7230500
+],
+"tech_list": [
+7230201,
+7230202,
+7230203,
+7230204,
+7230205,
+7230206,
+7230207,
+7230208,
+7230209,
+7230210,
+7230211,
+7230212,
+7230213,
+7230214,
+7230215,
+7230216,
+7230217,
+7230218,
+7230219,
+7230220
+],
+"show": 1
+},
+{
+"id": 7230300,
+"title": "TechName_195",
+"des": "TechDes_195",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7230500
+],
+"tech_list": [
+7230301,
+7230302,
+7230303,
+7230304,
+7230305,
+7230306,
+7230307,
+7230308,
+7230309,
+7230310,
+7230311,
+7230312,
+7230313,
+7230314,
+7230315,
+7230316,
+7230317,
+7230318,
+7230319,
+7230320
+],
+"show": 1
+},
+{
+"id": 7230400,
+"title": "TechName_179",
+"des": "TechDes_179",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7230500
+],
+"tech_list": [
+7230401,
+7230402,
+7230403,
+7230404,
+7230405,
+7230406,
+7230407,
+7230408,
+7230409,
+7230410,
+7230411,
+7230412,
+7230413,
+7230414,
+7230415,
+7230416,
+7230417,
+7230418,
+7230419,
+7230420
+],
+"show": 1
+},
+{
+"id": 7230500,
+"title": "SeasonTechName_2",
+"des": "SeasonTechDes_1",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7230600,
+7230700
+],
+"tech_list": [
+7230501,
+7230502,
+7230503,
+7230504,
+7230505,
+7230506,
+7230507,
+7230508,
+7230509,
+7230510,
+7230511,
+7230512,
+7230513,
+7230514,
+7230515,
+7230516,
+7230517,
+7230518,
+7230519,
+7230520
+],
+"show": 1
+},
+{
+"id": 7230600,
+"title": "SeasonTechName_3",
+"des": "SeasonTechDes_2",
+"tab": 23,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_02",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7230800
+],
+"tech_list": [
+7230601
+],
+"show": 1
+},
+{
+"id": 7230700,
+"title": "SeasonTechName_4",
+"des": "SeasonTechDes_3",
+"tab": 23,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_03",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7230800
+],
+"tech_list": [
+7230701
+],
+"show": 2
+},
+{
+"id": 7230800,
+"title": "SeasonTechName_5",
+"des": "SeasonTechDes_1",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7230900,
+7231000,
+7231100
+],
+"tech_list": [
+7230801,
+7230802,
+7230803,
+7230804,
+7230805,
+7230806,
+7230807,
+7230808,
+7230809,
+7230810,
+7230811,
+7230812,
+7230813,
+7230814,
+7230815,
+7230816,
+7230817,
+7230818,
+7230819,
+7230820
+],
+"show": 1
+},
+{
+"id": 7230900,
+"title": "TechName_164",
+"des": "TechDes_164",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7231200
+],
+"tech_list": [
+7230901,
+7230902,
+7230903,
+7230904,
+7230905,
+7230906,
+7230907,
+7230908,
+7230909,
+7230910,
+7230911,
+7230912,
+7230913,
+7230914,
+7230915,
+7230916,
+7230917,
+7230918,
+7230919,
+7230920
+],
+"show": 1
+},
+{
+"id": 7231000,
+"title": "TechName_196",
+"des": "TechDes_196",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7231200
+],
+"tech_list": [
+7231001,
+7231002,
+7231003,
+7231004,
+7231005,
+7231006,
+7231007,
+7231008,
+7231009,
+7231010,
+7231011,
+7231012,
+7231013,
+7231014,
+7231015,
+7231016,
+7231017,
+7231018,
+7231019,
+7231020
+],
+"show": 1
+},
+{
+"id": 7231100,
+"title": "TechName_180",
+"des": "TechDes_180",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7231200
+],
+"tech_list": [
+7231101,
+7231102,
+7231103,
+7231104,
+7231105,
+7231106,
+7231107,
+7231108,
+7231109,
+7231110,
+7231111,
+7231112,
+7231113,
+7231114,
+7231115,
+7231116,
+7231117,
+7231118,
+7231119,
+7231120
+],
+"show": 1
+},
+{
+"id": 7231200,
+"title": "SeasonTechName_6",
+"des": "SeasonTechDes_1",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7231300,
+7231400
+],
+"tech_list": [
+7231201,
+7231202,
+7231203,
+7231204,
+7231205,
+7231206,
+7231207,
+7231208,
+7231209,
+7231210,
+7231211,
+7231212,
+7231213,
+7231214,
+7231215,
+7231216,
+7231217,
+7231218,
+7231219,
+7231220
+],
+"show": 1
+},
+{
+"id": 7231300,
+"title": "SeasonTechName_7",
+"des": "SeasonTechDes_2",
+"tab": 23,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_02",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7231500
+],
+"tech_list": [
+7231301
+],
+"show": 1
+},
+{
+"id": 7231400,
+"title": "SeasonTechName_8",
+"des": "SeasonTechDes_3",
+"tab": 23,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_03",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7231500
+],
+"tech_list": [
+7231401
+],
+"show": 2
+},
+{
+"id": 7231500,
+"title": "SeasonTechName_9",
+"des": "SeasonTechDes_1",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7231600,
+7231700,
+7231800
+],
+"tech_list": [
+7231501,
+7231502,
+7231503,
+7231504,
+7231505,
+7231506,
+7231507,
+7231508,
+7231509,
+7231510,
+7231511,
+7231512,
+7231513,
+7231514,
+7231515,
+7231516,
+7231517,
+7231518,
+7231519,
+7231520
+],
+"show": 1
+},
+{
+"id": 7231600,
+"title": "TechName_168",
+"des": "SeasonTechDes_4",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7171500",
+"position": {
+"x": 2,
+"y": 10
+},
+"relation": [
+7231900
+],
+"tech_list": [
+7231601,
+7231602,
+7231603,
+7231604,
+7231605,
+7231606,
+7231607,
+7231608,
+7231609,
+7231610,
+7231611,
+7231612,
+7231613,
+7231614,
+7231615,
+7231616,
+7231617,
+7231618,
+7231619,
+7231620
+],
+"show": 1
+},
+{
+"id": 7231700,
+"title": "TechName_209",
+"des": "SeasonTechDes_5",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7131500",
+"position": {
+"x": 6,
+"y": 10
+},
+"relation": [
+7231900
+],
+"tech_list": [
+7231701,
+7231702,
+7231703,
+7231704,
+7231705,
+7231706,
+7231707,
+7231708,
+7231709,
+7231710,
+7231711,
+7231712,
+7231713,
+7231714,
+7231715,
+7231716,
+7231717,
+7231718,
+7231719,
+7231720
+],
+"show": 1
+},
+{
+"id": 7231800,
+"title": "TechName_186",
+"des": "SeasonTechDes_6",
+"tab": 23,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7181500",
+"position": {
+"x": 4,
+"y": 10
+},
+"relation": [
+7231900
+],
+"tech_list": [
+7231801,
+7231802,
+7231803,
+7231804,
+7231805,
+7231806,
+7231807,
+7231808,
+7231809,
+7231810,
+7231811,
+7231812,
+7231813,
+7231814,
+7231815,
+7231816,
+7231817,
+7231818,
+7231819,
+7231820
+],
+"show": 1
+},
+{
+"id": 7231900,
+"title": "SeasonTechName_10",
+"des": "SeasonTechDes_2",
+"tab": 23,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_02",
+"position": {
+"x": 4,
+"y": 11
+},
+"relation": [
+7232000
+],
+"tech_list": [
+7231901
+],
+"show": 1
+},
+{
+"id": 7232000,
+"title": "SeasonTechName_11",
+"des": "SeasonTechDes_7",
+"tab": 23,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_04",
+"position": {
+"x": 4,
+"y": 12
+},
+"tech_list": [
+7232001
+],
+"show": 2
+},
+{
+"id": 7240100,
+"title": "SeasonTechName_1",
+"des": "SeasonTechDes_1",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 1
+},
+"relation": [
+7240200,
+7240300,
+7240400
+],
+"tech_list": [
+7240101,
+7240102,
+7240103,
+7240104,
+7240105,
+7240106,
+7240107,
+7240108,
+7240109,
+7240110,
+7240111,
+7240112,
+7240113,
+7240114,
+7240115,
+7240116,
+7240117,
+7240118,
+7240119,
+7240120
+],
+"show": 1
+},
+{
+"id": 7240200,
+"title": "TechName_163",
+"des": "TechDes_163",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031200",
+"position": {
+"x": 2,
+"y": 2
+},
+"relation": [
+7240500
+],
+"tech_list": [
+7240201,
+7240202,
+7240203,
+7240204,
+7240205,
+7240206,
+7240207,
+7240208,
+7240209,
+7240210,
+7240211,
+7240212,
+7240213,
+7240214,
+7240215,
+7240216,
+7240217,
+7240218,
+7240219,
+7240220
+],
+"show": 1
+},
+{
+"id": 7240300,
+"title": "TechName_195",
+"des": "TechDes_195",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031400",
+"position": {
+"x": 6,
+"y": 2
+},
+"relation": [
+7240500
+],
+"tech_list": [
+7240301,
+7240302,
+7240303,
+7240304,
+7240305,
+7240306,
+7240307,
+7240308,
+7240309,
+7240310,
+7240311,
+7240312,
+7240313,
+7240314,
+7240315,
+7240316,
+7240317,
+7240318,
+7240319,
+7240320
+],
+"show": 1
+},
+{
+"id": 7240400,
+"title": "TechName_179",
+"des": "TechDes_179",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7031300",
+"position": {
+"x": 4,
+"y": 2
+},
+"relation": [
+7240500
+],
+"tech_list": [
+7240401,
+7240402,
+7240403,
+7240404,
+7240405,
+7240406,
+7240407,
+7240408,
+7240409,
+7240410,
+7240411,
+7240412,
+7240413,
+7240414,
+7240415,
+7240416,
+7240417,
+7240418,
+7240419,
+7240420
+],
+"show": 1
+},
+{
+"id": 7240500,
+"title": "SeasonTechName_2",
+"des": "SeasonTechDes_1",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 3
+},
+"relation": [
+7240600,
+7240700
+],
+"tech_list": [
+7240501,
+7240502,
+7240503,
+7240504,
+7240505,
+7240506,
+7240507,
+7240508,
+7240509,
+7240510,
+7240511,
+7240512,
+7240513,
+7240514,
+7240515,
+7240516,
+7240517,
+7240518,
+7240519,
+7240520
+],
+"show": 1
+},
+{
+"id": 7240600,
+"title": "SeasonTechName_3",
+"des": "SeasonTechDes_2",
+"tab": 24,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_02",
+"position": {
+"x": 2,
+"y": 4
+},
+"relation": [
+7240800
+],
+"tech_list": [
+7240601
+],
+"show": 1
+},
+{
+"id": 7240700,
+"title": "SeasonTechName_4",
+"des": "SeasonTechDes_3",
+"tab": 24,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_03",
+"position": {
+"x": 6,
+"y": 4
+},
+"relation": [
+7240800
+],
+"tech_list": [
+7240701
+],
+"show": 2
+},
+{
+"id": 7240800,
+"title": "SeasonTechName_5",
+"des": "SeasonTechDes_1",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 5
+},
+"relation": [
+7240900,
+7241000,
+7241100
+],
+"tech_list": [
+7240801,
+7240802,
+7240803,
+7240804,
+7240805,
+7240806,
+7240807,
+7240808,
+7240809,
+7240810,
+7240811,
+7240812,
+7240813,
+7240814,
+7240815,
+7240816,
+7240817,
+7240818,
+7240819,
+7240820
+],
+"show": 1
+},
+{
+"id": 7240900,
+"title": "TechName_164",
+"des": "TechDes_164",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030400",
+"position": {
+"x": 2,
+"y": 6
+},
+"relation": [
+7241200
+],
+"tech_list": [
+7240901,
+7240902,
+7240903,
+7240904,
+7240905,
+7240906,
+7240907,
+7240908,
+7240909,
+7240910,
+7240911,
+7240912,
+7240913,
+7240914,
+7240915,
+7240916,
+7240917,
+7240918,
+7240919,
+7240920
+],
+"show": 1
+},
+{
+"id": 7241000,
+"title": "TechName_196",
+"des": "TechDes_196",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030600",
+"position": {
+"x": 6,
+"y": 6
+},
+"relation": [
+7241200
+],
+"tech_list": [
+7241001,
+7241002,
+7241003,
+7241004,
+7241005,
+7241006,
+7241007,
+7241008,
+7241009,
+7241010,
+7241011,
+7241012,
+7241013,
+7241014,
+7241015,
+7241016,
+7241017,
+7241018,
+7241019,
+7241020
+],
+"show": 1
+},
+{
+"id": 7241100,
+"title": "TechName_180",
+"des": "TechDes_180",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7030500",
+"position": {
+"x": 4,
+"y": 6
+},
+"relation": [
+7241200
+],
+"tech_list": [
+7241101,
+7241102,
+7241103,
+7241104,
+7241105,
+7241106,
+7241107,
+7241108,
+7241109,
+7241110,
+7241111,
+7241112,
+7241113,
+7241114,
+7241115,
+7241116,
+7241117,
+7241118,
+7241119,
+7241120
+],
+"show": 1
+},
+{
+"id": 7241200,
+"title": "SeasonTechName_6",
+"des": "SeasonTechDes_1",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 7
+},
+"relation": [
+7241300,
+7241400
+],
+"tech_list": [
+7241201,
+7241202,
+7241203,
+7241204,
+7241205,
+7241206,
+7241207,
+7241208,
+7241209,
+7241210,
+7241211,
+7241212,
+7241213,
+7241214,
+7241215,
+7241216,
+7241217,
+7241218,
+7241219,
+7241220
+],
+"show": 1
+},
+{
+"id": 7241300,
+"title": "SeasonTechName_7",
+"des": "SeasonTechDes_2",
+"tab": 24,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_02",
+"position": {
+"x": 2,
+"y": 8
+},
+"relation": [
+7241500
+],
+"tech_list": [
+7241301
+],
+"show": 1
+},
+{
+"id": 7241400,
+"title": "SeasonTechName_8",
+"des": "SeasonTechDes_3",
+"tab": 24,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_03",
+"position": {
+"x": 6,
+"y": 8
+},
+"relation": [
+7241500
+],
+"tech_list": [
+7241401
+],
+"show": 2
+},
+{
+"id": 7241500,
+"title": "SeasonTechName_9",
+"des": "SeasonTechDes_1",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_01",
+"position": {
+"x": 4,
+"y": 9
+},
+"relation": [
+7241600,
+7241700,
+7241800
+],
+"tech_list": [
+7241501,
+7241502,
+7241503,
+7241504,
+7241505,
+7241506,
+7241507,
+7241508,
+7241509,
+7241510,
+7241511,
+7241512,
+7241513,
+7241514,
+7241515,
+7241516,
+7241517,
+7241518,
+7241519,
+7241520
+],
+"show": 1
+},
+{
+"id": 7241600,
+"title": "TechName_168",
+"des": "SeasonTechDes_4",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7171500",
+"position": {
+"x": 2,
+"y": 10
+},
+"relation": [
+7241900
+],
+"tech_list": [
+7241601,
+7241602,
+7241603,
+7241604,
+7241605,
+7241606,
+7241607,
+7241608,
+7241609,
+7241610,
+7241611,
+7241612,
+7241613,
+7241614,
+7241615,
+7241616,
+7241617,
+7241618,
+7241619,
+7241620
+],
+"show": 1
+},
+{
+"id": 7241700,
+"title": "TechName_209",
+"des": "SeasonTechDes_5",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "tech_7131500",
+"position": {
+"x": 6,
+"y": 10
+},
+"relation": [
+7241900
+],
+"tech_list": [
+7241701,
+7241702,
+7241703,
+7241704,
+7241705,
+7241706,
+7241707,
+7241708,
+7241709,
+7241710,
+7241711,
+7241712,
+7241713,
+7241714,
+7241715,
+7241716,
+7241717,
+7241718,
+7241719,
+7241720
+],
+"show": 1
+},
+{
+"id": 7241800,
+"title": "TechName_186",
+"des": "SeasonTechDes_6",
+"tab": 24,
+"max_lv": 20,
+"pkg": "texture/techIcon",
+"icon": "Tech_Icon_7181500",
+"position": {
+"x": 4,
+"y": 10
+},
+"relation": [
+7241900
+],
+"tech_list": [
+7241801,
+7241802,
+7241803,
+7241804,
+7241805,
+7241806,
+7241807,
+7241808,
+7241809,
+7241810,
+7241811,
+7241812,
+7241813,
+7241814,
+7241815,
+7241816,
+7241817,
+7241818,
+7241819,
+7241820
+],
+"show": 1
+},
+{
+"id": 7241900,
+"title": "SeasonTechName_10",
+"des": "SeasonTechDes_2",
+"tab": 24,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_02",
+"position": {
+"x": 4,
+"y": 11
+},
+"relation": [
+7242000
+],
+"tech_list": [
+7241901
+],
+"show": 1
+},
+{
+"id": 7242000,
+"title": "SeasonTechName_12",
+"des": "SeasonTechDes_8",
+"tab": 24,
+"max_lv": 1,
+"pkg": "texture/techIcon",
+"icon": "SeasonTech_icon_05",
+"position": {
+"x": 4,
+"y": 12
+},
+"tech_list": [
+7242001
+],
+"show": 2
+}
+]

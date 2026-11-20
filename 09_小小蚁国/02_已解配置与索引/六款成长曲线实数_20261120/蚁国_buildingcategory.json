@@ -1,0 +1,7295 @@
+[
+{
+"id": 4000000,
+"area": 7,
+"init_building": 4000001,
+"max_lv": 25,
+"building_type": 0,
+"can_move": false,
+"tile_type": 1,
+"name": "BuildingName_4000000",
+"button": [
+4,
+5,
+6,
+7,
+8,
+63,
+67,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4000000",
+"details": [
+1,
+21,
+102
+],
+"more_details": [
+1,
+21,
+102
+],
+"levelup_details": [
+1001
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_001",
+"reinforce_order": 10,
+"reinforce_details": [
+2023,
+2022,
+2001,
+2002,
+2003
+]
+},
+{
+"id": 4001000,
+"area": 1,
+"init_building": 4001000,
+"max_lv": 0,
+"building_type": 6,
+"can_move": false,
+"tile_type": 11,
+"name": "BuildingName_4001000",
+"bubble_button": -1,
+"details_i18n": "details_i18n_4001000"
+},
+{
+"id": 4002000,
+"area": 1,
+"init_building": 4002000,
+"max_lv": 0,
+"building_type": 6,
+"can_move": true,
+"tile_type": 11,
+"name": "BuildingName_4002000",
+"bubble_button": -1,
+"details_i18n": "details_i18n_4002000"
+},
+{
+"id": 4003000,
+"area": 3,
+"init_building": 4003000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4003000",
+"button": [
+5,
+6,
+7,
+14,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4003000",
+"details": [
+12
+],
+"more_details": [
+1,
+12
+],
+"levelup_details": [
+12
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_005",
+"reinforce_order": 70,
+"reinforce_details": [
+2023,
+2022,
+2010
+]
+},
+{
+"id": 4010000,
+"area": 1,
+"init_building": 4010001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4010000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4010000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4011000,
+"area": 1,
+"init_building": 4011001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4011000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4011000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4012000,
+"area": 1,
+"init_building": 4012001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4012000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4012000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4013000,
+"area": 1,
+"init_building": 4013001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4013000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4013000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4020000,
+"area": 3,
+"init_building": 4020000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4020000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+12,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4020000",
+"details": [
+18
+],
+"more_details": [
+1,
+18,
+16
+],
+"levelup_details": [
+1003
+],
+"set_population_condition": [
+0
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_002",
+"reinforce_order": 20,
+"reinforce_details": [
+2023,
+2022,
+2004,
+2007,
+2024
+]
+},
+{
+"id": 4021000,
+"area": 3,
+"init_building": 4021000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4021000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+12,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4021000",
+"details": [
+18
+],
+"more_details": [
+1,
+18,
+16
+],
+"levelup_details": [
+1003
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_003",
+"reinforce_order": 30,
+"reinforce_details": [
+2023,
+2022,
+2005,
+2008,
+2025
+]
+},
+{
+"id": 4022000,
+"area": 3,
+"init_building": 4022000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4022000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+12,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4022000",
+"details": [
+18
+],
+"more_details": [
+1,
+18,
+16
+],
+"levelup_details": [
+1003
+],
+"set_population_condition": [
+0
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_004",
+"reinforce_order": 40,
+"reinforce_details": [
+2023,
+2022,
+2006,
+2009,
+2026
+]
+},
+{
+"id": 4023000,
+"area": 1,
+"init_building": 4023000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4023000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4023000",
+"details": [
+17,
+18
+],
+"more_details": [
+1,
+17,
+18
+],
+"levelup_details": [
+17,
+18
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 4,
+"amount": 1
+},
+{
+"baselv": 6,
+"amount": 2
+},
+{
+"baselv": 8,
+"amount": 3
+},
+{
+"baselv": 10,
+"amount": 4
+},
+{
+"baselv": 12,
+"amount": 5
+},
+{
+"baselv": 15,
+"amount": 6
+},
+{
+"baselv": 18,
+"amount": 7
+},
+{
+"baselv": 20,
+"amount": 8
+}
+],
+"amount_max": 9,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 4,
+"amount": 1
+},
+{
+"baselv": 6,
+"amount": 2
+},
+{
+"baselv": 8,
+"amount": 3
+},
+{
+"baselv": 10,
+"amount": 4
+},
+{
+"baselv": 12,
+"amount": 5
+},
+{
+"baselv": 15,
+"amount": 6
+},
+{
+"baselv": 18,
+"amount": 7
+},
+{
+"baselv": 20,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+2520,
+6300,
+13500,
+21600,
+46200,
+72600,
+113100
+]
+},
+{
+"id": 4024000,
+"area": 3,
+"init_building": 4024000,
+"max_lv": 1,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4024000",
+"button": [
+5,
+6,
+14,
+15
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4024000",
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4025000,
+"area": 3,
+"init_building": 4025000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 9,
+"name": "BuildingName_4025000",
+"new_name": "BuildingName_4025000_01",
+"button": [
+1,
+5,
+6,
+7,
+16,
+500,
+113
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4025000",
+"details": [
+1,
+19,
+114
+],
+"more_details": [
+19,
+1
+],
+"levelup_details": [
+19
+],
+"set_population_condition": [
+2520
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_011",
+"reinforce_order": 120,
+"reinforce_details": [
+2023,
+2022,
+2016,
+2017,
+2018
+]
+},
+{
+"id": 4026000,
+"area": 3,
+"init_building": 4026000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4026000",
+"new_name": "BuildingName_4026000_01",
+"button": [
+1,
+5,
+6,
+7,
+16,
+500,
+113
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4026000",
+"details": [
+1,
+19,
+114
+],
+"more_details": [
+1,
+19
+],
+"levelup_details": [
+19
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_012",
+"reinforce_order": 130,
+"reinforce_details": [
+2023,
+2022,
+2019
+]
+},
+{
+"id": 4027000,
+"area": 3,
+"init_building": 4027000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4027000",
+"new_name": "BuildingName_4027000_01",
+"button": [
+1,
+5,
+6,
+7,
+16,
+500,
+113
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4027000",
+"details": [
+1,
+19,
+114
+],
+"more_details": [
+1,
+19
+],
+"levelup_details": [
+19
+],
+"set_population_condition": [
+22500
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_012",
+"reinforce_order": 140,
+"reinforce_details": [
+2023,
+2022,
+2020
+]
+},
+{
+"id": 4028000,
+"area": 3,
+"init_building": 4028000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4028000",
+"new_name": "BuildingName_4028000_01",
+"button": [
+1,
+5,
+6,
+7,
+16,
+500,
+113
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4028000",
+"details": [
+1,
+19,
+114
+],
+"more_details": [
+1,
+19
+],
+"levelup_details": [
+19
+],
+"set_population_condition": [
+96800
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_012",
+"reinforce_order": 150,
+"reinforce_details": [
+2023,
+2022,
+2021
+]
+},
+{
+"id": 4029000,
+"area": 1,
+"init_building": 4029000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4029000",
+"button": [
+3,
+5,
+6,
+7,
+13
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4029000",
+"details": [
+1,
+20
+],
+"more_details": [
+1,
+20
+],
+"levelup_details": [
+20
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 6,
+"amount": 1
+},
+{
+"baselv": 8,
+"amount": 2
+},
+{
+"baselv": 10,
+"amount": 3
+},
+{
+"baselv": 13,
+"amount": 4
+},
+{
+"baselv": 15,
+"amount": 5
+},
+{
+"baselv": 17,
+"amount": 6
+},
+{
+"baselv": 20,
+"amount": 7
+},
+{
+"baselv": 22,
+"amount": 8
+}
+],
+"amount_max": 9,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 6,
+"amount": 1
+},
+{
+"baselv": 8,
+"amount": 2
+},
+{
+"baselv": 10,
+"amount": 3
+},
+{
+"baselv": 13,
+"amount": 4
+},
+{
+"baselv": 15,
+"amount": 5
+},
+{
+"baselv": 17,
+"amount": 6
+},
+{
+"baselv": 20,
+"amount": 7
+},
+{
+"baselv": 22,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+3990,
+11250,
+22500,
+38500,
+52250,
+94250,
+126750
+]
+},
+{
+"id": 4030000,
+"area": 1,
+"init_building": 4030001,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 1,
+"tag": 6,
+"name": "BuildingName_4030000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4030000",
+"details": [
+5
+],
+"more_details": [
+1,
+5
+],
+"levelup_details": [
+5
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4031000,
+"area": 1,
+"init_building": 4031000,
+"max_lv": 25,
+"building_type": 5,
+"can_move": true,
+"tile_type": 1,
+"tag": 6,
+"name": "BuildingName_4031000",
+"button": [
+3,
+5,
+6,
+7,
+9,
+10,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4031000",
+"details": [
+5
+],
+"more_details": [
+1,
+5,
+25,
+26
+],
+"levelup_details": [
+5,
+25
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 5,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 10,
+"amount": 4
+},
+{
+"baselv": 15,
+"amount": 5
+},
+{
+"baselv": 18,
+"amount": 6
+},
+{
+"baselv": 22,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"amount_max": 8,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 5,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 10,
+"amount": 4
+},
+{
+"baselv": 15,
+"amount": 5
+},
+{
+"baselv": 18,
+"amount": 6
+},
+{
+"baselv": 22,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+0,
+0,
+0,
+52360,
+82280,
+172380,
+311100
+]
+},
+{
+"id": 4040000,
+"area": 1,
+"init_building": 4040000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 2,
+"tag": 1,
+"name": "BuildingName_4040000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+9,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4040000",
+"details": [
+2
+],
+"more_details": [
+1,
+2
+],
+"levelup_details": [
+2
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 2,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 8,
+"amount": 4
+},
+{
+"baselv": 12,
+"amount": 5
+},
+{
+"baselv": 15,
+"amount": 6
+},
+{
+"baselv": 20,
+"amount": 7
+},
+{
+"baselv": 21,
+"amount": 8
+},
+{
+"baselv": 22,
+"amount": 9
+},
+{
+"baselv": 23,
+"amount": 10
+}
+],
+"amount_max": 10,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 2,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 8,
+"amount": 4
+},
+{
+"baselv": 12,
+"amount": 5
+},
+{
+"baselv": 15,
+"amount": 6
+},
+{
+"baselv": 20,
+"amount": 7
+},
+{
+"baselv": 21,
+"amount": 8
+},
+{
+"baselv": 22,
+"amount": 9
+},
+{
+"baselv": 23,
+"amount": 10
+}
+],
+"set_population_condition": [
+0,
+125,
+3110,
+7770,
+26640,
+56980,
+139490,
+163540,
+187590,
+211640
+]
+},
+{
+"id": 4041000,
+"area": 1,
+"init_building": 4041000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 3,
+"tag": 2,
+"name": "BuildingName_4041000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+9,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4041000",
+"details": [
+3
+],
+"more_details": [
+1,
+3
+],
+"levelup_details": [
+3
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 3,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 7,
+"amount": 4
+},
+{
+"baselv": 13,
+"amount": 5
+},
+{
+"baselv": 16,
+"amount": 6
+},
+{
+"baselv": 21,
+"amount": 7
+},
+{
+"baselv": 22,
+"amount": 8
+},
+{
+"baselv": 23,
+"amount": 9
+},
+{
+"baselv": 24,
+"amount": 10
+}
+],
+"amount_max": 10,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 3,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 7,
+"amount": 4
+},
+{
+"baselv": 13,
+"amount": 5
+},
+{
+"baselv": 16,
+"amount": 6
+},
+{
+"baselv": 21,
+"amount": 7
+},
+{
+"baselv": 22,
+"amount": 8
+},
+{
+"baselv": 23,
+"amount": 9
+},
+{
+"baselv": 24,
+"amount": 10
+}
+],
+"set_population_condition": [
+0,
+290,
+2730,
+5190,
+29250,
+57200,
+143650,
+164780,
+185900,
+238880
+]
+},
+{
+"id": 4042000,
+"area": 1,
+"init_building": 4042000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 4,
+"tag": 3,
+"name": "BuildingName_4042000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+9,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4042000",
+"details": [
+4
+],
+"more_details": [
+1,
+4
+],
+"levelup_details": [
+4
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 2,
+"amount": 2
+},
+{
+"baselv": 7,
+"amount": 3
+},
+{
+"baselv": 8,
+"amount": 4
+},
+{
+"baselv": 13,
+"amount": 5
+},
+{
+"baselv": 17,
+"amount": 6
+},
+{
+"baselv": 22,
+"amount": 7
+},
+{
+"baselv": 23,
+"amount": 8
+},
+{
+"baselv": 24,
+"amount": 9
+},
+{
+"baselv": 25,
+"amount": 10
+}
+],
+"amount_max": 10,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 2,
+"amount": 2
+},
+{
+"baselv": 7,
+"amount": 3
+},
+{
+"baselv": 8,
+"amount": 4
+},
+{
+"baselv": 13,
+"amount": 5
+},
+{
+"baselv": 17,
+"amount": 6
+},
+{
+"baselv": 22,
+"amount": 7
+},
+{
+"baselv": 23,
+"amount": 8
+},
+{
+"baselv": 24,
+"amount": 9
+},
+{
+"baselv": 25,
+"amount": 10
+}
+],
+"set_population_condition": [
+0,
+180,
+4790,
+6300,
+27000,
+62700,
+152100,
+171600,
+220500,
+247500
+]
+},
+{
+"id": 4043000,
+"area": 1,
+"init_building": 4043000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 6,
+"tag": 4,
+"name": "BuildingName_4043000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+9,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4043000",
+"details": [
+6
+],
+"more_details": [
+1,
+6
+],
+"levelup_details": [
+6
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 3,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 7,
+"amount": 4
+},
+{
+"baselv": 12,
+"amount": 5
+},
+{
+"baselv": 15,
+"amount": 6
+},
+{
+"baselv": 20,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"amount_max": 8,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 3,
+"amount": 2
+},
+{
+"baselv": 6,
+"amount": 3
+},
+{
+"baselv": 7,
+"amount": 4
+},
+{
+"baselv": 12,
+"amount": 5
+},
+{
+"baselv": 15,
+"amount": 6
+},
+{
+"baselv": 20,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+330,
+3150,
+5990,
+27000,
+57750,
+141380,
+309380
+]
+},
+{
+"id": 4044000,
+"area": 1,
+"init_building": 4044000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 7,
+"tag": 5,
+"name": "BuildingName_4044000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+9,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4044000",
+"details": [
+7
+],
+"more_details": [
+1,
+7
+],
+"levelup_details": [
+7
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 4,
+"amount": 1
+},
+{
+"baselv": 5,
+"amount": 2
+},
+{
+"baselv": 7,
+"amount": 3
+},
+{
+"baselv": 8,
+"amount": 4
+},
+{
+"baselv": 14,
+"amount": 5
+},
+{
+"baselv": 18,
+"amount": 6
+},
+{
+"baselv": 23,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"amount_max": 8,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 4,
+"amount": 1
+},
+{
+"baselv": 5,
+"amount": 2
+},
+{
+"baselv": 7,
+"amount": 3
+},
+{
+"baselv": 8,
+"amount": 4
+},
+{
+"baselv": 14,
+"amount": 5
+},
+{
+"baselv": 18,
+"amount": 6
+},
+{
+"baselv": 23,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+1890,
+5590,
+7350,
+46200,
+84700,
+200200,
+288750
+]
+},
+{
+"id": 4045000,
+"area": 1,
+"init_building": 4045000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 1,
+"tag": 8,
+"name": "BuildingName_4045000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+9,
+11,
+66
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4045000",
+"details": [
+9,
+105
+],
+"more_details": [
+1,
+9,
+105
+],
+"levelup_details": [
+9,
+105
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 3,
+"amount": 1
+},
+{
+"baselv": 5,
+"amount": 2
+},
+{
+"baselv": 8,
+"amount": 3
+},
+{
+"baselv": 12,
+"amount": 4
+},
+{
+"baselv": 14,
+"amount": 5
+},
+{
+"baselv": 16,
+"amount": 6
+},
+{
+"baselv": 18,
+"amount": 7
+},
+{
+"baselv": 20,
+"amount": 8
+}
+],
+"amount_max": 8,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 0
+},
+{
+"baselv": 3,
+"amount": 1
+},
+{
+"baselv": 5,
+"amount": 2
+},
+{
+"baselv": 8,
+"amount": 3
+},
+{
+"baselv": 12,
+"amount": 4
+},
+{
+"baselv": 14,
+"amount": 5
+},
+{
+"baselv": 16,
+"amount": 6
+},
+{
+"baselv": 18,
+"amount": 7
+},
+{
+"baselv": 20,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+1570,
+6090,
+20880,
+38280,
+51040,
+70180,
+109330
+]
+},
+{
+"id": 4046000,
+"area": 3,
+"init_building": 4046000,
+"max_lv": 25,
+"building_type": 5,
+"can_move": true,
+"tile_type": 1,
+"tag": 7,
+"name": "BuildingName_4046000",
+"button": [
+5,
+6,
+7,
+10
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4046000",
+"details": [
+1,
+62,
+22,
+23,
+24
+],
+"more_details": [
+1,
+62,
+22,
+23,
+24
+],
+"levelup_details": [
+22,
+23,
+24
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4047000,
+"area": 1,
+"init_building": 4047000,
+"max_lv": 25,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 7,
+"name": "BuildingName_4047000",
+"button": [
+1,
+3,
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4047000",
+"details": [
+8
+],
+"more_details": [
+1,
+8
+],
+"levelup_details": [
+8
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 4,
+"amount": 2
+},
+{
+"baselv": 7,
+"amount": 3
+},
+{
+"baselv": 10,
+"amount": 4
+},
+{
+"baselv": 14,
+"amount": 5
+},
+{
+"baselv": 19,
+"amount": 6
+},
+{
+"baselv": 24,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"amount_max": 8,
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": 1
+},
+{
+"baselv": 4,
+"amount": 2
+},
+{
+"baselv": 7,
+"amount": 3
+},
+{
+"baselv": 10,
+"amount": 4
+},
+{
+"baselv": 14,
+"amount": 5
+},
+{
+"baselv": 19,
+"amount": 6
+},
+{
+"baselv": 24,
+"amount": 7
+},
+{
+"baselv": 25,
+"amount": 8
+}
+],
+"set_population_condition": [
+0,
+300,
+1920,
+5400,
+15840,
+39000,
+88200,
+153000
+]
+},
+{
+"id": 4050000,
+"area": 3,
+"init_building": 4050000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 8,
+"name": "BuildingName_4050000",
+"button": [
+1,
+3,
+5,
+6,
+7,
+17
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4050000",
+"details": [
+1,
+74,
+75
+],
+"more_details": [
+1,
+74,
+75
+],
+"levelup_details": [
+1,
+74,
+75
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4051000,
+"area": 3,
+"init_building": 4051000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4051000",
+"button": [
+5,
+6,
+7,
+18,
+19,
+500,
+93
+],
+"bubble_button": 19,
+"details_i18n": "details_i18n_4051000",
+"details": [
+1,
+27,
+28,
+29
+],
+"more_details": [
+1,
+27,
+28,
+29
+],
+"levelup_details": [
+28,
+29
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_006",
+"reinforce_order": 80,
+"reinforce_details": [
+2023,
+2022,
+2011
+]
+},
+{
+"id": 4052000,
+"area": 3,
+"init_building": 4052000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4052000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4052000",
+"details": [
+1,
+30
+],
+"more_details": [
+1,
+30
+],
+"levelup_details": [
+30
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4053000,
+"area": 3,
+"init_building": 4053000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4053000",
+"button": [
+5,
+6,
+7,
+35,
+36
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4053000",
+"details": [
+1
+],
+"more_details": [
+1,
+44
+],
+"levelup_details": [
+1004
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4060000,
+"area": 3,
+"init_building": 4060000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 12,
+"name": "BuildingName_4060000",
+"button": [
+5,
+6,
+7,
+31,
+32,
+33,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4060000",
+"details": [
+1,
+31,
+32,
+33
+],
+"more_details": [
+1,
+31,
+32,
+33
+],
+"levelup_details": [
+31,
+32,
+33
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_007",
+"reinforce_order": 60,
+"reinforce_details": [
+2023,
+2022,
+2012
+]
+},
+{
+"id": 4070000,
+"area": 3,
+"init_building": 4070000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 6,
+"name": "BuildingName_4070000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4070000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+420
+]
+},
+{
+"id": 4071000,
+"area": 3,
+"init_building": 4071000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 6,
+"name": "BuildingName_4071000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4071000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+2500
+]
+},
+{
+"id": 4072000,
+"area": 3,
+"init_building": 4072000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 6,
+"name": "BuildingName_4072000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4072000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+4350
+]
+},
+{
+"id": 4073000,
+"area": 3,
+"init_building": 4073000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 2,
+"name": "BuildingName_4073000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4073000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+250
+]
+},
+{
+"id": 4074000,
+"area": 3,
+"init_building": 4074000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 2,
+"name": "BuildingName_4074000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4074000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+2500
+]
+},
+{
+"id": 4075000,
+"area": 3,
+"init_building": 4075000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 2,
+"name": "BuildingName_4075000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4075000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+4350
+]
+},
+{
+"id": 4076000,
+"area": 3,
+"init_building": 4076000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 3,
+"name": "BuildingName_4076000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4076000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+300
+]
+},
+{
+"id": 4077000,
+"area": 3,
+"init_building": 4077000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 3,
+"name": "BuildingName_4077000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4077000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+2500
+]
+},
+{
+"id": 4078000,
+"area": 3,
+"init_building": 4078000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 3,
+"name": "BuildingName_4078000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4078000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+4350
+]
+},
+{
+"id": 4079000,
+"area": 3,
+"init_building": 4079000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 1,
+"name": "BuildingName_4079000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4079000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+260
+]
+},
+{
+"id": 4080000,
+"area": 3,
+"init_building": 4080000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 1,
+"name": "BuildingName_4080000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4080000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+2500
+]
+},
+{
+"id": 4081000,
+"area": 3,
+"init_building": 4081000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 1,
+"name": "BuildingName_4081000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4081000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+4350
+]
+},
+{
+"id": 4082000,
+"area": 3,
+"init_building": 4082000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 4,
+"name": "BuildingName_4082000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4082000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+290
+]
+},
+{
+"id": 4083000,
+"area": 3,
+"init_building": 4083000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 4,
+"name": "BuildingName_4083000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4083000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+2500
+]
+},
+{
+"id": 4084000,
+"area": 3,
+"init_building": 4084000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 4,
+"name": "BuildingName_4084000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4084000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+4350
+]
+},
+{
+"id": 4085000,
+"area": 3,
+"init_building": 4085000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 5,
+"name": "BuildingName_4085000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4085000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+270
+]
+},
+{
+"id": 4086000,
+"area": 3,
+"init_building": 4086000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 5,
+"name": "BuildingName_4086000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4086000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+2500
+]
+},
+{
+"id": 4087000,
+"area": 3,
+"init_building": 4087000,
+"max_lv": 10,
+"building_type": 2,
+"can_move": true,
+"tile_type": 1,
+"tag": 5,
+"name": "BuildingName_4087000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4087000",
+"details": [
+10
+],
+"more_details": [
+1,
+10
+],
+"levelup_details": [
+10
+],
+"set_population_condition": [
+4350
+]
+},
+{
+"id": 4090000,
+"area": 3,
+"init_building": 4090000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4090000",
+"button": [
+5,
+6,
+7,
+23,
+500
+],
+"bubble_button": 23,
+"details_i18n": "details_i18n_4090000",
+"details": [
+1,
+106,
+107
+],
+"more_details": [
+1,
+106,
+107
+],
+"levelup_details": [
+106,
+107
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_010",
+"reinforce_order": 90,
+"reinforce_details": [
+2023,
+2022,
+2015
+]
+},
+{
+"id": 4091000,
+"area": 3,
+"init_building": 4091000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4091000",
+"button": [
+5,
+6,
+7,
+20,
+21,
+89
+],
+"bubble_button": 21,
+"details_i18n": "details_i18n_4091000",
+"details": [
+1,
+35
+],
+"more_details": [
+1,
+35
+],
+"levelup_details": [
+35
+],
+"set_population_condition": [
+0
+],
+"is_dig": true
+},
+{
+"id": 4092000,
+"area": 3,
+"init_building": 4092000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4092000",
+"button": [
+5,
+6,
+7,
+22,
+86
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4092000",
+"details": [
+1,
+41,
+42
+],
+"more_details": [
+1,
+41,
+42
+],
+"levelup_details": [
+41,
+42
+],
+"set_population_condition": [
+4390
+],
+"is_dig": true
+},
+{
+"id": 4120000,
+"area": 3,
+"init_building": 4120000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 12,
+"name": "BuildingName_4120000",
+"button": [
+5,
+6,
+7,
+34,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4120000",
+"details": [
+1,
+40,
+76
+],
+"more_details": [
+1,
+40,
+76
+],
+"levelup_details": [
+40,
+76
+],
+"set_population_condition": [
+0
+],
+"is_dig": true,
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_013",
+"reinforce_order": 50,
+"reinforce_details": [
+2023,
+2022,
+2027,
+2028,
+2029,
+2030,
+2031,
+2032
+]
+},
+{
+"id": 4140000,
+"area": 3,
+"init_building": 4140000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 9,
+"name": "building_name_4140000",
+"button": [
+5,
+6,
+7,
+28,
+29,
+64,
+65
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4140000",
+"details": [
+1,
+48,
+47,
+45,
+46
+],
+"more_details": [
+46,
+45,
+47,
+48,
+1
+],
+"levelup_details": [
+45,
+46
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 3,
+"value": 3
+}
+},
+{
+"id": 4141000,
+"area": 3,
+"init_building": 4141000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 9,
+"name": "building_name_4141000",
+"button": [
+5,
+6,
+7,
+27,
+64,
+65
+],
+"bubble_button": 27,
+"details_i18n": "details_i18n_4141000",
+"details": [
+55,
+56,
+57,
+58,
+1
+],
+"more_details": [
+55,
+56,
+57,
+58,
+1
+],
+"levelup_details": [
+57,
+58
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 3,
+"value": 1
+}
+},
+{
+"id": 4142000,
+"area": 3,
+"init_building": 4142000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 9,
+"name": "building_name_4142000",
+"button": [
+5,
+6,
+7,
+64,
+65
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4142000",
+"details": [
+59,
+60,
+1
+],
+"more_details": [
+59,
+60,
+1
+],
+"levelup_details": [
+59,
+60
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 3,
+"value": 2
+}
+},
+{
+"id": 4160000,
+"area": 3,
+"init_building": 4160000,
+"max_lv": 25,
+"building_type": 1,
+"can_move": true,
+"tile_type": 1,
+"tag": 6,
+"name": "building_name_4160000",
+"button": [
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4160000",
+"details": [
+5,
+1
+],
+"more_details": [
+5,
+1
+],
+"levelup_details": [
+5
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 2,
+"value": 2902001
+}
+},
+{
+"id": 4161000,
+"area": 3,
+"init_building": 4161000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "building_name_4161000",
+"button": [
+3,
+5,
+6,
+7
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4161000",
+"details": [
+61,
+1
+],
+"more_details": [
+61,
+1
+],
+"levelup_details": [
+61
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 2,
+"value": 2902001
+}
+},
+{
+"id": 4014000,
+"area": 1,
+"init_building": 4014001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4014000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4014000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 1,
+"value": 204013
+}
+},
+{
+"id": 4015000,
+"area": 1,
+"init_building": 4015001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4015000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4015000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 1,
+"value": 204014
+}
+},
+{
+"id": 4016000,
+"area": 1,
+"init_building": 4016001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4016000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4016000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 1,
+"value": 204015
+}
+},
+{
+"id": 4017000,
+"area": 1,
+"init_building": 4017001,
+"max_lv": 1,
+"building_type": 4,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4017000",
+"button": [
+5,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4017000",
+"details": [
+1
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 1,
+"value": 204016
+}
+},
+{
+"id": 4301000,
+"area": 3,
+"init_building": 4301000,
+"max_lv": 25,
+"building_type": 8,
+"can_move": true,
+"tile_type": 1,
+"tag": 13,
+"name": "BuildingName_4301000",
+"button": [
+3,
+5,
+6,
+7,
+68,
+69,
+85,
+500,
+111
+],
+"bubble_button": 22,
+"details_i18n": "details_i18n_4301000",
+"details": [
+1,
+108,
+109
+],
+"more_details": [
+1,
+108,
+109
+],
+"levelup_details": [
+108,
+109
+],
+"set_population_condition": [
+0
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_009",
+"reinforce_order": 110,
+"reinforce_details": [
+2023,
+2022,
+2014
+]
+},
+{
+"id": 4302000,
+"area": 3,
+"init_building": 4302000,
+"max_lv": 25,
+"building_type": 8,
+"can_move": true,
+"tile_type": 1,
+"tag": 13,
+"name": "BuildingName_4302000",
+"button": [
+5,
+6,
+7,
+71
+],
+"bubble_button": 20,
+"details_i18n": "details_i18n_4302000",
+"details": [
+78
+],
+"more_details": [
+78,
+1
+],
+"levelup_details": [
+78
+],
+"amount_limit": [
+{
+"baselv": 16,
+"amount": 2
+}
+],
+"amount_max": 4,
+"amount_limit_mini": [
+{
+"baselv": 16,
+"amount": 2
+}
+],
+"set_population_condition": [
+0,
+0,
+0,
+0
+]
+},
+{
+"id": 4303000,
+"area": 1,
+"init_building": 4303000,
+"max_lv": 25,
+"building_type": 8,
+"can_move": true,
+"tile_type": 1,
+"tag": 13,
+"name": "BuildingName_4303000",
+"button": [
+5,
+6,
+7,
+70,
+84
+],
+"bubble_button": 21,
+"details_i18n": "details_i18n_4303000",
+"details": [
+36,
+38,
+37
+],
+"more_details": [
+36,
+38,
+37,
+1
+],
+"levelup_details": [
+36,
+38,
+37
+],
+"amount_limit": [
+{
+"baselv": 16,
+"amount": 4
+}
+],
+"amount_max": 6,
+"amount_limit_mini": [
+{
+"baselv": 16,
+"amount": 4
+}
+],
+"set_population_condition": [
+0,
+0,
+0,
+0
+]
+},
+{
+"id": 4312000,
+"area": 1,
+"init_building": 4312001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4312000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4312000",
+"details": [
+81
+],
+"more_details": [
+81
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218001
+},
+{
+"id": 4313000,
+"area": 3,
+"init_building": 4313001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4313000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4313000",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218002
+},
+{
+"id": 4321000,
+"area": 3,
+"init_building": 4321000,
+"max_lv": 60,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4321000",
+"button": [
+5,
+73
+],
+"bubble_button": 26,
+"details_i18n": "details_i18n_4321000",
+"details": [
+1,
+80,
+2033
+],
+"more_details": [
+1,
+80,
+2033
+],
+"levelup_details": [
+1,
+80
+],
+"amount_limit": [
+{
+"baselv": 8,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 8,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4314000,
+"area": 1,
+"init_building": 4314001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4314000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4314000",
+"details": [
+82
+],
+"more_details": [
+82
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218003
+},
+{
+"id": 4315000,
+"area": 3,
+"init_building": 4315001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4315000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4315000",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218004
+},
+{
+"id": 4600000,
+"area": 1,
+"init_building": 4600001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600000",
+"details": [
+85
+],
+"more_details": [
+85
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218005
+},
+{
+"id": 4600100,
+"area": 3,
+"init_building": 4600101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600100",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218006
+},
+{
+"id": 4700000,
+"area": 1,
+"init_building": 4700001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700000",
+"details": [
+63
+],
+"more_details": [
+63
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218007
+},
+{
+"id": 4700100,
+"area": 3,
+"init_building": 4700101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700100",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218008
+},
+{
+"id": 4400000,
+"area": 1,
+"init_building": 4400001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400000",
+"details": [
+89
+],
+"more_details": [
+89
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218009
+},
+{
+"id": 4400100,
+"area": 3,
+"init_building": 4400101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400100",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218010
+},
+{
+"id": 4500000,
+"area": 1,
+"init_building": 4500001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500000",
+"details": [
+88
+],
+"more_details": [
+88
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218011
+},
+{
+"id": 4500100,
+"area": 3,
+"init_building": 4500101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500100",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218012
+},
+{
+"id": 4600200,
+"area": 1,
+"init_building": 4600201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600200",
+"details": [
+90
+],
+"more_details": [
+90
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218013
+},
+{
+"id": 4600300,
+"area": 3,
+"init_building": 4600301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600300",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218014
+},
+{
+"id": 4700200,
+"area": 1,
+"init_building": 4700201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700200",
+"details": [
+65
+],
+"more_details": [
+65
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218015
+},
+{
+"id": 4700300,
+"area": 3,
+"init_building": 4700301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700300",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218016
+},
+{
+"id": 4400200,
+"area": 1,
+"init_building": 4400201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400200",
+"details": [
+91
+],
+"more_details": [
+91
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218017
+},
+{
+"id": 4400300,
+"area": 3,
+"init_building": 4400301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400300",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218018
+},
+{
+"id": 4500200,
+"area": 1,
+"init_building": 4500201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500200",
+"details": [
+92
+],
+"more_details": [
+92
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218019
+},
+{
+"id": 4500300,
+"area": 3,
+"init_building": 4500301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500300",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218020
+},
+{
+"id": 4600400,
+"area": 1,
+"init_building": 4600401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600400",
+"details": [
+93
+],
+"more_details": [
+93
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218021
+},
+{
+"id": 4600500,
+"area": 3,
+"init_building": 4600501,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600500",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600500",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218022
+},
+{
+"id": 4700400,
+"area": 1,
+"init_building": 4700401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700400",
+"details": [
+67
+],
+"more_details": [
+67
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218023
+},
+{
+"id": 4700500,
+"area": 3,
+"init_building": 4700501,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700500",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700500",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218024
+},
+{
+"id": 4800000,
+"area": 1,
+"init_building": 4800001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4800000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4800000",
+"details": [
+94
+],
+"more_details": [
+94
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218025
+},
+{
+"id": 4800100,
+"area": 3,
+"init_building": 4800101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4800100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4800100",
+"details": [
+94
+],
+"more_details": [
+94
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218026
+},
+{
+"id": 4400400,
+"area": 1,
+"init_building": 4400401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400400",
+"details": [
+95
+],
+"more_details": [
+95
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218027
+},
+{
+"id": 4400500,
+"area": 3,
+"init_building": 4400501,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400500",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400500",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218028
+},
+{
+"id": 4500400,
+"area": 1,
+"init_building": 4500401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500400",
+"details": [
+96
+],
+"more_details": [
+96
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218029
+},
+{
+"id": 4500500,
+"area": 3,
+"init_building": 4500501,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500500",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500500",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218030
+},
+{
+"id": 4093000,
+"area": 3,
+"init_building": 4093000,
+"max_lv": 1,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4093000",
+"button": [
+5,
+6,
+75,
+90,
+78
+],
+"bubble_button": 29,
+"details_i18n": "details_i18n_4093000",
+"details": [
+1
+],
+"amount_limit": [
+{
+"baselv": 10,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 10,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4094000,
+"area": 3,
+"init_building": 4094000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4094000",
+"button": [
+5,
+6,
+7,
+76,
+500
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4094000",
+"details": [
+1,
+98,
+99,
+100,
+103
+],
+"more_details": [
+1,
+16
+],
+"levelup_details": [
+1,
+1005
+],
+"amount_limit": [
+{
+"baselv": 10,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 10,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+],
+"scene_type": [
+100100000,
+100200000,
+100300000,
+100400000,
+200100000,
+200200000,
+200300000,
+300100000,
+400100000
+],
+"reinforce_icon": "ss_reinforce_icon_008",
+"reinforce_order": 100,
+"reinforce_details": [
+2023,
+2022,
+2013
+]
+},
+{
+"id": 4095000,
+"area": 3,
+"init_building": 4095000,
+"max_lv": 1,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4095000",
+"button": [
+5,
+6,
+77,
+79
+],
+"bubble_button": 31,
+"details_i18n": "details_i18n_4095000",
+"details": [
+1
+],
+"amount_limit": [
+{
+"baselv": 13,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 13,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4600600,
+"area": 1,
+"init_building": 4600601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600600",
+"details": [
+85
+],
+"more_details": [
+85
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218031
+},
+{
+"id": 4600700,
+"area": 3,
+"init_building": 4600701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600700",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218032
+},
+{
+"id": 4700600,
+"area": 1,
+"init_building": 4700601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700600",
+"details": [
+63
+],
+"more_details": [
+63
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218033
+},
+{
+"id": 4700700,
+"area": 3,
+"init_building": 4700701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700700",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218034
+},
+{
+"id": 4400600,
+"area": 1,
+"init_building": 4400601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400600",
+"details": [
+82
+],
+"more_details": [
+82
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218035
+},
+{
+"id": 4400700,
+"area": 3,
+"init_building": 4400701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400700",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218036
+},
+{
+"id": 4500600,
+"area": 1,
+"init_building": 4500601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500600",
+"details": [
+81
+],
+"more_details": [
+81
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218037
+},
+{
+"id": 4500700,
+"area": 3,
+"init_building": 4500701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500700",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218038
+},
+{
+"id": 4600800,
+"area": 1,
+"init_building": 4600801,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600800",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600800",
+"details": [
+90
+],
+"more_details": [
+90
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218039
+},
+{
+"id": 4600900,
+"area": 3,
+"init_building": 4600901,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4600900",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4600900",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218040
+},
+{
+"id": 4700800,
+"area": 1,
+"init_building": 4700801,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700800",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700800",
+"details": [
+65
+],
+"more_details": [
+65
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218041
+},
+{
+"id": 4700900,
+"area": 3,
+"init_building": 4700901,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4700900",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4700900",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218042
+},
+{
+"id": 4900000,
+"area": 1,
+"init_building": 4900001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900000",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218043
+},
+{
+"id": 4900100,
+"area": 3,
+"init_building": 4900101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900100",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218044
+},
+{
+"id": 4900200,
+"area": 1,
+"init_building": 4900201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900200",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218045
+},
+{
+"id": 4900300,
+"area": 3,
+"init_building": 4900301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900300",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218046
+},
+{
+"id": 4400800,
+"area": 1,
+"init_building": 4400801,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400800",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400800",
+"details": [
+91
+],
+"more_details": [
+91
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218047
+},
+{
+"id": 4400900,
+"area": 3,
+"init_building": 4400901,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4400900",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4400900",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218048
+},
+{
+"id": 4500800,
+"area": 1,
+"init_building": 4500801,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500800",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500800",
+"details": [
+92
+],
+"more_details": [
+92
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218049
+},
+{
+"id": 4500900,
+"area": 3,
+"init_building": 4500901,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4500900",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4500900",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218050
+},
+{
+"id": 4096000,
+"area": 3,
+"init_building": 4096000,
+"max_lv": 1,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4096000",
+"button": [
+5,
+6,
+80,
+81
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4096000",
+"details": [
+1
+],
+"amount_limit": [
+{
+"baselv": 10,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 10,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4601000,
+"area": 1,
+"init_building": 4601001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4601000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4601000",
+"details": [
+93
+],
+"more_details": [
+93
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218051
+},
+{
+"id": 4601100,
+"area": 3,
+"init_building": 4601101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4601100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4601100",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218052
+},
+{
+"id": 4701000,
+"area": 1,
+"init_building": 4701001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4701000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4701000",
+"details": [
+67
+],
+"more_details": [
+67
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218053
+},
+{
+"id": 4701100,
+"area": 3,
+"init_building": 4701101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4701100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4701100",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218054
+},
+{
+"id": 4900400,
+"area": 1,
+"init_building": 4900401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900400",
+"details": [
+101
+],
+"more_details": [
+101
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218055
+},
+{
+"id": 4900500,
+"area": 3,
+"init_building": 4900501,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900500",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900500",
+"details": [
+91
+],
+"more_details": [
+91
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218056
+},
+{
+"id": 4900600,
+"area": 3,
+"init_building": 4900601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900600",
+"details": [
+95
+],
+"more_details": [
+95
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218057
+},
+{
+"id": 4401000,
+"area": 1,
+"init_building": 4401001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4401000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4401000",
+"details": [
+89
+],
+"more_details": [
+89
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218058
+},
+{
+"id": 4401100,
+"area": 3,
+"init_building": 4401101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4401100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4401100",
+"details": [
+83
+],
+"more_details": [
+83
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218059
+},
+{
+"id": 4501000,
+"area": 1,
+"init_building": 4501001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4501000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4501000",
+"details": [
+88
+],
+"more_details": [
+88
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218060
+},
+{
+"id": 4501100,
+"area": 3,
+"init_building": 4501101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4501100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4501100",
+"details": [
+84
+],
+"more_details": [
+84
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218061
+},
+{
+"id": 4601200,
+"area": 1,
+"init_building": 4601201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4601200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4601200",
+"details": [
+85
+],
+"more_details": [
+85
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218062
+},
+{
+"id": 4601300,
+"area": 3,
+"init_building": 4601301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4601300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4601300",
+"details": [
+86
+],
+"more_details": [
+86
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218063
+},
+{
+"id": 4097000,
+"area": 3,
+"init_building": 4097000,
+"max_lv": 1,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4097000",
+"button": [
+5,
+74,
+83
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4097000",
+"details": [
+1
+],
+"amount_limit": [
+{
+"baselv": 6,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 3,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4701200,
+"area": 1,
+"init_building": 4701201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4701200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4701200",
+"details": [
+63
+],
+"more_details": [
+63
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218064
+},
+{
+"id": 4701300,
+"area": 3,
+"init_building": 4701301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4701300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4701300",
+"details": [
+87
+],
+"more_details": [
+87
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218065
+},
+{
+"id": 4098000,
+"area": 3,
+"init_building": 4098001,
+"max_lv": 1,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4098000",
+"button": [
+5,
+501,
+502,
+503,
+6
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4098000",
+"amount_limit": [
+{
+"baselv": 5,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 5,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+],
+"set_condition": {
+"confId": 5,
+"value": 1
+}
+},
+{
+"id": 4099000,
+"area": 3,
+"init_building": 4099000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 11,
+"name": "BuildingName_4099000",
+"button": [
+5,
+6,
+7,
+88,
+87
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4099000",
+"details": [
+1,
+104
+],
+"more_details": [
+1,
+104
+],
+"levelup_details": [
+1,
+104
+],
+"amount_limit": [
+{
+"baselv": 22,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 22,
+"amount": 1
+}
+]
+},
+{
+"id": 4900700,
+"area": 3,
+"init_building": 4900701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4900700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4900700",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218066
+},
+{
+"id": 4900800,
+"area": 3,
+"init_building": 4900801,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4900800",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4900800",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218067
+},
+{
+"id": 4900900,
+"area": 3,
+"init_building": 4900901,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4900900",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4900900",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218068
+},
+{
+"id": 4901000,
+"area": 3,
+"init_building": 4901001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901000",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218069
+},
+{
+"id": 4901100,
+"area": 3,
+"init_building": 4901101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901100",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218070
+},
+{
+"id": 4901200,
+"area": 3,
+"init_building": 4901201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901200",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218071
+},
+{
+"id": 4901300,
+"area": 3,
+"init_building": 4901301,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901300",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901300",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218072
+},
+{
+"id": 4901400,
+"area": 3,
+"init_building": 4901401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901400",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218073
+},
+{
+"id": 4901500,
+"area": 3,
+"init_building": 4901501,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901500",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901500",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218074
+},
+{
+"id": 4101000,
+"area": 3,
+"init_building": 4101000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4101000",
+"button": [
+5,
+6,
+7,
+91,
+92
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4101000",
+"details": [
+1,
+111
+],
+"more_details": [
+1,
+111
+],
+"levelup_details": [
+1,
+111
+],
+"amount_limit": [
+{
+"baselv": 18,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 18,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4901900,
+"area": 3,
+"init_building": 4901901,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4901900",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4901900",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218078
+},
+{
+"id": 4901600,
+"area": 3,
+"init_building": 4901601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4901600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4901600",
+"details": [
+94
+],
+"more_details": [
+94
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218075
+},
+{
+"id": 4901700,
+"area": 3,
+"init_building": 4901701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4901700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4901700",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218076
+},
+{
+"id": 4901800,
+"area": 3,
+"init_building": 4901801,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4901800",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4901800",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218077
+},
+{
+"id": 4902100,
+"area": 3,
+"init_building": 4902101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4902100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4902100",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218080
+},
+{
+"id": 4902400,
+"area": 3,
+"init_building": 4902401,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4902400",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4902400",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218083
+},
+{
+"id": 4902600,
+"area": 3,
+"init_building": 4902601,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4902600",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4902600",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218086
+},
+{
+"id": 4902700,
+"area": 1,
+"init_building": 4902701,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4902700",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4902700",
+"details": [
+89
+],
+"more_details": [
+89
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218085
+},
+{
+"id": 4103000,
+"area": 3,
+"init_building": 4103000,
+"max_lv": 1,
+"building_type": 8,
+"can_move": true,
+"tile_type": 1,
+"tag": 13,
+"name": "BuildingName_4103000",
+"button": [
+5,
+108,
+109,
+110
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4103000",
+"details": [
+1
+],
+"amount_limit": [
+{
+"baselv": 16,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 16,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4903200,
+"area": 3,
+"init_building": 4903201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "cn_BuildingName_4903200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "cn_details_i18n_4903200",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218091
+},
+{
+"id": 4102000,
+"area": 3,
+"init_building": 4102000,
+"max_lv": 25,
+"building_type": 3,
+"can_move": true,
+"tile_type": 1,
+"tag": 10,
+"name": "BuildingName_4102000",
+"button": [
+5,
+6,
+7,
+105,
+106,
+107
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4102000",
+"details": [
+1,
+112
+],
+"more_details": [
+1,
+112
+],
+"levelup_details": [
+1,
+112
+],
+"amount_limit": [
+{
+"baselv": 20,
+"amount": 1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 20,
+"amount": 1
+}
+],
+"set_population_condition": [
+0
+]
+},
+{
+"id": 4902000,
+"area": 3,
+"init_building": 4902001,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4902000",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4902000",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218079
+},
+{
+"id": 4904200,
+"area": 3,
+"init_building": 4904201,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4904200",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4904200",
+"details": [
+110
+],
+"more_details": [
+110
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218101
+},
+{
+"id": 4904100,
+"area": 3,
+"init_building": 4904101,
+"max_lv": 1,
+"building_type": 7,
+"can_move": true,
+"tile_type": 1,
+"tag": 14,
+"name": "BuildingName_4904100",
+"button": [
+5,
+72,
+74
+],
+"bubble_button": -1,
+"details_i18n": "details_i18n_4904100",
+"details": [
+97
+],
+"more_details": [
+97
+],
+"amount_limit": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"amount_limit_mini": [
+{
+"baselv": 1,
+"amount": -1
+}
+],
+"set_population_condition": [
+0
+],
+"int_item": 218100
+}
+]

@@ -1,0 +1,134 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_7d.bin",
+  "table": "CfgSoldierSkill",
+  "field_aliases": {
+    "ID": 0,
+    "SkillName": 1,
+    "SkillIconId": 2,
+    "SkillDes": 3,
+    "Unlock": 4,
+    "UnlockByScience": 5,
+    "LockSkillDes": 6,
+    "Jump": 7,
+    "Property": 8
+  },
+  "rows": {
+    "11001": {
+      "ID": 11001,
+      "SkillName": "SOLDIER_SKILL_NAME_1",
+      "SkillIconId": [
+        "skill_battle_44"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_1",
+      "Unlock": 0,
+      "UnlockByScience": 0,
+      "LockSkillDes": "",
+      "Jump": 0,
+      "Property": 0
+    },
+    "11002": {
+      "ID": 11002,
+      "SkillName": "SOLDIER_SKILL_NAME_2",
+      "SkillIconId": [
+        "skill_battle_52"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_2",
+      "Unlock": 0,
+      "UnlockByScience": 0,
+      "LockSkillDes": "",
+      "Jump": 0,
+      "Property": 0
+    },
+    "11003": {
+      "ID": 11003,
+      "SkillName": "SOLDIER_SKILL_NAME_7",
+      "SkillIconId": [
+        "skill_battle_200"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_7_Science",
+      "Unlock": 7,
+      "UnlockByScience": 2010801,
+      "LockSkillDes": "SOLDIER_SKILL_DESC_10",
+      "Jump": 220001,
+      "Property": 180303
+    },
+    "12001": {
+      "ID": 12001,
+      "SkillName": "SOLDIER_SKILL_NAME_3",
+      "SkillIconId": [
+        "skill_battle_114"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_3",
+      "Unlock": 0,
+      "UnlockByScience": 0,
+      "LockSkillDes": "",
+      "Jump": 0,
+      "Property": 0
+    },
+    "12002": {
+      "ID": 12002,
+      "SkillName": "SOLDIER_SKILL_NAME_4",
+      "SkillIconId": [
+        "skill_battle_14"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_4",
+      "Unlock": 0,
+      "UnlockByScience": 0,
+      "LockSkillDes": "",
+      "Jump": 0,
+      "Property": 0
+    },
+    "12003": {
+      "ID": 12003,
+      "SkillName": "SOLDIER_SKILL_NAME_8",
+      "SkillIconId": [
+        "skill_battle_201"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_8_Science",
+      "Unlock": 7,
+      "UnlockByScience": 2010901,
+      "LockSkillDes": "SOLDIER_SKILL_DESC_11",
+      "Jump": 220001,
+      "Property": 180304
+    },
+    "13001": {
+      "ID": 13001,
+      "SkillName": "SOLDIER_SKILL_NAME_5",
+      "SkillIconId": [
+        "skill_battle_47"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_5",
+      "Unlock": 0,
+      "UnlockByScience": 0,
+      "LockSkillDes": "",
+      "Jump": 0,
+      "Property": 0
+    },
+    "13002": {
+      "ID": 13002,
+      "SkillName": "SOLDIER_SKILL_NAME_6",
+      "SkillIconId": [
+        "skill_battle_58"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_6",
+      "Unlock": 0,
+      "UnlockByScience": 0,
+      "LockSkillDes": "",
+      "Jump": 0,
+      "Property": 0
+    },
+    "13003": {
+      "ID": 13003,
+      "SkillName": "SOLDIER_SKILL_NAME_9",
+      "SkillIconId": [
+        "skill_battle_202"
+      ],
+      "SkillDes": "SOLDIER_SKILL_DESC_9_Science",
+      "Unlock": 7,
+      "UnlockByScience": 2011001,
+      "LockSkillDes": "SOLDIER_SKILL_DESC_12",
+      "Jump": 220001,
+      "Property": 180305
+    }
+  }
+}

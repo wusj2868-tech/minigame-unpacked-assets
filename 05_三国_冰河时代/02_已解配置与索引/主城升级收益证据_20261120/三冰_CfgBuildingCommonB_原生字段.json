@@ -1,0 +1,615 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgBuildingCommonB",
+  "field_aliases": {
+    "ID": 0,
+    "LBuildName": 1,
+    "LBuildDesc": 2,
+    "DramaTips": 3,
+    "DramaTechTitleIcon": 4,
+    "DramaTechTip": 5,
+    "BuildSound": 6,
+    "LOccupation": 7,
+    "ProfitType": 8
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "LBuildName": "BuildingCommon_BuildName_1",
+      "LBuildDesc": "BuildingCommon_BuildDesc_1",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        41
+      ],
+      "LOccupation": "BuildingCommon_Occupation_1",
+      "ProfitType": 9
+    },
+    "2": {
+      "ID": 2,
+      "LBuildName": "BuildingCommon_BuildName_2",
+      "LBuildDesc": "BuildingCommon_BuildDesc_2",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        55
+      ],
+      "LOccupation": "BuildingCommon_Occupation_2",
+      "ProfitType": 4
+    },
+    "3": {
+      "ID": 3,
+      "LBuildName": "BuildingCommon_BuildName_3",
+      "LBuildDesc": "BuildingCommon_BuildDesc_3",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        57
+      ],
+      "LOccupation": "BuildingCommon_Occupation_3",
+      "ProfitType": 4
+    },
+    "4": {
+      "ID": 4,
+      "LBuildName": "BuildingCommon_BuildName_4",
+      "LBuildDesc": "BuildingCommon_BuildDesc_4",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        58
+      ],
+      "LOccupation": "BuildingCommon_Occupation_4",
+      "ProfitType": 1
+    },
+    "5": {
+      "ID": 5,
+      "LBuildName": "BuildingCommon_BuildName_5",
+      "LBuildDesc": "BuildingCommon_BuildDesc_5",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        51
+      ],
+      "LOccupation": "BuildingCommon_Occupation_5",
+      "ProfitType": 2
+    },
+    "6": {
+      "ID": 6,
+      "LBuildName": "BuildingCommon_BuildName_6",
+      "LBuildDesc": "BuildingCommon_BuildDesc_6",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        63
+      ],
+      "LOccupation": "BuildingCommon_Occupation_6",
+      "ProfitType": 11
+    },
+    "7": {
+      "ID": 7,
+      "LBuildName": "BuildingCommon_BuildName_7",
+      "LBuildDesc": "BuildingCommon_BuildDesc_7",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        56
+      ],
+      "LOccupation": "BuildingCommon_Occupation_7",
+      "ProfitType": 3
+    },
+    "8": {
+      "ID": 8,
+      "LBuildName": "BuildingCommon_BuildName_8",
+      "LBuildDesc": "BuildingCommon_BuildDesc_8",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        56
+      ],
+      "LOccupation": "BuildingCommon_Occupation_8",
+      "ProfitType": 7
+    },
+    "9": {
+      "ID": 9,
+      "LBuildName": "BuildingCommon_BuildName_9",
+      "LBuildDesc": "BuildingCommon_BuildDesc_9",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        66
+      ],
+      "LOccupation": "BuildingCommon_Occupation_9",
+      "ProfitType": 5
+    },
+    "10": {
+      "ID": 10,
+      "LBuildName": "BuildingCommon_BuildName_10",
+      "LBuildDesc": "BuildingCommon_BuildDesc_10",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        59
+      ],
+      "LOccupation": "BuildingCommon_Occupation_10",
+      "ProfitType": 6
+    },
+    "11": {
+      "ID": 11,
+      "LBuildName": "BuildingCommon_BuildName_11",
+      "LBuildDesc": "BuildingCommon_BuildDesc_11",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        60
+      ],
+      "LOccupation": "BuildingCommon_Occupation_11",
+      "ProfitType": 4
+    },
+    "12": {
+      "ID": 12,
+      "LBuildName": "BuildingCommon_BuildName_12",
+      "LBuildDesc": "BuildingCommon_BuildDesc_12",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        61
+      ],
+      "LOccupation": "BuildingCommon_Occupation_12",
+      "ProfitType": 8
+    },
+    "13": {
+      "ID": 13,
+      "LBuildName": "BuildingCommon_BuildName_13",
+      "LBuildDesc": "BuildingCommon_BuildDesc_13",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        54
+      ],
+      "LOccupation": "BuildingCommon_Occupation_13",
+      "ProfitType": 10
+    },
+    "14": {
+      "ID": 14,
+      "LBuildName": "BuildingCommon_BuildName_14",
+      "LBuildDesc": "BuildingCommon_BuildDesc_14",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        41
+      ],
+      "LOccupation": "BuildingCommon_Occupation_14",
+      "ProfitType": 9
+    },
+    "15": {
+      "ID": 15,
+      "LBuildName": "BuildingCommon_BuildName_15",
+      "LBuildDesc": "BuildingCommon_BuildDesc_15",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        62
+      ],
+      "LOccupation": "BuildingCommon_Occupation_15",
+      "ProfitType": 6
+    },
+    "16": {
+      "ID": 16,
+      "LBuildName": "BuildingCommon_BuildName_16",
+      "LBuildDesc": "BuildingCommon_BuildDesc_16",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        65
+      ],
+      "LOccupation": "BuildingCommon_Occupation_16",
+      "ProfitType": 6
+    },
+    "17": {
+      "ID": 17,
+      "LBuildName": "BuildingCommon_BuildName_17",
+      "LBuildDesc": "BuildingCommon_BuildDesc_17",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        66
+      ],
+      "LOccupation": "BuildingCommon_Occupation_17",
+      "ProfitType": 5
+    },
+    "18": {
+      "ID": 18,
+      "LBuildName": "BuildingCommon_BuildName_18",
+      "LBuildDesc": "BuildingCommon_BuildDesc_18",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        71
+      ],
+      "LOccupation": "BuildingCommon_Occupation_18",
+      "ProfitType": 0
+    },
+    "19": {
+      "ID": 19,
+      "LBuildName": "BuildingCommon_BuildName_19",
+      "LBuildDesc": "BuildingCommon_BuildDesc_19",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        73
+      ],
+      "LOccupation": "BuildingCommon_Occupation_19",
+      "ProfitType": 0
+    },
+    "20": {
+      "ID": 20,
+      "LBuildName": "BuildingCommon_BuildName_20",
+      "LBuildDesc": "BuildingCommon_BuildDesc_20",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        72
+      ],
+      "LOccupation": "BuildingCommon_Occupation_20",
+      "ProfitType": 0
+    },
+    "21": {
+      "ID": 21,
+      "LBuildName": "BuildingCommon_BuildName_21",
+      "LBuildDesc": "BuildingCommon_BuildDesc_21",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        74
+      ],
+      "LOccupation": "BuildingCommon_Occupation_21",
+      "ProfitType": 0
+    },
+    "22": {
+      "ID": 22,
+      "LBuildName": "BuildingCommon_BuildName_22",
+      "LBuildDesc": "BuildingCommon_BuildDesc_22",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        66
+      ],
+      "LOccupation": "BuildingCommon_Occupation_22",
+      "ProfitType": 0
+    },
+    "23": {
+      "ID": 23,
+      "LBuildName": "BuildingCommon_BuildName_23",
+      "LBuildDesc": "BuildingCommon_BuildDesc_23",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        76
+      ],
+      "LOccupation": "BuildingCommon_Occupation_23",
+      "ProfitType": 0
+    },
+    "24": {
+      "ID": 24,
+      "LBuildName": "BuildingCommon_BuildName_24",
+      "LBuildDesc": "BuildingCommon_BuildDesc_24",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        66
+      ],
+      "LOccupation": "BuildingCommon_Occupation_24",
+      "ProfitType": 0
+    },
+    "25": {
+      "ID": 25,
+      "LBuildName": "BuildingCommon_BuildName_25",
+      "LBuildDesc": "BuildingCommon_BuildDesc_25",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        77
+      ],
+      "LOccupation": "BuildingCommon_Occupation_25",
+      "ProfitType": 0
+    },
+    "26": {
+      "ID": 26,
+      "LBuildName": "BuildingCommon_BuildName_26",
+      "LBuildDesc": "BuildingCommon_BuildDesc_26",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        81
+      ],
+      "LOccupation": "BuildingCommon_Occupation_26",
+      "ProfitType": 0
+    },
+    "27": {
+      "ID": 27,
+      "LBuildName": "BuildingCommon_BuildName_27",
+      "LBuildDesc": "BuildingCommon_BuildDesc_27",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        78
+      ],
+      "LOccupation": "BuildingCommon_Occupation_27",
+      "ProfitType": 0
+    },
+    "28": {
+      "ID": 28,
+      "LBuildName": "BuildingCommon_BuildName_28",
+      "LBuildDesc": "BuildingCommon_BuildDesc_28",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "BuildingCommon_Occupation_28",
+      "ProfitType": 0
+    },
+    "29": {
+      "ID": 29,
+      "LBuildName": "BuildingCommon_BuildName_29",
+      "LBuildDesc": "BuildingCommon_BuildDesc_29",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        83
+      ],
+      "LOccupation": "BuildingCommon_Occupation_29",
+      "ProfitType": 0
+    },
+    "30": {
+      "ID": 30,
+      "LBuildName": "BuildingCommon_BuildName_30",
+      "LBuildDesc": "BuildingCommon_BuildDesc_30",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        66
+      ],
+      "LOccupation": "BuildingCommon_Occupation_30",
+      "ProfitType": 0
+    },
+    "31": {
+      "ID": 31,
+      "LBuildName": "BuildingCommon_BuildName_31",
+      "LBuildDesc": "BuildingCommon_BuildDesc_31",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        79
+      ],
+      "LOccupation": "BuildingCommon_Occupation_31",
+      "ProfitType": 0
+    },
+    "32": {
+      "ID": 32,
+      "LBuildName": "BuildingCommon_BuildName_32",
+      "LBuildDesc": "BuildingCommon_BuildDesc_32",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        75
+      ],
+      "LOccupation": "BuildingCommon_Occupation_32",
+      "ProfitType": 0
+    },
+    "33": {
+      "ID": 33,
+      "LBuildName": "BuildingCommon_BuildName_33",
+      "LBuildDesc": "BuildingCommon_BuildDesc_33",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        80
+      ],
+      "LOccupation": "BuildingCommon_Occupation_33",
+      "ProfitType": 0
+    },
+    "34": {
+      "ID": 34,
+      "LBuildName": "BuildingCommon_BuildName_34",
+      "LBuildDesc": "BuildingCommon_BuildDesc_34",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        66
+      ],
+      "LOccupation": "BuildingCommon_Occupation_34",
+      "ProfitType": 0
+    },
+    "35": {
+      "ID": 35,
+      "LBuildName": "BuildingCommon_BuildName_35",
+      "LBuildDesc": "BuildingCommon_BuildDesc_35",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        84
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "36": {
+      "ID": 36,
+      "LBuildName": "BuildingCommon_BuildName_36",
+      "LBuildDesc": "BuildingCommon_BuildDesc_36",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        86
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "37": {
+      "ID": 37,
+      "LBuildName": "BuildingCommon_BuildName_37",
+      "LBuildDesc": "BuildingCommon_BuildDesc_37",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        84
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "38": {
+      "ID": 38,
+      "LBuildName": "BuildingCommon_BuildName_38",
+      "LBuildDesc": "BuildingCommon_BuildDesc_38",
+      "DramaTips": "",
+      "DramaTechTitleIcon": "",
+      "DramaTechTip": "",
+      "BuildSound": [
+        85
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "39": {
+      "ID": 39,
+      "LBuildName": "BuildingCommon_BuildName_39",
+      "LBuildDesc": "BuildingCommon_BuildDesc_39",
+      "DramaTips": "MBS_BJG_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title",
+      "DramaTechTip": "MBS_MDXS_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "40": {
+      "ID": 40,
+      "LBuildName": "BuildingCommon_BuildName_40",
+      "LBuildDesc": "BuildingCommon_BuildDesc_40",
+      "DramaTips": "MBS_YZT_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title2",
+      "DramaTechTip": "MBS_JWYL_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "41": {
+      "ID": 41,
+      "LBuildName": "BuildingCommon_BuildName_41",
+      "LBuildDesc": "BuildingCommon_BuildDesc_41",
+      "DramaTips": "MBS_DFT_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title3",
+      "DramaTechTip": "MBS_TJYL_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "42": {
+      "ID": 42,
+      "LBuildName": "BuildingCommon_BuildName_42",
+      "LBuildDesc": "BuildingCommon_BuildDesc_42",
+      "DramaTips": "MBS_WGD_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title5",
+      "DramaTechTip": "MBS_GZC_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "43": {
+      "ID": 43,
+      "LBuildName": "BuildingCommon_BuildName_43",
+      "LBuildDesc": "BuildingCommon_BuildDesc_43",
+      "DramaTips": "MBS_GXT_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title6",
+      "DramaTechTip": "MBS_CGTD_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "44": {
+      "ID": 44,
+      "LBuildName": "BuildingCommon_BuildName_44",
+      "LBuildDesc": "BuildingCommon_BuildDesc_44",
+      "DramaTips": "MBS_JST_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title7",
+      "DramaTechTip": "MBS_AYL_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "45": {
+      "ID": 45,
+      "LBuildName": "BuildingCommon_BuildName_45",
+      "LBuildDesc": "BuildingCommon_BuildDesc_45",
+      "DramaTips": "MBS_NFY_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title8",
+      "DramaTechTip": "MBS_DTBL_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    },
+    "46": {
+      "ID": 46,
+      "LBuildName": "BuildingCommon_BuildName_1013",
+      "LBuildDesc": "BuildingCommon_BuildDesc_1013",
+      "DramaTips": "MBS_DJT_Rule",
+      "DramaTechTitleIcon": "ui/images/season_drama/activity_drama_bingshu_title9",
+      "DramaTechTip": "MBS_DJMC_Rule",
+      "BuildSound": [
+        82
+      ],
+      "LOccupation": "",
+      "ProfitType": 0
+    }
+  }
+}

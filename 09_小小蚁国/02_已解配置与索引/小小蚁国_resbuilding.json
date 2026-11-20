@@ -1,0 +1,3627 @@
+[
+{
+"id": 4030001,
+"produce": {
+"category": 5,
+"amount": 3350
+}
+},
+{
+"id": 4030002,
+"produce": {
+"category": 5,
+"amount": 6650
+}
+},
+{
+"id": 4030003,
+"produce": {
+"category": 5,
+"amount": 9700
+}
+},
+{
+"id": 4030004,
+"produce": {
+"category": 5,
+"amount": 13000
+}
+},
+{
+"id": 4030005,
+"produce": {
+"category": 5,
+"amount": 16000
+}
+},
+{
+"id": 4030006,
+"produce": {
+"category": 5,
+"amount": 19500
+}
+},
+{
+"id": 4030007,
+"produce": {
+"category": 5,
+"amount": 22500
+}
+},
+{
+"id": 4030008,
+"produce": {
+"category": 5,
+"amount": 26000
+}
+},
+{
+"id": 4030009,
+"produce": {
+"category": 5,
+"amount": 29500
+}
+},
+{
+"id": 4030010,
+"produce": {
+"category": 5,
+"amount": 32500
+}
+},
+{
+"id": 4030011,
+"produce": {
+"category": 5,
+"amount": 35500
+}
+},
+{
+"id": 4030012,
+"produce": {
+"category": 5,
+"amount": 39000
+}
+},
+{
+"id": 4030013,
+"produce": {
+"category": 5,
+"amount": 42000
+}
+},
+{
+"id": 4030014,
+"produce": {
+"category": 5,
+"amount": 45500
+}
+},
+{
+"id": 4030015,
+"produce": {
+"category": 5,
+"amount": 48500
+}
+},
+{
+"id": 4030016,
+"produce": {
+"category": 5,
+"amount": 52000
+}
+},
+{
+"id": 4030017,
+"produce": {
+"category": 5,
+"amount": 55000
+}
+},
+{
+"id": 4030018,
+"produce": {
+"category": 5,
+"amount": 58500
+}
+},
+{
+"id": 4030019,
+"produce": {
+"category": 5,
+"amount": 61500
+}
+},
+{
+"id": 4030020,
+"produce": {
+"category": 5,
+"amount": 65000
+}
+},
+{
+"id": 4030021,
+"produce": {
+"category": 5,
+"amount": 68000
+}
+},
+{
+"id": 4030022,
+"produce": {
+"category": 5,
+"amount": 71500
+}
+},
+{
+"id": 4030023,
+"produce": {
+"category": 5,
+"amount": 74500
+}
+},
+{
+"id": 4030024,
+"produce": {
+"category": 5,
+"amount": 78000
+}
+},
+{
+"id": 4030025,
+"produce": {
+"category": 5,
+"amount": 81000
+}
+},
+{
+"id": 4031001,
+"produce": {
+"category": 5,
+"amount": 2150
+},
+"cost": [
+{
+"category": 4,
+"amount": 500
+}
+],
+"para1": 360,
+"turbo_produce": {
+"category": 5,
+"amount": 8740
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 200
+}
+},
+{
+"id": 4031002,
+"produce": {
+"category": 5,
+"amount": 4450
+},
+"cost": [
+{
+"category": 4,
+"amount": 3400
+}
+],
+"para1": 1800,
+"turbo_produce": {
+"category": 5,
+"amount": 10060
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 420
+}
+},
+{
+"id": 4031003,
+"produce": {
+"category": 5,
+"amount": 6550
+},
+"cost": [
+{
+"category": 4,
+"amount": 8400
+}
+],
+"para1": 2700,
+"turbo_produce": {
+"category": 5,
+"amount": 10760
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 640
+}
+},
+{
+"id": 4031004,
+"produce": {
+"category": 5,
+"amount": 8650
+},
+"cost": [
+{
+"category": 4,
+"amount": 12000
+}
+],
+"para1": 2880,
+"turbo_produce": {
+"category": 5,
+"amount": 11580
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 860
+}
+},
+{
+"id": 4031005,
+"produce": {
+"category": 5,
+"amount": 11000
+},
+"cost": [
+{
+"category": 4,
+"amount": 22000
+}
+],
+"para1": 4320,
+"turbo_produce": {
+"category": 5,
+"amount": 13160
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1040
+}
+},
+{
+"id": 4031006,
+"produce": {
+"category": 5,
+"amount": 13000
+},
+"cost": [
+{
+"category": 4,
+"amount": 32000
+}
+],
+"para1": 5220,
+"turbo_produce": {
+"category": 5,
+"amount": 14420
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1260
+}
+},
+{
+"id": 4031007,
+"produce": {
+"category": 5,
+"amount": 15000
+},
+"cost": [
+{
+"category": 4,
+"amount": 38000
+}
+],
+"para1": 6120,
+"turbo_produce": {
+"category": 5,
+"amount": 15220
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1840
+}
+},
+{
+"id": 4031008,
+"produce": {
+"category": 5,
+"amount": 17500
+},
+"cost": [
+{
+"category": 4,
+"amount": 62000
+}
+],
+"para1": 7560,
+"turbo_produce": {
+"category": 5,
+"amount": 15400
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2120
+}
+},
+{
+"id": 4031009,
+"produce": {
+"category": 5,
+"amount": 19500
+},
+"cost": [
+{
+"category": 4,
+"amount": 68000
+}
+],
+"para1": 8460,
+"turbo_produce": {
+"category": 5,
+"amount": 17340
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2400
+}
+},
+{
+"id": 4031010,
+"produce": {
+"category": 5,
+"amount": 21500
+},
+"cost": [
+{
+"category": 4,
+"amount": 95000
+}
+],
+"para1": 9480,
+"turbo_produce": {
+"category": 5,
+"amount": 19280
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 6900
+}
+},
+{
+"id": 4031011,
+"produce": {
+"category": 5,
+"amount": 24000
+},
+"cost": [
+{
+"category": 4,
+"amount": 98000
+}
+],
+"para1": 9560,
+"turbo_produce": {
+"category": 5,
+"amount": 21260
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 7660
+}
+},
+{
+"id": 4031012,
+"produce": {
+"category": 5,
+"amount": 26000
+},
+"cost": [
+{
+"category": 4,
+"amount": 120000
+}
+],
+"para1": 10440,
+"turbo_produce": {
+"category": 5,
+"amount": 23060
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 8400
+}
+},
+{
+"id": 4031013,
+"produce": {
+"category": 5,
+"amount": 28000
+},
+"cost": [
+{
+"category": 4,
+"amount": 140000
+}
+],
+"para1": 12960,
+"turbo_produce": {
+"category": 5,
+"amount": 24900
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 9120
+}
+},
+{
+"id": 4031014,
+"produce": {
+"category": 5,
+"amount": 30500
+},
+"cost": [
+{
+"category": 4,
+"amount": 150000
+}
+],
+"para1": 13860,
+"turbo_produce": {
+"category": 5,
+"amount": 26980
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 9820
+}
+},
+{
+"id": 4031015,
+"produce": {
+"category": 5,
+"amount": 32500
+},
+"cost": [
+{
+"category": 4,
+"amount": 160000
+}
+],
+"para1": 14220,
+"turbo_produce": {
+"category": 5,
+"amount": 28740
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 10400
+}
+},
+{
+"id": 4031016,
+"produce": {
+"category": 5,
+"amount": 34500
+},
+"cost": [
+{
+"category": 4,
+"amount": 180000
+}
+],
+"para1": 15300,
+"turbo_produce": {
+"category": 5,
+"amount": 30740
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 11140
+}
+},
+{
+"id": 4031017,
+"produce": {
+"category": 5,
+"amount": 37000
+},
+"cost": [
+{
+"category": 4,
+"amount": 220000
+}
+],
+"para1": 17640,
+"turbo_produce": {
+"category": 5,
+"amount": 32780
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 11860
+}
+},
+{
+"id": 4031018,
+"produce": {
+"category": 5,
+"amount": 39000
+},
+"cost": [
+{
+"category": 4,
+"amount": 280000
+}
+],
+"para1": 23400,
+"turbo_produce": {
+"category": 5,
+"amount": 34660
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 12540
+}
+},
+{
+"id": 4031019,
+"produce": {
+"category": 5,
+"amount": 41000
+},
+"cost": [
+{
+"category": 4,
+"amount": 300000
+}
+],
+"para1": 24840,
+"turbo_produce": {
+"category": 5,
+"amount": 36420
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 13260
+}
+},
+{
+"id": 4031020,
+"produce": {
+"category": 5,
+"amount": 43000
+},
+"cost": [
+{
+"category": 4,
+"amount": 320000
+}
+],
+"para1": 25920,
+"turbo_produce": {
+"category": 5,
+"amount": 38440
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 13860
+}
+},
+{
+"id": 4031021,
+"produce": {
+"category": 5,
+"amount": 45500
+},
+"cost": [
+{
+"category": 4,
+"amount": 330000
+}
+],
+"para1": 26460,
+"turbo_produce": {
+"category": 5,
+"amount": 40200
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 14160
+}
+},
+{
+"id": 4031022,
+"produce": {
+"category": 5,
+"amount": 47500
+},
+"cost": [
+{
+"category": 4,
+"amount": 340000
+}
+],
+"para1": 27000,
+"turbo_produce": {
+"category": 5,
+"amount": 42380
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 14400
+}
+},
+{
+"id": 4031023,
+"produce": {
+"category": 5,
+"amount": 49500
+},
+"cost": [
+{
+"category": 4,
+"amount": 380000
+}
+],
+"para1": 31500,
+"turbo_produce": {
+"category": 5,
+"amount": 44280
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 14720
+}
+},
+{
+"id": 4031024,
+"produce": {
+"category": 5,
+"amount": 52000
+},
+"cost": [
+{
+"category": 4,
+"amount": 450000
+}
+],
+"para1": 36180,
+"turbo_produce": {
+"category": 5,
+"amount": 46060
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 15040
+}
+},
+{
+"id": 4031025,
+"produce": {
+"category": 5,
+"amount": 54000
+},
+"cost": [
+{
+"category": 4,
+"amount": 500000
+}
+],
+"para1": 40860,
+"turbo_produce": {
+"category": 5,
+"amount": 48060
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 15280
+}
+},
+{
+"id": 4040001,
+"produce": {
+"category": 2,
+"amount": 600
+},
+"turbo_produce": {
+"category": 2,
+"amount": 3960
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 120
+}
+},
+{
+"id": 4040002,
+"produce": {
+"category": 2,
+"amount": 1000
+},
+"turbo_produce": {
+"category": 2,
+"amount": 4480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 160
+}
+},
+{
+"id": 4040003,
+"produce": {
+"category": 2,
+"amount": 1500
+},
+"turbo_produce": {
+"category": 2,
+"amount": 5020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 240
+}
+},
+{
+"id": 4040004,
+"produce": {
+"category": 2,
+"amount": 2100
+},
+"turbo_produce": {
+"category": 2,
+"amount": 5480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 320
+}
+},
+{
+"id": 4040005,
+"produce": {
+"category": 2,
+"amount": 2700
+},
+"turbo_produce": {
+"category": 2,
+"amount": 6020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 400
+}
+},
+{
+"id": 4040006,
+"produce": {
+"category": 2,
+"amount": 3400
+},
+"turbo_produce": {
+"category": 2,
+"amount": 6520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 520
+}
+},
+{
+"id": 4040007,
+"produce": {
+"category": 2,
+"amount": 4100
+},
+"turbo_produce": {
+"category": 2,
+"amount": 7020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 640
+}
+},
+{
+"id": 4040008,
+"produce": {
+"category": 2,
+"amount": 4900
+},
+"turbo_produce": {
+"category": 2,
+"amount": 7520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 760
+}
+},
+{
+"id": 4040009,
+"produce": {
+"category": 2,
+"amount": 5700
+},
+"turbo_produce": {
+"category": 2,
+"amount": 8000
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 880
+}
+},
+{
+"id": 4040010,
+"produce": {
+"category": 2,
+"amount": 6500
+},
+"turbo_produce": {
+"category": 2,
+"amount": 8520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1000
+}
+},
+{
+"id": 4040011,
+"produce": {
+"category": 2,
+"amount": 7300
+},
+"turbo_produce": {
+"category": 2,
+"amount": 9000
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1120
+}
+},
+{
+"id": 4040012,
+"produce": {
+"category": 2,
+"amount": 8100
+},
+"turbo_produce": {
+"category": 2,
+"amount": 9520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1240
+}
+},
+{
+"id": 4040013,
+"produce": {
+"category": 2,
+"amount": 8900
+},
+"turbo_produce": {
+"category": 2,
+"amount": 10460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1360
+}
+},
+{
+"id": 4040014,
+"produce": {
+"category": 2,
+"amount": 9700
+},
+"turbo_produce": {
+"category": 2,
+"amount": 11520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1480
+}
+},
+{
+"id": 4040015,
+"produce": {
+"category": 2,
+"amount": 10500
+},
+"turbo_produce": {
+"category": 2,
+"amount": 12460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1640
+}
+},
+{
+"id": 4040016,
+"produce": {
+"category": 2,
+"amount": 11300
+},
+"turbo_produce": {
+"category": 2,
+"amount": 13460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1800
+}
+},
+{
+"id": 4040017,
+"produce": {
+"category": 2,
+"amount": 12100
+},
+"turbo_produce": {
+"category": 2,
+"amount": 14540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1960
+}
+},
+{
+"id": 4040018,
+"produce": {
+"category": 2,
+"amount": 12900
+},
+"turbo_produce": {
+"category": 2,
+"amount": 15540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2120
+}
+},
+{
+"id": 4040019,
+"produce": {
+"category": 2,
+"amount": 13700
+},
+"turbo_produce": {
+"category": 2,
+"amount": 16520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2360
+}
+},
+{
+"id": 4040020,
+"produce": {
+"category": 2,
+"amount": 14500
+},
+"turbo_produce": {
+"category": 2,
+"amount": 17540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2600
+}
+},
+{
+"id": 4040021,
+"produce": {
+"category": 2,
+"amount": 15300
+},
+"turbo_produce": {
+"category": 2,
+"amount": 18480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2840
+}
+},
+{
+"id": 4040022,
+"produce": {
+"category": 2,
+"amount": 16100
+},
+"turbo_produce": {
+"category": 2,
+"amount": 19540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3080
+}
+},
+{
+"id": 4040023,
+"produce": {
+"category": 2,
+"amount": 16900
+},
+"turbo_produce": {
+"category": 2,
+"amount": 20480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3320
+}
+},
+{
+"id": 4040024,
+"produce": {
+"category": 2,
+"amount": 17700
+},
+"turbo_produce": {
+"category": 2,
+"amount": 21540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3560
+}
+},
+{
+"id": 4040025,
+"produce": {
+"category": 2,
+"amount": 18500
+},
+"turbo_produce": {
+"category": 2,
+"amount": 22480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3800
+}
+},
+{
+"id": 4041001,
+"produce": {
+"category": 3,
+"amount": 1000
+},
+"turbo_produce": {
+"category": 3,
+"amount": 3560
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 120
+}
+},
+{
+"id": 4041002,
+"produce": {
+"category": 3,
+"amount": 1850
+},
+"turbo_produce": {
+"category": 3,
+"amount": 4220
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 160
+}
+},
+{
+"id": 4041003,
+"produce": {
+"category": 3,
+"amount": 2700
+},
+"turbo_produce": {
+"category": 3,
+"amount": 4520
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 240
+}
+},
+{
+"id": 4041004,
+"produce": {
+"category": 3,
+"amount": 3550
+},
+"turbo_produce": {
+"category": 3,
+"amount": 4780
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 320
+}
+},
+{
+"id": 4041005,
+"produce": {
+"category": 3,
+"amount": 4400
+},
+"turbo_produce": {
+"category": 3,
+"amount": 5280
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 400
+}
+},
+{
+"id": 4041006,
+"produce": {
+"category": 3,
+"amount": 5250
+},
+"turbo_produce": {
+"category": 3,
+"amount": 5800
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 520
+}
+},
+{
+"id": 4041007,
+"produce": {
+"category": 3,
+"amount": 6100
+},
+"turbo_produce": {
+"category": 3,
+"amount": 6180
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 640
+}
+},
+{
+"id": 4041008,
+"produce": {
+"category": 3,
+"amount": 6950
+},
+"turbo_produce": {
+"category": 3,
+"amount": 6300
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 760
+}
+},
+{
+"id": 4041009,
+"produce": {
+"category": 3,
+"amount": 7800
+},
+"turbo_produce": {
+"category": 3,
+"amount": 7140
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 880
+}
+},
+{
+"id": 4041010,
+"produce": {
+"category": 3,
+"amount": 8650
+},
+"turbo_produce": {
+"category": 3,
+"amount": 7680
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1000
+}
+},
+{
+"id": 4041011,
+"produce": {
+"category": 3,
+"amount": 9500
+},
+"turbo_produce": {
+"category": 3,
+"amount": 8460
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1120
+}
+},
+{
+"id": 4041012,
+"produce": {
+"category": 3,
+"amount": 10350
+},
+"turbo_produce": {
+"category": 3,
+"amount": 9260
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1240
+}
+},
+{
+"id": 4041013,
+"produce": {
+"category": 3,
+"amount": 11200
+},
+"turbo_produce": {
+"category": 3,
+"amount": 10120
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1360
+}
+},
+{
+"id": 4041014,
+"produce": {
+"category": 3,
+"amount": 12050
+},
+"turbo_produce": {
+"category": 3,
+"amount": 10860
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1480
+}
+},
+{
+"id": 4041015,
+"produce": {
+"category": 3,
+"amount": 12900
+},
+"turbo_produce": {
+"category": 3,
+"amount": 11620
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1640
+}
+},
+{
+"id": 4041016,
+"produce": {
+"category": 3,
+"amount": 13750
+},
+"turbo_produce": {
+"category": 3,
+"amount": 12380
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1800
+}
+},
+{
+"id": 4041017,
+"produce": {
+"category": 3,
+"amount": 14600
+},
+"turbo_produce": {
+"category": 3,
+"amount": 13180
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 1960
+}
+},
+{
+"id": 4041018,
+"produce": {
+"category": 3,
+"amount": 15450
+},
+"turbo_produce": {
+"category": 3,
+"amount": 14020
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 2120
+}
+},
+{
+"id": 4041019,
+"produce": {
+"category": 3,
+"amount": 16300
+},
+"turbo_produce": {
+"category": 3,
+"amount": 14820
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 2360
+}
+},
+{
+"id": 4041020,
+"produce": {
+"category": 3,
+"amount": 17150
+},
+"turbo_produce": {
+"category": 3,
+"amount": 15420
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 2600
+}
+},
+{
+"id": 4041021,
+"produce": {
+"category": 3,
+"amount": 18000
+},
+"turbo_produce": {
+"category": 3,
+"amount": 16240
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 2840
+}
+},
+{
+"id": 4041022,
+"produce": {
+"category": 3,
+"amount": 18850
+},
+"turbo_produce": {
+"category": 3,
+"amount": 16960
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 3080
+}
+},
+{
+"id": 4041023,
+"produce": {
+"category": 3,
+"amount": 19700
+},
+"turbo_produce": {
+"category": 3,
+"amount": 17820
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 3320
+}
+},
+{
+"id": 4041024,
+"produce": {
+"category": 3,
+"amount": 20550
+},
+"turbo_produce": {
+"category": 3,
+"amount": 18620
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 3560
+}
+},
+{
+"id": 4041025,
+"produce": {
+"category": 3,
+"amount": 21400
+},
+"turbo_produce": {
+"category": 3,
+"amount": 19220
+},
+"repair_durability_cost": {
+"category": 2,
+"amount": 3800
+}
+},
+{
+"id": 4042001,
+"produce": {
+"category": 4,
+"amount": 600
+},
+"turbo_produce": {
+"category": 4,
+"amount": 4040
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 120
+}
+},
+{
+"id": 4042002,
+"produce": {
+"category": 4,
+"amount": 1000
+},
+"turbo_produce": {
+"category": 4,
+"amount": 4480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 160
+}
+},
+{
+"id": 4042003,
+"produce": {
+"category": 4,
+"amount": 1500
+},
+"turbo_produce": {
+"category": 4,
+"amount": 4980
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 240
+}
+},
+{
+"id": 4042004,
+"produce": {
+"category": 4,
+"amount": 2100
+},
+"turbo_produce": {
+"category": 4,
+"amount": 5520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 320
+}
+},
+{
+"id": 4042005,
+"produce": {
+"category": 4,
+"amount": 2700
+},
+"turbo_produce": {
+"category": 4,
+"amount": 6020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 400
+}
+},
+{
+"id": 4042006,
+"produce": {
+"category": 4,
+"amount": 3400
+},
+"turbo_produce": {
+"category": 4,
+"amount": 6480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 520
+}
+},
+{
+"id": 4042007,
+"produce": {
+"category": 4,
+"amount": 4100
+},
+"turbo_produce": {
+"category": 4,
+"amount": 7020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 640
+}
+},
+{
+"id": 4042008,
+"produce": {
+"category": 4,
+"amount": 4900
+},
+"turbo_produce": {
+"category": 4,
+"amount": 7480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 760
+}
+},
+{
+"id": 4042009,
+"produce": {
+"category": 4,
+"amount": 5700
+},
+"turbo_produce": {
+"category": 4,
+"amount": 7980
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 880
+}
+},
+{
+"id": 4042010,
+"produce": {
+"category": 4,
+"amount": 6500
+},
+"turbo_produce": {
+"category": 4,
+"amount": 8520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1000
+}
+},
+{
+"id": 4042011,
+"produce": {
+"category": 4,
+"amount": 7300
+},
+"turbo_produce": {
+"category": 4,
+"amount": 8980
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1120
+}
+},
+{
+"id": 4042012,
+"produce": {
+"category": 4,
+"amount": 8100
+},
+"turbo_produce": {
+"category": 4,
+"amount": 9520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1240
+}
+},
+{
+"id": 4042013,
+"produce": {
+"category": 4,
+"amount": 8900
+},
+"turbo_produce": {
+"category": 4,
+"amount": 10480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1360
+}
+},
+{
+"id": 4042014,
+"produce": {
+"category": 4,
+"amount": 9700
+},
+"turbo_produce": {
+"category": 4,
+"amount": 11520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1480
+}
+},
+{
+"id": 4042015,
+"produce": {
+"category": 4,
+"amount": 10500
+},
+"turbo_produce": {
+"category": 4,
+"amount": 12480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1640
+}
+},
+{
+"id": 4042016,
+"produce": {
+"category": 4,
+"amount": 11300
+},
+"turbo_produce": {
+"category": 4,
+"amount": 13460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1800
+}
+},
+{
+"id": 4042017,
+"produce": {
+"category": 4,
+"amount": 12100
+},
+"turbo_produce": {
+"category": 4,
+"amount": 14480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1960
+}
+},
+{
+"id": 4042018,
+"produce": {
+"category": 4,
+"amount": 12900
+},
+"turbo_produce": {
+"category": 4,
+"amount": 15460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2120
+}
+},
+{
+"id": 4042019,
+"produce": {
+"category": 4,
+"amount": 13700
+},
+"turbo_produce": {
+"category": 4,
+"amount": 16520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2360
+}
+},
+{
+"id": 4042020,
+"produce": {
+"category": 4,
+"amount": 14500
+},
+"turbo_produce": {
+"category": 4,
+"amount": 17460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2600
+}
+},
+{
+"id": 4042021,
+"produce": {
+"category": 4,
+"amount": 15300
+},
+"turbo_produce": {
+"category": 4,
+"amount": 18540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2840
+}
+},
+{
+"id": 4042022,
+"produce": {
+"category": 4,
+"amount": 16100
+},
+"turbo_produce": {
+"category": 4,
+"amount": 19480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3080
+}
+},
+{
+"id": 4042023,
+"produce": {
+"category": 4,
+"amount": 16900
+},
+"turbo_produce": {
+"category": 4,
+"amount": 20540
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3320
+}
+},
+{
+"id": 4042024,
+"produce": {
+"category": 4,
+"amount": 17700
+},
+"turbo_produce": {
+"category": 4,
+"amount": 21520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3560
+}
+},
+{
+"id": 4042025,
+"produce": {
+"category": 4,
+"amount": 18500
+},
+"turbo_produce": {
+"category": 4,
+"amount": 22460
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3800
+}
+},
+{
+"id": 4043001,
+"produce": {
+"category": 6,
+"amount": 600
+},
+"turbo_produce": {
+"category": 6,
+"amount": 2860
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 120
+}
+},
+{
+"id": 4043002,
+"produce": {
+"category": 6,
+"amount": 1000
+},
+"turbo_produce": {
+"category": 6,
+"amount": 3000
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 160
+}
+},
+{
+"id": 4043003,
+"produce": {
+"category": 6,
+"amount": 1400
+},
+"turbo_produce": {
+"category": 6,
+"amount": 3100
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 240
+}
+},
+{
+"id": 4043004,
+"produce": {
+"category": 6,
+"amount": 1900
+},
+"turbo_produce": {
+"category": 6,
+"amount": 3200
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 320
+}
+},
+{
+"id": 4043005,
+"produce": {
+"category": 6,
+"amount": 2400
+},
+"turbo_produce": {
+"category": 6,
+"amount": 3820
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 400
+}
+},
+{
+"id": 4043006,
+"produce": {
+"category": 6,
+"amount": 2900
+},
+"turbo_produce": {
+"category": 6,
+"amount": 4000
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 520
+}
+},
+{
+"id": 4043007,
+"produce": {
+"category": 6,
+"amount": 3400
+},
+"turbo_produce": {
+"category": 6,
+"amount": 4200
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 640
+}
+},
+{
+"id": 4043008,
+"produce": {
+"category": 6,
+"amount": 3900
+},
+"turbo_produce": {
+"category": 6,
+"amount": 4500
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 760
+}
+},
+{
+"id": 4043009,
+"produce": {
+"category": 6,
+"amount": 4400
+},
+"turbo_produce": {
+"category": 6,
+"amount": 4800
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 880
+}
+},
+{
+"id": 4043010,
+"produce": {
+"category": 6,
+"amount": 4900
+},
+"turbo_produce": {
+"category": 6,
+"amount": 5320
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1000
+}
+},
+{
+"id": 4043011,
+"produce": {
+"category": 6,
+"amount": 5400
+},
+"turbo_produce": {
+"category": 6,
+"amount": 5780
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1120
+}
+},
+{
+"id": 4043012,
+"produce": {
+"category": 6,
+"amount": 5900
+},
+"turbo_produce": {
+"category": 6,
+"amount": 6280
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1240
+}
+},
+{
+"id": 4043013,
+"produce": {
+"category": 6,
+"amount": 6500
+},
+"turbo_produce": {
+"category": 6,
+"amount": 6920
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1360
+}
+},
+{
+"id": 4043014,
+"produce": {
+"category": 6,
+"amount": 7100
+},
+"turbo_produce": {
+"category": 6,
+"amount": 7420
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1480
+}
+},
+{
+"id": 4043015,
+"produce": {
+"category": 6,
+"amount": 7700
+},
+"turbo_produce": {
+"category": 6,
+"amount": 7920
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1640
+}
+},
+{
+"id": 4043016,
+"produce": {
+"category": 6,
+"amount": 8300
+},
+"turbo_produce": {
+"category": 6,
+"amount": 8380
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1800
+}
+},
+{
+"id": 4043017,
+"produce": {
+"category": 6,
+"amount": 9000
+},
+"turbo_produce": {
+"category": 6,
+"amount": 8980
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1960
+}
+},
+{
+"id": 4043018,
+"produce": {
+"category": 6,
+"amount": 9700
+},
+"turbo_produce": {
+"category": 6,
+"amount": 9520
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2120
+}
+},
+{
+"id": 4043019,
+"produce": {
+"category": 6,
+"amount": 10400
+},
+"turbo_produce": {
+"category": 6,
+"amount": 10020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2360
+}
+},
+{
+"id": 4043020,
+"produce": {
+"category": 6,
+"amount": 11100
+},
+"turbo_produce": {
+"category": 6,
+"amount": 10380
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2600
+}
+},
+{
+"id": 4043021,
+"produce": {
+"category": 6,
+"amount": 11900
+},
+"turbo_produce": {
+"category": 6,
+"amount": 10500
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2840
+}
+},
+{
+"id": 4043022,
+"produce": {
+"category": 6,
+"amount": 12700
+},
+"turbo_produce": {
+"category": 6,
+"amount": 10700
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3080
+}
+},
+{
+"id": 4043023,
+"produce": {
+"category": 6,
+"amount": 13500
+},
+"turbo_produce": {
+"category": 6,
+"amount": 10900
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3320
+}
+},
+{
+"id": 4043024,
+"produce": {
+"category": 6,
+"amount": 14300
+},
+"turbo_produce": {
+"category": 6,
+"amount": 11100
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3560
+}
+},
+{
+"id": 4043025,
+"produce": {
+"category": 6,
+"amount": 15100
+},
+"turbo_produce": {
+"category": 6,
+"amount": 11420
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3800
+}
+},
+{
+"id": 4044001,
+"produce": {
+"category": 7,
+"amount": 400
+},
+"turbo_produce": {
+"category": 7,
+"amount": 1960
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 120
+}
+},
+{
+"id": 4044002,
+"produce": {
+"category": 7,
+"amount": 700
+},
+"turbo_produce": {
+"category": 7,
+"amount": 2280
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 160
+}
+},
+{
+"id": 4044003,
+"produce": {
+"category": 7,
+"amount": 1000
+},
+"turbo_produce": {
+"category": 7,
+"amount": 2580
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 240
+}
+},
+{
+"id": 4044004,
+"produce": {
+"category": 7,
+"amount": 1300
+},
+"turbo_produce": {
+"category": 7,
+"amount": 2900
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 320
+}
+},
+{
+"id": 4044005,
+"produce": {
+"category": 7,
+"amount": 1700
+},
+"turbo_produce": {
+"category": 7,
+"amount": 3220
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 400
+}
+},
+{
+"id": 4044006,
+"produce": {
+"category": 7,
+"amount": 2100
+},
+"turbo_produce": {
+"category": 7,
+"amount": 3480
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 520
+}
+},
+{
+"id": 4044007,
+"produce": {
+"category": 7,
+"amount": 2500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 3800
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 640
+}
+},
+{
+"id": 4044008,
+"produce": {
+"category": 7,
+"amount": 2900
+},
+"turbo_produce": {
+"category": 7,
+"amount": 4080
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 760
+}
+},
+{
+"id": 4044009,
+"produce": {
+"category": 7,
+"amount": 3300
+},
+"turbo_produce": {
+"category": 7,
+"amount": 4400
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 880
+}
+},
+{
+"id": 4044010,
+"produce": {
+"category": 7,
+"amount": 3700
+},
+"turbo_produce": {
+"category": 7,
+"amount": 4680
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1000
+}
+},
+{
+"id": 4044011,
+"produce": {
+"category": 7,
+"amount": 4100
+},
+"turbo_produce": {
+"category": 7,
+"amount": 5000
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1120
+}
+},
+{
+"id": 4044012,
+"produce": {
+"category": 7,
+"amount": 4500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 5420
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1240
+}
+},
+{
+"id": 4044013,
+"produce": {
+"category": 7,
+"amount": 4900
+},
+"turbo_produce": {
+"category": 7,
+"amount": 5780
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1360
+}
+},
+{
+"id": 4044014,
+"produce": {
+"category": 7,
+"amount": 5300
+},
+"turbo_produce": {
+"category": 7,
+"amount": 6220
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1480
+}
+},
+{
+"id": 4044015,
+"produce": {
+"category": 7,
+"amount": 5700
+},
+"turbo_produce": {
+"category": 7,
+"amount": 6620
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1640
+}
+},
+{
+"id": 4044016,
+"produce": {
+"category": 7,
+"amount": 6100
+},
+"turbo_produce": {
+"category": 7,
+"amount": 7020
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1800
+}
+},
+{
+"id": 4044017,
+"produce": {
+"category": 7,
+"amount": 6500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 7420
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 1960
+}
+},
+{
+"id": 4044018,
+"produce": {
+"category": 7,
+"amount": 7000
+},
+"turbo_produce": {
+"category": 7,
+"amount": 7780
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2120
+}
+},
+{
+"id": 4044019,
+"produce": {
+"category": 7,
+"amount": 7500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 8220
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2360
+}
+},
+{
+"id": 4044020,
+"produce": {
+"category": 7,
+"amount": 8000
+},
+"turbo_produce": {
+"category": 7,
+"amount": 8680
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2600
+}
+},
+{
+"id": 4044021,
+"produce": {
+"category": 7,
+"amount": 8500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 9180
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 2840
+}
+},
+{
+"id": 4044022,
+"produce": {
+"category": 7,
+"amount": 9000
+},
+"turbo_produce": {
+"category": 7,
+"amount": 9720
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3080
+}
+},
+{
+"id": 4044023,
+"produce": {
+"category": 7,
+"amount": 9500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 10180
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3320
+}
+},
+{
+"id": 4044024,
+"produce": {
+"category": 7,
+"amount": 10000
+},
+"turbo_produce": {
+"category": 7,
+"amount": 10680
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3560
+}
+},
+{
+"id": 4044025,
+"produce": {
+"category": 7,
+"amount": 10500
+},
+"turbo_produce": {
+"category": 7,
+"amount": 11220
+},
+"repair_durability_cost": {
+"category": 3,
+"amount": 3800
+}
+},
+{
+"id": 4045001,
+"produce": {
+"category": 8,
+"amount": 4450
+},
+"para1": 100,
+"turbo_produce": {
+"category": 8,
+"amount": 6160
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 100
+}
+},
+{
+"id": 4045002,
+"produce": {
+"category": 8,
+"amount": 4500
+},
+"para1": 200,
+"turbo_produce": {
+"category": 8,
+"amount": 6400
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 200
+}
+},
+{
+"id": 4045003,
+"produce": {
+"category": 8,
+"amount": 4700
+},
+"para1": 500,
+"turbo_produce": {
+"category": 8,
+"amount": 6600
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 320
+}
+},
+{
+"id": 4045004,
+"produce": {
+"category": 8,
+"amount": 4900
+},
+"para1": 1000,
+"turbo_produce": {
+"category": 8,
+"amount": 6800
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 420
+}
+},
+{
+"id": 4045005,
+"produce": {
+"category": 8,
+"amount": 5100
+},
+"para1": 1500,
+"turbo_produce": {
+"category": 8,
+"amount": 7000
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 520
+}
+},
+{
+"id": 4045006,
+"produce": {
+"category": 8,
+"amount": 5300
+},
+"para1": 2000,
+"turbo_produce": {
+"category": 8,
+"amount": 7200
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 620
+}
+},
+{
+"id": 4045007,
+"produce": {
+"category": 8,
+"amount": 5400
+},
+"para1": 2500,
+"turbo_produce": {
+"category": 8,
+"amount": 7420
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 920
+}
+},
+{
+"id": 4045008,
+"produce": {
+"category": 8,
+"amount": 5600
+},
+"para1": 3500,
+"turbo_produce": {
+"category": 8,
+"amount": 7600
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 1060
+}
+},
+{
+"id": 4045009,
+"produce": {
+"category": 8,
+"amount": 5800
+},
+"para1": 4500,
+"turbo_produce": {
+"category": 8,
+"amount": 7800
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 1200
+}
+},
+{
+"id": 4045010,
+"produce": {
+"category": 8,
+"amount": 6000
+},
+"para1": 6500,
+"turbo_produce": {
+"category": 8,
+"amount": 8000
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 3500
+}
+},
+{
+"id": 4045011,
+"produce": {
+"category": 8,
+"amount": 6200
+},
+"para1": 8500,
+"turbo_produce": {
+"category": 8,
+"amount": 8200
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 3840
+}
+},
+{
+"id": 4045012,
+"produce": {
+"category": 8,
+"amount": 6300
+},
+"para1": 10000,
+"turbo_produce": {
+"category": 8,
+"amount": 8400
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 4200
+}
+},
+{
+"id": 4045013,
+"produce": {
+"category": 8,
+"amount": 6500
+},
+"para1": 11500,
+"turbo_produce": {
+"category": 8,
+"amount": 8600
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 4560
+}
+},
+{
+"id": 4045014,
+"produce": {
+"category": 8,
+"amount": 6700
+},
+"para1": 13000,
+"turbo_produce": {
+"category": 8,
+"amount": 8800
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 4920
+}
+},
+{
+"id": 4045015,
+"produce": {
+"category": 8,
+"amount": 6900
+},
+"para1": 14500,
+"turbo_produce": {
+"category": 8,
+"amount": 9000
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 5200
+}
+},
+{
+"id": 4045016,
+"produce": {
+"category": 8,
+"amount": 7100
+},
+"para1": 16000,
+"turbo_produce": {
+"category": 8,
+"amount": 9220
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 5560
+}
+},
+{
+"id": 4045017,
+"produce": {
+"category": 8,
+"amount": 7200
+},
+"para1": 17000,
+"turbo_produce": {
+"category": 8,
+"amount": 9400
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 5920
+}
+},
+{
+"id": 4045018,
+"produce": {
+"category": 8,
+"amount": 7400
+},
+"para1": 19000,
+"turbo_produce": {
+"category": 8,
+"amount": 9620
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 6280
+}
+},
+{
+"id": 4045019,
+"produce": {
+"category": 8,
+"amount": 7600
+},
+"para1": 21000,
+"turbo_produce": {
+"category": 8,
+"amount": 9800
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 6640
+}
+},
+{
+"id": 4045020,
+"produce": {
+"category": 8,
+"amount": 7800
+},
+"para1": 24000,
+"turbo_produce": {
+"category": 8,
+"amount": 10000
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 6920
+}
+},
+{
+"id": 4045021,
+"produce": {
+"category": 8,
+"amount": 7900
+},
+"para1": 27000,
+"turbo_produce": {
+"category": 8,
+"amount": 10200
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 7080
+}
+},
+{
+"id": 4045022,
+"produce": {
+"category": 8,
+"amount": 8000
+},
+"para1": 32000,
+"turbo_produce": {
+"category": 8,
+"amount": 10400
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 7200
+}
+},
+{
+"id": 4045023,
+"produce": {
+"category": 8,
+"amount": 8100
+},
+"para1": 36000,
+"turbo_produce": {
+"category": 8,
+"amount": 10600
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 7360
+}
+},
+{
+"id": 4045024,
+"produce": {
+"category": 8,
+"amount": 8150
+},
+"para1": 46000,
+"turbo_produce": {
+"category": 8,
+"amount": 10800
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 7520
+}
+},
+{
+"id": 4045025,
+"produce": {
+"category": 8,
+"amount": 8200
+},
+"para1": 52000,
+"turbo_produce": {
+"category": 8,
+"amount": 11000
+},
+"repair_durability_cost": {
+"category": 7,
+"amount": 7640
+}
+},
+{
+"id": 4046001,
+"cost": [
+{
+"category": 2,
+"amount": 150
+},
+{
+"category": 3,
+"amount": 150
+}
+],
+"para1": 0.0012,
+"para2": 0.0012,
+"para3": 0.00084,
+"para4": 0.00084,
+"para5": 30000
+},
+{
+"id": 4046002,
+"cost": [
+{
+"category": 2,
+"amount": 320
+},
+{
+"category": 3,
+"amount": 320
+}
+],
+"para1": 0.0012,
+"para2": 0.0012,
+"para3": 0.000588,
+"para4": 0.000588,
+"para5": 50000
+},
+{
+"id": 4046003,
+"cost": [
+{
+"category": 2,
+"amount": 620
+},
+{
+"category": 3,
+"amount": 620
+}
+],
+"para1": 0.0012,
+"para2": 0.0012,
+"para3": 0.000588,
+"para4": 0.000588,
+"para5": 70000
+},
+{
+"id": 4046004,
+"cost": [
+{
+"category": 2,
+"amount": 1600
+},
+{
+"category": 3,
+"amount": 1600
+}
+],
+"para1": 0.0012,
+"para2": 0.0012,
+"para3": 0.000588,
+"para4": 0.000588,
+"para5": 90000
+},
+{
+"id": 4046005,
+"cost": [
+{
+"category": 2,
+"amount": 4200
+},
+{
+"category": 3,
+"amount": 4200
+}
+],
+"para1": 0.003,
+"para2": 0.003,
+"para3": 0.0021,
+"para4": 0.0021,
+"para5": 110000
+},
+{
+"id": 4046006,
+"cost": [
+{
+"category": 2,
+"amount": 10000
+},
+{
+"category": 3,
+"amount": 10000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 130000
+},
+{
+"id": 4046007,
+"cost": [
+{
+"category": 2,
+"amount": 48000
+},
+{
+"category": 3,
+"amount": 48000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 150000
+},
+{
+"id": 4046008,
+"cost": [
+{
+"category": 2,
+"amount": 120000
+},
+{
+"category": 3,
+"amount": 120000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 170000
+},
+{
+"id": 4046009,
+"cost": [
+{
+"category": 2,
+"amount": 150000
+},
+{
+"category": 3,
+"amount": 150000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 190000
+},
+{
+"id": 4046010,
+"cost": [
+{
+"category": 2,
+"amount": 240000
+},
+{
+"category": 3,
+"amount": 240000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 210000
+},
+{
+"id": 4046011,
+"cost": [
+{
+"category": 2,
+"amount": 300000
+},
+{
+"category": 3,
+"amount": 300000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 250000
+},
+{
+"id": 4046012,
+"cost": [
+{
+"category": 2,
+"amount": 400000
+},
+{
+"category": 3,
+"amount": 400000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 300000
+},
+{
+"id": 4046013,
+"cost": [
+{
+"category": 2,
+"amount": 500000
+},
+{
+"category": 3,
+"amount": 500000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 350000
+},
+{
+"id": 4046014,
+"cost": [
+{
+"category": 2,
+"amount": 720000
+},
+{
+"category": 3,
+"amount": 720000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 400000
+},
+{
+"id": 4046015,
+"cost": [
+{
+"category": 2,
+"amount": 860000
+},
+{
+"category": 3,
+"amount": 860000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 450000
+},
+{
+"id": 4046016,
+"cost": [
+{
+"category": 2,
+"amount": 980000
+},
+{
+"category": 3,
+"amount": 980000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 500000
+},
+{
+"id": 4046017,
+"cost": [
+{
+"category": 2,
+"amount": 1150000
+},
+{
+"category": 3,
+"amount": 1150000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 550000
+},
+{
+"id": 4046018,
+"cost": [
+{
+"category": 2,
+"amount": 1250000
+},
+{
+"category": 3,
+"amount": 1250000
+}
+],
+"para1": 0.004,
+"para2": 0.004,
+"para3": 0.0028,
+"para4": 0.0028,
+"para5": 600000
+},
+{
+"id": 4046019,
+"cost": [
+{
+"category": 2,
+"amount": 1400000
+},
+{
+"category": 3,
+"amount": 1400000
+}
+],
+"para1": 0.003,
+"para2": 0.003,
+"para3": 0.0021,
+"para4": 0.0021,
+"para5": 650000
+},
+{
+"id": 4046020,
+"cost": [
+{
+"category": 2,
+"amount": 1500000
+},
+{
+"category": 3,
+"amount": 1500000
+}
+],
+"para1": 0.003,
+"para2": 0.003,
+"para3": 0.0021,
+"para4": 0.0021,
+"para5": 700000
+},
+{
+"id": 4046021,
+"cost": [
+{
+"category": 2,
+"amount": 1650000
+},
+{
+"category": 3,
+"amount": 1650000
+}
+],
+"para1": 0.003,
+"para2": 0.003,
+"para3": 0.0021,
+"para4": 0.0021,
+"para5": 750000
+},
+{
+"id": 4046022,
+"cost": [
+{
+"category": 2,
+"amount": 2000000
+},
+{
+"category": 3,
+"amount": 2000000
+}
+],
+"para1": 0.003,
+"para2": 0.003,
+"para3": 0.0021,
+"para4": 0.0021,
+"para5": 800000
+},
+{
+"id": 4046023,
+"cost": [
+{
+"category": 2,
+"amount": 2200000
+},
+{
+"category": 3,
+"amount": 2200000
+}
+],
+"para1": 0.003,
+"para2": 0.003,
+"para3": 0.0021,
+"para4": 0.0021,
+"para5": 850000
+},
+{
+"id": 4046024,
+"cost": [
+{
+"category": 2,
+"amount": 2400000
+},
+{
+"category": 3,
+"amount": 2400000
+}
+],
+"para1": 0.002,
+"para2": 0.002,
+"para3": 0.0014,
+"para4": 0.0014,
+"para5": 900000
+},
+{
+"id": 4046025,
+"cost": [
+{
+"category": 2,
+"amount": 2600000
+},
+{
+"category": 3,
+"amount": 2600000
+}
+],
+"para1": 0.002,
+"para2": 0.002,
+"para3": 0.0014,
+"para4": 0.0014,
+"para5": 1000000
+},
+{
+"id": 4160001,
+"produce": {
+"category": 5,
+"amount": 6650
+}
+},
+{
+"id": 4160002,
+"produce": {
+"category": 5,
+"amount": 13500
+}
+},
+{
+"id": 4160003,
+"produce": {
+"category": 5,
+"amount": 19500
+}
+},
+{
+"id": 4160004,
+"produce": {
+"category": 5,
+"amount": 26000
+}
+},
+{
+"id": 4160005,
+"produce": {
+"category": 5,
+"amount": 32500
+}
+},
+{
+"id": 4160006,
+"produce": {
+"category": 5,
+"amount": 39000
+}
+},
+{
+"id": 4160007,
+"produce": {
+"category": 5,
+"amount": 45500
+}
+},
+{
+"id": 4160008,
+"produce": {
+"category": 5,
+"amount": 52000
+}
+},
+{
+"id": 4160009,
+"produce": {
+"category": 5,
+"amount": 58500
+}
+},
+{
+"id": 4160010,
+"produce": {
+"category": 5,
+"amount": 64500
+}
+},
+{
+"id": 4160011,
+"produce": {
+"category": 5,
+"amount": 71500
+}
+},
+{
+"id": 4160012,
+"produce": {
+"category": 5,
+"amount": 78000
+}
+},
+{
+"id": 4160013,
+"produce": {
+"category": 5,
+"amount": 84000
+}
+},
+{
+"id": 4160014,
+"produce": {
+"category": 5,
+"amount": 91000
+}
+},
+{
+"id": 4160015,
+"produce": {
+"category": 5,
+"amount": 97500
+}
+},
+{
+"id": 4160016,
+"produce": {
+"category": 5,
+"amount": 105000
+}
+},
+{
+"id": 4160017,
+"produce": {
+"category": 5,
+"amount": 110000
+}
+},
+{
+"id": 4160018,
+"produce": {
+"category": 5,
+"amount": 116000
+}
+},
+{
+"id": 4160019,
+"produce": {
+"category": 5,
+"amount": 123000
+}
+},
+{
+"id": 4160020,
+"produce": {
+"category": 5,
+"amount": 130000
+}
+},
+{
+"id": 4160021,
+"produce": {
+"category": 5,
+"amount": 137000
+}
+},
+{
+"id": 4160022,
+"produce": {
+"category": 5,
+"amount": 144000
+}
+},
+{
+"id": 4160023,
+"produce": {
+"category": 5,
+"amount": 150000
+}
+},
+{
+"id": 4160024,
+"produce": {
+"category": 5,
+"amount": 155000
+}
+},
+{
+"id": 4160025,
+"produce": {
+"category": 5,
+"amount": 160000
+}
+}
+]

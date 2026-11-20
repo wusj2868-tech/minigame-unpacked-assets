@@ -1,0 +1,2434 @@
+{
+  "game": {
+    "name": "咸鱼之王",
+    "package": "com.hortor.games.xyzw",
+    "version": "0.36.0",
+    "engine": "Cocos Creator 2.x (Cocos2d-x JSB)",
+    "genre": "放置卡牌 + 关卡战斗的休闲 RPG（含钓鱼/消除小游戏）",
+    "publisher": "Hortor（hortorgames.com / com.hortor.games.*）",
+    "channel": "TapTap（TapTap SDK + tap_config/tap_user provider；另含 vivo supplier appid 配置）"
+  },
+  "summary": "《咸鱼之王》0.36.0 安卓包，Cocos Creator 2.x（JSB）引擎，包名 com.hortor.games.xyzw，TapTap 渠道分发、Hortor 发行。本地配置采用 Cocos cc.BufferAsset 自定义二进制（未加密），已用自写解码器完整解出 3 个 bin 共 393 张表（main 301 / second 91 / language 1），覆盖数值、英雄、怪物、技能、商店/VIP/充值、活动与 29 步新手引导。另有 1296 个明文模块 bundle 入口与 1 个明文 FishGame 小游戏脚本可读。关卡侧解出 ChapterConf 63 章、levelId 覆盖 0–10000，但每关怪物/波次表本地缺失（疑服务器下发），活动/爬塔/天宫/秘境等 1920 条关卡记录已落盘。最大障碍是游戏主逻辑 3 个 .jsc 高熵加密（libcocos2djs.so 含 xxtea 符号，key 未定位）；另有 ENC 容器 assets/jiami.tsa 内的 5 个 DEX 已切片恢复（仅 checksum/signature 损坏），内容为渠道/支付/崩溃 SDK。XXTEA core 已确认为 16 字节定长 key（索引掩码 &0x3），但 key 缓冲位于 .bss（0x1ac1b08，0xb282b4 处清零），仅运行期写入，静态镜像不含；全 so 16B 对齐窗口（1,436,122）与 33,511 条字符串前缀暴力均 0 命中。",
+  "coreLoop": {
+    "summary": "进关打怪→结算拿金币/英雄碎片→升级/升星主公与阵容→推进章节解锁更多玩法，体力与战力门槛控制节奏",
+    "cycle": "选关/章节 → 消耗体力战斗 → 结算金币与碎片 → 升级主公/上阵英雄 → 解锁新章节与塔/秘境/军团 → 再战",
+    "steps": [
+      {
+        "order": 1,
+        "name": "选关/章节",
+        "action": "在章节地图选关，进入战斗",
+        "cost": "体力（attackEnergy=50）",
+        "reward": "进入战斗棋盘",
+        "gate": "体力上限 100、关卡战力门槛；失败仅扣 damageEnergy=13",
+        "files": [
+          "extracted/conf/second/ChapterConf.json",
+          "extracted/conf/main/ConstantConf.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "自动战斗",
+        "action": "英雄按技能/被动自动出手，最多 200 秒",
+        "cost": "战斗时间",
+        "reward": "胜利结算",
+        "gate": "暴击/减伤上限（critDmgLimit=9.99、defDmgRedLimit=0.7）限制数值膨胀",
+        "files": [
+          "extracted/conf/main/ConstantConf.json",
+          "extracted/conf/main/SkillConf.json",
+          "extracted/conf/main/MonsterConf.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "结算奖励",
+        "action": "获得金币、英雄碎片、道具",
+        "cost": "无",
+        "reward": "金币/碎片/道具",
+        "gate": "每日广告奖励 adLimit=10、单次 adReward=900",
+        "files": [
+          "extracted/conf/main/ItemConf.json",
+          "extracted/conf/main/ConstantConf.json"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "养成主公/英雄",
+        "action": "用金币升级、用碎片升星、觉醒",
+        "cost": "金币（HeroLvSpend 逐级递增）、碎片（HeroStarSpend 8→400/级）",
+        "reward": "属性成长（HeroAttrConf attackUp/hpUp 等）",
+        "gate": "等级 6000 级上限、觉醒需 21 星（awakeHeroStarLevel=21）",
+        "files": [
+          "extracted/conf/main/HeroLvSpend.json",
+          "extracted/conf/main/HeroStarSpend.json",
+          "extracted/conf/main/HeroAttrConf.json"
+        ]
+      },
+      {
+        "order": 5,
+        "name": "解锁进阶玩法",
+        "action": "推进章节后开放爬塔、秘境、天宫、军团战、活动",
+        "cost": "各自体力（towerEnergyMax=10 / towerEnergyUp=1800）",
+        "reward": "排名/专属奖励",
+        "gate": "开放等级 + 每日次数（arenaTimes=30、towerSweepTimes=3）",
+        "files": [
+          "extracted/conf/main/ActMultiTowerConf.json",
+          "extracted/conf/main/BossTowerConf.json",
+          "extracted/conf/main/SkyLevel.json",
+          "extracted/conf/second/DungeonConf.json"
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "name": "体力",
+        "income": "RestoreEnergyTime=360 秒恢复 1 点（6 分钟）"
+      },
+      {
+        "name": "金币",
+        "income": "关卡结算、挂机、广告（adReward=900）"
+      },
+      {
+        "name": "钻石",
+        "income": "充值、活动、成就"
+      },
+      {
+        "name": "招募券",
+        "income": "活动/商店/充值包（itemId 1001）"
+      }
+    ],
+    "loopMinutes": "单场战斗约 1–3 分钟（bossTime=200 秒上限），一轮养成 5–15 分钟",
+    "evidence": [
+      "extracted/conf/main/ConstantConf.json",
+      "extracted/conf/main/HeroLvSpend.json",
+      "extracted/conf/main/HeroStarSpend.json",
+      "extracted/conf/second/ChapterConf.json"
+    ],
+    "confidence": "high"
+  },
+  "monetization": {
+    "summary": "靠卡关与资源见底驱动充值：卖钻石、充值包、成长基金与 VIP 累计，抽卡/升星与体力消耗制造持续付费压力",
+    "cycle": "卡关或资源见底 → 买钻石/充值包/基金 → 十连抽卡与升星 → 战力上升过关 → 更高章节与排名压力 → 更高档位",
+    "steps": [
+      {
+        "order": 1,
+        "name": "卡关/资源见底",
+        "action": "体力耗尽或战力不足无法过关",
+        "cost": "时间/失败",
+        "reward": "无",
+        "gate": "体力 6 分钟回 1 点；战力门槛"
+      },
+      {
+        "order": 2,
+        "name": "买钻石/充值包",
+        "action": "购买 DiamondShop 或 ChargePack 档位",
+        "cost": "6/30/68/128/328/648 元（DiamondShop 6 档，GooglePrice 证实 id 单位为分）",
+        "reward": "钻石 + 道具 + 金币",
+        "gate": "每档限购/首充标识（配置未完全展开）"
+      },
+      {
+        "order": 3,
+        "name": "抽卡与升星",
+        "action": "十连招募、英雄升星、觉醒",
+        "cost": "3000 钻/十连；碎片 8→400/星",
+        "reward": "新英雄/属性成长",
+        "gate": "免费招募 freeRecruitTime=1（每日）"
+      },
+      {
+        "order": 4,
+        "name": "进入更高压力",
+        "action": "爬塔/军团战/赛季排名",
+        "cost": "次数与体力",
+        "reward": "排名奖励/专属皮肤",
+        "gate": "arenaTimes=30、legionWar 时间窗"
+      }
+    ],
+    "payPoints": [
+      {
+        "name": "钻石直购档",
+        "price": "6/30/68/128/328/648 元（diamondSpend 600/3000/6800/12800/32800/64800 分）；得 60/300/680/1280/3280/6480 钻",
+        "trigger": "钻石不足",
+        "effect": "获得钻石 + 额外赠送 10/40/140/380/1340/3600",
+        "config": "extracted/conf/second/DiamondShopConf.json"
+      },
+      {
+        "name": "充值礼包",
+        "price": "chargeAmount 600/8800/32800/64800/7800/3000 分 = 6/88/328/648/78/30 元",
+        "trigger": "首充/活动",
+        "effect": "道具 + 钻石 + 金币（如 1003 档：itemId 1001×100 + 3280 钻 + 500 万金币）",
+        "config": "extracted/conf/second/ChargePackConf.json"
+      },
+      {
+        "name": "基金",
+        "price": "price=12800 分 = 128 元/档；itemTotal 34248 起，按等级 51/2001/4001 解锁分期",
+        "trigger": "活动 16 开放，条件等级 51/2001 等",
+        "effect": "分阶段返还大量道具",
+        "config": "extracted/conf/main/FundConf.json"
+      },
+      {
+        "name": "VIP",
+        "price": "vipSpend 600/3600/10600 分 → VIP1=6 元 / VIP2=36 元 / VIP3=106 元，共 18 级",
+        "trigger": "累计充值",
+        "effect": "vipBenefit type 1–13（伤害/减伤/次数等）",
+        "config": "extracted/conf/main/VipConf.json"
+      },
+      {
+        "name": "抽卡",
+        "price": "单抽 300 钻 / 十连 3000 钻",
+        "trigger": "招募界面",
+        "effect": "获得英雄/碎片",
+        "config": "extracted/conf/main/ConstantConf.json"
+      }
+    ],
+    "ads": [
+      "激励视频：adLimit=10 次/日，adReward=900（金币/资源）"
+    ],
+    "prices": "钻石直购 6/30/68/128/328/648 元；充值包 6/30/78/88/328/648 元；成长基金 128 元/档；VIP 累计 6/36/106 元起（依据 extracted/conf/second/GooglePrice.json：id 单位为分、CNYNum 为元）",
+    "evidence": [
+      "extracted/conf/second/DiamondShopConf.json",
+      "extracted/conf/second/ChargePackConf.json",
+      "extracted/conf/main/VipConf.json",
+      "extracted/conf/main/FundConf.json",
+      "extracted/conf/second/GooglePrice.json",
+      "extracted/conf/main/ConstantConf.json"
+    ],
+    "confidence": "medium"
+  },
+  "modules": [
+    {
+      "name": "配置加载与热更（BufferAsset）",
+      "summary": "启动时加载 3 个自定义二进制配置并拆分为 JSON 表，bundle 版本由 settings 统一管理",
+      "sourceFile": "extracted/assets/assets/config/native/",
+      "details": [
+        "config.adaaa.json 声明 cc.BufferAsset、encrypted:false，指向 configc/config_apc/languagec 三个 bin",
+        "自写解码器解析 opcode map/array/string/pool/int32/int64/float64/bool/null，3 个 bin 均解析到 EOF",
+        "settings.cbdfd.js 的 bundleVers 共 1299 个 bundle，含 game/launcher/config/language/miniGameScripts 等",
+        "CDN/server 域名来自 game-defines.js，可远程热更 bundle"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/assets/assets/config/config.adaaa.json",
+        "extracted/assets/src/settings.cbdfd.js",
+        "extracted/scripts/binconf.py",
+        "extracted/scripts/split_conf.py"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "主线章节与战斗",
+      "summary": "63 章主线，每章给 mapId、6 个怪物 ID 与 levelId 区间；战斗数值受全局上限约束",
+      "sourceFile": "extracted/conf/second/ChapterConf.json",
+      "details": [
+        "ChapterConf 字段 {id,mapId,monsters[6],name,desc,startLevelId,endLevelId,statue}",
+        "ch1 0–20、ch2 21–50、ch3 51–100 … ch63 9901–10000",
+        "战斗上限：critDmgLimit=9.99、defDmgRedLimit=0.7、dmgAddLimit=9.99、skillDmgAddLimit=9.99",
+        "Boss 战限时 bossTime=200 秒；失败扣 damageEnergy=13"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/second/ChapterConf.json",
+        "extracted/conf/main/ConstantConf.json",
+        "extracted/conf/main/MonsterConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "英雄养成",
+      "summary": "英雄等级、星级、觉醒三条成长线，属性成长表驱动战力",
+      "sourceFile": "extracted/conf/main/HeroConf.json",
+      "details": [
+        "HeroConf 62 英雄：club/color/work/star、skinList、active/passive 技能 ID、awake 技能",
+        "HeroAttrConf 每英雄 attackUp/defenseUp/hpUp/speedUp 浮点成长",
+        "HeroLvSpend 6000 级金币消耗；HeroStarSpend 30 星消耗 8/40/80/200/400 分段",
+        "觉醒需 21 星（awakeHeroStarLevel=21），觉醒后新增 active/passive"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/HeroConf.json",
+        "extracted/conf/main/HeroAttrConf.json",
+        "extracted/conf/main/HeroLvSpend.json",
+        "extracted/conf/main/HeroStarSpend.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "招募/抽卡",
+      "summary": "钻石或招募券抽英雄，单抽/十连与每日免费",
+      "sourceFile": "extracted/conf/main/ConstantConf.json",
+      "details": [
+        "recruitDiamondSpend=300、multipleRecruitDiamondSpend=3000",
+        "recruitTicketId=1001（招募券道具）",
+        "freeRecruitTime=1（免费次数）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/ConstantConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "爬塔/秘境/天宫/书阁等活动玩法",
+      "summary": "多套独立关卡集合，各有体力、次数、扫荡与排名奖励",
+      "sourceFile": "extracted/conf/main/ActMultiTowerConf.json",
+      "details": [
+        "ActRogueLevelConf 490 条、ActMultiTowerConf 336 条（每日 8–20 点开放）、BossTowerConf 14 条",
+        "SkyLevel 672 条 / SkyMapConf 25 条（天宫）、DungeonConf 200 条（秘境）、genieLevelConf 78 条",
+        "BookStageConf 121、BoxStageConf 9、TowerStageConf 45、LevelLimitConf 15",
+        "爬塔体力 towerEnergyMax=10、towerEnergyUp=1800、扫荡 towerSweepTimes=3"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/ActRogueLevelConf.json",
+        "extracted/conf/main/ActMultiTowerConf.json",
+        "extracted/conf/main/SkyLevel.json",
+        "extracted/conf/second/DungeonConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "军团/社交与聊天",
+      "summary": "军团创建、军团战、聊天与好友",
+      "sourceFile": "extracted/conf/main/LegionWarConstantConf.json",
+      "details": [
+        "legionFoundCost=1000 创建军团",
+        "LegionWarConstantConf 32KB、legionWarProtectTime=1200 / WarmTime=300 / FightTime 等",
+        "chatMessageCacheTime=7、chatMessageTimeShowTime=5；ChatSensitiveConf 敏感词表",
+        "军团商店 LegionStoreConf、军团皮肤 LegionSkinStoreConf"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/LegionWarConstantConf.json",
+        "extracted/conf/main/ConstantConf.json",
+        "extracted/conf/second/LegionStoreConf.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "新手引导",
+      "summary": "29 步配置驱动引导，覆盖对话、点击高亮、任务指引与战斗触发",
+      "sourceFile": "extracted/conf/second/GuideConf.json",
+      "details": [
+        "GuideConf 29 步：guideType 2×16（点击高亮）、1×7（对话）、3×5（任务指引）、6×1",
+        "21 步通过 buttonMap1 指向具体 UI 节点（如 Layers.Fixed.Home.bottomBar.item_0）",
+        "handType1 指定手势，holeDelay 控制挖洞延时，waitUI 等待弹窗，restartId 分段重启",
+        "guideVersion=108、guideSwitch=1"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/second/GuideConf.json",
+        "extracted/conf/main/ConstantConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "FishGame 小游戏",
+      "summary": "明文 miniGameScripts 是一套钓鱼/进化小游戏，独立于主战斗",
+      "sourceFile": "extracted/assets/assets/miniGameScripts/index.cdc58.js",
+      "details": [
+        "index.cdc58.js 1.1MB，含 config_FishGame、FishGameSingleton、FishGrowUtil、huntEvolutionSkillManager",
+        "事件 MiniGameEvent：EventGameWin/EventGameFail/EventLevelComplete/EventTouchEnd",
+        "资源位于 assets/assets/miniGameRes（1271 个文件）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/assets/assets/miniGameScripts/index.cdc58.js",
+        "extracted/assets/src/settings.cbdfd.js"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "打包与壳（ENC/DEX）",
+      "summary": "APK 用 ENC 容器承载 5 个 DEX，游戏逻辑在加密 .jsc",
+      "sourceFile": "extracted/dex/",
+      "details": [
+        "extracted/assets/jiami.tsa 头 ENC\\0，内含 5 个 dex\\n035，仅 offset 8–0x1F 校验和/签名被破坏",
+        "DEX 内容为 alipay/umeng/bugly/douyin/com.hortorgames SDK，约 17326 类名，非玩法",
+        "game/launcher/TEST_REMOTE_MODULE 三个 .jsc 熵≈8.0，libcocos2djs.so 含 jsb_set_xxtea_key/xxtea_decrypt"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/assets/jiami.tsa",
+        "extracted/dex/classes1.dex",
+        "extracted/lib/arm64-v8a/libcocos2djs.so"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "活动数据下发（EGame / actLookBack）",
+      "summary": "活动模块由客户端容器页 + 服务器 EGame 数据层组成，进入活动时主动拉取，不从全局 SERVER_DATA 初始化；活动状态与排行/奖励由服务端下发",
+      "sourceFile": "extracted/assets/assets/game/import/a6/a6e574cf-5067-49d2-b676-64def97a3d97.b0bc9.json",
+      "details": [
+        "game bundle 内 TextAsset \"AGENTS\"（不可信文档）描述 modules/actLookBack/ 结构：ActLookBackModule.ts 负责入口与时间数据，ActLookBackEGameData.ts 实现 IModuleData 作为 EGame 玩法数据层，ActLookBackContainerBase.ts 为容器页基类",
+        "文档要求 EGame 数据通过 sendGetEGameInfo(actId) 主动拉取，不能从 SERVER_DATA 初始化 → 解释本地配置中活动表只有静态奖励/参数、缺少实时进度",
+        "配置侧对应 ActLookBack*、ActMultiTower*、ActCardTower*、SeasonTower* 等多组活动表，均为静态定义"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/assets/assets/game/import/a6/a6e574cf-5067-49d2-b676-64def97a3d97.b0bc9.json",
+        "extracted/conf/main/ActMultiTowerConf.json",
+        "extracted/conf/main/ActCardTowerConf.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "副本/秘境（Dungeon）",
+      "summary": "200 层 PVE 爬塔：按层读取怪物池与属性组生成敌人，穿插商人层提供 Roguelite 式补给，奖励池结算。",
+      "sourceFile": "extracted/conf/second/DungeonConf.json",
+      "details": [
+        "DungeonConf 逐层配置 monstersLv/monstersStar/monsterAttr/monsterPool/zhanLi/isMerchant/rewardPool",
+        "DungeonMonsterConf（324）定义层内怪物实例与编队",
+        "DungeonMerchantConf（3）与 DungeonItemConf 定义商人售卖与副本道具"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/second/DungeonConf.json",
+        "extracted/conf/second/DungeonMonsterConf.json",
+        "extracted/conf/second/DungeonMerchantConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "PVP 竞技场（Arena）",
+      "summary": "分段位 PVP：按排名段发放每日/每周奖励，赛季按服务器分组并做升降级判定。",
+      "sourceFile": "extracted/conf/main/ArenaRankConf.json",
+      "details": [
+        "ArenaRankConf 6 个段位，字段 down/stay/up 为降级/保级/升级比例（例：第 1 段 down=0/stay=0.4/up=0.6），season=[1,4,7]、seasonServer=[20,100,500] 表示赛季与分组规模",
+        "ArenaGift 62 档，按 arenaRank + scoreStart/scoreOver 区间给 dayExpReward/weekExpReward/newDayReward/newWeekReward",
+        "seasonArenaConstant：SeasonArenaGroup=[200,100,50]、SeasonArenaDailyLimit=3（每日 3 场）",
+        "ConstantConf.arenaTimes=30 为竞技场总次数上限"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/ArenaRankConf.json",
+        "extracted/conf/main/ArenaGift.json",
+        "extracted/conf/main/seasonArenaConstant.json",
+        "extracted/conf/main/ConstantConf.json!arenaTimes"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "限时肉鸽活动（ActRogue）",
+      "summary": "格子推进式肉鸽活动：每关 8 行，每行随机出格子（战斗/商店/增益），玩家用活动货币购买神器与装备并叠加 buff。",
+      "sourceFile": "extracted/conf/main/ActRogueRowConf.json",
+      "details": [
+        "ActRogueLevelConf 490 关 × 8 行 = ActRogueRowConf 3920 行",
+        "行内字段控制商店售卖数量（sellArtifactNum/sellEquipNum/sellConsumeNum）与替换池、buff/debuff 数量、怪物等级与编队、战力",
+        "ActRogueEquipLevelConf 124 条给出装备每级 basisAttrs 线性成长（0.1/级）",
+        "配套 ActRogueArtifactConf / ActRogueBuffConf / ActRogueDebuffConf / ActRogueShop 类表"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/ActRogueLevelConf.json",
+        "extracted/conf/main/ActRogueRowConf.json",
+        "extracted/conf/main/ActRogueEquipLevelConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "经济与商店（货币/道具/限购）",
+      "summary": "统一物品表 + 多商店：ItemConf 定义 893 个物品与图标，GoodsConf/StoreConf 用游戏内货币售卖，ChargePack/DiamondShop/GooglePrice/FundConf 构成人民币档位。",
+      "sourceFile": "extracted/conf/main/ItemConf.json",
+      "details": [
+        "ItemConf：id/type/color/icon/price/salePrice/fragType/params，name 走多语言 key（ItemConf_name_<id>）",
+        "GoodsConf 16 条：condition type=1（等级）解锁、limit 限购、price 用 coin 指定货币",
+        "StoreConf 1 条黄金宝箱按购买次数递增价格 [0,100,100,...]",
+        "CoinGetConf 90 条：diamondSpend/vipLv 决定金币购买档位（VIP 越高单价越优）"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "extracted/conf/main/ItemConf.json",
+        "extracted/conf/second/GoodsConf.json",
+        "extracted/conf/second/StoreConf.json",
+        "extracted/conf/second/CoinGetConf.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "numbers": [
+    {
+      "name": "全局常量表 ConstantConf",
+      "summary": "体力、战斗上限、抽卡、爬塔、广告、引导等 492 项全局参数",
+      "sourceFile": "extracted/conf/main/ConstantConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "startEnergy",
+          "type": "int",
+          "sample": "50",
+          "meaning": "初始体力"
+        },
+        {
+          "name": "maxEnergy",
+          "type": "int",
+          "sample": "100",
+          "meaning": "体力上限"
+        },
+        {
+          "name": "attackEnergy",
+          "type": "int",
+          "sample": "50",
+          "meaning": "单场战斗消耗体力"
+        },
+        {
+          "name": "damageEnergy",
+          "type": "int",
+          "sample": "13",
+          "meaning": "战斗失败扣除体力"
+        },
+        {
+          "name": "RestoreEnergyTime",
+          "type": "int",
+          "sample": "360",
+          "meaning": "体力恢复间隔（秒）"
+        },
+        {
+          "name": "critDmgLimit",
+          "type": "float",
+          "sample": "9.99",
+          "meaning": "暴击伤害上限"
+        },
+        {
+          "name": "defDmgRedLimit",
+          "type": "float",
+          "sample": "0.7",
+          "meaning": "防御减伤上限"
+        },
+        {
+          "name": "recruitDiamondSpend",
+          "type": "int",
+          "sample": "300",
+          "meaning": "单抽钻石"
+        },
+        {
+          "name": "adReward",
+          "type": "int",
+          "sample": "900",
+          "meaning": "单次广告奖励"
+        }
+      ],
+      "samples": [
+        "\"startEnergy\": 50, \"maxEnergy\": 100, \"energyLimit\": 100",
+        "\"attackEnergy\": 50, \"damageEnergy\": 13",
+        "\"recruitDiamondSpend\": 300, \"multipleRecruitDiamondSpend\": 3000",
+        "\"towerEnergyMax\": 10, \"towerEnergyUp\": 1800, \"towerSweepTimes\": 3",
+        "\"adLimit\": 10, \"adReward\": 900"
+      ],
+      "evidence": [
+        "extracted/conf/main/ConstantConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "钻石商店 DiamondShopConf",
+      "summary": "6 档钻石直购，含额外赠送",
+      "sourceFile": "extracted/conf/second/DiamondShopConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "diamondSpend",
+          "type": "int",
+          "sample": "600",
+          "meaning": "支付金额（最小单位）"
+        },
+        {
+          "name": "diamond[].value",
+          "type": "int",
+          "sample": "60",
+          "meaning": "获得钻石"
+        },
+        {
+          "name": "benefit[].value",
+          "type": "int",
+          "sample": "10",
+          "meaning": "额外赠送钻石"
+        }
+      ],
+      "samples": [
+        "id=1005: diamondSpend=600 → 60 钻 + 赠 10",
+        "id=1006: diamondSpend=3000 → 300 钻 + 赠 40",
+        "id=1009: diamondSpend=32800 → 3280 钻 + 赠 1340",
+        "id=1010: diamondSpend=64800 → 6480 钻 + 赠 3600"
+      ],
+      "evidence": [
+        "extracted/conf/second/DiamondShopConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "充值礼包 ChargePackConf",
+      "summary": "6 档充值礼包，道具+钻石+金币组合",
+      "sourceFile": "extracted/conf/second/ChargePackConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "chargeAmount",
+          "type": "int",
+          "sample": "600",
+          "meaning": "充值金额（最小单位）"
+        },
+        {
+          "name": "params[]",
+          "type": "array",
+          "sample": "[{type:3,itemId:3513,value:1},{type:2,value:60},{type:1,value:100000}]",
+          "meaning": "道具/钻石/金币"
+        }
+      ],
+      "samples": [
+        "id=1001: chargeAmount=600 → 3513×1 + 60 钻 + 10 万金币",
+        "id=1002: chargeAmount=8800 → 3514×24 + 880 钻 + 招募券 40",
+        "id=1003: chargeAmount=32800 → 招募券 100 + 3280 钻 + 500 万金币",
+        "id=1004: chargeAmount=64800 → 招募券 200 + 6480 钻 + 1000 万金币"
+      ],
+      "evidence": [
+        "extracted/conf/second/ChargePackConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "VIP 等级 VipConf",
+      "summary": "18 级 VIP，累计充值解锁增益",
+      "sourceFile": "extracted/conf/main/VipConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "vipSpend",
+          "type": "int",
+          "sample": "600",
+          "meaning": "累计充值门槛"
+        },
+        {
+          "name": "vipBenefit[].type",
+          "type": "int",
+          "sample": "1..13",
+          "meaning": "增益类型"
+        },
+        {
+          "name": "vipBenefit[].value",
+          "type": "float",
+          "sample": "0.05",
+          "meaning": "增益数值"
+        }
+      ],
+      "samples": [
+        "VIP1: vipSpend=600, benefit type3=3 / type4=0.05 / type9=3 / type10=1 / type13=1",
+        "VIP2: vipSpend=3600, type3=6 / type4=0.1"
+      ],
+      "evidence": [
+        "extracted/conf/main/VipConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "英雄属性成长 HeroAttrConf",
+      "summary": "62 英雄每级属性成长系数",
+      "sourceFile": "extracted/conf/main/HeroAttrConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "heroId",
+          "type": "int",
+          "sample": "101",
+          "meaning": "英雄 ID"
+        },
+        {
+          "name": "attackUp",
+          "type": "float",
+          "sample": "8.946288",
+          "meaning": "攻击成长"
+        },
+        {
+          "name": "defenseUp",
+          "type": "float",
+          "sample": "9.8748275472",
+          "meaning": "防御成长"
+        },
+        {
+          "name": "hpUp",
+          "type": "float",
+          "sample": "81.5232",
+          "meaning": "生命成长"
+        },
+        {
+          "name": "speedUp",
+          "type": "float",
+          "sample": "0.5186544",
+          "meaning": "速度成长"
+        }
+      ],
+      "samples": [
+        "{id:1, heroId:101, attackUp:8.946288, defenseUp:9.8748275472, hpUp:81.5232, speedUp:0.5186544}",
+        "{id:5, heroId:102, attackUp:8.11551311999996, defenseUp:9.57828260088, hpUp:88.64064, speedUp:0.531519999999998}"
+      ],
+      "evidence": [
+        "extracted/conf/main/HeroAttrConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "英雄升级/升星消耗",
+      "summary": "6000 级金币曲线与 30 星碎片消耗",
+      "sourceFile": "extracted/conf/main/HeroLvSpend.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "LvSpend",
+          "type": "int",
+          "sample": "17",
+          "meaning": "该级升级金币"
+        },
+        {
+          "name": "starSpend[30]",
+          "type": "array",
+          "sample": "8,8,8,8,8,40,40,40,40,40,80...",
+          "meaning": "每星碎片消耗"
+        }
+      ],
+      "samples": [
+        "HeroLvSpend: {\"1\":{\"id\":1,\"LvSpend\":17},\"2\":{\"id\":2,\"LvSpend\":17}}",
+        "HeroStarSpend id=1: [8,8,8,8,8,40,40,40,40,40,80,80,80,80,80,200,200,200,200,200,400×10]"
+      ],
+      "evidence": [
+        "extracted/conf/main/HeroLvSpend.json",
+        "extracted/conf/main/HeroStarSpend.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "怪物配置 MonsterConf",
+      "summary": "1481 条怪物基础属性与技能",
+      "sourceFile": "extracted/conf/main/MonsterConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "baseHp",
+          "type": "int",
+          "sample": "40",
+          "meaning": "基础生命"
+        },
+        {
+          "name": "baseAttk",
+          "type": "int",
+          "sample": "0",
+          "meaning": "基础攻击"
+        },
+        {
+          "name": "baseDefense",
+          "type": "int",
+          "sample": "0",
+          "meaning": "基础防御"
+        },
+        {
+          "name": "baseSpeed",
+          "type": "int",
+          "sample": "1",
+          "meaning": "速度"
+        },
+        {
+          "name": "active/passive",
+          "type": "int[]",
+          "sample": "700001 / [700002,700003]",
+          "meaning": "技能 ID"
+        }
+      ],
+      "samples": [
+        "{id:1, skinId:201005, baseHp:40, baseAttk:0, baseSpeed:1, monsterName:\"moster_6\"}",
+        "{id:2, skinId:303, baseHp:300, club:1, work:2, active:700001, passive:[700002,700003]}"
+      ],
+      "evidence": [
+        "extracted/conf/main/MonsterConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "技能配置 SkillConf",
+      "summary": "2275 条技能，效果表达式 + 触发/选取参数 + 等级成长",
+      "sourceFile": "extracted/conf/main/SkillConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "_effects",
+          "type": "string[]",
+          "sample": "[\"ATTACK(1)\"]",
+          "meaning": "效果表达式"
+        },
+        {
+          "name": "triggerType",
+          "type": "int[]",
+          "sample": "[22]",
+          "meaning": "触发类型"
+        },
+        {
+          "name": "triggerProb",
+          "type": "int",
+          "sample": "1",
+          "meaning": "触发概率"
+        },
+        {
+          "name": "pickNum",
+          "type": "int",
+          "sample": "1",
+          "meaning": "选取数量"
+        },
+        {
+          "name": "levelUpKey/levelUpValue",
+          "type": "array",
+          "sample": "[0]",
+          "meaning": "等级成长"
+        }
+      ],
+      "samples": [
+        "{id:1, _effects:[\"ATTACK(1)\"], triggerType:[22], triggerCamp:3, triggerProb:1, pickNum:1}",
+        "{id:2, _effects:[\"ATTACK(1)\"], triggerType:[22], pickSort:1, pickCamp:2, pickNum:1}"
+      ],
+      "evidence": [
+        "extracted/conf/main/SkillConf.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "价格档位 GooglePrice",
+      "summary": "各币种价格字符串与数值，可用于 SKU 对齐",
+      "sourceFile": "extracted/conf/second/GooglePrice.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "CNY",
+          "type": "string",
+          "sample": "6元",
+          "meaning": "人民币显示"
+        },
+        {
+          "name": "CNYNum",
+          "type": "float",
+          "sample": "6",
+          "meaning": "人民币数值"
+        }
+      ],
+      "samples": [
+        "id=100: CNY=\"1元\", CNYNum=1",
+        "id=600: CNY=\"6元\", CNYNum=6",
+        "id=300: CNY=\"3元\", CNYNum=3"
+      ],
+      "evidence": [
+        "extracted/conf/second/GooglePrice.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "物品总表 ItemConf",
+      "summary": "893 条物品定义，统一承载英雄碎片/货币/消耗品/材料/宝箱等；id 前缀区分用途（1xx 英雄、1001/1003/1006 等货币或资源、5xxx 宝箱），color 为品质色档，icon 指向图集内路径。",
+      "sourceFile": "extracted/conf/main/ItemConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "id",
+          "type": "int",
+          "sample": "101",
+          "meaning": "物品 ID（同时作为 ItemConf_name_/description_ 的多语言 key 后缀）"
+        },
+        {
+          "name": "type",
+          "type": "int",
+          "sample": "1",
+          "meaning": "物品大类（1=英雄/角色类，其余见全表分布）"
+        },
+        {
+          "name": "color",
+          "type": "int",
+          "sample": "5",
+          "meaning": "品质颜色档位"
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "sample": "heads/heroes/simayi",
+          "meaning": "图标相对路径（heads/heroes、items/、equips/ 等）"
+        },
+        {
+          "name": "price/salePrice",
+          "type": "int",
+          "sample": "0 / 0",
+          "meaning": "购买价与出售价（0 表示不可买卖）"
+        },
+        {
+          "name": "fragType",
+          "type": "int",
+          "sample": "1",
+          "meaning": "碎片类型标记"
+        },
+        {
+          "name": "params",
+          "type": "int[]",
+          "sample": "[101]",
+          "meaning": "关联参数（英雄类通常回填英雄 ID）"
+        }
+      ],
+      "samples": [
+        "{\"id\": 101, \"type\": 1, \"name\": \"ItemConf_name_101\", \"description\": \"ItemConf_description_101\", \"color\": 5, \"icon\": \"heads/heroes/simayi\", \"price\": 0, \"priceCondition\": [], \"params\": [101], \"fragType\": 1, \"redType\": 0, \"func\": \"\", \"goto\": \"\", \"isMaterialShow\": 0, \"salePrice\": 0, \"saleTime\": 0, \"floorsParams\": 0, \"corner\": \"\", \"changePackTime\": 0}\n{\"id\": 102, \"type\": 1, \"name\": \"ItemConf_name_102\", \"description\": \"ItemConf_description_102\", \"color\": 5, \"icon\": \"heads/heroes/guojia\", \"price\": 0, \"priceCondition\": [], \"params\": [102], \"fragType\": 1, \"redType\": 0, \"func\": \"\", \"goto\": \"\", \"isMaterialShow\": 0, \"salePrice\": 0, \"saleTime\": 0, \"floorsParams\": 0, \"corner\": \"\", \"changePackTime\": 0}\n{\"id\": 103, \"type\": 1, \"name\": \"ItemConf_name_103\", \"description\": \"ItemConf_description_103\", \"color\": 5, \"icon\": \"heads/heroes/guanyu\", \"price\": 0, \"priceCondition\": [], \"params\": [103], \"fragType\": 1, \"redType\": 0, \"func\": \"\", \"goto\": \"\", \"isMaterialShow\": 0, \"salePrice\": 0, \"saleTime\": 0, \"floorsParams\": 0, \"corner\": \"\", \"changePackTime\": 0}"
+      ],
+      "evidence": [
+        "extracted/conf/main/ItemConf.json",
+        "ItemConf 共 893 条，key 与 name 完全对应"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "商店与限购 GoodsConf / StoreConf",
+      "summary": "游戏内货币商店：GoodsConf 16 个商品（每条带 merchandise 奖励、price、limit 限购与 condition 开启条件），StoreConf 为 1 条按购买次数递增定价的黄金宝箱（price 数组 0,100,100×9）。",
+      "sourceFile": "extracted/conf/second/GoodsConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "merchandise",
+          "type": "object[]",
+          "sample": "[{\"type\":3,\"itemId\":2002,\"weight\":1,\"value\":2}]",
+          "meaning": "购买所得物品（type=货币/物品类型，itemId，value 数量）"
+        },
+        {
+          "name": "price",
+          "type": "int",
+          "sample": "400",
+          "meaning": "售价（对应 coin 指定的货币）"
+        },
+        {
+          "name": "limit",
+          "type": "int",
+          "sample": "1",
+          "meaning": "限购次数"
+        },
+        {
+          "name": "condition",
+          "type": "object[]",
+          "sample": "[{\"type\":1,\"value\":30}]",
+          "meaning": "开启条件（type=1 为玩家等级，value=30 级）"
+        },
+        {
+          "name": "StoreConf.price[]",
+          "type": "int[]",
+          "sample": "[0,100,100,100,100,100,100,100,100,100,100]",
+          "meaning": "按已购次数索引的价格数组，首抽 0 价"
+        }
+      ],
+      "samples": [
+        "{\"id\": 1, \"merchandise\": [{\"type\": 3, \"itemId\": 2002, \"weight\": 1, \"value\": 2}], \"coin\": 3, \"costItemID\": 0, \"price\": 400, \"limit\": 1, \"condition\": [{\"type\": 1, \"value\": 30}]}\n{\"id\": 2, \"merchandise\": [{\"type\": 3, \"itemId\": 2003, \"weight\": 1, \"value\": 1}], \"coin\": 3, \"costItemID\": 0, \"price\": 375, \"limit\": 1, \"condition\": [{\"type\": 1, \"value\": 30}]}",
+        "{\"id\": 1, \"name\": \"StoreConf_name_1\", \"coin\": 3, \"time\": 1, \"price\": [0, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100], \"condition\": [{\"type\": 1, \"value\": 30}], \"path\": \"activities/icon/baoxiang_huangjin\"}"
+      ],
+      "evidence": [
+        "extracted/conf/second/GoodsConf.json",
+        "extracted/conf/second/StoreConf.json",
+        "extracted/conf/second/CoinGetConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "肉鸽装备成长 ActRogueEquipLevelConf",
+      "summary": "124 条肉鸽活动装备等级行；同一 EquipId 每升 1 级 basisAttrs 的 value 线性递增（例：101 号装备 Lv1 0.1 → Lv2 0.2），是活动内成长曲线的直接数值来源。",
+      "sourceFile": "extracted/conf/main/ActRogueEquipLevelConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "EquipId",
+          "type": "int",
+          "sample": "101",
+          "meaning": "对应 ActRogueEquipConf 的装备 ID"
+        },
+        {
+          "name": "level",
+          "type": "int",
+          "sample": "1",
+          "meaning": "装备等级"
+        },
+        {
+          "name": "basisAttrs",
+          "type": "object[]",
+          "sample": "[{\"type\":5,\"value\":0.1}]",
+          "meaning": "基础属性加成（type=5，value 为比例）"
+        },
+        {
+          "name": "passiveSkill",
+          "type": "int[]",
+          "sample": "[]",
+          "meaning": "该等级解锁的被动技能"
+        },
+        {
+          "name": "needArtifact",
+          "type": "int",
+          "sample": "0",
+          "meaning": "是否依赖神器"
+        }
+      ],
+      "samples": [
+        "{\"id\": 10101, \"EquipId\": 101, \"level\": 1, \"basisAttrs\": [{\"type\": 5, \"value\": 0.1}], \"passiveSkill\": [], \"function\": \"\", \"needArtifact\": 0}\n{\"id\": 10102, \"EquipId\": 101, \"level\": 2, \"basisAttrs\": [{\"type\": 5, \"value\": 0.2}], \"passiveSkill\": [], \"function\": \"\", \"needArtifact\": 0}\n{\"id\": 10103, \"EquipId\": 101, \"level\": 3, \"basisAttrs\": [{\"type\": 5, \"value\": 0.3}], \"passiveSkill\": [], \"function\": \"\", \"needArtifact\": 0}"
+      ],
+      "evidence": [
+        "extracted/conf/main/ActRogueEquipLevelConf.json",
+        "extracted/conf/main/ActRogueEquipConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "任务链 TaskConf",
+      "summary": "150 条主线/成长任务；每条给出触发条件 triggerValue、完成条件 completeCondition（21 = 累计达成某计数）、目标值 completeValue，以及 params 奖励。",
+      "sourceFile": "extracted/conf/second/TaskConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "triggerValue",
+          "type": "int[]",
+          "sample": "[0]",
+          "meaning": "任务出现/前置触发值"
+        },
+        {
+          "name": "completeCondition",
+          "type": "int[]",
+          "sample": "[21]",
+          "meaning": "完成条件类型（21=计数类）"
+        },
+        {
+          "name": "completeValue",
+          "type": "int[]",
+          "sample": "[20]",
+          "meaning": "达成目标数量"
+        },
+        {
+          "name": "goto",
+          "type": "int",
+          "sample": "0",
+          "meaning": "跳转界面 ID"
+        },
+        {
+          "name": "params",
+          "type": "object[]",
+          "sample": "[{\"type\":3,\"itemId\":1001,\"weight\":1,\"value\":1}]",
+          "meaning": "任务奖励"
+        }
+      ],
+      "samples": [
+        "{\"id\": 1, \"description\": \"TaskConf_description_1\", \"triggerValue\": [0], \"completeCondition\": [21], \"completeValue\": [20], \"goto\": 0, \"pageNumber\": 0, \"params\": [{\"type\": 3, \"itemId\": 1001, \"weight\": 1, \"value\": 1}]}\n{\"id\": 2, \"description\": \"TaskConf_description_1\", \"triggerValue\": [1], \"completeCondition\": [21], \"completeValue\": [40], \"goto\": 0, \"pageNumber\": 0, \"params\": [{\"type\": 3, \"itemId\": 1001, \"weight\": 1, \"value\": 1}]}"
+      ],
+      "evidence": [
+        "extracted/conf/second/TaskConf.json",
+        "extracted/conf/second/AchievementTaskList.json",
+        "extracted/conf/second/NoobMissionConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "基金 FundConf（付费基金）",
+      "summary": "8 档成长基金，price 以“分”为单位（12800 = ¥128），itemTotal 为可领总价值；condition 控制解锁（type=1 达等级 / type=7 已购前置基金）。",
+      "sourceFile": "extracted/conf/main/FundConf.json",
+      "details": null,
+      "fields": [
+        {
+          "name": "price",
+          "type": "int",
+          "sample": "12800",
+          "meaning": "售价（分），12800 = ¥128"
+        },
+        {
+          "name": "itemTotal",
+          "type": "int",
+          "sample": "34248",
+          "meaning": "基金返还总价值"
+        },
+        {
+          "name": "condition",
+          "type": "object[]",
+          "sample": "[{\"type\":1,\"value\":51}]",
+          "meaning": "解锁条件（51 级）"
+        },
+        {
+          "name": "rank",
+          "type": "int",
+          "sample": "5",
+          "meaning": "档位排序"
+        }
+      ],
+      "samples": [
+        "{\"id\": 201, \"activityID\": 16, \"rank\": 5, \"fundName\": \"FundConf_fundName_1\", \"price\": 12800, \"condition\": [{\"type\": 1, \"value\": 51}], \"path\": \"activities/banner/jchd_img_jjsjjbanner\", \"itemIconPath\": \"items/xiaohao_tianmingshi\", \"itemTotal\": 34248}\n{\"id\": 202, \"activityID\": 16, \"rank\": 5, \"fundName\": \"FundConf_fundName_2\", \"price\": 12800, \"condition\": [{\"type\": 1, \"value\": 2001}, {\"type\": 7, \"value\": 201}], \"path\": \"activities/banner/jchd_img_jjsjjbanner\", \"itemIconPath\": \"items/xiaohao_tianmingshi\", \"itemTotal\": 36348}"
+      ],
+      "evidence": [
+        "extracted/conf/main/FundConf.json",
+        "extracted/conf/second/ChargePackConf.json"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "levels": [
+    {
+      "name": "主线章节 ChapterConf",
+      "summary": "63 章主线，章节给 levelId 区间与 6 个怪物 ID；单关编队表本地缺失",
+      "sourceFile": "extracted/conf/second/ChapterConf.json",
+      "details": [
+        "字段：id / mapId / monsters[6] / name / desc / startLevelId / endLevelId / statue",
+        "levelId 覆盖 0–10000；ch1 0–20、ch2 21–50、ch3 51–100、ch10 1301–1600、ch30 6601–6700、ch63 9901–10000",
+        "每章 monsters 例：ch1 [9001,9101,9102,9103,9104,9105]",
+        "每关具体怪物/波次/难度表未在本地 393 张配置中定位，疑服务器下发或位于加密 jsc"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\":1,\"mapId\":10001,\"monsters\":[9001,9101,9102,9103,9104,9105],\"startLevelId\":0,\"endLevelId\":20,\"statue\":1}",
+        "{\"id\":63,\"mapId\":10003,\"monsters\":[9003,9301,9302,9303,9304,9305],\"startLevelId\":9901,\"endLevelId\":10000,\"statue\":3}"
+      ],
+      "evidence": [
+        "extracted/conf/second/ChapterConf.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "活动/爬塔/天宫/秘境/书阁 关卡集合",
+      "summary": "1920 条非主线关卡记录已按 scope 落盘；各玩法按自身表结构配置怪物池、编队、战力与区间奖励，没有统一的逐关波次表",
+      "sourceFile": "level_data/records.jsonl",
+      "details": [
+        "scope 分布：other:sky 672（SkyLevel）、event:2505231 336（ActMultiTower）、other:dungeon 200（DungeonConf）、other:book 121（BookStageConf）、other:genie 78（genieLevelConf）、7 个活动各 70（2407121/2407192/2408021/2408091/2408162/2408231/2408301）、other:bossTower 14、other:box 9",
+        "DungeonConf：{id, monstersLv, monstersStar, isMerchant, rewardPool, monsterAttr, monsterPool[43], zhanLi[1]}，从 43 个怪物池按 rewardPool 抽组",
+        "DungeonMonsterConf 324 条：{id, monsterPosition:[[showMonsterId,pos]...], showMonsterId, power} 给出展示位与站位编号",
+        "SkyLevel：{id, monsterGroup, personalRound=15, power, otherReward, mainMonster, name, icon, banner}，固定 15 轮、按怪物组出战",
+        "genieLevelConf：{id, condition, monsters:[[monsterId,pos,attrId]×5], zhanLi, monstersLv, monstersStar, bossReward, stayFixedReward}，固定 5 怪阵容",
+        "BookStageConf：{id, start, stage, itemBonus[]}，每段 20/30 关的区间奖励；BoxStageConf 9 条按 limit/path 给箱子档位",
+        "TowerStageConf 45 条 {id,top,center,bottom,skin}；BossInfoConfig 5 条 {id,monsters:[[9901,28,99999]],mapId,stageName}",
+        "formationConf 70 条 {id,index,slot,x,y,scale,row,mirrorId,sides} 控制阵容槽位坐标/缩放/镜像/阵营",
+        "全部记录 player_level_number/difficulty/goals 为 null，未编造；缺失字段即本地无证据，不代表游戏无此字段"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"raw_id\":\"1001\",\"scope\":\"other:sky\",\"evidence\":[{\"path\":\"extracted/conf/main/SkyLevel.json\",\"field\":\"id\"}]}",
+        "DungeonConf 1: {\"id\":1,\"monstersLv\":30,\"monstersStar\":1,\"isMerchant\":0,\"rewardPool\":1,\"monsterAttr\":300001,\"monsterPool\":[5001..5043],\"zhanLi\":[19910]}",
+        "SkyLevel 1001: {\"id\":1001,\"monsterGroup\":[1001],\"personalRound\":15,\"mainMonster\":1001,\"name\":\"的卢·天马\"}",
+        "genieLevelConf 1001: {\"monsters\":[[7101,10,311001],[7101,11,311001],[7102,12,311001],[7103,13,311001],[7102,14,311001]],\"zhanLi\":28864140,\"monstersLv\":1000,\"monstersStar\":12}",
+        "BookStageConf 1: {\"id\":1,\"start\":0,\"stage\":20,\"itemBonus\":[{\"type\":2,\"itemId\":0,\"weight\":1,\"value\":300}]}"
+      ],
+      "evidence": [
+        "level_data/records.jsonl",
+        "extracted/scripts/build_level_records.py",
+        "extracted/conf/main/SkyLevel.json",
+        "extracted/conf/second/DungeonConf.json",
+        "extracted/conf/second/DungeonMonsterConf.json",
+        "extracted/conf/second/genieLevelConf.json",
+        "extracted/conf/second/BookStageConf.json",
+        "extracted/conf/second/BoxStageConf.json",
+        "extracted/conf/main/TowerStageConf.json",
+        "extracted/conf/second/BossInfoConfig.json",
+        "extracted/conf/main/formationConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "秘境副本 DungeonConf（200 层）",
+      "summary": "200 层爬塔式副本。每层给出怪物等级/星级、固定属性组 ID（monsterAttr）、43 只候选怪（monsterPool）、战力门槛 zhanLi、是否商人层（isMerchant）与奖励池 rewardPool；层内怪物实例由 DungeonMonsterConf（324 条）与怪物属性组组合生成。",
+      "sourceFile": "extracted/conf/second/DungeonConf.json",
+      "details": [
+        "层数 1..200，monstersLv 随层提升（第 1 层 30 级、第 2 层 50 级），monstersStar 由 1 星起步",
+        "monsterPool 每层 43 个候选 ID（第 1 层 5001–5043，第 2 层 3001–3043），配合 DungeonMonsterConf 的编队规则取怪",
+        "zhanLi 为单值数组（第 1 层 19910、第 2 层 13188），作为推荐战力",
+        "isMerchant=1 的层为商人层，商品来自 DungeonMerchantConf（3 种商人，power 6/3/...），货币为 1003/1006/2001 等",
+        "rewardPool 指向奖励池，DungeonItemConf 提供副本内道具"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\": 1, \"monstersLv\": 30, \"monstersStar\": 1, \"isMerchant\": 0, \"rewardPool\": 1, \"monsterAttr\": 300001, \"monsterPool\": [5001, 5002, 5003, 5004, 5005, 5006, 5007, 5008, 5009, 5010, 5011, 5012, 5013, 5014, 5015, 5016, 5017, 5018, 5019, 5020, 5021, 5022, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5030, 5031, 5032, 5033, 5034, 5035, 5036, 5037, 5038, 5039, 5040, 5041, 5042, 5043], \"zhanLi\": [19910]}\n{\"id\": 2, \"monstersLv\": 50, \"monstersStar\": 1, \"isMerchant\": 0, \"rewardPool\": 1, \"monsterAttr\": 300002, \"monsterPool\": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010, 3011, 3012, 3013, 3014, 3015, 3016, 3017, 3018, 3019, 3020, 3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 3034, 3035, 3036, 3037, 3038, 3039, 3040, 3041, 3042, 3043], \"zhanLi\": [13188]}"
+      ],
+      "evidence": [
+        "extracted/conf/second/DungeonConf.json",
+        "extracted/conf/second/DungeonMonsterConf.json",
+        "extracted/conf/second/DungeonMerchantConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "肉鸽活动 ActRogue（490 关 / 3920 行）",
+      "summary": "限时肉鸽活动：ActRogueLevelConf 490 关（每关 8 行），ActRogueRowConf 3920 行给出每行的格子类型 cell、可购买的神器/装备/消耗品数量与替换 ID、buff/debuff 数量与替换、怪物等级与编队；是本地最完整的“逐行关卡”配置。",
+      "sourceFile": "extracted/conf/main/ActRogueLevelConf.json",
+      "details": [
+        "关卡 id 形如 240712101，actId=2407121，level 1..N 递增，mapName 指向 ActRogueConf 文本 key，fightMap=80015 为战斗地图",
+        "每关 row 数组固定 8 个行 ID（如 24071210101..108）",
+        "行级字段：row（行号）、cell（格子类型数组）、sellArtifactNum/sellEquipNum/sellConsumeNum 与对应 Replace 列表、buffNum/debuffNum、monsLevel/monsterLevel/formation、actRogueZhanli",
+        "装备升级曲线见 ActRogueEquipLevelConf（124 条），神器/增益表 ActRogueArtifactConf、ActRogueBuffConf、ActRogueDebuffConf"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\": 240712101, \"actId\": 2407121, \"mapName\": \"ActRogueConf_3\", \"fightMap\": 80015, \"isEndless\": 0, \"level\": 1, \"row\": [24071210101, 24071210102, 24071210103, 24071210104, 24071210105, 24071210106, 24071210107, 24071210108]}",
+        "{\"id\": 24071210101, \"row\": 1, \"cell\": [0], \"sellArtifactNum\": 0, \"sellEquipNum\": 0, \"sellConsumeNum\": 0, \"sellArtifactReplace\": [], \"sellEquipReplace\": [], \"sellConsumeReplace\": [], \"monsLevel\": 0, \"formation\": [], \"monsterLevel\": [], \"monsterReplace\": [], \"seasonParam\": [], \"actRogueZhanli\": [], \"debuffNum\": 0, \"buffNum\": 0, \"debuffReplace\": 0, \"buffReplace\": 0, \"Reward\": 0}\n{\"id\": 24071210102, \"row\": 2, \"cell\": [1], \"sellArtifactNum\": 2, \"sellEquipNum\": 0, \"sellConsumeNum\": 0, \"sellArtifactReplace\": [112, 113], \"sellEquipReplace\": [], \"sellConsumeReplace\": [], \"monsLevel\": 0, \"formation\": [], \"monsterLevel\": [], \"monsterReplace\": [], \"seasonParam\": [], \"actRogueZhanli\": [], \"debuffNum\": 0, \"buffNum\": 0, \"debuffReplace\": 0, \"buffReplace\": 0, \"Reward\": 0}"
+      ],
+      "evidence": [
+        "extracted/conf/main/ActRogueLevelConf.json",
+        "extracted/conf/main/ActRogueRowConf.json",
+        "extracted/conf/main/ActRogueEquipLevelConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "天宫 SkyLevel（672）与神灯 genieLevelConf（78）",
+      "summary": "两个活动/爬塔型关卡集合：SkyLevel 每层含 monsterGroup、personalRound（回合上限）、mainMonster、战力 power 与掉落；genieLevelConf 每关含 5 只怪（怪物ID/等级/属性组三元组）、战力门槛 zhanLi、bossReward 与 stayFixedReward。",
+      "sourceFile": "extracted/conf/main/SkyLevel.json",
+      "details": [
+        "SkyLevel：id 1001 起，personalRound=15 表示个人回合数，otherReward 指向 type=25/itemId=101 的奖励",
+        "genieLevelConf：monsters 为 [[monsterId, 等级, 属性组ID], ...] 共 5 条，monstersLv/monstersStar 给出统一等级与星级，zhanLi 为战力门槛",
+        "两表均按活动开放，非主线进度"
+      ],
+      "fields": null,
+      "samples": [
+        "{\"id\": 1001, \"monsterGroup\": [1001], \"personalRound\": 15, \"power\": 1, \"otherReward\": {\"type\": 25, \"itemId\": 101, \"weight\": 1, \"value\": 1}, \"mainMonster\": 1001, \"name\": \"的卢·天马\", \"icon\": \"\", \"banner\": \"tgcf_map1_banner_fen\"}\n{\"id\": 1002, \"monsterGroup\": [1002], \"personalRound\": 15, \"power\": 1, \"otherReward\": {\"type\": 25, \"itemId\": 101, \"weight\": 1, \"value\": 1}, \"mainMonster\": 1002, \"name\": \"的卢·天马\", \"icon\": \"\", \"banner\": \"tgcf_map1_banner_fen\"}",
+        "{\"id\": 1001, \"condition\": [{\"type\": 11, \"value\": 1}], \"monsters\": [[7101, 10, 311001], [7101, 11, 311001], [7102, 12, 311001], [7103, 13, 311001], [7102, 14, 311001]], \"zhanLi\": 28864140, \"monstersLv\": 1000, \"monstersStar\": 12, \"bossReward\": [{\"type\": 3, \"itemId\": 1006, \"weight\": 1, \"value\": 5000}, {\"type\": 3, \"itemId\": 1003, \"weight\": 1, \"value\": 5000}], \"stayFixedReward\": [{\"type\": 3, \"itemId\": 1022, \"weight\": 1, \"value\": 100}, {\"type\": 3, \"itemId\": 3201, \"weight\": 1, \"value\": 1}]}"
+      ],
+      "evidence": [
+        "extracted/conf/main/SkyLevel.json",
+        "extracted/conf/second/genieLevelConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2407121",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2407192",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2408021",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2408091",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2408162",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2408231",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2408301",
+      "summary": "本地解析出 70 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=70",
+        "目标字段：缺失 70 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：活动 2505231",
+      "summary": "本地解析出 336 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=336",
+        "目标字段：缺失 336 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：主线",
+      "summary": "本地解析出 63 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=63",
+        "目标字段：缺失 63 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:book",
+      "summary": "本地解析出 121 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=121",
+        "目标字段：缺失 121 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:bossTower",
+      "summary": "本地解析出 14 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=14",
+        "目标字段：缺失 14 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:box",
+      "summary": "本地解析出 9 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=9",
+        "目标字段：缺失 9 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:dungeon",
+      "summary": "本地解析出 200 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=200",
+        "目标字段：缺失 200 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:genie",
+      "summary": "本地解析出 78 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=78",
+        "目标字段：缺失 78 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "关卡全量统计（本地扫描）：other:sky",
+      "summary": "本地解析出 672 条唯一关卡记录；玩家关号映射未验证，不计算难关间隔与连续段",
+      "sourceFile": "level_stats.json",
+      "details": [
+        "难度分布（仅已核实枚举的标签）：unknown=672",
+        "目标字段：缺失 672 条（缺失不等于没有目标）",
+        "顺序统计未完成：缺少带证据的完整玩家关号范围声明",
+        "覆盖范围：仅本地已解析记录（输入 1 个文件，解析成功 1983 条，失败 0 条）；不代表游戏全部关卡。"
+      ],
+      "fields": null,
+      "samples": null,
+      "evidence": [
+        "level_stats.json",
+        "level_data/records.jsonl"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "artAssets": [
+    {
+      "name": "Cocos 纹理（pvr）",
+      "summary": "按模块目录组织，native/xx/<uuid>.<hash>.pvr，总量 15890 文件/349.9MB（见 art_inventory）",
+      "sourceFile": "extracted/assets/assets/",
+      "details": [
+        "多数为 .pvr（APK 内 11369 个；本地抽样 35 个 + APK 内随机 300 个，头部均为 13 ab a1 5c 08 06 01 xx，不是标准 PVR3 的 50 56 52 03 魔数），像素格式/是否加密未验证；另少量 png/webp/jpg",
+        "目录名即模块名（hero_hb101、boss_xianyuwang、map_10003、ui_*），可复用度高",
+        "无 AssetBundle（0 个），纹理直接以散文件随包分发",
+        "纹理头 8 字节固定前缀 + 变化字节，疑似自定义容器头或 COCOS 纹理加密，尚未逐张解码验证"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/assets/assets/buffIcons/native/01/0137d1d0-5e78-4980-8d22-38d380be1c09.db475.pvr",
+        "target.apk/assets/assets/AdvancedMap_01/native/01/013b0fe7-67d7-4ba4-bf1d-aa94d9adc08f.54cfc.pvr"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "extracted/assets/assets/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Spine/DragonBones 2D 动作",
+      "summary": "3705 个 .atlas，1.5MB，配合 pvr 图集做角色/特效动画",
+      "sourceFile": "extracted/assets/assets/",
+      "details": [
+        "每个模块 native 目录下的 .atlas 描述帧区域",
+        "与同目录 pvr 贴图配对使用",
+        "体积小说明骨骼数据在 json/skel（未逐项展开）"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/assets/assets/axian/native/73/73788fb6-cf3f-4fe2-b4e0-d1484ab4cfc6.3bc3f.atlas"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "UI / 图标 / 头像",
+      "summary": "ui_* 与 icons/heads 目录承载界面、图标与英雄头像",
+      "sourceFile": "extracted/assets/assets/icons/",
+      "details": [
+        "icons 5202 个文件、ui_* 目录 80+ 个（ui_main、ui_nightmare、ui_legionWarCraftCup 等）",
+        "HeroConf.icon 指向 heads/heroes/*；ItemConf.icon 指向 items/*",
+        "ui 目录同时含 index.*.js 模块入口"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/assets/assets/icons/",
+        "target.apk/assets/assets/ui_main/",
+        "hero head: heads/heroes/simayi (ItemConf 101)"
+      ],
+      "evidence": [
+        "art_inventory.json",
+        "extracted/conf/main/ItemConf.json",
+        "extracted/conf/main/HeroConf.json"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "音频",
+      "summary": "313 个 mp3/wav，41.7MB，sounds 与 miniGameRes 两个主目录",
+      "sourceFile": "extracted/assets/assets/sounds/",
+      "details": [
+        "sounds 263 个（战斗/UI 音效）",
+        "miniGameRes 1271 个（小游戏资源，含音频）",
+        "res/zi.mp4 为唯一视频"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/assets/assets/sounds/",
+        "target.apk/assets/assets/miniGameRes/native/00/00407927-0d47-4b99-aad4-8f074b75047d.ba8ad.mp3"
+      ],
+      "evidence": [
+        "art_inventory.json"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "引导素材",
+      "summary": "ui_guide / boss_xianyuwang_guide 等目录，配合 GuideConf 使用",
+      "sourceFile": "extracted/assets/assets/ui_guide/",
+      "details": [
+        "ui_guide 与 ui_ttSidebarGuide 为通用引导 UI",
+        "boss_xianyuwang_guide 为首个 Boss 的专属引导素材",
+        "引导逻辑由 GuideConf 29 步驱动，非纯图片流程"
+      ],
+      "fields": null,
+      "samples": [
+        "target.apk/assets/assets/ui_guide/",
+        "target.apk/assets/assets/boss_xianyuwang_guide/"
+      ],
+      "evidence": [
+        "extracted/assets/assets/ui_guide/index.cbefe.js",
+        "extracted/conf/second/GuideConf.json"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "artGuidance": {
+    "found": true,
+    "kind": "配置驱动的新手引导（点击高亮 + 对话 + 任务指引）",
+    "summary": "GuideConf 共 29 步，进入主界面/战斗/获得英雄等节点触发；16 步为点击高亮（guideType=2），通过 buttonMap1 定位 UI 节点，handType1 指定手势，holeDelay 控制遮罩挖洞，waitUI 等待弹窗后继续",
+    "steps": [
+      {
+        "order": 1,
+        "name": "点击主任务",
+        "trigger": "进入主界面",
+        "hint": "高亮 Layers.Normal.MainPanel.mainTask",
+        "gate": "需点击目标任务按钮",
+        "assets": [
+          "target.apk/assets/assets/ui_guide/"
+        ],
+        "files": [
+          "extracted/conf/second/GuideConf.json"
+        ]
+      },
+      {
+        "order": 2,
+        "name": "首战对话",
+        "trigger": "首次进入战斗（triggerValue [1,4]，battleState=1）",
+        "hint": "对话 ID 100",
+        "gate": "对话推进",
+        "files": [
+          "extracted/conf/second/GuideConf.json"
+        ]
+      },
+      {
+        "order": 3,
+        "name": "底部导航引导",
+        "trigger": "返回主界面",
+        "hint": "高亮 Layers.Fixed.Home.bottomBar.item_0 / item_2 / item_3",
+        "gate": "点击对应入口（handType 3/4）",
+        "files": [
+          "extracted/conf/second/GuideConf.json"
+        ]
+      },
+      {
+        "order": 4,
+        "name": "获得英雄弹窗",
+        "trigger": "首次开箱获得英雄",
+        "hint": "高亮 GetHeroDialog.btnYes，waitUI=GetHeroDialog",
+        "gate": "点击确认后继续（restartId=28）",
+        "files": [
+          "extracted/conf/second/GuideConf.json"
+        ]
+      }
+    ],
+    "mechanisms": [
+      "配置表驱动（GuideConf 29 步）",
+      "UI 节点路径定位 buttonMap1",
+      "遮罩挖洞 holeDelay",
+      "弹窗等待 waitUI",
+      "分段重启 restartId",
+      "全局开关 guideSwitch=1 / 版本 guideVersion=108"
+    ],
+    "assets": [
+      "target.apk/assets/assets/ui_guide/",
+      "target.apk/assets/assets/boss_xianyuwang_guide/",
+      "target.apk/assets/assets/ui_ttSidebarGuide/"
+    ],
+    "evidence": [
+      "extracted/conf/second/GuideConf.json",
+      "extracted/conf/main/ConstantConf.json"
+    ],
+    "confidence": "high"
+  },
+  "encryption": {
+    "findings": [
+      "extracted/assets/jiami.tsa 为 ENC 容器（头 ENC\\0），内含 5 个标准 dex\\n035 镜像，仅 offset 8–0x1F 的 checksum/signature 被破坏，其余字节明文可读",
+      "游戏主逻辑为 3 个加密 Cocos bundle：game/index.1f870.jsc(16,932,512B)、launcher/index.e9275.jsc(876,916B)、TEST_REMOTE_MODULE/index.16c69.jsc(1,726,720B)，4 字节对齐、熵≈8.0、含 NUL、末字非合理明文长度；对应 config.*.json 均标 encrypted:true（其余 1299+ bundle 为 false）",
+      "jsb-adapter/jsb-engine.js L2358 downloadScript 调 window.require(src)，L2619 按 out.encrypted 选择 .jsc 下载 → 解密在 native require 内，JS 侧不含 key",
+      ".jsc 特征与 Ma Bingyao JS XXTEA 变体一致：明文长度字 v[n]=len 也参与加密，解密长度取自末字，且 key 定长 16 字节（不足补 0）",
+      "libcocos2djs.so 中 XXTEA 已定位：decrypt wrapper 0xb4f1ac、core 0xb4f27c（n=ceil(len/4)，v[n]=len，rounds=6+52/(n+1)，delta 0x9e3779b9，小端）；encrypt wrapper 0xb4f668、core 0xb4f57c；另有变体 0xd84ba8（大端字序 + 非标准常量），语义未定",
+      ".dynstr 含 jsb_set_xxtea_key(文件 0x1e45ac)、xxtea_decrypt(0x21252d)、xxtea_encrypt(0x219398)，但 .dynsym 无任一 st_name 指向这些偏移，名称未绑定符号",
+      ".dynsym 被整体扰乱：shndx=15 的 41,334 条 st_value 全形如 0x800035d7_00000000（高 32 位污染），无一落在 .text 0xa87000–0x199abc0；这些 st_name 也非字符串起点 → 无法按符号地址追踪调用者",
+      "0xb4f1ac 无直接 bl 调用者（唯一 xref 0x15d6194 为 b.eq，误命中），经 JS 动态绑定间接调用，静态参数来源未还原",
+      "配置 binary 并非加密：config.adaaa.json 明确 encrypted:false，格式为自定义 opcode 序列化（map/array/string/poolref/int32/int64/double/bool/null）",
+      "libcocos2djs.so 构建路径 /Users/hortor/WorkDir/tk-client-native/... 与 Hortor 身份一致",
+      "0xd84ba8 处是另一套 16 字节大端分组变换（常量 0x61c88647/0x9e3779b9 及 0x3c6ef373/0x8722191a/0x78dde6e6/0xf1bbcdcc 等派生常量，非 XXTEA 结构），判定与 .jsc 使用的标准小端 XXTEA（0xb4f27c）无关，更可能服务于 PVR/资源加密。",
+      "反汇编 0xb4f27c 确认 key 索引恒 &0x3（w9/w16 & 3、ubfx #2,#2），即 XXTEA 仅使用 k[0..3] 共 16 字节；0xb4f1ac 对 len<=15 的 key malloc 16B 并补 0，证实 16 字节定长，32 字节 key 无意义",
+      "XXTEA key 全局地址 0x1ac1b08 位于 .bss：初始化处 0xb282b4 执行 strh wzr 清零，文件镜像中无有效数据；另两处引用 0xb26f4c、0xb27458 把 key 作为 std::string 传入 xxtea，说明 key 由运行期代码写入而非静态常量",
+      "两轮静态候选穷尽：整 so 1,436,122 个 16B 对齐窗口（LE/BE）、so 内 33,511 条 >=16 字符字符串前缀、2,294,965 条可打印 16 字符候选，对 launcher .jsc strict 全量解密均 0 命中",
+      "PVR 纹理头非标准：APK 内 11,369 个 .pvr 抽样头部均为 13 ab a1 5c 08 06 01 xx，不含 PVR3 魔数 50 56 52 03；结合 so 中 setPvrEncryptionKey/s_uEncryptionKey 符号，疑似启用 Cocos PVR 自定义头/加密，密钥未解出"
+    ],
+    "decrypted": [
+      "3 个 BufferAsset 配置 bin 全部解码（main 301 表 / second 91 表 / lang 1 表，逐字节解析至 EOF 无残余）",
+      "extracted/assets/jiami.tsa 内 5 个 DEX 切片恢复为 extracted/dex/classes1.dex（签名失效，但类名/字符串可读；17326 类均为渠道/支付/崩溃 SDK）",
+      "1296 个模块 bundle 入口 index.*.js 为明文（合计约 1.97MB），可读模块名与依赖；miniGameScripts/index.cdc58.js 为明文 FishGame 源码",
+      "conf/lang/LanguageConf.json 与 language/import 内嵌 XML 共 2091 条中文串可读"
+    ],
+    "blocked": [
+      "game/launcher/TEST_REMOTE_MODULE 三个 .jsc 未解密：key 只存在于原生层（JS 侧 jsb-engine.js/cocos2d-jsb/main.js 均无 xxtea/jsc 关键词）",
+      "key 候选静态暴力已穷尽但 0 命中：keycands2 19,046 + so 内 1,973 条 16 字符串 + keycands3 的 2,294,965 条可打印 16 字符 + 整 so 1,436,122 个 16B 对齐窗口（LE/BE）+ 33,511 条 so 字符串前 16 字节，strict 全量均 0 命中；结合 key 位于 .bss 运行期写入、索引 &0x3 只取 16B，判定静态镜像中不存在可用 key",
+      "0xb4f1ac 无直接 call 调用者（唯一 xref 为 b.eq），经 JS 动态绑定间接调用，静态参数来源未还原；0xd84ba8 另一变体语义未定",
+      "主线每关怪物编队/波次表本地缺失，可能位于 .jsc 或服务器下发",
+      "PVR 纹理未解码：11,369 个 .pvr 头部均为 13 ab a1 5c 08 06 01 xx（非 PVR3），无法从头部判定 PVRTC/ETC 格式；若启用 setPvrEncryptionKey，仍需 4 段 int key",
+      "两个 .jsc 算法变体中仅标准小端 XXTEA 与 jsb 调用链吻合；0xd84ba8 变体已排除（非 XXTEA）。",
+      "非 16B 对齐窗口与运行期拼接/派生 key 未覆盖；需动态调试或在 native 初始化路径中定位写入 0x1ac1b08 的代码"
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "level_stats.json",
+      "note": "本地已解析关卡的全量统计与缺失项"
+    },
+    {
+      "path": "level_stats.md",
+      "note": "关卡分布与顺序映射的验收摘要"
+    },
+    {
+      "path": "extracted/conf/main",
+      "note": "301 张主配置表（JSON，自写 binconf 解码）"
+    },
+    {
+      "path": "extracted/conf/second",
+      "note": "91 张次级配置表"
+    },
+    {
+      "path": "extracted/conf/lang/LanguageConf.json",
+      "note": "语言配置表"
+    },
+    {
+      "path": "extracted/scripts/binconf.py",
+      "note": "BufferAsset 二进制解码器"
+    },
+    {
+      "path": "extracted/scripts/split_conf.py",
+      "note": "按表拆分 JSON"
+    },
+    {
+      "path": "extracted/scripts/build_level_records.py",
+      "note": "关卡记录落盘脚本"
+    },
+    {
+      "path": "extracted/dex/classes1.dex",
+      "note": "jiami.tsa 切片恢复的 DEX（共 5 个）"
+    },
+    {
+      "path": "level_data/records.jsonl",
+      "note": "1983 条关卡记录（含 scope/evidence，未编造关号）"
+    },
+    {
+      "path": "analysis_notes.md",
+      "note": "跨轮进度笔记"
+    },
+    {
+      "path": "extracted/scripts/libcocos.dis.txt",
+      "note": "libcocos2djs.so 全量反汇编（4,037,853 行），用于定位 XXTEA 实现"
+    },
+    {
+      "path": "extracted/scripts/keycands2.txt",
+      "note": "从 so/dex/明文 JS 抽取的 19046 条 key 候选"
+    },
+    {
+      "path": "extracted/assets/src/settings.cbdfd.js",
+      "note": "Cocos _CCSettings，1299 个 bundle 入口与 launchScene"
+    },
+    {
+      "path": "extracted/assets/assets/game/import/a6/a6e574cf-5067-49d2-b676-64def97a3d97.b0bc9.json",
+      "note": "game bundle 内 TextAsset AGENTS（活动模块架构文档，不可信数据）"
+    },
+    {
+      "path": "extracted/scripts/xxtea_mt.c",
+      "note": "XXTEA 多线程暴力工具（Ma Bingyao 变体，strict/loose 两种校验）"
+    },
+    {
+      "path": "extracted/scripts/keys_k3_ascii16.txt",
+      "note": "keycands3 中 2,294,965 条可打印 16 字符去重候选"
+    },
+    {
+      "path": "extracted/scripts/k3_le.log",
+      "note": "launcher.jsc 小端全量候选暴力日志（0 命中）"
+    },
+    {
+      "path": "extracted/scripts/k3_be.log",
+      "note": "launcher.jsc 大端全量候选暴力日志（0 命中）"
+    },
+    {
+      "path": "extracted/scripts/dynsyms.txt",
+      "note": "libcocos2djs.so .dynsym 解析结果，用于证明符号表 st_value/st_name 被扰乱"
+    }
+  ],
+  "limitations": [
+    "游戏主逻辑 3 个 .jsc 未解（XXTEA key 未提取），战斗/养成/抽卡的运行时代码路径只能由配置表与明文小游戏脚本推断",
+    "主线每关怪物编队/波次/难度表本地缺失：全部 393 张表的最大表仅 6000 行，无 10000 行单关表；ChapterConf 仅为章节区间",
+    "玩家关号映射（levelId→显示关号）未确认，故 level_data 全部 player_level_number=null，未声明 sequence",
+    "价格已按 GooglePrice.json 对齐为人民币元，但各 SKU 的限购/首充条件未逐条展开",
+    "发行商按域名与包名推断为 Hortor，未找到版权行原文；渠道（TapTap）与发行商已区分",
+    "pvr 纹理未逐张解码，仅按 art_inventory 统计与命名语义判断用途",
+    "XXTEA 已确认 16B 定长 key 且索引仅 &0x3；key 缓冲在 .bss（0x1ac1b08）运行期写入，静态镜像不含，故 16B 候选空间（整 so 对齐窗口 + 字符串前缀 + 2.29M 可打印串）全量 0 命中",
+    "PVR 纹理头为非标准自定义格式，像素格式与是否加密未验证；美术规格判断仅基于扩展名、目录与体积"
+  ],
+  "generatedAt": "2026-11-20T14:04:44.391929283+08:00",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "artInventory": {
+    "generatedAt": "2026-11-20T12:52:37.423502134+08:00",
+    "scanVersion": 3,
+    "sha256": "3629eac645790e71539acc1e98d9065651dd2a3ff69bd8f14b7e0b693578b920",
+    "archives": [
+      "target.apk"
+    ],
+    "totalFiles": 15890,
+    "totalBytes": 366916437,
+    "bundleFiles": 0,
+    "bundleBytes": 0,
+    "categories": [
+      {
+        "key": "ui_icon",
+        "label": "图标 / Logo / UI",
+        "files": 6762,
+        "bytes": 148075798,
+        "exts": [
+          {
+            "ext": ".pvr",
+            "files": 6754,
+            "bytes": 147241227
+          },
+          {
+            "ext": ".jpg",
+            "files": 7,
+            "bytes": 789268
+          },
+          {
+            "ext": ".psd",
+            "files": 1,
+            "bytes": 45303
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/buffIcons/native/01/0137d1d0-5e78-4980-8d22-38d380be1c09.db475.pvr",
+          "target.apk/assets/assets/buffIcons/native/03/034ff45b-f7e5-445e-8032-d4f53d8cbf05.d3a43.pvr",
+          "target.apk/assets/assets/buffIcons/native/07/0795701d-f94c-48de-a6a7-97a24a68cea6.35edb.pvr"
+        ]
+      },
+      {
+        "key": "texture",
+        "label": "贴图 / 其它图片",
+        "files": 4602,
+        "bytes": 118022092,
+        "exts": [
+          {
+            "ext": ".pvr",
+            "files": 4110,
+            "bytes": 116673507
+          },
+          {
+            "ext": ".png",
+            "files": 462,
+            "bytes": 1083038
+          },
+          {
+            "ext": ".webp",
+            "files": 20,
+            "bytes": 66896
+          },
+          {
+            "ext": ".jpg",
+            "files": 9,
+            "bytes": 194754
+          },
+          {
+            "ext": ".gif",
+            "files": 1,
+            "bytes": 3897
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/AdvancedMap_01/native/01/013b0fe7-67d7-4ba4-bf1d-aa94d9adc08f.54cfc.pvr",
+          "target.apk/assets/assets/AdvancedMap_01/native/06/062921cd-70d9-47f5-81f2-ec2135ebcbee.89dc8.pvr",
+          "target.apk/assets/assets/AdvancedMap_01/native/06/063b2fe1-ae35-435f-ba46-f7593feb79a6.c437e.pvr"
+        ]
+      },
+      {
+        "key": "audio",
+        "label": "音频",
+        "files": 313,
+        "bytes": 43751986,
+        "exts": [
+          {
+            "ext": ".mp3",
+            "files": 312,
+            "bytes": 43732536
+          },
+          {
+            "ext": ".wav",
+            "files": 1,
+            "bytes": 19450
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/miniGameRes/native/00/00407927-0d47-4b99-aad4-8f074b75047d.ba8ad.mp3",
+          "target.apk/assets/assets/miniGameRes/native/0b/0b9a7c48-e325-4115-8406-87d3bb6343c8.038b3.mp3",
+          "target.apk/assets/assets/miniGameRes/native/12/12c05c67-201b-4347-bd97-cdc06c48feae.8de3a.mp3"
+        ]
+      },
+      {
+        "key": "scene",
+        "label": "场景 / 地图",
+        "files": 345,
+        "bytes": 34609304,
+        "exts": [
+          {
+            "ext": ".pvr",
+            "files": 345,
+            "bytes": 34609304
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/demoMap/native/03/0323f07c-a381-4a54-81e2-67f3b83dea8e.380c1.pvr",
+          "target.apk/assets/assets/demoMap/native/08/0826b409-4b0b-4bb6-857e-4fb51572bc22.b6ab8.pvr",
+          "target.apk/assets/assets/demoMap/native/13/13908b0c-ad91-4993-94d7-60b43f99934f.ea353.pvr"
+        ]
+      },
+      {
+        "key": "character",
+        "label": "立绘 / 角色",
+        "files": 126,
+        "bytes": 19356022,
+        "exts": [
+          {
+            "ext": ".pvr",
+            "files": 126,
+            "bytes": 19356022
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/hero_hb101/native/b0/b05ddad3-9801-41f6-901d-240b0f7b7f2a.1cd7d.pvr",
+          "target.apk/assets/assets/hero_hb103/native/ee/eefd0f55-1979-45f6-9b8d-9cfa759ce787.e285b.pvr",
+          "target.apk/assets/assets/hero_hb104/native/0b/0b7785fb-96b0-4a94-864d-dc0bebf5c08d.d27d2.pvr"
+        ]
+      },
+      {
+        "key": "anim2d",
+        "label": "2D 动作（Spine/DragonBones）",
+        "files": 3705,
+        "bytes": 1618583,
+        "exts": [
+          {
+            "ext": ".atlas",
+            "files": 3705,
+            "bytes": 1618583
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/axian/native/73/73788fb6-cf3f-4fe2-b4e0-d1484ab4cfc6.3bc3f.atlas",
+          "target.apk/assets/assets/axian1_change1/native/8e/8e70e807-6dda-4e03-9fb5-2584cf8e3485.6073d.atlas",
+          "target.apk/assets/assets/axian5101/native/21/21f9553a-e3d4-4010-9680-02b001ac0d49.9d0c4.atlas"
+        ]
+      },
+      {
+        "key": "vfx",
+        "label": "特效",
+        "files": 31,
+        "bytes": 822351,
+        "exts": [
+          {
+            "ext": ".pvr",
+            "files": 31,
+            "bytes": 822351
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/battleEffect/native/0f/0fcf99a6-4790-43ea-bb87-2d16a63390b6.9f1c9.pvr",
+          "target.apk/assets/assets/battleEffect/native/16/1695a2f0-14b1-4196-925e-7bf2c97947e8.f6f4a.pvr",
+          "target.apk/assets/assets/battleEffect/native/1a/1a88d6b5-1717-4788-8eac-8cd3ecfc0211.9267a.pvr"
+        ]
+      },
+      {
+        "key": "font",
+        "label": "字体",
+        "files": 2,
+        "bytes": 456205,
+        "exts": [
+          {
+            "ext": ".ttf",
+            "files": 2,
+            "bytes": 456205
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/font/native/4b/4bf4a6f7-861d-4bcb-b8bb-7822e3b865b9.fcd26/HYDianHeiW.ttf",
+          "target.apk/res/Ww.ttf"
+        ]
+      },
+      {
+        "key": "guide",
+        "label": "引导 / 指引素材",
+        "files": 3,
+        "bytes": 115703,
+        "exts": [
+          {
+            "ext": ".pvr",
+            "files": 3,
+            "bytes": 115703
+          }
+        ],
+        "samples": [
+          "target.apk/assets/assets/boss_xianyuwang_guide/native/c0/c0e56096-ece9-483a-8f9d-359c23d5b94e.9fb61.pvr",
+          "target.apk/assets/assets/ui_guide/native/c3/c3974ccb-d3ec-4f61-b4c4-bd50a8bc26fd.e6db1.pvr",
+          "target.apk/assets/assets/ui_ttSidebarGuide/native/ae/aea43079-9ff1-440b-bdfe-efad6787ae5a.c7e23.pvr"
+        ]
+      },
+      {
+        "key": "video",
+        "label": "视频 / CG",
+        "files": 1,
+        "bytes": 88393,
+        "exts": [
+          {
+            "ext": ".mp4",
+            "files": 1,
+            "bytes": 88393
+          }
+        ],
+        "samples": [
+          "target.apk/res/zi.mp4"
+        ]
+      }
+    ],
+    "topDirs": [
+      {
+        "path": "target.apk/assets/assets/icons",
+        "files": 5202,
+        "bytes": 53803061
+      },
+      {
+        "path": "target.apk/assets/assets/miniGameRes",
+        "files": 1271,
+        "bytes": 24622820
+      },
+      {
+        "path": "target.apk/res",
+        "files": 485,
+        "bytes": 1263855
+      },
+      {
+        "path": "target.apk/assets/assets/sounds",
+        "files": 263,
+        "bytes": 42014564
+      },
+      {
+        "path": "target.apk/assets/assets/ui_cj7hFestival23",
+        "files": 149,
+        "bytes": 1365164
+      },
+      {
+        "path": "target.apk/assets/assets/moon_map1_publish",
+        "files": 123,
+        "bytes": 2829
+      },
+      {
+        "path": "target.apk/assets/assets/ui_nightmare",
+        "files": 93,
+        "bytes": 2537378
+      },
+      {
+        "path": "target.apk/assets/assets/ui_main",
+        "files": 82,
+        "bytes": 878776
+      },
+      {
+        "path": "target.apk/assets/assets/quiz",
+        "files": 80,
+        "bytes": 883594
+      },
+      {
+        "path": "target.apk/assets/assets/ui_legionWarCraftCup",
+        "files": 73,
+        "bytes": 2249724
+      }
+    ],
+    "notes": [
+      "`assets` 下有 3 个疑似引导/指引素材（按命名推断，非确证），可重点看这批文件的用途。",
+      "体积按安装包内压缩后大小统计（即下载/存储开销），不是解压后的贴图占用。"
+    ]
+  },
+  "levelStatistics": {
+    "version": 1,
+    "coverage": "observed/local-only; game-wide coverage unknown",
+    "inputs": [
+      {
+        "path": "level_data/records.jsonl",
+        "schema": "normalized/v1",
+        "records": 1983,
+        "failures": 0,
+        "status": "selected"
+      }
+    ],
+    "processed_records": 1983,
+    "parsed_records": 1983,
+    "unique_records": 1983,
+    "duplicates": 0,
+    "conflicting_records": 0,
+    "conflict_occurrences": 0,
+    "failures": 0,
+    "missing_fields": {
+      "difficulty_raw": 1983,
+      "goals": 1983,
+      "player_level_number": 1983,
+      "reliable_difficulty_label": 1983
+    },
+    "scopes": [
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2407121",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2407192",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2408021",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2408091",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2408162",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2408231",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2408301",
+        "unique_records": 70,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 70
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 70,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "event:2505231",
+        "unique_records": 336,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 336
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 336,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "mainline",
+        "unique_records": 63,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 63
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 63,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:book",
+        "unique_records": 121,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 121
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 121,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:bossTower",
+        "unique_records": 14,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 14
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 14,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:box",
+        "unique_records": 9,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 9
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 9,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:dungeon",
+        "unique_records": 200,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 200
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 200,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:genie",
+        "unique_records": 78,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 78
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 78,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      },
+      {
+        "schema": "normalized/v1",
+        "scope": "other:sky",
+        "unique_records": 672,
+        "conflicting_records": 0,
+        "difficulty_distribution": {
+          "unknown": 672
+        },
+        "difficulty_raw_distribution": {},
+        "difficulty_declared_distribution": null,
+        "goal_entries_distribution": {},
+        "goal_quantity_distribution": {},
+        "goals_missing": 672,
+        "goals_empty": 0,
+        "goal_quantities_missing": 0,
+        "hard_ids": [],
+        "sequence": {
+          "known_player_numbers": 0,
+          "complete": false,
+          "mapping_verified": false,
+          "reason": "缺少带证据的完整玩家关号范围声明"
+        }
+      }
+    ],
+    "issues": [],
+    "issues_omitted": 0,
+    "pending": [
+      "补可靠难度枚举/显式标签；未知难度不计为正常，difficultyIndicator/tags不用于判难。",
+      "补目标列表及数量语义；缺失不是零，Babytopia num/manualNum/isManual未推测。",
+      "需要带证据的官方玩家关号、主线/活动 scope 与完整范围声明，才能验证顺序和困难关密度/连续段。"
+    ],
+    "partial": false,
+    "read_bytes": 862256
+  },
+  "quality": {
+    "sectionsFilled": 7,
+    "sectionsTotal": 7,
+    "blockedCount": 7,
+    "evidenceCount": 105,
+    "score": 100
+  }
+}

@@ -1,8 +1,8 @@
 {
   "repository": "wusj2868-tech/minigame-unpacked-assets",
   "release": "v2026.11.20",
-  "status": "uploading_additional",
-  "layout": "One complete, independently extractable ZIP per game. Each archive includes original APK files, actual decoded exports, tools, README and its own per-file SHA256 manifest.",
+  "status": "complete",
+  "layout": "One independently usable ZIP per game. Original APK/XAPK entries are complete; decoded exports/configs vary by project. Projects 05-12 are not full mirrors of the Rice server work directory.",
   "date": "2026-11-20",
   "projects": [
     {
@@ -286,6 +286,33 @@
       "github_state": "uploaded",
       "github_digest": "sha256:49d634e7b7210a80fdbba8df91cc213bb7da77fe92798474af0dc5038d2bedb0",
       "server_sha256_verified": true
+    },
+    {
+      "id": "12",
+      "name": "疯狂水世界",
+      "version": "1.4.4",
+      "folder": "12_疯狂水世界",
+      "slug": "flotshelter",
+      "asset_name": "12-flotshelter-v1.4.4-20261120.zip",
+      "zip_bytes": 587590503,
+      "estimated_zip_bytes": 587590503,
+      "sha256": "13bb5ad746a9af0c02654e5d31c8881fe8d893b74bab4f6949163ce9f3587ad3",
+      "files": 12330,
+      "zip_entries": 12331,
+      "raw_files": 12319,
+      "rice_evidence_files": 3,
+      "source_apk_sha256": "a80c316ea23355b0314cf5ac2666e8de0f74cded2dfb54bf74a182cff2c3d9f1",
+      "source_sha256_verified": true,
+      "crc_readback": "PASS",
+      "content_scope": "Complete original APK/XAPK entries + locally saved Rice decoded configs/indexes/reports; not a full Rice work directory mirror",
+      "status": "uploaded",
+      "url": "https://github.com/wusj2868-tech/minigame-unpacked-assets/releases/download/v2026.11.20/12-flotshelter-v1.4.4-20261120.zip",
+      "github_asset_id": 771536806,
+      "github_size": 587590503,
+      "github_state": "uploaded",
+      "github_digest": "sha256:13bb5ad746a9af0c02654e5d31c8881fe8d893b74bab4f6949163ce9f3587ad3",
+      "server_sha256_verified": true
     }
-  ]
+  ],
+  "visibility": "public"
 }

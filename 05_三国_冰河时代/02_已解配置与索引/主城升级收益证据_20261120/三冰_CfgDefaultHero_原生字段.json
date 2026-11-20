@@ -1,0 +1,20 @@
+{
+  "source": "outputs/主城升级收益证据_20261120/原始表/三冰_native_3a.bin",
+  "table": "CfgDefaultHero",
+  "field_aliases": {
+    "ID": 0,
+    "FteType": 1,
+    "HeroId": 2,
+    "HeroStar": 3,
+    "HeroLevel": 4
+  },
+  "rows": {
+    "1": {
+      "ID": 1,
+      "FteType": "1",
+      "HeroId": "3102",
+      "HeroStar": "1",
+      "HeroLevel": "10"
+    }
+  }
+}
